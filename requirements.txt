@@ -1,5 +1,12 @@
-pip install langchain
-pip install openai
-pip install chromadb
-pip install requests
+langchain
+openai
+chromadb
+requests
+fastapi[all]
+openai
+python-dotenv
+pydantic==1.*
+langchain
+bs4
+tiktoken
 
