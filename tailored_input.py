@@ -1,114 +1,174 @@
-import os
-import logging
-from dotenv import load_dotenv
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.chat_models.openai import ChatOpenAI
-from langchain.memory import ConversationSummaryBufferMemory
-from langchain.utilities import GoogleSearchAPIWrapper
-from langchain.retrievers.web_research import WebResearchRetriever
-from langchain.chains import RetrievalQAWithSourcesChain
+import openai
+from openai import OpenAI
+from newsapi import NewsApiClient
+import requests
+import datetime
+import json
+from colorama import Fore
+import requests
+from bs4 import BeautifulSoup
+from dotenv import find_dotenv, load_dotenv
+from googlesearch import search
 
-# Function to prepare and process input for objective journalism
-def prepare_and_process_input(user_input, qa_chain):
-    # Prepend a statement to the input to guide the model for objectivity and source reliability
-    journalistic_input = "As an objective journalist, summarize reliable sources and present a balanced view on: " + user_input
+
+# Initialize API keys
+newsapi_key = '5f67759ab3e74c6089d70eb25b88c160'
+openai_api_key = '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'
+serpapi_key = '6bd8076584cc412e4de18cd156206095ceefc0b2e16c7f6a4de7f1af84879d9a'
+searchapi_key = 'uLNHyAJp6zs7QxZ6kyfNdhBK'
+
+# Set up NewsApiClient and OpenAI
+newsapi = NewsApiClient(api_key=newsapi_key)
+load_dotenv()
+openai.api_key = openai_api_key
+
+client = OpenAI(
+    api_key='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'
+)
+
+def generate_google_search_query(user_input):
+    """
+    Uses GPT-4-turbo to convert user input into a Google Search query.
+    """
+    prompt = f"Convert the following user query into an optimized Google search query: '{user_input}'"
+
     try:
-        result = qa_chain({"question": journalistic_input})
-        return result
+        completion = client.chat.completions.create(
+            model="gpt-4-0125-preview",
+            messages=[
+                {"role": "system", "content": "You are a Google Search Expert. Your task is to convert user inputs to optimized Google search queries. Example: USER INPUT: 'Why was Sam Altman fired from OpenAI?' OPTIMIZED Google Search Query: 'Sam Altman Fired OpenAI'"},
+                {"role": "user", "content": prompt}
+            ]
+        )
+        # Accessing the response directly
+        if completion.choices:
+            response_message = completion.choices[0].message
+            if hasattr(response_message, 'content'):
+                return response_message.content.strip()
+            else:
+                return "No content in response."
+        else:
+            return "No response from GPT-4 Turbo."
     except Exception as e:
-        logging.error("Error processing input: %s", e)
+        print(f"Error in generating Google search query: {e}")
         return None
 
-# Function to handle user inputs and perform searches
-def handle_user_searches():
-    industry = input("What industry: ")
-    career = input("Enter your career role (software engineer): ")
-    company = input("What is your company name: ")
-    specific_sector = input("Enter your specific sector (i.e. cybersecurity): ")
+# Define the function to get news results
+def get_organic_results(query, num_results=3, location="United States"):
+    params = {
+        "q": query,
+        "tbm": "nws",
+        "location": location,
+        "num": str(num_results),
+        "api_key": "______"
+    }
+    # modified search params for debugging
+    scraped_results = {}
+    urls = []
+    for i in search(query, tld='co.in', lang='en', num=1, start=0, stop=None, pause=0):
+        urls.append(i)
+        # url, data = scrape_website(i)
+        # scraped_results[url] = data
+    
+    # print(scraped_results)   
 
-    print("You entered:", industry)
+    # news_results = results.get("news_results", [])
+    # urls = [result['link'] for result in news_results]
+    return urls
 
-    industry_career_news = ("What are the most important and relevant headlines in the last 24 hours for a "
-                            + career + " in " + industry
-                            + ". Summarize these in 350 words with a professional analysis and balanced perspective. Cite your sources and be specific.")
+# Define the function to scrape data from a URL and return the URL
+def scrape_website(url):
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    response = requests.get(url, headers=headers)
 
-    sector_news = ("What are the most important and relevant headlines in the last 24 hours in "
-                   + specific_sector + " in general and for the overall company "
-                   + company + ". Explain these in 350 words with a professional analysis. Cite your sources and be specific.")
+    if response.status_code == 200:
+        page_content = response.content
+        soup = BeautifulSoup(page_content, 'html.parser')
+        paragraphs = soup.find_all('p')
+        scraped_data = [p.get_text() for p in paragraphs]
+        formatted_data = "\n".join(scraped_data)
+        return url, formatted_data  # Return both URL and content
+    else:
+        return url, "Failed to retrieve the webpage"
 
-    # Perform the first search
-    result1 = prepare_and_process_input(industry_career_news, qa_chain)
-    if result1:
-        print(result1["answer"])
-        print("Sources:")
-        for source in result1["sources"]:
-            print(f"- {source}")
+# Create an Assistant with a specific name
+# client = openai()
+# # client = openai.Client(api_key='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')
+assistant = client.beta.assistants.create(
+# assistant = openai.Assistant.create(
+    name="GoogleGPT",
+    description="A set of capabilities for fetching and displaying news articles based on user inputs to Google queries.",
+    model="gpt-4-0125-preview",
+    tools=[
+        {
+            "type": "function",
+            "function": {
+                "name": "get_organic_results",
+                "description": "Fetch news URLs based on a search query",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "query": {"type": "string", "description": "Search query"},
+                        "num_results": {"type": "integer", "description": "Number of results to return"},
+                        "location": {"type": "string", "description": "Location for search context"},
+                    },
+                    "required": ["query"]
+                },
+            }
+        },
+        {
+            "type": "function",
+            "function": {
+                "name": "scrape_website",
+                "description": "Scrape the textual content from a given URL",
+                "parameters": {
+                    "type": "object",
+                    "properties": {
+                        "url": {"type": "string", "description": "URL to scrape"},
+                    },
+                    "required": ["url"]
+                },
+            }
+        }
+    ]
+)
 
-    # Perform the second search
-    result2 = prepare_and_process_input(sector_news, qa_chain)
-    if result2:
-        print(result2["answer"])
-        print("Sources:")
-        for source in result2["sources"]:
-            print(f"- {source}")
+# Main loop to handle user queries
+while True:
+    user_query = input(Fore.CYAN + "Please enter your query (type 'exit' to quit): ")
+    if user_query.lower() == "exit":
+        break
 
-# Load environment variables from .env file
-load_dotenv()
+    # Generate a Google Search query from the user input
+    google_search_query = generate_google_search_query(user_query)
+    print(f"Converted Google Search Query: {google_search_query}")
 
-# Set up logging
-logging.basicConfig(level=logging.INFO)
+    if google_search_query:
+        # Fetch news URLs based on the generated query
+        news_urls = get_organic_results(google_search_query)
 
-# Initialize Chroma with OpenAI embeddings
-try:
-    vectorstore = Chroma(embedding_function=OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY')), persist_directory="./chroma_db_oai")
-except Exception as e:
-    logging.error("Error initializing Chroma: %s", e)
-    exit(1)
+        # Scrape content from the first URL (for demonstration)
+        if news_urls:
+            url, news_content = scrape_website(news_urls[0])  # Get URL and content
 
-# Initialize ChatOpenAI
-try:
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, streaming=True, openai_api_key=os.getenv('OPENAI_API_KEY'))
-except Exception as e:
-    logging.error("Error initializing ChatOpenAI: %s", e)
-    exit(1)
+            # Prepare grounding context
+            grounding_context = f"Context: {news_content}\nUser Query: {user_query}"
+            print(grounding_context)
 
-# Initialize ConversationSummaryBufferMemory
-try:
-    memory = ConversationSummaryBufferMemory(llm=llm, input_key='question', output_key='answer', return_messages=True)
-except Exception as e:
-    logging.error("Error initializing ConversationSummaryBufferMemory: %s", e)
-    exit(1)
+            # Chat completion to handle grounding context
+            completion = client.chat.completions.create(
+                model="gpt-4-0125-preview",
+                messages=[
+                    {"role": "system", "content": "You are a helpful assistant, always return only the essential parts that answer the USER original USER query, but add 3 bullet points to backup your reasoning for the answer."},
+                    {"role": "user", "content": grounding_context}
+                ]
+            )
 
-# Set environment variables for Google Search API
-os.environ["GOOGLE_CSE_ID"] = os.getenv('GOOGLE_CSE_ID')
-os.environ["GOOGLE_API_KEY"] = os.getenv('GOOGLE_API_KEY')
-
-# Initialize GoogleSearchAPIWrapper
-try:
-    search = GoogleSearchAPIWrapper()
-except Exception as e:
-    logging.error("Error initializing GoogleSearchAPIWrapper: %s", e)
-    exit(1)
-
-# Initialize WebResearchRetriever
-try:
-    web_research_retriever = WebResearchRetriever.from_llm(
-        vectorstore=vectorstore,
-        llm=llm,
-        search=search,
-    )
-except Exception as e:
-    logging.error("Error initializing WebResearchRetriever: %s", e)
-    exit(1)
-
-# Initialize RetrievalQAWithSourcesChain
-try:
-    qa_chain = RetrievalQAWithSourcesChain.from_chain_type(llm, retriever=web_research_retriever)
-except Exception as e:
-    logging.error("Error initializing RetrievalQAWithSourcesChain: %s", e)
-    exit(1)
-
-# Main execution
-if __name__ == "__main__":
-    handle_user_searches()
+            # Process and display the response
+            response = completion.choices[0].message.content if completion.choices else ""
+            print(Fore.YELLOW + "Response GPT-4")
+            print(Fore.YELLOW + response)
+        else:
+            print("No news articles found for your query.")
+    else:
+        print("Failed to generate a Google search query.")
