@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@langchain/openai": "^0.0.12",
+    "langchain": "^0.1.5"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
