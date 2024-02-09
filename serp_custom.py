@@ -1,89 +1,116 @@
 from serpapi import GoogleSearch
 import json
-import openai
 import requests
+import os
+from openai import OpenAI
+
 
 # Initialize API keys
 newsapi_key = '5f67759ab3e74c6089d70eb25b88c160'
-openai_api_key = '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'
-
+# openai_api_key = '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'
+client = OpenAI(
+    api_key=os.environ.get("OPENAI_API_KEY"),
+)
 
 def search_topic(query):
     params = {
         "engine": "google_news",
         "q": query,
-        "api_key": "6bd8076584cc412e4de18cd156206095ceefc0b2e16c7f6a4de7f1af84879d9a"
+        "api_key": "6bd8076584cc412e4de18cd156206095ceefc0b2e16c7f6a4de7f1af84879d9a",
+        "num": 5  # Only retrieve 5 results
     }
 
     search = GoogleSearch(params)
     results = search.get_dict()
-    return results.get("news_results", [])
+    print("Fetched results from google news")
+    news_results = results.get("news_results", [])
+
+    # Loop through the first 5 results and print their titles
+    for i in range(min(len(news_results), 5)):
+        article = news_results[i]
+        print(f"Title: {article['title']}")
+
+    return news_results  # You can still return the results for further processing
 
 
 def summarize_search_newsapi(query):
     news_results = search_topic(query)
-    # parsed_news = json.loads(news_results)
     custom_dict = dict(query=dict())
     for article in news_results:
         
         title = article['title']
         summary = summarize_headline_5_words(title)
         
-        
         # Search for related articles
         url = "https://newsapi.org/v2/everything"
         params = {"q": summary, "apiKey": newsapi_key}
         response = requests.get(url, params=params)
         related_articles = response.json().get('articles', [])
-
+        
         if related_articles:
-            # Extract content from up to the first 100 articles
             contents = [a['content'] for a in related_articles[:100] if a.get('content')]
             combined_contents = ' '.join(contents)
-        if related_articles:
-            # Initial issue is that it was using descriptions to form article opinions etc. 
-            # descriptions = ' '.join([a['description'] for a in related_articles if a['description']])
-            topic_prompt = f"You are a world class, objective journalist who only uses sources that exist. Summarize the following into a factual 75-word summary using multiple sources:\n\n{combined_contents}"
-            perspective_prompt = "You are a fantastic journalist, who cites multiple, sources that exist and provides true information. Identify and summarize the two major perspectives with specifics in 50 words each using existing sources based on the following content:\n\n" + combined_contents
+            if combined_contents:
+                topic_prompt = f"You are a world class, objective journalist who only uses sources that exist. Summarize the following into a factual 75-word summary using multiple sources:\n\n{combined_contents}"
+                perspective_prompt = "You are a fantastic journalist, who cites multiple, sources that exist and provides true information. Identify and summarize the two major perspectives with specifics in 50 words each using existing sources based on the following content:\n\n" + combined_contents
+                
+                # Summarize topic
+                topic_summary_response = client.chat.completions.create(
+                    messages=[
+                        {
+                            "role": "user",
+                            "content": topic_prompt,
+                        }
+                    ],
+                    model="gpt-4",
+                )
+                if topic_summary_response.choices:
+                    topic_summary = topic_summary_response.choices[0].message.content
+                else:
+                    print("No response received for topic prompt")
 
-            # Summarize topic
-            topic_summary = openai.ChatCompletion.create(
-                model="gpt-4",
-                messages=[{"role": "user", "content": topic_prompt}]
-            )['choices'][0]['message']['content'].strip()
+                # Summarize perspectives
+                perspective_summary_response = client.chat.completions.create(
+                    messages = [
+                        {
+                            "role": "user",
+                            "content": perspective_prompt,
+                        }
+                    ],
+                    model="gpt-4",
+                )
+                if perspective_summary_response.choices:
+                    perspective_summary = perspective_summary_response.choices[0].message.content
+                else:
+                    print("No response received for perspective prompt")
 
-            # Summarize perspectives
-            perspective_summary = openai.ChatCompletion.create(
-                model="gpt-4",
-                messages=[{"role": "user", "content": perspective_prompt}]
-            )['choices'][0]['message']['content'].strip()
+                custom_dict[query] = {
+                    'summary': summary,
+                    'topic_summary': topic_summary,
+                    'perspective_summary': perspective_summary
+                }
 
-            custom_dict[query] = {
-                'summary': summary,
-                'topic_summary': topic_summary,
-                'perspective_summary': perspective_summary
-            }
-
-            print(topic_summary)
+                print(topic_summary)
 
     
-    
-
-
 def summarize_headline_5_words(article):
     """Summarizes the article headline into 5 words."""
-    try:
-        completion = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "user", "content": f"Please summarize this headline into 5 words: \"{article}\""}
-            ]
-        )
-        summarized_text = completion.choices[0].message['content'].strip()
-        return summarized_text
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        return ""
+    headline_summary_response = client.chat.completions.create(
+        messages=[
+            {
+                "role": "user",
+                "content": f"Please summarize this headline into 5 words: \"{article}\"",
+            }
+        ],
+        model="gpt-3.5-turbo",
+    )
+
+    if headline_summary_response.choices:
+        headline_summary = headline_summary_response.choices[0].message.content
+    else:
+        print("No summary received for headline prompt")
+
+    return headline_summary
 
 
 summarize_search_newsapi("tesla")
