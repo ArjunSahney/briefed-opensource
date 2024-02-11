@@ -1,83 +1,141 @@
+from serpapi import GoogleSearch
+import json
+import requests
 import os
-import logging
-from dotenv import load_dotenv
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.chat_models.openai import ChatOpenAI
-from langchain.memory import ConversationSummaryBufferMemory
-from langchain.utilities import GoogleSearchAPIWrapper
-from langchain.retrievers.web_research import WebResearchRetriever
-from langchain.chains import RetrievalQAWithSourcesChain
+from openai import OpenAI
 
-# Load environment variables from .env file
-load_dotenv()
 
-# Set up logging
-logging.basicConfig(level=logging.INFO)
+# Initialize API keys
+newsapi_key = '5f67759ab3e74c6089d70eb25b88c160'
+# openai_api_key = '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'
+client = OpenAI(
+    api_key=os.environ.get("OPENAI_API_KEY"),
+)
 
-# Initialize Chroma with OpenAI embeddings
-try:
-    vectorstore = Chroma(embedding_function=OpenAIEmbeddings(openai_api_key=os.getenv('OPENAI_API_KEY')), persist_directory="./chroma_db_oai")
-except Exception as e:
-    logging.error("Error initializing Chroma: %s", e)
-    exit(1)
+def search_topic(query):
+    if query: 
+        params = {
+            "engine": "google_news",
 
-# Initialize ChatOpenAI
-try:
-    llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0, streaming=True, openai_api_key=os.getenv('OPENAI_API_KEY'))
-except Exception as e:
-    logging.error("Error initializing ChatOpenAI: %s", e)
-    exit(1)
+            "q": query,
+            "api_key": "6bd8076584cc412e4de18cd156206095ceefc0b2e16c7f6a4de7f1af84879d9a",
+            "num": 13  # Only retrieve 5 results
+        }
+    else: 
+        params = {
+            "engine": "google_news",
+            "api_key": "6bd8076584cc412e4de18cd156206095ceefc0b2e16c7f6a4de7f1af84879d9a",
+            "num": 13  # Only retrieve 5 results
+        }
 
-# Initialize ConversationSummaryBufferMemory
-try:
-    memory = ConversationSummaryBufferMemory(llm=llm, input_key='question', output_key='answer', return_messages=True)
-except Exception as e:
-    logging.error("Error initializing ConversationSummaryBufferMemory: %s", e)
-    exit(1)
+    search = GoogleSearch(params)
+    results = search.get_dict()
+    print("Fetched results from google news")
+    news_results = results.get("news_results", [])
 
-# Set environment variables for Google Search API
-os.environ["GOOGLE_CSE_ID"] = os.getenv('GOOGLE_CSE_ID')
-os.environ["GOOGLE_API_KEY"] = os.getenv('GOOGLE_API_KEY')
+    # Loop through the first 5 results and print their titles
+    for i in range(min(len(news_results), 15)):
+        article = news_results[i]
 
-# Initialize GoogleSearchAPIWrapper
-try:
-    search = GoogleSearchAPIWrapper()
-except Exception as e:
-    logging.error("Error initializing GoogleSearchAPIWrapper: %s", e)
-    exit(1)
+    return news_results  # You can still return the results for further processing
 
-# Initialize WebResearchRetriever
-try:
-    web_research_retriever = WebResearchRetriever.from_llm(
-        vectorstore=vectorstore,
-        llm=llm,
-        search=search,
-    )
-except Exception as e:
-    logging.error("Error initializing WebResearchRetriever: %s", e)
-    exit(1)
 
-# Function to prepare and process input for objective journalism
-def prepare_and_process_input(user_input):
-    # Prepend a statement to the input to guide the model for objectivity and source reliability
-    journalistic_input = "As an objective journalist, your job is to provide a 7 minute, effective morning briefing with slight Trevor Noah style humour on  : " + user_input
+def summarize_search_newsapi(query):
+    news_results = search_topic(query)
+    custom_dict = dict(query=dict())
+    for article in news_results:
+        
+        title = article['title']
+        # Same titles from above made here 
+        
+        summary = summarize_headline_5_words(title)
+        # print("2nd Summary:" + summary)
+        
+        # Search for related articles
+        url = "https://newsapi.org/v2/everything"
+        params = {"q": summary, "apiKey": newsapi_key}
+        response = requests.get(url, params=params)
+        related_articles = response.json().get('articles', [])
+        
+        if related_articles:
+            contents = [a['content'] for a in related_articles[:100] if a.get('content')]
+            combined_contents = ' '.join(contents)
+            if combined_contents:
+                topic_prompt = f"You are a world class, objective journalist who only uses sources that exist. Summarize the following into a factual 75-word summary using multiple sources:\n\n{combined_contents}"
+                perspective_prompt = "You are a fantastic journalist, who cites multiple, sources that exist and provides true information. Identify and summarize the two major perspectives with specifics in 50 words each using existing sources based on the following content:\n\n" + combined_contents
+                
+                # Summarize topic
+                topic_summary_response = client.chat.completions.create(
+                    messages=[
+                        {
+                            "role": "user",
+                            "content": topic_prompt,
+                        }
+                    ],
+                    model="gpt-4",
+                )
+                if topic_summary_response.choices:
+                    topic_summary = topic_summary_response.choices[0].message.content
+                else:
+                    print("No response received for topic prompt")
+
+                # Summarize perspectives
+                perspective_summary_response = client.chat.completions.create(
+                    messages = [
+                        {
+                            "role": "user",
+                            "content": perspective_prompt,
+                        }
+                    ],
+                    model="gpt-4",
+                )
+                if perspective_summary_response.choices:
+                    perspective_summary = perspective_summary_response.choices[0].message.content
+                else:
+                    print("No response received for perspective prompt")
+
+                custom_dict[query] = {
+                    'summary': summary,
+                    'topic_summary': topic_summary,
+                    'perspective_summary': perspective_summary
+                }
+
+                print(topic_summary)
+                print(perspective_summary)
+
     
-    try:
-        qa_chain = RetrievalQAWithSourcesChain.from_chain_type(llm, retriever=web_research_retriever) 
-        result = qa_chain({"question": journalistic_input})
-        return result
-    except Exception as e:
-        logging.error("Error processing input: %s", e)
-        return None
+def summarize_headline_5_words(article):
+    """Summarizes the article headline into 5 words."""
+    headline_summary_response = client.chat.completions.create(
+        messages=[
+            {
+                "role": "user",
+                "content": f"Please summarize this headline into 5 words: \"{article}\"",
+            }
+        ],
+        model="gpt-3.5-turbo",
+    )
 
-# Main execution
-if __name__ == "__main__":
-    user_input = "1) The top news of the day and if applicable how it affects the tech industry; 2) Top tech news of the day 3) Miscelleous interesting news. This report should provide multiple perspectives, analytic, and very factual -- cite your sources with no hallucinations" 
-    result = prepare_and_process_input(user_input)
-    if result:
-        print(result["answer"])
-        print("Sources:")
-        for source in result["sources"]:
-            print(f"- {source}")
+    if headline_summary_response.choices:
+        headline_summary = headline_summary_response.choices[0].message.content
+    else:
+        print("No summary received for headline prompt")
+
+    return headline_summary
+
+
+def morning_briefing(industry, subindustry, company): 
+    top_headlines = summarize_search_newsapi()
+    overall_industry = client.chat.completions.create(
+        messages=[
+            {
+                "role": "user",
+                "content": f"If this is technology related return this topic token -- CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB. If this is business related return this topic token -- CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl4YW01eE1XMFNBbVZ1S0FBUAE. \"{industry}\"",
+            }
+        ],
+        model="gpt-3.5-turbo",
+    )
+    
+    
+
 
