@@ -12,8 +12,8 @@ client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
-def search_topic(query):
-    if query: 
+def search_topic(query, topic_token=''):
+    if query != 0: 
         params = {
             "engine": "google_news",
 
@@ -126,7 +126,7 @@ def summarize_headline_5_words(article):
 
 def morning_briefing(industry, subindustry, company): 
     top_headlines = summarize_search_newsapi()
-    overall_industry = client.chat.completions.create(
+    industry_token = client.chat.completions.create(
         messages=[
             {
                 "role": "user",
@@ -135,7 +135,9 @@ def morning_briefing(industry, subindustry, company):
         ],
         model="gpt-3.5-turbo",
     )
-    
+    industry_headlines = summarize_search_newsapi(0, industry_token)
+    company_headlines = summarize_search_newsapi(company)
+
     
 
 
