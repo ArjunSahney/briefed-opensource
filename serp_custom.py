@@ -15,6 +15,7 @@ client = OpenAI(
 def search_topic(query):
     params = {
         "engine": "google_news",
+
         "q": query,
         "api_key": "6bd8076584cc412e4de18cd156206095ceefc0b2e16c7f6a4de7f1af84879d9a",
         "num": 5  # Only retrieve 5 results
@@ -26,9 +27,10 @@ def search_topic(query):
     news_results = results.get("news_results", [])
 
     # Loop through the first 5 results and print their titles
-    for i in range(min(len(news_results), 5)):
+    for i in range(min(len(news_results), 15)):
         article = news_results[i]
-        print(f"Title: {article['title']}")
+        # print(f"Title: {article['title']}")
+        # print(f"Title: {article['snippet']}")
 
     return news_results  # You can still return the results for further processing
 
@@ -39,7 +41,10 @@ def summarize_search_newsapi(query):
     for article in news_results:
         
         title = article['title']
+        # Same titles from above made here 
+        
         summary = summarize_headline_5_words(title)
+        # print("2nd Summary:" + summary)
         
         # Search for related articles
         url = "https://newsapi.org/v2/everything"
@@ -91,6 +96,7 @@ def summarize_search_newsapi(query):
                 }
 
                 print(topic_summary)
+                print(perspective_summary)
 
     
 def summarize_headline_5_words(article):
