@@ -50,13 +50,18 @@ def summarize_search_newsapi(query):
         url = "https://newsapi.org/v2/everything"
         params = {"q": summary, "apiKey": newsapi_key}
         response = requests.get(url, params=params)
+        ## POSSIBLE ERROR #1
         related_articles = response.json().get('articles', [])
+        # print(related_articles)
         
         if related_articles:
+            ## POSSIBLE ERROR #2
             contents = [a['content'] for a in related_articles[:100] if a.get('content')]
+            print("CONTENTS:\n", contents)
             combined_contents = ' '.join(contents)
             if combined_contents:
                 topic_prompt = f"You are a world class, objective journalist who only uses sources that exist. Summarize the following into a factual 75-word summary using multiple sources:\n\n{combined_contents}"
+                # print(topic_prompt)
                 perspective_prompt = "You are a fantastic journalist, who cites multiple, sources that exist and provides true information. Identify and summarize the two major perspectives with specifics in 50 words each using existing sources based on the following content:\n\n" + combined_contents
                 
                 # Summarize topic
