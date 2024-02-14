@@ -3,7 +3,8 @@ import json
 import requests
 import os
 from openai import OpenAI
-
+from parse_website import gemini_parse_website
+import requests
 
 # Initialize API keys
 newsapi_key = '5f67759ab3e74c6089d70eb25b88c160'
@@ -52,17 +53,35 @@ def summarize_search_newsapi(query):
         response = requests.get(url, params=params)
         ## POSSIBLE ERROR #1
         related_articles = response.json().get('articles', [])
+        article_urls = []
+        summarized_gemini= ""
+        i = 0
+        for article in related_articles:
+            if i < 20:
+                article_url = article.get('url')  # Get the URL of the article.
+                parsed_content = gemini_parse_website(article_url)
+                # Only concatenate if parsed_content is not None
+                if parsed_content is not None:
+                    summarized_gemini += "\n" + parsed_content
+                i += 1
+            else:
+                break  # Exit the loop once we've processed 20 articles.
+
+            # if article_url:  # Check if the URL exists.
+            #     article_urls.append(article_url)  # Add the URL to the list.
+
+        
         # print(related_articles)
         
-        if related_articles:
+        if summarized_gemini:
             ## POSSIBLE ERROR #2
-            contents = [a['content'] for a in related_articles[:100] if a.get('content')]
-            print("CONTENTS:\n", contents)
-            combined_contents = ' '.join(contents)
-            if combined_contents:
-                topic_prompt = f"You are a world class, objective journalist who only uses sources that exist. Summarize the following into a factual 75-word summary using multiple sources:\n\n{combined_contents}"
+            # contents = [a['content'] for a in related_articles[:100] if a.get('content')]
+            # print("CONTENTS:\n", contents)
+            # combined_contents = ' '.join(contents)
+            # if combined_contents:
+                topic_prompt = f"You are a world class, objective journalist who only uses sources that exist. Summarize the following into a factual 75-word summary using multiple sources:\n\n{summarized_gemini}"
                 # print(topic_prompt)
-                perspective_prompt = "You are a fantastic journalist, who cites multiple, sources that exist and provides true information. Identify and summarize the two major perspectives with specifics in 50 words each using existing sources based on the following content:\n\n" + combined_contents
+                perspective_prompt = "You are a fantastic journalist, who cites multiple, sources that exist and provides true information. Identify and summarize the two major perspectives with specifics in 50 words each using existing sources based on the following content:\n\n" + summarized_gemini
                 
                 # Summarize topic
                 topic_summary_response = client.chat.completions.create(
