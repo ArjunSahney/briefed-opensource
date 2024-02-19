@@ -67,7 +67,7 @@ def get_gpt_response(prompt, gpt_model="gpt-4"):
     return None
 
 def get_google_results(query, num_results, engine="google_news"):
-  """Returns JSON of articles fetched from google news
+  """Returns dictionary of articles fetched from google news
   User provides query, gets 'news_results' JSON containing title, snippet, 
   link, and source.
 
@@ -81,7 +81,7 @@ def get_google_results(query, num_results, engine="google_news"):
 
   Returns
   -------
-  JSON
+  Dictionary
     news_results dictionary containing title, link, source, snippet for each
     article
   """
@@ -96,7 +96,7 @@ def get_google_results(query, num_results, engine="google_news"):
   news_results = results["news_results"]
   return news_results[:num_results]
 
-def get_article_text(url, part="body"):
+def get_article_text(url, part="body", errors="off"):
   """Returns requested part of article (body or title)
   Uses newspaper 3k python library to download article, parse, and retrieve
   text (without the bullshit on the page). Catches exceptions where download()
@@ -118,7 +118,8 @@ def get_article_text(url, part="body"):
     article.download()
     article.parse()
   except ArticleException as e:
-    print(f"Failed to download or parse article: {e}")
+    if (errors == "on"):
+      print(f"Failed to download or parse article: {e}")
     return None 
   except Exception as e:
     return None 
@@ -160,6 +161,7 @@ def get_news_api_response(query, get="articles", endpoint="/v2/everything"):
   response = requests.get(url, params=params)
   if (response.json().get('status') != "ok"):
     print("Error: In get_news_api_response, failed to retreive News API response")
+    print(response.json().get('message'))
     return None
   
   if (get == "all"):
