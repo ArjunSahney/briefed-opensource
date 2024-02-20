@@ -1,6 +1,7 @@
 """Searches google news, retrieves top articles, summarizes articles into keywords.
-Searches keywords through News API, generates combined contents of every article 
-returned by News API using newspaper3K. Summarizes combined contents using GPT-4.
+Searches keywords through News API, gets contents of every article 
+returned by News API, summarizes using GPT-4. Combined summaries into a combined
+contents dictionary. Summarizes combined contents using GPT-4.
 
 Written 2024-02-17
 
@@ -142,7 +143,7 @@ def get_formatted_newsAPI_contents(keywords):
 
   return articles_dict
     
-def generate_brief(title, article_dict):
+def generate_brief(article_dict):
   """Receives article dictionary of form:
     articles_dict : {
       1: {
@@ -159,8 +160,6 @@ def generate_brief(title, article_dict):
 
     Parameters
     ----------
-    title : str
-      Title of the brief
     articles_dict : dictionary
 
     Returns
@@ -168,12 +167,43 @@ def generate_brief(title, article_dict):
     str
       Brief
   """
+  from collections import deque
+
   summary_prompt = f"""Summarize the key points in this 'articles dictionary' into a 
   150-word explainer. Cite the article number in parens when you
-  use information from a specific article. {json.dumps(article_dict, indent=4)}"""
+  use information from a specific article, for example: (Article 2, Article 3).
+  Include a short title for the summary. 
+  {json.dumps(article_dict, indent=4)}"""
   summary = get_gpt_response(summary_prompt)
-  title_prompt = f"Generate a short, informative title for this news summary: {summary}"
-  return (get_gpt_response(title_prompt) +"\n" + summary)
+  
+  # Retrieve sources used in summary using regex
+  import re
+  # Step 1: Match the entire sequence within parentheses
+  pattern = r"\((Article\s+\d+(?:,\s*Article\s+\d+)*)\)"
+  # Find all matches in the text for the sequences
+  sequences_matches = re.findall(pattern, summary)
+  # Step 2: Extract individual article numbers from each matched sequence
+  article_numbers = []
+  for sequence in sequences_matches:
+      nums = re.findall(r"Article\s+(\d+)", sequence)
+      article_numbers.extend(nums)  # Add found numbers to the main list
+  # Additionally, capture standalone article numbers in the format "(3)"
+  standalone_nums = re.findall(r"\((\d+)\)", summary)
+  article_numbers.extend(standalone_nums)
+  # Convert matched article numbers from strings to integers
+  article_numbers_int = [int(num) for num in article_numbers]
+
+  seen_articles = set()
+  sources = "\n"
+  for article_num in article_numbers_int:
+    if article_num in seen_articles:
+      continue
+    seen_articles.add(article_num)
+    article_source = article_dict[article_num]["source"]
+    article_url = article_dict[article_num]["url"]
+    sources = sources + "\n" + str(article_num) + ". " + article_source + ", " + article_url
+
+  return (summary + sources + "\n")
 
 def in_brief(keyword, num_briefs):
   news_results = get_google_results(keyword, num_briefs)  
@@ -196,6 +226,6 @@ def in_brief(keyword, num_briefs):
     if search_keywords is not None:
       formatted_contents = get_formatted_newsAPI_contents(search_keywords)
       if (formatted_contents != {}):
-        print(generate_brief(get_search_keywords, formatted_contents))
+        print(generate_brief(formatted_contents))
 
-in_brief("Biden", 2)
+in_brief("Technology", 2)

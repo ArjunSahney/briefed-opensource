@@ -24,6 +24,7 @@ from openai import OpenAI
 from newspaper import Article
 from newspaper.article import ArticleException
 import requests
+import json
 from serpapi import GoogleSearch
 
 __author__ = "Ram Gorthi, DJun Sahney"
