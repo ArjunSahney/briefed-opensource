@@ -12,22 +12,22 @@ Instructions:
 __author__ = "Ram Gorthi, DJun Sahney"
 __version__ = "1.0"
 
-from newspaper import Article
-from newspaper.article import ArticleException
-from serpapi import GoogleSearch
 import json
 from openai import OpenAI
 from api_toolbox import *
+from spaCy_summarizer import *
+import time # debugging latency
 
 # How many articles summarized per brief
 ARTICLES_PER_BRIEF = 3
 
-def get_summary(url):
+def get_gpt_summary(url, gpt_model="gpt-3.5-turbo"):
   """Return short summary of article, using GPT-4
 
   Parameters
   ----------
   url : str
+  gpt_model : str
 
   Returns
   -------
@@ -42,7 +42,7 @@ def get_summary(url):
   summary = get_gpt_response(f"""Summarize the key points and essential information from the following 
                              article in a single paragraph of approximately 150 words. Focus on the 
                              most impactful facts and conclusions drawn in the article. If there is 
-                             any issue, simply return 'No': {article_text}""")
+                             any issue, simply return 'No': {article_text}""", gpt_model=gpt_model)
   return summary
 
 def get_search_keywords(url="", method="summary", article_title=""):
@@ -124,7 +124,8 @@ def get_formatted_newsAPI_contents(keywords):
 
     url = article.get('url', 'No URL Available')
     title = article.get('title', 'No Title Available')
-    summary = get_summary(url)
+    #summary = get_article_text(url)
+    summary = get_spaCy_article_summary(url, ratio=0.1)
     if (summary is None) or (title == "[Removed]"):
       continue 
 
@@ -174,8 +175,7 @@ def generate_brief(article_dict):
   use information from a specific article, for example: (Article 2, Article 3).
   Include a short title for the summary. 
   {json.dumps(article_dict, indent=4)}"""
-  summary = get_gpt_response(summary_prompt)
-  
+  summary = get_gpt_response(summary_prompt, gpt_model="gpt-4")
   # Retrieve sources used in summary using regex
   import re
   # Step 1: Match the entire sequence within parentheses
@@ -206,7 +206,14 @@ def generate_brief(article_dict):
   return (summary + sources + "\n")
 
 def in_brief(keyword, num_briefs):
+  start_time = time.time()
   news_results = get_google_results(keyword, num_briefs)  
+  end_time = time.time()
+  duration = end_time - start_time
+  print(f"Google News retrieval execution time: {duration} seconds")
+  if news_results is None:
+    print(f"No news on {keyword}")
+    return
   for article in news_results:
     # Some of these article objects are actually not individual articles but
     # groups of articles that are located in "stories", which contains a link within it
@@ -218,14 +225,28 @@ def in_brief(keyword, num_briefs):
     else: # It is an individual article and not a 'story'
       title = article.get('title')
     
+    start_time = time.time()
     if title is not None:
       search_keywords = get_search_keywords(method="title", article_title=title)
     else:
       print("Error: In sum_by_keyword, unable to retrieve article title")
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"Search words retrieval execution time: {duration} seconds")
 
     if search_keywords is not None:
+      start_time = time.time()
       formatted_contents = get_formatted_newsAPI_contents(search_keywords)
-      if (formatted_contents != {}):
-        print(generate_brief(formatted_contents))
+      end_time = time.time()
+      duration = end_time - start_time
+      print(f"Get Formatted News API contents execution time: {duration} seconds")
 
-in_brief("Technology", 2)
+      if (formatted_contents != {}):
+        start_time = time.time()
+        print(generate_brief(formatted_contents))
+        #print(get_spaCy_article_dict_summary(formatted_contents))
+        end_time = time.time()
+        duration = end_time - start_time
+        print(f"Generate brief execution time: {duration} seconds")
+
+in_brief("Biden", 2)
