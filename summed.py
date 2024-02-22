@@ -41,8 +41,7 @@ def get_gpt_summary(url, gpt_model="gpt-3.5-turbo"):
     return None
   summary = get_gpt_response(f"""Summarize the key points and essential information from the following 
                              article in a single paragraph of approximately 150 words. Focus on the 
-                             most impactful facts and conclusions drawn in the article. If there is 
-                             any issue, simply return 'No': {article_text}""", gpt_model=gpt_model)
+                             most impactful facts and conclusions drawn in the article: {article_text}""", gpt_model=gpt_model)
   return summary
 
 def get_search_keywords(url="", method="summary", article_title=""):
@@ -125,7 +124,8 @@ def get_formatted_newsAPI_contents(keywords):
     url = article.get('url', 'No URL Available')
     title = article.get('title', 'No Title Available')
     #summary = get_article_text(url)
-    summary = get_spaCy_article_summary(url, ratio=0.1)
+    # Keep ratio low to ensure GPT-4 can handle the combined summary
+    summary = get_spaCy_article_summary(url, ratio=0.05) 
     if (summary is None) or (title == "[Removed]"):
       continue 
 
@@ -157,7 +157,8 @@ def generate_brief(article_dict):
       ...
     }
     And returns a brief. Can be called whenever you have multiple URLs & sources
-    under a common topic!
+    under a common topic! Summarizes using GPT-4. Will not function correctly with
+    GPT-3.5-turbo.
 
     Parameters
     ----------
@@ -170,12 +171,12 @@ def generate_brief(article_dict):
   """
   from collections import deque
 
-  summary_prompt = f"""Summarize the key points in this 'articles dictionary' into a 
-  150-word explainer. Cite the article number in parens when you
+  summary_prompt = f"""Summarize the key points in this 'articles dictionary' into an 
+  explainer. Cite the article number in parens when you
   use information from a specific article, for example: (Article 2, Article 3).
-  Include a short title for the summary. 
+  Include a short title for the summary. Limit response to 100 words.
   {json.dumps(article_dict, indent=4)}"""
-  summary = get_gpt_response(summary_prompt, gpt_model="gpt-4")
+  summary = get_gpt_response(summary_prompt, gpt_model="gpt-4-turbo-preview")
   # Retrieve sources used in summary using regex
   import re
   # Step 1: Match the entire sequence within parentheses
@@ -207,7 +208,10 @@ def generate_brief(article_dict):
 
 def in_brief(keyword, num_briefs):
   start_time = time.time()
-  news_results = get_google_results(keyword, num_briefs)  
+  if (keyword.lower() == "top headlines"):
+    news_results = get_google_results("", num_briefs)
+  else:
+    news_results = get_google_results(keyword, num_briefs)  
   end_time = time.time()
   duration = end_time - start_time
   print(f"Google News retrieval execution time: {duration} seconds")
@@ -249,4 +253,4 @@ def in_brief(keyword, num_briefs):
         duration = end_time - start_time
         print(f"Generate brief execution time: {duration} seconds")
 
-in_brief("Biden", 2)
+in_brief("Biden", 10)

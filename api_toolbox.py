@@ -75,6 +75,7 @@ def get_google_results(query, num_results, engine="google_news"):
   Parameters
   ----------
   query : str
+    If query is empty, defaults to searching top headlines
   num_results : int
     Number of articles to return
   engine : str, optional (default is "google_news")
@@ -87,14 +88,23 @@ def get_google_results(query, num_results, engine="google_news"):
     article
   """
   api_key=os.environ.get("serp_api_key")
-  params = {
-    "engine": engine,
-    "q": query,
-    "api_key": api_key,
-  }
+  if (query == ""):
+    params = {
+      "engine": engine,
+      "api_key": api_key,
+    }
+  else:
+    params = {
+      "engine": engine,
+      "q": query,
+      "api_key": api_key,
+    }
   search = GoogleSearch(params)
   results = search.get_dict()
-  news_results = results["news_results"]
+  # print(json.dumps(results, indent=4)) # for debugging
+  news_results = results.get("news_results")
+  if (news_results is None):
+    return None
   return news_results[:num_results]
 
 def get_article_text(url, part="body", errors="off"):

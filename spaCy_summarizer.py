@@ -106,6 +106,8 @@ def get_spaCy_article_summary(url, ratio=0.1, max_words=None):
 
 def get_spaCy_article_dict_summary(articles_dict, ratio=0.2, max_words=None):
     """Logic for summarizing article dictionary without AI to reduce latency
+    Doesn't work as intended unfortunately... don't have a way of citing sources
+    with this model. 
     """
     combined_summary = ""
     article_summaries = {}
