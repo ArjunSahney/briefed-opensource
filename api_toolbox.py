@@ -67,7 +67,7 @@ def get_gpt_response(prompt, gpt_model="gpt-4"):
   else:
     return None
 
-def get_google_results(query, num_results, engine="google_news"):
+def get_google_results(query, num_results, engine="google_news", topic_token=None):
   """Returns dictionary of articles fetched from google news
   User provides query, gets 'news_results' JSON containing title, snippet, 
   link, and source.
@@ -80,6 +80,7 @@ def get_google_results(query, num_results, engine="google_news"):
     Number of articles to return
   engine : str, optional (default is "google_news")
     Can also input "google" for google search engine
+  topic_token : str, optional (default None)
 
   Returns
   -------

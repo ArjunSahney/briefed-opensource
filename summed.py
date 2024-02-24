@@ -44,6 +44,7 @@ def get_gpt_summary(url, gpt_model="gpt-3.5-turbo"):
                              most impactful facts and conclusions drawn in the article: {article_text}""", gpt_model=gpt_model)
   return summary
 
+# TODO: Use keyword extraction API monkey learn, IBM Watson, Amazon Comprehend
 def get_search_keywords(url="", method="summary", article_title=""):
   """Gets 3-5 keywords based on the article text using GPT
   TODO: Compare the keywords generated based on the article text vs article title, because
@@ -113,9 +114,11 @@ def get_formatted_newsAPI_contents(keywords):
   if (related_articles is None):
     print("Error: In get_formatted_NewsAPI_contents(), received no articles")
     return None
-  
+  # TODO: Potentially change logic here such that we can utilize all the best articles:
+  #       Cluster the articles on similar stories together somehow? 
+  #       Use Synthesis' architecture but with a lighter-weight model? 
   articles_dict = {}
-  articles_summarized = 1
+  articles_summarized = 0
   # Loop through the list of related articles, assigning each a unique number
   for article in related_articles:
     if (articles_summarized > ARTICLES_PER_BRIEF): # Hard limit number of articles summarized per briefed
@@ -144,6 +147,7 @@ def get_formatted_newsAPI_contents(keywords):
 
   return articles_dict
     
+# TODO: Modify dictionary by removing source/url from copy you put into GPT
 def generate_brief(article_dict):
   """Receives article dictionary of form:
     articles_dict : {
@@ -170,7 +174,6 @@ def generate_brief(article_dict):
       Brief
   """
   from collections import deque
-
   summary_prompt = f"""Summarize the key points in this 'articles dictionary' into an 
   explainer. Cite the article number in parens when you
   use information from a specific article, for example: (Article 2, Article 3).
@@ -253,4 +256,4 @@ def in_brief(keyword, num_briefs):
         duration = end_time - start_time
         print(f"Generate brief execution time: {duration} seconds")
 
-in_brief("Biden", 10)
+in_brief("Entertainment", 5)
