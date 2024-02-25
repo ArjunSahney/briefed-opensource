@@ -41,6 +41,9 @@ def spaCy_summarize(text, ratio=0.1, max_words=None):
         Article summary
     """
     # Process the article text with spaCy
+    if len(text) >= nlp.max_length: # Skip extra-long articles
+        return None
+
     doc = nlp(text)
 
     # Tokenize the sentences and calculate their importance
@@ -103,37 +106,3 @@ def get_spaCy_article_summary(url, ratio=0.1, max_words=None):
     # duration = end_time - start_time
     # print(f"spaCy summarizer: {duration} seconds")
     return summary
-
-def get_spaCy_article_dict_summary(articles_dict, ratio=0.2, max_words=None):
-    """Logic for summarizing article dictionary without AI to reduce latency
-    Doesn't work as intended unfortunately... don't have a way of citing sources
-    with this model. 
-    """
-    combined_summary = ""
-    article_summaries = {}
-
-    for article_number, article_info in articles_dict.items():
-        article_title = article_info["title"]
-        article_summary = article_info["summary"]
-        article_source = article_info["source"]
-
-        # Process the article summary text with spaCy
-        doc = nlp(article_summary)
-
-        # Tokenize the sentences and calculate their importance
-        sentence_importance = {}
-        for sentence in doc.sents:
-            sentence_importance[sentence] = sum([token.vector_norm for token in sentence if not token.is_stop])
-
-        # Sort the sentences by importance and select the top ones based on the ratio
-        sorted_sentences = sorted(sentence_importance, key=sentence_importance.get, reverse=True)
-        num_sentences = int(len(sorted_sentences) * ratio)
-        summary = sorted(sorted_sentences[:num_sentences], key=lambda x: x.start)
-
-        # Combine the selected sentences into a single string
-        summary_text = " ".join(str(sentence) for sentence in summary)
-
-        # Append the individual article summaries to the combined summary with parenthetical citations
-        combined_summary += f"{summary_text} ({article_number}: {article_title} - {article_source}) "
-
-    return combined_summary

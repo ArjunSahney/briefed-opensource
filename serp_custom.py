@@ -121,7 +121,7 @@ def summarize_search_newsapi(query):
 
                 print(topic_summary)
                 print(perspective_summary)
-
+    
     
 def summarize_headline_5_words(article):
     """Summarizes the article headline into 5 words."""

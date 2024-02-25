@@ -27,7 +27,7 @@ def fetch_articles_from_source(source, num_articles=100):
     # Trim the list to the desired number of articles
     return articles_list[:num_articles]
 
-def fetch_and_store_articles_by_category_and_source():
+def fetch_and_store_articles_by_keyword():
     sources_by_category = {
         "N": ["reuters", "associated-press", "axios"],  # Adjusted for 4 sources 
         "B": ["business-insider", "financial-times"],  # Added bloomberg
@@ -51,7 +51,7 @@ def fetch_and_store_articles_by_category_and_source():
     return articles_by_category
 
 def display_articles_by_category_and_source():
-    articles = fetch_and_store_articles_by_category_and_source()
+    articles = fetch_and_store_articles_by_keyword()
     for category, articles_list in articles.items():
         print(f"{category.title()} News:")
         for idx, article in enumerate(articles_list, 1):

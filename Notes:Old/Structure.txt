@@ -1,0 +1,33 @@
+Take user input (prompt or take 3 user inputs)
+    - Prompt:
+        *Extract keywords
+        *Topic modeling
+    - User Input: career, interest, sector, etc
+Call newsAPI on each keyword, store data in a text set for each keyword
+Call openAI on each keyword dictionary to create a summary
+Return to user 
+
+
+How would the aglorithm work for boundary industries like marketing? 
+    - Marketing: (think about what are the major aspects of marketing)
+        - social media
+        - advertisements
+        - promotion campaigns
+        - marketing campaigns
+
+
+Intermediate steps:
+1. Test out News API - plug in different things and see what we can do
+
+
+Functional steps:
+1. prompt_user
+2. extract_keywords (not necessary if we prompt user for 3 inputs)
+2. scrape_news(keyword)
+    *returns text-set
+3. summarize(text-set)
+    *returns summaries
+
+Custom class to hold text-set?
+- Holds keyword name, distinct 'briefs' with-in it 
+    - Briefs hold sources_list of strings.

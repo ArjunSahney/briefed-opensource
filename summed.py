@@ -19,7 +19,7 @@ from spaCy_summarizer import *
 import time # debugging latency
 
 # How many articles summarized per brief
-ARTICLES_PER_BRIEF = 3
+ARTICLES_PER_BRIEF = 2
 
 def get_gpt_summary(url, gpt_model="gpt-3.5-turbo"):
   """Return short summary of article, using GPT-4
@@ -221,6 +221,7 @@ def in_brief(keyword, num_briefs):
   if news_results is None:
     print(f"No news on {keyword}")
     return
+  brief = ""
   for article in news_results:
     # Some of these article objects are actually not individual articles but
     # groups of articles that are located in "stories", which contains a link within it
@@ -250,10 +251,9 @@ def in_brief(keyword, num_briefs):
 
       if (formatted_contents != {}):
         start_time = time.time()
-        print(generate_brief(formatted_contents))
+        brief = brief + generate_brief(formatted_contents)
         #print(get_spaCy_article_dict_summary(formatted_contents))
         end_time = time.time()
         duration = end_time - start_time
         print(f"Generate brief execution time: {duration} seconds")
-
-in_brief("Entertainment", 5)
+  return brief

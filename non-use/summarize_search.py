@@ -1,5 +1,7 @@
 # ### Has dictionary that you get of categories and headlines from each. Aim is to use NLP to summarize headline for keywords (4 word summary), search keywords using news api, scrape news api using llm, summarize different stories
-import openai
+from openai import OpenAI
+
+client = OpenAI(api_key='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')
 import re
 from categorizer import *
 import requests
@@ -11,14 +13,13 @@ from langchain.document_loaders import JSONLoader
 
 
 # Initialize the OpenAI API client
-openai.api_key = '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'
 
 article_summaries = {} # by category, by headline (dictionary): summary, two major perspective summaries, external links
 
 # Parse through dictionary: 
 for category in mapping:
     for article in category: 
-        search = summarize_headline_5_words(article)
+        search = summarize_headline(article)
         test1 = "US Politician Detained Hong Kong"
         
         # APPROACH 1 : USING NEWSAPI, Collecting top articles and putting them in a dictcionary, then for each article, parsing over the json using Langchain and summarizing headline
@@ -52,7 +53,7 @@ for category in mapping:
 
 
 
-def summarize_headline_5_words(article):
+def summarize_headline(article):
     """Summarizes the article headline into 4 words.
 
     Args:
@@ -66,13 +67,11 @@ def summarize_headline_5_words(article):
         "content": "You are a helpful assistant. Summarize headlines into 4 words."
     }
     
-    response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
-        messages=[
-            message,
-            {"role": "user", "content": f"Please summarize this headline: {article}"}
-        ]
-    )
+    response = client.chat.completions.create(model="gpt-3.5-turbo",
+    messages=[
+        message,
+        {"role": "user", "content": f"Please summarize this headline: {article}"}
+    ])
     
     # Extracting the summarized text from the response.
     summarized_text = response['choices'][0]['message']['content'].strip()
@@ -82,5 +81,5 @@ def summarize_headline_5_words(article):
 article_headline = "Off-duty pilot accused of trying to crash Alaska Airlines jet cites breakdown"
 
 # Print the summary
-print(summarize_headline_5_words(article_headline))
+print(summarize_headline(article_headline))
 

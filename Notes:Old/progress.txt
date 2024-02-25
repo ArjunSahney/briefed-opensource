@@ -1,0 +1,50 @@
+Overall Goal: Make news less-biased, more relevant, and more positive 
+- Less-biased (summaries with multi perspectives and prompting)
+- Relevant (ask LLM to say most relevant headlines)
+- Positive (ask LLM to weed out irrelevant news articles and integrate more positive articles from NEWSAPI results)
+
+
+Top_headlines uses different sources to create a dictionary of categories and top headlines across all of those categories 
+Top_everything goes through top 100 articles across news, business, and technology
+
+Summarize search 
+    Aim == within dictionary of category and headlines, append 3 key value per headlines objective 200 word summary, two major perspective 125 word summaries 
+    
+    Thought process: 
+    Approach #1: 
+    Getting Top Headlines Per Category 
+        1. Import dictionary from top headlines 
+        2. Parse through each category and each headline per category 
+        3. For each headline summarize search in 5 words or less and search in Newsapi 
+        4. Retrieve Newsapi Searches and store temporarily in Json 
+        5. Using LLM Api parse JSON, and ask to extract 3 summaries placing into variables 
+        6. Add variables as values in the dictionary 
+    Getting Top Headlines in General
+        1. Getting top everything results 
+        2. Parse through each category and each headline per category 
+        3. For each headline summarize search in 5 words or less and search in Newsapi 
+        4. Retrieve Newsapi Searches and store temporarily in Json 
+        5. Using LLM Api parse JSON, and ask to extract 3 summaries placing into variables 
+        6. Add variables as values in the dictionary 
+    
+    Approach #2: 
+    Getting Top Headlines Per Category 
+        1. Import dictionary from top headlines 
+        2. Parse through each category and each headline per category 
+        3. For each headline summarize search into unbiased headline
+        4. Ask Langchain agent to search unbiased headline online and write three summaries i.e. using Github Research Scholar 
+        5. Extract summaries and place into dictionary 
+    Getting Top Headlines in General 
+        1. Import dictionary from top everything 
+        2. Parse through each category and each headline per category 
+        3. For each headline summarize search into unbiased headline
+        4. Ask Langchain agent to search unbiased headline online and write three summaries i.e. using Github Research Scholar 
+        5. Extract summaries and place into dictionary 
+
+    Approach Number 3: 
+    1. Asking LLM Agent to find top headlines in the world today
+    2. Asking LLM Agent to find top headlines in per category today
+    3. Using LLM to summarize headlines into few words 
+    4. Searching up few words into Newsapi
+    5. Sumarizing NewsApi results through langchain agent 
+
