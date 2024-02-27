@@ -10,7 +10,7 @@ Instructions:
     for API keys
 """
 __author__ = "Ram Gorthi, DJun Sahney"
-__version__ = "1.0"
+__version__ = "1.6"
 
 import json
 from openai import OpenAI
@@ -80,11 +80,14 @@ def get_search_keywords(url="", method="title", article_title=""):
 
   return keywords
 
-def get_formatted_newsAPI_contents(keywords):
+def get_formatted_newsAPI_contents(keywords, google_news_results):
   """
   Get formatted contents of News API keyword search. Should return title, summary,
   source, and URL in a clean format for purposes of inputting it into a summarizer
   that will cite the correct sources. 
+
+  V2: Integrate the google_news_results dictionary into the formatted news dictionary
+  if able to scrape it!
 
   Strategy 1: Create a Dictionary where a number hashes to (article title, summary, source, URL)
               Pass dictionary in to GPT and tell it to cite the article number. Then, we can
@@ -115,6 +118,12 @@ def get_formatted_newsAPI_contents(keywords):
   # TODO: Potentially change logic here such that we can utilize all the best articles:
   #       Cluster the articles on similar stories together somehow? 
   #       Use Synthesis' architecture but with a lighter-weight model? 
+  # Reason this doesn't work is because it'll just append the google_news_results
+  # dictionary to the top of related_articles every time, so it'll keep summarizing the
+  # top 3 google news results... total L.
+  if google_news_results is not None: 
+    related_articles = google_news_results + related_articles
+
   articles_dict = {}
   articles_summarized = 0
   # Loop through the list of related articles, assigning each a unique number
@@ -122,7 +131,9 @@ def get_formatted_newsAPI_contents(keywords):
     if (articles_summarized > ARTICLES_PER_BRIEF): # Hard limit number of articles summarized per briefed
       break
 
-    url = article.get('url', 'No URL Available')
+    url = article.get('url', 'None')
+    if (url == 'None'):
+      url = article.get('link')
     title = article.get('title', 'No Title Available')
     #summary = get_article_text(url)
     # Keep ratio low to ensure GPT-4 can handle the combined summary
@@ -131,9 +142,14 @@ def get_formatted_newsAPI_contents(keywords):
       continue 
 
     articles_summarized += 1
-    publishedAt = article.get('publishedAt', 'No date Available')
+    publishedAt = article.get('publishedAt', None)
+    if (publishedAt is None):
+      publishedAt = article.get('date', 'No date available')
     date = publishedAt[:10]
-    source = article.get('source', {}).get('name', 'Unknown Source')
+    try:
+      source = article.get('source', {}).get('name', 'Unknown Source')
+    except AttributeError:
+      source = article.get('source')
     # Add the extracted information to the articles_dict, keyed by the index
     articles_dict[articles_summarized] = {
       "title": title,
@@ -243,7 +259,8 @@ def in_brief(keyword, num_briefs):
     if search_keywords is not None:
       print(search_keywords) # for debugging
       start_time = time.time()
-      formatted_contents = get_formatted_newsAPI_contents(search_keywords)
+      # Try giving get_formatted_newsAPI_contents the news_results dict too!
+      formatted_contents = get_formatted_newsAPI_contents(search_keywords, news_results)
       end_time = time.time()
       duration = end_time - start_time
       print(f"Get Formatted News API contents execution time: {duration} seconds")
@@ -257,7 +274,8 @@ def in_brief(keyword, num_briefs):
         print(f"Generate brief execution time: {duration} seconds")
   return brief
 
-print(in_brief("Biden", 3))
-# results = get_news_api_response("")
+print(in_brief("Morgan Stanley", 3))
+# results = get_google_results("Biden", 5)
+# results = results[:5]
 # print(json.dumps(results, indent=4))
 
