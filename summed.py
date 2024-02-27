@@ -45,15 +45,9 @@ def get_gpt_summary(url, gpt_model="gpt-3.5-turbo"):
   return summary
 
 # TODO: Use keyword extraction API monkey learn, IBM Watson, Amazon Comprehend
-def get_search_keywords(url="", method="summary", article_title=""):
+def get_search_keywords(url="", method="title", article_title=""):
   """Gets 3-5 keywords based on the article text using GPT
-  TODO: Compare the keywords generated based on the article text vs article title, because
-        retrieving the text takes some time but retrieving the title does not
-        Down-side of using the article's text is that some articles with paywalls won't be
-        used for keyword extraction.
-        Up-side of using article text is the keywords are better and we avoid click-baity
-        article titles
-  
+
   Parameters
   ----------
   url : str (optional)
@@ -69,17 +63,21 @@ def get_search_keywords(url="", method="summary", article_title=""):
     3-6 keywords
   None if unable to get text of article
   """
+  keywords = None
   if (method == "summary"):
     article_text = get_article_text(url)
     if article_text is None:
       return None
-    keywords = get_gpt_response(f"Return a 3-5 word google search to retrieve more information about this topic: {article_text}", "gpt-3.5-turbo")
+    keywords = get_gpt_response(f"Return a 3-5 word google search to retrieve more information about this topic: {article_text}", "gpt-4-turbo-preview")
   elif (method == "title"):
     if (article_title == ""):
       article_title = get_article_text(url, "title")
-    keywords = get_gpt_response(f"""Optimize this article title into a 3-5 word google search query 
-                                to retrieve more information on this topic: {article_title}""", 
-                                "gpt-3.5-turbo")
+    keywords = get_gpt_response(f"""Optimize this article title into a 3-5 word search query: {article_title}""", 
+                                "gpt-4-turbo-preview")
+  if keywords is not None:
+    import re
+    keywords = re.sub(r'^\"|\"$', '', keywords)
+
   return keywords
 
 def get_formatted_newsAPI_contents(keywords):
@@ -243,6 +241,7 @@ def in_brief(keyword, num_briefs):
     print(f"Search words retrieval execution time: {duration} seconds")
 
     if search_keywords is not None:
+      print(search_keywords) # for debugging
       start_time = time.time()
       formatted_contents = get_formatted_newsAPI_contents(search_keywords)
       end_time = time.time()
@@ -257,3 +256,8 @@ def in_brief(keyword, num_briefs):
         duration = end_time - start_time
         print(f"Generate brief execution time: {duration} seconds")
   return brief
+
+print(in_brief("Biden", 3))
+# results = get_news_api_response("")
+# print(json.dumps(results, indent=4))
+

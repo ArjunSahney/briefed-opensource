@@ -67,6 +67,24 @@ def get_gpt_response(prompt, gpt_model="gpt-4"):
   else:
     return None
 
+def get_top_stories(query, num_results):
+  api_key=os.environ.get("serp_api_key")
+
+  params = {
+    "q": query,
+    "hl": "en",
+    "gl": "us",
+    "api_key": api_key
+  }
+
+  search = GoogleSearch(params)
+  results = search.get_dict()
+  top_stories = results.get("top_stories")
+  if top_stories is None:
+    return None
+  else:
+    return top_stories[:num_results]
+  
 def get_google_results(query, num_results, engine="google_news", topic_token=None):
   """Returns dictionary of articles fetched from google news
   User provides query, gets 'news_results' JSON containing title, snippet, 
@@ -100,9 +118,12 @@ def get_google_results(query, num_results, engine="google_news", topic_token=Non
       "q": query,
       "api_key": api_key,
     }
+  top_stories = get_top_stories(query, num_results)
+  if top_stories is not None:
+    return top_stories
   search = GoogleSearch(params)
   results = search.get_dict()
-  # print(json.dumps(results, indent=4)) # for debugging
+  print(json.dumps(results, indent=4)) # for debugging
   news_results = results.get("news_results")
   if (news_results is None):
     return None

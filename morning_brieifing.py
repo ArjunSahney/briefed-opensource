@@ -33,7 +33,7 @@ def search(company, industry, topic):
     career_briefs = in_brief(company, 2)
     industry_briefs = in_brief(industry, 2)
     topic_briefs = in_brief(topic, 2)
-    fun_briefs = in_brief("entertainment", 2)
+    fun_briefs = in_brief("interesting", 2)
 
     briefing_dictionary = {}
     briefing_dictionary["top_headlines"] = top_briefs
@@ -63,7 +63,7 @@ def search(company, industry, topic):
 
 
 # Testing: 
-search("Google", "Technology", "Cybersecurity")
+search("Dartmouth", "Politics", "Taiwan")
 
 
 
