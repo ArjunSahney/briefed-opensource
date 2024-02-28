@@ -81,34 +81,76 @@ def get_search_keywords(url="", method="title", article_title=""):
   return keywords
 
 def get_formatted_googleNews_contents(keywords):
-  articles_dict = {}
-  formatted_results = get_google_results(keywords, 5, engine="google_news", topic_token=None)
-  summary = ""
-  articles_summarized = 0 
-  for article in formatted_results:
-    title = article.get("title")
-    link = article.get("url")
-    summary += get_spaCy_article_summary(link, ratio=0.3, max_words=None)
-    if (title == "[Removed]"):
-        continue 
-    articles_summarized += 1
-    publishedAt = article.get('publishedAt', None)
-    if (publishedAt is None):
-      publishedAt = article.get('date', 'No date available')
-    date = publishedAt[:10]
-    try:
-      source = article.get('source', {}).get('name', 'Unknown Source')
-    except AttributeError:
-      source = article.get('source')
-    # Add the extracted information to the articles_dict, keyed by the index
-    articles_dict[articles_summarized] = {
-        "title": title,
-        "summary": summary,
-        "source": source,
-        "date": date,
-        "url": link
-      }
+    """
+    Fetches and formats news articles from Google News based on given keywords. 
+    The function aims to return a dictionary where each key is a unique identifier 
+    mapping to information about each article, including its title, summary, source, 
+    publication date, and URL. This structured format is suitable for input into a 
+    summarizer that requires detailed source citation.
 
+    Parameters
+    ----------
+    keywords : str
+        The search keywords to find relevant news articles on Google News.
+
+    Returns
+    -------
+    articles_dict : dict
+        A dictionary where each key maps to another dictionary containing details 
+        of a news article (title, summary, source, date, and URL).
+    """
+    
+    # Initialize an empty dictionary to hold formatted article details.
+    articles_dict = {}
+    
+    # Fetch search results from Google News using predefined parameters.
+    # The number of results fetched is limited to 5.
+    # This function call is hypothetical and needs to be replaced with an actual API call or scraping method.
+    formatted_results = get_google_results(keywords, 5, engine="google_news", topic_token=None)
+    
+    
+    # Keep track of the number of articles summarized.
+    articles_summarized = 0 
+    
+    # Iterate over each article in the fetched results.
+    for article in formatted_results:
+        # Extract the title and URL of the article.
+        title = article.get("title")
+        link = article.get("url")
+        
+        # Generate a summary for the article using a hypothetical summarization function.
+        # This example assumes a summarization ratio of 0.3, but this function is not defined in the provided code.
+        summary = get_spaCy_article_summary(link, ratio=0.3, max_words=None)
+        
+        # Skip the article if the title is marked as "[Removed]".
+        if (title == "[Removed]"):
+            continue
+        
+        # Increment the counter for summarized articles.
+        articles_summarized += 1
+        
+        # Attempt to extract the publication date, falling back to a default if unavailable.
+        publishedAt = article.get('publishedAt', None)
+        if (publishedAt is None):
+            publishedAt = article.get('date', 'No date available')
+        date = publishedAt[:10]  # Extract just the date portion (YYYY-MM-DD).
+        
+        # Try to extract the source name, handling cases where the structure may vary.
+        try:
+            source = article.get('source', {}).get('name', 'Unknown Source')
+        except AttributeError:
+            source = article.get('source')
+        
+        # Add the article details to the dictionary, using the summary count as a key.
+        articles_dict[articles_summarized] = {
+            "title": title,
+            "summary": summary,
+            "source": source,
+            "date": date,
+            "url": link
+        }
+
+    # Return the dictionary containing formatted article details.
     return articles_dict
 
 
