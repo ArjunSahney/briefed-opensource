@@ -72,13 +72,47 @@ def get_search_keywords(url="", method="title", article_title=""):
   elif (method == "title"):
     if (article_title == ""):
       article_title = get_article_text(url, "title")
-    keywords = get_gpt_response(f"""Optimize this article title into a 3-5 word search query: {article_title}""", 
+    keywords = get_gpt_response(f"""Optimize/summarize this article title into a 3-5 word search query: {article_title}""", 
                                 "gpt-4-turbo-preview")
   if keywords is not None:
     import re
     keywords = re.sub(r'^\"|\"$', '', keywords)
 
   return keywords
+
+def get_formatted_googleNews_contents(keywords):
+  articles_dict = {}
+  formatted_results = get_google_results(keywords, 5, engine="google_news", topic_token=None)
+  summary = ""
+  articles_summarized = 0 
+  for article in formatted_results:
+    title = article.get("title")
+    link = article.get("url")
+    summary += get_spaCy_article_summary(link, ratio=0.3, max_words=None)
+    if (title == "[Removed]"):
+        continue 
+    articles_summarized += 1
+    publishedAt = article.get('publishedAt', None)
+    if (publishedAt is None):
+      publishedAt = article.get('date', 'No date available')
+    date = publishedAt[:10]
+    try:
+      source = article.get('source', {}).get('name', 'Unknown Source')
+    except AttributeError:
+      source = article.get('source')
+    # Add the extracted information to the articles_dict, keyed by the index
+    articles_dict[articles_summarized] = {
+        "title": title,
+        "summary": summary,
+        "source": source,
+        "date": date,
+        "url": link
+      }
+
+    return articles_dict
+
+
+
 
 def get_formatted_newsAPI_contents(keywords, google_news_results):
   """
@@ -246,10 +280,13 @@ def in_brief(keyword, num_briefs):
       title = first_story['title']
     else: # It is an individual article and not a 'story'
       title = article.get('title')
+      # Title working w/ Arjun new approach
+      
     
     start_time = time.time()
     if title is not None:
       search_keywords = get_search_keywords(method="title", article_title=title)
+      
     else:
       print("Error: In sum_by_keyword, unable to retrieve article title")
     end_time = time.time()

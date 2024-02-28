@@ -114,20 +114,42 @@ def get_google_results(query, num_results, engine="google_news", topic_token=Non
     }
   else:
     params = {
-      "engine": engine,
-      "q": query,
-      "api_key": api_key,
+      "api_key": "6bd8076584cc412e4de18cd156206095ceefc0b2e16c7f6a4de7f1af84879d9a",
+      "engine": "google",
+      "q": "morgan stanley",
+      "google_domain": "google.com",
+      "gl": "us",
+      "hl": "en",
+      "tbm": "nws",
+      "tbs": "qdr:d"
     }
-  top_stories = get_top_stories(query, num_results)
-  if top_stories is not None:
-    return top_stories
+
+  # top_stories = get_top_stories(query, num_results)
+  # if top_stories is not None:
+  #   return top_stories
   search = GoogleSearch(params)
   results = search.get_dict()
-  print(json.dumps(results, indent=4)) # for debugging
-  news_results = results.get("news_results")
-  if (news_results is None):
-    return None
-  return news_results[:num_results]
+  news_results = results.get("news_results", [])
+  if not news_results:
+      return None
+
+    # Select the top `num_results` news items
+  top_news_results = news_results[:num_results]
+
+    # Optionally, format the results for cleaner output
+  formatted_news_results = [{
+        'title': result['title'],
+        'link': result['link'],
+        'source': result['source'],
+        'date': result['date'],
+        'snippet': result['snippet']
+    } for result in top_news_results]
+
+    # Print or return the formatted news results
+    # For example, to print:
+  return formatted_news_results
+
+print(get_google_results("Morgan Stanley", 3, engine="google_news", topic_token=None))
 
 def get_article_text(url, part="body", errors="off"):
   """Returns requested part of article (body or title)
