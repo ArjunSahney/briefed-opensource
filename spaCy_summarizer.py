@@ -1,6 +1,7 @@
 import spacy
 from api_toolbox import *
 from bs4 import BeautifulSoup
+from http.client import RemoteDisconnected
 import requests
 import time # debugging latency
 
@@ -9,6 +10,7 @@ nlp = spacy.load("en_core_web_sm")
 
 def get_text_beautifulSoup(url):
     """Basic html parser, low latency: ~.2s
+    Implemented some error handling
 
     Parameters
     ----------
@@ -18,7 +20,18 @@ def get_text_beautifulSoup(url):
     -------
     str
     """
-    page = requests.get(url)
+    try:
+        page = requests.get(url)
+    except requests.exceptions.ConnectionError as e:
+        if isinstance(e.args[0], RemoteDisconnected):
+            print("RemoteDisconnected: The remote end closed connection without response")
+        else:
+            print("Other ConnectionError occurred")
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return None
+
     soup = BeautifulSoup(page.content, "html.parser")
     paragraphs = soup.find_all("p")
     text = " ".join([p.get_text() for p in paragraphs])
@@ -100,6 +113,8 @@ def get_spaCy_article_summary(url, ratio=0.1, max_words=None):
         Summary of article
     """
     article_text = get_text_beautifulSoup(url)
+    if article_text is None:
+        return None
     # start_time = time.time()
     summary = spaCy_summarize(article_text, ratio=ratio, max_words=max_words)
     # end_time = time.time()

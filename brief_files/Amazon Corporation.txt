@@ -1,0 +1,12 @@
+### Amazon Expands with Nuclear-Connected Data Center
+
+Talen Energy sold its Cumulus data center campus near its nuclear power plant in Berwick to Amazon Web Services for $650 million, aiming to leverage the facility's substantial power capacity and strategic location (Article 1, Article 3). This acquisition reflects Amazon's continued investment in high-capacity data centers, potentially fostering job creation and business attraction in Luzerne County (Article 3). This strategic move underscores the ever-growing demand for cloud services and Amazon's commitment to expanding its infrastructure to support this demand (Article 2).
+
+1. The Citizens' Voice, https://www.citizensvoice.com/news/talen-sells-data-center-by-susquehanna-nuclear-plant-to-amazon/article_1e2b9b76-316b-5e18-bfc7-cf705c77ba3d.html
+3. WNEP, https://www.wnep.com/article/news/local/luzerne-county/amazon-spending-650-million-for-data-center-in-luzerne-county-talen-energy-susquehanna-steam-electric-station-nuclear-nuke-power-plant-acquisition-buy/523-73264033-187f-47b0-8769-d57c171c7aa6
+2. Power Engineering, https://www.power-eng.com/nuclear/aws-acquires-data-center-campus-connected-to-susquehanna-nuclear-station/
+### The Battle of Retail Memberships: Target Circle 360 Enters the Arena
+
+Target has announced its new membership program, Target Circle 360, starting at a promotional price of $49 a year, before increasing to $99 after May 18 (Articles 1, 2, 3). This move places Target in direct competition with Amazon Prime and Walmart+, both of which offer their own sets of perks including same-day delivery (Articles 1, 2). Target Circle 360 promises same-day delivery for orders over $35, free two-day shipping on Target.com orders, and other exclusive benefits (Article 3). While Amazon Prime and Walmart+ provide additional services like streaming, Target’s new program focuses primarily on enhancing the shopping and delivery experience, alongside added benefits like exclusive partnerships (Articles 1, 2, 3). This development reflects Target's strategic push to increase loyalty among its customers and expand its service offerings in the face of stiff competition from Amazon and Walmart (Article 3).
+
+3. Dallas News, https://www.dallasnews.com/business/retail/2024/03/05/target-starts-49-membership-program-to-compete-with-amazon-and-walmart/

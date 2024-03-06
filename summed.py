@@ -19,7 +19,7 @@ from spaCy_summarizer import *
 import time # debugging latency
 
 # How many articles summarized per brief
-ARTICLES_PER_BRIEF = 2
+ARTICLES_PER_BRIEF = 3
 
 def get_gpt_summary(url, gpt_model="gpt-3.5-turbo"):
   """Return short summary of article, using GPT-4
@@ -99,47 +99,43 @@ def get_formatted_googleNews_contents(keywords):
         A dictionary where each key maps to another dictionary containing details 
         of a news article (title, summary, source, date, and URL).
     """
-    
     # Initialize an empty dictionary to hold formatted article details.
     articles_dict = {}
     
     # Fetch search results from Google News using predefined parameters.
     # The number of results fetched is limited to 5.
-    # This function call is hypothetical and needs to be replaced with an actual API call or scraping method.
-    formatted_results = get_google_results(keywords, 5, engine="google_news", topic_token=None)
-    
-    
+    formatted_results = get_google_results(keywords, ARTICLES_PER_BRIEF, engine="google_news", topic_token=None)
+    if formatted_results is None:
+      return None
     # Keep track of the number of articles summarized.
     articles_summarized = 0 
     
     # Iterate over each article in the fetched results.
     for article in formatted_results:
+        if __debug__:
+          print("Individual article JSON in formatted dictionary")
+          print(json.dumps(article, indent=4))
         # Extract the title and URL of the article.
         title = article.get("title")
-        link = article.get("url")
+        link = article.get("link")
+        if (link == 'None'):
+          continue
+
+        # Generate a summary for the article using a summarization function (spaCy)
+        summary = get_spaCy_article_summary(link, ratio=0.05, max_words=None)
         
-        # Generate a summary for the article using a hypothetical summarization function.
-        # This example assumes a summarization ratio of 0.3, but this function is not defined in the provided code.
-        summary = get_spaCy_article_summary(link, ratio=0.3, max_words=None)
+        # Attempt to extract the publication date. Doesn't convert '5 hours ago' to today's date.
+        date = article.get('date', None)
         
-        # Skip the article if the title is marked as "[Removed]".
-        if (title == "[Removed]"):
+        # Try to extract the source name.
+        source = article.get('source')
+
+        # Skip the article if not enough information is present.
+        if (title is None or link is None or source is None or summary is None):
             continue
         
         # Increment the counter for summarized articles.
         articles_summarized += 1
-        
-        # Attempt to extract the publication date, falling back to a default if unavailable.
-        publishedAt = article.get('publishedAt', None)
-        if (publishedAt is None):
-            publishedAt = article.get('date', 'No date available')
-        date = publishedAt[:10]  # Extract just the date portion (YYYY-MM-DD).
-        
-        # Try to extract the source name, handling cases where the structure may vary.
-        try:
-            source = article.get('source', {}).get('name', 'Unknown Source')
-        except AttributeError:
-            source = article.get('source')
         
         # Add the article details to the dictionary, using the summary count as a key.
         articles_dict[articles_summarized] = {
@@ -153,21 +149,11 @@ def get_formatted_googleNews_contents(keywords):
     # Return the dictionary containing formatted article details.
     return articles_dict
 
-
-
-
 def get_formatted_newsAPI_contents(keywords, google_news_results):
   """
   Get formatted contents of News API keyword search. Should return title, summary,
   source, and URL in a clean format for purposes of inputting it into a summarizer
   that will cite the correct sources. 
-
-  V2: Integrate the google_news_results dictionary into the formatted news dictionary
-  if able to scrape it!
-
-  Strategy 1: Create a Dictionary where a number hashes to (article title, summary, source, URL)
-              Pass dictionary in to GPT and tell it to cite the article number. Then, we can
-              hyperlink the URL to the number and include source at bottom as a footnote.
 
   Parameters
   ----------
@@ -191,15 +177,6 @@ def get_formatted_newsAPI_contents(keywords, google_news_results):
   if (related_articles is None):
     print("Error: In get_formatted_NewsAPI_contents(), received no articles")
     return None
-  # TODO: Potentially change logic here such that we can utilize all the best articles:
-  #       Cluster the articles on similar stories together somehow? 
-  #       Use Synthesis' architecture but with a lighter-weight model? 
-  # Reason this doesn't work is because it'll just append the google_news_results
-  # dictionary to the top of related_articles every time, so it'll keep summarizing the
-  # top 3 google news results... total L.
-  if google_news_results is not None: 
-    related_articles = google_news_results + related_articles
-
   articles_dict = {}
   articles_summarized = 0
   # Loop through the list of related articles, assigning each a unique number
@@ -211,21 +188,18 @@ def get_formatted_newsAPI_contents(keywords, google_news_results):
     if (url == 'None'):
       url = article.get('link')
     title = article.get('title', 'No Title Available')
-    #summary = get_article_text(url)
+
     # Keep ratio low to ensure GPT-4 can handle the combined summary
     summary = get_spaCy_article_summary(url, ratio=0.05) 
+    # Defensive checks
     if (summary is None) or (title == "[Removed]"):
       continue 
 
     articles_summarized += 1
     publishedAt = article.get('publishedAt', None)
-    if (publishedAt is None):
-      publishedAt = article.get('date', 'No date available')
     date = publishedAt[:10]
-    try:
-      source = article.get('source', {}).get('name', 'Unknown Source')
-    except AttributeError:
-      source = article.get('source')
+    source = article.get('source', {}).get('name', 'Unknown Source')
+
     # Add the extracted information to the articles_dict, keyed by the index
     articles_dict[articles_summarized] = {
       "title": title,
@@ -263,30 +237,32 @@ def generate_brief(article_dict):
     str
       Brief
   """
-  from collections import deque
+  # Get summary with GPT-4
   summary_prompt = f"""Summarize the key points in this 'articles dictionary' into an 
   explainer. Cite the article number in parens when you
   use information from a specific article, for example: (Article 2, Article 3).
   Include a short title for the summary. Limit response to 100 words.
   {json.dumps(article_dict, indent=4)}"""
   summary = get_gpt_response(summary_prompt, gpt_model="gpt-4-turbo-preview")
+
   # Retrieve sources used in summary using regex
   import re
   # Step 1: Match the entire sequence within parentheses
   pattern = r"\((Article\s+\d+(?:,\s*Article\s+\d+)*)\)"
-  # Find all matches in the text for the sequences
+  # Step 2: Find all matches in the text for the sequences
   sequences_matches = re.findall(pattern, summary)
-  # Step 2: Extract individual article numbers from each matched sequence
+  # Step 3: Extract individual article numbers from each matched sequence
   article_numbers = []
   for sequence in sequences_matches:
       nums = re.findall(r"Article\s+(\d+)", sequence)
       article_numbers.extend(nums)  # Add found numbers to the main list
-  # Additionally, capture standalone article numbers in the format "(3)"
+  # Step 4: Capture standalone article numbers in the format "(3)"
   standalone_nums = re.findall(r"\((\d+)\)", summary)
   article_numbers.extend(standalone_nums)
+  
   # Convert matched article numbers from strings to integers
   article_numbers_int = [int(num) for num in article_numbers]
-
+  # Prevent double citations and add to a sources string
   seen_articles = set()
   sources = "\n"
   for article_num in article_numbers_int:
@@ -299,15 +275,75 @@ def generate_brief(article_dict):
 
   return (summary + sources + "\n")
 
+def get_trending_topics(num_results):
+  """Returns list of `num_results` top trending story titles.
+  Returned titles can be plugged directly into in_brief()
+  
+  Parameters
+  ----------
+  num_results : int
+  
+  Returns
+  -------
+  list of strings
+  """
+  api_key=os.environ.get("serp_api_key")
+  params = {
+    "engine": "google_trends_trending_now",
+    "frequency": "daily",
+    "api_key": api_key
+  }
+
+  search = GoogleSearch(params)
+  results = search.get_dict()
+  daily_searches = results["daily_searches"]
+  searches_list = daily_searches[0]["searches"]
+  trending_titles = []
+  num_titles = 0
+  for search in searches_list:
+    articles = search.get("articles", None)
+    if articles is None:
+      continue
+    
+    title = articles[0].get("title", None)
+    if title is None:
+      continue
+    
+    keywords = get_search_keywords(article_title=title)
+    trending_titles.append(keywords)
+    
+    num_titles += 1
+    if num_titles >= num_results:
+      break
+  # Return list of `num_results` top titles
+  return trending_titles
+
+
 def in_brief(keyword, num_briefs):
-  start_time = time.time()
+  """Returns num_briefs briefs on a keyword
+  
+  Parameters
+  ----------
+  keyword : str
+  num_briefs : int
+  
+  Returns
+  -------
+  str
+    Consolidated list of briefs on keyword
+  """
+  if __debug__:
+    start_time = time.time()
   if (keyword.lower() == "top headlines"):
+    print("searching top headlines")
     news_results = get_google_results("", num_briefs)
   else:
     news_results = get_google_results(keyword, num_briefs)  
-  end_time = time.time()
-  duration = end_time - start_time
-  print(f"Google News retrieval execution time: {duration} seconds")
+  if __debug__:
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"Google News retrieval execution time: {duration} seconds")
+
   if news_results is None:
     print(f"No news on {keyword}")
     return
@@ -324,37 +360,49 @@ def in_brief(keyword, num_briefs):
       title = article.get('title')
       # Title working w/ Arjun new approach
       
-    
-    start_time = time.time()
+    if __debug__:
+      start_time = time.time()
     if title is not None:
       search_keywords = get_search_keywords(method="title", article_title=title)
       
     else:
-      print("Error: In sum_by_keyword, unable to retrieve article title")
-    end_time = time.time()
-    duration = end_time - start_time
-    print(f"Search words retrieval execution time: {duration} seconds")
-
-    if search_keywords is not None:
-      print(search_keywords) # for debugging
-      start_time = time.time()
-      # Try giving get_formatted_newsAPI_contents the news_results dict too!
-      formatted_contents = get_formatted_newsAPI_contents(search_keywords, news_results)
+      print("Error: Unable to retrieve article title")
+    if __debug__:
       end_time = time.time()
       duration = end_time - start_time
-      print(f"Get Formatted News API contents execution time: {duration} seconds")
+      print(f"Search words retrieval execution time: {duration} seconds")
 
-      if (formatted_contents != {}):
+    if search_keywords is not None:
+      if __debug__:
+        print(search_keywords) 
         start_time = time.time()
-        brief = brief + generate_brief(formatted_contents)
-        #print(get_spaCy_article_dict_summary(formatted_contents))
+      # formatted_contents = get_formatted_newsAPI_contents(search_keywords, news_results)
+      formatted_contents = get_formatted_googleNews_contents(search_keywords)
+      # TODO: add a check here that broadens the search keywords if there were very few results returned
+      if __debug__:
         end_time = time.time()
         duration = end_time - start_time
-        print(f"Generate brief execution time: {duration} seconds")
+        # print(f"Get Formatted News API contents execution time: {duration} seconds")
+        print(f"Get Formatted Google News API contents execution time: {duration} seconds")
+
+      if (formatted_contents is not None and formatted_contents != {}):
+        if __debug__:
+          start_time = time.time()
+        brief = brief + generate_brief(formatted_contents)
+        if __debug__:
+          end_time = time.time()
+          duration = end_time - start_time
+          print(f"Generate brief execution time: {duration} seconds")
+  filename = "brief_files/" + keyword + ".txt"
+  with open(filename, 'w') as file:
+    # First write operation
+    file.write(brief)
   return brief
 
-print(in_brief("Morgan Stanley", 3))
+# print(in_brief("NVIDIA", 1))
 # results = get_google_results("Biden", 5)
 # results = results[:5]
 # print(json.dumps(results, indent=4))
 
+
+# print(get_trending_topics(5))
