@@ -1,0 +1,13 @@
+### SEC's Climate Rule Faces Legal Hurdles
+
+The US Securities and Exchange Commission (SEC) has passed a significant climate disclosure rule aimed at corporate transparency regarding climate impacts. Despite its approval, the rule has been notably weakened from its initial proposal (Article 2). This dilution suggests potential challenges ahead, possibly due to anticipated legal obstacles (Article 1, Article 3). The decision marks a crucial step in climate-related policy, yet it aligns with expectations of a legal backlash (Article 3).
+
+2. The New York Times, https://www.nytimes.com/2024/03/06/climate/sec-climate-disclosure-regulations.html
+1. Reuters, https://www.reuters.com/sustainability/boards-policy-regulation/us-sec-vote-long-awaited-overhaul-corporate-climate-disclosure-rules-2024-03-06/
+3. Politico, https://www.politico.com/news/2024/03/06/sec-set-to-launch-landmark-climate-rule-sparking-legal-blitz-00145323
+### SEC's Revised Climate Disclosure Rule
+
+The SEC has passed a new rule requiring certain US public companies to report their greenhouse gas emissions and climate risks, albeit in a weaker form than initially proposed, following strong opposition from the business community (Article 2). The final rule omits requirements for companies to report some indirect (Scope 3) emissions, which can occur along a company's supply chain or from customer usage of a product, due to concerns over the difficulty and feasibility of quantifying such emissions (Article 2). Despite this dilution, the rule marks a step towards aligning the US with regions like the EU and California, which have already implemented corporate climate disclosure rules. However, the changes have sparked debate over the SEC's reach and effectiveness in protecting investors from climate-related risks (Article 2, Article 3).
+
+2. AP News, https://apnews.com/article/climate-change-sec-disclosure-companies-emissions-risks-b5bb510f9167ef396ee2fbc5a02ba1cf
+3. Reuters, https://www.reuters.com/sustainability/boards-policy-regulation/us-sec-vote-long-awaited-overhaul-corporate-climate-disclosure-rules-2024-03-06/

@@ -1,5 +1,6 @@
 from summed import *
 from api_toolbox import get_gpt_response
+from datetime import datetime
 import json 
 import time
 # Components of Morning Briefing: 
@@ -32,36 +33,42 @@ import time
 # Get the top headlines and top trending once per day and store them in files
 NUM_TRENDING_BRIEFS = 3
 NUM_HEADLINE_BRIEFS = 3
+curr_date = datetime.now().strftime('%Y-%m-%d')
 
 def getTopHeadlinesBriefs():
-    """Writes top headline briefs to a file"""
+    """Writes top headline briefs to a file marked by current date"""
     global todays_top_briefs
     top_headline_briefs = in_brief("top headlines", NUM_HEADLINE_BRIEFS)
-    with open('brief_files/headlines.txt', 'w') as file:
+    filename = "brief_files/headlines_" + curr_date + ".txt"
+    with open(filename, 'w') as file:
         file.write(top_headline_briefs)
 
 def getTrendingBriefs():
-    """Writes top trending briefs to a file"""
+    """Writes top trending briefs to a file marked by current date"""
     trending_keywords = get_trending_topics(NUM_TRENDING_BRIEFS)
-    with open('brief_files/trending.txt', 'w') as file:
+    filename = "brief_files/trending_" + curr_date + ".txt"
+    with open(filename, 'w') as file:
         for keyword in trending_keywords:
             trending_brief = in_brief(keyword, 1)
             file.write(trending_brief)
     
-def search(company, industry, topic): 
+def search(company, industry, topic, topic2): 
     # Get the top headlines from headlines.txt
-    with open('brief_files/headlines.txt', 'r') as file:
+    headline_filename = "brief_files/headlines_" + curr_date + ".txt"
+    with open(headline_filename, 'r') as file:
         headlines_content = file.read()
     top_briefs = headlines_content
     
+    # Get trending headlines from trending.txt
+    trending_filename = "brief_files/trending_" + curr_date + ".txt"
+    with open(trending_filename, 'r') as file:
+        trending_content = file.read()
+    trending_briefs = trending_content
+
     career_briefs = in_brief(company, 2)
     industry_briefs = in_brief(industry, 2)
     topic_briefs = in_brief(topic, 2)
-    
-    # Get trending headlines from trending.txt
-    with open('brief_files/trending.txt', 'r') as file:
-        trending_content = file.read()
-    trending_briefs = trending_content
+    topic2_briefs = in_brief(topic2, 2)
 
     briefing_dictionary = {}
     briefing_dictionary["top_headlines"] = top_briefs
@@ -70,6 +77,8 @@ def search(company, industry, topic):
         custom_headline_briefs = custom_headline_briefs + "\n" + industry_briefs
     if topic_briefs is not None:
         custom_headline_briefs = custom_headline_briefs + "\n" + topic_briefs
+    if topic2_briefs is not None:
+        custom_headline_briefs = custom_headline_briefs + "\n" + topic2_briefs
     if career_briefs is not None:
         custom_headline_briefs = custom_headline_briefs + "\n" + career_briefs
     briefing_dictionary["custom_headlines"] = custom_headline_briefs
@@ -99,5 +108,15 @@ def search(company, industry, topic):
     print(summary)
 
 
-# Testing: 
-search("Amazon Corporation", "Sony Corporation", "Elden Ring")
+# Run this one time per day
+getTopHeadlinesBriefs()
+getTrendingBriefs()
+
+# Viraj
+# search("Amazon Corporation", "Sony Corporation", "Elden Ring")
+
+# Nick
+# search("2024 US Election", "Climate and Business", "Washington state politics", "Alberta provincial politics")
+
+# Christian: global politics and economy, basketball, social science acadameia, armenia, turkey, scientific innovation
+# search("Global Politics and Economy", "Basketball", "Armenia", "Turkey")

@@ -335,7 +335,8 @@ def in_brief(keyword, num_briefs):
   if __debug__:
     start_time = time.time()
   if (keyword.lower() == "top headlines"):
-    print("searching top headlines")
+    if __debug__:
+      print("searching top headlines")
     news_results = get_google_results("", num_briefs)
   else:
     news_results = get_google_results(keyword, num_briefs)  
