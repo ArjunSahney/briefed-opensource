@@ -72,8 +72,5 @@ def download_main_image(url):
     else:
         print("No main image found in the article.")
 
-# Prompt the user to enter the article URL
-url = input("Enter the article URL: ")
-
 # Download the main image
-download_main_image(url)
+download_main_image("https://www.bbc.com/news/world-europe-68601131")
