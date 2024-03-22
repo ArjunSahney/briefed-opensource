@@ -17,6 +17,7 @@ from openai import OpenAI
 from api_toolbox import *
 from spaCy_summarizer import *
 import time # debugging latency
+from datetime import datetime
 
 # How many articles summarized per brief
 ARTICLES_PER_BRIEF = 3
@@ -243,6 +244,9 @@ def generate_brief(article_dict):
   use information from a specific article, for example: (Article 2, Article 3).
   Include a short title for the summary. Limit response to 100 words.
   {json.dumps(article_dict, indent=4)}"""
+  if __debug__:
+    print("Article dictionary: ")
+    print(json.dumps(article_dict, indent=4))
   summary = get_gpt_response(summary_prompt, gpt_model="gpt-4-turbo-preview")
 
   # Retrieve sources used in summary using regex
@@ -332,9 +336,16 @@ def in_brief(keyword, num_briefs):
   str
     Consolidated list of briefs on keyword
   """
+  # If brief file already exists, do not create a new one and return contents of current file
+  curr_date = datetime.now().strftime('%Y-%m-%d')
+  filename = "brief_files/" + keyword + "_" + curr_date + ".txt"
+  if os.path.exists(filename):
+    with open(filename, 'r') as file:
+      content = file.read()
+    return content
   if __debug__:
     start_time = time.time()
-  if (keyword.lower() == "top headlines"):
+  if (keyword.lower() == "headlines"):
     if __debug__:
       print("searching top headlines")
     news_results = get_google_results("", num_briefs)
@@ -394,7 +405,7 @@ def in_brief(keyword, num_briefs):
           end_time = time.time()
           duration = end_time - start_time
           print(f"Generate brief execution time: {duration} seconds")
-  filename = "brief_files/" + keyword + ".txt"
+          
   with open(filename, 'w') as file:
     # First write operation
     file.write(brief)

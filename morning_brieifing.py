@@ -38,7 +38,7 @@ curr_date = datetime.now().strftime('%Y-%m-%d')
 def getTopHeadlinesBriefs():
     """Writes top headline briefs to a file marked by current date"""
     global todays_top_briefs
-    top_headline_briefs = in_brief("top headlines", NUM_HEADLINE_BRIEFS)
+    top_headline_briefs = in_brief("headlines", NUM_HEADLINE_BRIEFS)
     filename = "brief_files/headlines_" + curr_date + ".txt"
     with open(filename, 'w') as file:
         file.write(top_headline_briefs)
@@ -52,15 +52,23 @@ def getTrendingBriefs():
             trending_brief = in_brief(keyword, 1)
             file.write(trending_brief)
     
-def search(company, industry, topic, topic2): 
+def search(company, industry, topic, topic2=""): 
     # Get the top headlines from headlines.txt
     headline_filename = "brief_files/headlines_" + curr_date + ".txt"
+    if not os.path.exists(headline_filename):
+        if __debug__:
+            print("Getting Headlines")
+        getTopHeadlinesBriefs()
     with open(headline_filename, 'r') as file:
         headlines_content = file.read()
     top_briefs = headlines_content
     
     # Get trending headlines from trending.txt
     trending_filename = "brief_files/trending_" + curr_date + ".txt"
+    if not os.path.exists(trending_filename):
+        if __debug__:
+            print("Getting Trending Headlines")
+        getTrendingBriefs()
     with open(trending_filename, 'r') as file:
         trending_content = file.read()
     trending_briefs = trending_content
@@ -68,7 +76,7 @@ def search(company, industry, topic, topic2):
     career_briefs = in_brief(company, 2)
     industry_briefs = in_brief(industry, 2)
     topic_briefs = in_brief(topic, 2)
-    topic2_briefs = in_brief(topic2, 2)
+    # topic2_briefs = in_brief(topic2, 2)
 
     briefing_dictionary = {}
     briefing_dictionary["top_headlines"] = top_briefs
@@ -77,8 +85,8 @@ def search(company, industry, topic, topic2):
         custom_headline_briefs = custom_headline_briefs + "\n" + industry_briefs
     if topic_briefs is not None:
         custom_headline_briefs = custom_headline_briefs + "\n" + topic_briefs
-    if topic2_briefs is not None:
-        custom_headline_briefs = custom_headline_briefs + "\n" + topic2_briefs
+    # if topic2_briefs is not None:
+    #     custom_headline_briefs = custom_headline_briefs + "\n" + topic2_briefs
     if career_briefs is not None:
         custom_headline_briefs = custom_headline_briefs + "\n" + career_briefs
     briefing_dictionary["custom_headlines"] = custom_headline_briefs
@@ -96,7 +104,7 @@ def search(company, industry, topic, topic2):
     tailored to the listener's interests (custom_headlines), and lighter, fun news stories to start the day on a positive note 
     (fun_headlines). Aim for minimal bias, ensuring that the information is presented clearly and factually, without leaning towards 
     any particular viewpoint and cite the sources given the sources provided in the given dictionary: .{json.dumps(briefing_dictionary, indent=4)}"""
-    print(summary_prompt_v2)
+    print(summary_prompt)
     if __debug__:
         start_time = time.time()
     summary = get_gpt_response(summary_prompt_v2, gpt_model="gpt-4-turbo-preview")
@@ -109,14 +117,17 @@ def search(company, industry, topic, topic2):
 
 
 # Run this one time per day
-getTopHeadlinesBriefs()
-getTrendingBriefs()
+# getTopHeadlinesBriefs()
+# getTrendingBriefs()
 
 # Viraj
 # search("Amazon Corporation", "Sony Corporation", "Elden Ring")
 
 # Nick
-# search("2024 US Election", "Climate and Business", "Washington state politics", "Alberta provincial politics")
+search("2024 US Election", "Climate and Business", "Alberta provincial politics", "Washington state politics")
 
 # Christian: global politics and economy, basketball, social science acadameia, armenia, turkey, scientific innovation
 # search("Global Politics and Economy", "Basketball", "Armenia", "Turkey")
+
+# Daniel
+# search("cats", "Technology", "piano", "")

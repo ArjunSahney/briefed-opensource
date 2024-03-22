@@ -3,6 +3,7 @@ from api_toolbox import *
 from bs4 import BeautifulSoup
 from http.client import RemoteDisconnected
 import requests
+from requests.exceptions import ConnectionError, Timeout, RequestException
 import time # debugging latency
 
 # Load the pre-trained spaCy model
@@ -21,12 +22,15 @@ def get_text_beautifulSoup(url):
     str
     """
     try:
-        page = requests.get(url)
+        page = requests.get(url=url, timeout=10)
     except requests.exceptions.ConnectionError as e:
         if isinstance(e.args[0], RemoteDisconnected):
             print("RemoteDisconnected: The remote end closed connection without response")
         else:
             print("Other ConnectionError occurred")
+        return None
+    except Timeout:
+        print("The request timed out after 10 seconds.")
         return None
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
