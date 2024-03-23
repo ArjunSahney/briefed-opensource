@@ -123,7 +123,7 @@ def get_formatted_googleNews_contents(keywords):
           continue
 
         # Generate a summary for the article using a summarization function (spaCy)
-        summary = get_spaCy_article_summary(link, ratio=0.05, max_words=None)
+        summary = get_spaCy_article_summary(link, ratio=0.02, max_words=None)
         
         # Attempt to extract the publication date. Doesn't convert '5 hours ago' to today's date.
         date = article.get('date', None)
@@ -139,7 +139,7 @@ def get_formatted_googleNews_contents(keywords):
         articles_summarized += 1
         
         # Add the article details to the dictionary, using the summary count as a key.
-        articles_dict[articles_summarized] = {
+        articles_dict[source] = {
             "title": title,
             "summary": summary,
             "source": source,
@@ -215,14 +215,15 @@ def get_formatted_newsAPI_contents(keywords, google_news_results):
 # TODO: Modify dictionary by removing source/url from copy you put into GPT
 def generate_brief(article_dict):
   """Receives article dictionary of form:
+    (v2)
     articles_dict : {
-      1: {
+      source: {
           "title": "Title 1"
           "summary": "Summary 1"
           "source": "Source 1"
           "url": "https://example.com/article1"
       }
-      2: ... 
+      source: ... 
       ...
     }
     And returns a brief. Can be called whenever you have multiple URLs & sources
@@ -239,44 +240,55 @@ def generate_brief(article_dict):
       Brief
   """
   # Get summary with GPT-4
-  summary_prompt = f"""Summarize the key points in this 'articles dictionary' into an 
-  explainer. Cite the article number in parens when you
-  use information from a specific article, for example: (Article 2, Article 3).
-  Include a short title for the summary. Limit response to 100 words.
+  summary_prompt = f"""Summarize the key points in this 'articles dictionary' into an explainer. Cite the article source in parens when you use information from a specific article, for example: (Source 1, Source 2). Include a short title for the summary. Limit response to 100 words. 
   {json.dumps(article_dict, indent=4)}"""
   if __debug__:
     print("Article dictionary: ")
     print(json.dumps(article_dict, indent=4))
   summary = get_gpt_response(summary_prompt, gpt_model="gpt-4-turbo-preview")
 
-  # Retrieve sources used in summary using regex
+  # Retrieve sources in parens in summary using regex
   import re
-  # Step 1: Match the entire sequence within parentheses
-  pattern = r"\((Article\s+\d+(?:,\s*Article\s+\d+)*)\)"
-  # Step 2: Find all matches in the text for the sequences
-  sequences_matches = re.findall(pattern, summary)
-  # Step 3: Extract individual article numbers from each matched sequence
-  article_numbers = []
-  for sequence in sequences_matches:
-      nums = re.findall(r"Article\s+(\d+)", sequence)
-      article_numbers.extend(nums)  # Add found numbers to the main list
-  # Step 4: Capture standalone article numbers in the format "(3)"
-  standalone_nums = re.findall(r"\((\d+)\)", summary)
-  article_numbers.extend(standalone_nums)
+  possible_sources = re.findall(r"\(([^)]+)\)", summary)
+  # Confirm if the sources are in article dictionary
+  confirmed_sources = []
+  for source in possible_sources:
+    if source in article_dict:
+      confirmed_sources.append(source)
+  # # Step 1: Match the entire sequence within parentheses
+  # pattern = r"\((Article\s+\d+(?:,\s*Article\s+\d+)*)\)"
+  # # Step 2: Find all matches in the text for the sequences
+  # sequences_matches = re.findall(pattern, summary)
+  # # Step 3: Extract individual article numbers from each matched sequence
+  # article_numbers = []
+  # for sequence in sequences_matches:
+  #     nums = re.findall(r"Article\s+(\d+)", sequence)
+  #     article_numbers.extend(nums)  # Add found numbers to the main list
+  # # Step 4: Capture standalone article numbers in the format "(3)"
+  # standalone_nums = re.findall(r"\((\d+)\)", summary)
+  # article_numbers.extend(standalone_nums)
   
-  # Convert matched article numbers from strings to integers
-  article_numbers_int = [int(num) for num in article_numbers]
+  # # Convert matched article numbers from strings to integers
+  # article_numbers_int = [int(num) for num in article_numbers]
   # Prevent double citations and add to a sources string
   seen_articles = set()
   sources = "\n"
-  for article_num in article_numbers_int:
-    if article_num in seen_articles:
+  # for article_num in article_numbers_int:
+  #   if article_num in seen_articles:
+  #     continue
+  #   seen_articles.add(article_num)
+  #   article_source = article_dict[article_num]["source"]
+  #   article_url = article_dict[article_num]["url"]
+  #   sources = sources + "\n" + str(article_num) + ". " + article_source + ", " + article_url
+  article_num = 0
+  for article_source in confirmed_sources:
+    article_num += 1
+    if article_source in seen_articles:
       continue
-    seen_articles.add(article_num)
-    article_source = article_dict[article_num]["source"]
-    article_url = article_dict[article_num]["url"]
-    sources = sources + "\n" + str(article_num) + ". " + article_source + ", " + article_url
-
+    seen_articles.add(article_source)
+    article_url = article_dict[article_source]["url"]
+    article_date = article_dict[article_source]["date"]
+    sources = sources + "\n" + str(article_num) + ". " + article_source + ", " + article_date + ", " + article_url
   return (summary + sources + "\n")
 
 def get_trending_topics(num_results):
@@ -411,7 +423,7 @@ def in_brief(keyword, num_briefs):
     file.write(brief)
   return brief
 
-# print(in_brief("NVIDIA", 1))
+print(in_brief("Trump", 1))
 # results = get_google_results("Biden", 5)
 # results = results[:5]
 # print(json.dumps(results, indent=4))
