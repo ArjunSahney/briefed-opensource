@@ -1,3 +1,4 @@
+
 """Searches google news, retrieves top articles, summarizes articles into keywords.
 Searches keywords through News API, gets contents of every article 
 returned by News API, summarizes using GPT-4. Combined summaries into a combined
@@ -18,6 +19,7 @@ from api_toolbox import *
 from spaCy_summarizer import *
 import time # debugging latency
 from datetime import datetime
+from image_scraper import download_main_image
 
 # How many articles summarized per brief
 ARTICLES_PER_BRIEF = 5
@@ -348,9 +350,9 @@ def in_brief(keyword, num_briefs):
   """
   # If brief file already exists, do not create a new one and return contents of current file
   curr_date = datetime.now().strftime('%Y-%m-%d')
-  filename = "brief_files/" + keyword + "_" + curr_date + ".txt"
-  if os.path.exists(filename):
-    with open(filename, 'r') as file:
+  brief_filename = "brief_files/" + keyword + "_" + curr_date + ".txt"
+  if os.path.exists(brief_filename):
+    with open(brief_filename, 'r') as file:
       content = file.read()
     return content
   if __debug__:
@@ -411,19 +413,36 @@ def in_brief(keyword, num_briefs):
         if __debug__:
           start_time = time.time()
         brief_json_list.append(generate_brief(formatted_contents, search_keywords))
+        image_downloaded = False
+        # Image generation
+        # For each brief, pull one image from a source -- if there is an error move on to next source
+        # Save the image as the same filename as brief just img
+        img_filename = keyword + "_" + curr_date
+        for article in formatted_contents.items():
+          if __debug__:
+            print("Printing article JSON for image generation")
+            print(json.dumps(article, indent=4))
+            url = article[1]['url']
+            print(url)
+            # Download the main image from the article URL if not already downloaded and if url is valid
+            if not image_downloaded and url is not None:
+              if download_main_image(url, img_filename):
+                image_downloaded = True
+
         if __debug__:
           end_time = time.time()
           duration = end_time - start_time
           print(f"Generate brief execution time: {duration} seconds")
           
-  with open(filename, 'w') as file:
+  with open(brief_filename, 'w') as file:
     # First write operation
     brief_string = json.dumps(brief_json_list, indent=4)
 
     file.write(brief_string)
   return brief_string
 
-print(in_brief("Trump", 3))
+
+print(in_brief("Trump", 1))
 # results = get_google_results("Biden", 5)
 # results = results[:5]
 # print(json.dumps(results, indent=4))
