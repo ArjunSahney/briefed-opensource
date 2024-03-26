@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 
-def download_main_image(url):
+def download_main_image(url, filename):
     """
     Downloads the main image from the specified article URL.
 
@@ -54,8 +54,7 @@ def download_main_image(url):
             # Create an absolute URL by joining the base URL and the relative image URL
             img_url = url.rsplit('/', 1)[0] + '/' + img_url
 
-        # Extract the filename from the image URL
-        filename = os.path.basename(img_url)
+    
 
         # Create the "img" folder if it doesn't exist
         if not os.path.exists('img'):
@@ -69,8 +68,10 @@ def download_main_image(url):
             file.write(img_response.content)
 
         print(f"Main image downloaded successfully as {filename} in the img folder.")
+        return True
     else:
         print("No main image found in the article.")
+        return False
 
 # Download the main image
 download_main_image("https://www.bbc.com/news/world-europe-68601131")

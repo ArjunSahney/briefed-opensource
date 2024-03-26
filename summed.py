@@ -18,6 +18,7 @@ from api_toolbox import *
 from spaCy_summarizer import *
 import time # debugging latency
 from datetime import datetime
+from image_scraper import download_main_image
 
 # How many articles summarized per brief
 ARTICLES_PER_BRIEF = 5
@@ -411,6 +412,18 @@ def in_brief(keyword, num_briefs):
         if __debug__:
           start_time = time.time()
         brief_json_list.append(generate_brief(formatted_contents, search_keywords))
+        image_downloaded = False
+        # Image generation
+        # For each brief, pull one image from a source -- if there is an error move on to next source
+        # Save the image as the same filename as brief just img
+        for source, articles in formatted_contents.items():
+          for article in articles:
+              url = article["url"]
+              # Download the main image from the article URL if not already downloaded
+              if not image_downloaded:
+                  if download_main_image(url, filename):
+                      image_downloaded = True
+
         if __debug__:
           end_time = time.time()
           duration = end_time - start_time
@@ -422,6 +435,7 @@ def in_brief(keyword, num_briefs):
 
     file.write(brief_string)
   return brief_string
+
 
 print(in_brief("Trump", 3))
 # results = get_google_results("Biden", 5)
