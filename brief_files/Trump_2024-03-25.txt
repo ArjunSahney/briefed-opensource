@@ -1,0 +1,21 @@
+[
+    {
+        "Title": "Trump's Net Worth Soars to $6.5 Billion",
+        "Summary": "Donald Trump's net worth surged to $6.5 billion, placing him among the world's 500 richest people, following a successful merger between Trump Media & Technology Group and Digital World Acquisition Corp (DWAC), enhancing his wealth substantially. Trump, owning a majority stake in his social media company, witnessed a significant stock price jump after the merger, propelling his net worth to new heights. This financial milestone was further aided by a court ruling reducing the bond he must post in a civil fraud lawsuit, solidifying his billionaire status despite recent challenges (CNBC, USA Today, CNN)."
+    },
+    {
+        "Title": "Trump Hush Money Trial Date Set for April 15",
+        "Summary": "The trial date for former President Donald Trump's hush money case has been set for April 15 by New York judge Juan M. Merchan, amidst objections from Trump's legal team (AP News, CBS News, NBC News). Trump criticized the trial date, labeling it as 'election interference' and deemed it 'unfair' due to its timing within the election cycle (AP News). Despite Trump's complaints and his attorney's attempts to delay the trial due to a recent influx of nearly 200,000 pages of evidence, Judge Merchan rejected these bids for postponement (CBS News, The Washington Post). This trial, focusing on allegations of hush money paid during Trump's 2016 campaign to cover up claims of marital infidelity, becomes the first-ever criminal trial against a former president (AP News, NBC News). Prosecutorial misconduct claims by Trump's lawyers were dismissed by Merchan, highlighting their failure to support their assertions legally and clarifying that the late evidence production was not the fault of the Manhattan District Attorney's office (AP News, NBC News, The Washington Post).",
+        "sources": [
+            [
+                "AP News",
+                "https://apnews.com/article/trump-hush-money-trial-new-york-b8fb980a6ec745e918a13e676b7f1460",
+                "2 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "None",
+        "Summary": "None"
+    }
+]

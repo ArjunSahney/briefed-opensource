@@ -30,8 +30,7 @@ from serpapi import GoogleSearch
 __author__ = "Ram Gorthi, DJun Sahney"
 __version__ = "1.0"
 
-
-def get_gpt_response(prompt, gpt_model="gpt-4"):
+def get_gpt_response(prompt, gpt_model="gpt-4", response_format=""):
   """Encapsulates GPT prompting
   User provides prompt and gets only the text of GPT response
 
@@ -52,15 +51,27 @@ def get_gpt_response(prompt, gpt_model="gpt-4"):
   client = OpenAI(
       api_key=os.environ.get("openai_api_key"),
   )
-  response = client.chat.completions.create(
-  messages=[
-    {
-      "role": "user",
-      "content": prompt,
-    }
-  ],
-  model=gpt_model,
-  )
+  if response_format == "json": 
+    response = client.chat.completions.create(
+    messages=[
+      {
+        "role": "user",
+        "content": prompt,
+      }
+    ],
+    response_format={ "type": "json_object" },
+    model=gpt_model,
+    )
+  else:
+    response = client.chat.completions.create(
+    messages=[
+      {
+        "role": "user",
+        "content": prompt,
+      }
+    ],
+    model=gpt_model,
+    )
   if response.choices:
     response_text = response.choices[0].message.content
     return response_text
@@ -146,6 +157,11 @@ def get_google_results(query, num_results, engine="google_news", topic_token=Non
 
     search = GoogleSearch(params)
     results = search.get_dict()
+    if __debug__:
+      print("Serp API returns:")
+      print(results['search_metadata']['id'])
+      print(json.dumps(results, indent=4))
+
     news_results = results.get("news_results", [])
     if not news_results:
         return None
@@ -242,3 +258,64 @@ def get_news_api_response(query, get="articles", endpoint="/v2/everything"):
   else:
     print("Error: In get_news_api_response, invalid 'get'")
     return None
+  
+def get_google_results_valueserp(query, num_results, engine="google_news", topic_token=""):
+  api_key=os.environ.get("valueserp_api_key")
+  if (query == ""):
+    if __debug__:
+      print("Searching top headlines in get_google_results()")
+    params = {
+      "engine": engine,
+      "api_key": api_key,
+    }
+    search = GoogleSearch(params)
+    results = search.get_dict()
+    news_results = results.get("news_results", [])
+    if not news_results:
+        return None
+    formatted_news_results = []
+    if __debug__:
+      print(json.dumps(news_results[:num_results], indent=4))
+    # Handle the unique JSON we receive when searching top results
+    for result in news_results[:num_results]:
+      title = None
+      if 'highlight' in result and 'title' in result['highlight']:
+        title = result['highlight']['title']
+      else:
+        title = result['title']
+      formatted_news_results.append({
+          'title': title
+      })
+  # Handling non-query case    
+  else:
+    params = {
+      "api_key": 'A61DF7F071AF47188730C0403D04C287',
+      "search_type": 'news',
+      'q': query,
+      'hl': 'en',
+      'time_period': 'last_day'
+
+    }
+    # make the http GET request to VALUE SERP
+    api_result_string = requests.get('https://api.valueserp.com/search', params)
+    api_result_json = json.dumps(api_result_string.json(), indent=4)
+    api_result_json = json.loads(api_result_json)
+    
+    news_results = api_result_json.get("news_results", [])
+    if not news_results:
+        return None
+
+    # Select the top `num_results` news items
+    top_news_results = news_results[:num_results]
+    if __debug__:
+      print(json.dumps(top_news_results, indent=4))
+    # Optionally, format the results for cleaner output
+    formatted_news_results = [{
+          'title': result['title'],
+          'link': result['link'],
+          'source': result['source'],
+          'date': result['date'],
+          'snippet': result['snippet']
+      } for result in top_news_results]
+
+  return formatted_news_results

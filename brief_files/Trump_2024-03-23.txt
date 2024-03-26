@@ -1,0 +1,9 @@
+```json
+{
+    "Title": "Trump Campaign Strategy Derailment: An Unfolding Saga",
+    "Summary": "The campaign to courthouse strategy of former President Donald Trump has hit a potential snag, revealing a tumultuous blend of legal challenges and political strife. At the heart of the derailment is Trump's intense pressure on Vice President Pence before the January 6 riot, where he allegedly threatened Pence's political future in a bid to overturn the 2020 election results (AppleValleyNewsNow.com). This incident reflects a wider pattern of Trump's aggressive tactics to maintain power and influence, which now sees him scrambling to raise a significant sum for a bond related to a civil fraud trial (Yahoo News Canada). These events not only spotlight the legal quandaries facing Trump but also the deep divisions and tensions within the political landscape as he continues his political endeavors."
+}
+```
+
+1. AppleValleyNewsNow.com, 6 hours ago, https://www.applevalleynewsnow.com/news/politics/national-politics/trump-stares-down-first-derailment-of-his-campaign-to-courthouse-strategy/image_67bb81f2-1f78-591f-a67e-3ab2073cf30c.html
+2. Yahoo News Canada, 7 hours ago, https://ca.news.yahoo.com/trump-threatened-pence-phone-call-192720831.html

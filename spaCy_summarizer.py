@@ -119,9 +119,11 @@ def get_spaCy_article_summary(url, ratio=0.1, max_words=None):
     article_text = get_text_beautifulSoup(url)
     if article_text is None:
         return None
-    # start_time = time.time()
+    if __debug__:
+        start_time = time.time()
     summary = spaCy_summarize(article_text, ratio=ratio, max_words=max_words)
-    # end_time = time.time()
-    # duration = end_time - start_time
-    # print(f"spaCy summarizer: {duration} seconds")
+    if __debug__:
+        end_time = time.time()
+        duration = end_time - start_time
+        print(f"spaCy summarizer: {duration} seconds")
     return summary
