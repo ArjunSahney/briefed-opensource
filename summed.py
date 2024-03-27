@@ -242,7 +242,11 @@ def generate_brief(article_dict, keyword):
       Brief, containing title, summary, sources as separate key-value pairs
   """
   # Get summary with GPT-4
-  summary_prompt = f"""Summarize the key points in this JSON of articles into an explainer. Cite the article source in parens at the end of each sentence when you use information from a specific article, for example: (Source 1, Source 2). Limit response to 100 words. Ignore any articles not pertaining to the keyword '{keyword}'. If there are no relevant articles, return None for title and summary. Explain key concepts and details. Use clear, precise language. Prioritize substance.
+  #   Ignore any articles not pertaining to the keyword '{keyword}'. 
+
+  summary_prompt = f"""Summarize the key points in this JSON of articles into an explainer. Cite the article source in parens at the end of each sentence when you use information from a specific article, for example: (Source 1, Source 2). Limit response to 100 words. 
+  If there are no relevant articles, return None for title and summary. 
+  Explain key concepts and details. Use clear, precise language. Prioritize substance.
   Return response in a JSON of this format: {{ "Title": title, "Summary": summary }}.
   {json.dumps(article_dict, indent=4)}"""
   if __debug__:
@@ -442,7 +446,7 @@ def in_brief(keyword, num_briefs):
   return brief_string
 
 
-print(in_brief("Trump", 1))
+print(in_brief("Climate", 1))
 # results = get_google_results("Biden", 5)
 # results = results[:5]
 # print(json.dumps(results, indent=4))

@@ -59,6 +59,7 @@ def spaCy_summarize(text, ratio=0.1, max_words=None):
     """
     # Process the article text with spaCy
     if len(text) >= nlp.max_length: # Skip extra-long articles
+        print("Article text exceeds max nlp length")
         return None
 
     doc = nlp(text)
@@ -70,8 +71,9 @@ def spaCy_summarize(text, ratio=0.1, max_words=None):
 
     # Sort the sentences by importance and select the top ones based on the ratio
     sorted_sentences = sorted(sentence_importance, key=sentence_importance.get, reverse=True)
-    
+    # print(sorted_sentences)
     if max_words:
+        print(f"Compacting summary to {max_words}")
         # Combine the selected sentences into a single string until the word limit is reached
         summary_text = ""
         word_count = 0
@@ -92,8 +94,6 @@ def spaCy_summarize(text, ratio=0.1, max_words=None):
     lines = summary_text.strip().split('\n')
     if lines[0].strip().startswith('Follow'):
         summary_text = '\n'.join(lines[1:])
-    else:
-        summary_text = text
 
     return summary_text
 
