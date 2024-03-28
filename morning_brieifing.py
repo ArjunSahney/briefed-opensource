@@ -3,6 +3,7 @@ from api_toolbox import get_gpt_response
 from datetime import datetime
 import json 
 import time
+
 # Components of Morning Briefing: 
     # 1. Top headlines (4)
     # 2. Top relevant/industry headlines (5)
