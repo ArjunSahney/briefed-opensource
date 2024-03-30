@@ -37,9 +37,10 @@ def get_gpt_response(prompt, gpt_model="gpt-4", response_format=""):
   Parameters
   ----------
   prompt : str
-  model : str, optional (default is "gpt-4")
+  gpt_model : str, optional (default is "gpt-4")
     Can also input "gpt-3.5-turbo"
-
+  response_format : str, optional
+    Input "json" for json format
   Returns
   -------
   str
@@ -289,7 +290,7 @@ def get_google_results_valueserp(query, num_results, engine="google_news", topic
   # Handling non-query case    
   else:
     params = {
-      "api_key": 'A61DF7F071AF47188730C0403D04C287',
+      "api_key": api_key,
       "search_type": 'news',
       'q': query,
       'hl': 'en',

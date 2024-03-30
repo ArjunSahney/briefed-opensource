@@ -1,0 +1,29 @@
+[
+    {
+        "Title": "Baltimore Key Bridge Collapse: Overview and Response",
+        "Summary": "A catastrophic collapse of the Francis Scott Key Bridge in Baltimore has left four construction workers missing, presumed dead, with ongoing round-the-clock recovery operations (The Independent). Maryland Governor Wes Moore has committed to addressing the disaster, which has significantly disrupted port operations and will likely cost $2 billion and impact global commerce (The Independent). To aid in the cleanup, the Chesapeake 1000 crane, described as the largest on the Eastern Seaboard, has been deployed (ABC News - Breaking News, Latest News and Videos).",
+        "sources": [
+            [
+                "The Independent",
+                "https://www.independent.co.uk/news/world/americas/baltimore-key-bridge-collapse-deaths-crane-updates-b2520962.html",
+                "52 minutes ago"
+            ],
+            [
+                "ABC News - Breaking News, Latest News and Videos",
+                "https://abcnews.go.com/US/live-updates/baltimore-key-bridge-collapse/cargo-ship-company-says-all-crew-members-safe-108501057?id=108500215",
+                "8 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Pope Francis Prioritizes Health, Absents from Good Friday Event",
+        "Summary": "Pope Francis did not attend the Good Friday event, focusing on preserving his health for upcoming Easter rituals. His past health issues include respiratory problems and surgeries for diverticulosis (Euronews.com, DW, CNN, Reuters, AP News).",
+        "sources": [
+            [
+                "Euronews.com",
+                "https://www.euronews.com/2024/03/30/pope-francis-skips-good-friday-event-to-preserve-health",
+                "7 hours ago"
+            ]
+        ]
+    }
+]

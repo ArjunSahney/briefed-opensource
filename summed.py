@@ -291,7 +291,6 @@ def generate_brief(article_dict, keyword):
     article_date = article_dict[article_source]["date"]
     sources_list_item = [article_source, article_url, article_date]
     sources_list.append(sources_list_item)
-    # sources = sources + "\n" + str(article_num) + ". " + article_source + ", " + article_date + ", " + article_url
     summary_json['sources'] = sources_list
   return (summary_json)
 

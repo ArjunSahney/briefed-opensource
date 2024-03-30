@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "Impact of Climate Change on Earth's Rotation and Timekeeping",
+        "Summary": "Recent studies indicate that climate change is impacting Earth's rotation, potentially affecting global timekeeping mechanisms. Scripps Institution of Oceanography at UCSD found that global warming could delay the introduction of a 'negative leap second' by three years, suggesting changes in Earth's speed (Earth.com). However, there is skepticism regarding the predictability of these changes and the necessity for adjustments in timekeeping. Despite this, the potential technological and data-driven world challenges underscore the urgency in addressing the melting trends associated with climate change (ytech.news).",
+        "sources": [
+            [
+                "Earth.com",
+                "https://www.earth.com/news/global-timekeeping-climate-change-has-slowed-earths-rotation/",
+                "10 hours ago"
+            ],
+            [
+                "ytech.news",
+                "https://ytech.news/en/climate-change-slows-earths-spin-affecting-time-measurement/",
+                "15 hours ago"
+            ]
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "Title": "Carol Burnett's Reflections on a Career Milestone and Meeting Elvis Presley",
+        "Summary": "Carol Burnett shared memories of a difficult performance on 'The Ed Sullivan Show' and meeting Elvis Presley, describing him as 'very sweet.' Her recollections come while promoting her new show 'Palm Royale', highlighting her persistence in working despite obstacles in her career. Burnett's experience with Presley and the challenging performance underscores her resilience in the industry (Fox News, TheWrap, USA Today, Yahoo, RecentlyHeard).",
+        "sources": [
+            [
+                "Fox News",
+                "https://www.foxnews.com/entertainment/carol-burnett-recalls-meeting-sweet-elvis-presley-awful-performance-ed-sullivan-show",
+                "7 hours ago"
+            ]
+        ]
+    }
+]

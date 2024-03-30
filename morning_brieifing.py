@@ -36,7 +36,7 @@ NUM_HEADLINE_BRIEFS = 3
 curr_date = datetime.now().strftime('%Y-%m-%d')
 
 def getTopHeadlinesBriefs():
-    """Writes top headline briefs to a file marked by current date"""
+    """Writes top headline briefs as JSON to a file marked by current date"""
     global todays_top_briefs
     top_headline_briefs = in_brief("headlines", NUM_HEADLINE_BRIEFS)
     filename = "brief_files/headlines_" + curr_date + ".txt"
@@ -48,20 +48,76 @@ def getTrendingBriefs():
     trending_keywords = get_trending_topics(NUM_TRENDING_BRIEFS)
     filename = "brief_files/trending_" + curr_date + ".txt"
     with open(filename, 'w') as file:
+        file.write("{")
         for keyword in trending_keywords:
             trending_brief = in_brief(keyword, 1)
-            file.write(trending_brief)
+            if trending_brief is not None:
+                file.write(trending_brief + ",")
+        file.write("}")
+def generate_morning_briefing(name, briefing_dictionary):
+    """Takes list of briefs and generates morning briefing with GPT call
     
-def search(company, industry, topic, topic2=""): 
+    Parameters
+    ----------
+    briefs : list of strings
+    
+    Returns
+    -------
+    string
+        Morning briefing text
+
+    """
+    summary_prompt = f"""You are a news assistant. Create a morning briefing of approximately 500 words based on the news updates provided below. Aim for minimal bias. Utilize clear and precise language. Prioritize substance. There should be a clean logical flow between topics. Return response in a JSON of this format:
+    {{
+        "Story 1": [
+            briefing,
+            [source 1, source 2, etc],
+        ]
+        ...
+        "Story n": [
+            briefing,
+            [source 1, source 2, etc],
+        ]
+    }}
+    
+    News updates to use in briefing:
+    {json.dumps(briefing_dictionary, indent=4)}
+    """
+    
+    print(summary_prompt)
+    if __debug__:
+        start_time = time.time()
+    morning_briefing = get_gpt_response(summary_prompt, gpt_model="gpt-4-turbo-preview", response_format="json")
+    if __debug__:
+        end_time = time.time()
+        duration = end_time - start_time
+        print(f"Final GPT call execution time: {duration} seconds")
+    
+    filename = "brief_files/morning_" + name + "_" + curr_date + ".txt"
+    with open(filename, 'w') as file:
+        file.write(morning_briefing)
+    filename = "brief_files/briefingJSON_" + name + "_" + curr_date + ".txt"
+    
+    with open(filename, 'w') as file:
+        file.write(json.dumps(briefing_dictionary, indent=4))
+
+    print(morning_briefing) 
+    
+
+def in_morning_brief(name, company, industry, topic): 
+    # Initialize briefs to None
+    trending_briefs = None
+    top_briefs = None
+    custom_headline_briefs = None
     # Get the top headlines from headlines.txt
     headline_filename = "brief_files/headlines_" + curr_date + ".txt"
     if not os.path.exists(headline_filename):
         if __debug__:
-            print("Getting Headlines")
+            print("Getting Top Headlines")
         getTopHeadlinesBriefs()
     with open(headline_filename, 'r') as file:
         headlines_content = file.read()
-    top_briefs = headlines_content
+    top_briefs = json.loads(headlines_content)
     
     # Get trending headlines from trending.txt
     trending_filename = "brief_files/trending_" + curr_date + ".txt"
@@ -71,50 +127,35 @@ def search(company, industry, topic, topic2=""):
         getTrendingBriefs()
     with open(trending_filename, 'r') as file:
         trending_content = file.read()
-    trending_briefs = trending_content
+    if trending_content:
+        # The string is not empty, proceed with JSON parsing
+        trending_content_formatted = trending_content.replace('][', ',')
+        trending_briefs = json.loads(trending_content_formatted)
+    else:
+        # The string is empty
+        if __debug__:
+            print("Trending briefs is empty.")
 
-    career_briefs = in_brief(company, 2)
-    industry_briefs = in_brief(industry, 2)
-    topic_briefs = in_brief(topic, 2)
-    # topic2_briefs = in_brief(topic2, 2)
+    career_content = in_brief(company, 2)
+    industry_content = in_brief(industry, 2)
+    topic_content = in_brief(topic, 2)
+    
+    custom_headline_briefs = []
+    if industry_content is not None:
+        custom_headline_briefs.append(json.loads(industry_content))
+    if topic_content is not None:
+        custom_headline_briefs.append(json.loads(topic_content))
+    if career_content is not None:
+        custom_headline_briefs.append(json.loads(career_content))
 
     briefing_dictionary = {}
-    briefing_dictionary["top_headlines"] = top_briefs
-    custom_headline_briefs = ""
-    if industry_briefs is not None:
-        custom_headline_briefs = custom_headline_briefs + "\n" + industry_briefs
-    if topic_briefs is not None:
-        custom_headline_briefs = custom_headline_briefs + "\n" + topic_briefs
-    # if topic2_briefs is not None:
-    #     custom_headline_briefs = custom_headline_briefs + "\n" + topic2_briefs
-    if career_briefs is not None:
-        custom_headline_briefs = custom_headline_briefs + "\n" + career_briefs
-    briefing_dictionary["custom_headlines"] = custom_headline_briefs
-    briefing_dictionary["trending_headlines"] = trending_briefs
-    
-    summary_prompt_v2 = f"""
-    Create an oral transcript of a morning briefing with a duration of approximately 5 minutes. 
-    Aim for minimal bias, ensuring that the information is presented clearly and factually, without leaning towards 
-    any particular viewpoint and cite the sources provided in the given dictionary: 
-    {json.dumps(briefing_dictionary, indent=4)}"""
-
-    summary_prompt = f"""
-    Create a morning briefing transcript designed to be read aloud, with a duration of approximately 5 minutes. 
-    The briefing should be structured into three distinct sections: top global news stories (top_headlines), news stories 
-    tailored to the listener's interests (custom_headlines), and lighter, fun news stories to start the day on a positive note 
-    (fun_headlines). Aim for minimal bias, ensuring that the information is presented clearly and factually, without leaning towards 
-    any particular viewpoint and cite the sources given the sources provided in the given dictionary: .{json.dumps(briefing_dictionary, indent=4)}"""
-    print(summary_prompt)
-    if __debug__:
-        start_time = time.time()
-    summary = get_gpt_response(summary_prompt_v2, gpt_model="gpt-4-turbo-preview")
-    if __debug__:
-        end_time = time.time()
-        duration = end_time - start_time
-        print(f"Final GPT call execution time: {duration} seconds")
-
-    print(summary)
-
+    if top_briefs:
+        briefing_dictionary["Top Headlines"] = top_briefs
+    if custom_headline_briefs:
+        briefing_dictionary["Custom Headlines"] = custom_headline_briefs
+    if trending_briefs:
+        briefing_dictionary["Trending Headlines"] = trending_briefs
+    generate_morning_briefing(name, briefing_dictionary)
 
 # Run this one time per day
 # getTopHeadlinesBriefs()
@@ -124,7 +165,7 @@ def search(company, industry, topic, topic2=""):
 # search("Amazon Corporation", "Sony Corporation", "Elden Ring")
 
 # Nick
-search("2024 US Election", "Climate and Business", "Alberta provincial politics", "Washington state politics")
+in_morning_brief("Nick", "2024 US Election", "Climate and Business", "Alberta provincial politics")
 
 # Christian: global politics and economy, basketball, social science acadameia, armenia, turkey, scientific innovation
 # search("Global Politics and Economy", "Basketball", "Armenia", "Turkey")

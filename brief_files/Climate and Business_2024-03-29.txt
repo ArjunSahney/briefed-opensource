@@ -1,0 +1,13 @@
+[
+    {
+        "Title": "WeHo's Green Initiative",
+        "Summary": "By launching a Green Business Certification program, WeHo has joined efforts with over 4,700 businesses statewide to significantly reduce environmental impacts, achieving remarkable conservation milestones including the reduction of electricity, water usage, landfill materials, and greenhouse gas emissions (WEHOville).",
+        "sources": [
+            [
+                "WEHOville",
+                "https://wehoonline.com/2024/03/29/weho-launches-green-business-certification-program/",
+                "7 hours ago"
+            ]
+        ]
+    }
+]

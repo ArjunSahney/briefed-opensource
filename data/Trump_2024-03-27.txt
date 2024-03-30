@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "Trump Media's Market Debut",
+        "Summary": "Trump's Media Company, on its first trading day, reached a market value of nearly $8 billion, showing a strong Wall Street debut (The New York Times; Reuters). Despite having questionable profit prospects, it surged similarly to 'meme stocks', sharing the spotlight with platforms like Reddit (ABC News - Breaking News, Latest News and Videos). Analysts are speculating whether the investments are more into the firm or Trump's persona, reflecting on the significant share price surge of Truth Social (Hindustan Times).",
+        "sources": [
+            [
+                "ABC News - Breaking News, Latest News and Videos",
+                "https://abcnews.go.com/Business/wireStory/trump-media-reddit-surge-despite-questionable-profit-prospects-108567664",
+                "4 hours ago"
+            ],
+            [
+                "Hindustan Times",
+                "https://www.hindustantimes.com/world-news/us-news/trumps-truth-social-share-surge-explained-are-people-investing-in-firm-or-him-101711537274690.html",
+                "11 hours ago"
+            ]
+        ]
+    }
+]

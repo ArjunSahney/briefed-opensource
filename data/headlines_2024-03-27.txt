@@ -1,0 +1,60 @@
+[
+    {
+        "Title": "Baltimore Key Bridge Collapse: An Overview",
+        "Summary": "Following the initial mayday signal from the cargo ship Dali, Maryland's governor highlighted the prompt response to evacuate the bridge and prevent further entry after its collapse (CNN). The incident involved a vessel collision with the bridge, which is deemed less impactful on global trade despite Baltimore's significant role in specific goods transport (AP News). Two individuals have been recovered, with significant disruptions noted at the Port of Baltimore, including stranded vessels and the Dali experiencing a total loss of power prior to the incident (NBC News). The U.S. Coast Guard has ceased search and rescue efforts due to low survival prospects, highlighting the tragedy's gravity (WBAL-TV).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/us/live-news/baltimore-key-bridge-collapse-03-27-24/index.html",
+                "8 minutes ago"
+            ],
+            [
+                "AP News",
+                "https://apnews.com/article/baltimore-key-bridge-collapse-what-to-know-127d6ae38d63561ca4c1f18b3d508ba6",
+                "2 hours ago"
+            ],
+            [
+                "NBC News",
+                "https://www.nbcnews.com/news/us-news/live-blog/francis-scott-key-bridge-collapse-live-updates-recovery-mission-starts-rcna145224",
+                "1 hour ago"
+            ],
+            [
+                "WBAL-TV",
+                "https://www.wbaltv.com/article/baltimore-bridge-collapse-death-toll-francis-scott-key/60319030",
+                "1 hour ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Joseph Lieberman, Former U.S. Senator and Vice-Presidential Nominee, Passes Away at 82",
+        "Summary": "Joseph I. Lieberman, a notably independent U.S. senator from Connecticut and the first Jewish vice-presidential nominee of a major party, has died. Known for his support of the Iraq War alongside close friend Sen. John McCain, Lieberman occasionally broke from Democratic lines on issues such as education vouchers and consumer lawsuit restrictions. Despite a primary loss in 2006, he won re-election as an independent. Lieberman endorsed Democratic nominees in recent presidential elections and criticized Trump's claims about the 2020 election's legitimacy. His passing has evoked condolences from colleagues, including Sen. Lindsey Graham (Washington Post, CNN).",
+        "sources": [
+            [
+                "Washington Post",
+                "https://www.washingtonpost.com/obituaries/2024/03/27/joe-lieberman-senator-vice-president-dead/",
+                "9 minutes ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/03/27/politics/joe-lieberman/index.html",
+                "38 minutes ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Political Dynamics Surrounding RFK Jr.'s Independent Presidential Bid",
+        "Summary": "Democrats express concern that Robert F. Kennedy Jr., with vice presidential candidate Nicole Shanahan, poses a significant threat by potentially splitting the vote, which could inadvertently aid Donald Trump's campaign (ABC News - Breaking News, Latest News and Videos). Meanwhile, Trump labels Kennedy and Shanahan as 'the most Radical Left Candidates' but paradoxically welcomes their campaign as beneficial for his 'MAGA' movement, suggesting it could detract from Biden's support base (Forbes).",
+        "sources": [
+            [
+                "ABC News - Breaking News, Latest News and Videos",
+                "https://abcnews.go.com/Politics/democrats-sound-alarm-rfk-jr-new-running-mate/story?id=108543625",
+                "4 hours ago"
+            ],
+            [
+                "Forbes",
+                "https://www.forbes.com/sites/caileygleeson/2024/03/27/trump-blasts-rfk-jr-and-nicole-shanahan-but-says-his-radical-left-bid-is-great-for-maga/",
+                "8 hours ago"
+            ]
+        ]
+    }
+]

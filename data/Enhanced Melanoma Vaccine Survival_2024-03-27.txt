@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "Enhanced Melanoma Vaccine Shows Promise for Men",
+        "Summary": "A new melanoma vaccine has shown significant promise in improving long-term survival outcomes for men, as revealed in a breakthrough study from the UVA Cancer Center (UVA Health Newsroom, PC-Tablet).",
+        "sources": [
+            [
+                "UVA Health Newsroom",
+                "https://newsroom.uvahealth.com/2024/03/27/enhanced-melanoma-vaccine-offers-improved-survival-for-men/",
+                "9 hours ago"
+            ],
+            [
+                "PC-Tablet",
+                "https://pc-tablet.com/new-melanoma-vaccine-shows-significant-survival-benefits-for-men/",
+                "4 hours ago"
+            ]
+        ]
+    }
+]

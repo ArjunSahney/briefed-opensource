@@ -1,0 +1,39 @@
+[
+    {
+        "Title": "US Supreme Court Skepticism on Abortion Pill Case",
+        "Summary": "The US Supreme Court justices exhibit skepticism towards the challenge against the abortion pill access, indicating a potential dismissal or limitation of the case. Arguments include concerns over the FDA's removal of certain safeguards for the use of chemical abortion drugs, including necessary in-person doctor visits for checking severe health conditions. The case's controversy revolves around the balance between safeguarding women's health and ensuring access to abortion pills (BBC, CBS News, The New York Times, National Catholic Reporter, Reuters).",
+        "sources": [
+            [
+                "BBC",
+                "https://www.bbc.com/news/world-us-canada-68657692",
+                "6 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Reactions and Implications of the Supreme Court Hearing on Abortion Pill Access",
+        "Summary": "The Supreme Court's hearing on the abortion pill mifepristone has garnered reactions from politicians, doctors, and activists, emphasizing its importance in the backdrop of the 2024 presidential race and reproductive rights debates (WHYY). Demonstrators rallied to highlight the issue's significance, showing the public's engagement and concern (BBC). The case holds particular weight for states like North Carolina, reflecting on past Supreme Court decisions and the potential for telehealth to offer abortion services amidst restrictive laws (North Carolina Health News). U.S. Supreme Court justices, including those appointed by both Trump and Biden, exhibited skepticism towards limiting access to mifepristone, indicating the complex legal and ethical considerations at play. The involvement of major medical organizations underscores the medication's significance beyond abortion, pointing to its role in managing miscarriages (Ohio Capital Journal).",
+        "sources": [
+            [
+                "WHYY",
+                "https://whyy.org/articles/scotus-hearing-abortion-mifepristone-pennsylvania-reaction/",
+                "15 hours ago"
+            ],
+            [
+                "BBC",
+                "https://www.bbc.com/news/av/world-us-canada-68671235",
+                "10 hours ago"
+            ],
+            [
+                "North Carolina Health News",
+                "https://www.northcarolinahealthnews.org/2024/03/27/abortion-pill-mifepristone-supreme-court-case-north-carolina/",
+                "16 hours ago"
+            ],
+            [
+                "Ohio Capital Journal",
+                "https://ohiocapitaljournal.com/2024/03/27/u-s-supreme-court-justices-seem-skeptical-of-limits-on-access-to-abortion-medication/",
+                "16 hours ago"
+            ]
+        ]
+    }
+]

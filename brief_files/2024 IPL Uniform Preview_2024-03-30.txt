@@ -1,0 +1,18 @@
+[
+    {
+        "Title": "Overview of Upcoming IPL 2024 Matches and Trends",
+        "Summary": "The 2024 Indian Premier League (IPL) features vibrant and bold uniforms, reflecting the dynamic nature of Twenty20 cricket, known for its fan engagement and colorful attire (Uni Watch). Sunrisers Hyderabad, boasting a strong lineup including Pat Cummins and Abdul Samad, threatens Gujarat Titans with their explosive form, highlighting the intense competition and strategic gameplay expected in upcoming matches (The Federal News).",
+        "sources": [
+            [
+                "Uni Watch",
+                "https://uni-watch.com/2024/03/30/your-2024-indian-premier-league-uniform-preview/",
+                "4 hours ago"
+            ],
+            [
+                "The Federal News",
+                "https://thefederal.com/cricket/ipl-2024-gt-vs-srh-preview-can-gujarat-stop-explosive-hyderabad-batting-115662",
+                "9 hours ago"
+            ]
+        ]
+    }
+]

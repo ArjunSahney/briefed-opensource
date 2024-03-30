@@ -1,0 +1,39 @@
+[
+    {
+        "Title": "Biden and Trump Amp Up Fundraising Efforts for 2024 Campaign",
+        "Summary": "President Joe Biden's recent NYC fundraising event, featuring past presidents Barack Obama and Bill Clinton and raising over $25M, showcases a robust beginning to his reelection campaign (AP News). Meanwhile, Trump's campaign leverages his attendance at a slain officer's wake to criticize Biden's efforts, hinting at a strategy to evoke favorable media coverage amidst legal challenges (NBC News, CNN). The fundraising race heats up as Trump plans to eclipse Biden's achievement with a $33M Florida event, signifying an escalating battle for the 2024 US election (The Guardian).",
+        "sources": [
+            [
+                "AP News",
+                "https://apnews.com/article/democrats-election-2024-fundraiser-new-york-ebfbc81d3b70f38745ae00c7ce6a382d",
+                "12 hours ago"
+            ],
+            [
+                "The Guardian",
+                "https://www.theguardian.com/us-news/2024/mar/29/biden-trump-election-fundraising",
+                "15 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Key Points in North Dakota's Democratic Presidential Primary 2024",
+        "Summary": "North Dakota's presidential primary allows any eligible voter to participate, provided they declare themselves Democrats and have not taken part in the Republican caucuses on March 4 (Boston Herald, The Bismarck Tribune). Voting in Bismarck takes place at specified times and locations (The Bismarck Tribune). This event precedes the conclusion of the primary season, with Montana, New Jersey, New Mexico, and South Dakota wrapping up the cycle on June 4 (USA Today).",
+        "sources": [
+            [
+                "The Bismarck Tribune",
+                "https://bismarcktribune.com/news/state-regional/government-politics/elections/ap-decision-notes-what-to-expect-in-north-dakotas-democratic-presidential-primary/article_ee3ed6ef-b4ff-5661-b87d-8bcf8d3f2611.html",
+                "16 hours ago"
+            ],
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/news/politics/elections/2024/03/28/election-2024-calendar/72960701007/",
+                "4 hours ago"
+            ],
+            [
+                "Boston Herald",
+                "https://www.bostonherald.com/2024/03/29/what-to-expect-in-north-dakotas-democratic-presidential-primary/",
+                "8 hours ago"
+            ]
+        ]
+    }
+]

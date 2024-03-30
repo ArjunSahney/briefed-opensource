@@ -1,0 +1,24 @@
+[
+    {
+        "Title": "Dog Named Hero Saves Owner",
+        "Summary": "A dog aptly named Hero lived up to his name by leading rescuers to his owner, who had been stuck in a ditch for two days (CBC).",
+        "sources": [
+            [
+                "CBC",
+                "https://www.cbc.ca/news/canada/calgary/hero-dog-taber-alberta-police-rescue-man-1.7159594",
+                "3 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Funding Discrepancy for RCMP Services in Alberta",
+        "Summary": "Alberta is financially contributing to RCMP services that it is not actually receiving, highlighting a concern for fiscal and operational inefficiency within provincial law enforcement funding mechanisms (Edmonton Journal).",
+        "sources": [
+            [
+                "Edmonton Journal",
+                "https://edmontonjournal.com/opinion/columnists/mike-ellis-alberta-is-paying-for-rcmp-services-we-arent-receiving",
+                "10 hours ago"
+            ]
+        ]
+    }
+]
