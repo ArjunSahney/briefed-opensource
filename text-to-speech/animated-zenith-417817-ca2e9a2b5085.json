@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "animated-zenith-417817",
+  "private_key_id": "ca2e9a2b508586e6f4e29190738fd62dad3dafc3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDC4R+iCl2X3FK0\noziEPBU5Zkp3NpH0klkSQikojNrlN2u2FfVzgvGW5ptTeHWEE3cI9/Hz9qjnWlrP\nej0VkWmHQHwIFTW0oQkRSUb19LaZxyDCKHdxZem54WOCsNCdgRRHCKuGgVb2Af9L\nrqBsR3V5uoOy4MA2xVICtx5W3/4T5jYbepeLnPAmCkgeQrUOiJGtcaXg7NMBVkL/\nF/pB+QnRjzpcGeFSsIvv/S9xX9OjaX6EUKzQdIhft9aCQpf+HIWSAra/7sFVE3a3\nQRViRPklGKTbrQRxDgPH5+uQmA1hg8PUGxtPJVAHrQK4HUGWyB7Yas6Ply/n9I5M\n69TsRKEzAgMBAAECggEAEjE96Lya/CA/QEm0bvPE73TTIsnfWjuHQSMYAIcVsCw6\nS+dE4KGqt/GTMnmeTtQaWqX62lF+dwqCS7gXl7nZZhzo90AzoUcfN5PlofRUT4q9\nTiLE87sV1Jpr1bl34Bw6rl7q1EWivph1IrWMmE8bcl+tB7ffeb116Hb7yBRk/apo\nT04lobRTA4M4hH2Ck6ZAqZlqLEbj9lLr9KfsWcQU1vUzzr8jSNkQCcTfOuUpKKSH\n6R8RSPu7m/gQFWr4L1+r+saN7wOB1/H1/H77BsM718v25iOFq1YvfeNXDlfRHlVd\nJVAw3U9ECTRiL5o2vPrib2KYGXfR6YiG90hI3R/nsQKBgQDlKuDQ/+nJV7SaftdV\n0aMtd4AkX3M51dEjY25Pf9MnwCf830LQhEFP8MMRGUavNw075FEllnLj/bQJlsT6\n34oCOADECVtpG4cCVdF+jhi3GI+MJbtSleDxtd83nCSCJh6EsSr21mPpWwJ2Zuy1\nIrZk3L4inBUFRLGI+yoc7l98PQKBgQDZsnxHQ2VKzGZqGVnWMWVrlNd9FU5n08dO\n/isBeLxpWN7hmdcQeOQxQAv3BVCf9Egm8GGCXt64OrIJHOfp2LMCyfWIXU3ujOjZ\nNHSL9c3quEUyZgFExoLmNxKfTB6KOLKDD/gAbF1BKa2Ar2evN6mkzIPv/IzSH5pe\nnzLxF2M6LwKBgEUpmq4Y/jLA4IXcEBsbaNb5ANh5YiorSLIYeRtPJagSiz77Fowd\nziRVMln/ueB5ienwbzkb3dLHJ8XZFdvtCRbAViLT/B2NrEJdKhu6wOTJadFPNein\nyTrJu/NpkW8iGAXN/nx+maq8x9J6H6hPMKLiKBQD7Sgo4jfILZ6Lpo+1AoGBANg7\neUYvo0UQkgmA9MLUfbDGPuR3bVGkAaxsubrUehEJvRjI/d3WtpJU042hMdwvgBtt\nWO1t3juP0ZdLpu+X1vdGMyQnyWjRfdeBSuJaXRZvwgu1Vj1CEHMq8MxZh1wzxNx5\n2BRTjq1TAIt5rrtTxqVynvqZGCb+TQ7/glIGsQDxAoGAGBpmxOEWgO+XIRhewfC5\nllouDJUuf7uM9LYSDSspAwx7a6hz4x/FX4ItytMeEOztZ8MfRF2ZArtjnQY1j2TX\nPvTkSwdhcbw04KbraBnh1Qtibds3u68V9itN9Wbc9ze2vrglvr9BdoKccoVeuTqx\nf9KnrRP9s2kRyxWQBHpBTVo=\n-----END PRIVATE KEY-----\n",
+  "client_email": "textspeech@animated-zenith-417817.iam.gserviceaccount.com",
+  "client_id": "100502454188364515075",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/textspeech%40animated-zenith-417817.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
