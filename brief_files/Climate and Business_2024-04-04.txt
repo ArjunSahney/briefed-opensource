@@ -1,0 +1,26 @@
+[
+    {
+        "Title": "A Small Group's Large Impact on Climate Change",
+        "Summary": "A recent analysis revealed that just 57 companies, including major oil, gas, coal, and cement producers, are responsible for 80% of the world's fossil CO2 emissions since the signing of the Paris climate agreement in 2016, despite growing awareness of climate change and its impacts (The Guardian).",
+        "sources": [
+            [
+                "The Guardian",
+                "https://www.theguardian.com/environment/2024/apr/04/just-57-companies-linked-to-80-of-greenhouse-gas-emissions-since-2016",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/57 Companies Emit 80% GHGs_2024-04-04jpg"
+    },
+    {
+        "Title": "AXA's New Climate Change Training Program for Shareholders",
+        "Summary": "AXA has launched a climate change training program specifically designed for its shareholders. This initiative aims to enhance understanding and management of climate-related impacts within the insurance sector (Insurance Business America).",
+        "sources": [
+            [
+                "Insurance Business America",
+                "https://www.insurancebusinessmag.com/us/news/environmental/axa-establishes-climate-change-training-program-for-shareholders-483868.aspx",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/AXA climate training for shareholders_2024-04-04jpg"
+    }
+]

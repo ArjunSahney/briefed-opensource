@@ -1,0 +1,34 @@
+[
+    {
+        "Title": "Anna Paquin's Red Carpet Appearance with Cane Amid Health Challenges",
+        "Summary": "Anna Paquin used a cane at the New York City premiere of her new film, 'A Bit of Light,' highlighting her mobility and health struggles over the past two years. Despite the challenges, which have also affected her speech, Paquin appeared in good spirits (People.com, Variety, Page Six, TODAY.com, New York Daily News).",
+        "sources": [
+            [
+                "People.com",
+                "https://people.com/anna-paquin-red-carpet-with-cane-amid-ongoing-health-issues-8623670",
+                "5 hours ago"
+            ],
+            [
+                "Variety",
+                "https://variety.com/2024/film/news/anna-paquin-cane-red-carpet-health-issues-mobility-1235960276/",
+                "6 hours ago"
+            ],
+            [
+                "Page Six",
+                "https://pagesix.com/2024/04/04/entertainment/anna-paquin-walks-red-carpet-with-cane-after-health-issues/",
+                "6 hours ago"
+            ],
+            [
+                "TODAY.com",
+                "https://www.today.com/health/anna-paquin-health-rcna146360",
+                "5 hours ago"
+            ],
+            [
+                "New York Daily News",
+                "https://www.nydailynews.com/2024/04/04/anna-paquin-cane-health-problems/",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "img/Anna Paquin Cane Red Carpet_2024-04-04jpg"
+    }
+]

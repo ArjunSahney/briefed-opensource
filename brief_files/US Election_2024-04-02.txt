@@ -1,0 +1,14 @@
+[
+    {
+        "Title": "Brazil's Approach to AI-Generated Disinformation",
+        "Summary": "Brazil has introduced Resolution number 23,732, making social media platforms liable for not removing harmful content that threatens electoral integrity. Conversations in Washington D.C. with stakeholders highlighted the need for a nuanced AI policy, focusing on investment in infrastructure and innovation, human capital development, making AI accessible, and establishing a regulatory framework to bolster the AI ecosystem (The Brazilian Report).",
+        "sources": [
+            [
+                "The Brazilian Report",
+                "https://brazilian.report/opinion/2024/04/02/curb-ai-generated-disinformation-elections/",
+                "10 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Election Results Regulatory Impact_2024-04-02.jpg"
+    }
+]

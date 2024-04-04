@@ -1,0 +1,39 @@
+[
+    {
+        "Title": "Recent Israeli Strike on Gaza Results in Casualties and Suspension of Aid Work",
+        "Summary": "An Israeli airstrike unintentionally killed seven aid workers in Gaza, leading to the suspension of World Central Kitchen's operations in the region amid ongoing conflict. Israeli Prime Minister Benjamin Netanyahu acknowledged the unintentional harm to innocent individuals following the strike. This event occurs against a backdrop of severe shortages and a looming famine in Gaza, exacerbated by a blockade and controlled land crossings (NBC News).",
+        "sources": [
+            [
+                "NBC News",
+                "https://www.nbcnews.com/news/world/world-central-kitchen-says-israeli-strike-kills-7-workers-halts-aid-rcna145976",
+                "3 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Overview of Donald Trump's $175 Million Bond Coverage",
+        "Summary": "Donald Trump and co-defendants posted a $175 million bond in a New York civil fraud case, financed by Axos Bank, linked to billionaire Don Hankey (CBS News). Knight Specialty Insurance, led by CEO Don Hankey, provided the $175 million for Trump's fraud trial bond, amidst broader legal challenges including an expanded gag order in a separate hush money case and Hope Hicks' upcoming testimony (Yahoo). Trump's team argued that his real estate assets are sufficient to cover the bond amount, questioned by the appeal process (NBC News). The bond halts collection efforts against Trump for a $454 million judgment in his fraud case (Insurance Business America).",
+        "sources": [
+            [
+                "CBS News",
+                "https://www.cbsnews.com/news/trump-don-hankey-billionaire-175-million-bond-who-is-he/",
+                "1 hour ago"
+            ],
+            [
+                "Yahoo",
+                "https://www.yahoo.com/news/trump-legal-news-brief-billionaire-don-hankeys-company-covers-trumps-175-million-fraud-trial-bond-203355884.html",
+                "2 hours ago"
+            ],
+            [
+                "NBC News",
+                "https://www.nbcnews.com/politics/donald-trump/trump-posted-175-million-bond-civil-fraud-case-rcna146043",
+                "2 hours ago"
+            ],
+            [
+                "Insurance Business America",
+                "https://www.insurancebusinessmag.com/us/news/breaking-news/specialty-insurer-gives-trump-his-fraud-bond-483476.aspx",
+                "7 hours ago"
+            ]
+        ]
+    }
+]

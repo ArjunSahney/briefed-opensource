@@ -1,0 +1,73 @@
+[
+    {
+        "Title": "US Pressure on Israel for Civilian Protection in Gaza",
+        "Summary": "President Biden warned Israeli Prime Minister Netanyahu that US support is contingent on Israel taking steps to better protect Gaza civilians, emphasizing the need for an immediate ceasefire and better humanitarian conditions (RFI, Sky News). This follows a military attack involving multiple strikes, one of which killed seven aid workers, highlighting the grave concerns over civilian and humanitarian worker safety (ABC News - Breaking News, Latest News and Videos, Sky News). Biden's call represents a significant push for Israel to adjust its military tactics amidst the conflict (inews.co.uk).",
+        "sources": [
+            [
+                "RFI",
+                "https://www.rfi.fr/en/international-news/20240404-biden-pushed-to-back-outrage-with-actions-in-netanyahu-call",
+                "5 hours ago"
+            ],
+            [
+                "Sky News",
+                "https://news.sky.com/story/middle-east-latest-israels-allies-condemn-aid-worker-killings-us-watching-for-iranian-retaliation-to-embassy-strike-12978800",
+                "44 minutes ago"
+            ],
+            [
+                "inews.co.uk",
+                "https://inews.co.uk/news/world/us-support-israel-protecting-civilians-gaza-joe-biden-netanyahu-2992202",
+                "47 minutes ago"
+            ]
+        ],
+        "Image Filepath": "img/US warns Israel: Protect civilians_2024-04-04jpg"
+    },
+    {
+        "Title": "Suspicious Disappearance of Two Women in Oklahoma",
+        "Summary": "Veronica Butler, 27, and Jilian Kelley, 39, are missing in Oklahoma under circumstances suggesting foul play. Last seen together, their vehicle was later found abandoned near a highway in a rural area. They were en route to pick up Butler\u2019s children for a birthday celebration, traveling only 16 miles from their location. Authorities, including the Texas County Sheriff\u2019s Department and the Oklahoma State Bureau of Investigation, are actively searching for them as concerns grow around their sudden disappearance (USA Today, CBS News, The Independent, New York Post, Christian Post).",
+        "sources": [
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/news/nation/2024/04/04/veronica-butler-jilian-kelley-missing-oklahoma/73200573007/",
+                "7 hours ago"
+            ],
+            [
+                "CBS News",
+                "https://www.cbsnews.com/news/veronica-butler-jilian-kelley-missing-oklahoma-search-suspicious-disappearance/",
+                "7 hours ago"
+            ],
+            [
+                "The Independent",
+                "https://www.independent.co.uk/news/world/americas/oklahoma-kansas-missing-women-abandoned-car-b2522770.html",
+                "3 hours ago"
+            ],
+            [
+                "New York Post",
+                "https://nypost.com/2024/04/04/us-news/foul-play-suspected-for-missing-kansas-moms-veronica-butler-and-jilian-kelley-in-oklahoma/",
+                "14 hours ago"
+            ],
+            [
+                "Christian Post",
+                "https://www.christianpost.com/news/speculation-grows-amid-search-for-pastors-missing-wife.html",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Veronica Butler Jilian Kelley Missing_2024-04-04jpg"
+    },
+    {
+        "Title": "Judicial Bias Concerns in Trump's Classified Documents Case",
+        "Summary": "Legal experts suggest U.S. District Judge Aileen Cannon may face removal from former President Trump's classified documents case due to perceived bias and inconsistencies in legal interpretations, focusing on her handling of jury instructions that align with Trump's interpretation of the Presidential Records Act. This speculation is underpinned by criticism from former Trump White House attorney, Ty Cobb, pointing to Cannon's potential 'perception of partiality' as problematic (Salon.com, HuffPost).",
+        "sources": [
+            [
+                "Salon.com",
+                "https://www.salon.com/2024/04/04/thin-ice-legal-experts-think-cannon-may-be-removed-from-case-over-evidence-of-bias/",
+                "7 hours ago"
+            ],
+            [
+                "HuffPost",
+                "https://www.huffpost.com/entry/ty-cobb-judge-cannon-donald-trump-documents-trials_n_660e199fe4b09f580bc695c6",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Aileen Cannon Removed: Ex-Trump Lawyer_2024-04-04jpg"
+    }
+]

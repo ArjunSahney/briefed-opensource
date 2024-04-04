@@ -1,0 +1,14 @@
+[
+    {
+        "Title": "Anna Paquin Attends Premiere with Cane Amid Health Issues",
+        "Summary": "Anna Paquin utilized a cane at the New York premiere of 'A Bit of Light', an indie drama by her husband Stephen Moyer, due to mobility and speech challenges faced over the last two years (Yahoo).",
+        "sources": [
+            [
+                "Yahoo",
+                "https://www.yahoo.com/entertainment/anna-paquin-uses-cane-film-172638856.html",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Anna Paquin Film Premiere Cane_2024-04-04jpg"
+    }
+]

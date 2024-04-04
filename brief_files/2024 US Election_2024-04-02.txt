@@ -1,0 +1,34 @@
+[
+    {
+        "Title": "Recent Political Developments and Legal Challenges",
+        "Summary": "Rishi Sunak is focused on expanding free childcare, amidst critique from Labour demanding an early general election, in light of a discussed airstrike in Gaza and its political ramifications (Sky News). The Enforcement Directorate files a money laundering case against TMC leader Mahua Moitra, marking a significant development in the cash-for-query controversy (The Economic Times). Meanwhile, the Liberals defend Han Dong's nomination process, amidst allegations of foreign interference, highlighting the intricate balance between national security and political integrity in Canada (CityNews Ottawa).",
+        "sources": [
+            [
+                "Sky News",
+                "https://news.sky.com/story/politics-latest-high-court-decision-expected-on-ulez-legal-challenge-as-jeremy-hunt-gives-evidence-at-infected-blood-inquiry-12593360",
+                "9 hours ago"
+            ],
+            [
+                "The Economic Times",
+                "https://m.economictimes.com/news/politics-and-nation/ed-files-money-laundering-case-against-tmc-leader-mahua-moitra-in-a-cash-for-query-row-report/amp_articleshow/108980397.cms",
+                "9 hours ago"
+            ],
+            [
+                "CityNews Ottawa",
+                "https://ottawa.citynews.ca/2024/04/02/mp-han-dong-political-party-officials-set-to-address-foreign-interference-inquiry/",
+                "6 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Key Points from Recent US-China High-Level Communications",
+        "Summary": "Recent communications between US President Joe Biden and Chinese President Xi Jinping address concerns over China's influence on the US election, cyberattacks, and regional security matters including Russia-Ukraine war and Taiwan. Biden emphasizes non-interference in US elections and discusses counter-narcotics efforts, particularly fentanyl trafficking (The New York Times, NBC News, Voice of America). These discussions aim to facilitate regular dialogue on global and regional issues, emphasizing collaboration in AI-related risks, climate change, and re-establishing military-to-military communications (Voice of America, PBS).",
+        "sources": [
+            [
+                "The New York Times",
+                "https://www.nytimes.com/2024/04/01/business/media/china-online-disinformation-us-election.html",
+                "8 hours ago"
+            ]
+        ]
+    }
+]

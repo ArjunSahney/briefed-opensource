@@ -79,6 +79,32 @@ def get_gpt_response(prompt, gpt_model="gpt-4", response_format=""):
   else:
     return None
 
+def get_togetherAI_response(prompt, gpt_model="", response_format=""):
+  TOGETHER_API_KEY = "aa58ec68cc6d1d36f211bac4effc828a971fcbf86b92dfa6fce0311efef7c99e"
+
+  client = OpenAI(
+    api_key=TOGETHER_API_KEY,
+    base_url='https://api.together.xyz/v1',
+  )
+
+  chat_completion = client.chat.completions.create(
+    messages=[
+      {
+        "role": "system",
+        "content": "You are an expert writer.",
+      },
+      {
+        "role": "user",
+        "content": prompt,
+      }
+    ],
+    response_format={ "type": "json_object" },
+    model="mistralai/Mixtral-8x7B-Instruct-v0.1"
+  )
+
+  return (chat_completion.choices[0].message.content)
+
+
 def get_top_stories(query, num_results):
   api_key=os.environ.get("serp_api_key")
 

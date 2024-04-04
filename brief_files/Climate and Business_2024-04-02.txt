@@ -1,0 +1,6 @@
+[
+    {
+        "Title": "ISIF's \u20ac278m Commitment to Climate Investments",
+        "Summary": "The Ireland Strategic Investment Fund (ISIF) commits \u20ac278m to three climate investments, including \u20ac200m to the Copenhagen Infrastructure V fund, aiming to bolster investments in green energy businesses. This move is part of ISIF's broader goal to invest \u20ac1bn in climate action five years ahead of the initial schedule (RTE.ie, The Irish Times, Irish Independent)."
+    }
+]

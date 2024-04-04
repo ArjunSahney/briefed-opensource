@@ -1,0 +1,80 @@
+[
+    {
+        "Title": "Powerball Jackpot Reaches $1.23 Billion",
+        "Summary": "The Powerball jackpot has increased to $1.23 billion with no big winner from the latest drawing. A New Jersey ticket won $1 million, and Connecticut saw two $50,000 winners (Bergen Record, NBC Connecticut). The jackpot ranks among the largest in Powerball history, following prizes of $1.765 billion and $1.586 billion in recent years (CNN). Tickets can be purchased online in several states through Jackpocket, the official digital lottery courier (Bergen Record).",
+        "sources": [
+            [
+                "Bergen Record",
+                "https://www.northjersey.com/story/news/new-jersey/2024/04/04/powerball-hits-1-23-billion-for-april-6-nj-ticket-wins-1-million/73200040007/",
+                "4 hours ago"
+            ],
+            [
+                "NBC Connecticut",
+                "https://www.nbcconnecticut.com/news/local/two-50000-dollar-powerball-winners-connecticut-jackpot-1-23-billion-dollars/3257942/",
+                "2 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/03/business/powerball-jackpot-surges-saturday/index.html",
+                "15 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/$1.23 Billion Powerball Jackpot_2024-04-04jpg"
+    }
+, 
+    {
+        "Title": "Anna Paquin's Red Carpet Appearance with Cane Amid Health Challenges",
+        "Summary": "Anna Paquin used a cane at the New York City premiere of her new film, 'A Bit of Light,' highlighting her mobility and health struggles over the past two years. Despite the challenges, which have also affected her speech, Paquin appeared in good spirits (People.com, Variety, Page Six, TODAY.com, New York Daily News).",
+        "sources": [
+            [
+                "People.com",
+                "https://people.com/anna-paquin-red-carpet-with-cane-amid-ongoing-health-issues-8623670",
+                "5 hours ago"
+            ],
+            [
+                "Variety",
+                "https://variety.com/2024/film/news/anna-paquin-cane-red-carpet-health-issues-mobility-1235960276/",
+                "6 hours ago"
+            ],
+            [
+                "Page Six",
+                "https://pagesix.com/2024/04/04/entertainment/anna-paquin-walks-red-carpet-with-cane-after-health-issues/",
+                "6 hours ago"
+            ],
+            [
+                "TODAY.com",
+                "https://www.today.com/health/anna-paquin-health-rcna146360",
+                "5 hours ago"
+            ],
+            [
+                "New York Daily News",
+                "https://www.nydailynews.com/2024/04/04/anna-paquin-cane-health-problems/",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "img/Anna Paquin Cane Red Carpet_2024-04-04jpg"
+    }
+, 
+    {
+        "Title": "Elizabeth Hurley Denies Rumors About Prince Harry",
+        "Summary": "Elizabeth Hurley has publicly refuted rumors claiming she took Prince Harry's virginity, emphasizing that she has 'never met' the Duke of Sussex during appearances and statements covered by media outlets (New York Daily News, Hollywood Life, The Independent). These rumors gained traction following the release of Prince Harry's memoir 'Spare', but Hurley categorically denies these claims as baseless (Hollywood Life).",
+        "sources": [
+            [
+                "New York Daily News",
+                "https://www.nydailynews.com/2024/04/04/elizabeth-hurley-prince-harry-virginity-rumors/",
+                "5 hours ago"
+            ],
+            [
+                "Hollywood Life",
+                "https://hollywoodlife.com/2024/04/04/elizabeth-hurley-denies-prince-harry-lost-his-virginity-to-her/",
+                "7 hours ago"
+            ],
+            [
+                "The Independent",
+                "https://www.independent.co.uk/life-style/royal-family/elizabeth-hurley-prince-harry-virginity-response-b2523548.html",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Hurley denies Prince Harry rumor_2024-04-04jpg"
+    }
+]

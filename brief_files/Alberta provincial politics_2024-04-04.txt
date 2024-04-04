@@ -1,0 +1,36 @@
+[
+    {
+        "Title": "Understanding Alberta's Water Rights Evolution",
+        "Summary": "Alberta transitioned from its 1931 Water Resources Act to the 1999 Water Act to modernize its water policy, however, existing rights, including the 'first in time, first in right' principle, were largely preserved for older claims (JD Supra).",
+        "sources": [
+            [
+                "JD Supra",
+                "https://www.jdsupra.com/legalnews/navigating-water-scarcity-legal-7766740/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Water Scarcity in Alberta: Legal Impact_2024-04-04jpg"
+    },
+    {
+        "Title": "Real Estate, Asylum, and Affordable Housing: Key Issues in North America",
+        "Summary": "Supply in Canada's housing market isn't expected to meet demand, leading to higher rents and lower vacancy rates despite more rental housing in 2023 (CTV News). Two flight attendants sought asylum in Canada citing gender-related, religious persecution, and domestic violence (CTV News). La Ca\u00f1ada Flintridge is mandated by court to process a mixed-income housing project, integrating affordable units into the community (AOL.com). Concerns arise over farmland in Wilmot Township, reflecting environmental and due process issues within the region (CBC).",
+        "sources": [
+            [
+                "CTV News",
+                "https://www.ctvnews.ca/business/home-prices-could-hit-peak-levels-by-next-year-set-new-highs-in-2026-cmhc-report-1.6833560",
+                "4 hours ago"
+            ],
+            [
+                "AOL.com",
+                "https://www.aol.com/news/la-ca-ada-flintridge-must-110021723.html",
+                "16 hours ago"
+            ],
+            [
+                "CBC",
+                "https://www.cbc.ca/news/canada/kitchener-waterloo/region-s-labour-council-pens-open-letter-amid-wilmot-township-farmland-controversy-1.7162779",
+                "7 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Canada Housing Plan Controversy_2024-04-04jpg"
+    }
+]

@@ -1,0 +1,33 @@
+[
+    {
+        "Title": "Jared Leto's April Fools' Day Hosting Stint on 'Wheel of Fortune'",
+        "Summary": "Jared Leto amazed fans by temporarily taking over 'Wheel of Fortune' hosting duties from Pat Sajak as an April Fools' prank, an event he described as both exciting and challenging (Fox News). His love for 'Saved by the Bell,' ambition to master 'The Karate Kid's' crane kick, and humorous pursuits outside of acting were noted (TODAY.com). The prank alongside veteran co-host Vanna White added a unique entry to Leto's diverse career achievements (People). This surprising move followed a previous visit to the show by Leto and his brother Shannon (New York Post), marking a rare host substitution since Sajak took the helm in 1981 (Rolling Stone).",
+        "sources": [
+            [
+                "Fox News",
+                "https://www.foxnews.com/entertainment/jared-leto-takes-over-wheel-of-fortune-hosting-duties-april-fools-day-prank",
+                "4 hours ago"
+            ],
+            [
+                "TODAY.com",
+                "https://www.today.com/popculture/tv/jared-leto-wheel-of-fortune-rcna145986",
+                "8 hours ago"
+            ],
+            [
+                "People",
+                "https://people.com/jared-leto-subs-in-wheel-of-fortune-host-april-fools-prank-8623384",
+                "12 hours ago"
+            ],
+            [
+                "New York Post",
+                "https://nypost.com/2024/04/02/entertainment/wheel-of-fortune-host-pat-sajak-replaced-by-jared-leto-in-puzzling-move/",
+                "9 hours ago"
+            ],
+            [
+                "Rolling Stone",
+                "https://www.rollingstone.com/tv-movies/tv-movie-news/jared-leto-wheel-of-fortune-april-fools-day-1234997658/",
+                "9 hours ago"
+            ]
+        ]
+    }
+]

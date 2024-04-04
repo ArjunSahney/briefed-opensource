@@ -1,0 +1,39 @@
+{
+  "Morning_Briefing": {
+    "Date": "2024-04-03",
+    "Main_Headlines": [
+      {
+        "Title": "Israeli Strike on Gaza: Casualties and Humanitarian Aid Suspension",
+        "Details": "A recent Israeli airstrike in Gaza inadvertently resulted in the deaths of seven aid workers, leading to World Central Kitchen suspending its services amid the conflict. Prime Minister Netanyahu has acknowledged the accidental harm to civilians. This tragedy underscores the ongoing humanitarian crisis in Gaza, intensified by blockades and controlled access, raising concerns of famine (NBC News)."
+      },
+      {
+        "Title": "Donald Trump Posts $175 Million Bond",
+        "Details": "Donald Trump, along with co-defendants, posted a $175 million bond in a New York civil fraud case. The bond, secured by Axos Bank and linked to billionaire Don Hankey, comes as Trump faces a series of legal battles. His legal team argues that his real estate portfolio could adequately cover the bond amount, though this is under appeal. The bond's provision temporarily halts collection efforts against Trump related to a $454 million judgment in the fraud case (Various Sources)."
+      }
+    ],
+    "Custom_Headlines": [
+      {
+        "Title": "ISIF Commits to \nClimate Action Investments",
+        "Details": "The Ireland Strategic Investment Fund (ISIF) pledges \n278 million towards climate-centric investments, with 200 million allocated to the Copenhagen Infrastructure V fund. This initiative aligns with ISIF's aim to dedicate \n1 billion to climate action, fast-tracking the original timeline by five years (Various Irish Sources)."
+      },
+      {
+        "Title": "Trial Begins for Edmonton Student's Death",
+        "Details": "A youth stands trial accused of killing a high school student in Edmonton, marking a pivotal moment in community and legal proceedings (Edmonton Journal)."
+      },
+      {
+        "Title": "Political and Legal Developments Around the Globe",
+        "Details": "UK's Rishi Sunak pushes for expanded free childcare, amidst Labour's call for an early election. This proposal comes amid international concern over a recent Israeli strike in Gaza. In India, TMC leader Mahua Moitra faces a newly filed money laundering case, and in Canada, the Liberals defend Han Dong's nomination process against accusations of foreign interference (Various Sources)."
+      },
+      {
+        "Title": "US-China High-Level Communications",
+        "Details": "Recent talks between Presidents Joe Biden and Xi Jinping spotlight important issues including electoral interference, cyberattacks, and regional stability. The dialogue, focusing on collaborative efforts in AI, climate change, and re-establishing military communications, underscores a commitment to ongoing engagement on global and regional challenges (Various Sources)."
+      }
+    ],
+    "Trending": [
+      {
+        "Title": "Jared Leto's 'Wheel of Fortune' Prank",
+        "Details": "Jared Leto captured fans' attention by temporarily replacing Pat Sajak as host of 'Wheel of Fortune' in an April Fools' Day stunt, showcasing his versatility and humor. This unique event adds to Leto's portfolio of diverse career achievements (Various Sources)."
+      }
+    ]
+  }
+}

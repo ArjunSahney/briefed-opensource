@@ -49,12 +49,17 @@ def getTrendingBriefs():
     trending_keywords = get_trending_topics(NUM_TRENDING_BRIEFS)
     filename = "brief_files/trending_" + curr_date + ".txt"
     with open(filename, 'w') as file:
-        file.write("{")
+        file.write("[")
         for keyword in trending_keywords:
             trending_brief = in_brief(keyword, 1)
-            if trending_brief is not None:
-                file.write(trending_brief + ",")
-        file.write("}")
+            if (trending_brief is not None) and (trending_brief != "[]"):
+                # Remove highest-level open and close brackets on trending_brief
+                trending_brief_formatted = trending_brief[1:-1]
+                file.write(trending_brief_formatted)
+                if keyword != trending_keywords[-1]:
+                    file.write(", ")
+        file.write("]")
+        
 def generate_morning_briefing(name, briefing_dictionary):
     """Takes list of briefs and generates morning briefing with GPT call
     
@@ -68,27 +73,31 @@ def generate_morning_briefing(name, briefing_dictionary):
         Morning briefing text
 
     """
+
     summary_prompt = f"""You are a news assistant. Create a morning briefing of approximately 500 words based on the news updates provided below. Aim for minimal bias. Utilize clear and precise language. Prioritize substance. There should be a clean logical flow between topics. Return response in a JSON of this format:
     {{
         "Story 1": [
             briefing,
-            [source 1, source 2, etc],
+            [source name 1, source name 2, etc],
         ]
         ...
         "Story n": [
             briefing,
-            [source 1, source 2, etc],
+            [source name 1, source name 2, etc],
         ]
     }}
     
     News updates to use in briefing:
     {json.dumps(briefing_dictionary, indent=4)}
     """
-    
-    print(summary_prompt)
+
+    # print(summary_prompt)
     if __debug__:
         start_time = time.time()
     morning_briefing = get_gpt_response(summary_prompt, gpt_model="gpt-4-turbo-preview", response_format="json")
+    # morning_briefing = get_gpt_response(summary_prompt, gpt_model="gpt-4-turbo-preview")
+    # morning_briefing = get_togetherAI_response(summary_prompt, gpt_model="gpt-4-turbo-preview", response_format="json")
+
     if __debug__:
         end_time = time.time()
         duration = end_time - start_time
@@ -130,6 +139,7 @@ def in_morning_brief(name, company, industry, topic):
         trending_content = file.read()
     if trending_content:
         # The string is not empty, proceed with JSON parsing
+        # Replace '][' with ',' for json.loads() to work
         trending_content_formatted = trending_content.replace('][', ',')
         trending_briefs = json.loads(trending_content_formatted)
     else:
@@ -166,7 +176,7 @@ def in_morning_brief(name, company, industry, topic):
 # search("Amazon Corporation", "Sony Corporation", "Elden Ring")
 
 # Nick
-in_morning_brief("Nick", "2024 US Election", "Climate and Business", "Alberta provincial politics")
+in_morning_brief("Nick", "US Presidential Election", "Climate and Business", "Alberta provincial politics")
 
 # Christian: global politics and economy, basketball, social science acadameia, armenia, turkey, scientific innovation
 # search("Global Politics and Economy", "Basketball", "Armenia", "Turkey")

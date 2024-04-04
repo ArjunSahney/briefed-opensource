@@ -260,18 +260,26 @@ def generate_brief(article_dict, keyword):
   # Future improvement: change regex to better handle double/triple+ citations in parens
   # Retrieve sources in parens in summary using regex
   import re
-  possible_sources = re.findall(r"\(([^)]+)\)", summary_string)
-  # Now capture sources in parens separated by comma, eg (CBS, The New York Times)
-  possible_double_sources = re.search(r"\(([^,]+),\s*([^)]+)\)", summary_string)
-  if possible_double_sources:
-    source1 = possible_double_sources.group(1)
-    source2 = possible_double_sources.group(2)
-    possible_sources.append(source1)
-    possible_sources.append(source2)
+  pattern = r'\((.*?)\)'
+  sources = re.findall(pattern, summary_string)
+
+  if sources:
+    extracted_sources = [source_list.split(', ') for source_list in sources]
+    flattened_sources = [source for sublist in extracted_sources for source in sublist]
+    print(flattened_sources)
+
+  # possible_sources = re.findall(r"\(([^)]+)\)", summary_string)
+  # # Now capture sources in parens separated by comma, eg (CBS, The New York Times)
+  # possible_double_sources = re.search(r"\(([^,]+),\s*([^)]+)\)", summary_string)
+  # if possible_double_sources:
+  #   source1 = possible_double_sources.group(1)
+  #   source2 = possible_double_sources.group(2)
+  #   possible_sources.append(source1)
+  #   possible_sources.append(source2)
     
   # Confirm if the sources are in article dictionary
   confirmed_sources = []
-  for source in possible_sources:
+  for source in flattened_sources:
     if source in article_dict:
       confirmed_sources.append(source)
   
@@ -415,28 +423,33 @@ def in_brief(keyword, num_briefs):
       if (formatted_contents is not None and formatted_contents != {}):
         if __debug__:
           start_time = time.time()
-        brief_json_list.append(generate_brief(formatted_contents, search_keywords))
         image_downloaded = False
         # Image generation
         # For each brief, pull one image from a source -- if there is an error move on to next source
         # Save the image as the same filename as brief just img
-        img_filename = keyword + "_" + curr_date
+        img_filename = search_keywords + "_" + curr_date
         for article in formatted_contents.items():
+          url = article[1]['url']
           if __debug__:
             print("Printing article JSON for image generation")
             print(json.dumps(article, indent=4))
-            url = article[1]['url']
             print(url)
-            # Download the main image from the article URL if not already downloaded and if url is valid
-            if not image_downloaded and url is not None:
-              if download_main_image(url, img_filename):
-                image_downloaded = True
+          # Download the main image from the article URL if not already downloaded and if url is valid
+          if not image_downloaded and url is not None:
+            if download_main_image(url, img_filename):
+              image_downloaded = True
+        brief = generate_brief(formatted_contents, search_keywords)
+        # Add image filepath into brief JSON
+        if image_downloaded:
+          brief["Image Filepath"] = "img/" + img_filename + "jpg"
+        brief_json_list.append(brief)
 
         if __debug__:
           end_time = time.time()
           duration = end_time - start_time
           print(f"Generate brief execution time: {duration} seconds")
           
+                
   with open(brief_filename, 'w') as file:
     # First write operation
     brief_string = json.dumps(brief_json_list, indent=4)
@@ -445,7 +458,7 @@ def in_brief(keyword, num_briefs):
   return brief_string
 
 
-print(in_brief("Climate", 1))
+# print(in_brief("US Presidential Election", 3))
 # results = get_google_results("Biden", 5)
 # results = results[:5]
 # print(json.dumps(results, indent=4))
