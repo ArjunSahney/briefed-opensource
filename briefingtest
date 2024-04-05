@@ -1,0 +1,277 @@
+import json
+
+briefing_dictionary = """{
+    "Top Headlines": [
+        {
+            "Title": "US Pressure on Israel for Civilian Protection in Gaza",
+            "Summary": "President Biden warned Israeli Prime Minister Netanyahu that US support is contingent on Israel taking steps to better protect Gaza civilians, emphasizing the need for an immediate ceasefire and better humanitarian conditions (RFI, Sky News). This follows a military attack involving multiple strikes, one of which killed seven aid workers, highlighting the grave concerns over civilian and humanitarian worker safety (ABC News - Breaking News, Latest News and Videos, Sky News). Biden's call represents a significant push for Israel to adjust its military tactics amidst the conflict (inews.co.uk).",
+            "sources": [
+                [
+                    "RFI",
+                    "https://www.rfi.fr/en/international-news/20240404-biden-pushed-to-back-outrage-with-actions-in-netanyahu-call",
+                    "5 hours ago"
+                ],
+                [
+                    "Sky News",
+                    "https://news.sky.com/story/middle-east-latest-israels-allies-condemn-aid-worker-killings-us-watching-for-iranian-retaliation-to-embassy-strike-12978800",
+                    "44 minutes ago"
+                ],
+                [
+                    "inews.co.uk",
+                    "https://inews.co.uk/news/world/us-support-israel-protecting-civilians-gaza-joe-biden-netanyahu-2992202",
+                    "47 minutes ago"
+                ]
+            ],
+            "Image Filepath": "img/US warns Israel: Protect civilians_2024-04-04jpg"
+        },
+        {
+            "Title": "Suspicious Disappearance of Two Women in Oklahoma",
+            "Summary": "Veronica Butler, 27, and Jilian Kelley, 39, are missing in Oklahoma under circumstances suggesting foul play. Last seen together, their vehicle was later found abandoned near a highway in a rural area. They were en route to pick up Butler\u2019s children for a birthday celebration, traveling only 16 miles from their location. Authorities, including the Texas County Sheriff\u2019s Department and the Oklahoma State Bureau of Investigation, are actively searching for them as concerns grow around their sudden disappearance (USA Today, CBS News, The Independent, New York Post, Christian Post).",
+            "sources": [
+                [
+                    "USA Today",
+                    "https://www.usatoday.com/story/news/nation/2024/04/04/veronica-butler-jilian-kelley-missing-oklahoma/73200573007/",
+                    "7 hours ago"
+                ],
+                [
+                    "CBS News",
+                    "https://www.cbsnews.com/news/veronica-butler-jilian-kelley-missing-oklahoma-search-suspicious-disappearance/",
+                    "7 hours ago"
+                ],
+                [
+                    "The Independent",
+                    "https://www.independent.co.uk/news/world/americas/oklahoma-kansas-missing-women-abandoned-car-b2522770.html",
+                    "3 hours ago"
+                ],
+                [
+                    "New York Post",
+                    "https://nypost.com/2024/04/04/us-news/foul-play-suspected-for-missing-kansas-moms-veronica-butler-and-jilian-kelley-in-oklahoma/",
+                    "14 hours ago"
+                ],
+                [
+                    "Christian Post",
+                    "https://www.christianpost.com/news/speculation-grows-amid-search-for-pastors-missing-wife.html",
+                    "4 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Veronica Butler Jilian Kelley Missing_2024-04-04jpg"
+        },
+        {
+            "Title": "Judicial Bias Concerns in Trump's Classified Documents Case",
+            "Summary": "Legal experts suggest U.S. District Judge Aileen Cannon may face removal from former President Trump's classified documents case due to perceived bias and inconsistencies in legal interpretations, focusing on her handling of jury instructions that align with Trump's interpretation of the Presidential Records Act. This speculation is underpinned by criticism from former Trump White House attorney, Ty Cobb, pointing to Cannon's potential 'perception of partiality' as problematic (Salon.com, HuffPost).",
+            "sources": [
+                [
+                    "Salon.com",
+                    "https://www.salon.com/2024/04/04/thin-ice-legal-experts-think-cannon-may-be-removed-from-case-over-evidence-of-bias/",
+                    "7 hours ago"
+                ],
+                [
+                    "HuffPost",
+                    "https://www.huffpost.com/entry/ty-cobb-judge-cannon-donald-trump-documents-trials_n_660e199fe4b09f580bc695c6",
+                    "13 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Aileen Cannon Removed: Ex-Trump Lawyer_2024-04-04jpg"
+        }
+    ],
+    "Custom Headlines": [
+        [
+            {
+                "Title": "A Small Group's Large Impact on Climate Change",
+                "Summary": "A recent analysis revealed that just 57 companies, including major oil, gas, coal, and cement producers, are responsible for 80% of the world's fossil CO2 emissions since the signing of the Paris climate agreement in 2016, despite growing awareness of climate change and its impacts (The Guardian).",
+                "sources": [
+                    [
+                        "The Guardian",
+                        "https://www.theguardian.com/environment/2024/apr/04/just-57-companies-linked-to-80-of-greenhouse-gas-emissions-since-2016",
+                        "2 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/57 Companies Emit 80% GHGs_2024-04-04jpg"
+            },
+            {
+                "Title": "AXA's New Climate Change Training Program for Shareholders",
+                "Summary": "AXA has launched a climate change training program specifically designed for its shareholders. This initiative aims to enhance understanding and management of climate-related impacts within the insurance sector (Insurance Business America).",
+                "sources": [
+                    [
+                        "Insurance Business America",
+                        "https://www.insurancebusinessmag.com/us/news/environmental/axa-establishes-climate-change-training-program-for-shareholders-483868.aspx",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/AXA climate training for shareholders_2024-04-04jpg"
+            }
+        ],
+        [
+            {
+                "Title": "Understanding Alberta's Water Rights Evolution",
+                "Summary": "Alberta transitioned from its 1931 Water Resources Act to the 1999 Water Act to modernize its water policy, however, existing rights, including the 'first in time, first in right' principle, were largely preserved for older claims (JD Supra).",
+                "sources": [
+                    [
+                        "JD Supra",
+                        "https://www.jdsupra.com/legalnews/navigating-water-scarcity-legal-7766740/",
+                        "6 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Water Scarcity in Alberta: Legal Impact_2024-04-04jpg"
+            },
+            {
+                "Title": "Real Estate, Asylum, and Affordable Housing: Key Issues in North America",
+                "Summary": "Supply in Canada's housing market isn't expected to meet demand, leading to higher rents and lower vacancy rates despite more rental housing in 2023 (CTV News). Two flight attendants sought asylum in Canada citing gender-related, religious persecution, and domestic violence (CTV News). La Ca\u00f1ada Flintridge is mandated by court to process a mixed-income housing project, integrating affordable units into the community (AOL.com). Concerns arise over farmland in Wilmot Township, reflecting environmental and due process issues within the region (CBC).",
+                "sources": [
+                    [
+                        "CTV News",
+                        "https://www.ctvnews.ca/business/home-prices-could-hit-peak-levels-by-next-year-set-new-highs-in-2026-cmhc-report-1.6833560",
+                        "4 hours ago"
+                    ],
+                    [
+                        "AOL.com",
+                        "https://www.aol.com/news/la-ca-ada-flintridge-must-110021723.html",
+                        "16 hours ago"
+                    ],
+                    [
+                        "CBC",
+                        "https://www.cbc.ca/news/canada/kitchener-waterloo/region-s-labour-council-pens-open-letter-amid-wilmot-township-farmland-controversy-1.7162779",
+                        "7 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Canada Housing Plan Controversy_2024-04-04jpg"
+            }
+        ],
+        [
+            {
+                "Title": "Understanding the Potential Impacts on the 2024 Election",
+                "Summary": "Key insights into the 2024 election highlight the influence of demographic shifts, where interactive models illustrate how changes among voter groups could tilt the results. For instance, fluctuations in college-educated and younger voters' preferences might significantly affect the outcome (ABC News). FiveThirtyEight's Swing-O-Matic predicts election results by analyzing demographic and voting trends, indicating the crucial role of demographic changes and voter turnout (FiveThirtyEight Interactives). Meanwhile, a Rasmussen Reports survey suggests Trump leads Biden by 8 points, noting third-party candidates' minimal impact (Rasmussen Reports). Lastly, unrelated to election dynamics, Macron criticizes Russia's 'bizarre and threatening' remarks post a significant conversation between France and Russia's defense ministers (Yahoo News UK).",
+                "sources": [
+                    [
+                        "FiveThirtyEight Interactives",
+                        "https://projects.fivethirtyeight.com/2024-swing-the-election/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "Rasmussen Reports",
+                        "https://www.rasmussenreports.com/public_content/politics/biden_administration/election_2024_trump_8_over_biden_third_party_candidates_have_little_impact",
+                        "5 hours ago"
+                    ],
+                    [
+                        "Yahoo News UK",
+                        "https://uk.news.yahoo.com/barack-obama-makes-big-change-105927625.html",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/2024 Election Demographic Impact_2024-04-04jpg"
+            },
+            {
+                "Title": "Legal Battles Shape the Prelude to the 2024 US Presidential Election",
+                "Summary": "In response to contentious post-election actions and claims following the previous presidential race, measures have been instituted to bolster voting protocols, amidst ongoing legal challenges involving groups and individuals affiliated with former President Donald Trump. A recent court decision dismissed Trump\u2019s attempt to halt a Georgia case related to election subversion based on free speech, indicating judicial resistance to arguments positioned on constitutional grounds when linked to alleged criminal endeavors (Bloomberg Law News, CNN, Atlanta News First).",
+                "sources": [
+                    [
+                        "Bloomberg Law News",
+                        "https://news.bloomberglaw.com/litigation/big-us-election-battle-looms-as-lawsuits-set-for-a-record-year",
+                        "2 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/2024 US Election Court Battles_2024-04-04jpg"
+            }
+        ]
+    ],
+    "Trending Headlines": [
+        {
+            "Title": "Powerball Jackpot Reaches $1.23 Billion",
+            "Summary": "The Powerball jackpot has increased to $1.23 billion with no big winner from the latest drawing. A New Jersey ticket won $1 million, and Connecticut saw two $50,000 winners (Bergen Record, NBC Connecticut). The jackpot ranks among the largest in Powerball history, following prizes of $1.765 billion and $1.586 billion in recent years (CNN). Tickets can be purchased online in several states through Jackpocket, the official digital lottery courier (Bergen Record).",
+            "sources": [
+                [
+                    "Bergen Record",
+                    "https://www.northjersey.com/story/news/new-jersey/2024/04/04/powerball-hits-1-23-billion-for-april-6-nj-ticket-wins-1-million/73200040007/",
+                    "4 hours ago"
+                ],
+                [
+                    "NBC Connecticut",
+                    "https://www.nbcconnecticut.com/news/local/two-50000-dollar-powerball-winners-connecticut-jackpot-1-23-billion-dollars/3257942/",
+                    "2 hours ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/03/business/powerball-jackpot-surges-saturday/index.html",
+                    "15 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/$1.23 Billion Powerball Jackpot_2024-04-04jpg"
+        },
+        {
+            "Title": "Anna Paquin's Red Carpet Appearance with Cane Amid Health Challenges",
+            "Summary": "Anna Paquin used a cane at the New York City premiere of her new film, 'A Bit of Light,' highlighting her mobility and health struggles over the past two years. Despite the challenges, which have also affected her speech, Paquin appeared in good spirits (People.com, Variety, Page Six, TODAY.com, New York Daily News).",
+            "sources": [
+                [
+                    "People.com",
+                    "https://people.com/anna-paquin-red-carpet-with-cane-amid-ongoing-health-issues-8623670",
+                    "5 hours ago"
+                ],
+                [
+                    "Variety",
+                    "https://variety.com/2024/film/news/anna-paquin-cane-red-carpet-health-issues-mobility-1235960276/",
+                    "6 hours ago"
+                ],
+                [
+                    "Page Six",
+                    "https://pagesix.com/2024/04/04/entertainment/anna-paquin-walks-red-carpet-with-cane-after-health-issues/",
+                    "6 hours ago"
+                ],
+                [
+                    "TODAY.com",
+                    "https://www.today.com/health/anna-paquin-health-rcna146360",
+                    "5 hours ago"
+                ],
+                [
+                    "New York Daily News",
+                    "https://www.nydailynews.com/2024/04/04/anna-paquin-cane-health-problems/",
+                    "1 hour ago"
+                ]
+            ],
+            "Image Filepath": "img/Anna Paquin Cane Red Carpet_2024-04-04jpg"
+        },
+        {
+            "Title": "Elizabeth Hurley Denies Rumors About Prince Harry",
+            "Summary": "Elizabeth Hurley has publicly refuted rumors claiming she took Prince Harry's virginity, emphasizing that she has 'never met' the Duke of Sussex during appearances and statements covered by media outlets (New York Daily News, Hollywood Life, The Independent). These rumors gained traction following the release of Prince Harry's memoir 'Spare', but Hurley categorically denies these claims as baseless (Hollywood Life).",
+            "sources": [
+                [
+                    "New York Daily News",
+                    "https://www.nydailynews.com/2024/04/04/elizabeth-hurley-prince-harry-virginity-rumors/",
+                    "5 hours ago"
+                ],
+                [
+                    "Hollywood Life",
+                    "https://hollywoodlife.com/2024/04/04/elizabeth-hurley-denies-prince-harry-lost-his-virginity-to-her/",
+                    "7 hours ago"
+                ],
+                [
+                    "The Independent",
+                    "https://www.independent.co.uk/life-style/royal-family/elizabeth-hurley-prince-harry-virginity-response-b2523548.html",
+                    "2 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Hurley denies Prince Harry rumor_2024-04-04jpg"
+        }
+    ]
+}
+"""
+def brief():
+    global briefing_dictionary
+    # Prepare email brief
+    briefing_dictionary = json.loads(briefing_dictionary)
+    email_dictionary = {}
+    # Take bottom half of all the briefs sections
+    num_headline_briefs_actual = len(briefing_dictionary["Top Headlines"])
+    email_dictionary["Top Headlines"] = briefing_dictionary["Top Headlines"][num_headline_briefs_actual//2:]
+    
+    email_dictionary["Custom Headlines"] = []
+    for topic_briefs in briefing_dictionary["Custom Headlines"]:
+        num_topic_briefs = len(topic_briefs)
+        email_dictionary["Custom Headlines"].append(topic_briefs[num_topic_briefs//2:])
+    
+    num_trending_briefs_actual = len(briefing_dictionary["Trending Headlines"])
+    email_dictionary["Trending Headlines"] = briefing_dictionary["Trending Headlines"][num_trending_briefs_actual//2:]
+    
+    print(json.dumps(email_dictionary, indent=4))
+
+
+brief()

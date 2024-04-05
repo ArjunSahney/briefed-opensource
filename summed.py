@@ -441,7 +441,7 @@ def in_brief(keyword, num_briefs):
         brief = generate_brief(formatted_contents, search_keywords)
         # Add image filepath into brief JSON
         if image_downloaded:
-          brief["Image Filepath"] = "img/" + img_filename + "jpg"
+          brief["Image Filepath"] = "img/" + img_filename + ".jpg"
         brief_json_list.append(brief)
 
         if __debug__:
