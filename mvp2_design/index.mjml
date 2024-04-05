@@ -1,0 +1,88 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif" />
+      <mj-text font-size="16px" color="#333333" />
+      <mj-section background-color="#FFFFFF" padding="20px" />
+      <mj-class name="topic" color="#1A2E52" font-size="24px" font-weight="bold" padding="10px 0" />
+      <mj-class name="headline" color="#1A2E52" font-size="20px" font-weight="bold" padding="5px 0" />
+      <mj-class name="description" color="#555555" font-size="14px" line-height="1.5" />
+    </mj-attributes>
+    <mj-style>
+      .audio-button {
+        background-color: #1A2E52;
+        border-radius: 5px;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px 30px;
+        text-decoration: none;
+      }
+      .image-container {
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      #audio-image {
+        cursor: pointer;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#F4F4F4">
+    <mj-section background-color="#1A2E52" padding="30px 20px">
+      <mj-column>
+        <mj-text align="center" font-size="36px" color="#FFFFFF" font-weight="bold" line-height="1.2">
+          Good Morning, Ram!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-image id="audio-image" src="../../1408818.png" alt="Play Briefing" href="path/to/audio.mp3" align="center" width="100px" height="100px" />
+      </mj-column>
+    </mj-section>
+    
+    <!-- Divider -->
+    <mj-section padding="20px 0">
+      <mj-column>
+        <mj-divider border-color="#1A2E52" border-width="2px" />
+      </mj-column>
+    </mj-section>
+    
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-text mj-class="topic">🗳️ US Presidential Elections</mj-text>
+        <mj-image src="path/to/elections-image.jpg" alt="US Presidential Elections" css-class="image-container" />
+        <mj-text mj-class="headline">🥇 Candidate A Takes Lead in Polls</mj-text>
+        <mj-text mj-class="description">Description of headline 1...</mj-text>
+        <mj-text mj-class="headline">🥈 Candidate B Announces New Campaign Strategy</mj-text>
+        <mj-text mj-class="description">Description of headline 2...</mj-text>
+        <mj-text mj-class="headline">🥉 Candidate C Raises Record Funding</mj-text>
+        <mj-text mj-class="description">Description of headline 3...</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-text mj-class="topic">🌍 Global Climate Summit</mj-text>
+        <mj-image src="path/to/climate-image.jpg" alt="Global Climate Summit" css-class="image-container" />
+        <mj-text mj-class="headline">🥇 World Leaders Pledge to Reduce Emissions</mj-text>
+        <mj-text mj-class="description">Description of headline 1...</mj-text>
+        <mj-text mj-class="headline">🥈 New Renewable Energy Initiatives Announced</mj-text>
+        <mj-text mj-class="description">Description of headline 2...</mj-text>
+        <mj-text mj-class="headline">🥉 Climate Activists Demand Stronger Action</mj-text>
+        <mj-text mj-class="description">Description of headline 3...</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="40px 20px">
+      <mj-column>
+        <mj-text mj-class="topic">🏀 NBA Playoffs</mj-text>
+        <mj-image src="path/to/nba-image.jpg" alt="NBA Playoffs" css-class="image-container" />
+        <mj-text mj-class="headline">🥇 Team A Clinches Conference Finals Berth</mj-text>
+        <mj-text mj-class="description">Description of headline 1...</mj-text>
+        <mj-text mj-class="headline">🥈 Player X Scores Record-Breaking Points</mj-text>
+        <mj-text mj-class="description">Description of headline 2...</mj-text>
+        <mj-text mj-class="headline">🥉 Underdog Team Stuns Favorites in Upset Win</mj-text>
+        <mj-text mj-class="description">Description of headline 3...</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

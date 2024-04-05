@@ -1,0 +1,24 @@
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var audioImage = document.getElementById('audio-image');
+    var audio = new Audio('path/to/audio.mp3');
+    var isPlaying = false;
+
+    audioImage.addEventListener('click', function() {
+      if (isPlaying) {
+        audio.pause();
+        audioImage.src = '../../1408818.png';
+        isPlaying = false;
+      } else {
+        audio.play();
+        audioImage.src = 'path/to/playing-image.png';
+        isPlaying = true;
+      }
+    });
+
+    audio.addEventListener('ended', function() {
+      audioImage.src = '../../1408818.png';
+      isPlaying = false;
+    });
+  });
+</script>
