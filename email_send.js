@@ -1,16 +1,13 @@
-// (env) arjuncode@Arjuns-MacBook-Air news-backend % rm output.html                 
-// (env) arjuncode@Arjuns-MacBook-Air news-backend % rm SAMPLE.mjml                 
-// (env) arjuncode@Arjuns-MacBook-Air news-backend % node json_to_mjml.js SAMPLE.json
-// MJML file "SAMPLE.mjml" has been created.
-// (env) arjuncode@Arjuns-MacBook-Air news-backend % mjml SAMPLE.mjml -o output.html 
-
-// (env) arjuncode@Arjuns-MacBook-Air news-backend % open output.html  
-
+// Takes json formatted for briefed, formats it and sends it as an email 
+// node json_to_mjml.js SAMPLE.json recipient@example.com
 import fs from 'fs';
 import path from 'path';
+import mjml2html from 'mjml';
+import nodemailer from 'nodemailer';
 
-// Get the filename from the command-line argument
+// Get the filename and email recipient from the command-line arguments
 const jsonFilename = process.argv[2];
+const recipientEmail = process.argv[3];
 
 // Read the JSON data from the file
 const jsonData = JSON.parse(fs.readFileSync(jsonFilename, 'utf8'));
@@ -149,11 +146,53 @@ const generateMJML = (data) => {
 // Generate the MJML content
 const mjmlContent = generateMJML(jsonData);
 
+// Compile MJML to HTML
+const { html, errors } = mjml2html(mjmlContent);
+
+if (errors.length > 0) {
+  console.error('MJML compilation errors:', errors);
+  process.exit(1);
+}
+
 // Generate the output filename by replacing the extension
-const mjmlFilename = path.basename(jsonFilename, path.extname(jsonFilename)) + '.mjml';
+const htmlFilename = path.basename(jsonFilename, path.extname(jsonFilename)) + '.html';
 
-// Write the MJML content to a file with the same name as the JSON file
-fs.writeFileSync(mjmlFilename, mjmlContent);
+// Create the "mvp_client" directory if it doesn't exist
+const outputDir = 'mvp_client';
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir);
+}
 
-console.log(`MJML file "${mjmlFilename}" has been created.`);
- 
+// Write the HTML content to a file in the "mvp_client" directory
+const outputPath = path.join(outputDir, htmlFilename);
+fs.writeFileSync(outputPath, html);
+
+console.log(`HTML file "${outputPath}" has been created.`);
+
+// Create a transporter using Gmail SMTP
+const transporter = nodemailer.createTransport({
+  host: 'smtp.gmail.com',
+  port: 465,
+  secure: true,
+  auth: {
+    user: 'newsbriefsforyou@gmail.com',
+    pass: 'newsBriefs123',
+  },
+});
+
+// Configure the email options
+const mailOptions = {
+  from: 'newsbriefsforyou@gmail.com',
+  to: recipientEmail,
+  subject: "Briefed: Your Daily Briefs",
+  html: html,
+};
+
+// Send the email
+transporter.sendMail(mailOptions, (error, info) => {
+  if (error) {
+    console.error('Error sending email:', error);
+  } else {
+    console.log('Email sent:', info.response);
+  }
+});
