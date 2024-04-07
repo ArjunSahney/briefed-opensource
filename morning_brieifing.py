@@ -1,6 +1,7 @@
 from summed import *
 from api_toolbox import get_gpt_response
 from datetime import datetime
+from text_speech import *
 import json 
 import time
 import re
@@ -53,15 +54,17 @@ def format_headlines(data):
     story_count = 1
 
     # Top Headlines
-    for headline in data['Top Headlines']:
-        title = headline['Title']
-        summary = remove_sources(headline['Summary'])
-        sources = [source[0] for source in headline['sources']]
-        formatted_data[f"Story {story_count}"] = [title, summary, sources]
-        story_count += 1
+    if data['Top Headlines'] is not None:
+        for headline in data['Top Headlines']:
+            title = headline['Title']
+            summary = remove_sources(headline['Summary'])
+            sources = [source[0] for source in headline['sources']]
+            formatted_data[f"Story {story_count}"] = [title, summary, sources]
+            story_count += 1
 
     # Custom Headlines
     for topic, topic_briefs in data["Custom Headlines"].items():
+        if topic_briefs is None: continue
         for topic_brief in topic_briefs:
             title = topic_brief['Title']
             summary = remove_sources(topic_brief['Summary'])
@@ -69,21 +72,14 @@ def format_headlines(data):
             formatted_data[f"Story {story_count}"] = [title, summary, sources]
             story_count += 1
 
-    for custom_headlines_topics in data['Custom Headlines']:
-        for headline in custom_headlines_topics:
+    # Trending Headlines
+    if ('Trending Headlines' in data) and (data['Trending Headlines'] is not None):
+        for headline in data['Trending Headlines']:
             title = headline['Title']
             summary = remove_sources(headline['Summary'])
             sources = [source[0] for source in headline['sources']]
             formatted_data[f"Story {story_count}"] = [title, summary, sources]
             story_count += 1
-
-    # Trending Headlines
-    for headline in data['Trending Headlines']:
-        title = headline['Title']
-        summary = remove_sources(headline['Summary'])
-        sources = [source[0] for source in headline['sources']]
-        formatted_data[f"Story {story_count}"] = [title, summary, sources]
-        story_count += 1
 
     return formatted_data
 
@@ -100,15 +96,24 @@ def getTrendingBriefs():
     trending_keywords = get_trending_topics(NUM_TRENDING_BRIEFS)
     filename = "brief_files/trending_" + curr_date + ".txt"
     with open(filename, 'w') as file:
-        file.write("[")
+        trending_briefs_list = []
+        # Retrieve briefs and store in list
         for keyword in trending_keywords:
-            trending_brief = in_brief(keyword, 1)
+            trending_briefs_list.append(in_brief(keyword, 1))
+        # Clean up trending briefs list by removing empty briefs
+        non_empty_trending_briefs = []
+        for trending_brief in trending_briefs_list:
             if (trending_brief is not None) and (trending_brief != "[]"):
-                # Remove highest-level open and close brackets on trending_brief
-                trending_brief_formatted = trending_brief[1:-1]
-                file.write(trending_brief_formatted)
-                if keyword != trending_keywords[-1]:
-                    file.write(", ")
+                non_empty_trending_briefs.append(trending_brief)
+        # Now process trending_briefs to add to briefing_dictionary
+        file.write("[")
+        last_brief_index = len(non_empty_trending_briefs) - 1
+        for index, trending_brief in enumerate(non_empty_trending_briefs, start=0):
+            # Remove highest-level open and close brackets on trending_brief
+            trending_brief_formatted = trending_brief[1:-1]
+            file.write(trending_brief_formatted)
+            if index != last_brief_index:
+                file.write(", ")
         file.write("]")
             
 def generate_morning_briefing(name, briefing_dictionary, use_gpt=False):
@@ -127,85 +132,106 @@ def generate_morning_briefing(name, briefing_dictionary, use_gpt=False):
 
     """
     
-    briefing_dictionary = json.loads(briefing_dictionary)
+    #briefing_dictionary = json.loads(briefing_dictionary)
+    # print(json.dumps(briefing_dictionary, indent=4))
     email_dictionary = {}
+    morning_dictionary = {}
     # Take bottom half of all the briefs sections
-    num_headline_briefs_actual = len(briefing_dictionary["Top Headlines"])
-    email_dictionary["Top Headlines"] = briefing_dictionary["Top Headlines"][num_headline_briefs_actual//2:]
-    briefing_dictionary["Top Headlines"] = briefing_dictionary["Top Headlines"][:num_headline_briefs_actual//2]
+    if briefing_dictionary["Top Headlines"] is not None:
+        num_headline_briefs_actual = len(briefing_dictionary["Top Headlines"])
+        email_dictionary["Top Headlines"] = briefing_dictionary["Top Headlines"][num_headline_briefs_actual//2:]
+        morning_dictionary["Top Headlines"] = briefing_dictionary["Top Headlines"][:num_headline_briefs_actual//2]
     
     email_dictionary["Custom Headlines"] = {}
+    morning_dictionary["Custom Headlines"] = {}
     for topic, topic_briefs in briefing_dictionary["Custom Headlines"].items():
-        # Set the email dictionary to cover the bottom half of the briefs
-        num_topic_briefs = len(topic_briefs)
-        email_dictionary["Custom Headlines"][topic] = topic_briefs[num_topic_briefs//2:]
-        # Now truncate the original dictionary halfway
-        topic_briefs[:] = topic_briefs[:num_topic_briefs//2]
+        if topic_briefs is not None:
+            # Set the email dictionary to cover the bottom half of the briefs
+            num_topic_briefs = len(topic_briefs)
+            email_dictionary["Custom Headlines"][topic] = topic_briefs[num_topic_briefs//2:]
+            # Now truncate the original dictionary halfway
+            morning_dictionary["Custom Headlines"][topic] = topic_briefs[:num_topic_briefs//2]
     
-    num_trending_briefs_actual = len(briefing_dictionary["Trending Headlines"])
-    email_dictionary["Trending Headlines"] = briefing_dictionary["Trending Headlines"][num_trending_briefs_actual//2:]
-    briefing_dictionary["Trending Headlines"] = briefing_dictionary["Trending Headlines"][:num_trending_briefs_actual//2]
+    if "Trending Headlines" in briefing_dictionary:
+        if briefing_dictionary["Trending Headlines"] is not None:
+            num_trending_briefs_actual = len(briefing_dictionary["Trending Headlines"])
+            email_dictionary["Trending Headlines"] = briefing_dictionary["Trending Headlines"][num_trending_briefs_actual//2:]
+            morning_dictionary["Trending Headlines"] = briefing_dictionary["Trending Headlines"][:num_trending_briefs_actual//2]
 
     # Store dictionary for email briefing in email_name_date.txt
-    filename = "brief_files/email_" + name + "_" + curr_date + ".txt"
+    filename = "brief_files/email_dict_" + name + "_" + curr_date + ".txt"
     with open(filename, 'w') as file:
         file.write(json.dumps(email_dictionary, indent=4))
+    filename = "brief_files/morning_dict_" + name + "_" + curr_date + ".txt"
+    with open(filename, 'w') as file:
+        file.write(json.dumps(morning_dictionary, indent=4))
 
     if (use_gpt):
-        summary_prompt = f"""You are a news assistant. Create a morning briefing of approximately 500 words based on the news updates provided below. Aim for minimal bias. Utilize clear and precise language. Prioritize substance. There should be a clean logical flow between topics. Return response in a JSON of this format:
-        {{
-            "Story 1": [
-                briefing,
-                [source name 1, source name 2, etc],
-            ]
-            ...
-            "Story n": [
-                briefing,
-                [source name 1, source name 2, etc],
-            ]
-        }}
+        summary_prompt_2 = f"""You are a news assistant tasked with creating a morning briefing to be read aloud for {name}. Your briefing should have the following characteristics:
+
+1. Be based solely on the news updates provided, citing the sources using phrases like "From Reuters," or "According to the Associated Press."
+
+2. Maintain an objective and impartial tone, aiming for minimal bias in your language and framing.
+
+3. Use clear, precise, and concise language suitable for an oral briefing.
+
+4. Prioritize substantive and relevant information over minor details.
+
+5. Transition smoothly between topics.
+
+6. Return your briefing as plain text without any special symbols or formatting.
+
+Please create the morning briefing following these guidelines and incorporating the provided news updates.
+        {json.dumps(morning_dictionary, indent=4)}
+        """
+
+        summary_prompt_1 = f"""You are a news assistant. Create a morning briefing to be read out loud for {name} based on the news updates provided below. Cite the sources provided in the updates. Aim for minimal bias. Utilize clear and precise language. Prioritize substance. Return plain text with no symbols. 
         
         News updates to use in briefing:
-        {json.dumps(briefing_dictionary, indent=4)}
+        {json.dumps(morning_dictionary, indent=4)}
         """
 
         if __debug__:
             start_time = time.time()
-        morning_briefing = get_gpt_response(summary_prompt, gpt_model="gpt-4-turbo-preview", response_format="json")
+        briefing_text = get_gpt_response(summary_prompt_2, gpt_model="gpt-4-turbo-preview")
         # morning_briefing = get_togetherAI_response(summary_prompt, gpt_model="gpt-4-turbo-preview", response_format="json")
 
         if __debug__:
             end_time = time.time()
             duration = end_time - start_time
             print(f"morning briefing GPT call execution time: {duration} seconds")
-        # Now, parse the JSON retrieved from GPT into an oral briefing transcript
-        data = json.loads(morning_briefing)
     else:
-        morning_briefing = format_headlines(briefing_dictionary)
+        morning_briefing = format_headlines(morning_dictionary)
         data = morning_briefing
 
-    # Initialize an empty list to store the story texts
-    story_texts = []
+        # Initialize an empty list to store the story texts
+        story_texts = []
 
-    # Iterate over the stories
-    for i, (story_key, story_value) in enumerate(data.items(), start=1):
-        # Extract the story text and sources
-        story_title = story_value[0]
-        story_text = story_value[1]
-        sources = ', '.join(story_value[2])
+        # Iterate over the stories
+        for i, (story_key, story_value) in enumerate(data.items(), start=1):
+            # Extract the story text and sources
+            story_title = story_value[0]
+            story_text = story_value[1]
+            sources = ', '.join(story_value[2])
 
-        # Construct the story text with the sources
-        story_texts.append(f"Story {i} is about {story_title}. {story_text} The sources I read to write this briefing are: {sources}.")
+            # Construct the story text with the sources
+            story_texts.append(f"Story {i} is {story_title}. {story_text} The sources I read to write this briefing are: {sources}.")
 
-    # Construct the morning briefing text
-    briefing_text = f"Today's briefing has {len(story_texts)} stories.\n\n"
-    briefing_text += "\n\n".join(story_texts)
-    print(briefing_text) 
+        # Construct the morning briefing text
+        briefing_text = f"Good morning {name}! Today's briefing has {len(story_texts)} stories.\n\n"
+        briefing_text += "\n\n".join(story_texts)
+        briefing_text += "\nThat concludes your briefing for today."
     
-    # Store transcript of briefing in morning_name_date.txt
+    if __debug__:
+        print(briefing_text) 
+    
+    briefing_text = briefing_text.replace('**', '')
+    # Store copy of briefing transcript in morning_name_date.txt
     filename = "brief_files/morning_" + name + "_" + curr_date + ".txt"
     with open(filename, 'w') as file:
-        file.write(json.dumps(briefing_text, indent=4))
+        file.write(briefing_text)
+    # Convert to audio and store in audio/name.txt
+    text_to_speech(briefing_text, name)
             
 
 def in_morning_brief(name, company, industry, topic): 
@@ -247,22 +273,34 @@ def in_morning_brief(name, company, industry, topic):
         if __debug__:
             print("Trending briefs is empty.")
 
-    career_content = in_brief(company, NUM_CUSTOM_BRIEFS/NUM_CUSTOM_TOPICS)
-    industry_content = in_brief(industry, NUM_CUSTOM_BRIEFS/NUM_CUSTOM_TOPICS)
-    topic_content = in_brief(topic, NUM_CUSTOM_BRIEFS/NUM_CUSTOM_TOPICS)
-    
+    career_content = in_brief(company, NUM_CUSTOM_BRIEFS//NUM_CUSTOM_TOPICS)
+    industry_content = in_brief(industry, NUM_CUSTOM_BRIEFS//NUM_CUSTOM_TOPICS)
+    topic_content = in_brief(topic, NUM_CUSTOM_BRIEFS//NUM_CUSTOM_TOPICS)
+    if career_content is not None and career_content != "[]":
+        career_content = json.loads(career_content)
+    else: career_content = None
+
+    if industry_content is not None and industry_content != "[]":
+        industry_content = json.loads(industry_content)
+    else: industry_content = None
+
+    if topic_content is not None and topic_content != "[]":
+        topic_content = json.loads(topic_content)
+    else: topic_content = None
+          
     briefing_dictionary = {}
     if top_briefs:
         briefing_dictionary["Top Headlines"] = top_briefs
-    if custom_headline_briefs:
-        briefing_dictionary["Custom Headlines"] = {
-            industry: industry_content[1:-1],
-            topic: topic_content[1:-1],
-            company: career_content[1:-1]
-        }
+    else: briefing_dictionary["Top Headlines"] = None
+    briefing_dictionary["Custom Headlines"] = {
+        company: career_content,
+        industry: industry_content,
+        topic: topic_content
+    }
     if trending_briefs:
         briefing_dictionary["Trending Headlines"] = trending_briefs
-    generate_morning_briefing(name, briefing_dictionary)
+    
+    generate_morning_briefing(name, briefing_dictionary, True)
 
 # Run this one time per day
 # getTopHeadlinesBriefs()
@@ -272,10 +310,10 @@ def in_morning_brief(name, company, industry, topic):
 # search("Amazon Corporation", "Sony Corporation", "Elden Ring")
 
 # Nick
-in_morning_brief("Nick", "US Presidential Election", "Climate and Business", "Alberta provincial politics")
+# in_morning_brief("Nick", "US Presidential Election", "Climate and Business", "Alberta provincial politics")
 
 # Christian: global politics and economy, basketball, social science acadameia, armenia, turkey, scientific innovation
-# search("Global Politics and Economy", "Basketball", "Armenia", "Turkey")
+# in_morning_brief("Christian Chantayan", "Global Politics and Economy", "Basketball", "Armenia")
 
 # Daniel
-# search("cats", "Technology", "piano", "")
+# in_morning_brief("Daniel Liu", "cats", "Technology", "piano")

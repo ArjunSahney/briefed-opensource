@@ -1,0 +1,29 @@
+[
+    {
+        "Title": "Overview of Iowa vs. UConn Women's NCAA Final Four Showdown",
+        "Summary": "The Women's NCAA Final Four features a highly anticipated match between Iowa and UConn. Viewers can catch live coverage on SiriusXM and ESPN, offering an exciting comparison of star players like Iowa's Caitlin Clark and UConn's Paige Bueckers. The match takes place at Rocket Mortgage Fieldhouse in Cleveland, Ohio, at 9:30 p.m. ET. The Final Four showcases undefeated teams and superstar-led squads, indicating an intense competition (SiriusXM, NCAA.com, CBS Sports, Yahoo Sports).",
+        "sources": [
+            [
+                "SiriusXM",
+                "https://www.siriusxm.com/blog/march-madness-final-four-uconn-iowa",
+                "2 hours ago"
+            ],
+            [
+                "NCAA.com",
+                "https://www.ncaa.com/live-updates/basketball-women/d1/live-updates-iowa-vs-uconn-womens-final-four",
+                "2 hours ago"
+            ],
+            [
+                "CBS Sports",
+                "https://www.cbssports.com/womens-college-basketball/news/iowa-vs-uconn-in-final-four-start-time-live-stream-how-to-watch-preview-for-caitlin-clark-paige-bueckers/",
+                "3 hours ago"
+            ],
+            [
+                "Yahoo Sports",
+                "https://sports.yahoo.com/iowa-vs-uconn-how-to-watch-the-womens-ncaa-tournament-final-four-game-114550622.html",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/UConn vs. Iowa Final Four_2024-04-05.jpg"
+    }
+]

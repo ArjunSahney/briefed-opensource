@@ -1,0 +1,57 @@
+[
+    {
+        "Title": "Coverage and Results of the Crystal Palace vs. Manchester City Match",
+        "Summary": "Manchester City continues their impressive run with ten wins in their last 13 matches, improving their season record to 20-7-3 (CBS Sports). The Crystal Palace vs. Manchester City match is available for live streaming on the USA Network, accessible through cable packages, Sling TV, and other services, with TNT Sports broadcasting exclusively in the UK (CNET). Kevin De Bruyne has hit his 100th goal milestone for Manchester City, playing a pivotal role in the team's formation and strategy (Sporting News). Manchester City's victory over Crystal Palace ties them in points with Liverpool at the top of the Premier League table, featuring significant contributions from players such as Erling Haaland (Yahoo). The match's live stream details and team line-ups suggest high anticipation and diverse viewing options for global fans (Tom's Guide).",
+        "sources": [
+            [
+                "CBS Sports",
+                "https://www.cbssports.com/soccer/news/crystal-palace-vs-manchester-city-how-to-watch-online-live-stream-info-start-time-tv-channel-29131945/",
+                "10 hours ago"
+            ],
+            [
+                "CNET",
+                "https://www.cnet.com/tech/services-and-software/crystal-palace-vs-man-city-livestream-how-to-watch-english-premier-league-soccer-from-anywhere/",
+                "12 hours ago"
+            ],
+            [
+                "Sporting News",
+                "https://www.sportingnews.com/us/premier-league/news/crystal-palace-vs-man-city-score-result-stats-premier-league/e882617a77aafc5848fd72b1",
+                "7 hours ago"
+            ],
+            [
+                "Yahoo",
+                "https://uk.sports.yahoo.com/news/crystal-palace-vs-man-city-082909853.html",
+                "7 hours ago"
+            ],
+            [
+                "Tom's Guide",
+                "https://www.tomsguide.com/entertainment/sports/watch-crystal-palace-vs-man-city-live-stream-premier-league-23-24",
+                "10 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Crystal Palace vs Man City Live_2024-04-06.jpg"
+    }
+, 
+    {
+        "Title": "Overview of UConn vs. Alabama Men's NCAA Final Four Game",
+        "Summary": "UConn and Alabama will face off on Apr. 6 at 9:20 p.m. ET, with coverage across TBS/TNT/truTV and streaming available on Max. UConn is predicted to win, presenting a match-up of strengths including Donovan Clingan's dominance and UConn's 3-point shooting defense against Alabama's first Final Four appearance. This Final Four game is part of a larger championship weekend including both men's and women's teams across different colleges (Yahoo Sports, The Athletic, CBS News).",
+        "sources": [
+            [
+                "Yahoo Sports",
+                "https://sports.yahoo.com/uconn-vs-alabama-how-to-watch-the-mens-ncaa-tournament-final-four-game-105504161.html",
+                "27 minutes ago"
+            ],
+            [
+                "The Athletic",
+                "https://theathletic.com/live-blogs/alabama-vs-uconn-live-score-updates-march-madness-mens-final-four/C8F7VRkX6R57/",
+                "7 minutes ago"
+            ],
+            [
+                "CBS News",
+                "https://www.cbsnews.com/essentials/how-to-watch-todays-alabama-vs-uconn-mens-march-madness-final-four-basketball-game/",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/UConn vs. Alabama Men's NCAA live_2024-04-06.jpg"
+    }
+]

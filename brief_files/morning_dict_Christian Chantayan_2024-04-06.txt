@@ -1,0 +1,174 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Impact of Baltimore Bridge Collapse on Local Economy and Supply Chain",
+            "Summary": "The collapse of the Francis Scott Key Bridge in Baltimore has created significant disruptions, impacting local businesses and the broader supply chain. Business owners like Alex Del Sordo anticipate challenges but remain hopeful for a rapid recovery (NBC News). Economic analysts believe the collapse underscores the vulnerability of U.S. supply chains, though national economic and inflation impacts are expected to be minimal (Greenhouse Grower). The recovery efforts, marked by President Biden's visit, continue as authorities found a third body, increasing the urgency for cleanup (ABC News - Breaking News, Latest News and Videos). The event has also affected coal exports and automotive sectors, highlighting supply chain vulnerabilities (herald-dispatch.com). President Biden's visit emphasizes the national concern over the bridge's collapse and its economic repercussions (NBC 5 Dallas-Fort Worth).",
+            "sources": [
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/business/economy/baltimore-businesses-see-bridge-fallout-short-term-hurdle-rcna146101",
+                    "9 hours ago"
+                ],
+                [
+                    "Greenhouse Grower",
+                    "https://www.greenhousegrower.com/management/how-the-baltimore-bridge-collapse-is-affecting-spring-shipping-for-plant-growers/",
+                    "2 hours ago"
+                ],
+                [
+                    "herald-dispatch.com",
+                    "https://www.herald-dispatch.com/business/baltimore-s-key-bridge-collapse-impacts-auto-dealerships-west-virginia-coal-exports/article_a7e1c838-57de-55b3-9147-a7f49b8c4563.html",
+                    "10 hours ago"
+                ],
+                [
+                    "NBC 5 Dallas-Fort Worth",
+                    "https://www.nbcdfw.com/news/national-international/is-the-baltimore-bridge-collapse-impacting-the-supply-chain/3507393/",
+                    "22 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Baltimore Bridge Impact on Businesses_2024-04-06.jpg"
+        },
+        {
+            "Title": "Investigations and Reactions to Aid Worker Deaths in Gaza",
+            "Summary": "Israel acknowledges grave mistakes in killing seven aid workers in Gaza, with disciplinary actions suggested but calls for more systemic changes to prevent future military failures emphasized (CNN). Parents of a Gaza charity worker decry their child's death as a crime, amidst denials from an Israeli minister and accusations of targeting by a charity boss, while Israel contends with the recovery of a hostage's body and broader conflict implications (BBC). Prior incidents, including attacks on Doctors Without Borders and ANERA convoys, underscore the peril faced by aid workers, with Israel's military acknowledging violations in procedures during the strikes (Washington Post).",
+            "sources": [
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/05/middleeast/israel-world-central-kitchen-report-explainer-intl/index.html",
+                    "22 hours ago"
+                ],
+                [
+                    "BBC",
+                    "https://www.bbc.co.uk/news/world-middle-east-68746106",
+                    "19 hours ago"
+                ],
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/world/2024/04/05/gaza-aid-humanitarian-idf-deconfliction/",
+                    "16 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Israel Gaza Aid Worker Report_2024-04-06.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "Global Politics and Economy": [
+            {
+                "Title": "The Political Economy of Climate Change Adaptation",
+                "Summary": "Effective climate change adaptation requires understanding its political complexities, including how extreme weather experiences influence public support for mitigation efforts and adaptation strategies (CEPR). Coastal flood risk management in the US demonstrates these complexities, highlighting the need for careful navigation of political terrains in public works for climate adaptation (CEPR). Research also points to increasing habitat loss and inequality as critical concerns in adapting to climate change, stressing the importance of integrated political and economic approaches (CEPR).",
+                "sources": [
+                    [
+                        "CEPR",
+                        "https://cepr.org/voxeu/columns/political-economy-adapting-climate-change",
+                        "23 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "Western Quake Coverage and Taiwan's Economy",
+                "Summary": "Coverage of a recent earthquake by Western media reflects concerns over the potential economic vulnerability and hollowing out of Taiwan's economy, signaling broader geopolitical implications (Global Times).",
+                "sources": [
+                    [
+                        "Global Times",
+                        "https://www.globaltimes.cn/page/202404/1310078.shtml",
+                        "8 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Western quake coverage Taiwan economy_2024-04-06.jpg"
+            }
+        ],
+        "Basketball": [
+            {
+                "Title": "2024 Hall of Fame Highlights",
+                "Summary": "The WWE Hall of Fame Class of 2024 features legends like Bull Nakano and Muhammad Ali, showcasing decades of influence in wrestling and boxing. Team icons Mike Rotunda and Barry Windham, alongside Lia Maivia from the Anoa'i family, are also inducted for their pivotal roles in wrestling evolution (Bleacher Report).",
+                "sources": [
+                    [
+                        "Bleacher Report",
+                        "https://bleacherreport.com/articles/10115782-wwe-hall-of-fame-2024-top-highlights-from-paul-heyman-us-express-and-all-speeches",
+                        "17 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/2024 Hall of Fame Headliners_2024-04-06.jpg"
+            }
+        ],
+        "Armenia": [
+            {
+                "Title": "Tensions and Financial Support on the Armenia-Azerbaijan Border",
+                "Summary": "Recent clashes were reported on the Armenia-Azerbaijan border shortly after the EU and US announced support for Armenia, highlighting ongoing regional tensions (POLITICO.eu, Atlas News). A joint statement praised Armenia's progress in democratic reforms and pledged continued partnership against the backdrop of strained relations with Russia (POLITICO.eu). Armenia refuted Azerbaijan's claims of aggression, calling them disinformation (Atlas News). Amidst these tensions, the EU and US have pledged $355 million to support Armenia's westernization efforts (PressTV). This financial aid aims to strengthen ties with Yerevan as its relationship with Moscow falters (Jordan Times).",
+                "sources": [
+                    [
+                        "POLITICO.eu",
+                        "https://www.politico.eu/article/clashes-reported-on-armenia-azerbaijan-border-hours-after-eu-support-announced/",
+                        "9 hours ago"
+                    ],
+                    [
+                        "Atlas News",
+                        "https://theatlasnews.co/latest/2024/04/06/clashes-across-two-days-on-armenia-azerbaijan-border/",
+                        "11 hours ago"
+                    ],
+                    [
+                        "PressTV",
+                        "https://www.presstv.ir/Detail/2024/04/06/723150/EU-pledges--290-million-aid-to-Westernize-Armenia",
+                        "15 hours ago"
+                    ],
+                    [
+                        "Jordan Times",
+                        "http://www.jordantimes.com/news/world/eu-vows-290m-armenia-amid-tensions-russia",
+                        "47 minutes ago"
+                    ]
+                ],
+                "Image Filepath": "img/Armenia-Azerbaijan border clashes_2024-04-06.jpg"
+            },
+            {
+                "Title": "Current Developments in Azerbaijan's International Relations and Air Travel",
+                "Summary": "Azerbaijan has seen a more than 7% increase in the number of flights to Russia, marking a significant uptick in air travel between the two countries (Report.az). Concurrently, Azerbaijan faces political challenges in the South Caucasus region, with entities like PACE and France critiquing its actions and calling it an aggressor towards Armenia, hinting at a complex geopolitical context reminiscent of historical alliances (AzerNews).",
+                "sources": [
+                    [
+                        "Report.az",
+                        "https://report.az/en/amp/tourism/number-of-flights-from-azerbaijan-to-russia-up-by-over-7/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "AzerNews",
+                        "https://www.azernews.az/analysis/224273.html",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Armenia's unanswered question in Brussels_2024-04-06.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Coverage and Results of the Crystal Palace vs. Manchester City Match",
+            "Summary": "Manchester City continues their impressive run with ten wins in their last 13 matches, improving their season record to 20-7-3 (CBS Sports). The Crystal Palace vs. Manchester City match is available for live streaming on the USA Network, accessible through cable packages, Sling TV, and other services, with TNT Sports broadcasting exclusively in the UK (CNET). Kevin De Bruyne has hit his 100th goal milestone for Manchester City, playing a pivotal role in the team's formation and strategy (Sporting News). Manchester City's victory over Crystal Palace ties them in points with Liverpool at the top of the Premier League table, featuring significant contributions from players such as Erling Haaland (Yahoo). The match's live stream details and team line-ups suggest high anticipation and diverse viewing options for global fans (Tom's Guide).",
+            "sources": [
+                [
+                    "CBS Sports",
+                    "https://www.cbssports.com/soccer/news/crystal-palace-vs-manchester-city-how-to-watch-online-live-stream-info-start-time-tv-channel-29131945/",
+                    "10 hours ago"
+                ],
+                [
+                    "CNET",
+                    "https://www.cnet.com/tech/services-and-software/crystal-palace-vs-man-city-livestream-how-to-watch-english-premier-league-soccer-from-anywhere/",
+                    "12 hours ago"
+                ],
+                [
+                    "Sporting News",
+                    "https://www.sportingnews.com/us/premier-league/news/crystal-palace-vs-man-city-score-result-stats-premier-league/e882617a77aafc5848fd72b1",
+                    "7 hours ago"
+                ],
+                [
+                    "Yahoo",
+                    "https://uk.sports.yahoo.com/news/crystal-palace-vs-man-city-082909853.html",
+                    "7 hours ago"
+                ],
+                [
+                    "Tom's Guide",
+                    "https://www.tomsguide.com/entertainment/sports/watch-crystal-palace-vs-man-city-live-stream-premier-league-23-24",
+                    "10 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Crystal Palace vs Man City Live_2024-04-06.jpg"
+        }
+    ]
+}

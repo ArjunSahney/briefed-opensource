@@ -1,0 +1,76 @@
+[
+    {
+        "Title": "Amazon Revises Checkout Technology Strategy Across Stores",
+        "Summary": "Amazon's Just Walk Out technology, initially celebrated for its check-out free shopping, relies partially on human validation from workers in India to ensure accuracy, a move to continuously enhance the system's precision (USA Today). Amidst these developments, Amazon opts to phase out Just Walk Out technology in favor of enhancing customer experience through re-designed Amazon Fresh stores with expanded selections and incorporating updated checkout options like Amazon Dash Cart, signaling a strategic pivot towards integrating smart shopping carts (ARLnow.com, NJ.com). This shift is part of Amazon's broader efforts to offer greater convenience and value to its customers.",
+        "sources": [
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/money/shopping/2024/04/04/amazon-just-walk-out-indian-workers/73204975007/",
+                "3 hours ago"
+            ],
+            [
+                "ARLnow.com",
+                "https://www.arlnow.com/2024/04/06/breaking-amazon-fresh-closing-in-crystal-city/",
+                "5 hours ago"
+            ],
+            [
+                "NJ.com",
+                "https://www.nj.com/business/2024/04/amazon-fresh-replaces-walk-out-technology-with-smart-shopping-carts.html",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Just Walk Out\" tech staffing_2024-04-06.jpg"
+    },
+    {
+        "Title": "Tech Giants and the Global Data Harvest for AI Development",
+        "Summary": "Tech giants are employing extensive measures to collect vast amounts of online data for AI development, from using over a million hours of YouTube videos for training AI models like GPT-4 to potentially engaging in anti-competitive practices that draw scrutiny from regulators worldwide. These efforts underline the sector's dependence on diverse online content to advance technologies capable of mimicking human outputs (Globe Echo; Cryptopolitan). Concurrently, the dominance of firms like Google, Amazon, and Facebook raises critical regulatory concerns, notably in market monopolization and prioritization of their products, prompting significant legal actions and debates over the balance of innovation and regulation (www.politics-dz.com).",
+        "sources": [
+            [
+                "www.politics-dz.com",
+                "https://www.politics-dz.com/en/digital-empires-the-global-battle-to-regulate-technology/",
+                "20 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Tech Giants Data Harvesting_2024-04-06.jpg"
+    },
+    {
+        "Title": "Essentials of Solar Eclipse Photography and Budget Desktop Processors",
+        "Summary": "To capture the total solar eclipse safely, enthusiasts must use proper techniques and equipment (BBC). Meanwhile, for budget-conscious PC builders, top picks for desktop processors under \u20b910,000 offer significant CPU performance, with the top options supporting features like DDR5 RAM and SMT, catering to various performance needs (TechnoSports).",
+        "sources": [
+            [
+                "BBC",
+                "https://www.bbc.com/travel/article/20240404-how-to-safely-photograph-the-total-solar-eclipse",
+                "13 hours ago"
+            ],
+            [
+                "TechnoSports",
+                "https://technosports.co.in/top-10-desktop-processors-under-rs-10000/",
+                "20 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Co-evolution with technology reasons_2024-04-06.jpg"
+    },
+    {
+        "Title": "Innovative Battery Technology from California Startup",
+        "Summary": "A California startup has introduced a new battery technology that promises rapid charging capabilities, positioning it as a 'universal adapter' for various devices (Tech Xplore).",
+        "sources": [
+            [
+                "Tech Xplore",
+                "https://techxplore.com/news/2024-04-zap-california-startup-touts-battery.html",
+                "4 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Earning Technology Points in Palworld",
+        "Summary": "In Palworld, Technology Points are essential for progress, unlocking new items and structures for crafting and building within your camp, similar to mechanics in other survival games (Destructoid).",
+        "sources": [
+            [
+                "Destructoid",
+                "https://www.destructoid.com/how-to-get-more-technology-points-in-palworld/",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Increasing Palworld Technology Points_2024-04-06.jpg"
+    }
+]

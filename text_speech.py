@@ -5,12 +5,13 @@ import os
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'text-to-speech/animated-zenith-417817-ca2e9a2b5085.json'
 
-def text_to_speech(txt_file):
+def text_to_speech(text, base_name, txt_file=None):
     client = texttospeech.TextToSpeechClient()
 
     # Read the content of the text file
-    with open(txt_file, 'r') as file:
-        text = file.read()
+    if txt_file:
+        with open(txt_file, 'r') as file:
+            text = file.read()
 
     synthesis_input = texttospeech.SynthesisInput(ssml=text)
     voice1 = texttospeech.VoiceSelectionParams(
@@ -30,13 +31,10 @@ def text_to_speech(txt_file):
     )
 
     # Get the base name of the text file (without the extension)
-    base_name = os.path.splitext(txt_file)[0]
-    mp3_file = f"{base_name}.mp3"
+    # base_name = os.path.splitext(txt_file)[0]
+    mp3_file = f"audio/{base_name}.mp3"
 
     with open(mp3_file, 'wb') as output:
         output.write(response1.audio_content)
 
     print(f"Audio file '{mp3_file}' generated successfully.")
-
-# Example usage
-text_to_speech('test.txt')

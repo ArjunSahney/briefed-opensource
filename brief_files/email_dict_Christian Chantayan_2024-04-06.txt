@@ -1,0 +1,233 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Trump Seeks New Judge in Hush-Money Case Amid Legal Challenges",
+            "Summary": "Former President Donald Trump is making a last-minute effort to have a new judge preside over his upcoming hush-money criminal trial, citing a conflict of interest due to the current judge's connections and accusing him of bias. Trump's legal team argues that the judge's ties to the Democratic party, through clients of Loren Merchan's firm, pose a conflict as Trump secures his position against President Joe Biden in the upcoming election. This attempt to recuse Judge Merchan comes amid Trump's broader legal struggles, including those involving financial backers of his civil fraud case. (NPR, NBC News, AOL.com, Yahoo News Canada)",
+            "sources": [
+                [
+                    "NPR",
+                    "https://www.npr.org/2024/04/06/1243212827/trump-demands-new-judge-hush-money-criminal-trial",
+                    "16 hours ago"
+                ],
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/politics/donald-trump/trump-asks-hush-money-judge-recuse-less-two-weeks-trial-starts-rcna146659",
+                    "20 hours ago"
+                ],
+                [
+                    "AOL.com",
+                    "https://www.aol.com/news/trump-mounts-push-recuse-judge-201146852.html",
+                    "15 hours ago"
+                ],
+                [
+                    "Yahoo News Canada",
+                    "https://ca.news.yahoo.com/trump-mounts-push-recuse-judge-201146573.html",
+                    "21 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Trump seeks Merchan's recusal_2024-04-06.jpg"
+        },
+        {
+            "Title": "Key Points on Northeast Earthquake and Aftershocks",
+            "Summary": "The Northeast experienced a rare 4.8-magnitude earthquake, with the USGS recording 28 aftershocks, the largest being a 3.8-magnitude event near Gladstone, New Jersey. Officials advise adopting safety measures during quakes, emphasizing the 'drop, cover, and hold on' technique for protection. Over 23 million people felt the tremors, with reports of shaking buildings and assessments for structural stability underway (FOX Weather; CNN). No major injuries or infrastructure damage have been reported, and residents are encouraged to continue their normal routines (NBC News).",
+            "sources": [
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/science/science-news/earthquake-shakes-us-east-coast-rcna146575",
+                    "22 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Northeast quake aftershocks USGS_2024-04-06.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "Global Politics and Economy": [
+            {
+                "Title": "Global Climate Change Adaptation and Accountability",
+                "Summary": "Adapting to climate change involves understanding its political economy and the varied responses to extreme weather conditions (CEPR). Recent natural disasters across the globe underscore the urgent need for effective solutions to mitigate its effects, as highlighted by record high sea-surface temperatures and devastating wildfires (The Globe and Mail). While regions like India are reportedly more prepared to handle climate-related agricultural shocks compared to Pakistan, the quest for resilience continues (The Economic Times). In the US, affected communities are taking legal actions against fossil fuel companies for climate damages (Anyuak Media). Additionally, sustainable travel emerges as a conscious effort to balance tourism with environmental, economic, and social sustainability (Voyagers World).",
+                "sources": [
+                    [
+                        "CEPR",
+                        "https://cepr.org/voxeu/columns/political-economy-adapting-climate-change",
+                        "23 hours ago"
+                    ],
+                    [
+                        "The Globe and Mail",
+                        "https://www.theglobeandmail.com/opinion/article-climate-change-is-disabling-its-solutions-shouldnt-be/",
+                        "10 hours ago"
+                    ],
+                    [
+                        "The Economic Times",
+                        "https://m.economictimes.com/news/economy/agriculture/india-better-prepared-than-pakistan-to-handle-climate-shocks-in-wheat-crop-agri-scientists/articleshow/109085691.cms",
+                        "13 hours ago"
+                    ],
+                    [
+                        "Anyuak Media",
+                        "https://ytech.news/en/pennsylvania-community-sues-fossil-fuel-companies-over-climate-damages/",
+                        "12 hours ago"
+                    ],
+                    [
+                        "Voyagers World",
+                        "https://voyagersworld.in/what-is-sustainable-travel-everything-you-need-to-know/",
+                        "10 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Global Economy Warming Effects_2024-04-06.jpg"
+            },
+            {
+                "Title": "Global Developments Involving Iran",
+                "Summary": "Iran prioritizes bolstering economic cooperation with nations in the Global South (IRNA English). The Hezbollah chief warns of retaliation to Israel's attack on an Iranian mission, marking a potential turning point in Gaza conflict (StratNewsGlobal). The US expresses concern over South Africa\u2019s growing ties with Russia, Iran, and Hamas, criticizing the South African government for its relations with these regimes amid domestic challenges (Fox News). Additionally, Iran is reportedly set to deliver armed drones to Russia according to the White House (AOL.com), while also playing a significant role in the ongoing Gaza war (UnHerd).",
+                "sources": [
+                    [
+                        "IRNA English",
+                        "https://en.irna.ir/news/85437083/Boosting-economic-cooperation-with-Global-South-nations-among",
+                        "3 hours ago"
+                    ],
+                    [
+                        "StratNewsGlobal",
+                        "https://stratnewsglobal.com/world-news/israels-attack-on-iranian-mission-a-turning-point-in-gaza-conflict-says-hezbollah-chief/",
+                        "17 hours ago"
+                    ],
+                    [
+                        "Fox News",
+                        "https://www.foxnews.com/world/us-concerned-south-africas-growing-ties-russia-iran-hamas-fallen-propaganda",
+                        "14 hours ago"
+                    ],
+                    [
+                        "AOL.com",
+                        "https://www.aol.com/white-house-says-iran-set-003527439.html",
+                        "6 hours ago"
+                    ],
+                    [
+                        "UnHerd",
+                        "https://unherd.com/2024/04/iran-is-winning-the-gaza-war/",
+                        "23 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Iran focuses on Global South_2024-04-06.jpg"
+            }
+        ],
+        "Basketball": [
+            {
+                "Title": "Final Four Showdown: Purdue vs. NC State Highlights",
+                "Summary": "Purdue, after an upset loss to No. 16 seed Fairleigh Dickinson, seeks redemption similar to Virginia's past comeback, facing NC State in the Final Four with a potential national title game against UConn on the horizon (CBS Sports). NC State, led by DJ Burns, has overcome a late-season slump to make an impressive run to their fourth Final Four, the first since 1983, showcasing roster-building as an art form in college basketball (The Athletic). Zach Edey, Purdue's 7-foot, 4-inch leading NCAA scorer, presents a unique challenge for NC with his dominant presence, powering Purdue to its first Final Four since 1980 (NBC News). Coverage includes live updates, analysis, and streaming information on various platforms (IndyStar).",
+                "sources": [
+                    [
+                        "CBS Sports",
+                        "https://www.cbssports.com/college-basketball/news/purdue-vs-nc-state-final-four-prediction-pick-spread-odds-live-stream-watch-online-tv-channel/",
+                        "2 hours ago"
+                    ],
+                    [
+                        "The Athletic",
+                        "https://theathletic.com/live-blogs/nc-state-vs-purdue-live-score-updates-march-madness-mens-final-four/a7EjfhCQadcg/",
+                        "11 minutes ago"
+                    ],
+                    [
+                        "NBC News",
+                        "https://www.nbcnews.com/news/sports/live-blog/final-four-march-madness-live-updates-rcna145793",
+                        "18 minutes ago"
+                    ],
+                    [
+                        "IndyStar",
+                        "https://www.indystar.com/story/sports/college/purdue/2024/04/06/purdue-basketball-nc-state-live-updates-score-stats-zach-edey-highlights/73180910007/",
+                        "50 minutes ago"
+                    ]
+                ],
+                "Image Filepath": "img/Purdue vs. NC State live_2024-04-06.jpg"
+            },
+            {
+                "Title": "Record-Breaking Viewership for Iowa-UConn Women's College Basketball Game",
+                "Summary": "The NCAA Women's College Basketball game between Iowa and UConn set a new viewership record, becoming the most-watched women's college basketball game and ESPN's most-watched basketball game ever, with 14.2 million viewers and peaking at 17 million (NBC News). Predictions had suggested the game could reach up to 18 million viewers, emphasizing its anticipated historic significance and its potential to outdraw the men's college basketball final (The Athletic).",
+                "sources": [
+                    [
+                        "NBC News",
+                        "https://www.nbcnews.com/business/ncaa-womens-basketball-championship-record-expected-watch-rcna146537",
+                        "57 minutes ago"
+                    ],
+                    [
+                        "The Athletic",
+                        "https://theathletic.com/5396005/2024/04/06/iowa-uconn-final-four-viewership-ratings/",
+                        "1 hour ago"
+                    ]
+                ],
+                "Image Filepath": "img/2024 NCAA Women's Basketball Viewership_2024-04-06.jpg"
+            }
+        ],
+        "Armenia": [
+            {
+                "Title": "EU's Financial Support to Armenia Amidst Rising Tensions with Russia",
+                "Summary": "The European Union has committed to a financial aid package for Armenia totaling 270 million euros ($290 million), aiming to strengthen relations with Yerevan amidst deteriorating ties with Russia (Jordan Times).",
+                "sources": [
+                    [
+                        "Jordan Times",
+                        "http://www.jordantimes.com/news/world/eu-vows-290m-armenia-amid-tensions-russia",
+                        "47 minutes ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "International Support for Armenia Amid Regional Tensions",
+                "Summary": "The EU and US have pledged significant financial support to Armenia, highlighting its progress in democratic reforms and the fight against corruption since 2018 (POLITICO.eu). This comes amid rising tensions with Azerbaijan and as Armenia's relations with Russia wane (Jordan Times). A collective $355 million has been promised to aid Armenia's economic development, to diversify trade, and to enhance economic and institutional resilience (PressTV). These commitments were made during a meeting between EU and US officials and the Armenian Prime Minister, aiming to foster a more ambitious partnership (JAM-news.net). Clashes on the Armenia-Azerbaijan border ensued hours after the announcement of this support (POLITICO.eu).",
+                "sources": [
+                    [
+                        "POLITICO.eu",
+                        "https://www.politico.eu/article/clashes-reported-on-armenia-azerbaijan-border-hours-after-eu-support-announced/",
+                        "9 hours ago"
+                    ],
+                    [
+                        "Jordan Times",
+                        "http://www.jordantimes.com/news/world/eu-vows-290m-armenia-amid-tensions-russia",
+                        "48 minutes ago"
+                    ],
+                    [
+                        "PressTV",
+                        "https://www.presstv.ir/Detail/2024/04/06/723150/EU-pledges--290-million-aid-to-Westernize-Armenia",
+                        "15 hours ago"
+                    ],
+                    [
+                        "JAM-news.net",
+                        "https://jam-news.net/the-brussels-meeting-pashinyan-von-der-leyen-blinken-opinion/",
+                        "9 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/EU, US Financial Support Armenia_2024-04-06.jpg"
+            },
+            {
+                "Title": "EU's Approach to Cooperation with Armenia",
+                "Summary": "The EU outlined their approach to cooperation with Armenia, emphasizing collaboration in the European Peace Fund, enhancing Armenia's economic and societal resilience, and working towards visa liberalization, without demanding Armenia to cease partnerships with other countries (1Lurer).",
+                "sources": [
+                    [
+                        "1Lurer",
+                        "https://www.1lurer.am/en/2024/04/06/EU-will-not-say-if-you-want-to-work-with-us-you-must-give-up-all-other-partners-Stano-on-Armenia%E2%80%99s/1105109",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Stano on Armenia-Azerbaijan Solution_2024-04-06.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Overview of UConn vs. Alabama Men's NCAA Final Four Game",
+            "Summary": "UConn and Alabama will face off on Apr. 6 at 9:20 p.m. ET, with coverage across TBS/TNT/truTV and streaming available on Max. UConn is predicted to win, presenting a match-up of strengths including Donovan Clingan's dominance and UConn's 3-point shooting defense against Alabama's first Final Four appearance. This Final Four game is part of a larger championship weekend including both men's and women's teams across different colleges (Yahoo Sports, The Athletic, CBS News).",
+            "sources": [
+                [
+                    "Yahoo Sports",
+                    "https://sports.yahoo.com/uconn-vs-alabama-how-to-watch-the-mens-ncaa-tournament-final-four-game-105504161.html",
+                    "27 minutes ago"
+                ],
+                [
+                    "The Athletic",
+                    "https://theathletic.com/live-blogs/alabama-vs-uconn-live-score-updates-march-madness-mens-final-four/C8F7VRkX6R57/",
+                    "7 minutes ago"
+                ],
+                [
+                    "CBS News",
+                    "https://www.cbsnews.com/essentials/how-to-watch-todays-alabama-vs-uconn-mens-march-madness-final-four-basketball-game/",
+                    "9 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/UConn vs. Alabama Men's NCAA live_2024-04-06.jpg"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "Title": "Overview of Crystal Palace vs Manchester City Match Coverage",
+        "Summary": "Manchester City, on a winning streak, faced Crystal Palace, with the match available for live streaming on various platforms including USA Network, NBC Sports website, Sling TV, and TNT Sports for UK viewers (CBS Sports, CNET). Kevin De Bruyne scored his 100th goal for Manchester City in a formation that showcased the team's strategic depth (Sporting News). The game ended with Manchester City leveling points with Liverpool at the top of the Premier League table, featuring a strong return performance from Erling Haaland (Yahoo). For international fans, options to watch included using a VPN for access to the exclusive TNT Sports coverage in the UK (Tom's Guide).",
+        "sources": [
+            [
+                "CBS Sports",
+                "https://www.cbssports.com/soccer/news/crystal-palace-vs-manchester-city-how-to-watch-online-live-stream-info-start-time-tv-channel-29131945/",
+                "10 hours ago"
+            ],
+            [
+                "CNET",
+                "https://www.cnet.com/tech/services-and-software/crystal-palace-vs-man-city-livestream-how-to-watch-english-premier-league-soccer-from-anywhere/",
+                "12 hours ago"
+            ],
+            [
+                "Sporting News",
+                "https://www.sportingnews.com/us/premier-league/news/crystal-palace-vs-man-city-score-result-stats-premier-league/e882617a77aafc5848fd72b1",
+                "7 hours ago"
+            ],
+            [
+                "Yahoo",
+                "https://uk.sports.yahoo.com/news/crystal-palace-vs-man-city-082909853.html",
+                "6 hours ago"
+            ],
+            [
+                "Tom's Guide",
+                "https://www.tomsguide.com/entertainment/sports/watch-crystal-palace-vs-man-city-live-stream-premier-league-23-24",
+                "10 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Crystal Palace vs Man City Live_2024-04-06.jpg"
+    }
+]

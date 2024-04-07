@@ -1,0 +1,58 @@
+[
+    {
+        "Title": "2024 Hall of Fame Highlights",
+        "Summary": "The WWE Hall of Fame Class of 2024 features legends like Bull Nakano and Muhammad Ali, showcasing decades of influence in wrestling and boxing. Team icons Mike Rotunda and Barry Windham, alongside Lia Maivia from the Anoa'i family, are also inducted for their pivotal roles in wrestling evolution (Bleacher Report).",
+        "sources": [
+            [
+                "Bleacher Report",
+                "https://bleacherreport.com/articles/10115782-wwe-hall-of-fame-2024-top-highlights-from-paul-heyman-us-express-and-all-speeches",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/2024 Hall of Fame Headliners_2024-04-06.jpg"
+    },
+    {
+        "Title": "Final Four Showdown: Purdue vs. NC State Highlights",
+        "Summary": "Purdue, after an upset loss to No. 16 seed Fairleigh Dickinson, seeks redemption similar to Virginia's past comeback, facing NC State in the Final Four with a potential national title game against UConn on the horizon (CBS Sports). NC State, led by DJ Burns, has overcome a late-season slump to make an impressive run to their fourth Final Four, the first since 1983, showcasing roster-building as an art form in college basketball (The Athletic). Zach Edey, Purdue's 7-foot, 4-inch leading NCAA scorer, presents a unique challenge for NC with his dominant presence, powering Purdue to its first Final Four since 1980 (NBC News). Coverage includes live updates, analysis, and streaming information on various platforms (IndyStar).",
+        "sources": [
+            [
+                "CBS Sports",
+                "https://www.cbssports.com/college-basketball/news/purdue-vs-nc-state-final-four-prediction-pick-spread-odds-live-stream-watch-online-tv-channel/",
+                "2 hours ago"
+            ],
+            [
+                "The Athletic",
+                "https://theathletic.com/live-blogs/nc-state-vs-purdue-live-score-updates-march-madness-mens-final-four/a7EjfhCQadcg/",
+                "11 minutes ago"
+            ],
+            [
+                "NBC News",
+                "https://www.nbcnews.com/news/sports/live-blog/final-four-march-madness-live-updates-rcna145793",
+                "18 minutes ago"
+            ],
+            [
+                "IndyStar",
+                "https://www.indystar.com/story/sports/college/purdue/2024/04/06/purdue-basketball-nc-state-live-updates-score-stats-zach-edey-highlights/73180910007/",
+                "50 minutes ago"
+            ]
+        ],
+        "Image Filepath": "img/Purdue vs. NC State live_2024-04-06.jpg"
+    },
+    {
+        "Title": "Record-Breaking Viewership for Iowa-UConn Women's College Basketball Game",
+        "Summary": "The NCAA Women's College Basketball game between Iowa and UConn set a new viewership record, becoming the most-watched women's college basketball game and ESPN's most-watched basketball game ever, with 14.2 million viewers and peaking at 17 million (NBC News). Predictions had suggested the game could reach up to 18 million viewers, emphasizing its anticipated historic significance and its potential to outdraw the men's college basketball final (The Athletic).",
+        "sources": [
+            [
+                "NBC News",
+                "https://www.nbcnews.com/business/ncaa-womens-basketball-championship-record-expected-watch-rcna146537",
+                "57 minutes ago"
+            ],
+            [
+                "The Athletic",
+                "https://theathletic.com/5396005/2024/04/06/iowa-uconn-final-four-viewership-ratings/",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "img/2024 NCAA Women's Basketball Viewership_2024-04-06.jpg"
+    }
+]

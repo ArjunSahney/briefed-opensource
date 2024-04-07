@@ -327,7 +327,7 @@ def get_google_results_valueserp(query, num_results, engine="google_news", topic
     api_result_string = requests.get('https://api.valueserp.com/search', params)
     api_result_json = json.dumps(api_result_string.json(), indent=4)
     api_result_json = json.loads(api_result_json)
-    
+    print(json.dumps(api_result_json, indent=4))
     news_results = api_result_json.get("news_results", [])
     if not news_results:
         return None

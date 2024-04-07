@@ -1,0 +1,164 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Impact of Baltimore Bridge Collapse on Local Economy and Supply Chain",
+            "Summary": "The collapse of the Francis Scott Key Bridge in Baltimore has created significant disruptions, impacting local businesses and the broader supply chain. Business owners like Alex Del Sordo anticipate challenges but remain hopeful for a rapid recovery (NBC News). Economic analysts believe the collapse underscores the vulnerability of U.S. supply chains, though national economic and inflation impacts are expected to be minimal (Greenhouse Grower). The recovery efforts, marked by President Biden's visit, continue as authorities found a third body, increasing the urgency for cleanup (ABC News - Breaking News, Latest News and Videos). The event has also affected coal exports and automotive sectors, highlighting supply chain vulnerabilities (herald-dispatch.com). President Biden's visit emphasizes the national concern over the bridge's collapse and its economic repercussions (NBC 5 Dallas-Fort Worth).",
+            "sources": [
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/business/economy/baltimore-businesses-see-bridge-fallout-short-term-hurdle-rcna146101",
+                    "9 hours ago"
+                ],
+                [
+                    "Greenhouse Grower",
+                    "https://www.greenhousegrower.com/management/how-the-baltimore-bridge-collapse-is-affecting-spring-shipping-for-plant-growers/",
+                    "2 hours ago"
+                ],
+                [
+                    "herald-dispatch.com",
+                    "https://www.herald-dispatch.com/business/baltimore-s-key-bridge-collapse-impacts-auto-dealerships-west-virginia-coal-exports/article_a7e1c838-57de-55b3-9147-a7f49b8c4563.html",
+                    "10 hours ago"
+                ],
+                [
+                    "NBC 5 Dallas-Fort Worth",
+                    "https://www.nbcdfw.com/news/national-international/is-the-baltimore-bridge-collapse-impacting-the-supply-chain/3507393/",
+                    "22 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Baltimore Bridge Impact on Businesses_2024-04-06.jpg"
+        },
+        {
+            "Title": "Investigations and Reactions to Aid Worker Deaths in Gaza",
+            "Summary": "Israel acknowledges grave mistakes in killing seven aid workers in Gaza, with disciplinary actions suggested but calls for more systemic changes to prevent future military failures emphasized (CNN). Parents of a Gaza charity worker decry their child's death as a crime, amidst denials from an Israeli minister and accusations of targeting by a charity boss, while Israel contends with the recovery of a hostage's body and broader conflict implications (BBC). Prior incidents, including attacks on Doctors Without Borders and ANERA convoys, underscore the peril faced by aid workers, with Israel's military acknowledging violations in procedures during the strikes (Washington Post).",
+            "sources": [
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/05/middleeast/israel-world-central-kitchen-report-explainer-intl/index.html",
+                    "22 hours ago"
+                ],
+                [
+                    "BBC",
+                    "https://www.bbc.co.uk/news/world-middle-east-68746106",
+                    "19 hours ago"
+                ],
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/world/2024/04/05/gaza-aid-humanitarian-idf-deconfliction/",
+                    "16 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Israel Gaza Aid Worker Report_2024-04-06.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "cats": [
+            {
+                "Title": "Cat Show Returns to Monaco",
+                "Summary": "This weekend, Monaco welcomes back its popular cat show, an event drawing feline enthusiasts from around the region (Monaco Tribune).",
+                "sources": [
+                    [
+                        "Monaco Tribune",
+                        "https://www.monaco-tribune.com/en/2024/04/cat-show-back-in-monaco-this-weekend/",
+                        "12 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Monaco Cat Show Weekend_2024-04-06.jpg"
+            }
+        ],
+        "Technology": [
+            {
+                "Title": "Amazon Revises Checkout Technology Strategy Across Stores",
+                "Summary": "Amazon's Just Walk Out technology, initially celebrated for its check-out free shopping, relies partially on human validation from workers in India to ensure accuracy, a move to continuously enhance the system's precision (USA Today). Amidst these developments, Amazon opts to phase out Just Walk Out technology in favor of enhancing customer experience through re-designed Amazon Fresh stores with expanded selections and incorporating updated checkout options like Amazon Dash Cart, signaling a strategic pivot towards integrating smart shopping carts (ARLnow.com, NJ.com). This shift is part of Amazon's broader efforts to offer greater convenience and value to its customers.",
+                "sources": [
+                    [
+                        "USA Today",
+                        "https://www.usatoday.com/story/money/shopping/2024/04/04/amazon-just-walk-out-indian-workers/73204975007/",
+                        "3 hours ago"
+                    ],
+                    [
+                        "ARLnow.com",
+                        "https://www.arlnow.com/2024/04/06/breaking-amazon-fresh-closing-in-crystal-city/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "NJ.com",
+                        "https://www.nj.com/business/2024/04/amazon-fresh-replaces-walk-out-technology-with-smart-shopping-carts.html",
+                        "8 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Just Walk Out\" tech staffing_2024-04-06.jpg"
+            },
+            {
+                "Title": "Tech Giants and the Global Data Harvest for AI Development",
+                "Summary": "Tech giants are employing extensive measures to collect vast amounts of online data for AI development, from using over a million hours of YouTube videos for training AI models like GPT-4 to potentially engaging in anti-competitive practices that draw scrutiny from regulators worldwide. These efforts underline the sector's dependence on diverse online content to advance technologies capable of mimicking human outputs (Globe Echo; Cryptopolitan). Concurrently, the dominance of firms like Google, Amazon, and Facebook raises critical regulatory concerns, notably in market monopolization and prioritization of their products, prompting significant legal actions and debates over the balance of innovation and regulation (www.politics-dz.com).",
+                "sources": [
+                    [
+                        "www.politics-dz.com",
+                        "https://www.politics-dz.com/en/digital-empires-the-global-battle-to-regulate-technology/",
+                        "20 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Tech Giants Data Harvesting_2024-04-06.jpg"
+            }
+        ],
+        "piano": [
+            {
+                "Title": "Local Event: Piano Master Class with celebrated pianist John McCarthy",
+                "Summary": "A series of piano master classes led by celebrated pianist John McCarthy are scheduled in Scarsdale, NY, and Greenwich, CT, featuring multiple sessions over the weekend and concluding on Monday (Patch).",
+                "sources": [
+                    [
+                        "Patch",
+                        "https://patch.com/new-york/scarsdale/calendar/event/20240406/a52713d8-80b6-406d-9f33-547e1d5fd787/piano-master-class-with-celebrated-pianist-john-mccarthy",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/John McCarthy Piano Master Class_2024-04-06.jpg"
+            },
+            {
+                "Title": "Eclipse-Themed Recital by Husband-Wife Duo",
+                "Summary": "A husband-wife piano duo will present an eclipse-themed recital on April 22, Earth Day, featuring music inspired by Pope Francis' environmental letters, focusing on creation care, poverty, and solidarity (The Republic News).",
+                "sources": [
+                    [
+                        "The Republic News",
+                        "https://www.therepublic.com/2024/04/06/husband-wife-piano-duo-to-present-eclipse-themed-recital-sunday/",
+                        "18 hours ago"
+                    ]
+                ]
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Coverage and Results of the Crystal Palace vs. Manchester City Match",
+            "Summary": "Manchester City continues their impressive run with ten wins in their last 13 matches, improving their season record to 20-7-3 (CBS Sports). The Crystal Palace vs. Manchester City match is available for live streaming on the USA Network, accessible through cable packages, Sling TV, and other services, with TNT Sports broadcasting exclusively in the UK (CNET). Kevin De Bruyne has hit his 100th goal milestone for Manchester City, playing a pivotal role in the team's formation and strategy (Sporting News). Manchester City's victory over Crystal Palace ties them in points with Liverpool at the top of the Premier League table, featuring significant contributions from players such as Erling Haaland (Yahoo). The match's live stream details and team line-ups suggest high anticipation and diverse viewing options for global fans (Tom's Guide).",
+            "sources": [
+                [
+                    "CBS Sports",
+                    "https://www.cbssports.com/soccer/news/crystal-palace-vs-manchester-city-how-to-watch-online-live-stream-info-start-time-tv-channel-29131945/",
+                    "10 hours ago"
+                ],
+                [
+                    "CNET",
+                    "https://www.cnet.com/tech/services-and-software/crystal-palace-vs-man-city-livestream-how-to-watch-english-premier-league-soccer-from-anywhere/",
+                    "12 hours ago"
+                ],
+                [
+                    "Sporting News",
+                    "https://www.sportingnews.com/us/premier-league/news/crystal-palace-vs-man-city-score-result-stats-premier-league/e882617a77aafc5848fd72b1",
+                    "7 hours ago"
+                ],
+                [
+                    "Yahoo",
+                    "https://uk.sports.yahoo.com/news/crystal-palace-vs-man-city-082909853.html",
+                    "7 hours ago"
+                ],
+                [
+                    "Tom's Guide",
+                    "https://www.tomsguide.com/entertainment/sports/watch-crystal-palace-vs-man-city-live-stream-premier-league-23-24",
+                    "10 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Crystal Palace vs Man City Live_2024-04-06.jpg"
+        }
+    ]
+}

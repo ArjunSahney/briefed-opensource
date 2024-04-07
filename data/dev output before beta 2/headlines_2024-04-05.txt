@@ -1,0 +1,122 @@
+[
+    {
+        "Title": "Tensions Escalate Following Israeli Airstrike on Iranian Consulate in Syria",
+        "Summary": "Israel and the U.S. anticipate retaliation from Iran for an Israeli strike on an Iranian consulate in Syria, with U.S. officials asserting preparation for a substantial reprisal targeting Israeli or American assets possibly within the next week (CBS News, CNN). Biden administration officials express concern over potential Iranian strikes on Israeli soil as retribution for the airstrike that resulted in the death of several Iranian officials (NBC News). The incident has raised fears among GCC states about further escalations, particularly in the UAE, which seeks to avoid Tehran's retaliatory actions on its territory (Atlantic Council). A senior Iranian official has publicly cautioned the U.S. against being drawn into conflict by Israeli actions (India Today).",
+        "sources": [
+            [
+                "CBS News",
+                "https://www.cbsnews.com/news/iran-to-retaliate-israeli-bombing-syria-consulate-officials-believe/",
+                "3 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/05/politics/us-israel-iran-retaliation-strike/index.html",
+                "5 hours ago"
+            ],
+            [
+                "NBC News",
+                "https://www.nbcnews.com/politics/national-security/biden-officials-worry-iran-may-plan-hit-targets-inside-israel-rcna146627",
+                "6 hours ago"
+            ],
+            [
+                "Atlantic Council",
+                "https://www.atlanticcouncil.org/blogs/menasource/gcc-israel-syria-iran-embassy-strike-escalation/",
+                "13 hours ago"
+            ],
+            [
+                "India Today",
+                "https://www.indiatoday.in/world/story/us-on-high-alert-for-iran-attack-after-israeli-strike-iranian-embassy-syria-damascus-2523949-2024-04-06",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "img/Iran Retaliation for Syria Bombing_2024-04-05.jpg"
+    },
+    {
+        "Title": "Recovery and Response Following the Collapse of Baltimore's Francis Scott Key Bridge",
+        "Summary": "After the catastrophic collapse of the Francis Scott Key Bridge in Baltimore, recovery efforts have seen the retrieval of a third victim, identified as a family-oriented individual who supported his hometown in Honduras (NBC News, Washington Post). President Biden has observed the clearance operations, emphasizing national support (WBAL-TV). Authorities, including the U.S. Army Corps of Engineers and the U.S. Coast Guard, are working to establish temporary channels for ship passage, amidst ongoing salvage efforts (WTOP, WBAL-TV). The Baltimore Community Foundation is assisting impacted families and workers, with state officials mourning the tragic loss (WTOP).",
+        "sources": [
+            [
+                "NBC News",
+                "https://www.nbcnews.com/news/us-news/maryland-bridge-collapse-third-victim-recovered-rcna146683",
+                "3 hours ago"
+            ],
+            [
+                "Washington Post",
+                "https://www.washingtonpost.com/dc-md-va/2024/04/05/baltimore-bridge-victim-body-recovered/",
+                "1 hour ago"
+            ],
+            [
+                "WBAL-TV",
+                "https://www.wbaltv.com/article/baltimore-key-bridge-collapse-third-body-recovered/60414386",
+                "49 minutes ago"
+            ],
+            [
+                "WTOP",
+                "https://wtop.com/blog/2024/04/the-latest-on-the-key-bridge-collapse-and-recovery-in-baltimore/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Maryland Bridge Collapse Victims_2024-04-05.jpg"
+    },
+    {
+        "Title": "DOJ Non-Compliance with GOP Subpoenas Criticized Amid Biden Impeachment Inquiry",
+        "Summary": "A Joe Biden-appointed judge criticizes the Department of Justice for ignoring House GOP subpoenas in the midst of an impeachment investigation against President Biden, which is reported to be concluding without identifying any specific crime (Benzinga).",
+        "sources": [
+            [
+                "Benzinga",
+                "https://www.benzinga.com/news/24/04/38120482/are-you-kidding-me-joe-biden-appointed-judge-slams-doj-for-ignoring-house-gop-subpoenas-related-to-h",
+                "33 minutes ago"
+            ]
+        ],
+        "Image Filepath": "img/Biden Judge Criticizes DOJ Hunter Subpoena Response_2024-04-05.jpg"
+    },
+    {
+        "Title": "Shift in US-Israel Relations Amid Gaza Conflict",
+        "Summary": "President Joe Biden's stern warning to Israeli Prime Minister Benjamin Netanyahu about protecting Palestinian civilians signifies a potential lasting change in US-Israel relations (The Independent). This demand for action to avoid civilian casualties in Gaza underscores the US's conditional support amid increasing tensions (BBC). Despite the strain, the US reaffirms its strong support for Israel against threats from Iran, highlighting complex geopolitical dynamics (The Economist). The ongoing conflict in Gaza challenges the Biden administration's broader foreign policy goals, including shifting focus to major power competition and disengaging from protracted conflicts (Brookings).",
+        "sources": [
+            [
+                "The Independent",
+                "https://www.independent.co.uk/news/world/americas/us-politics/biden-netanyahu-gaza-conditional-aid-b2524129.html",
+                "5 hours ago"
+            ],
+            [
+                "BBC",
+                "https://www.bbc.com/news/world-us-canada-68735879",
+                "7 hours ago"
+            ],
+            [
+                "The Economist",
+                "https://www.economist.com/middle-east-and-africa/2024/04/05/israels-relations-with-america-reach-breaking-point",
+                "22 hours ago"
+            ],
+            [
+                "Brookings",
+                "https://www.brookings.edu/articles/six-months-on-what-is-the-impact-of-the-war-in-gaza/",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Biden-Netanyahu Impact on US-Israel Relations_2024-04-05.jpg"
+    },
+    {
+        "Title": "4.8 Magnitude Earthquake Hits U.S. Northeast",
+        "Summary": "A 4.8 magnitude earthquake struck the Northeast of the United States, impacting areas from Maryland to Maine and causing buildings to shake without major injuries or infrastructure damage reported (NBC News). Aftershocks, including one measuring 4 on the Richter scale, were felt, with over 23 million people experiencing light shaking (CNN, Inquirer.com). Responses included the activation of New Jersey's emergency operations center and evaluations by the NYC Fire Department for structural stability (Inquirer.com, CNN). The event was one of the relatively rare earthquakes exceeding magnitude 2.5 in the region over the past 20 years (Inquirer.com).",
+        "sources": [
+            [
+                "NBC News",
+                "https://www.nbcnews.com/science/science-news/earthquake-shakes-us-east-coast-rcna146575",
+                "5 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/05/us/earthquake-nyc-nj-northeast/index.html",
+                "4 hours ago"
+            ],
+            [
+                "Inquirer.com",
+                "https://www.inquirer.com/news/live/earthquake-in-new-jersey-philadelphia-pennsylvania-20240405.html",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Northeast Earthquake Minor Damage_2024-04-05.jpg"
+    }
+]

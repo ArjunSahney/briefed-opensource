@@ -1,0 +1,65 @@
+[
+    {
+        "Title": "Massachusetts' Business Climate Improvement Efforts",
+        "Summary": "Massachusetts has undertaken significant steps to enhance its business environment, including implementing historic tax cuts and bolstering child care funding, as detailed by officials at a recent chamber of commerce event (Eagle-Tribune).",
+        "sources": [
+            [
+                "Eagle-Tribune",
+                "https://www.eagletribune.com/news/boston/driscoll-touts-efforts-to-improve-business-climate/article_11789f50-f361-11ee-839a-f324eef29819.html",
+                "24 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Driscoll Business Climate Efforts_2024-04-06.jpg"
+    },
+    {
+        "Title": "Peru's Positive Business Outlook",
+        "Summary": "Peru witnessed an improvement in its business climate, reaching a positive perspective for the first time in almost three years, based on feedback from 290 executives across vital industries like mining, manufacturing, and commerce (BNamericas).",
+        "sources": [
+            [
+                "BNamericas",
+                "https://www.bnamericas.com/en/news/perus-business-climate-brightens",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Peru business climate improves_2024-04-06.jpg"
+    },
+    {
+        "Title": "SEC's Climate Disclosure Rule and Internal Criticism",
+        "Summary": "The SEC has paused its climate disclosure rule amid legal challenges, reflecting ongoing debates over regulatory approaches to climate change (PBS). This action signifies the SEC's current engagement with climate-related issues and comes amidst criticism of SEC Chairman Gary Gensler's leadership style, particularly regarding communication and rulemaking processes (AOL.com).",
+        "sources": [
+            [
+                "PBS",
+                "https://www.pbs.org/newshour/economy/amid-legal-challenges-sec-pauses-its-climate-disclosure-rule",
+                "20 hours ago"
+            ],
+            [
+                "AOL.com",
+                "https://www.aol.com/finance/sec-commissioner-lets-rip-chairman-171542355.html",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/SEC climate change role_2024-04-06.jpg"
+    },
+    {
+        "Title": "SEC Climate Rule Suspension Amidst Legal Challenges",
+        "Summary": "The SEC has paused its climate reporting rule due to legal opposition from several states, challenging its authority and potential impact on business investments prioritizing climate change theories over profit returns (AJC.com, NTD News, Globe Echo).",
+        "sources": [
+            [
+                "AJC.com",
+                "https://www.ajc.com/news/nation-world/amid-legal-challenges-sec-pauses-its-climate-rule/4MCZMBIMPVAHFIQ3W7LNO7FHBQ/",
+                "14 hours ago"
+            ],
+            [
+                "NTD News",
+                "https://www.ntd.com/sec-forced-to-halt-climate-reporting-mandate-for-businesses_984477.html",
+                "4 hours ago"
+            ],
+            [
+                "Globe Echo",
+                "https://globeecho.com/biden-administration-temporarily-suspends-controversial-climate-mandate-due-to-multiple-lawsuits/",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/SEC halts climate rule litigation_2024-04-06.jpg"
+    }
+]

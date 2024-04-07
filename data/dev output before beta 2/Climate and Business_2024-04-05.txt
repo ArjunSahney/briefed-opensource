@@ -1,0 +1,65 @@
+[
+    {
+        "Title": "The Intersection of Business Practices, Climate Change, and Technology",
+        "Summary": "Businesses are increasingly adopting practices that aim to improve the world and address climate change, as highlighted by the World Economic Forum's report that digital technology could significantly lower global GHG emissions by up to 20% by 2030 (CSRwire). Moreover, environmental reporting is becoming a norm, with companies aligning their reports with established frameworks like the GRI, and submitting to indices such as CDP (CSRwire). Concurrently, discussions around the impact of climate mandates on businesses by government bodies reflect a complex interplay between regulation, corporate responsibility, and environmental sustainability.",
+        "sources": [
+            [
+                "CSRwire",
+                "https://www.csrwire.com/press_releases/798771-ciscos-sustainability-101-what-environmental-reporting",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Climate Change Impact on Businesses_2024-04-05.jpg"
+    },
+    {
+        "Title": "Peru's Economic Outlook Improves",
+        "Summary": "Peru's business climate has seen an upturn, marking its first significant improvement in nearly three years based on a central bank survey that analyzed comments from 290 executives across major sectors including mining, manufacturing, and commerce (BNamericas).",
+        "sources": [
+            [
+                "BNamericas",
+                "https://www.bnamericas.com/en/news/perus-business-climate-brightens",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Peru business climate improvement_2024-04-05.jpg"
+    },
+    {
+        "Title": "SEC Temporarily Halts Climate Disclosure Rule Amid Lawsuits",
+        "Summary": "The Securities and Exchange Commission (SEC) has temporarily paused its climate disclosure rule, faced with legal challenges, to facilitate an orderly court resolution and avoid regulatory uncertainty during the litigation. The rule demanded businesses to report on climate-related risks and their adaptation strategies (Fox News, Lanka Times).",
+        "sources": [
+            [
+                "Fox News",
+                "https://www.foxnews.com/politics/biden-admin-temporarily-drops-outrageous-climate-mandate-flurry-lawsuits",
+                "7 hours ago"
+            ],
+            [
+                "Lanka Times",
+                "https://www.lankatimes.com/biden-administration-temporarily-drops-outrageous-climate-mandate-amid-wave-of-lawsuits/",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/SEC climate rule suspension_2024-04-05.jpg"
+    },
+    {
+        "Title": "Recent Climate and Community Insights",
+        "Summary": "Understanding how to communicate about climate change with children is crucial for fostering an early awareness of environmental issues (Business Standard). The European Court of Human Rights is responding to cases related to climate justice, indicating a growing legal concern for climate issues at an international level (Doughty Street Chambers). Meanwhile, community engagement and events, such as storytelling and puppet shows at the J.V. Fletcher Library, underscore the importance of local initiatives in education and cultural enrichment (WestfordCAT).",
+        "sources": [
+            [
+                "Business Standard",
+                "https://www.business-standard.com/opinion/columns/talking-climate-with-kids-124040501187_1.html",
+                "10 hours ago"
+            ],
+            [
+                "Doughty Street Chambers",
+                "https://www.doughtystreet.co.uk/event/climate-justice-judgments-european-court-human-rights-rapid-response",
+                "12 hours ago"
+            ],
+            [
+                "WestfordCAT",
+                "https://westfordcat.org/2024/04/whats-happening-at-the-library-april-5-2024-edition/",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Discussing climate change with children_2024-04-05.jpg"
+    }
+]

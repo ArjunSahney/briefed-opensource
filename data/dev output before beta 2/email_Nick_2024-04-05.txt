@@ -1,0 +1,227 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "DOJ Non-Compliance with GOP Subpoenas Criticized Amid Biden Impeachment Inquiry",
+            "Summary": "A Joe Biden-appointed judge criticizes the Department of Justice for ignoring House GOP subpoenas in the midst of an impeachment investigation against President Biden, which is reported to be concluding without identifying any specific crime (Benzinga).",
+            "sources": [
+                [
+                    "Benzinga",
+                    "https://www.benzinga.com/news/24/04/38120482/are-you-kidding-me-joe-biden-appointed-judge-slams-doj-for-ignoring-house-gop-subpoenas-related-to-h",
+                    "33 minutes ago"
+                ]
+            ],
+            "Image Filepath": "img/Biden Judge Criticizes DOJ Hunter Subpoena Response_2024-04-05.jpg"
+        },
+        {
+            "Title": "Shift in US-Israel Relations Amid Gaza Conflict",
+            "Summary": "President Joe Biden's stern warning to Israeli Prime Minister Benjamin Netanyahu about protecting Palestinian civilians signifies a potential lasting change in US-Israel relations (The Independent). This demand for action to avoid civilian casualties in Gaza underscores the US's conditional support amid increasing tensions (BBC). Despite the strain, the US reaffirms its strong support for Israel against threats from Iran, highlighting complex geopolitical dynamics (The Economist). The ongoing conflict in Gaza challenges the Biden administration's broader foreign policy goals, including shifting focus to major power competition and disengaging from protracted conflicts (Brookings).",
+            "sources": [
+                [
+                    "The Independent",
+                    "https://www.independent.co.uk/news/world/americas/us-politics/biden-netanyahu-gaza-conditional-aid-b2524129.html",
+                    "5 hours ago"
+                ],
+                [
+                    "BBC",
+                    "https://www.bbc.com/news/world-us-canada-68735879",
+                    "7 hours ago"
+                ],
+                [
+                    "The Economist",
+                    "https://www.economist.com/middle-east-and-africa/2024/04/05/israels-relations-with-america-reach-breaking-point",
+                    "22 hours ago"
+                ],
+                [
+                    "Brookings",
+                    "https://www.brookings.edu/articles/six-months-on-what-is-the-impact-of-the-war-in-gaza/",
+                    "9 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Biden-Netanyahu Impact on US-Israel Relations_2024-04-05.jpg"
+        },
+        {
+            "Title": "4.8 Magnitude Earthquake Hits U.S. Northeast",
+            "Summary": "A 4.8 magnitude earthquake struck the Northeast of the United States, impacting areas from Maryland to Maine and causing buildings to shake without major injuries or infrastructure damage reported (NBC News). Aftershocks, including one measuring 4 on the Richter scale, were felt, with over 23 million people experiencing light shaking (CNN, Inquirer.com). Responses included the activation of New Jersey's emergency operations center and evaluations by the NYC Fire Department for structural stability (Inquirer.com, CNN). The event was one of the relatively rare earthquakes exceeding magnitude 2.5 in the region over the past 20 years (Inquirer.com).",
+            "sources": [
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/science/science-news/earthquake-shakes-us-east-coast-rcna146575",
+                    "5 hours ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/05/us/earthquake-nyc-nj-northeast/index.html",
+                    "4 hours ago"
+                ],
+                [
+                    "Inquirer.com",
+                    "https://www.inquirer.com/news/live/earthquake-in-new-jersey-philadelphia-pennsylvania-20240405.html",
+                    "6 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/Northeast Earthquake Minor Damage_2024-04-05.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "US Presidential Election": [
+            {
+                "Title": "Kennedy Campaign Controversy",
+                "Summary": "The Kennedy campaign faced turmoil after a fundraising email labeled the January 6 Capitol riot participants as 'activists,' sparking widespread backlash (Fortune).",
+                "sources": [
+                    [
+                        "Fortune",
+                        "https://fortune.com/2024/04/05/robert-f-kennedy-jr-campaign-fundraising-january-6/",
+                        "15 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Truman 1948 vs. 2024 Election Insights_2024-04-05.jpg"
+            },
+            {
+                "Title": "No Labels Ends 2024 Presidential Campaign Efforts",
+                "Summary": "No Labels, a centrist third-party organization, has decided to abandon its plans to field a presidential candidate for the 2024 election, citing the inability to identify a suitable 'unity candidate' who could bridge the gap between President Joe Biden and former President Donald Trump (Spectrum News, Nevada Current). The group had earlier signaled its ambition to offer voters a bipartisan ticket but concluded its search without finding a candidate deemed viable for the White House (Nevada Current). Moving forward, No Labels plans to engage with small regional groups to explore future directions (Spectrum News).",
+                "sources": [
+                    [
+                        "Spectrum News",
+                        "https://spectrumlocalnews.com/nc/triad/politics/2024/04/06/no-labels-explains-ending-run",
+                        "2 hours ago"
+                    ],
+                    [
+                        "Nevada Current",
+                        "https://nevadacurrent.com/briefs/nevadas-ballot-will-have-one-less-choice-in-november-after-no-labels-finds-no-candidate/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/No Labels 2024 presidential run_2024-04-05.jpg"
+            },
+            {
+                "Title": "Recent Highlights in US Politics, Infrastructure Investment, and Solar Eclipse",
+                "Summary": "Current polls indicate a competitive race between Trump and Biden for the 2024 US presidential elections, with detailed analysis available from sources like The Economist and The Times. The Guardian focuses on the England local elections, emphasizing the strategic interest in commuter belt areas and the significance of seats in Tunbridge Wells and Wokingham for the Lib Dems. Global X ETFs discusses bipartisan support for US infrastructure development, highlighting legislation like the IIJA, IRA, and the CHIPS Act, which promises significant investment in infrastructure and technology irrespective of electoral outcomes. Lastly, AP News reports potential cloud cover challenges for viewing the upcoming total solar eclipse in the US, with clearer skies predicted in the Northeastern US and central regions near Missouri and Illinois. (The Economist, The Times, The Guardian, Global X ETFs, AP News)",
+                "sources": [
+                    [
+                        "The Economist",
+                        "https://economist.com/interactive/us-2024-election/trump-biden-polls",
+                        "44 minutes ago"
+                    ],
+                    [
+                        "The Times",
+                        "https://www.thetimes.co.uk/article/who-win-us-election-president-2024-polls-predictions-trump-biden-7d0ff29db",
+                        "6 hours ago"
+                    ],
+                    [
+                        "The Guardian",
+                        "https://www.theguardian.com/politics/2024/apr/05/england-may-local-elections-whats-up-for-grabs-predictions",
+                        "6 hours ago"
+                    ],
+                    [
+                        "Global X ETFs",
+                        "https://www.globalxetfs.com/u-s-election-preview-infrastructure-development-is-something-both-sides-can-agree-on/",
+                        "14 hours ago"
+                    ],
+                    [
+                        "AP News",
+                        "https://apnews.com/article/total-solar-eclipse-weather-forecast-e7e9e9957c87d1b0b7e35c39ba441aa7",
+                        "8 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/2024 US Election Forecast_2024-04-05.jpg"
+            }
+        ],
+        "Climate and Business": [
+            {
+                "Title": "SEC Temporarily Halts Climate Disclosure Rule Amid Lawsuits",
+                "Summary": "The Securities and Exchange Commission (SEC) has temporarily paused its climate disclosure rule, faced with legal challenges, to facilitate an orderly court resolution and avoid regulatory uncertainty during the litigation. The rule demanded businesses to report on climate-related risks and their adaptation strategies (Fox News, Lanka Times).",
+                "sources": [
+                    [
+                        "Fox News",
+                        "https://www.foxnews.com/politics/biden-admin-temporarily-drops-outrageous-climate-mandate-flurry-lawsuits",
+                        "7 hours ago"
+                    ],
+                    [
+                        "Lanka Times",
+                        "https://www.lankatimes.com/biden-administration-temporarily-drops-outrageous-climate-mandate-amid-wave-of-lawsuits/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/SEC climate rule suspension_2024-04-05.jpg"
+            },
+            {
+                "Title": "Recent Climate and Community Insights",
+                "Summary": "Understanding how to communicate about climate change with children is crucial for fostering an early awareness of environmental issues (Business Standard). The European Court of Human Rights is responding to cases related to climate justice, indicating a growing legal concern for climate issues at an international level (Doughty Street Chambers). Meanwhile, community engagement and events, such as storytelling and puppet shows at the J.V. Fletcher Library, underscore the importance of local initiatives in education and cultural enrichment (WestfordCAT).",
+                "sources": [
+                    [
+                        "Business Standard",
+                        "https://www.business-standard.com/opinion/columns/talking-climate-with-kids-124040501187_1.html",
+                        "10 hours ago"
+                    ],
+                    [
+                        "Doughty Street Chambers",
+                        "https://www.doughtystreet.co.uk/event/climate-justice-judgments-european-court-human-rights-rapid-response",
+                        "12 hours ago"
+                    ],
+                    [
+                        "WestfordCAT",
+                        "https://westfordcat.org/2024/04/whats-happening-at-the-library-april-5-2024-edition/",
+                        "12 hours ago"
+                    ]
+                ],
+                "Image Filepath": "img/Discussing climate change with children_2024-04-05.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Overview of Iowa vs. UConn Women's NCAA Final Four Showdown",
+            "Summary": "The Women's NCAA Final Four features a highly anticipated match between Iowa and UConn. Viewers can catch live coverage on SiriusXM and ESPN, offering an exciting comparison of star players like Iowa's Caitlin Clark and UConn's Paige Bueckers. The match takes place at Rocket Mortgage Fieldhouse in Cleveland, Ohio, at 9:30 p.m. ET. The Final Four showcases undefeated teams and superstar-led squads, indicating an intense competition (SiriusXM, NCAA.com, CBS Sports, Yahoo Sports).",
+            "sources": [
+                [
+                    "SiriusXM",
+                    "https://www.siriusxm.com/blog/march-madness-final-four-uconn-iowa",
+                    "2 hours ago"
+                ],
+                [
+                    "NCAA.com",
+                    "https://www.ncaa.com/live-updates/basketball-women/d1/live-updates-iowa-vs-uconn-womens-final-four",
+                    "2 hours ago"
+                ],
+                [
+                    "CBS Sports",
+                    "https://www.cbssports.com/womens-college-basketball/news/iowa-vs-uconn-in-final-four-start-time-live-stream-how-to-watch-preview-for-caitlin-clark-paige-bueckers/",
+                    "3 hours ago"
+                ],
+                [
+                    "Yahoo Sports",
+                    "https://sports.yahoo.com/iowa-vs-uconn-how-to-watch-the-womens-ncaa-tournament-final-four-game-114550622.html",
+                    "2 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/UConn vs. Iowa Final Four_2024-04-05.jpg"
+        },
+        {
+            "Title": "J. Cole's '7 Minute Drill': A Response to Kendrick Lamar",
+            "Summary": "J. Cole's track '7 Minute Drill' emerges as a nuanced reply to Kendrick Lamar's prior jabs, presenting a blend of hesitancy and admiration for Lamar while avoiding outright aggression (Rolling Stone). Cole's lyrics critique Lamar's discography but maintain a tone of respect, signaling a complex relationship between the two artists (Pitchfork). Following Kendrick's criticism on a collaborative track with Future and Metro Boomin, J. Cole's response on his surprise album suggests a reluctant yet powerful stance in the ongoing dialogue among contemporary hip-hop's key figures (Variety). However, some perceive Cole's approach as insufficiently bold, suggesting a reluctance to confront the conflict directly (Billboard).",
+            "sources": [
+                [
+                    "Rolling Stone",
+                    "https://www.rollingstone.com/music/music-features/j-cole-brought-7-minute-drill-review-1234999706/",
+                    "8 hours ago"
+                ],
+                [
+                    "Pitchfork",
+                    "https://pitchfork.com/reviews/tracks/j-cole-7-minute-drill/",
+                    "12 hours ago"
+                ],
+                [
+                    "Variety",
+                    "https://variety.com/2024/music/news/j-cole-kendrick-lamar-diss-7-minute-drill-drake-1235961361/",
+                    "23 hours ago"
+                ],
+                [
+                    "Billboard",
+                    "https://www.billboard.com/music/rb-hip-hop/j-cole-7-minute-drill-kendrick-lamar-diss-1235650339/",
+                    "6 hours ago"
+                ]
+            ],
+            "Image Filepath": "img/J Cole '7 Minute Drill' Review_2024-04-05.jpg"
+        }
+    ]
+}

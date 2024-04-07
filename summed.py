@@ -267,39 +267,31 @@ def generate_brief(article_dict, keyword):
     extracted_sources = [source_list.split(', ') for source_list in sources]
     flattened_sources = [source for sublist in extracted_sources for source in sublist]
     print(flattened_sources)
-
-  # possible_sources = re.findall(r"\(([^)]+)\)", summary_string)
-  # # Now capture sources in parens separated by comma, eg (CBS, The New York Times)
-  # possible_double_sources = re.search(r"\(([^,]+),\s*([^)]+)\)", summary_string)
-  # if possible_double_sources:
-  #   source1 = possible_double_sources.group(1)
-  #   source2 = possible_double_sources.group(2)
-  #   possible_sources.append(source1)
-  #   possible_sources.append(source2)
-    
-  # Confirm if the sources are in article dictionary
-  confirmed_sources = []
-  for source in flattened_sources:
-    if source in article_dict:
-      confirmed_sources.append(source)
   
-  # Prevent double citations and add to a sources string
-  seen_articles = set()
-  # Store sources in a list of 3-item lists (source name, date, URL)
-  sources_list = []
-  sources = "\n"
-  # Keep count of articles for citation section
-  article_num = 0
-  for article_source in confirmed_sources:
-    article_num += 1
-    if article_source in seen_articles:
-      continue
-    seen_articles.add(article_source)
-    article_url = article_dict[article_source]["url"]
-    article_date = article_dict[article_source]["date"]
-    sources_list_item = [article_source, article_url, article_date]
-    sources_list.append(sources_list_item)
-    summary_json['sources'] = sources_list
+    confirmed_sources = []
+    for source in flattened_sources:
+      if source in article_dict:
+        confirmed_sources.append(source)
+  
+    # Prevent double citations and add to a sources string
+    seen_articles = set()
+    # Store sources in a list of 3-item lists (source name, date, URL)
+    sources_list = []
+    sources = "\n"
+    # Keep count of articles for citation section
+    article_num = 0
+    for article_source in confirmed_sources:
+      article_num += 1
+      if article_source in seen_articles:
+        continue
+      seen_articles.add(article_source)
+      article_url = article_dict[article_source]["url"]
+      article_date = article_dict[article_source]["date"]
+      sources_list_item = [article_source, article_url, article_date]
+      sources_list.append(sources_list_item)
+      summary_json['sources'] = sources_list
+  else:
+    summary_json['sources'] = []
   return (summary_json)
 
 def get_trending_topics(num_results):

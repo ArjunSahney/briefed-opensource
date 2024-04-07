@@ -1,0 +1,96 @@
+[
+    {
+        "Title": "Tensions and Financial Support on the Armenia-Azerbaijan Border",
+        "Summary": "Recent clashes were reported on the Armenia-Azerbaijan border shortly after the EU and US announced support for Armenia, highlighting ongoing regional tensions (POLITICO.eu, Atlas News). A joint statement praised Armenia's progress in democratic reforms and pledged continued partnership against the backdrop of strained relations with Russia (POLITICO.eu). Armenia refuted Azerbaijan's claims of aggression, calling them disinformation (Atlas News). Amidst these tensions, the EU and US have pledged $355 million to support Armenia's westernization efforts (PressTV). This financial aid aims to strengthen ties with Yerevan as its relationship with Moscow falters (Jordan Times).",
+        "sources": [
+            [
+                "POLITICO.eu",
+                "https://www.politico.eu/article/clashes-reported-on-armenia-azerbaijan-border-hours-after-eu-support-announced/",
+                "9 hours ago"
+            ],
+            [
+                "Atlas News",
+                "https://theatlasnews.co/latest/2024/04/06/clashes-across-two-days-on-armenia-azerbaijan-border/",
+                "11 hours ago"
+            ],
+            [
+                "PressTV",
+                "https://www.presstv.ir/Detail/2024/04/06/723150/EU-pledges--290-million-aid-to-Westernize-Armenia",
+                "15 hours ago"
+            ],
+            [
+                "Jordan Times",
+                "http://www.jordantimes.com/news/world/eu-vows-290m-armenia-amid-tensions-russia",
+                "47 minutes ago"
+            ]
+        ],
+        "Image Filepath": "img/Armenia-Azerbaijan border clashes_2024-04-06.jpg"
+    },
+    {
+        "Title": "Current Developments in Azerbaijan's International Relations and Air Travel",
+        "Summary": "Azerbaijan has seen a more than 7% increase in the number of flights to Russia, marking a significant uptick in air travel between the two countries (Report.az). Concurrently, Azerbaijan faces political challenges in the South Caucasus region, with entities like PACE and France critiquing its actions and calling it an aggressor towards Armenia, hinting at a complex geopolitical context reminiscent of historical alliances (AzerNews).",
+        "sources": [
+            [
+                "Report.az",
+                "https://report.az/en/amp/tourism/number-of-flights-from-azerbaijan-to-russia-up-by-over-7/",
+                "5 hours ago"
+            ],
+            [
+                "AzerNews",
+                "https://www.azernews.az/analysis/224273.html",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Armenia's unanswered question in Brussels_2024-04-06.jpg"
+    },
+    {
+        "Title": "EU's Financial Support to Armenia Amidst Rising Tensions with Russia",
+        "Summary": "The European Union has committed to a financial aid package for Armenia totaling 270 million euros ($290 million), aiming to strengthen relations with Yerevan amidst deteriorating ties with Russia (Jordan Times).",
+        "sources": [
+            [
+                "Jordan Times",
+                "http://www.jordantimes.com/news/world/eu-vows-290m-armenia-amid-tensions-russia",
+                "47 minutes ago"
+            ]
+        ]
+    },
+    {
+        "Title": "International Support for Armenia Amid Regional Tensions",
+        "Summary": "The EU and US have pledged significant financial support to Armenia, highlighting its progress in democratic reforms and the fight against corruption since 2018 (POLITICO.eu). This comes amid rising tensions with Azerbaijan and as Armenia's relations with Russia wane (Jordan Times). A collective $355 million has been promised to aid Armenia's economic development, to diversify trade, and to enhance economic and institutional resilience (PressTV). These commitments were made during a meeting between EU and US officials and the Armenian Prime Minister, aiming to foster a more ambitious partnership (JAM-news.net). Clashes on the Armenia-Azerbaijan border ensued hours after the announcement of this support (POLITICO.eu).",
+        "sources": [
+            [
+                "POLITICO.eu",
+                "https://www.politico.eu/article/clashes-reported-on-armenia-azerbaijan-border-hours-after-eu-support-announced/",
+                "9 hours ago"
+            ],
+            [
+                "Jordan Times",
+                "http://www.jordantimes.com/news/world/eu-vows-290m-armenia-amid-tensions-russia",
+                "48 minutes ago"
+            ],
+            [
+                "PressTV",
+                "https://www.presstv.ir/Detail/2024/04/06/723150/EU-pledges--290-million-aid-to-Westernize-Armenia",
+                "15 hours ago"
+            ],
+            [
+                "JAM-news.net",
+                "https://jam-news.net/the-brussels-meeting-pashinyan-von-der-leyen-blinken-opinion/",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/EU, US Financial Support Armenia_2024-04-06.jpg"
+    },
+    {
+        "Title": "EU's Approach to Cooperation with Armenia",
+        "Summary": "The EU outlined their approach to cooperation with Armenia, emphasizing collaboration in the European Peace Fund, enhancing Armenia's economic and societal resilience, and working towards visa liberalization, without demanding Armenia to cease partnerships with other countries (1Lurer).",
+        "sources": [
+            [
+                "1Lurer",
+                "https://www.1lurer.am/en/2024/04/06/EU-will-not-say-if-you-want-to-work-with-us-you-must-give-up-all-other-partners-Stano-on-Armenia%E2%80%99s/1105109",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Stano on Armenia-Azerbaijan Solution_2024-04-06.jpg"
+    }
+]

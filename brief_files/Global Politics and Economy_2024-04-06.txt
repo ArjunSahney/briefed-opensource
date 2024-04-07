@@ -1,0 +1,89 @@
+[
+    {
+        "Title": "The Political Economy of Climate Change Adaptation",
+        "Summary": "Effective climate change adaptation requires understanding its political complexities, including how extreme weather experiences influence public support for mitigation efforts and adaptation strategies (CEPR). Coastal flood risk management in the US demonstrates these complexities, highlighting the need for careful navigation of political terrains in public works for climate adaptation (CEPR). Research also points to increasing habitat loss and inequality as critical concerns in adapting to climate change, stressing the importance of integrated political and economic approaches (CEPR).",
+        "sources": [
+            [
+                "CEPR",
+                "https://cepr.org/voxeu/columns/political-economy-adapting-climate-change",
+                "23 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Western Quake Coverage and Taiwan's Economy",
+        "Summary": "Coverage of a recent earthquake by Western media reflects concerns over the potential economic vulnerability and hollowing out of Taiwan's economy, signaling broader geopolitical implications (Global Times).",
+        "sources": [
+            [
+                "Global Times",
+                "https://www.globaltimes.cn/page/202404/1310078.shtml",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Western quake coverage Taiwan economy_2024-04-06.jpg"
+    },
+    {
+        "Title": "Global Climate Change Adaptation and Accountability",
+        "Summary": "Adapting to climate change involves understanding its political economy and the varied responses to extreme weather conditions (CEPR). Recent natural disasters across the globe underscore the urgent need for effective solutions to mitigate its effects, as highlighted by record high sea-surface temperatures and devastating wildfires (The Globe and Mail). While regions like India are reportedly more prepared to handle climate-related agricultural shocks compared to Pakistan, the quest for resilience continues (The Economic Times). In the US, affected communities are taking legal actions against fossil fuel companies for climate damages (Anyuak Media). Additionally, sustainable travel emerges as a conscious effort to balance tourism with environmental, economic, and social sustainability (Voyagers World).",
+        "sources": [
+            [
+                "CEPR",
+                "https://cepr.org/voxeu/columns/political-economy-adapting-climate-change",
+                "23 hours ago"
+            ],
+            [
+                "The Globe and Mail",
+                "https://www.theglobeandmail.com/opinion/article-climate-change-is-disabling-its-solutions-shouldnt-be/",
+                "10 hours ago"
+            ],
+            [
+                "The Economic Times",
+                "https://m.economictimes.com/news/economy/agriculture/india-better-prepared-than-pakistan-to-handle-climate-shocks-in-wheat-crop-agri-scientists/articleshow/109085691.cms",
+                "13 hours ago"
+            ],
+            [
+                "Anyuak Media",
+                "https://ytech.news/en/pennsylvania-community-sues-fossil-fuel-companies-over-climate-damages/",
+                "12 hours ago"
+            ],
+            [
+                "Voyagers World",
+                "https://voyagersworld.in/what-is-sustainable-travel-everything-you-need-to-know/",
+                "10 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Global Economy Warming Effects_2024-04-06.jpg"
+    },
+    {
+        "Title": "Global Developments Involving Iran",
+        "Summary": "Iran prioritizes bolstering economic cooperation with nations in the Global South (IRNA English). The Hezbollah chief warns of retaliation to Israel's attack on an Iranian mission, marking a potential turning point in Gaza conflict (StratNewsGlobal). The US expresses concern over South Africa\u2019s growing ties with Russia, Iran, and Hamas, criticizing the South African government for its relations with these regimes amid domestic challenges (Fox News). Additionally, Iran is reportedly set to deliver armed drones to Russia according to the White House (AOL.com), while also playing a significant role in the ongoing Gaza war (UnHerd).",
+        "sources": [
+            [
+                "IRNA English",
+                "https://en.irna.ir/news/85437083/Boosting-economic-cooperation-with-Global-South-nations-among",
+                "3 hours ago"
+            ],
+            [
+                "StratNewsGlobal",
+                "https://stratnewsglobal.com/world-news/israels-attack-on-iranian-mission-a-turning-point-in-gaza-conflict-says-hezbollah-chief/",
+                "17 hours ago"
+            ],
+            [
+                "Fox News",
+                "https://www.foxnews.com/world/us-concerned-south-africas-growing-ties-russia-iran-hamas-fallen-propaganda",
+                "14 hours ago"
+            ],
+            [
+                "AOL.com",
+                "https://www.aol.com/white-house-says-iran-set-003527439.html",
+                "6 hours ago"
+            ],
+            [
+                "UnHerd",
+                "https://unherd.com/2024/04/iran-is-winning-the-gaza-war/",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "img/Iran focuses on Global South_2024-04-06.jpg"
+    }
+]
