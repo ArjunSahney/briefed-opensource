@@ -2,6 +2,7 @@ from summed import *
 from api_toolbox import get_gpt_response
 from datetime import datetime
 from text_speech import *
+from mp3_upload import *
 import json 
 import time
 import re
@@ -232,6 +233,8 @@ Please create the morning briefing following these guidelines and incorporating 
         file.write(briefing_text)
     # Convert to audio and store in audio/name.txt
     text_to_speech(briefing_text, name)
+    mp3_url = upload_mp3_file('briefed_mvp2_mp3', name)
+    email_dictionary["Audio URL"] = mp3_url
             
 
 def in_morning_brief(name, company, industry, topic): 
