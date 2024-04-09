@@ -1,0 +1,29 @@
+[
+    {
+        "Title": "Eid Al Fitr 2024 Announcements and Observations",
+        "Summary": "Saudi Arabia has declared April 10 as Eid Al Fitr 2024, marking the end of Ramadan (Morocco World News). This announcement follows after the Shawwal moon was not sighted, extending Ramadan until Tuesday (Economy Middle East). Meanwhile, the anticipated dates for Eid celebrations vary globally, including in India, the UAE, and the US (Business Standard), reflecting the significance and historical background of Eid-ul-Fitr, which is thoroughly explained (Times of India). Time Out Riyadh also covers the new Eid holiday specifics for Saudi Arabia.",
+        "sources": [
+            [
+                "Morocco World News",
+                "https://www.moroccoworldnews.com/2024/04/361903/saudi-arabia-announces-april-10-as-eid-al-fitr-2024",
+                "9 hours ago"
+            ],
+            [
+                "Economy Middle East",
+                "https://economymiddleeast.com/news/eid-al-fitr-2024-shawwal-moon-not-sighted-in-saudi-arabia-ramadan-to-continue-until-tuesday/",
+                "9 hours ago"
+            ],
+            [
+                "Business Standard",
+                "https://www.business-standard.com/world-news/eid-ul-fitr-2024-here-s-the-moon-sighting-date-in-india-uae-us-and-more-124040800602_1.html",
+                "14 hours ago"
+            ],
+            [
+                "Times of India",
+                "https://timesofindia.indiatimes.com/life-style/events/when-is-eid-ul-fitr-2024-key-dates-historical-background-and-significance-explained/articleshow/109127815.cms",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.moroccoworldnews.com/wp-content/uploads/2024/04/saudi-arabia-announces-april-10-as-eid-al-fitr-2024-800x419.jpeg"
+    }
+]

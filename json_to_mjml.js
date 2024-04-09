@@ -150,7 +150,7 @@ const generateMJML = (data) => {
 const mjmlContent = generateMJML(jsonData);
 
 // Generate the output filename by replacing the extension
-const mjmlFilename = path.basename(jsonFilename, path.extname(jsonFilename)) + '.mjml';
+const mjmlFilename = path.basename(jsonFilename, 'brief_files/' + path.extname(jsonFilename)) + '.mjml';
 
 // Write the MJML content to a file with the same name as the JSON file
 fs.writeFileSync(mjmlFilename, mjmlContent);

@@ -1,5 +1,5 @@
 // Takes json formatted for briefed, formats it and sends it as an email 
-// node json_to_mjml.js SAMPLE.json recipient@example.com
+// node email_send.js SAMPLE.json recipient@example.com
 import fs from 'fs';
 import path from 'path';
 import mjml2html from 'mjml';
@@ -14,6 +14,10 @@ const jsonData = JSON.parse(fs.readFileSync(jsonFilename, 'utf8'));
 
 // Function to find the source link based on the source name
 const findSourceLink = (sources, sourceName) => {
+  if (!Array.isArray(sources)) {
+    console.error('Invalid or undefined sources array');
+    return null;
+  }
   const source = sources.find(([name]) => name === sourceName);
   return source ? source[1] : null;
 };
@@ -176,7 +180,7 @@ const transporter = nodemailer.createTransport({
   secure: true,
   auth: {
     user: 'newsbriefsforyou@gmail.com',
-    pass: 'newsBriefs123',
+    pass: 'axxa ayoy vitv ojiu',
   },
 });
 

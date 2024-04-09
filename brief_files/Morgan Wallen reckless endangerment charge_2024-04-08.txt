@@ -1,0 +1,19 @@
+[
+    {
+        "Title": "Country Star Morgan Wallen Arrested in Nashville",
+        "Summary": "Morgan Wallen was arrested after throwing a chair from a rooftop bar in Nashville. The incident occurred at Eric Church's bar, Chief's. Wallen, originally from Sneedville, Tennessee, has previously collaborated with Nashville's music community and Eric Church for charity projects (USA Today, The Tennessean).",
+        "sources": [
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/entertainment/music/2024/04/08/morgan-wallen-arrested-nashville/73241072007/",
+                "10 hours ago"
+            ],
+            [
+                "The Tennessean",
+                "https://www.tennessean.com/story/news/2024/04/08/morgan-wallen-arrested-nashville-tn-bar-chiefs-reportedly-throwing-chair/73241085007/",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.usatoday.com/gcdn/authoring/authoring-images/2023/11/09/USAT/71522964007-2031.JPG?crop=5780,3251,x0,y301&width=3200&height=1800&format=pjpg&auto=webp"
+    }
+]

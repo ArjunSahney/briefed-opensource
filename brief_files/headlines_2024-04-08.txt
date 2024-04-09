@@ -1,0 +1,65 @@
+[
+    {
+        "Title": "Biden's Student Loan Debt Relief Initiative",
+        "Summary": "President Biden announced plans to provide student loan debt relief to millions, aiming for broad cancellation efforts despite Republican opposition (The New York Times; CNN). The initiative, revealed as a race against time before November, is part of a strategy that uses the Higher Education Act for legal robustness, potentially benefiting over 30 million borrowers with 'life-changing' financial relief (CNN; AP News). The plan targets expansion to five new borrower categories, reflecting Biden's commitment to a campaign promise and his effort to solidify support among younger voters (AP News).",
+        "sources": [
+            [
+                "AP News",
+                "https://apnews.com/article/biden-student-loan-education-forgiveness-069d64e7e6fc4edd967adf6bc5f7e699",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/2024-03-26t203748z-116582485-rc2vt6a7ohz4-rtrmadp-3-usa-biden-approval-copy.jpg?c=16x9&q=w_800,c_fill"
+    },
+    {
+        "Title": "Highlights of the 2024 Total Solar Eclipse Across North America",
+        "Summary": "The 2024 Total Solar Eclipse captivated millions as its path of totality traversed through Mexico, the United States, and Canada, including states and provinces such as Sinaloa, Texas, and Ontario (Space.com). Enthusiasts and students in locations like Johnstown, PA, witnessed this celestial event with specialized eyewear, marking significant stops in cities like Mazatl\u00e1n and Eagle Pass, TX (AP News). This phenomenon of darkness during daytime, occurring every 11 to 18 months globally, seldom aligns with densely populated areas, making this event particularly notable (AP News).",
+        "sources": [
+            [
+                "Space.com",
+                "https://www.space.com/total-solar-eclipse-2024-thrills-millions-across-north-america",
+                "3 hours ago"
+            ],
+            [
+                "AP News",
+                "https://apnews.com/article/2024-total-solar-eclipse-photos-us-0a07725f59906849b00949e43177e6d9",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.wired.com/photos/661445ec33f3957d21a07784/191:100/w_1280,c_limit/Solar%20eclipse%2020241C_RTSYOEGH%20copy.jpg"
+    },
+    {
+        "Title": "Vatican's Stance on Gender Theory and Surrogacy Sparks Global Debate",
+        "Summary": "The Vatican has issued statements denouncing gender theory, gender-affirming surgeries, and surrogacy, labeling them as 'grave threats' to human dignity. Critics, including LGBTQ+ activists and allies, argue these positions invalidate the lived experiences of gender-expansive individuals and overlook the benefits of gender-affirming healthcare. Meanwhile, the White House acknowledges the Vatican's efforts to protect LGBTQ+ individuals from violence, despite disagreements on health care perspectives for transgender people (NPR, AP News).",
+        "sources": [
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/08/1243374931/vatican-sex-change-surrogacy-gender-theory-grave-threats-abortion",
+                "3 hours ago"
+            ],
+            [
+                "AP News",
+                "https://apnews.com/article/vatican-gender-surrogacy-abortion-pope-3f84d8eb97f045b0cfb0ec1efa4e614e",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.npr.org/assets/img/2024/04/08/vatican_wide-182e49ff752039e6d02166332f319554c4d66efe-s1400-c100.jpg"
+    },
+    {
+        "Title": "Multiple Courts Deny Trump's Requests to Delay Hush Money Trial",
+        "Summary": "Courts including an appeals court and an appellate judge have rejected Donald Trump's attempts to delay his upcoming hush money trial, scheduled for April 15, despite claims of potential prejudice and negative news coverage influencing the jury pool (The New York Times; AP News; CBS News).",
+        "Image Filepath": "https://dims.apnews.com/dims4/default/31eda55/2147483647/strip/true/crop/7740x4354+0+405/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fd1%2Fdb%2F956eee20a493787d14518b539e21%2F37269a764ea5429e8a01c13ccfa6808b"
+    },
+    {
+        "Title": "2024 Solar Eclipse in Binghamton: A Memorable Spectacle",
+        "Summary": "Binghamton, NY, experienced a partial solar eclipse on April 8, with peak visibility at 3:23 p.m. Local schools adjusted schedules for optimal viewing, dismissing middle and high school students at 11:30 a.m. and elementary students at 12:30 p.m. The path of totality entered southwestern New York just after 3:15 p.m. and exited northern New York before 3:30 p.m., making this event a memorable spectacle for eclipse enthusiasts across the region (AOL.com).",
+        "sources": [
+            [
+                "AOL.com",
+                "https://www.aol.com/2024-partial-solar-eclipse-binghamton-135504925.html",
+                "11 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.pressconnects.com/gcdn/authoring/authoring-images/2024/04/08/PBIN/73248626007-discoverycenter-eclipse-7.jpg?crop=4031,2269,x0,y377&width=3200&height=1802&format=pjpg&auto=webp"
+    }
+]

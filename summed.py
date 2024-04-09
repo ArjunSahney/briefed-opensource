@@ -428,12 +428,13 @@ def in_brief(keyword, num_briefs):
             print(url)
           # Download the main image from the article URL if not already downloaded and if url is valid
           if not image_downloaded and url is not None:
-            if download_main_image(url, img_filename):
+            image_url = download_main_image(url, img_filename)
+            if image_url:
               image_downloaded = True
         brief = generate_brief(formatted_contents, search_keywords)
         # Add image filepath into brief JSON
         if image_downloaded:
-          brief["Image Filepath"] = "img/" + img_filename + ".jpg"
+          brief["Image Filepath"] = image_url
         brief_json_list.append(brief)
 
         if __debug__:

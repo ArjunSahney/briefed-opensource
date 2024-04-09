@@ -66,12 +66,12 @@ def download_main_image(url, filename):
         # Save the image to a file in the "img" folder with the extracted filename
         with open(os.path.join('img', filename), 'wb') as file:
             file.write(img_response.content)
-
+        print(f"URL is {img_url}")
         print(f"Main image downloaded successfully as {filename}.jpg in the img folder.")
-        return True
+        return img_url
     else:
         print("No main image found in the article.")
-        return False
+        return None
 
 # Download the main image
-# download_main_image("https://www.bbc.com/news/world-europe-68601131", "bbc")
+# download_main_image("https://www.npr.org/2024/04/06/1243212827/trump-demands-new-judge-hush-money-criminal-trial", "imgtest")
