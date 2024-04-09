@@ -25,10 +25,10 @@ def upload_mp3_file(bucket_name, mp3_file):
     return public_url
 
 # Example usage
-bucket_name = 'briefed_mvp2_mp3'
-mp3_file = 'audio/Daniel Liu.mp3'
+# bucket_name = 'briefed_mvp2_mp3'
+# mp3_file = 'audio/Daniel Liu.mp3'
 
-public_url = upload_mp3_file(bucket_name, mp3_file)
+# public_url = upload_mp3_file(bucket_name, mp3_file)
 
-# Print the public URL of the uploaded file
-print(public_url)
+# # Print the public URL of the uploaded file
+# print(public_url)

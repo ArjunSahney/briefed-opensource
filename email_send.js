@@ -58,7 +58,7 @@ const generateMJML = (data) => {
       <mj-body background-color="#f4f4f4">
         <mj-section background-color="#1a237e" padding="20px">
           <mj-column>
-            <mj-text align="center" color="#ffffff" font-size="48px" font-weight="bold" font-family="Georgia, serif">Briefed</mj-text>
+            <mj-text align="center" color="#ffffff" font-size="48px" font-weight="bold" font-family="Georgia, serif">Briefed TEST</mj-text>
           </mj-column>
         </mj-section>
         <mj-section padding="0">
@@ -151,8 +151,7 @@ const generateMJML = (data) => {
 const mjmlContent = generateMJML(jsonData);
 
 // Compile MJML to HTML
-const { html, errors } = mjml2html(mjmlContent);
-
+// const { html, errors } = mjml2html(mjmlContent);
 if (errors.length > 0) {
   console.error('MJML compilation errors:', errors);
   process.exit(1);

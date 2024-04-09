@@ -1,0 +1,84 @@
+[
+    {
+        "Title": "Recent Developments in Public Company Disclosures and SEC's Climate Rule",
+        "Summary": "New disclosure requirements for public companies are now largely subject to materiality determinations, affecting how greenhouse gas emissions and climate-related expenses are reported (JD Supra). Amidst mounting legal challenges, the SEC has temporarily paused its climate rule (Massachusetts Lawyers Weekly). SEC staff have clarified that there are no indirect requirements for Scope 3 emissions reporting within the climate rule (Responsible Investor). Meanwhile, a noticeable increase in global variance in ESG reporting has been observed (The Economic Times).",
+        "sources": [
+            [
+                "JD Supra",
+                "https://www.jdsupra.com/legalnews/public-companies-update-march-one-4023157/",
+                "2 hours ago"
+            ],
+            [
+                "Massachusetts Lawyers Weekly",
+                "https://masslawyersweekly.com/2024/04/09/amid-legal-challenges-sec-pauses-its-climate-rule/",
+                "8 hours ago"
+            ],
+            [
+                "Responsible Investor",
+                "https://www.responsible-investor.com/no-backdoor-scope-3-requirements-in-climate-rule-say-sec-staffers/",
+                "7 hours ago"
+            ],
+            [
+                "The Economic Times",
+                "https://m.economictimes.com/epaper/delhicapital/2024/apr/09/et-brands/esg-reporting-witnesses-increase-in-global-variance/articleshow/109144033.cms",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://jdsupra-static.s3.amazonaws.com/profile-images/og.15452_3935.jpg"
+    },
+    {
+        "Title": "Vineyard Wind 1 Awarded for Climate Change Efforts",
+        "Summary": "The offshore wind energy facility 'Vineyard Wind 1' received the 2024 EBC Ruth H. Silman Award from the Environmental Business Council of New England, highlighting its contributions to climate change mitigation (Business Wire).",
+        "sources": [
+            [
+                "Business Wire",
+                "https://www.businesswire.com/news/home/20240408311236/en/Offshore-Wind-Energy-Facility-%E2%80%9CVineyard-Wind-1%E2%80%9D-Wins-Prestigious-2024-EBC-Ruth-H.-Silman-Award-for-Climate-Change-from-Environmental-Business-Council-of-New-England",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://mms.businesswire.com/media/20240408311236/en/2091837/23/EpsilonLogoCOLOR_-_transparent_back.jpg"
+    },
+    {
+        "Title": "Banks Made Big Climate Promises. A New Study Doubts They Work.",
+        "Summary": "A recent study questions the effectiveness of the major climate change commitments made by banks, suggesting that these promises might not be as impactful as claimed. (The New York Times)",
+        "sources": [
+            [
+                "The New York Times",
+                "https://www.nytimes.com/2024/04/09/business/banks-finance-climate-change.html",
+                "16 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Recent Highlights in Climate Adaptation and Environmental Trends",
+        "Summary": "A new report co-produced by AgFunder and ISF emphasizes the critical need for investment in climate adaptation strategies for smallholder farmers, pinpointing both the existing challenges and emerging opportunities (AgFunderNews). In a groundbreaking decision, Swiss women achieved a victory in a major climate case at Europe's top human rights court, marking a significant precedent (Reuters). Despite the devastating fires across Indonesia in 2023, data have revealed optimistic trends in environmental recovery and management (Mongabay.com). ET Edge Insights reports that four out of five businesses in emerging economies are grappling with the adverse effects of the climate crisis, showcasing the global impact of environmental changes (ET Edge Insights). BusinessDesk | NZ discusses the potential of AI in bolstering infrastructure resilience in the face of climate change, illustrating technological advancements in environmental protection (BusinessDesk | NZ).",
+        "sources": [
+            [
+                "AgFunderNews",
+                "https://agfundernews.com/gaps-and-opportunities-to-invest-in-climate-adaptation-for-smallholder-farmers",
+                "9 hours ago"
+            ],
+            [
+                "Reuters",
+                "https://www.reuters.com/sustainability/climate-activists-seek-breakthrough-human-rights-court-ruling-against-european-2024-04-09/",
+                "4 hours ago"
+            ],
+            [
+                "Mongabay.com",
+                "https://news.mongabay.com/2024/04/as-fires-ravaged-indonesia-in-2023-some-positive-trends-emerged-data-show/",
+                "4 hours ago"
+            ],
+            [
+                "ET Edge Insights",
+                "https://etinsights.et-edge.com/revealed-four-out-of-five-businesses-in-emerging-economies-have-been-impacted-by-the-climate-emergency/",
+                "10 hours ago"
+            ],
+            [
+                "BusinessDesk | NZ",
+                "https://businessdesk.co.nz/article/technology/how-ai-will-manage-infrastructure-resilience-amid-climate-change",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.businessdesk.co.nz/file/c_fill,w_800,q_100/Cyclone-Gabrielle.jpg"
+    }
+]

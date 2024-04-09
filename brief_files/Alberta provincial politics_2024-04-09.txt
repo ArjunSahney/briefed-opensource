@@ -1,0 +1,62 @@
+[
+    {
+        "Title": "Alberta Distillery Halts Production of 4L Vodka Jugs Amidst Government and Public Concern",
+        "Summary": "A Canadian distillery, T-Rex, has stopped producing 4L vodka jugs after a photo went viral and amid concerns from Alberta's Service Alberta minister, reflecting mixed public feedback (Daily Hive, CBC). The decision comes despite the company stating Alberta Gaming, Liquor and Cannabis had approved the product, and there were no clear pricing guidelines provided by the agency (CTV News). This move highlights ongoing issues with spirit pricing and regulations in Alberta, where the requirement for craft distilleries to produce a majority of their spirits in-house was removed, leading to unsustainable prices (CTV News).",
+        "sources": [
+            [
+                "Daily Hive",
+                "https://dailyhive.com/vancouver/distillery-halts-production-4l-vodka-jugs",
+                "3 hours ago"
+            ],
+            [
+                "CBC",
+                "https://www.cbc.ca/news/canada/edmonton/service-alberta-minister-takes-aim-at-discounted-4-litre-vodka-jugs-1.7167652",
+                "19 hours ago"
+            ],
+            [
+                "CTV News",
+                "https://edmonton.ctvnews.ca/alberta-distillery-to-stop-making-4-litre-vodka-jugs-after-minister-raises-concern-1.6839392",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://images.dailyhive.com/20240409090812/MixCollage-09-Apr-2024-10-08-AM-3176-500x258.jpg"
+    },
+    {
+        "Title": "Alberta's Involvement in Saskatchewan's Pronoun Law Appeal",
+        "Summary": "Alberta plans to participate in Saskatchewan's appeal against the challenge to its pronoun law, indicating a notable interprovincial involvement in legal disputes over gender identity and rights (Regina Leader Post, MSN).",
+        "sources": [
+            [
+                "Regina Leader Post",
+                "https://leaderpost.com/news/saskatchewan/alberta-intends-to-intervene-in-sask-governments-appeal-of-pronoun-law-challenge",
+                "23 hours ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-ca/news/canada/alberta-intends-to-intervene-in-sask-government-s-appeal-of-pronoun-law-challenge/ar-BB1lhLth",
+                "23 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Construction Industry Boosts Employment",
+        "Summary": "The construction sector is at the forefront of employment growth in the province, demonstrating significant job creation and economic contribution (rdnewsnow.com).",
+        "sources": [
+            [
+                "rdnewsnow.com",
+                "https://rdnewsnow.com/2024/04/09/construction-industry-leading-province-in-employment-growth-says-goa/",
+                "1 hour ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Alberta's New Legislation on Municipal-Federal Agreements",
+        "Summary": "Alberta plans to introduce legislation requiring municipalities to obtain provincial approval before finalizing agreements with the federal government, aiming to ensure provincial interests are considered in such deals (MSN).",
+        "sources": [
+            [
+                "MSN",
+                "https://www.msn.com/en-ca/news/canada/alberta-to-introduce-legislation-preventing-municipal-federal-deals-without-province-s-ok/ar-BB1li7My",
+                "21 hours ago"
+            ]
+        ]
+    }
+]

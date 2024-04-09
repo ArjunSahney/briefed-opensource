@@ -159,10 +159,10 @@ def generate_morning_briefing(name, briefing_dictionary, use_gpt=False):
             email_dictionary["Trending Headlines"] = briefing_dictionary["Trending Headlines"][num_trending_briefs_actual//2:]
             morning_dictionary["Trending Headlines"] = briefing_dictionary["Trending Headlines"][:num_trending_briefs_actual//2]
 
-    # Store dictionary for email briefing in email_name_date.txt
-    filename = "brief_files/email_dict_" + name + "_" + curr_date + ".txt"
-    with open(filename, 'w') as file:
-        file.write(json.dumps(email_dictionary, indent=4))
+    # # Store dictionary for email briefing in email_name_date.txt
+    # filename = "brief_files/email_dict_" + name + "_" + curr_date + ".txt"
+    # with open(filename, 'w') as file:
+    #     file.write(json.dumps(email_dictionary, indent=4))
     filename = "brief_files/morning_dict_" + name + "_" + curr_date + ".txt"
     with open(filename, 'w') as file:
         file.write(json.dumps(morning_dictionary, indent=4))
@@ -233,9 +233,14 @@ Please create the morning briefing following these guidelines and incorporating 
         file.write(briefing_text)
     # Convert to audio and store in audio/name.txt
     text_to_speech(briefing_text, name)
-    mp3_url = upload_mp3_file('briefed_mvp2_mp3', name)
+    audio_filename = "audio/" + name + ".mp3"
+    mp3_url = upload_mp3_file('briefed_mvp2_mp3', audio_filename)
     email_dictionary["Audio URL"] = mp3_url
-            
+    # Store dictionary for email briefing in email_name_date.txt
+    filename = "brief_files/email_dict_" + name + "_" + curr_date + ".txt"
+    with open(filename, 'w') as file:
+        file.write(json.dumps(email_dictionary, indent=4))
+
 
 def in_morning_brief(name, company, industry, topic): 
     """Takes a name and 3 user attributes and generates email and morning briefing

@@ -1,0 +1,129 @@
+[
+    {
+        "Title": "Global Election Updates 2024",
+        "Summary": "Former President Trump raises over $50 million, amidst the new RNC chairman questioning the 2020 election outcome (The New York Times). The Korea Herald highlights significant races in South Korea, with focus on Gyeyang-gu's heated competition between Lee Jae-myung and Won Hee-ryong. In India, PM Modi leads a roadshow in Chennai (Hindustan Times), while Raj Thackeray's MNS pledges unconditional support to the NDA in Maharashtra, and discussions on social issues and election strategies surface across various campaigns (India Today).",
+        "sources": [
+            [
+                "The New York Times",
+                "https://www.nytimes.com/live/2024/04/07/us/biden-trump-election",
+                "1 hour ago"
+            ],
+            [
+                "Hindustan Times",
+                "https://www.hindustantimes.com/india-news/lok-sabha-election-2024-live-updates-pm-narendra-modi-rally-bjp-congress-rahul-gandhi-latest-news-today-9-april-2024-101712625418864.html",
+                "3 hours ago"
+            ],
+            [
+                "India Today",
+                "https://www.indiatoday.in/elections/lok-sabha/story/lok-sabha-elections-2024-prime-minister-narendra-modi-roadshow-rally-bjp-congress-rahul-gandhi-2524585-2024-04-08",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://res.heraldm.com/content/image/2024/04/09/20240409050696_0.jpg"
+    },
+    {
+        "Title": "Recent Developments Involving Donald Trump",
+        "Summary": "Donald Trump's presidency benefited the media industry in terms of subscriptions, ratings, and clicks significantly (Al Jazeera). An appeals court rejected Trump's attempt to delay a hush money trial, amidst his criticism of the presiding judge and the Manhattan District Attorney (KSBW). Fani Willis counters Trump's effort to have her removed from a Georgia case, emphasizing the adherence to established law (Yahoo News New Zealand). Moreover, a New York appeals court dismissed Trump's request to delay his hush money trial, despite his push for recusal of the judge due to alleged bias (The Detroit News). Trump's media company's value dropped by 12%, continuing a sell-off trend (SRN News).",
+        "sources": [
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/opinions/2024/4/9/trump-and-the-us-medias-conflict-of-interest",
+                "5 hours ago"
+            ],
+            [
+                "KSBW",
+                "https://www.ksbw.com/article/appeals-court-rejects-donald-trumps-attempt-to-delay-hush-money-criminal-trial/60442720",
+                "3 hours ago"
+            ],
+            [
+                "Yahoo News New Zealand",
+                "https://nz.news.yahoo.com/fani-willis-asks-court-reject-084237488.html",
+                "12 hours ago"
+            ],
+            [
+                "The Detroit News",
+                "https://www.detroitnews.com/story/news/politics/2024/04/08/trump-hush-money-appeals-court/73247846007/",
+                "23 hours ago"
+            ],
+            [
+                "SRN News",
+                "https://srnnews.com/donald-trumps-media-company-falls-12-extends-selloff/",
+                "21 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/2024-04-04T165745Z_2044841466_RC2MY6AMPF65_RTRMADP_3_TRUMP-MEDIA-TRUMP-DEPOSITION-1712662120.jpg?resize=1920%2C1440"
+    },
+    {
+        "Title": "Cannabis in the 2024 US Elections and Across States",
+        "Summary": "New polls suggest cannabis consumers are likely to vote for pro-cannabis candidates in the 2024 US elections, irrespective of their political party (Forbes, High Times). In South Carolina, there is strong bipartisan support for a medical marijuana bill, reflecting a nationwide trend towards cannabis legalization and recognition of its benefits (Marijuana Moment).",
+        "sources": [
+            [
+                "Forbes",
+                "https://www.forbes.com/sites/dariosabaghi/2024/04/09/new-poll-suggests-whom-cannabis-consumers-will-vote-for-in-the-2024-us-elections/",
+                "10 hours ago"
+            ],
+            [
+                "High Times",
+                "https://hightimes.com/news/poll-finds-most-weed-consumers-would-vote-for-pro-cannabis-candidate-regardless-of-party/",
+                "10 hours ago"
+            ],
+            [
+                "Marijuana Moment",
+                "https://www.marijuanamoment.net/as-south-carolina-lawmakers-urge-house-vote-on-medical-marijuana-bill-new-poll-shows-strong-bipartisan-support/",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.marijuanamoment.net/wp-content/uploads/2017/10/marijuana_1508933719-e1544813924120-1000x600.jpg"
+    },
+    {
+        "Title": "Global Elections and Market Implications in 2024",
+        "Summary": "The 2024 elections worldwide, including in India and the US, are set to significantly impact market dynamics. The BJP in India, under Narendra Modi, aims for a third term amid opposition challenges, with geopolitical strategists warning of potential election disputes and civil unrest impacting investors (Firstpost). In the US, markets appear unaffected by the possibility of a second Trump term for now, with China facing potential headwinds and India retaining its allure as an investment destination despite such geopolitical uncertainties (FTAdviser). Meanwhile, election outcomes are stirring concerns in regions like Puerto Rico, where the US presidential elections' uncertainty could hamper local economic activities and innovations (News is My Business).",
+        "sources": [
+            [
+                "Firstpost",
+                "https://www.firstpost.com/explainers/india-us-polls-2024-elections-world-markets-impact-13757878.html",
+                "9 hours ago"
+            ],
+            [
+                "FTAdviser",
+                "https://www.ftadviser.com/opinion/2024/04/09/us-market-reaction-to-possible-second-trump-term-appears-unperturbed-for-now/",
+                "12 hours ago"
+            ],
+            [
+                "News is My Business",
+                "https://newsismybusiness.com/election-jitters-looming-uncertainty-impact-business-and-investments/",
+                "11 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://images.firstpost.com/uploads/2024/04/AP24095342443286-1-2024-04-073bb55d5f1538c6d456433d3d38bec7.jpg?im=FitAndFill=(1200,675)"
+    },
+    {
+        "Title": "Dynamics in Voter Support and Campaign Strategies for the Upcoming Presidential Election",
+        "Summary": "Nearly half of Haley voters in Ohio indicate a willingness to support Biden over Trump, highlighting significant ideological differences on immigration, abortion, and other key issues (ABC News - Breaking News, Latest News and Videos). The battle for Biden\u2019s reelection seems to pivot on the Rust Belt, leveraging reproductive rights and choices to appeal to certain voter demographics, despite economic concerns (CNN). Polls suggest Trump's influence may be waning, with a shift in voter preference and strategic advantages potentially favoring Biden in battleground states (The Economic Times).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/08/politics/biden-rustbelt-electoral-college-2024/index.html",
+                "16 hours ago"
+            ],
+            [
+                "The Economic Times",
+                "https://m.economictimes.com/news/international/us/2024-us-presidential-election-donald-trump-is-losing-grip-show-poll-surveys/articleshow/109149079.cms",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://i.abcnewsfe.com/a/930b8759-b58d-4349-a9d0-4b23dafc00a2/biden-las-vegas-ap-jt-240319_1710884865312_hpMain_16x9.jpg?w=1600"
+    },
+    {
+        "Title": "Biden vs. Trump: Financial Race and Media Dynamics",
+        "Summary": "Joe Biden reportedly has a significant financial lead over Donald Trump in their political campaigns, evidencing a competitive fundraising environment. Concerns arise within the Democratic party about complacency despite financial advantages. The intricate relationship between Trump and Fox News highlights a mutual, albeit cautious, dependency, particularly in light of Fox's recent defamation lawsuit settlement related to the 2020 election fraud claims (Financial Times).",
+        "sources": [
+            [
+                "Financial Times",
+                "https://www.ft.com/content/3b07d22b-8e60-4c04-b33c-dab01b0911ce",
+                "7 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttps%253A%252F%252Fd1e00ek4ebabms.cloudfront.net%252Fproduction%252F20b91917-7a48-4980-af0a-80c26029599d.jpg%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&fit=scale-down&width=900"
+    }
+]
