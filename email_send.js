@@ -22,7 +22,6 @@ const findSourceLink = (sources, sourceName) => {
   return source ? source[1] : null;
 };
 
-// Generate the MJML content
 const generateMJML = (data) => {
   // Provide default empty arrays for destructured properties to prevent errors
   const {
@@ -30,8 +29,7 @@ const generateMJML = (data) => {
     'Custom Headlines': customHeadlines = [],
     'Trending Headlines': trendingHeadlines = []
   } = data;
-
-  const mjmlContent = `
+    const mjmlContent = `
     <mjml>
       <mj-head>
         <mj-font name="Georgia" href="https://fonts.googleapis.com/css2?family=Georgia" />
@@ -42,7 +40,7 @@ const generateMJML = (data) => {
           <mj-class name="headline-box" background-color="#1a237e" color="#000000" font-size="24px" font-weight="bold" padding="15px" border-radius="5px" />
           <mj-class name="headline-text" color="#000000" />
           <mj-class name="summary" color="#000000" font-size="16px" line-height="1.5" />
-          <mj-class name="divider" border-color="#cccccc" border-width="1px" />
+          <mj-class name="divider" border-color="#1a237e" border-width="2px" />
           <mj-class name="source-link" color="#000000" font-size="14px" text-decoration="underline" />
         </mj-attributes>
         <mj-style inline="inline">
@@ -56,7 +54,7 @@ const generateMJML = (data) => {
             margin-bottom: 30px;
           }
           a, a:visited, a:hover, a:active {
-            color: #000000 !important; /* Make sure all links are black */
+            color: #000000 !important;
           }
         </mj-style>
       </mj-head>
@@ -64,11 +62,17 @@ const generateMJML = (data) => {
         <mj-section background-color="#1a237e" padding="20px">
           <mj-column>
             <mj-text align="center" color="#ffffff" font-size="48px" font-weight="bold" font-family="Georgia, serif">Briefed</mj-text>
+            <mj-text align="center" color="#ffffff" font-size="16px" font-family="Georgia, serif">Scroll to enjoy your personalized briefs for the day, and click on the play button to hear your customized morning briefing. Hope you enjoy!</mj-text>
           </mj-column>
         </mj-section>
         <mj-section padding="0">
           <mj-column>
             <mj-divider mj-class="divider" />
+          </mj-column>
+        </mj-section>
+        <mj-section>
+          <mj-column>
+            <mj-image src="https://t3.ftcdn.net/jpg/05/32/93/48/360_F_532934869_5a6YlokyUo2eqbDzC9OaqxMVIf1EEalw.jpg" href="${data['Audio URL']}" alt="Play Audio" width="100px" />
           </mj-column>
         </mj-section>
         <mj-section>
