@@ -1,0 +1,76 @@
+[
+    {
+        "Title": "A Reflection on the 'Friends of Armenia Network' White Paper",
+        "Summary": "The 'Friends of Armenia Network' white paper outlines strategies for bolstering Armenian diaspora engagement and support, aiming to enhance Armenia's global connectivity and resilience (The Armenian Weekly).",
+        "sources": [
+            [
+                "The Armenian Weekly",
+                "https://armenianweekly.com/2024/04/10/a-reflection-on-the-friends-of-armenia-network-white-paper/",
+                "2 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Armenia's Geopolitical Reorientation and Challenges",
+        "Summary": "Armenia faces a challenging task distancing itself from Russian influence, amid public dissatisfaction towards the historical alliance after recent border conflicts (Novaya Gazeta Europe). Efforts to escape isolation have led to initiatives like the proposed Zangezur corridor and expanding ties with Georgia, suggesting shifts in regional connectivity and economic strategies (Eurasia Review). This reorientation towards the West has stirred discontent in Moscow and Baku, with the EU and US encouraging Armenia's pivot (Crude Oil Prices Today | OilPrice.com).",
+        "sources": [
+            [
+                "Eurasia Review",
+                "https://www.eurasiareview.com/10042024-armenias-escape-from-isolation-lies-through-georgia-oped/",
+                "17 hours ago"
+            ],
+            [
+                "Crude Oil Prices Today | OilPrice.com",
+                "https://oilprice.com/Geopolitics/International/Armenias-Shift-West-Draws-Ire-from-Moscow-and-Baku.html",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://novayagazeta.eu/static/previews/2024/04/10/leaving-russian-orbit-en.jpeg?v=47"
+    },
+    {
+        "Title": "Key Developments in Armenia's Geopolitical and Economic Landscape",
+        "Summary": "Armenia's proactive engagement with Western countries and efforts to enhance regional connectivity through Georgia highlight its strategic shift towards reducing isolation and boosting its economy. This includes revitalization of Soviet-era transport routes and leveraging Armenia's emerging tech sector (Countercurrents). Meanwhile, the U.S. and EU incentivize Armenia's westward shift, causing tension with traditional allies Moscow and Baku, underscoring the geopolitical complexities surrounding Armenia's new directions (Crude Oil Prices Today | OilPrice.com).",
+        "sources": [
+            [
+                "Countercurrents",
+                "https://countercurrents.org/2024/04/armenias-escape-from-isolation-lies-through-georgia/",
+                "13 hours ago"
+            ],
+            [
+                "Crude Oil Prices Today | OilPrice.com",
+                "https://oilprice.com/Geopolitics/International/Armenias-Shift-West-Draws-Ire-from-Moscow-and-Baku.html",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://jam-news.net/app/uploads/2024/04/yerevan-header-1024x629-1.jpg"
+    },
+    {
+        "Title": "Armenia's Diplomatic and Security Dynamics Amidst Regional Tensions",
+        "Summary": "Armenia is facing challenges in distancing itself from Russian influence following the Nagorno-Karabakh conflict, with public dissatisfaction towards Russia for not supporting Armenia adequately against Azerbaijan's aggressive actions (Novaya Gazeta Europe). To combat isolation, Armenia sees potential in strengthening ties with Georgia, aiming to utilize old Soviet transport routes and enhancing its role as a tech hub, which could also improve regional connectivity and diplomatic relations (Countercurrents). However, Armenian Foreign Minister's absence from the CIS gathering underscores the ongoing diplomatic recalibration (uazmi.com).",
+        "sources": [
+            [
+                "Countercurrents",
+                "https://countercurrents.org/2024/04/armenias-escape-from-isolation-lies-through-georgia/",
+                "14 hours ago"
+            ],
+            [
+                "uazmi.com",
+                "https://uazmi.com/news/post/b8a318ab19fed962bd887a2b28351a82",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://novayagazeta.eu/static/previews/2024/04/10/leaving-russian-orbit-en.jpeg?v=47"
+    },
+    {
+        "Title": "EBRD and National Bank of Ukraine Pledge Support for War Veterans",
+        "Summary": "The European Bank for Reconstruction and Development (EBRD) alongside the National Bank of Ukraine have committed to supporting Ukrainian war veterans, aiming to provide substantial assistance in their post-service life (EIN News).",
+        "sources": [
+            [
+                "EIN News",
+                "https://www.einnews.com/pr_news/702607581/ebrd-and-national-bank-of-ukraine-pledge-support-for-war-veterans",
+                "44 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://euneighbourseast.eu/wp-content/uploads/2024/04/gkvl2r-xgaajh2n-e1712751422455.jpeg"
+    }
+]

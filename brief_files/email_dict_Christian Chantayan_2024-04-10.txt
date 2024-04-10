@@ -1,0 +1,188 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Iran's Approach to Nuclear Capabilities Post-Nuclear Deal",
+            "Summary": "Following the U.S.'s withdrawal from the nuclear pact six years ago, Iran has progressively moved closer to possessing nuclear weapons capabilities, a scenario confirmed by confidential inspection reports and expert interviews. This development is exacerbated by Iran's strengthened alliance with Russia, emboldening its stance against Western pressures despite Supreme Leader Ayatollah Ali Khamenei's reaffirmation against the use of weapons of mass destruction, in line with Islamic principles. Nevertheless, Iran is navigating a path to become a threshold nuclear state, capable of developing nuclear bombs without actively pursuing them, thus avoiding potential military confrontations (Washington Post).",
+            "sources": [
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/national-security/2024/04/10/iran-nuclear-bomb-iaea-fordow/",
+                    "3 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/K225W3XNJHCUP36GEG674X3L4Y.jpg&w=1440"
+        },
+        {
+            "Title": "Global Eid al-Fitr Celebrations Amidst Challenges",
+            "Summary": "Millions of Muslims worldwide celebrated Eid al-Fitr, marking the end of Ramadan. In Istanbul, worshippers showed solidarity with Gaza, expressing support amidst the region's humanitarian crisis. The festivities were shadowed by the situation in Gaza, affecting the global sentiment of Eid celebrations this year (Voice of America, Time Magazine).",
+            "sources": [
+                [
+                    "Voice of America",
+                    "https://www.voanews.com/a/muslims-worldwide-celebrate-eid-al-fitr-in-the-shadow-of-gaza-s-misery-/7564296.html",
+                    "37 minutes ago"
+                ],
+                [
+                    "Time Magazine",
+                    "https://time.com/6965405/muslims-eid-war-gaza/",
+                    "3 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24101189924285-1712744597.jpg?resize=1920%2C1440"
+        }
+    ],
+    "Custom Headlines": {
+        "Global Politics and Economy": [
+            {
+                "Title": "Political Perspectives and Policy Shifting in Australia",
+                "Summary": "The Prime Minister of Australia is at a decisive moment, presenting an opportunity for significant national progress (The West Australian). Meanwhile, Peter Dutton criticizes the government's changing stance on Israel as 'reckless,' highlighting concerns over rising anti-Semitism and the possibility of Labor supporting Palestinian statehood at the UN (The Australian).",
+                "sources": [
+                    [
+                        "The West Australian",
+                        "https://thewest.com.au/politics/federal-politics/katina-curtis-anthony-albaneses-crossroads-gives-nation-a-shot-at-a-big-future-c-14256754",
+                        "3 hours ago"
+                    ],
+                    [
+                        "The Australian",
+                        "https://www.theaustralian.com.au/nation/internal-warning-for-labor-on-palestinian-statehood/news-story/394537a6131cf31aae55c385fa55a9b0",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://images.thewest.com.au/publication/C-14256754/128ab12c2c0673127b11cd2e763efdf1d63b6407-16x9-x0y11w2191h1232.jpg?imwidth=1200"
+            },
+            {
+                "Title": "U.S.-Japan Relations: Advancements in Nuclear Power, Security, and Countermeasures Against China",
+                "Summary": "The U.S. and Japan are fostering next-generation nuclear power collaborations, highlighted during discussions between President Biden and Prime Minister Kishida, aiming to enhance economic and political compatibilities. A significant focus is on reshaping military strategies and strengthening defense capabilities against China, including adjustments in the U.S. force structure in Japan and the creation of a military industrial council for co-producing defense weapons. These strides underscore multilateral efforts to solidify security ties and regional partnerships in the Asia-Pacific against emerging threats (The Diplomat :: Asia, CNN, NBC News).",
+                "sources": [
+                    [
+                        "The Diplomat :: Asia",
+                        "https://thediplomat.com/2024/04/the-us-and-japans-mission-to-push-next-generation-nuclear-power/",
+                        "2 hours ago"
+                    ],
+                    [
+                        "CNN",
+                        "https://www.cnn.com/2024/04/10/politics/biden-kishida-state-visit/index.html",
+                        "45 minutes ago"
+                    ],
+                    [
+                        "NBC News",
+                        "https://www.nbcnews.com/news/world/us-japan-announce-historic-upgrade-security-ties-china-threat-looms-rcna147133",
+                        "1 hour ago"
+                    ]
+                ],
+                "Image Filepath": "https://thediplomat.com/wp-content/uploads/2024/04/sizes/td-story-s-2/thediplomat_2024-04-10-134637.jpg"
+            },
+            {
+                "Title": "PM Narendra Modi's Recent Highlights",
+                "Summary": "Narendra Modi is seen as reshaping India and its position globally, marked by his upcoming feature on Newsweek's cover, making him the first PM after Indira Gandhi to achieve this (The Economic Times). His efforts to move past the 'abnormality' in India-China relations underline a strategic diplomatic approach (Moneycontrol). Modi's critique of DMK's leader for insulting BJP's Annamalai reflects his stance on political discourse and party character (India Today).",
+                "sources": [
+                    [
+                        "The Economic Times",
+                        "https://m.economictimes.com/news/india/prime-minister-narendra-modi-set-to-become-first-pm-after-indira-gandhi-to-feature-on-newsweek-cover/articleshow/109202192.cms",
+                        "27 minutes ago"
+                    ],
+                    [
+                        "Moneycontrol",
+                        "https://www.moneycontrol.com/news/india/india-china-must-put-behind-abnormality-in-bilateral-ties-pm-modi-12617061.html",
+                        "2 hours ago"
+                    ],
+                    [
+                        "India Today",
+                        "https://www.indiatoday.in/elections/lok-sabha/story/pm-modi-dmk-dayanidhi-maran-bjp-annamalai-joker-lok-sabha-election-coimbatore-2525635-2024-04-10",
+                        "4 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://img.etimg.com/thumb/msid-109202273,width-1200,height-630,imgsize-30906,overlay-economictimes/photo.jpg"
+            }
+        ],
+        "Armenia": [
+            {
+                "Title": "Key Developments in Armenia's Geopolitical and Economic Landscape",
+                "Summary": "Armenia's proactive engagement with Western countries and efforts to enhance regional connectivity through Georgia highlight its strategic shift towards reducing isolation and boosting its economy. This includes revitalization of Soviet-era transport routes and leveraging Armenia's emerging tech sector (Countercurrents). Meanwhile, the U.S. and EU incentivize Armenia's westward shift, causing tension with traditional allies Moscow and Baku, underscoring the geopolitical complexities surrounding Armenia's new directions (Crude Oil Prices Today | OilPrice.com).",
+                "sources": [
+                    [
+                        "Countercurrents",
+                        "https://countercurrents.org/2024/04/armenias-escape-from-isolation-lies-through-georgia/",
+                        "13 hours ago"
+                    ],
+                    [
+                        "Crude Oil Prices Today | OilPrice.com",
+                        "https://oilprice.com/Geopolitics/International/Armenias-Shift-West-Draws-Ire-from-Moscow-and-Baku.html",
+                        "23 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://jam-news.net/app/uploads/2024/04/yerevan-header-1024x629-1.jpg"
+            },
+            {
+                "Title": "Armenia's Diplomatic and Security Dynamics Amidst Regional Tensions",
+                "Summary": "Armenia is facing challenges in distancing itself from Russian influence following the Nagorno-Karabakh conflict, with public dissatisfaction towards Russia for not supporting Armenia adequately against Azerbaijan's aggressive actions (Novaya Gazeta Europe). To combat isolation, Armenia sees potential in strengthening ties with Georgia, aiming to utilize old Soviet transport routes and enhancing its role as a tech hub, which could also improve regional connectivity and diplomatic relations (Countercurrents). However, Armenian Foreign Minister's absence from the CIS gathering underscores the ongoing diplomatic recalibration (uazmi.com).",
+                "sources": [
+                    [
+                        "Countercurrents",
+                        "https://countercurrents.org/2024/04/armenias-escape-from-isolation-lies-through-georgia/",
+                        "14 hours ago"
+                    ],
+                    [
+                        "uazmi.com",
+                        "https://uazmi.com/news/post/b8a318ab19fed962bd887a2b28351a82",
+                        "9 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://novayagazeta.eu/static/previews/2024/04/10/leaving-russian-orbit-en.jpeg?v=47"
+            },
+            {
+                "Title": "EBRD and National Bank of Ukraine Pledge Support for War Veterans",
+                "Summary": "The European Bank for Reconstruction and Development (EBRD) alongside the National Bank of Ukraine have committed to supporting Ukrainian war veterans, aiming to provide substantial assistance in their post-service life (EIN News).",
+                "sources": [
+                    [
+                        "EIN News",
+                        "https://www.einnews.com/pr_news/702607581/ebrd-and-national-bank-of-ukraine-pledge-support-for-war-veterans",
+                        "44 minutes ago"
+                    ]
+                ],
+                "Image Filepath": "https://euneighbourseast.eu/wp-content/uploads/2024/04/gkvl2r-xgaajh2n-e1712751422455.jpeg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "March Inflation Reports Signal Challenges for Federal Rate Cuts",
+            "Summary": "March's CPI data shows a 3.5% year-over-year inflation increase, mainly driven by higher rent and gasoline costs, suggesting the Fed might delay interest rate cuts (USA Today). Elevated inflation, coupled with a strong job market and economic growth, undermines confidence in near-term rate reductions (CNET). Market expectations for rate cuts have significantly declined, highlighting uncertainty about the Fed's next moves amidst persistently high inflation (Investopedia).",
+            "sources": [
+                [
+                    "USA Today",
+                    "https://www.usatoday.com/story/money/2024/04/10/cpi-report-march-inflation-data/73259923007/",
+                    "2 hours ago"
+                ],
+                [
+                    "CNET",
+                    "https://www.cnet.com/personal-finance/banking/advice/inflation-interest-rates/",
+                    "21 minutes ago"
+                ],
+                [
+                    "Investopedia",
+                    "https://www.investopedia.com/us-economy-news-today-april-10-8629344",
+                    "3 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.usatoday.com/gcdn/-mm-/b2b05a4ab25f4fca0316459e1c7404c537a89702/c=0-0-1365-768/local/-/media/2022/05/23/USATODAY/usatsports/imageForEntry9-KyO.jpg?width=1365&height=768&fit=crop&format=pjpg&auto=webp"
+        },
+        {
+            "Title": "Red Wings' Season Highlights and Playoff Implications",
+            "Summary": "The final three regular season games of the Detroit Red Wings will be simulcast on TV20 in Detroit, highlighting crucial moments as the team concludes their schedule (NHL.com). In a pivotal match, the Washington Capitals defeated the Red Wings with a 2-1 score, thanks to key performances by Alex Ovechkin, Dylan Strome, and goalie Charlie Lindgren, significantly impacting the Eastern Conference playoff landscape (WXYZ Channel 7).",
+            "sources": [
+                [
+                    "NHL.com",
+                    "https://www.nhl.com/redwings/news/final-three-games-of-red-wings-regular-season-to-be-simulcast-on-tv20-in-detroit",
+                    "1 hour ago"
+                ],
+                [
+                    "WXYZ Channel 7",
+                    "https://www.wxyz.com/sports/capitals-beat-red-wings-to-move-into-wild-card",
+                    "12 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/bquqpdnz8evc7fcwyay6.jpg"
+        }
+    ],
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/Christian%20Chantayan.mp3"
+}

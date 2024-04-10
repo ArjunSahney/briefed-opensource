@@ -1,0 +1,123 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Michigan School Shooter's Parents Sentenced",
+            "Summary": "In a landmark judgment, the parents of Michigan school shooter Ethan Crumbley were sentenced to 10-15 years for involuntary manslaughter, marking the first instance where parents have been held criminally liable in their child\u2019s mass school shooting in the U.S. The sentencing comes after a tragic incident where Ethan Crumbley killed four students and wounded seven others (The New York Times; AP News; NBC News). The court heard emotional statements from the victims' families, emphasizing the consequences of the parents' negligence (USA Today; NBC News).",
+            "Image Filepath": "https://dims.apnews.com/dims4/default/47f6db6/2147483647/strip/true/crop/2691x1514+0+140/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fae%2F88%2Ff8c275246b1d1890ce367a1955eb%2F28a1ae71297b41b0aee0f50cbaafc203"
+        },
+        {
+            "Title": "Ex-Trump Organization CFO Allen Weisselberg Sentenced for Perjury",
+            "Summary": "Allen Weisselberg, a former executive of Donald Trump's organization, has been sentenced to five months in jail for perjury related to false testimony in a civil fraud lawsuit against Trump by the New York attorney general. Weisselberg's prosecution has been marked by controversy, with Trump's legal team criticizing the Manhattan district attorney's tactics and highlighting perceived discrepancies in handling perjury allegations (AP News). Plea negotiations with Manhattan prosecutors spanned several weeks, focusing on his false statements during 2020's civil investigation and subsequent testimony about Trump's asset valuations (CNN).",
+            "sources": [
+                [
+                    "AP News",
+                    "https://apnews.com/article/weisselberg-trump-perjury-new-york-b76cde56c6cb983ab8789f95d5a0c6c0",
+                    "1 hour ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/10/politics/allen-weisselberg-sentencing/index.html",
+                    "1 hour ago"
+                ]
+            ],
+            "Image Filepath": "https://i.guim.co.uk/img/media/e1bf6ac6f777fa1c448732e15c0f34c2dc6e577d/0_174_5000_3001/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=578cb2b8db53bc933adcc4adaf6cc5ed"
+        }
+    ],
+    "Custom Headlines": {
+        "Global Politics and Economy": [
+            {
+                "Title": "Gaming and Technology Updates",
+                "Summary": "Fortnite releases a new update with undisclosed features (Esports.net). GTA 6 garners attention with a trailer featuring an 'alien', speculation on voice actors, and a record-breaking Discord April Fools' video (Indy100). SNAP benefits expand to include new food items, enhancing nutritional accessibility (Newsweek). Fortnite introduces Avatar skins, locker changes, and a Coachella collaboration in its latest v29.20 update (Sportskeeda). Montana updates its innovative property information app, improving accessibility and user experience (GovTech).",
+                "sources": [
+                    [
+                        "Esports.net",
+                        "https://www.esports.net/news/fortnite/latest-fortnite-patch-notes/",
+                        "12 hours ago"
+                    ],
+                    [
+                        "Indy100",
+                        "https://www.indy100.com/gaming/gta-6-trailer-alien",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Newsweek",
+                        "https://www.newsweek.com/snap-update-benefits-extended-new-foods-1888884",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Sportskeeda",
+                        "https://www.sportskeeda.com/fortnite/everything-new-fortnite-v29-20-update-avatar-skins-locker-changes-coachella-collaboration",
+                        "23 hours ago"
+                    ],
+                    [
+                        "GovTech",
+                        "https://www.govtech.com/gov-experience/montana-updates-groundbreaking-property-information-app",
+                        "18 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.indy100.com/media-library/grand-theft-auto-vi-gta-vi-could-be-delayed-as-development-is.png?id=51962586&width=1200&height=600&coordinates=0%2C255%2C0%2C170"
+            },
+            {
+                "Title": "Multilateral Support for Ukraine",
+                "Summary": "Key international financial institutions like the European Investment Bank, the IMF, and the World Bank, among others, are part of a platform supporting Ukraine's recovery and reconstruction efforts (The European Sting).",
+                "sources": [
+                    [
+                        "The European Sting",
+                        "https://europeansting.com/2024/04/10/multi-agency-donor-coordination-platform-for-ukraine-meets-in-kyiv-confirms-unwavering-support-to-ukraines-recovery-and-reconstruction/",
+                        "4 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://i0.wp.com/europeansting.com/wp-content/uploads/2023/04/stop-the-war-in-ukraine.jpg?fit=1200%2C868&ssl=1"
+            }
+        ],
+        "Armenia": [
+            {
+                "Title": "A Reflection on the 'Friends of Armenia Network' White Paper",
+                "Summary": "The 'Friends of Armenia Network' white paper outlines strategies for bolstering Armenian diaspora engagement and support, aiming to enhance Armenia's global connectivity and resilience (The Armenian Weekly).",
+                "sources": [
+                    [
+                        "The Armenian Weekly",
+                        "https://armenianweekly.com/2024/04/10/a-reflection-on-the-friends-of-armenia-network-white-paper/",
+                        "2 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "Armenia's Geopolitical Reorientation and Challenges",
+                "Summary": "Armenia faces a challenging task distancing itself from Russian influence, amid public dissatisfaction towards the historical alliance after recent border conflicts (Novaya Gazeta Europe). Efforts to escape isolation have led to initiatives like the proposed Zangezur corridor and expanding ties with Georgia, suggesting shifts in regional connectivity and economic strategies (Eurasia Review). This reorientation towards the West has stirred discontent in Moscow and Baku, with the EU and US encouraging Armenia's pivot (Crude Oil Prices Today | OilPrice.com).",
+                "sources": [
+                    [
+                        "Eurasia Review",
+                        "https://www.eurasiareview.com/10042024-armenias-escape-from-isolation-lies-through-georgia-oped/",
+                        "17 hours ago"
+                    ],
+                    [
+                        "Crude Oil Prices Today | OilPrice.com",
+                        "https://oilprice.com/Geopolitics/International/Armenias-Shift-West-Draws-Ire-from-Moscow-and-Baku.html",
+                        "23 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://novayagazeta.eu/static/previews/2024/04/10/leaving-russian-orbit-en.jpeg?v=47"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Global Eid al-Fitr Celebrations Amid Gaza's Strife",
+            "Summary": "Millions of Muslims across the globe have celebrated Eid al-Fitr, marking the end of Ramadan with various levels of joy and somberness due to the ongoing crisis in Gaza. In Istanbul, thousands of worshippers gathered for prayers at the Aya Sofya Mosque, visibly supporting Gaza through Palestinian flags and slogans, highlighting the region's dire situation where over a million face the threat of famine with restricted aid access (Voice of America). This situation has significantly overshadowed Eid celebrations, reminding the world of the persistent conflict in Gaza (Time Magazine).",
+            "sources": [
+                [
+                    "Voice of America",
+                    "https://www.voanews.com/a/muslims-worldwide-celebrate-eid-al-fitr-in-the-shadow-of-gaza-s-misery-/7564296.html",
+                    "38 minutes ago"
+                ],
+                [
+                    "Time Magazine",
+                    "https://time.com/6965405/muslims-eid-war-gaza/",
+                    "3 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24101189924285-1712744597.jpg?resize=1920%2C1440"
+        }
+    ]
+}

@@ -321,7 +321,7 @@ def in_morning_brief(name, company, industry, topic):
 in_morning_brief("Nick", "US Presidential Election", "Climate and Business", "Alberta provincial politics")
 
 # Christian: global politics and economy, basketball, social science acadameia, armenia, turkey, scientific innovation
-# in_morning_brief("Christian Chantayan", "Global Politics and Economy", "Basketball", "Armenia")
+in_morning_brief("Christian Chantayan", "Global Politics and Economy", "Basketball", "Armenia")
 
 # Daniel
 # in_morning_brief("Daniel Liu", "cats", "Technology", "piano")

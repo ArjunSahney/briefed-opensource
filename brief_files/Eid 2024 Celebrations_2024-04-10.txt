@@ -1,0 +1,19 @@
+[
+    {
+        "Title": "Global Eid al-Fitr Celebrations Amid Gaza's Strife",
+        "Summary": "Millions of Muslims across the globe have celebrated Eid al-Fitr, marking the end of Ramadan with various levels of joy and somberness due to the ongoing crisis in Gaza. In Istanbul, thousands of worshippers gathered for prayers at the Aya Sofya Mosque, visibly supporting Gaza through Palestinian flags and slogans, highlighting the region's dire situation where over a million face the threat of famine with restricted aid access (Voice of America). This situation has significantly overshadowed Eid celebrations, reminding the world of the persistent conflict in Gaza (Time Magazine).",
+        "sources": [
+            [
+                "Voice of America",
+                "https://www.voanews.com/a/muslims-worldwide-celebrate-eid-al-fitr-in-the-shadow-of-gaza-s-misery-/7564296.html",
+                "38 minutes ago"
+            ],
+            [
+                "Time Magazine",
+                "https://time.com/6965405/muslims-eid-war-gaza/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24101189924285-1712744597.jpg?resize=1920%2C1440"
+    }
+]

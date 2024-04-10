@@ -1,0 +1,19 @@
+[
+    {
+        "Title": "Red Wings' Season Highlights and Playoff Implications",
+        "Summary": "The final three regular season games of the Detroit Red Wings will be simulcast on TV20 in Detroit, highlighting crucial moments as the team concludes their schedule (NHL.com). In a pivotal match, the Washington Capitals defeated the Red Wings with a 2-1 score, thanks to key performances by Alex Ovechkin, Dylan Strome, and goalie Charlie Lindgren, significantly impacting the Eastern Conference playoff landscape (WXYZ Channel 7).",
+        "sources": [
+            [
+                "NHL.com",
+                "https://www.nhl.com/redwings/news/final-three-games-of-red-wings-regular-season-to-be-simulcast-on-tv20-in-detroit",
+                "1 hour ago"
+            ],
+            [
+                "WXYZ Channel 7",
+                "https://www.wxyz.com/sports/capitals-beat-red-wings-to-move-into-wild-card",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.d3.nhle.com/image/private/t_ratio16_9-size50/prd/bquqpdnz8evc7fcwyay6.jpg"
+    }
+]

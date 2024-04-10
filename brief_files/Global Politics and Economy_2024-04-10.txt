@@ -1,0 +1,107 @@
+[
+    {
+        "Title": "Gaming and Technology Updates",
+        "Summary": "Fortnite releases a new update with undisclosed features (Esports.net). GTA 6 garners attention with a trailer featuring an 'alien', speculation on voice actors, and a record-breaking Discord April Fools' video (Indy100). SNAP benefits expand to include new food items, enhancing nutritional accessibility (Newsweek). Fortnite introduces Avatar skins, locker changes, and a Coachella collaboration in its latest v29.20 update (Sportskeeda). Montana updates its innovative property information app, improving accessibility and user experience (GovTech).",
+        "sources": [
+            [
+                "Esports.net",
+                "https://www.esports.net/news/fortnite/latest-fortnite-patch-notes/",
+                "12 hours ago"
+            ],
+            [
+                "Indy100",
+                "https://www.indy100.com/gaming/gta-6-trailer-alien",
+                "3 hours ago"
+            ],
+            [
+                "Newsweek",
+                "https://www.newsweek.com/snap-update-benefits-extended-new-foods-1888884",
+                "3 hours ago"
+            ],
+            [
+                "Sportskeeda",
+                "https://www.sportskeeda.com/fortnite/everything-new-fortnite-v29-20-update-avatar-skins-locker-changes-coachella-collaboration",
+                "23 hours ago"
+            ],
+            [
+                "GovTech",
+                "https://www.govtech.com/gov-experience/montana-updates-groundbreaking-property-information-app",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.indy100.com/media-library/grand-theft-auto-vi-gta-vi-could-be-delayed-as-development-is.png?id=51962586&width=1200&height=600&coordinates=0%2C255%2C0%2C170"
+    },
+    {
+        "Title": "Multilateral Support for Ukraine",
+        "Summary": "Key international financial institutions like the European Investment Bank, the IMF, and the World Bank, among others, are part of a platform supporting Ukraine's recovery and reconstruction efforts (The European Sting).",
+        "sources": [
+            [
+                "The European Sting",
+                "https://europeansting.com/2024/04/10/multi-agency-donor-coordination-platform-for-ukraine-meets-in-kyiv-confirms-unwavering-support-to-ukraines-recovery-and-reconstruction/",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://i0.wp.com/europeansting.com/wp-content/uploads/2023/04/stop-the-war-in-ukraine.jpg?fit=1200%2C868&ssl=1"
+    },
+    {
+        "Title": "Political Perspectives and Policy Shifting in Australia",
+        "Summary": "The Prime Minister of Australia is at a decisive moment, presenting an opportunity for significant national progress (The West Australian). Meanwhile, Peter Dutton criticizes the government's changing stance on Israel as 'reckless,' highlighting concerns over rising anti-Semitism and the possibility of Labor supporting Palestinian statehood at the UN (The Australian).",
+        "sources": [
+            [
+                "The West Australian",
+                "https://thewest.com.au/politics/federal-politics/katina-curtis-anthony-albaneses-crossroads-gives-nation-a-shot-at-a-big-future-c-14256754",
+                "3 hours ago"
+            ],
+            [
+                "The Australian",
+                "https://www.theaustralian.com.au/nation/internal-warning-for-labor-on-palestinian-statehood/news-story/394537a6131cf31aae55c385fa55a9b0",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://images.thewest.com.au/publication/C-14256754/128ab12c2c0673127b11cd2e763efdf1d63b6407-16x9-x0y11w2191h1232.jpg?imwidth=1200"
+    },
+    {
+        "Title": "U.S.-Japan Relations: Advancements in Nuclear Power, Security, and Countermeasures Against China",
+        "Summary": "The U.S. and Japan are fostering next-generation nuclear power collaborations, highlighted during discussions between President Biden and Prime Minister Kishida, aiming to enhance economic and political compatibilities. A significant focus is on reshaping military strategies and strengthening defense capabilities against China, including adjustments in the U.S. force structure in Japan and the creation of a military industrial council for co-producing defense weapons. These strides underscore multilateral efforts to solidify security ties and regional partnerships in the Asia-Pacific against emerging threats (The Diplomat :: Asia, CNN, NBC News).",
+        "sources": [
+            [
+                "The Diplomat :: Asia",
+                "https://thediplomat.com/2024/04/the-us-and-japans-mission-to-push-next-generation-nuclear-power/",
+                "2 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/10/politics/biden-kishida-state-visit/index.html",
+                "45 minutes ago"
+            ],
+            [
+                "NBC News",
+                "https://www.nbcnews.com/news/world/us-japan-announce-historic-upgrade-security-ties-china-threat-looms-rcna147133",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://thediplomat.com/wp-content/uploads/2024/04/sizes/td-story-s-2/thediplomat_2024-04-10-134637.jpg"
+    },
+    {
+        "Title": "PM Narendra Modi's Recent Highlights",
+        "Summary": "Narendra Modi is seen as reshaping India and its position globally, marked by his upcoming feature on Newsweek's cover, making him the first PM after Indira Gandhi to achieve this (The Economic Times). His efforts to move past the 'abnormality' in India-China relations underline a strategic diplomatic approach (Moneycontrol). Modi's critique of DMK's leader for insulting BJP's Annamalai reflects his stance on political discourse and party character (India Today).",
+        "sources": [
+            [
+                "The Economic Times",
+                "https://m.economictimes.com/news/india/prime-minister-narendra-modi-set-to-become-first-pm-after-indira-gandhi-to-feature-on-newsweek-cover/articleshow/109202192.cms",
+                "27 minutes ago"
+            ],
+            [
+                "Moneycontrol",
+                "https://www.moneycontrol.com/news/india/india-china-must-put-behind-abnormality-in-bilateral-ties-pm-modi-12617061.html",
+                "2 hours ago"
+            ],
+            [
+                "India Today",
+                "https://www.indiatoday.in/elections/lok-sabha/story/pm-modi-dmk-dayanidhi-maran-bjp-annamalai-joker-lok-sabha-election-coimbatore-2525635-2024-04-10",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://img.etimg.com/thumb/msid-109202273,width-1200,height-630,imgsize-30906,overlay-economictimes/photo.jpg"
+    }
+]
