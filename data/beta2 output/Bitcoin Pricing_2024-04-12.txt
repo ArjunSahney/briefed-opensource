@@ -1,0 +1,72 @@
+[
+    {
+        "Title": "Solana (SOL) Price Predictions for 2024 to 2050",
+        "Summary": "Solana's price predictions range from optimistic growth prospects to long-term futures extending up to 2050, indicating varying degrees of market confidence and speculation on its technological advancements and adoption trends (CoinGape).",
+        "sources": [
+            [
+                "CoinGape",
+                "https://coingape.com/price-predictions/solana-sol-price-prediction/",
+                "6 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Recent Crypto Market Updates",
+        "Summary": "The cryptocurrency market is witnessing significant movement: Bitcoin breaks above $70k while Ethereum falls below $3,600, and stablecoin volumes dominate the market's 24-hour volume at 91.68% (Coinfomania). SUI experiences a decline, struggling to maintain $1.50 after a 45% drop from its peak (DailyCoin). Amidst varying performances across altcoins, some like Toncoin show promise, contrasting with others that lag behind their 2021 highs, indicating a potential for future rallies (Coinpedia). ONDO sees a notable 34% increase over 30 days, marking its emergence in the crypto scene (Analytics Insight).",
+        "sources": [
+            [
+                "Coinfomania",
+                "https://coinfomania.com/crypto-price-update-bitcoin-above-70k-ethereum-below-3600-xrp-dip-sol-at-175-ethena-ena-soars/",
+                "17 hours ago"
+            ],
+            [
+                "DailyCoin",
+                "https://dailycoin.com/sui-struggles-to-grip-1-50-in-45-slide-below-all-time-peak/",
+                "9 hours ago"
+            ],
+            [
+                "Coinpedia",
+                "https://coinpedia.org/news/altcoin-rally-to-begin-ahead-of-bitcoin-price-surge-says-top-crypto-analyst/",
+                "14 hours ago"
+            ],
+            [
+                "Analytics Insight",
+                "https://www.analyticsinsight.net/ondo-price-inches-closer-to-1-surges-34-in-30-days/",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://assets.coingecko.com/coins/images/6319/large/usdc.png?1696506694"
+    },
+    {
+        "Title": "Security Engineer Sentenced for $12M Crypto Hacks",
+        "Summary": "A security engineer named Ahmed was sentenced to three years in prison for hacking, leading to a $12 million cryptocurrency theft. In addition to the prison term, Ahmed must undergo three years of supervised release, forfeit $12.4 million, various cryptocurrencies, and pay over $5 million in restitution. These crypto hacks, notably involving the Mixin platform with losses around $200 million, are part of a trend where 2021 and 2022 saw even higher thefts, though Ahmed's actions still mark a significant criminal effort in the crypto world (TechCrunch; Tech Times).",
+        "Image Filepath": "https://techcrunch.com/wp-content/uploads/2019/10/fbi-bitcoin-dark-web.jpg?resize=1200,638"
+    },
+    {
+        "Title": "Recent Crypto Market Turmoil",
+        "Summary": "Bitcoin's price fell to $65,000 amid a significant market downturn, resulting in a $400M liquidation across cryptocurrencies (Cointelegraph, crypto.news). Ethereum saw aggressive buyers trapped, contributing to a $100M liquidation as the ETH/BTC ratio declined (Coinpedia). The sharp declines in cryptocurrency value, including a drop of Bitcoin to $66,000, were influenced by negative sentiment from traditional markets and geopolitical tensions, affecting altcoins even more severely (Cardano Feed).",
+        "sources": [
+            [
+                "Cointelegraph",
+                "https://cointelegraph.com/news/bitcoin-price-falls-to-65k-as-400m-crypto-market-liquidation-rocks-btc-and-altcoins",
+                "3 hours ago"
+            ],
+            [
+                "crypto.news",
+                "https://crypto.news/bitcoin-drops-65k/",
+                "4 hours ago"
+            ],
+            [
+                "Coinpedia",
+                "https://coinpedia.org/price-analysis/ethereum-traps-aggressive-buyers-as-eth-btc-ratio-declines-triggering-100-million-in-liquidations/",
+                "4 hours ago"
+            ],
+            [
+                "Cardano Feed",
+                "https://cardanofeed.com/bitcoin-btc-takes-a-hard-hit-and-drops-back-to-66000-altcoins-plummet-even-more-286",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://crypto.news/app/uploads/2024/03/crypto-news-Bitcoin-halving-option04.png"
+    }
+]

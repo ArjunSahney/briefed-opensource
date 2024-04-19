@@ -455,6 +455,4 @@ def in_brief(keyword, num_briefs):
 # results = get_google_results("Biden", 5)
 # results = results[:5]
 # print(json.dumps(results, indent=4))
-
-
 # print(get_trending_topics(5))

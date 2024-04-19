@@ -1,0 +1,112 @@
+[
+    {
+        "Title": "Key Points from Donald Trump's Hush Money Trial",
+        "Summary": "The full 12-person jury for Donald Trump's hush money criminal trial has been seated, with two jurors dismissed due to impartiality and criminality concerns (CNN, Le Monde.fr). Jury selection practices were scrutinized, involving a thorough questioning process to assess potential biases related to Trump\u2019s political activities (AP News). Issues regarding Donald Trump\u2019s past legal findings of fraud and possible testimony implications were highlighted (NBC News). Various sources report on the meticulous and contentious jury selection process, indicating the trial's high stakes and public interest.",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/politics/live-news/trump-hush-money-trial-04-18-24/index.html",
+                "33 minutes ago"
+            ],
+            [
+                "Le Monde.fr",
+                "https://www.lemonde.fr/en/united-states/article/2024/04/18/a-second-seated-juror-dismissed-from-trump-trial_6668835_133.html",
+                "6 hours ago"
+            ],
+            [
+                "AP News",
+                "https://apnews.com/article/trump-hush-money-criminal-trial-jurors-e47b0494de7688bde0e877ccb90aeca2",
+                "6 minutes ago"
+            ],
+            [
+                "NBC News",
+                "https://www.nbcnews.com/politics/donald-trump/live-blog/trump-hush-money-trial-day-3-live-updates-rcna145936",
+                "60 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.cnn.com/cnnnext/dam/assets/240418110154-dle-donald-trump-hush-money-041824-super-tease.jpg"
+    },
+    {
+        "Title": "Isra Hirsi Suspended from Barnard College Amid Anti-Israel Protests",
+        "Summary": "Isra Hirsi, daughter of Rep. Ilhan Omar, was suspended from Barnard College for her involvement in anti-Israel protests and pro-Palestinian demonstrations, an act she describes as standing in solidarity with Palestinians (New York Post, HuffPost). The suspension comes amidst a larger student movement at Columbia University, which includes a 'Gaza Solidarity Encampment' and calls for the university to divest from Israel (Daily Mail Online). This incident garners attention amid broader discussions on campus about student activism, the Israel-Hamas war, and the rise of antisemitism (HuffPost).",
+        "sources": [
+            [
+                "New York Post",
+                "https://nypost.com/2024/04/18/us-news/ilhan-omars-daughter-suspended-from-barnard-college-for-her-involvement-in-anti-israel-protests/",
+                "1 hour ago"
+            ],
+            [
+                "HuffPost",
+                "https://www.huffpost.com/entry/rep-ilhan-omars-daughter-isra-hirsi-suspended-from-barnard_n_66217938e4b01006be160a63",
+                "3 hours ago"
+            ],
+            [
+                "Daily Mail Online",
+                "https://www.dailymail.co.uk/news/article-13324789/ilhan-omar-daughter-isra-hirsi-suspended-barnard-college-israel-protests.html",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://nypost.com/wp-content/uploads/sites/2/2024/04/columbia-isra-hirsi-ilhan-omar-daughter-suspended-comp.jpg?quality=75&strip=all&w=1024"
+    },
+    {
+        "Title": "Exploring Cloud Seeding and Its Connection to Dubai Flooding",
+        "Summary": "Cloud seeding, a technique to stimulate rainfall by dispersing substances into clouds, is scrutinized for its role in Dubai's recent floods. Despite its application, experts from Al Jazeera and Global News question its effectiveness, citing a study that found patterns in precipitation but not definitive evidence of its impact (Al Jazeera, Global News). The phenomenon has sparked debates, contrasting human activities like greenhouse warming with cloud seeding in influencing weather (CBS News). Reports from Dubai highlight unprecedented rain levels, but attributions to cloud seeding remain unconfirmed (cilentano.it).",
+        "sources": [
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/news/2024/4/18/was-cloud-seeding-responsible-for-the-floodings-in-dubai",
+                "12 hours ago"
+            ],
+            [
+                "Global News",
+                "https://globalnews.ca/news/10432812/cloud-seeding-dubai-what-is-it/",
+                "4 hours ago"
+            ],
+            [
+                "CBS News",
+                "https://www.cbsnews.com/news/what-is-cloud-seeding-and-did-it-impact-dubai-floods/",
+                "5 hours ago"
+            ],
+            [
+                "cilentano.it",
+                "https://www.cilentano.it/en/alluvione-a-dubai-dovuta-a-cloud-seeding-che-cose/",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/E521/production/_133175685_dubai-index-getty.jpg"
+    },
+    {
+        "Title": "U.S. Vetoes Palestinian Bid for Full UN Membership Amidst Conflict",
+        "Summary": "The U.S. vetoed the Palestinian bid for full UN membership, a decision reported by multiple sources including Axios and CNN. This move comes in a period marked by escalating violence, with a recent assault led by Hamas on Israel resulting in 1,200 deaths and Israel's military response killing over 33,000 Palestinians, many of whom were women or children. The destruction in Gaza has been considerable. UN Secretary-General Guterres emphasized the importance of supporting peace efforts towards a viable Palestinian state in light of these recent escalations (NPR).",
+        "sources": [
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/18/1245641286/what-to-know-about-the-u-n-vote-on-whether-to-admit-palestinians-as-full-members",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2147903587.jpg?c=16x9&q=w_800,c_fill"
+    },
+    {
+        "Title": "Iran's Response to Potential Israeli Aggression on Nuclear Sites",
+        "Summary": "Iran has escalated its rhetoric, threatening to strike Israel's nuclear facilities and reconsider its nuclear commitments if Israel bombs its nuclear sites, indicating a possible shift in its nuclear policies (The National). The country has hinted at a tit-for-tat approach and the potential pursuit of nuclear arms in response to any Israeli aggression (Al Jazeera, WSJ). A commander of Iran's Revolutionary Guards underscored the possibility of revising Iran's nuclear doctrine as a countermeasure against Israel's threats on its nuclear infrastructure (\n\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644).",
+        "sources": [
+            [
+                "The National",
+                "https://www.thenationalnews.com/news/mena/2024/04/18/iran-israel-nuclear-strike/",
+                "5 hours ago"
+            ],
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/news/2024/4/18/iran-threatens-tit-for-tat-bomb-run-if-israel-attacks-nuclear-facilities",
+                "9 hours ago"
+            ],
+            [
+                "WSJ",
+                "https://www.wsj.com/world/middle-east/iran-threatens-to-work-on-nuclear-arms-if-israel-attacks-nuclear-sites-d6723ecd",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/IZZZ2SLTLMLH4F5DUASDYR72ZM.jpg?smart=true&auth=0c9a18ca3df1b829cc52728243cc5da9823f539a02b02c0a0c6bb1a08ef803e4&width=1200&height=630"
+    }
+]

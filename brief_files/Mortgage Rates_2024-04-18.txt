@@ -1,0 +1,112 @@
+[
+    {
+        "Title": "Surging Mortgage Rates and Housing Affordability",
+        "Summary": "Mortgage rates have surged past the 7% mark, intensifying the housing affordability crisis in America (CNN). This uptick reflects broader economic signals, as mortgage rates often align with the Federal Reserve's indications on the economy's health, despite not being directly linked (Yahoo Finance). After reaching a 23-year high of 7.79% in October, rates had dipped below 7% but are now climbing again amid persistent inflation concerns (AP News). Freddie Mac reports a significant weekly increase to an average of 7.10% for 30-year fixed-rate mortgages, amid acknowledgments by the Fed's chairman of prolonged inflation challenges (MONEY).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/18/economy/mortgage-rates-7-percent/index.html",
+                "4 hours ago"
+            ],
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/personal-finance/mortgage-rates-today-thursday-april-18-2024-100051649.html",
+                "6 hours ago"
+            ],
+            [
+                "AP News",
+                "https://apnews.com/article/mortgage-rates-housing-interest-financing-home-loan-e354dd1eb0a70d68535441f8652232f0",
+                "3 hours ago"
+            ],
+            [
+                "MONEY",
+                "https://money.com/current-mortgage-rates/",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2147876674.jpg?c=16x9&q=w_800,c_fill"
+    },
+    {
+        "Title": "Mortgage Rates Hit the 7% Mark",
+        "Summary": "Mortgage rates have surpassed 7%, a notable event this year, marking an increase in borrowing costs for home buyers (National Mortgage Professional, Cleveland.com). Despite the rise, there's a surge in application activity, driven by buyers aiming to lock in rates before potential further increases amidst persistent inflation concerns (Yahoo Finance). Various mortgage options are available, with fixed rates ranging from 6% for a 15-year conventional to over 7% for jumbo 30-year loans, highlighting the varying impacts on the housing market (San Bernardino Sun).",
+        "sources": [
+            [
+                "National Mortgage Professional",
+                "https://nationalmortgageprofessional.com/news/mortgage-rates-surpass-7-first-time-year",
+                "6 hours ago"
+            ],
+            [
+                "Cleveland.com",
+                "https://www.cleveland.com/news/2024/04/us-mortgage-interest-rates-surpass-7-again.html",
+                "7 hours ago"
+            ],
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/news/mortgage-rates-surpass-7-while-home-prices-show-no-signs-of-declining-183158978.html",
+                "4 hours ago"
+            ],
+            [
+                "San Bernardino Sun",
+                "https://www.sbsun.com/2024/04/18/with-mortgage-rate-topping-7-what-will-it-take-to-soften-the-market/amp/",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://s.yimg.com/ny/api/res/1.2/zJH1wyLpLfVE9nhKyzKAKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-04/3ce92300-fdaf-11ee-bbbb-599b125da200"
+    },
+    {
+        "Title": "Current Trends in the U.S. Mortgage and Housing Market",
+        "Summary": "Mortgage rates have significantly risen, with the median monthly housing payment reaching a record $2,775, indicative of an 11% year-over-year increase, while 30-year mortgage rates have soared past 7%, marking a five-month high (Deseret News, Bloomberg, American Banker, National Mortgage News). This surge in mortgage rates has continued to put pressure on the housing market, demonstrating a notable increase to 7.13% as per recent data, amidst concerns of rising inflation and a subsequent shift in Federal Reserve policies (Wolf Street).",
+        "sources": [
+            [
+                "Deseret News",
+                "https://www.deseret.com/e/24045670/",
+                "3 hours ago"
+            ],
+            [
+                "Bloomberg",
+                "https://www.bloomberg.com/news/articles/2024-04-18/us-mortgage-rates-surge-to-highest-since-november-hitting-7-1",
+                "7 hours ago"
+            ],
+            [
+                "American Banker",
+                "https://www.americanbanker.com/news/mortgage-rates-hit-a-five-month-high",
+                "6 hours ago"
+            ],
+            [
+                "National Mortgage News",
+                "https://www.nationalmortgagenews.com/news/mortgage-rates-hit-a-five-month-high",
+                "6 hours ago"
+            ],
+            [
+                "Wolf Street",
+                "https://wolfstreet.com/2024/04/17/mortgage-rates-over-7-and-heading-higher-housing-market-still-frozen-lots-of-buyers-on-strike-because-prices-are-still-too-high/",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.deseret.com/resizer/v2/2NRL6ODRHVHUTMDEJBO6IHBD6Q.JPG?focal=0%2C0&auth=c3fce0b8616ffe87139f18cad76a3317ffc2eb2461dd3e44ac3a790936916ebb&width=1200&height=630"
+    },
+    {
+        "Title": "Mortgage Rates Hit 7% Despite Expected Rate Cuts",
+        "Summary": "Mortgage rates have surpassed 7% for the first time this year, a significant event as home prices continue to remain high (Yahoo Finance). This increase in rates has not deterred application activity, suggesting some potential buyers are acting quickly in anticipation of further rate hikes, despite previously forecasted Federal Reserve rate cuts intended to combat inflation above 3% (Yahoo Finance).",
+        "sources": [
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/news/mortgage-rates-surpass-7-while-home-prices-show-no-signs-of-declining-183158978.html",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://s.yimg.com/ny/api/res/1.2/zJH1wyLpLfVE9nhKyzKAKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-04/3ce92300-fdaf-11ee-bbbb-599b125da200"
+    },
+    {
+        "Title": "Mortgage Rates Hit 7% Amidst Steady Home Prices",
+        "Summary": "Mortgage rates have crossed the 7% mark, a significant event noticed across multiple sources, despite expectations for rate cuts by the Federal Reserve to curb inflation stuck above 3%. This rise has not deterred application activities, hinting at a possible readiness among potential buyers to seize opportunities should rates decrease, highlighting a tension between expected monetary policy adjustments and the reality of persistent inflation and high home prices (Yahoo Finance).",
+        "sources": [
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/news/mortgage-rates-surpass-7-while-home-prices-show-no-signs-of-declining-183158978.html",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://s.yimg.com/ny/api/res/1.2/zJH1wyLpLfVE9nhKyzKAKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-04/3ce92300-fdaf-11ee-bbbb-599b125da200"
+    }
+]

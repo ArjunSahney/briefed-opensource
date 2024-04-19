@@ -1,0 +1,108 @@
+[
+    {
+        "Title": "Understanding Sporothrix Infection Transmission from Cats to Humans",
+        "Summary": "A rare fungal infection known as Sporothrix has been identified in two cats and a veterinarian, marking a noteworthy occurrence of cross-species transmission. The CDC highlights the treatability of this infection if diagnosed early, emphasizing the significance of swift treatment for affected cats (NBC News). A Kansas veterinarian contracted what's colloquially called 'rose gardener's disease' via a cat scratch, demonstrating the potential for zoonotic transmission of this fungal infection to humans under certain circumstances (KSNT 27 News, Daily Mail Online).",
+        "sources": [
+            [
+                "NBC News",
+                "https://www.nbcnews.com/health/health-news/sporothrix-cats-know-rare-fungal-infection-rcna147268",
+                "25 minutes ago"
+            ],
+            [
+                "KSNT 27 News",
+                "https://www.ksnt.com/news/kansas/kansas-veterinarian-infected-with-rose-gardeners-disease-after-cat-scratch/",
+                "6 hours ago"
+            ],
+            [
+                "Daily Mail Online",
+                "https://www.dailymail.co.uk/health/article-13293037/feline-fungal-infection-vet-sores-cdc-case.html",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240410-cat-ch-1542-6453d0.jpg"
+    },
+    {
+        "Title": "Understanding the Current Bird Flu Outbreak: Risks and Precautions",
+        "Summary": "The recent bird flu outbreak has been a point of concern with instances of cats, cows, and birds being affected at a dairy farm as investigated by a Cornell expert (USA Today). Despite the fears, authorities assure the public that pasteurization neutralizes viruses in the milk supply (Farmers' Advance). The European Food Safety Authority warns about the heightened pandemic risk due to widespread lack of immunity to the bird flu strain (AOL.com). To mitigate risks, the CDC advises avoiding contact with sick animals, ensuring proper personal hygiene, and cooking foods thoroughly (Jamaica Gleaner).",
+        "sources": [
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/news/nation/2024/04/08/can-cats-get-bird-flu-what-to-know/73250075007/",
+                "3 hours ago"
+            ],
+            [
+                "Farmers' Advance",
+                "https://www.farmersadvance.com/story/news/2024/04/10/bird-flu-outbreak-is-an-evolving-situation-heres-what-to-know/73279071007/",
+                "2 hours ago"
+            ],
+            [
+                "AOL.com",
+                "https://www.aol.com/news/lack-immunity-raises-risk-bird-121927521.html",
+                "15 hours ago"
+            ],
+            [
+                "Jamaica Gleaner",
+                "https://jamaica-gleaner.com/article/commentary/20240410/yohann-white-are-we-ready-fight-bird-flu",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/04/08/USAT/73253723007-getty-images-974827064.jpg?crop=2120,1193,x0,y110&width=2120&height=1193&format=pjpg&auto=webp"
+    },
+    {
+        "Title": "From Stray Cat to Lieutenant: Belleville PD Welcomes Newest Team Member",
+        "Summary": "The Belleville Police Department has recently welcomed a new member, a former stray cat, now honored with the rank of lieutenant. This unique induction highlights the department's community-friendly approach and showcases an interesting blend of animal welfare and public relations (WMTV 15 NEWS).",
+        "sources": [
+            [
+                "WMTV 15 NEWS",
+                "https://www.wmtv15news.com/2024/04/10/stray-cat-lieutenant-belleville-pd-welcomes-newest-team-member/",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://gray-wmtv-prod.cdn.arcpublishing.com/resizer/v2/EHPIDHHUPFED5ECBNBDNPWVOEM.png?auth=81351f94ed7079543e6fa417b6ecd155d9d11ff189c4c6fd69d11abdf9446f39&width=1200&height=600&smart=true"
+    },
+    {
+        "Title": "Future Food Quick Bites: Vegan Shawarmas, Pamela Anderson & Jobs for Cats",
+        "Summary": "The article covers the introduction of vegan shawarmas as part of a growing trend in plant-based cuisine, mentions Pamela Anderson's involvement in the vegan food industry, and humorously notes the creation of job opportunities for cats within this context (Green Queen).",
+        "sources": [
+            [
+                "Green Queen",
+                "https://www.greenqueen.com.hk/future-food-quick-bites-vegan-shawarmas-pamela-anderson-jobs-for-cats/",
+                "13 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Advancements in Managing Cat Waste: From Litter Box Insights to Robot Vacuums",
+        "Summary": "Recent discussions around cat waste management highlight that cat defecation patterns may mirror those of humans, with variations in digestion times among individuals, and the alarming risk of dry pilling (Catster). Meanwhile, technological strides with Ecovacs' T30 Omni robot vacuum cleaner offering an affordable, sophisticated solution for tackling cat litter alongside dust, showcasing advancements in convenience and hygiene for pet owners (breakinglatest.news).",
+        "sources": [
+            [
+                "Catster",
+                "https://www.catster.com/felines-weekly/not-so-crappy-reframing-cat-poop/",
+                "8 hours ago"
+            ],
+            [
+                "breakinglatest.news",
+                "https://www.breakinglatest.news/technology/robot-vacuum-cleaners-in-the-fight-against-dust-and-cat-litter/",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.catster.com/wp-content/uploads/2024/03/What-comes-out-of-a-cat-can-be-just-as-important-and-informative-as-the-things-that-go-in.-Paying-attention-can-help-elucidate-many-issues_Dr-Lauren.jpg"
+    },
+    {
+        "Title": "Trends in UK Pet Ownership",
+        "Summary": "The UK has witnessed a significant growth in its cat population, indicating a trend where more men are getting involved in cat adoption (Petfood Industry). This uptick in feline companionship coincides with a broader shift in pet ownership, where approximately 2.5 million UK households have recently added adult cats, and adult dogs have found homes in 2.1 million households, marking the first major increase since the pandemic-induced pet boom (Pet Food Processing).",
+        "sources": [
+            [
+                "Petfood Industry",
+                "https://www.petfoodindustry.com/pet-food-market/market-trends-and-reports/news/15668275/report-uks-cat-population-grows-more-men-adopting",
+                "8 hours ago"
+            ],
+            [
+                "Pet Food Processing",
+                "https://www.petfoodprocessing.net/articles/18076-cat-ownership-growing-in-the-united-kingdom",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://img.petfoodindustry.com/files/base/wattglobalmedia/all/image/2024/04/man_with_cat_hiking_in_the_woods_.66169d0a991d4.png?auto=format%2Ccompress&fit=max&q=70&w=1200"
+    }
+]

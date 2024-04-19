@@ -1,0 +1,55 @@
+[
+    {
+        "Title": "Strengthening Disease Prevention and Immunization Access",
+        "Summary": "A national framework focuses on preventing and controlling diseases from respiratory viruses with potential for epidemic and pandemic outbreaks, highlighting the importance of preparedness (ReliefWeb). Additionally, ensuring equitable access to childhood immunizations, especially against diseases like RSV and meningococcal B, is emphasized as a critical health priority (Medical Xpress).",
+        "sources": [
+            [
+                "ReliefWeb",
+                "https://reliefweb.int/report/world/framework-national-program-preventing-and-controlling-diseases-caused-respiratory-viruses-epidemic-and-pandemic-potential-washington-dc-2024",
+                "2 hours ago"
+            ],
+            [
+                "Medical Xpress",
+                "https://medicalxpress.com/news/2024-04-rsv-meningococcal-equitable-access-childhood.html",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://reliefweb.int/sites/default/files/styles/large/public/previews/d9/98/d99899a6-98ad-4727-b09e-51460d7fdbdc.png"
+    },
+    {
+        "Title": "2024 Dengue Outbreaks Hit Record Highs",
+        "Summary": "The year 2024 witnessed unprecedented levels of dengue outbreaks globally, marking a concerning record in the spread and impact of the disease (Precision Vaccinations News).",
+        "sources": [
+            [
+                "Precision Vaccinations News",
+                "https://www.precisionvaccinations.com/2024/04/11/dengue-outbreaks-are-setting-unfortunate-records-2024",
+                "21 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.precisionvaccinations.com/sites/default/files/styles/article_metadata/public/Screenshot%202024-04-11%202.23.00%20PM.png"
+    },
+    {
+        "Title": "Recent Healthcare Revelations: Vaping Dangers and HIV Testing Advancements",
+        "Summary": "The ban on disposable vapes targets 2.6 million people in GB, aiming to protect 316,000 young adults from nicotine dependence (Open Access Government). Meanwhile, Practice Business highlights the evolution of HIV testing programs, marking significant progress in healthcare management and disease prevention.",
+        "sources": [
+            [
+                "Open Access Government",
+                "https://www.openaccessgovernment.org/is-the-disposable-vape-ban-saving-the-nhs-from-another-health-epidemic/176087/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.openaccessgovernment.org/wp-content/uploads/2024/04/iStock-1456048587.jpg"
+    },
+    {
+        "Title": "Applying Epidemic Models for Wildfire Resilience",
+        "Summary": "This article explores the concept of applying strategies from epidemic network models to enhance wildfire resilience, emphasizing the similarities in the spread of diseases and wildfires. The strategies mentioned include mapping the surroundings, reinforcing structures to be fire-resistant, clearing vegetation, and creating buffer zones, analogous to public health practices like contact tracing, mask mandates, vaccinations, and social distancing. The significance of identifying high-vulnerability areas (buildings or vegetation) and the importance of real-time data updating for effective wildfire damage mitigation are also discussed (Nature).",
+        "sources": [
+            [
+                "Nature",
+                "https://www.nature.com/articles/s43588-024-00619-2",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs43588-024-00619-2/MediaObjects/43588_2024_619_Fig1_HTML.png"
+    }
+]

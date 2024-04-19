@@ -1,0 +1,19 @@
+[
+    {
+        "Title": "Excitement Surrounds Taylor Swift's New Album 'The Tortured Poets Department'",
+        "Summary": "Taylor Swift's album 'The Tortured Poets Department' has sparked fan excitement with unique promotional strategies and a crackdown on leaks. A 2022 interview hinted at connections between the album's themes and Swift's circle, culminating in a mysterious marketing campaign including a hand-painted QR code and a partnership with Spotify (NBC News). Anticipation built as fans analyzed social media clues and awaited the midnight release (CNET). Efforts to prevent leaks were evident, with X (formerly Twitter) restricting searches related to any leaks (CNET).",
+        "sources": [
+            [
+                "NBC News",
+                "https://www.nbcnews.com/pop-culture/pop-culture-news/live-blog/taylor-swift-album-tortured-poets-live-updates-rcna147489",
+                "39 minutes ago"
+            ],
+            [
+                "CNET",
+                "https://www.cnet.com/culture/entertainment/the-tortured-poets-department-drops-at-midnight-what-to-know-about-taylor-swifts-latest-album/",
+                "55 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/16E1/production/_133175850_fd0592d7-b75b-45ec-bedd-18847a0e0eda.jpg"
+    }
+]

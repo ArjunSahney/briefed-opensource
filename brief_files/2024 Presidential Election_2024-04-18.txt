@@ -1,0 +1,129 @@
+[
+    {
+        "Title": "Key Developments in the 2024 Presidential Race",
+        "Summary": "The 2024 presidential race is heating up with Robert F. Kennedy Jr.\u2019s campaign potentially impacting the election dynamics (USA Today). Meanwhile, Donald Trump is adjusting his stance on abortion, attempting to delegate the decision to states, possibly to avoid alienating voters amid evolving public opinions (NPR). In addition, RFK Jr.'s campaign has achieved a milestone by securing ballot access in Michigan, indicating a significant step forward in his electoral efforts (Axios).",
+        "sources": [
+            [
+                "USA Today",
+                "https://www.usatoday.com/videos/news/politics/2024/04/18/robert-f-kennedy-jr-independent-campaign-could-impact-2024-presidential-election/73175804007/",
+                "5 hours ago"
+            ],
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/18/1198911276/trump-stance-abortion-2024-election-republican-pro-life-change",
+                "2 hours ago"
+            ],
+            [
+                "Axios",
+                "https://www.axios.com/2024/04/18/rfk-jr-michigan-ballot-2024",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IP53NFRZMT6KT7BCAV5EUEU45M.JPG&w=1440"
+    },
+    {
+        "Title": "Impact of RFK Jr.'s 2024 Presidential Campaign",
+        "Summary": "Robert F. Kennedy Jr.'s independent campaign is poised to shake up the 2024 presidential race, complicating strategies for both incumbent President Joe Biden and former President Donald Trump (USA Today). Polling data is beginning to illustrate a complex three-way race between Biden, Trump, and RFK Jr. (The Hill). In response, Biden and his allies are actively working to limit Kennedy's influence on the election outcome (Politico). Amidst this political maneuvering, Kerry Kennedy talks about the election, while the Kennedy family publicly endorses Biden, clearly distancing themselves from RFK Jr.'s candidacy (ABC News - Breaking News, Latest News and Videos; Pittsburgh Post-Gazette).",
+        "sources": [
+            [
+                "USA Today",
+                "https://www.usatoday.com/videos/news/politics/2024/04/18/robert-f-kennedy-jr-independent-campaign-could-impact-2024-presidential-election/73175804007/",
+                "5 hours ago"
+            ],
+            [
+                "The Hill",
+                "https://elections2024.thehill.com/national/biden-trump-rfk-general/",
+                "3 minutes ago"
+            ],
+            [
+                "Politico",
+                "https://www.politico.com/news/2024/04/18/biden-kennedy-rfk-campaign-00153032",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/04/18/USAT/73365274007-gty-2126505422.jpg?crop=4681,2633,x0,y403&width=3200&height=1800&format=pjpg&auto=webp"
+    },
+    {
+        "Title": "Arizona's Abortion Legislation and 2024 Election Insights",
+        "Summary": "Arizona Republicans resisted efforts to swiftly repeal a 1864 abortion ban despite a recent state Supreme Court decision making it enforceable, highlighting the GOP's strategic caution and the deep division on abortion rights (ABC News). This decision comes amidst ongoing political battles over abortion policy, reflecting a broader national contention as the 2024 presidential election approaches, where both Biden and Trump are closely watched figures (CNN, Fox News).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/17/politics/arizona-house-abortion-law-repeal/index.html",
+                "11 hours ago"
+            ],
+            [
+                "Fox News",
+                "https://www.foxnews.com/official-polls/fox-news-poll-biden-trump-2024-pennsylvania-rematch",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://i.abcnewsfe.com/a/7039d8c0-74af-4f33-ba4d-2c68115d9768/anti-abortion-protest-arizona-gty-jt-240418_1713462882755_hpMain_16x9.jpg?w=1600"
+    },
+    {
+        "Title": "Overview of Current Political Climate and Election Dynamics",
+        "Summary": "Biden aims to gain ground in polls amid Trump's trial, with Trump leading in key states despite legal challenges (Mint). No summary information is provided for the historical context of EVMs (Hindustan Times), recent poll standings in Florida (Florida\u2019s Voice), or live updates on prominent candidates in an election phase (The New Indian Express).",
+        "sources": [
+            [
+                "Hindustan Times",
+                "https://www.hindustantimes.com/india-news/how-evms-came-into-being-a-brief-history-101713470140879.html",
+                "3 hours ago"
+            ],
+            [
+                "Florida\u2019s Voice",
+                "https://flvoicenews.com/donald-trump-up-8-rick-scott-up-16-in-latest-florida-2024-election-poll/",
+                "6 hours ago"
+            ],
+            [
+                "The New Indian Express",
+                "https://www.newindianexpress.com/live/2024/Apr/18/live-gadkari-rijiju-kanimozhi-among-star-candidates-whose-fate-will-be-decided-in-phase-i",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.livemint.com/lm-img/img/2024/04/18/1600x900/im-950376_1713432192709_1713432390830.jpg"
+    },
+    {
+        "Title": "Developments in Donald Trump's Hush Money Trial",
+        "Summary": "The hush money trial of former President Donald Trump is drawing significant attention, with a jury of 12 people recently seated, indicating that the trial is moving forward to the opening statements and anticipated weeks of testimony (goSkagit). Concurrently, there have been reports of Trump appearing in court alongside a woman resembling his wife, Melania Trump, sparking interest and speculation (The Economic Times). Additionally, there has been a recent dismissal of jurors in the trial, although specific details of this action were not disclosed (CTV News). This trial is poised to become a focal point in the 2024 race for the presidency (The New York Times).",
+        "sources": [
+            [
+                "goSkagit",
+                "https://www.goskagit.com/spotlight/ap-news-in-brief-at-6-04-a-m-edt/article_8b05a8df-f24f-5ce0-a34b-2138f6c463bd.html",
+                "13 hours ago"
+            ],
+            [
+                "The Economic Times",
+                "https://m.economictimes.com/news/international/us/hush-money-trial-donald-trump-seen-with-melania-trumps-lookalike-in-courtroom-know-who-is-she/articleshow/109407230.cms",
+                "10 hours ago"
+            ],
+            [
+                "CTV News",
+                "https://www.ctvnews.ca/video/c2906571-jurors-dismissed-in-trump-hush-money-trial?playlistId=1.6844226",
+                "4 hours ago"
+            ],
+            [
+                "The New York Times",
+                "https://www.nytimes.com/2024/04/15/us/politics/trump-2024-trial.html",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://img.etimg.com/thumb/msid-109407292,width-1200,height-630,imgsize-1322543,overlay-economictimes/photo.jpg"
+    },
+    {
+        "Title": "President Biden's Visit to Wawa in Philadelphia",
+        "Summary": "President Joe Biden made a stop at a Wawa store in Philadelphia, accompanied by Mayor Cherelle Parker, marking a notable visit the day after placing an order at Sheetz, showcasing his engagement with local businesses (CBS News, Inquirer.com).",
+        "sources": [
+            [
+                "CBS News",
+                "https://www.cbsnews.com/philadelphia/news/joe-biden-in-philadelphia-wawa/",
+                "2 hours ago"
+            ],
+            [
+                "Inquirer.com",
+                "https://www.inquirer.com/politics/clout/joe-biden-wawa-philly-20240418.html",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/18/c76aa45b-db9b-4afe-bfc3-2953a9fee085/thumbnail/1200x630/bc05a5db1082099eb227cd86a0a673ab/16sotvo-biden-at-wawa-transfer-frame-481.jpg?v=55c0f85ebcd2b956528d9c6f5a7e8871"
+    }
+]

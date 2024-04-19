@@ -1,0 +1,29 @@
+[
+    {
+        "Title": "Devonte' Graham's Clutch Performance Leads Spurs to Victory",
+        "Summary": "Devonte' Graham's late game heroics, including a decisive jumper with 0.9 seconds left, propelled the San Antonio Spurs to a comeback win over the Denver Nuggets, affecting the Western Conference standings and tying the top three teams (Sports Illustrated, Pounding The Rock, Sportstar, Through the Phog).",
+        "sources": [
+            [
+                "Sports Illustrated",
+                "https://www.si.com/nba/spurs/news/san-antonio-spurs-devonte-graham-denver-nuggets-turning-point",
+                "2 hours ago"
+            ],
+            [
+                "Pounding The Rock",
+                "https://www.poundingtherock.com/2024/4/13/24129283/devonte-grahams-game-winner-caps-san-antonio-spurs-double-digit-comeback-win-over-denver-nuggets",
+                "2 hours ago"
+            ],
+            [
+                "Sportstar",
+                "https://sportstar.thehindu.com/basketball/nba-roundup-nuggets-loss-results-3-way-tie-atop-west-conference-news/article68061157.ece",
+                "3 hours ago"
+            ],
+            [
+                "Through the Phog",
+                "https://throughthephog.com/posts/kansas-jayhawks-basketball-nba-devonte-graham-game-winner-spurs-denver-nuggets-01hvapcqz6gb",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3290,h_1850,x_0,y_0/images/ImagnImages/mmsport/si-temp/01hvbvfxnrbgwn2yzy8k"
+    }
+]

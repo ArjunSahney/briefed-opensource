@@ -1,0 +1,34 @@
+[
+    {
+        "Title": "Dickey Betts, Legendary Allman Brothers Band Guitarist, Dies at 80",
+        "Summary": "Dickey Betts, a seminal figure in the formation and success of the Allman Brothers Band, known for hits like 'Ramblin' Man' and 'Jessica', passed away at 80. His contributions were crucial in defining the Southern rock genre in the 1960s and 1970s, alongside other band members and his distinctive dual guitar work with Duane Allman. Beyond the Allman Brothers Band, Betts pursued a solo career, leaving a legacy celebrated for his unique guitar style and songwriting (Rolling Stone, CNN, People, NPR, Vulture).",
+        "sources": [
+            [
+                "Rolling Stone",
+                "https://www.rollingstone.com/music/music-news/dickey-betts-allman-brothers-band-dead-727523/",
+                "7 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/18/entertainment/dickey-betts-death/index.html",
+                "5 hours ago"
+            ],
+            [
+                "People",
+                "https://people.com/dickey-betts-of-allman-brothers-dead-age-80-8635534",
+                "3 hours ago"
+            ],
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/18/1245591933/dickey-betts-dead-the-allman-brothers-band-ramblin-man",
+                "2 hours ago"
+            ],
+            [
+                "Vulture",
+                "https://www.vulture.com/article/dickey-betts-dead-allman-brothers-band.html",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.rollingstone.com/wp-content/uploads/2018/09/dickey-betts-obit.jpg?w=1600&h=900&crop=1"
+    }
+]

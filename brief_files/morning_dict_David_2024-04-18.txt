@@ -1,0 +1,232 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Key Points from Donald Trump's Hush Money Trial",
+            "Summary": "The full 12-person jury for Donald Trump's hush money criminal trial has been seated, with two jurors dismissed due to impartiality and criminality concerns (CNN, Le Monde.fr). Jury selection practices were scrutinized, involving a thorough questioning process to assess potential biases related to Trump\u2019s political activities (AP News). Issues regarding Donald Trump\u2019s past legal findings of fraud and possible testimony implications were highlighted (NBC News). Various sources report on the meticulous and contentious jury selection process, indicating the trial's high stakes and public interest.",
+            "sources": [
+                [
+                    "CNN",
+                    "https://www.cnn.com/politics/live-news/trump-hush-money-trial-04-18-24/index.html",
+                    "33 minutes ago"
+                ],
+                [
+                    "Le Monde.fr",
+                    "https://www.lemonde.fr/en/united-states/article/2024/04/18/a-second-seated-juror-dismissed-from-trump-trial_6668835_133.html",
+                    "6 hours ago"
+                ],
+                [
+                    "AP News",
+                    "https://apnews.com/article/trump-hush-money-criminal-trial-jurors-e47b0494de7688bde0e877ccb90aeca2",
+                    "6 minutes ago"
+                ],
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/politics/donald-trump/live-blog/trump-hush-money-trial-day-3-live-updates-rcna145936",
+                    "60 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://cdn.cnn.com/cnnnext/dam/assets/240418110154-dle-donald-trump-hush-money-041824-super-tease.jpg"
+        },
+        {
+            "Title": "Isra Hirsi Suspended from Barnard College Amid Anti-Israel Protests",
+            "Summary": "Isra Hirsi, daughter of Rep. Ilhan Omar, was suspended from Barnard College for her involvement in anti-Israel protests and pro-Palestinian demonstrations, an act she describes as standing in solidarity with Palestinians (New York Post, HuffPost). The suspension comes amidst a larger student movement at Columbia University, which includes a 'Gaza Solidarity Encampment' and calls for the university to divest from Israel (Daily Mail Online). This incident garners attention amid broader discussions on campus about student activism, the Israel-Hamas war, and the rise of antisemitism (HuffPost).",
+            "sources": [
+                [
+                    "New York Post",
+                    "https://nypost.com/2024/04/18/us-news/ilhan-omars-daughter-suspended-from-barnard-college-for-her-involvement-in-anti-israel-protests/",
+                    "1 hour ago"
+                ],
+                [
+                    "HuffPost",
+                    "https://www.huffpost.com/entry/rep-ilhan-omars-daughter-isra-hirsi-suspended-from-barnard_n_66217938e4b01006be160a63",
+                    "3 hours ago"
+                ],
+                [
+                    "Daily Mail Online",
+                    "https://www.dailymail.co.uk/news/article-13324789/ilhan-omar-daughter-isra-hirsi-suspended-barnard-college-israel-protests.html",
+                    "6 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://nypost.com/wp-content/uploads/sites/2/2024/04/columbia-isra-hirsi-ilhan-omar-daughter-suspended-comp.jpg?quality=75&strip=all&w=1024"
+        }
+    ],
+    "Custom Headlines": {
+        "Ukraine": [
+            {
+                "Title": "Recent Developments in Ukraine",
+                "Summary": "A Russian missile strike on Chernihiv has resulted in seventeen casualties, highlighting the ongoing severity of the Ukraine war (BBC). Amidst this backdrop, the Ukrainian World Congress is actively encouraging public engagement with Congressional representatives to garner further support for Ukraine (Ukrainian World Congress). Meanwhile, Russia maintains that US aid to Ukraine will not significantly alter the military dynamics between the two nations (Hindustan Times).",
+                "sources": [
+                    [
+                        "BBC",
+                        "https://www.bbc.com/news/world-europe-68833833",
+                        "10 hours ago"
+                    ],
+                    [
+                        "Ukrainian World Congress",
+                        "https://www.ukrainianworldcongress.org/ucca-urges-public-to-contact-congressional-representatives-on-ukraine-support/",
+                        "9 hours ago"
+                    ],
+                    [
+                        "Hindustan Times",
+                        "https://www.hindustantimes.com/world-news/us-aid-for-ukraine-wont-change-military-situation-russia-101713451877175.html",
+                        "8 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/7C8E/production/_133168813_ukraine_getty.jpg"
+            }
+        ],
+        "Mortgage Rates": [
+            {
+                "Title": "Surging Mortgage Rates and Housing Affordability",
+                "Summary": "Mortgage rates have surged past the 7% mark, intensifying the housing affordability crisis in America (CNN). This uptick reflects broader economic signals, as mortgage rates often align with the Federal Reserve's indications on the economy's health, despite not being directly linked (Yahoo Finance). After reaching a 23-year high of 7.79% in October, rates had dipped below 7% but are now climbing again amid persistent inflation concerns (AP News). Freddie Mac reports a significant weekly increase to an average of 7.10% for 30-year fixed-rate mortgages, amid acknowledgments by the Fed's chairman of prolonged inflation challenges (MONEY).",
+                "sources": [
+                    [
+                        "CNN",
+                        "https://www.cnn.com/2024/04/18/economy/mortgage-rates-7-percent/index.html",
+                        "4 hours ago"
+                    ],
+                    [
+                        "Yahoo Finance",
+                        "https://finance.yahoo.com/personal-finance/mortgage-rates-today-thursday-april-18-2024-100051649.html",
+                        "6 hours ago"
+                    ],
+                    [
+                        "AP News",
+                        "https://apnews.com/article/mortgage-rates-housing-interest-financing-home-loan-e354dd1eb0a70d68535441f8652232f0",
+                        "3 hours ago"
+                    ],
+                    [
+                        "MONEY",
+                        "https://money.com/current-mortgage-rates/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2147876674.jpg?c=16x9&q=w_800,c_fill"
+            },
+            {
+                "Title": "Mortgage Rates Hit the 7% Mark",
+                "Summary": "Mortgage rates have surpassed 7%, a notable event this year, marking an increase in borrowing costs for home buyers (National Mortgage Professional, Cleveland.com). Despite the rise, there's a surge in application activity, driven by buyers aiming to lock in rates before potential further increases amidst persistent inflation concerns (Yahoo Finance). Various mortgage options are available, with fixed rates ranging from 6% for a 15-year conventional to over 7% for jumbo 30-year loans, highlighting the varying impacts on the housing market (San Bernardino Sun).",
+                "sources": [
+                    [
+                        "National Mortgage Professional",
+                        "https://nationalmortgageprofessional.com/news/mortgage-rates-surpass-7-first-time-year",
+                        "6 hours ago"
+                    ],
+                    [
+                        "Cleveland.com",
+                        "https://www.cleveland.com/news/2024/04/us-mortgage-interest-rates-surpass-7-again.html",
+                        "7 hours ago"
+                    ],
+                    [
+                        "Yahoo Finance",
+                        "https://finance.yahoo.com/news/mortgage-rates-surpass-7-while-home-prices-show-no-signs-of-declining-183158978.html",
+                        "4 hours ago"
+                    ],
+                    [
+                        "San Bernardino Sun",
+                        "https://www.sbsun.com/2024/04/18/with-mortgage-rate-topping-7-what-will-it-take-to-soften-the-market/amp/",
+                        "4 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://s.yimg.com/ny/api/res/1.2/zJH1wyLpLfVE9nhKyzKAKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-04/3ce92300-fdaf-11ee-bbbb-599b125da200"
+            }
+        ],
+        "2024 Presidential Election": [
+            {
+                "Title": "Key Developments in the 2024 Presidential Race",
+                "Summary": "The 2024 presidential race is heating up with Robert F. Kennedy Jr.\u2019s campaign potentially impacting the election dynamics (USA Today). Meanwhile, Donald Trump is adjusting his stance on abortion, attempting to delegate the decision to states, possibly to avoid alienating voters amid evolving public opinions (NPR). In addition, RFK Jr.'s campaign has achieved a milestone by securing ballot access in Michigan, indicating a significant step forward in his electoral efforts (Axios).",
+                "sources": [
+                    [
+                        "USA Today",
+                        "https://www.usatoday.com/videos/news/politics/2024/04/18/robert-f-kennedy-jr-independent-campaign-could-impact-2024-presidential-election/73175804007/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "NPR",
+                        "https://www.npr.org/2024/04/18/1198911276/trump-stance-abortion-2024-election-republican-pro-life-change",
+                        "2 hours ago"
+                    ],
+                    [
+                        "Axios",
+                        "https://www.axios.com/2024/04/18/rfk-jr-michigan-ballot-2024",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/IP53NFRZMT6KT7BCAV5EUEU45M.JPG&w=1440"
+            },
+            {
+                "Title": "Impact of RFK Jr.'s 2024 Presidential Campaign",
+                "Summary": "Robert F. Kennedy Jr.'s independent campaign is poised to shake up the 2024 presidential race, complicating strategies for both incumbent President Joe Biden and former President Donald Trump (USA Today). Polling data is beginning to illustrate a complex three-way race between Biden, Trump, and RFK Jr. (The Hill). In response, Biden and his allies are actively working to limit Kennedy's influence on the election outcome (Politico). Amidst this political maneuvering, Kerry Kennedy talks about the election, while the Kennedy family publicly endorses Biden, clearly distancing themselves from RFK Jr.'s candidacy (ABC News - Breaking News, Latest News and Videos; Pittsburgh Post-Gazette).",
+                "sources": [
+                    [
+                        "USA Today",
+                        "https://www.usatoday.com/videos/news/politics/2024/04/18/robert-f-kennedy-jr-independent-campaign-could-impact-2024-presidential-election/73175804007/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "The Hill",
+                        "https://elections2024.thehill.com/national/biden-trump-rfk-general/",
+                        "3 minutes ago"
+                    ],
+                    [
+                        "Politico",
+                        "https://www.politico.com/news/2024/04/18/biden-kennedy-rfk-campaign-00153032",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.usatoday.com/gcdn/authoring/authoring-images/2024/04/18/USAT/73365274007-gty-2126505422.jpg?crop=4681,2633,x0,y403&width=3200&height=1800&format=pjpg&auto=webp"
+            },
+            {
+                "Title": "Arizona's Abortion Legislation and 2024 Election Insights",
+                "Summary": "Arizona Republicans resisted efforts to swiftly repeal a 1864 abortion ban despite a recent state Supreme Court decision making it enforceable, highlighting the GOP's strategic caution and the deep division on abortion rights (ABC News). This decision comes amidst ongoing political battles over abortion policy, reflecting a broader national contention as the 2024 presidential election approaches, where both Biden and Trump are closely watched figures (CNN, Fox News).",
+                "sources": [
+                    [
+                        "CNN",
+                        "https://www.cnn.com/2024/04/17/politics/arizona-house-abortion-law-repeal/index.html",
+                        "11 hours ago"
+                    ],
+                    [
+                        "Fox News",
+                        "https://www.foxnews.com/official-polls/fox-news-poll-biden-trump-2024-pennsylvania-rematch",
+                        "1 hour ago"
+                    ]
+                ],
+                "Image Filepath": "https://i.abcnewsfe.com/a/7039d8c0-74af-4f33-ba4d-2c68115d9768/anti-abortion-protest-arizona-gty-jt-240418_1713462882755_hpMain_16x9.jpg?w=1600"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Dickey Betts, Legendary Allman Brothers Band Guitarist, Dies at 80",
+            "Summary": "Dickey Betts, a seminal figure in the formation and success of the Allman Brothers Band, known for hits like 'Ramblin' Man' and 'Jessica', passed away at 80. His contributions were crucial in defining the Southern rock genre in the 1960s and 1970s, alongside other band members and his distinctive dual guitar work with Duane Allman. Beyond the Allman Brothers Band, Betts pursued a solo career, leaving a legacy celebrated for his unique guitar style and songwriting (Rolling Stone, CNN, People, NPR, Vulture).",
+            "sources": [
+                [
+                    "Rolling Stone",
+                    "https://www.rollingstone.com/music/music-news/dickey-betts-allman-brothers-band-dead-727523/",
+                    "7 hours ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/18/entertainment/dickey-betts-death/index.html",
+                    "5 hours ago"
+                ],
+                [
+                    "People",
+                    "https://people.com/dickey-betts-of-allman-brothers-dead-age-80-8635534",
+                    "3 hours ago"
+                ],
+                [
+                    "NPR",
+                    "https://www.npr.org/2024/04/18/1245591933/dickey-betts-dead-the-allman-brothers-band-ramblin-man",
+                    "2 hours ago"
+                ],
+                [
+                    "Vulture",
+                    "https://www.vulture.com/article/dickey-betts-dead-allman-brothers-band.html",
+                    "2 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.rollingstone.com/wp-content/uploads/2018/09/dickey-betts-obit.jpg?w=1600&h=900&crop=1"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+[
+    {
+        "Title": "Lakestar's New $600M Fund to Boost European Innovation",
+        "Summary": "Lakestar has successfully closed a $600 million funding round with the aim of bolstering the innovation ecosystem across Europe, targeting sectors poised for growth and transformation (Tech.eu).",
+        "sources": [
+            [
+                "Tech.eu",
+                "https://tech.eu/2024/04/12/lakestar-closes-600m-funds-aims-to-strengthen-europes-innovation-ecosystem/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.tech.eu/uploads/2024/04/download-27-493.jpg"
+    },
+    {
+        "Title": "Navigating Technology Mindfully with Stoicism",
+        "Summary": "The article from Medium outlines the importance of using Stoicism to approach technology use in a mindful and disciplined manner, emphasizing the necessity of maintaining control over one's reactions to digital stimuli to lead a balanced life (Medium).",
+        "sources": [
+            [
+                "Medium",
+                "https://medium.com/@stoicminds.channel/navigating-technology-mindfully-with-stoicism-ad8b7b09d698?responsesOpen=true&sortBy=REVERSE_CHRON",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://miro.medium.com/v2/resize:fit:1024/1*6ViDQqM3REGvERL5qd-siA.jpeg"
+    },
+    {
+        "Title": "Global Trends in Oil Demand and Economic Indicators",
+        "Summary": "Global oil demand growth is slowing, with China accounting for the majority of the increase, yet overall growth is expected to decelerate due to the completion of the pandemic rebound and an expanding electric vehicle fleet, contributing to a downgraded forecast for 2024 and 2025 (Offshore Technology, Moneycontrol). Additionally, economic indicators such as China's GDP growth slowing down and strategic shifts like China's reported reduction in imports from American chip makers suggest a complex landscape of economic adjustments and policy responses across the globe (Asharq Al-awsat - English, Reuters, Investopedia).",
+        "sources": [
+            [
+                "Offshore Technology",
+                "https://www.offshore-technology.com/news/iea-reports-slow-global-oil-demand-growth-in-q124-citing-weaker-deliveries-by-oecd-countries/",
+                "36 minutes ago"
+            ],
+            [
+                "Moneycontrol",
+                "https://www.moneycontrol.com/news/business/iea-downgrades-oil-demand-forecast-for-2024-amid-lower-oecd-deliveries-in-q1-12629681.html",
+                "2 hours ago"
+            ],
+            [
+                "Asharq Al-awsat - English",
+                "https://english.aawsat.com/business/4961311-chinas-q1-gdp-growth-set-slow-46-keeps-pressure-more-stimulus",
+                "10 hours ago"
+            ],
+            [
+                "Reuters",
+                "https://www.reuters.com/markets/commodities/chinas-march-crude-imports-slip-6-rise-slightly-q1-2024-04-12/",
+                "8 hours ago"
+            ],
+            [
+                "Investopedia",
+                "https://www.investopedia.com/5-things-to-know-before-the-stock-market-opens-april-12-2024-8630387",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.offshore-technology.com/wp-content/uploads/sites/20/2024/04/contact-cover.jpg"
+    },
+    {
+        "Title": "Recent Developments in Canada's AI Sector and Tech Funding in Africa",
+        "Summary": "Canada is revisiting its AI strategy to foster national prosperity, focusing on cutting-edge technologies like AI, machine learning, and blockchain (elblog.pl). However, concerns have been raised about the federal government's proposed AI legislation not adequately safeguarding Canadians (The Conversation). Meanwhile, in Africa, Panache Ventures and Kora are facilitating VC funding opportunities for tech founders, showcasing a major event in Lagos, Nigeria (TechCabal). In Canada, the government's engagement with AI in nearly 300 projects underscores the commitment to technological advancement despite the need for greater transparency (Tech Times).",
+        "sources": [
+            [
+                "elblog.pl",
+                "https://elblog.pl/2024/04/11/revamping-canadas-ai-strategy-for-national-prosperity/",
+                "19 hours ago"
+            ],
+            [
+                "The Conversation",
+                "https://theconversation.com/the-federal-governments-proposed-ai-legislation-misses-the-mark-on-protecting-canadians-227186",
+                "22 hours ago"
+            ],
+            [
+                "TechCabal",
+                "https://techcabal.com/2024/04/12/panache-ventures-and-kora-empower-tech-founders-for-vc-funding-in-africa/",
+                "5 hours ago"
+            ],
+            [
+                "Tech Times",
+                "https://www.techtimes.com/articles/303495/20240411/canadas-government-utilizes-ai-nearly-300-projects-new-research.htm",
+                "22 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://elblog.pl/wp-content/uploads/2024/04/compressed_img-DWDHWKy4nyJ27FyOYORvUFq2.png"
+    }
+]

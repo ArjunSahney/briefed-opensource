@@ -1,0 +1,129 @@
+[
+    {
+        "Title": "The Impact of AI on Cybersecurity and Technology",
+        "Summary": "The role of AI in cybersecurity becomes increasingly crucial as the ID IQ Report highlights the vulnerability of identities in cyber breaches, with RSA's CEO emphasizing the lack of awareness around identity's comprehensive role in cybersecurity. Meanwhile, technological advancements continue with Meta developing a five-nanometer MTIA chip to boost AI inference workloads, indicating significant progress in AI applications and security (SiliconANGLE).",
+        "sources": [
+            [
+                "SiliconANGLE",
+                "https://siliconangle.com/2024/04/10/rsa-conference-event-preview-cybersecurity-rsac/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2024/04/RSA-Conference-2024-hero-image-with-date.png"
+    },
+    {
+        "Title": "Global AI Developments and Google's Innovative Launch",
+        "Summary": "Recent global developments see AI innovation fever with OpenAI, Google, and Mistral unveiling new models, marked by Mistral's open-source, downloadable AI model Mixtral 8x22B against the backdrop of intense competition (The Guardian). Simultaneously, Google elevates AI utility within its Workspace through 'Vids,' aiming to revolutionize workplace creativity and efficiency (PC-Tablet India).",
+        "sources": [
+            [
+                "The Guardian",
+                "https://www.theguardian.com/technology/2024/apr/10/ai-race-heats-up-as-openai-google-and-mistral-release-new-models",
+                "4 hours ago"
+            ],
+            [
+                "PC-Tablet India",
+                "https://www.pc-tablet.co.in/google-launches-vids-the-future-of-ai-driven-workspace/15590/",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://i.guim.co.uk/img/media/264114c73f82f231bb8bbbe1db70fc761c71e68b/23_92_2959_1775/master/2959.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ace960d120c5d07af9c69433620af6d1"
+    },
+    {
+        "Title": "Expansion of AI Editing Tools in Google Photos to All Users",
+        "Summary": "Google Photos is introducing AI editing tools like Magic Editor, Photo Unblur, and Magic Eraser available to all users without requiring a subscription (Google Blog). This update marks an expansion from previously being exclusive to Pixel devices and paid subscribers to now being accessible for free to every Google Photos user (ReadWrite). The comprehensive set of features now includes Sky suggestions, Color pop, HDR, Portrait Blur, Portrait Light, Cinematic Photos, Collage Editor Styles, and various Video Effects, enhancing photo and video editing capabilities significantly (TechCrunch).",
+        "sources": [
+            [
+                "Google Blog",
+                "https://blog.google/products/photos/google-photos-editing-features-availability/",
+                "6 hours ago"
+            ],
+            [
+                "ReadWrite",
+                "https://readwrite.com/google-expands-ai-powered-editing-tools-to-all-google-photos-users/",
+                "1 hour ago"
+            ],
+            [
+                "TechCrunch",
+                "https://techcrunch.com/2024/04/10/google-brings-ai-powered-editing-tools-like-magic-editor-to-all-google-photos-users-for-free/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/ShareCard_Photo.width-1300.jpg"
+    },
+    {
+        "Title": "Mistral AI Launches Groundbreaking Mixtral 8x22B Model",
+        "Summary": "Mistral AI has released the Mixtral 8x22B, an open-source generative AI model, as a free 281GB download, disrupting the AI field with its accessibility and advanced capabilities (Voicebot.ai, MarkTechPost, Analytics India Magazine). This 'mixture of experts' model is notable for its scalability and performance, potentially matching or surpassing GPT-3.5 in efficiency at lower costs (VentureBeat, GIGAZINE).",
+        "sources": [
+            [
+                "Voicebot.ai",
+                "https://voicebot.ai/2024/04/10/mistral-ai-floats-new-mixtral-8x22b-generative-ai-model-as-free-281gb-download/",
+                "5 hours ago"
+            ],
+            [
+                "MarkTechPost",
+                "https://www.marktechpost.com/2024/04/10/mistral-ai-shakes-up-the-ai-arena-with-its-open-source-mixtral-8x22b-model/",
+                "5 hours ago"
+            ],
+            [
+                "Analytics India Magazine",
+                "https://analyticsindiamag.com/mistral-ai-stuns-with-surprise-launch-of-new-mixtral-8x22b-model/",
+                "8 hours ago"
+            ],
+            [
+                "VentureBeat",
+                "https://venturebeat.com/ai/mistral-ai-drops-new-mixture-of-experts-model-with-a-torrent-link/",
+                "6 hours ago"
+            ],
+            [
+                "GIGAZINE",
+                "https://gigazine.net/gsc_news/en/20240410-mistral-8x22b-moe/",
+                "16 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://analyticsindiamag.com/wp-content/uploads/2023/06/paris.jpg"
+    },
+    {
+        "Title": "Strategic AI Implementation and Skill-Driven Organizational Development",
+        "Summary": "A bank's deliberation on adopting AI technologies demands careful consideration of potential implications and strategies (Harvard Business Review). In parallel, Kenya initiates a national AI strategy, with German and EU support, to propel digital transformation and meet Sustainable Development Goals (TechCabal). Organizations are encouraged to rigorously evaluate their goals, existing infrastructures, and readiness to evolve into skill-driven entities, catering effectively to talent opportunities (Talent Management).",
+        "sources": [
+            [
+                "Harvard Business Review",
+                "https://hbr.org/2024/05/case-study-how-aggressively-should-a-bank-pursue-ai",
+                "52 minutes ago"
+            ],
+            [
+                "TechCabal",
+                "http://techcabal.com/2024/04/10/techcabal-daily-kenya-to-develop-national-ai-strategy/",
+                "17 hours ago"
+            ],
+            [
+                "Talent Management",
+                "https://www.chieftalentofficer.co/2024/04/10/becoming-a-skills-driven-organization-that-knows-grows-and-connects-talent-to-opportunities/",
+                "15 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://hbr.org/resources/images/article_assets/2024/04/R2403M_SHRESTHA_FEATURE.jpg"
+    },
+    {
+        "Title": "Meta's Acceleration into AI with New Custom Chip",
+        "Summary": "Meta has developed a new AI chip to enhance its generative AI models, planning to extend its abilities beyond ranking and recommendation algorithms (The Verge). This initiative aligns Meta with tech giants like Google, Amazon, and Microsoft, who have also invested in proprietary AI chips (Anyuak Media). The effort underscores Meta's substantial investment in AI, with expenses projected to reach $18 billion by 2024 for training generative AI models, positioning in-house hardware as a cost-effective solution (TechCrunch).",
+        "sources": [
+            [
+                "The Verge",
+                "https://www.theverge.com/2024/4/10/24125924/meta-mtia-ai-chips-algorithm-training",
+                "7 hours ago"
+            ],
+            [
+                "Anyuak Media",
+                "https://ytech.news/en/meta-advances-ai-capabilities-with-new-in-house-chip/",
+                "6 hours ago"
+            ],
+            [
+                "TechCrunch",
+                "https://techcrunch.com/2024/04/10/meta-unveils-its-newest-custom-ai-chip/",
+                "7 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.vox-cdn.com/thumbor/1NqZxJnVH2W2mF9rPoGXxe_Lu3o=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/23951354/STK043_VRG_Illo_N_Barclay_2_Meta.jpg"
+    }
+]

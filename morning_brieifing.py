@@ -317,11 +317,16 @@ def in_morning_brief(name, company, industry, topic):
 # Viraj
 # search("Amazon Corporation", "Sony Corporation", "Elden Ring")
 
-# Nick
-in_morning_brief("Nick", "US Presidential Election", "Climate and Business", "Alberta provincial politics")
+# in_morning_brief("Nick", "US Presidential Election", "Climate and Business", "Alberta provincial politics")
 
-# Christian: global politics and economy, basketball, social science acadameia, armenia, turkey, scientific innovation
-in_morning_brief("Christian Chantayan", "Global Politics and Economy", "Basketball", "Armenia")
+# in_morning_brief("Christian Chantayan", "Global Politics and Economy", "Basketball", "Armenia")
 
-# Daniel
-# in_morning_brief("Daniel Liu", "cats", "Technology", "piano")
+# in_morning_brief("Daniel Liu", "Cats", "Technology", "Piano")
+
+# in_morning_brief("Jack Friedman", "AI", "Software", "Startups")
+
+# in_morning_brief("Rishik", "Venture Capital", "OJ Simpson", "Tinnitus")
+
+# in_morning_brief("Arjun", "Foreign Policy", "Economy", "International Affairs")
+
+in_morning_brief("David", "Ukraine", "Mortgage Rates", "2024 Presidential Election")

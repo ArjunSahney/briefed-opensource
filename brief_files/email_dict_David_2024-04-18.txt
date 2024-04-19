@@ -1,0 +1,286 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Exploring Cloud Seeding and Its Connection to Dubai Flooding",
+            "Summary": "Cloud seeding, a technique to stimulate rainfall by dispersing substances into clouds, is scrutinized for its role in Dubai's recent floods. Despite its application, experts from Al Jazeera and Global News question its effectiveness, citing a study that found patterns in precipitation but not definitive evidence of its impact (Al Jazeera, Global News). The phenomenon has sparked debates, contrasting human activities like greenhouse warming with cloud seeding in influencing weather (CBS News). Reports from Dubai highlight unprecedented rain levels, but attributions to cloud seeding remain unconfirmed (cilentano.it).",
+            "sources": [
+                [
+                    "Al Jazeera",
+                    "https://www.aljazeera.com/news/2024/4/18/was-cloud-seeding-responsible-for-the-floodings-in-dubai",
+                    "12 hours ago"
+                ],
+                [
+                    "Global News",
+                    "https://globalnews.ca/news/10432812/cloud-seeding-dubai-what-is-it/",
+                    "4 hours ago"
+                ],
+                [
+                    "CBS News",
+                    "https://www.cbsnews.com/news/what-is-cloud-seeding-and-did-it-impact-dubai-floods/",
+                    "5 hours ago"
+                ],
+                [
+                    "cilentano.it",
+                    "https://www.cilentano.it/en/alluvione-a-dubai-dovuta-a-cloud-seeding-che-cose/",
+                    "14 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/E521/production/_133175685_dubai-index-getty.jpg"
+        },
+        {
+            "Title": "U.S. Vetoes Palestinian Bid for Full UN Membership Amidst Conflict",
+            "Summary": "The U.S. vetoed the Palestinian bid for full UN membership, a decision reported by multiple sources including Axios and CNN. This move comes in a period marked by escalating violence, with a recent assault led by Hamas on Israel resulting in 1,200 deaths and Israel's military response killing over 33,000 Palestinians, many of whom were women or children. The destruction in Gaza has been considerable. UN Secretary-General Guterres emphasized the importance of supporting peace efforts towards a viable Palestinian state in light of these recent escalations (NPR).",
+            "sources": [
+                [
+                    "NPR",
+                    "https://www.npr.org/2024/04/18/1245641286/what-to-know-about-the-u-n-vote-on-whether-to-admit-palestinians-as-full-members",
+                    "2 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2147903587.jpg?c=16x9&q=w_800,c_fill"
+        },
+        {
+            "Title": "Iran's Response to Potential Israeli Aggression on Nuclear Sites",
+            "Summary": "Iran has escalated its rhetoric, threatening to strike Israel's nuclear facilities and reconsider its nuclear commitments if Israel bombs its nuclear sites, indicating a possible shift in its nuclear policies (The National). The country has hinted at a tit-for-tat approach and the potential pursuit of nuclear arms in response to any Israeli aggression (Al Jazeera, WSJ). A commander of Iran's Revolutionary Guards underscored the possibility of revising Iran's nuclear doctrine as a countermeasure against Israel's threats on its nuclear infrastructure (\n\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644).",
+            "sources": [
+                [
+                    "The National",
+                    "https://www.thenationalnews.com/news/mena/2024/04/18/iran-israel-nuclear-strike/",
+                    "5 hours ago"
+                ],
+                [
+                    "Al Jazeera",
+                    "https://www.aljazeera.com/news/2024/4/18/iran-threatens-tit-for-tat-bomb-run-if-israel-attacks-nuclear-facilities",
+                    "9 hours ago"
+                ],
+                [
+                    "WSJ",
+                    "https://www.wsj.com/world/middle-east/iran-threatens-to-work-on-nuclear-arms-if-israel-attacks-nuclear-sites-d6723ecd",
+                    "2 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://thenational-the-national-prod.cdn.arcpublishing.com/resizer/v2/IZZZ2SLTLMLH4F5DUASDYR72ZM.jpg?smart=true&auth=0c9a18ca3df1b829cc52728243cc5da9823f539a02b02c0a0c6bb1a08ef803e4&width=1200&height=630"
+        }
+    ],
+    "Custom Headlines": {
+        "Ukraine": [
+            {
+                "Title": "Recent Developments in European Foreign Policy and Security Support",
+                "Summary": "The European Council has adopted a stance on continuing Turkey's potential EU path, but with boundaries, emphasizing a cautious approach to expansion (Eunews). Meanwhile, at the G7 meeting in Capri, sanctions against Iran and a bolstered European role in the Sahel have been spotlighted, showing a coordinated effort between Italy's Tajani and the US's Blinken (Agenzia Nova). Ukrainian President Zelensky has called for increased air defense aid at the European Council summit, highlighting Ukraine's ongoing security needs amidst conflict (The Kyiv Independent). Germany has responded to such calls by promising to double its support for Ukraine with the supply of IRIS-T defense systems, reinforcing European support for Ukraine (BulgarianMilitary.com).",
+                "sources": [
+                    [
+                        "Eunews",
+                        "https://www.eunews.it/en/2024/04/17/the-european-council-indicates-to-continue-turkeys-european-course-but-not-at-all-costs/",
+                        "13 hours ago"
+                    ],
+                    [
+                        "Agenzia Nova",
+                        "https://www.agenzianova.com/en/news/g7-sanctions-on-iran-and-european-commitment-in-the-sahel-so-lasse-tajani-blinken-dictates-the-agenda-in-capri/",
+                        "17 hours ago"
+                    ],
+                    [
+                        "The Kyiv Independent",
+                        "https://kyivindependent.com/zelensky-addresses-european-council-summit-participants-emphasizes-ukraines-need-for-more-air-defense-systems/",
+                        "20 hours ago"
+                    ],
+                    [
+                        "BulgarianMilitary.com",
+                        "https://bulgarianmilitary.com/2024/04/18/germany-doubles-down-on-support-for-ukraine-promised-iris-t-supply/",
+                        "12 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.eunews.it/wp-content/uploads/2024/04/0bdf99b9-61a5-4f63-bfbb-bd9898031129-e1713390322492.jpg"
+            },
+            {
+                "Title": "G7 Support for Ukraine",
+                "Summary": "The G7 is considering using frozen Russian assets as collateral for Ukraine loans, indicating a tangible step towards financial aid for Ukraine amidst ongoing turmoil (The Kyiv Independent). In a recent gathering, Italian Economy Minister Giancarlo Giorgetti emphasized G7 finance ministers' \"full, convinced support for Ukraine,\" aligning with the collective Western stance on the conflict (ANSA). This series of actions and statements underscores a unified effort by G7 nations to bolster Ukraine's defense capabilities and financial stability amid its challenges.",
+                "sources": [
+                    [
+                        "The Kyiv Independent",
+                        "https://kyivindependent.com/g7-considers-using-frozen-russian-assets-as-collateral-for-loans-for-ukraine/",
+                        "4 hours ago"
+                    ],
+                    [
+                        "ANSA",
+                        "https://www.ansa.it/english/news/politics/2024/04/18/ukraine-has-g7s-full-support-says-giorgetti_2949d5e5-722d-4d2b-9691-4af37702b051.html",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://assets.kyivindependent.com/content/images/2023/06/GettyImages-1258502154.jpg"
+            }
+        ],
+        "Mortgage Rates": [
+            {
+                "Title": "Current Trends in the U.S. Mortgage and Housing Market",
+                "Summary": "Mortgage rates have significantly risen, with the median monthly housing payment reaching a record $2,775, indicative of an 11% year-over-year increase, while 30-year mortgage rates have soared past 7%, marking a five-month high (Deseret News, Bloomberg, American Banker, National Mortgage News). This surge in mortgage rates has continued to put pressure on the housing market, demonstrating a notable increase to 7.13% as per recent data, amidst concerns of rising inflation and a subsequent shift in Federal Reserve policies (Wolf Street).",
+                "sources": [
+                    [
+                        "Deseret News",
+                        "https://www.deseret.com/e/24045670/",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Bloomberg",
+                        "https://www.bloomberg.com/news/articles/2024-04-18/us-mortgage-rates-surge-to-highest-since-november-hitting-7-1",
+                        "7 hours ago"
+                    ],
+                    [
+                        "American Banker",
+                        "https://www.americanbanker.com/news/mortgage-rates-hit-a-five-month-high",
+                        "6 hours ago"
+                    ],
+                    [
+                        "National Mortgage News",
+                        "https://www.nationalmortgagenews.com/news/mortgage-rates-hit-a-five-month-high",
+                        "6 hours ago"
+                    ],
+                    [
+                        "Wolf Street",
+                        "https://wolfstreet.com/2024/04/17/mortgage-rates-over-7-and-heading-higher-housing-market-still-frozen-lots-of-buyers-on-strike-because-prices-are-still-too-high/",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.deseret.com/resizer/v2/2NRL6ODRHVHUTMDEJBO6IHBD6Q.JPG?focal=0%2C0&auth=c3fce0b8616ffe87139f18cad76a3317ffc2eb2461dd3e44ac3a790936916ebb&width=1200&height=630"
+            },
+            {
+                "Title": "Mortgage Rates Hit 7% Despite Expected Rate Cuts",
+                "Summary": "Mortgage rates have surpassed 7% for the first time this year, a significant event as home prices continue to remain high (Yahoo Finance). This increase in rates has not deterred application activity, suggesting some potential buyers are acting quickly in anticipation of further rate hikes, despite previously forecasted Federal Reserve rate cuts intended to combat inflation above 3% (Yahoo Finance).",
+                "sources": [
+                    [
+                        "Yahoo Finance",
+                        "https://finance.yahoo.com/news/mortgage-rates-surpass-7-while-home-prices-show-no-signs-of-declining-183158978.html",
+                        "4 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://s.yimg.com/ny/api/res/1.2/zJH1wyLpLfVE9nhKyzKAKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-04/3ce92300-fdaf-11ee-bbbb-599b125da200"
+            },
+            {
+                "Title": "Mortgage Rates Hit 7% Amidst Steady Home Prices",
+                "Summary": "Mortgage rates have crossed the 7% mark, a significant event noticed across multiple sources, despite expectations for rate cuts by the Federal Reserve to curb inflation stuck above 3%. This rise has not deterred application activities, hinting at a possible readiness among potential buyers to seize opportunities should rates decrease, highlighting a tension between expected monetary policy adjustments and the reality of persistent inflation and high home prices (Yahoo Finance).",
+                "sources": [
+                    [
+                        "Yahoo Finance",
+                        "https://finance.yahoo.com/news/mortgage-rates-surpass-7-while-home-prices-show-no-signs-of-declining-183158978.html",
+                        "4 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://s.yimg.com/ny/api/res/1.2/zJH1wyLpLfVE9nhKyzKAKw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-04/3ce92300-fdaf-11ee-bbbb-599b125da200"
+            }
+        ],
+        "2024 Presidential Election": [
+            {
+                "Title": "Overview of Current Political Climate and Election Dynamics",
+                "Summary": "Biden aims to gain ground in polls amid Trump's trial, with Trump leading in key states despite legal challenges (Mint). No summary information is provided for the historical context of EVMs (Hindustan Times), recent poll standings in Florida (Florida\u2019s Voice), or live updates on prominent candidates in an election phase (The New Indian Express).",
+                "sources": [
+                    [
+                        "Hindustan Times",
+                        "https://www.hindustantimes.com/india-news/how-evms-came-into-being-a-brief-history-101713470140879.html",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Florida\u2019s Voice",
+                        "https://flvoicenews.com/donald-trump-up-8-rick-scott-up-16-in-latest-florida-2024-election-poll/",
+                        "6 hours ago"
+                    ],
+                    [
+                        "The New Indian Express",
+                        "https://www.newindianexpress.com/live/2024/Apr/18/live-gadkari-rijiju-kanimozhi-among-star-candidates-whose-fate-will-be-decided-in-phase-i",
+                        "4 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.livemint.com/lm-img/img/2024/04/18/1600x900/im-950376_1713432192709_1713432390830.jpg"
+            },
+            {
+                "Title": "Developments in Donald Trump's Hush Money Trial",
+                "Summary": "The hush money trial of former President Donald Trump is drawing significant attention, with a jury of 12 people recently seated, indicating that the trial is moving forward to the opening statements and anticipated weeks of testimony (goSkagit). Concurrently, there have been reports of Trump appearing in court alongside a woman resembling his wife, Melania Trump, sparking interest and speculation (The Economic Times). Additionally, there has been a recent dismissal of jurors in the trial, although specific details of this action were not disclosed (CTV News). This trial is poised to become a focal point in the 2024 race for the presidency (The New York Times).",
+                "sources": [
+                    [
+                        "goSkagit",
+                        "https://www.goskagit.com/spotlight/ap-news-in-brief-at-6-04-a-m-edt/article_8b05a8df-f24f-5ce0-a34b-2138f6c463bd.html",
+                        "13 hours ago"
+                    ],
+                    [
+                        "The Economic Times",
+                        "https://m.economictimes.com/news/international/us/hush-money-trial-donald-trump-seen-with-melania-trumps-lookalike-in-courtroom-know-who-is-she/articleshow/109407230.cms",
+                        "10 hours ago"
+                    ],
+                    [
+                        "CTV News",
+                        "https://www.ctvnews.ca/video/c2906571-jurors-dismissed-in-trump-hush-money-trial?playlistId=1.6844226",
+                        "4 hours ago"
+                    ],
+                    [
+                        "The New York Times",
+                        "https://www.nytimes.com/2024/04/15/us/politics/trump-2024-trial.html",
+                        "8 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://img.etimg.com/thumb/msid-109407292,width-1200,height-630,imgsize-1322543,overlay-economictimes/photo.jpg"
+            },
+            {
+                "Title": "President Biden's Visit to Wawa in Philadelphia",
+                "Summary": "President Joe Biden made a stop at a Wawa store in Philadelphia, accompanied by Mayor Cherelle Parker, marking a notable visit the day after placing an order at Sheetz, showcasing his engagement with local businesses (CBS News, Inquirer.com).",
+                "sources": [
+                    [
+                        "CBS News",
+                        "https://www.cbsnews.com/philadelphia/news/joe-biden-in-philadelphia-wawa/",
+                        "2 hours ago"
+                    ],
+                    [
+                        "Inquirer.com",
+                        "https://www.inquirer.com/politics/clout/joe-biden-wawa-philly-20240418.html",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/18/c76aa45b-db9b-4afe-bfc3-2953a9fee085/thumbnail/1200x630/bc05a5db1082099eb227cd86a0a673ab/16sotvo-biden-at-wawa-transfer-frame-481.jpg?v=55c0f85ebcd2b956528d9c6f5a7e8871"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Excitement Surrounds Taylor Swift's New Album 'The Tortured Poets Department'",
+            "Summary": "Taylor Swift's album 'The Tortured Poets Department' has sparked fan excitement with unique promotional strategies and a crackdown on leaks. A 2022 interview hinted at connections between the album's themes and Swift's circle, culminating in a mysterious marketing campaign including a hand-painted QR code and a partnership with Spotify (NBC News). Anticipation built as fans analyzed social media clues and awaited the midnight release (CNET). Efforts to prevent leaks were evident, with X (formerly Twitter) restricting searches related to any leaks (CNET).",
+            "sources": [
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/pop-culture/pop-culture-news/live-blog/taylor-swift-album-tortured-poets-live-updates-rcna147489",
+                    "39 minutes ago"
+                ],
+                [
+                    "CNET",
+                    "https://www.cnet.com/culture/entertainment/the-tortured-poets-department-drops-at-midnight-what-to-know-about-taylor-swifts-latest-album/",
+                    "55 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/16E1/production/_133175850_fd0592d7-b75b-45ec-bedd-18847a0e0eda.jpg"
+        },
+        {
+            "Title": "Europa League Coverage: Atalanta vs. Liverpool",
+            "Summary": "The Europa League match between Atalanta and Liverpool was livestreamed globally, showcasing the intense match that left Liverpool's dreams hanging by a thread in Klopp's final season (Yahoo). Fans could watch from anywhere using VPNs or adding TNT Sports through Amazon Prime (CNET, Business Insider). Despite a 3-0 defeat at Anfield, Liverpool faced a tough match in Italy needing a comeback, which ultimately fell short as they won 1-0 but lost 3-1 on aggregate, ending their chances in the Europa League and leaving England with reduced chances for an extra Champions League place (The Independent).",
+            "sources": [
+                [
+                    "Yahoo",
+                    "https://uk.sports.yahoo.com/news/liverpool-vs-atalanta-live-europa-163813965.html",
+                    "2 hours ago"
+                ],
+                [
+                    "CNET",
+                    "https://www.cnet.com/tech/services-and-software/watch-europa-league-soccer-livestream-atalanta-vs-liverpool-from-anywhere/",
+                    "7 hours ago"
+                ],
+                [
+                    "Business Insider",
+                    "https://www.businessinsider.com/guides/streaming/how-to-watch-uefa-europa-league-from-anywhere-2024",
+                    "6 hours ago"
+                ],
+                [
+                    "The Independent",
+                    "https://www.independent.co.uk/sport/football/atalanta-liverpool-live-stream-score-result-b2530364.html",
+                    "24 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://www.cnet.com/a/img/resize/99a7dac082f38458b74b1c415604feb79170fca6/hub/2024/04/17/b20cc8d7-8e4a-4fe9-bf0b-afc96b7a1654/gettyimages-2148317357.jpg?auto=webp&fit=crop&height=675&width=1200"
+        }
+    ],
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/David.mp3"
+}

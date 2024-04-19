@@ -1,0 +1,182 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Escalating Tensions and International Responses in the Middle East",
+            "Summary": "In Gaza, a recent Israeli airstrike killed at least 29 people, raising concerns over Israel's preparedness for potential Iranian responses (CNN). Amidst growing Iranian attack fears, the U.S. has restricted its staff travel in Israel, with Israeli officials declaring readiness for a variety of scenarios (NBC News). The White House acknowledges the ongoing threat of an Iranian attack on Israel, while international efforts aim to prevent further escalation (The Guardian). Concurrently, the U.S. perceives the threat from Iran as 'real and viable', as Israel takes measures against Hamas and Palestinian Islamic Jihad in Gaza (Haaretz).",
+            "sources": [
+                [
+                    "CNN",
+                    "https://www.cnn.com/middleeast/live-news/israel-hamas-war-gaza-news-04-12-24/index.html",
+                    "28 minutes ago"
+                ],
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/news/world/us-restricts-travel-israel-iran-attack-middle-east-gaza-war-rcna147520",
+                    "4 hours ago"
+                ],
+                [
+                    "The Guardian",
+                    "https://www.theguardian.com/world/live/2024/apr/12/middle-east-crisis-live-israel-updates-today-war-gaza-palestine-benjamin-netanyahu-iran-strikes",
+                    "40 minutes ago"
+                ],
+                [
+                    "Haaretz",
+                    "https://www.haaretz.com/israel-news/2024-04-12/ty-article-live/u-s-expects-iranian-attack-on-israel-as-gallant-vows-appropriate-response/0000018e-d003-d01b-abdf-f87fee120000",
+                    "14 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://cdn.cnn.com/cnnnext/dam/assets/240411160333-gaza-dle-041224-super-tease.jpg"
+        },
+        {
+            "Title": "Ukraine's Struggle for Support Amidst Russian Aggression",
+            "Summary": "Ukraine is fortifying its defenses as the delay in U.S. aid, necessary for countering Russian aggression, risks a severe setback in the conflict. The stalled $61 billion aid package in Congress exposes Ukraine to vulnerabilities on the frontline, amid depleting resources and a crippled energy system (NBC News). Meanwhile, Russia's intensified attacks and the rhetoric around seizing strategic locations add to the urgency for support, as skepticism surrounds claims of an easy Russian victory in key cities like Kharkiv (Sky News). Amidst these tensions, Ukraine's plea for increased military aid highlights the critical need for global support to deter Russian advances and alleviate the dire humanitarian situation (Yahoo News UK, Yahoo News Canada).",
+            "sources": [
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/news/world/ukraine-digs-defenses-fears-lose-russia-war-us-aid-delays-rcna146796",
+                    "6 hours ago"
+                ],
+                [
+                    "Sky News",
+                    "https://news.sky.com/story/russia-ukraine-war-latest-russia-launches-major-attack-on-ukraines-energy-infrastructure-12541713",
+                    "43 minutes ago"
+                ],
+                [
+                    "Yahoo News UK",
+                    "https://uk.news.yahoo.com/kyiv-un-migration-chief-warns-155614962.html",
+                    "24 hours ago"
+                ],
+                [
+                    "Yahoo News Canada",
+                    "https://ca.news.yahoo.com/russia-targets-ukraine-power-system-045204375.html",
+                    "22 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240412-ukraine-howitzer-mb-0622-c2f98d.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "AI": [
+            {
+                "Title": "The Evolution of AI-Generated Music: Challenges, Legalities, and Innovations",
+                "Summary": "AI's capability to produce music that closely mirrors the style of renowned artists like Eminem and Queen raises questions about the legal and ethical implications of using artist-inspired algorithms without consent, as highlighted by Ed Newton-Rex of Fairly Trained (The Guardian). The legal landscape regarding AI's use in music training is under scrutiny, with calls for urgent clarification following Getty's lawsuit against Stability AI, indicating potential widespread impacts on the music industry (Music Business Worldwide). Innovations in the field, such as Udio, offer enhanced creative freedom through custom prompts and unique sound effects, suggesting AI's growing role in expanding musical creativity (Medium).",
+                "sources": [
+                    [
+                        "The Guardian",
+                        "https://www.theguardian.com/technology/2024/apr/13/ai-generated-music-app-suno-ai-impact-musicians-music-rights",
+                        "39 minutes ago"
+                    ],
+                    [
+                        "Music Business Worldwide",
+                        "https://www.musicbusinessworldwide.com/what-is-the-potential-impact-of-gettys-lawsuit-against-stability-ai-on-the-music-industry/",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Medium",
+                        "https://medium.com/@sbutlerg/has-suno-been-surpassed-exploring-the-innovative-features-of-udio-f5c923f4e1f4?responsesOpen=true&sortBy=REVERSE_CHRON",
+                        "11 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://i.guim.co.uk/img/media/e5c788f029ff8c5ee8a8102d58b8abb821b30d4f/0_172_6000_3600/master/6000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=21f668dd7b5579243f5a1c31d455a816"
+            },
+            {
+                "Title": "IBM and Masters Tournament Showcase AI",
+                "Summary": "IBM collaborates with the Masters Tournament, utilizing watsonx and GenAI technologies to demonstrate the practical application and benefits of the AI ecosystem (Acceleration Economy).",
+                "sources": [
+                    [
+                        "Acceleration Economy",
+                        "https://accelerationeconomy.com/cloud-wars/ibm-masters-tournament-leverage-watsonx-and-genai-to-highlight-ai-ecosystem-in-action/",
+                        "1 hour ago"
+                    ]
+                ]
+            }
+        ],
+        "Software": [
+            {
+                "Title": "Efinix Unveils Titanium Ti375 FPGA",
+                "Summary": "Efinix has released the Titanium Ti375, marking a significant step in high-performance FPGA technology (Embedded Computing Design).",
+                "sources": [
+                    [
+                        "Embedded Computing Design",
+                        "https://embeddedcomputing.com/technology/iot/edge-computing/efinix-introduces-its-titanium-ti375-high-performance-fpga",
+                        "51 minutes ago"
+                    ]
+                ],
+                "Image Filepath": "https://data.embeddedcomputing.com/uploads/resize/1256/756/external/data.embeddedcomputing.com/uploads/articles/primary_images/1712934364.png"
+            },
+            {
+                "Title": "Comparing Hot Desking Software in 2024: Top Tips",
+                "Summary": "The demand for hot desking software, crucial for managing resource bookings, has significantly increased. Effective hot desking solutions offer essential features for both employees and guests for space booking and provide managers with tools for resource control (UC Today).",
+                "sources": [
+                    [
+                        "UC Today",
+                        "https://www.uctoday.com/meeting-rooms-and-devices/comparing-hot-desking-software-in-2024-top-tips/",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.uctoday.com/wp-content/uploads/2024/04/Comparing-Hot-Desking-Software-in-2024-Top-Tips.jpeg"
+            },
+            {
+                "Title": "Navigator Gas Ammonia Transfer Milestone",
+                "Summary": "Navigator Gas has successfully completed its first ship-to-ship (STS) transfer of ammonia, marking a significant milestone in the shipping and logistics of this important chemical (safety4sea).",
+                "sources": [
+                    [
+                        "safety4sea",
+                        "https://safety4sea.com/navigator-gas-completes-its-first-sts-transfer-of-ammonia/",
+                        "7 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://safety4sea.com/wp-content/uploads/2023/05/shutterstock_378534742-scaled.jpg"
+            }
+        ],
+        "Startups": [
+            {
+                "Title": "Top Funding Successes for Pacific Northwest Startups in Q1",
+                "Summary": "In the first quarter, startups like ProfoundBio, EigenLayer, Pandion, Oleria, Interlune, Betadapp, Recurrent, Avante, Symbiosys, and Digs in the Pacific Northwest secured significant investment rounds amidst tough fundraising conditions (Globe Echo).",
+                "sources": [
+                    [
+                        "Globe Echo",
+                        "https://globeecho.com/top-10-investment-deals-in-the-first-quarter-for-startups-in-the-pacific-northwest/",
+                        "1 hour ago"
+                    ]
+                ],
+                "Image Filepath": "https://globeecho.com/wp-content/uploads/2024/04/Screenshot-2024-04-11-at-12.53.10E280AFPM.png"
+            },
+            {
+                "Title": "AI Adoption in E-commerce for Venture Capitalists",
+                "Summary": "E-commerce is increasingly using AI for tasks like pick-and-place and truck unloading, highlighting the need for venture capitalists to understand AI technologies including machine learning and robotics (Forbes).",
+                "sources": [
+                    [
+                        "Forbes",
+                        "https://www.forbes.com/sites/forbesfinancecouncil/2024/04/12/ai-for-venture-capitalists-trends-to-watch-and-key-considerations/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://imageio.forbes.com/specials-images/imageserve/65b9198d4eaca770d4c3e971/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+            },
+            {
+                "Title": "Trends in CEO Salaries Across Different Stages of Companies",
+                "Summary": "Startup CEO salaries are on the decline, particularly for those at Series B funding level as detailed by a Fast Company report (Fast Company). Confirming this trend, Kruze Consulting found that while early-stage startup CEOs have seen modest salary increases, their later-stage counterparts experienced significant pay cuts (PR Newswire). In contrast, The Toronto-Dominion Bank, outside the startup sphere, showcases CEO compensation aligning with industry averages despite a slight EPS drop over three years, suggesting a broader examination of executive pay scales in different sectors and stages of company development (Yahoo Finance).",
+                "sources": [
+                    [
+                        "Fast Company",
+                        "https://www.fastcompany.com/91091782/startup-ceo-salaries-are-declining-especially-at-companies-with-later-stage-funding",
+                        "3 hours ago"
+                    ],
+                    [
+                        "PR Newswire",
+                        "https://www.prnewswire.com/news-releases/average-startup-ceo-salary-declines---pay-gap-widens-in-2024-302114657.html",
+                        "24 hours ago"
+                    ],
+                    [
+                        "Yahoo Finance",
+                        "https://finance.yahoo.com/news/why-toronto-dominion-banks-tse-101744547.html",
+                        "6 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://mma.prnewswire.com/media/2384934/Kruze_Consulting.jpg?p=facebook"
+            }
+        ]
+    },
+    "Trending Headlines": []
+}

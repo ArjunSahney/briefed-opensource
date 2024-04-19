@@ -1,0 +1,68 @@
+[
+    {
+        "Title": "Recent Developments in Ukraine",
+        "Summary": "A Russian missile strike on Chernihiv has resulted in seventeen casualties, highlighting the ongoing severity of the Ukraine war (BBC). Amidst this backdrop, the Ukrainian World Congress is actively encouraging public engagement with Congressional representatives to garner further support for Ukraine (Ukrainian World Congress). Meanwhile, Russia maintains that US aid to Ukraine will not significantly alter the military dynamics between the two nations (Hindustan Times).",
+        "sources": [
+            [
+                "BBC",
+                "https://www.bbc.com/news/world-europe-68833833",
+                "10 hours ago"
+            ],
+            [
+                "Ukrainian World Congress",
+                "https://www.ukrainianworldcongress.org/ucca-urges-public-to-contact-congressional-representatives-on-ukraine-support/",
+                "9 hours ago"
+            ],
+            [
+                "Hindustan Times",
+                "https://www.hindustantimes.com/world-news/us-aid-for-ukraine-wont-change-military-situation-russia-101713451877175.html",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/7C8E/production/_133168813_ukraine_getty.jpg"
+    },
+    {
+        "Title": "Recent Developments in European Foreign Policy and Security Support",
+        "Summary": "The European Council has adopted a stance on continuing Turkey's potential EU path, but with boundaries, emphasizing a cautious approach to expansion (Eunews). Meanwhile, at the G7 meeting in Capri, sanctions against Iran and a bolstered European role in the Sahel have been spotlighted, showing a coordinated effort between Italy's Tajani and the US's Blinken (Agenzia Nova). Ukrainian President Zelensky has called for increased air defense aid at the European Council summit, highlighting Ukraine's ongoing security needs amidst conflict (The Kyiv Independent). Germany has responded to such calls by promising to double its support for Ukraine with the supply of IRIS-T defense systems, reinforcing European support for Ukraine (BulgarianMilitary.com).",
+        "sources": [
+            [
+                "Eunews",
+                "https://www.eunews.it/en/2024/04/17/the-european-council-indicates-to-continue-turkeys-european-course-but-not-at-all-costs/",
+                "13 hours ago"
+            ],
+            [
+                "Agenzia Nova",
+                "https://www.agenzianova.com/en/news/g7-sanctions-on-iran-and-european-commitment-in-the-sahel-so-lasse-tajani-blinken-dictates-the-agenda-in-capri/",
+                "17 hours ago"
+            ],
+            [
+                "The Kyiv Independent",
+                "https://kyivindependent.com/zelensky-addresses-european-council-summit-participants-emphasizes-ukraines-need-for-more-air-defense-systems/",
+                "20 hours ago"
+            ],
+            [
+                "BulgarianMilitary.com",
+                "https://bulgarianmilitary.com/2024/04/18/germany-doubles-down-on-support-for-ukraine-promised-iris-t-supply/",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.eunews.it/wp-content/uploads/2024/04/0bdf99b9-61a5-4f63-bfbb-bd9898031129-e1713390322492.jpg"
+    },
+    {
+        "Title": "G7 Support for Ukraine",
+        "Summary": "The G7 is considering using frozen Russian assets as collateral for Ukraine loans, indicating a tangible step towards financial aid for Ukraine amidst ongoing turmoil (The Kyiv Independent). In a recent gathering, Italian Economy Minister Giancarlo Giorgetti emphasized G7 finance ministers' \"full, convinced support for Ukraine,\" aligning with the collective Western stance on the conflict (ANSA). This series of actions and statements underscores a unified effort by G7 nations to bolster Ukraine's defense capabilities and financial stability amid its challenges.",
+        "sources": [
+            [
+                "The Kyiv Independent",
+                "https://kyivindependent.com/g7-considers-using-frozen-russian-assets-as-collateral-for-loans-for-ukraine/",
+                "4 hours ago"
+            ],
+            [
+                "ANSA",
+                "https://www.ansa.it/english/news/politics/2024/04/18/ukraine-has-g7s-full-support-says-giorgetti_2949d5e5-722d-4d2b-9691-4af37702b051.html",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://assets.kyivindependent.com/content/images/2023/06/GettyImages-1258502154.jpg"
+    }
+]

@@ -1,0 +1,73 @@
+[
+    {
+        "Title": "Iran Seizes Israeli-Linked Ship Near Strait of Hormuz",
+        "Summary": "Iran's Revolutionary Guard seized an Israeli-affiliated container ship near the Strait of Hormuz, escalating tensions between Iran and Israel. The operation involved Guard commandos rappelling from a helicopter onto the Portuguese-flagged MSC Aries, highlighting ongoing conflict and Iran's support for the Palestinian cause and engagement in proxy wars in Lebanon and Yemen. This action also reflects broader tensions related to Iran's advancing nuclear program and involvement in global conflicts, including allegations of fueling the war in Ukraine (Al Jazeera, Euronews.com, AP News).",
+        "sources": [
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/news/2024/4/13/irans-irgc-seizes-israeli-linked-ship-near-strait-of-hormuz",
+                "4 hours ago"
+            ],
+            [
+                "Euronews.com",
+                "https://www.euronews.com/2024/04/13/tensions-soar-as-iran-seizes-container-ship-linked-to-israel",
+                "4 hours ago"
+            ],
+            [
+                "AP News",
+                "https://apnews.com/article/strait-of-hormuz-vessel-33fcffde2d867380e98c89403776a8ac",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24104339126398-1713008084.jpg?resize=1200%2C675"
+    },
+    {
+        "Title": "Tensions and Legal Ramifications amid Israel-Iran Confrontations",
+        "Summary": "International law permits anticipatory self-defense under certain conditions, potentially justifying Israeli preemptive strikes against Iran to prevent nuclear armament (Modern Diplomacy). U.S. policy faces challenges with Israel-Iran tensions, especially following an Israeli strike in Syria that killed members of Iran's IRGC, leading to concerns over catastrophic reprisals (Al Jazeera). Israel's ongoing military operations in Syria, termed 'the war between the wars', target Iranian arms shipments and personnel, increasing the risk of a wider conflict (Crisis Group). Iran's recent hijacking of an Israel-linked cargo ship represents a significant breach of international law, escalating regional tensions further (Sky News).",
+        "sources": [
+            [
+                "Modern Diplomacy",
+                "https://moderndiplomacy.eu/2024/04/13/impending-war-with-iran-israels-lawful-opportunity-to-prevent-iranian-nuclear-weapons/",
+                "5 hours ago"
+            ],
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/news/2024/4/12/disastrous-israel-iran-tensions-test-limits-of-us-policy-amid-gaza-war",
+                "17 hours ago"
+            ],
+            [
+                "Crisis Group",
+                "https://www.crisisgroup.org/middle-east-north-africa/iran-israel-shadow-war-risks-spinning-out-control",
+                "18 hours ago"
+            ],
+            [
+                "Sky News",
+                "https://news.sky.com/story/middle-east-latest-israels-allies-condemn-aid-worker-killings-us-watching-for-iranian-retaliation-to-embassy-strike-12978800",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://moderndiplomacy.eu/wp-content/uploads/2018/08/trump-iran-nuclear.jpg"
+    },
+    {
+        "Title": "Overview of Donald Trump's Hush Money Trial",
+        "Summary": "Donald Trump faces trial over $130,000 paid to adult-film actress Stormy Daniels by his ex-lawyer Michael Cohen, marking the first criminal charges against a former U.S. president. The case, starting with jury selection, centers on allegations of falsifying business records to hide damaging information prior to the 2016 election. Trump's indictment in April 2023 by Manhattan District Attorney Bragg accuses him of concealing information to deceive voters, amidst broader issues of sexual impropriety highlighted by the 'Access Hollywood' tape. Potential jurors' attitudes towards Trump, including social media following and rally attendance, are under scrutiny (CNN, AP News, The Guardian).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/13/politics/donald-trump-hush-money-trial-explained/index.html",
+                "7 hours ago"
+            ],
+            [
+                "AP News",
+                "https://apnews.com/article/trump-hush-money-criminal-trial-manhattan-1afaeefc09b1d4c152b0bf6e8242d72b",
+                "17 hours ago"
+            ],
+            [
+                "The Guardian",
+                "https://www.theguardian.com/us-news/2024/apr/13/donald-trump-hush-money-stormy-daniels",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/c-gettyimages-2112190163.jpg?c=16x9&q=w_800,c_fill"
+    }
+]

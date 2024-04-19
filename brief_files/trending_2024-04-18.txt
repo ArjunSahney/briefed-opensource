@@ -1,0 +1,80 @@
+[
+    {
+        "Title": "Dickey Betts, Legendary Allman Brothers Band Guitarist, Dies at 80",
+        "Summary": "Dickey Betts, a seminal figure in the formation and success of the Allman Brothers Band, known for hits like 'Ramblin' Man' and 'Jessica', passed away at 80. His contributions were crucial in defining the Southern rock genre in the 1960s and 1970s, alongside other band members and his distinctive dual guitar work with Duane Allman. Beyond the Allman Brothers Band, Betts pursued a solo career, leaving a legacy celebrated for his unique guitar style and songwriting (Rolling Stone, CNN, People, NPR, Vulture).",
+        "sources": [
+            [
+                "Rolling Stone",
+                "https://www.rollingstone.com/music/music-news/dickey-betts-allman-brothers-band-dead-727523/",
+                "7 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/18/entertainment/dickey-betts-death/index.html",
+                "5 hours ago"
+            ],
+            [
+                "People",
+                "https://people.com/dickey-betts-of-allman-brothers-dead-age-80-8635534",
+                "3 hours ago"
+            ],
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/18/1245591933/dickey-betts-dead-the-allman-brothers-band-ramblin-man",
+                "2 hours ago"
+            ],
+            [
+                "Vulture",
+                "https://www.vulture.com/article/dickey-betts-dead-allman-brothers-band.html",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.rollingstone.com/wp-content/uploads/2018/09/dickey-betts-obit.jpg?w=1600&h=900&crop=1"
+    }
+, 
+    {
+        "Title": "Excitement Surrounds Taylor Swift's New Album 'The Tortured Poets Department'",
+        "Summary": "Taylor Swift's album 'The Tortured Poets Department' has sparked fan excitement with unique promotional strategies and a crackdown on leaks. A 2022 interview hinted at connections between the album's themes and Swift's circle, culminating in a mysterious marketing campaign including a hand-painted QR code and a partnership with Spotify (NBC News). Anticipation built as fans analyzed social media clues and awaited the midnight release (CNET). Efforts to prevent leaks were evident, with X (formerly Twitter) restricting searches related to any leaks (CNET).",
+        "sources": [
+            [
+                "NBC News",
+                "https://www.nbcnews.com/pop-culture/pop-culture-news/live-blog/taylor-swift-album-tortured-poets-live-updates-rcna147489",
+                "39 minutes ago"
+            ],
+            [
+                "CNET",
+                "https://www.cnet.com/culture/entertainment/the-tortured-poets-department-drops-at-midnight-what-to-know-about-taylor-swifts-latest-album/",
+                "55 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/16E1/production/_133175850_fd0592d7-b75b-45ec-bedd-18847a0e0eda.jpg"
+    }
+, 
+    {
+        "Title": "Europa League Coverage: Atalanta vs. Liverpool",
+        "Summary": "The Europa League match between Atalanta and Liverpool was livestreamed globally, showcasing the intense match that left Liverpool's dreams hanging by a thread in Klopp's final season (Yahoo). Fans could watch from anywhere using VPNs or adding TNT Sports through Amazon Prime (CNET, Business Insider). Despite a 3-0 defeat at Anfield, Liverpool faced a tough match in Italy needing a comeback, which ultimately fell short as they won 1-0 but lost 3-1 on aggregate, ending their chances in the Europa League and leaving England with reduced chances for an extra Champions League place (The Independent).",
+        "sources": [
+            [
+                "Yahoo",
+                "https://uk.sports.yahoo.com/news/liverpool-vs-atalanta-live-europa-163813965.html",
+                "2 hours ago"
+            ],
+            [
+                "CNET",
+                "https://www.cnet.com/tech/services-and-software/watch-europa-league-soccer-livestream-atalanta-vs-liverpool-from-anywhere/",
+                "7 hours ago"
+            ],
+            [
+                "Business Insider",
+                "https://www.businessinsider.com/guides/streaming/how-to-watch-uefa-europa-league-from-anywhere-2024",
+                "6 hours ago"
+            ],
+            [
+                "The Independent",
+                "https://www.independent.co.uk/sport/football/atalanta-liverpool-live-stream-score-result-b2530364.html",
+                "24 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://www.cnet.com/a/img/resize/99a7dac082f38458b74b1c415604feb79170fca6/hub/2024/04/17/b20cc8d7-8e4a-4fe9-bf0b-afc96b7a1654/gettyimages-2148317357.jpg?auto=webp&fit=crop&height=675&width=1200"
+    }
+]

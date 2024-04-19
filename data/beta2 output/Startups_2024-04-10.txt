@@ -1,0 +1,70 @@
+[
+    {
+        "Title": "Y Combinator Startup Aims to Transform African Travel",
+        "Summary": "Triply, supported by Y Combinator, aims to revolutionize travel in Africa by becoming its 'Backbone of Travel', seeking to solve the continent's unique travel challenges and inefficiencies (Skift).",
+        "sources": [
+            [
+                "Skift",
+                "https://skift.com/2024/04/10/meet-triply-the-y-combinator-tech-startup-striving-to-be-africas-backbone-of-travel/",
+                "3 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Google Champions Kazakh Startups for Sustainability",
+        "Summary": "Google has recognized two startups from Kazakhstan, founded by four students from the Kazakh-British Technical University, aiming to alleviate the challenges faced by disabled individuals at bus stops (The Astana Times).",
+        "sources": [
+            [
+                "The Astana Times",
+                "https://astanatimes.com/2024/04/google-picks-two-kazakh-startups-for-advancing-sustainable-development-goals/",
+                "16 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://astanatimes.com/wp-content/uploads/2024/04/Screen_Shot_2024-04-10_at_02.07.30-700x465.png"
+    },
+    {
+        "Title": "2024 LVMH Innovation Award Finalists",
+        "Summary": "The 2024 LVMH Innovation Award showcases diverse startups including Ircam Amplify, enhancing audio experiences, Raive in multimedia AI, and Trajaan for retail insights. BLNG, FancyTech, and Xydrobe revolutionize digital and retail experiences, while Heralbony champions diversity, alongside OpenDecide and Witty Works focusing on workplace culture. Operations excellence is represented by Authena's IoT, Perception Manufacturing's AI vision, and WizyVision's software solutions. The finalists highlight advancements in technology, inclusivity, and sustainability within the luxury industry (LVMH).",
+        "sources": [
+            [
+                "LVMH",
+                "https://www.lvmh.com/news-documents/news/startups-make-your-dreams-come-true-meet-the-18-finalists-for-the-2024-lvmh-innovation-award/",
+                "7 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Tech Industry Updates",
+        "Summary": "Checkr, a background-screening platform valued at $5 billion, announces a 32% workforce reduction, highlighting its prominence in driving, criminal records, and identity verification with support from major investors (TechCrunch). Meanwhile, Google's Gemini Code Assist leverages AI to support developers, alongside startups like Pythagora, Tusk, and Ellipsis from Y Combinator's latest batch, who are enhancing app creation, bug fixing, and code development from GitHub comments (StartupNews.fyi).",
+        "sources": [
+            [
+                "TechCrunch",
+                "https://techcrunch.com/2024/04/10/checkr-layoffs/amp/",
+                "5 hours ago"
+            ],
+            [
+                "StartupNews.fyi",
+                "https://startupnews.fyi/2024/04/10/techcrunch-minute-googles-gemini-code-assist-wants-to-use-ai-to-help-developers/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://techcrunch.com/wp-content/uploads/2024/04/employment-form-getty.jpg?w=1200"
+    },
+    {
+        "Title": "Web3 Startups Embrace Permissionless Capital's Initiative",
+        "Summary": "Permissionless Capital has launched an initiative inviting Web3 startups across various sectors, including Defi, infrastructure, security, gaming, and real-world assets, for an opportunity event. This initiative, targeting both B2B and B2C models, is open for applications from April 10 to May 1, highlighting collaboration with significant partners like Solana, Immutable, and Chainlink (FinanceFeeds, CryptoSlate).",
+        "sources": [
+            [
+                "FinanceFeeds",
+                "https://financefeeds.com/web3-startups-invited-to-participate-in-permissionless-capitals-innovative-competition/",
+                "6 hours ago"
+            ],
+            [
+                "CryptoSlate",
+                "https://cryptoslate.com/permissionless-capital-invites-web3-startups-to-game-changing-opportunities-event/",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cryptopotato.com/wp-content/uploads/2024/04/permisionless_capitaL_cover.jpg"
+    }
+]

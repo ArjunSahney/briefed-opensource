@@ -1,0 +1,81 @@
+[
+    {
+        "Title": "None",
+        "Summary": "None",
+        "sources": [],
+        "Image Filepath": "https://esgdata.it/repo/backend/frontends/rX4fP9grgowc43z39/HuguuiW6E45WDXguJ/file.png"
+    },
+    {
+        "Title": "Samsung Galaxy S20 Series Update Support Extension",
+        "Summary": "Samsung extends software support for the Galaxy S20 series into its fifth year, marking an exceptional move in Android update support (GSMArena.com). This move positions Samsung as offering one of the best software update supports in the Android ecosystem (Android Headlines). However, the Galaxy S20 and Note 20 series won't receive the Android 14 One UI 6 update (91 Mobiles).",
+        "sources": [
+            [
+                "GSMArena.com",
+                "https://www.gsmarena.com/samsung_galaxy_s20_series_extended_software_support-news-62381.php",
+                "9 hours ago"
+            ],
+            [
+                "Android Headlines",
+                "https://www.androidheadlines.com/2024/04/galaxy-s20-gets-extended-update-support.html",
+                "10 hours ago"
+            ],
+            [
+                "91 Mobiles",
+                "https://www.91mobiles.com/hub/samsung-galaxy-s20-note-20-no-android-14-update/",
+                "15 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://fdn.gsmarena.com/imgroot/news/24/04/samsung-galaxy-s20-series-extended-software-support/-952x498w6/gsmarena_001.jpg"
+    },
+    {
+        "Title": "Marin Software Stock Surge Linked to Microsoft Partnership and AI Integration",
+        "Summary": "Marin Software's stock is surging due to its enhanced integration with Microsoft Advertising, leveraging AI-driven search technologies like Copilot, formerly known as Bing Chat. This integration has contributed to Microsoft search sites gaining market share, now accounting for over 27% of the Core Search universe in the US, influenced by the adoption of these AI technologies (01net).",
+        "sources": [
+            [
+                "01net",
+                "https://www.01net.it/marin-software-enhances-its-microsoft-advertising-integration/",
+                "24 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.benzinga.com/files/images/story/2024/Microsoft-Photo-by-rafapress-on-Shutters.jpeg?width=1200&height=800&fit=crop"
+    },
+    {
+        "Title": "Effectiveness of Facial Recognition Post-Surgery",
+        "Summary": "A Statista survey highlighted by the Telegraph reveals that a significant portion of young adult women in South Korea, ranging from a quarter to a third, have had plastic surgery, potentially altering their biometric signatures, which poses challenges for facial recognition technology (Biometric Update).",
+        "sources": [
+            [
+                "Biometric Update",
+                "https://www.biometricupdate.com/202404/does-facial-recognition-work-if-surgery-alters-a-persons-face",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://d1sr9z1pdl3mb7.cloudfront.net/wp-content/uploads/2024/04/10140321/plastic-surgery-scaled.jpg"
+    },
+    {
+        "Title": "Generative AI and its Expanding Role Across Industries",
+        "Summary": "Software AG is incorporating generative AI into process modeling and IT asset management, demonstrating AI's growing utility in diverse corporate functions (SiliconANGLE). Mastercard's recent reorganization, highlighted by Amex's establishment of a Generative AI Council, underscores the urgent focus industries are placing on AI technologies (PYMNTS.com). The Black Car Fund's adoption of CLARA Analytics' AI solutions for better claims management emphasizes AI's enhancement of accuracy and efficiency in sector-specific applications (FinTech Global). Additionally, trends in AI, including generative AI in cybersecurity and AI-optimized financial transactions, reflect AI's broadening application and its key role in evolving tech landscapes (Habr).",
+        "sources": [
+            [
+                "SiliconANGLE",
+                "https://siliconangle.com/2024/04/10/software-ag-applies-generative-ai-process-modeling-asset-management/",
+                "8 hours ago"
+            ],
+            [
+                "PYMNTS.com",
+                "https://www.pymnts.com/artificial-intelligence-2/2024/mastercard-reorg-shows-urgent-industry-focus-on-ai/",
+                "3 hours ago"
+            ],
+            [
+                "FinTech Global",
+                "https://fintech.global/2024/04/10/the-black-car-fund-adopts-clara-analytics-ai-to-enhance-claims-management-and-accuracy/",
+                "8 hours ago"
+            ],
+            [
+                "Habr",
+                "https://habr.com/en/articles/806773/",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2024/04/Screenshot_10-4-2024_131050_.jpeg"
+    }
+]

@@ -1,0 +1,128 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Iran Seizes Israeli-Linked Ship Near Strait of Hormuz",
+            "Summary": "Iran's Revolutionary Guard seized an Israeli-affiliated container ship near the Strait of Hormuz, escalating tensions between Iran and Israel. The operation involved Guard commandos rappelling from a helicopter onto the Portuguese-flagged MSC Aries, highlighting ongoing conflict and Iran's support for the Palestinian cause and engagement in proxy wars in Lebanon and Yemen. This action also reflects broader tensions related to Iran's advancing nuclear program and involvement in global conflicts, including allegations of fueling the war in Ukraine (Al Jazeera, Euronews.com, AP News).",
+            "sources": [
+                [
+                    "Al Jazeera",
+                    "https://www.aljazeera.com/news/2024/4/13/irans-irgc-seizes-israeli-linked-ship-near-strait-of-hormuz",
+                    "4 hours ago"
+                ],
+                [
+                    "Euronews.com",
+                    "https://www.euronews.com/2024/04/13/tensions-soar-as-iran-seizes-container-ship-linked-to-israel",
+                    "4 hours ago"
+                ],
+                [
+                    "AP News",
+                    "https://apnews.com/article/strait-of-hormuz-vessel-33fcffde2d867380e98c89403776a8ac",
+                    "5 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24104339126398-1713008084.jpg?resize=1200%2C675"
+        }
+    ],
+    "Custom Headlines": {
+        "Venture Capital": [
+            {
+                "Title": "Key Tech Industry Movements",
+                "Summary": "The tech industry sees significant movements as a former CEO of DreamBox Learning takes a new position with a venture capital firm, and First Fed brings on board a Seattle-based entrepreneur (GeekWire).",
+                "sources": [
+                    [
+                        "GeekWire",
+                        "https://www.geekwire.com/2024/tech-moves-former-dreambox-learning-ceo-joins-vc-firm-first-fed-hires-seattle-entrepreneur/",
+                        "20 minutes ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "10 Cheap Stocks Under $10 to Buy Now in 2024",
+                "Summary": "MarketBeat highlights investment opportunities by listing 10 undervalued stocks priced under $10, suggesting potential for growth to investors in 2024 (MarketBeat).",
+                "sources": [
+                    [
+                        "MarketBeat",
+                        "https://www.marketbeat.com/slideshows/10-cheap-stocks-to-buy-now-under-10/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.marketbeat.com/images/webpush/files/2056push_stocks-under-10-dollars.jpg"
+            }
+        ],
+        "OJ Simpson": [
+            {
+                "Title": "Reflecting on the Enduring Legacy of O.J. Simpson",
+                "Summary": "Recent discussions highlight the future of live broadcasting through VR and AR for immersive viewer experiences, notably post-O.J. Simpson's infamous chase (Anyuak Media). O.J. Simpson's trial had indirect consequences on media and pop culture, influencing 'Saturday Night Live' cast dynamics due to his case (Variety). Simpson's 1995 trial verdict deepened racial divisions and distrust in law enforcement, resonating with contemporary issues of racial injustice (USA Today). The trial also sparked conversations on domestic violence awareness, showcasing the lasting societal impacts beyond the verdict (Law and Crime News).",
+                "sources": [
+                    [
+                        "Anyuak Media",
+                        "https://ytech.news/en/the-evolution-of-live-news-following-the-o-j-simpson-chase/",
+                        "6 hours ago"
+                    ],
+                    [
+                        "Variety",
+                        "https://variety.com/2024/tv/news/oj-simpson-lost-pilot-frogmen-1235969108/",
+                        "23 hours ago"
+                    ],
+                    [
+                        "USA Today",
+                        "https://www.usatoday.com/story/entertainment/tv/2024/04/11/oj-simpson-death-bronco-chase-reflections/73289004007/",
+                        "7 hours ago"
+                    ],
+                    [
+                        "Law and Crime News",
+                        "https://lawandcrime.com/analysis/oj-simpson-what-impact-did-the-trial-of-the-century-have-on-domestic-violence-awareness/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://ytech.news/wp-content/uploads/2024/04/compressed_img-Fs7XEzRqqUbPHvEDsv1lchCL.png"
+            },
+            {
+                "Title": "The O.J. Simpson Trial's Impact on Domestic Violence Awareness",
+                "Summary": "The O.J. Simpson trial, following the murder of Nicole Brown Simpson and Ron Goldman, significantly influenced public perceptions and legal approaches to domestic violence. It sparked widespread debate on celebrity power, the criminal justice system, and racial implications, fostering a deeper societal discourse on domestic violence (The 19th News). The trial's media coverage and subsequent discussions prompted a surge in awareness and support for domestic violence causes, notably contributing to the push for the Violence Against Women Act (The Cumberland Times-News). Despite Simpson's acquittal in the criminal trial and later conviction in a civil trial, his case shed light on the grave realities of domestic violence, challenging the legal system and society to address and prevent gendered violence more effectively (Law and Crime News).",
+                "sources": [
+                    [
+                        "The 19th News",
+                        "https://19thnews.org/2024/04/oj-simpson-trial-legacy-racial-dynamics-nicole-brown-simpson/",
+                        "20 hours ago"
+                    ],
+                    [
+                        "The Cumberland Times-News",
+                        "https://www.times-news.com/sports/the-o-j-simpson-case-forced-domestic-violence-into-the-spotlight-boosting-a-movement/article_6123135b-d9f2-51c6-adca-f251fbe75459.html",
+                        "22 hours ago"
+                    ],
+                    [
+                        "Law and Crime News",
+                        "https://lawandcrime.com/analysis/oj-simpson-what-impact-did-the-trial-of-the-century-have-on-domestic-violence-awareness/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://lawandcrime.com/wp-content/uploads/2024/04/OJ-Simpson-Nicole-Brown-Simpson.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Viewing Options and Insights on Newcastle vs. Tottenham Premier League Match",
+            "Summary": "The Newcastle vs. Tottenham match can be livestreamed on USA Network, available via cable or the NBC Sports website with a valid login, and through streaming services like Sling TV (CNET). TNT Sports is broadcasting the match exclusively in the UK on several channels including TNT Sports 1 and in 4K (CNET). Newcastle's team faces numerous injuries, affecting key players across various positions (Goal.com). For those seeking alternative viewing methods, using a VPN and subscribing to services like Sling TV are recommended for accessing the game (Tom's Guide).",
+            "sources": [
+                [
+                    "CNET",
+                    "https://www.cnet.com/tech/services-and-software/newcastle-vs-tottenham-livestream-how-to-watch-english-premier-league-soccer-from-anywhere/",
+                    "8 hours ago"
+                ],
+                [
+                    "Goal.com",
+                    "https://www.goal.com/en-us/news/newcastle-united-vs-tottenham-live-stream-tv-watch/blt9e80bee506bd9cb2",
+                    "5 hours ago"
+                ],
+                [
+                    "Tom's Guide",
+                    "https://www.tomsguide.com/entertainment/sports/watch-newcastle-vs-tottenham-live-stream-premier-league-23-24",
+                    "5 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.cnet.com/a/img/resize/1cbf94782fbaaf5ace3e3ebaee5f11830092b419/hub/2024/04/12/35bdd9eb-5ed3-42a9-879d-455cdd82dbfa/gettyimages-2135432024.jpg?auto=webp&fit=crop&height=675&width=1200"
+        }
+    ]
+}

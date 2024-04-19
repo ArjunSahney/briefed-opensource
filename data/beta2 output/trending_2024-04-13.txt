@@ -1,0 +1,80 @@
+[
+    {
+        "Title": "Viewing Options and Insights on Newcastle vs. Tottenham Premier League Match",
+        "Summary": "The Newcastle vs. Tottenham match can be livestreamed on USA Network, available via cable or the NBC Sports website with a valid login, and through streaming services like Sling TV (CNET). TNT Sports is broadcasting the match exclusively in the UK on several channels including TNT Sports 1 and in 4K (CNET). Newcastle's team faces numerous injuries, affecting key players across various positions (Goal.com). For those seeking alternative viewing methods, using a VPN and subscribing to services like Sling TV are recommended for accessing the game (Tom's Guide).",
+        "sources": [
+            [
+                "CNET",
+                "https://www.cnet.com/tech/services-and-software/newcastle-vs-tottenham-livestream-how-to-watch-english-premier-league-soccer-from-anywhere/",
+                "8 hours ago"
+            ],
+            [
+                "Goal.com",
+                "https://www.goal.com/en-us/news/newcastle-united-vs-tottenham-live-stream-tv-watch/blt9e80bee506bd9cb2",
+                "5 hours ago"
+            ],
+            [
+                "Tom's Guide",
+                "https://www.tomsguide.com/entertainment/sports/watch-newcastle-vs-tottenham-live-stream-premier-league-23-24",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.cnet.com/a/img/resize/1cbf94782fbaaf5ace3e3ebaee5f11830092b419/hub/2024/04/12/35bdd9eb-5ed3-42a9-879d-455cdd82dbfa/gettyimages-2135432024.jpg?auto=webp&fit=crop&height=675&width=1200"
+    }
+, 
+    {
+        "Title": "Devonte' Graham's Clutch Performance Leads Spurs to Victory",
+        "Summary": "Devonte' Graham's late game heroics, including a decisive jumper with 0.9 seconds left, propelled the San Antonio Spurs to a comeback win over the Denver Nuggets, affecting the Western Conference standings and tying the top three teams (Sports Illustrated, Pounding The Rock, Sportstar, Through the Phog).",
+        "sources": [
+            [
+                "Sports Illustrated",
+                "https://www.si.com/nba/spurs/news/san-antonio-spurs-devonte-graham-denver-nuggets-turning-point",
+                "2 hours ago"
+            ],
+            [
+                "Pounding The Rock",
+                "https://www.poundingtherock.com/2024/4/13/24129283/devonte-grahams-game-winner-caps-san-antonio-spurs-double-digit-comeback-win-over-denver-nuggets",
+                "2 hours ago"
+            ],
+            [
+                "Sportstar",
+                "https://sportstar.thehindu.com/basketball/nba-roundup-nuggets-loss-results-3-way-tie-atop-west-conference-news/article68061157.ece",
+                "3 hours ago"
+            ],
+            [
+                "Through the Phog",
+                "https://throughthephog.com/posts/kansas-jayhawks-basketball-nba-devonte-graham-game-winner-spurs-denver-nuggets-01hvapcqz6gb",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://images2.minutemediacdn.com/image/upload/c_crop,w_3290,h_1850,x_0,y_0/images/ImagnImages/mmsport/si-temp/01hvbvfxnrbgwn2yzy8k"
+    }
+, 
+    {
+        "Title": "Tragic Stabbing Rampage in Sydney Shopping Center",
+        "Summary": "A man fatally stabbed six people at Sydney's Westfield Shopping Centre in Bondi Junction before being shot dead by police, causing panic and chaos among shoppers. Witnesses reported hearing screams followed by gunfire, hoping it was the police responding (CNN). The assailant, a 40-year-old man, was stopped by a police inspector after raising a knife at him (NPR). The community is left distressed by the violent incident, described as unimaginable and disturbing by local lawmaker Kellie Sloane (ABC News - Breaking News, Latest News and Videos). Prime Minister lauded the bravery and heroism of the responders and civilians who helped during the crisis (Euronews.com, The Sydney Morning Herald).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/13/australia/australia-multiple-people-stabbed-intl-hnk/index.html",
+                "3 hours ago"
+            ],
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/13/1244580444/sydney-shopping-center-stabbing-attack",
+                "7 hours ago"
+            ],
+            [
+                "Euronews.com",
+                "https://www.euronews.com/2024/04/13/multiple-people-stabbed-and-1-person-shot-at-a-sydney-shopping-center-media-say",
+                "6 hours ago"
+            ],
+            [
+                "The Sydney Morning Herald",
+                "https://www.smh.com.au/politics/nsw/police-operation-at-bondi-junction-reports-of-stabbing-shots-fired-at-shopping-centre-20240413-p5fjkr.html",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-2147763119.jpg?c=16x9&q=w_800,c_fill"
+    }
+]
