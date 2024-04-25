@@ -329,4 +329,6 @@ def in_morning_brief(name, company, industry, topic):
 
 # in_morning_brief("Arjun", "Foreign Policy", "Economy", "International Affairs")
 
-in_morning_brief("David", "Ukraine", "Mortgage Rates", "2024 Presidential Election")
+# in_morning_brief("John", "Ukraine", "Mortgage Rates", "2024 Presidential Election")
+
+in_morning_brief("Inika", "Google", "Quantum Computing", "U.S. Interest Rates")

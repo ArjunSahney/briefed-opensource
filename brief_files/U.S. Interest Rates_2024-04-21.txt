@@ -1,0 +1,80 @@
+[
+    {
+        "Title": "IMF's Insights on U.S. Economic Strategies",
+        "Summary": "The IMF, through Gopinath's observations, notes that the U.S. is experiencing economic growth and higher interest rates due to high deficits, which also stimulate global growth and strengthen the USD (thesun.my, Forexlive). Furthermore, the IMF recommends the U.S. to enhance revenue and reform social security to maintain economic stability (Republic World).",
+        "sources": [
+            [
+                "thesun.my",
+                "https://thesun.my/business/imf-s-gopinath-says-high-u-s-deficits-fueling-growth-higher-interest-rates-LF12356872",
+                "14 hours ago"
+            ],
+            [
+                "Forexlive",
+                "https://www.forexlive.com/centralbank/imfs-gopinath-says-high-us-deficits-fueling-demand-global-growth-higher-rates-usd-20240421/",
+                "11 minutes ago"
+            ],
+            [
+                "Republic World",
+                "https://www.republicworld.com/business/imf-calls-for-us-revenue-enhancement-social-security-reform/",
+                "16 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://thesun.my/binrepository/1200x800/0c85/1200d630/none/11808/SERC/reuterspix-imf_4062099_20240421153813.jpg"
+    },
+    {
+        "Title": "Economic Insights: Interest Rates, Real Estate, and Currency Markets",
+        "Summary": "The affordability of homes in the U.S. has drastically diminished, with a typical monthly mortgage now almost double compared to January 2020, necessitating a yearly income of over $106,000 for comfortable homeownership, as pointed out by Zillow and a Colorado Realtor (The Quad-City Times). The gold market experienced a slump due to various factors including weak sales, rumors of Central Bank gold selling, and computerized trading, though it rebounded with rising demand amid economic concerns, with prices hitting new highs in 2023 due to demand in emerging markets (The Quad-City Times). Meanwhile, the USD/JPY currency pair saw movements influenced by Federal Reserve policies and geopolitical tensions, highlighting the yen's brief strengthening amid Middle East conflicts (Forex Crunch).",
+        "sources": [
+            [
+                "The Quad-City Times",
+                "https://qctimes.com/news/local/business/mark-grywacheski-fed-interest-rates-caution/article_9a3048f4-fe68-11ee-8fda-43d1ea665035.html",
+                "11 hours ago"
+            ],
+            [
+                "Forex Crunch",
+                "https://www.forexcrunch.com/blog/2024/04/21/usd-jpy-weekly-forecast-dollar-bid-amid-hawkish-fed/",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://bloximages.chicago2.vip.townnews.com/qctimes.com/content/tncms/assets/v3/editorial/9/a3/9a3048f4-fe68-11ee-8fda-43d1ea665035/654e8e38914e9.preview.jpg?crop=1920%2C1008%2C0%2C35&resize=1200%2C630&order=crop%2Cresize"
+    },
+    {
+        "Title": "Global Economic Trends and Market Impacts",
+        "Summary": "The IMF's World Economic Outlook indicates monetary policy impacts vary based on factors like mortgage types and household debt, suggesting a nuanced approach to financial stability (International Monetary Fund). US stock futures fall, influenced by Federal Reserve statements and Netflix's poor performance outlook (MSN). In the UK, concerns rise as a popular clothing store hints at financial troubles, alongside issues with benefits adjustments and skepticism around political stock market benefits (Yahoo News UK). GBP/EUR rates are influenced by UK inflation data and ECB's potential rate cuts, highlighting a week of crucial economic data (Exchange Rates Org UK). AI stocks are significantly impacting global markets, underlining the growing influence of technology on investments (\n\ub9e4\uc77c\uacbd\uc81c).",
+        "sources": [
+            [
+                "International Monetary Fund",
+                "https://www.imf.org/en/Publications/WEO/Issues/2024/04/16/world-economic-outlook-april-2024",
+                "16 minutes ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-gb/money/other/stock-market-today-s-p-500-extends-losing-streak-on-nvidia-netflix-slump/ar-AA1ngLgy",
+                "4 hours ago"
+            ],
+            [
+                "Yahoo News UK",
+                "https://uk.news.yahoo.com/popular-clothing-store-boss-issues-073943494.html",
+                "16 hours ago"
+            ],
+            [
+                "Exchange Rates Org UK",
+                "https://www.exchangerates.org.uk/news/40570/2024-04-21-pound-to-euro-forecast-for-week-ahead-gbp-eur-slips-as-boe-june-cut-expected.html",
+                "24 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://www.imf.org/-/media/Images/IMF/News/twitter-seal.ashx"
+    },
+    {
+        "Title": "Global Financial Outlook and Market Influences",
+        "Summary": "Upcoming events and trends, including Q4 results, US economic indicators, and escalation of the Israel-Iran conflict, are eyed by investors for potential impacts on stock markets. Rising oil prices, influenced by Middle East tensions, are identified as a key factor for economic forecasts. India's long-term growth opportunity is highlighted despite current market uncertainties, with strong bullish momentum observed in the Bank Nifty index. Escalation between Iran and Israel triggers profit booking due to increased market uncertainty. (mint)",
+        "sources": [
+            [
+                "mint",
+                "https://www.livemint.com/market/stock-market-news/week-ahead-q4-results-iran-israel-conflict-global-cues-among-key-market-triggers-this-week-11713633099880.html",
+                "20 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.24.co.za/files/Cms/General/d/9741/c6f741af1052429890bb79b477030d0d.jpg"
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "Title": "IMF's Gopinath on U.S. Economy",
+        "Summary": "IMF's Gopinath notes high U.S. deficits and demand are contributing to growth and higher interest rates (thesun.my, MSN, Head Topics).",
+        "sources": [
+            [
+                "thesun.my",
+                "https://thesun.my/business/imf-s-gopinath-says-high-u-s-deficits-fueling-growth-higher-interest-rates-LF12356872",
+                "14 hours ago"
+            ],
+            [
+                "MSN",
+                "http://www.msn.com/en-sg/money/markets/imf-s-gopinath-says-high-u-s-demand-fueling-growth-higher-interest-rates/ar-AA1nmqex?ocid=weather-verthp-feeds&apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+                "11 hours ago"
+            ],
+            [
+                "Head Topics",
+                "https://headtopics.com/my/imf-039-s-gopinath-says-high-u-s-deficits-fueling-growth-51216001",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://thesun.my/binrepository/1200x800/0c85/1200d630/none/11808/SERC/reuterspix-imf_4062099_20240421153813.jpg"
+    },
+    {
+        "Title": "Financial Maneuvers in Football and Business",
+        "Summary": "Inter Milan's owners, Suning, are likely securing a new loan from PIMCO, though the exact interest rate remains undisclosed (OneFootball). This financial move is considered either a bridge loan for a potential sale of Inter Milan or for acquiring new minority investment in the club (SempreInter.com). Concurrently, discussions in Canada highlight federal job cuts and tax changes affecting investments, alongside The Body Shop Canada's exploration of a sale due to inventory challenges despite strong sales (BNN Bloomberg).",
+        "sources": [
+            [
+                "OneFootball",
+                "https://onefootball.com/fr/news/revealed-likely-interest-rate-for-new-loan-from-pimco-to-inter-milan-owners-suning-39382256",
+                "6 hours ago"
+            ],
+            [
+                "SempreInter.com",
+                "https://sempreinter.com/2024/04/21/pimco-loan-suning-bridge-loan-inter-sale-new-investment/",
+                "9 hours ago"
+            ],
+            [
+                "BNN Bloomberg",
+                "https://www.bnnbloomberg.ca/inter-owner-nears-new-loan-to-retain-control-of-team-corriere-says-1.2061770",
+                "11 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Ffr%2F39382256%3Fdate=2024-04-21"
+    },
+    {
+        "Title": "The Impact of Rising Interest Rates on EGX",
+        "Summary": "Moustafa El Shenety of Zilla Capital suggests stock exchange listings are the most cost-effective financing method amid rising borrowing costs (Dailynewsegypt).",
+        "sources": [
+            [
+                "Dailynewsegypt",
+                "https://www.dailynewsegypt.com/2024/04/21/will-rising-interest-rates-enhance-equity-capital-on-egx/",
+                "59 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://d1b3667xvzs6rz.cloudfront.net/2024/04/CAKu3kjn-1614528223_413_123900_.jpeg"
+    },
+    {
+        "Title": "Financial Maneuvers in the World of Football: Inter Milan\u2019s Scenario",
+        "Summary": "Inter Milan's owners, Suning, are likely obtaining a new loan from PIMCO with a notable interest rate, aimed at retaining control over the team and possibly preparing for a bridge loan for a sale or new minority investment (OneFootball; SempreInter.com; BNN Bloomberg).",
+        "Image Filepath": "https://photobooth-api.onefootball.com/api/screenshot/%2Fv2%2Fphotobooth%2Fcms%2Ffr%2F39382256%3Fdate=2024-04-21"
+    },
+    {
+        "Title": "Speculations on BOJ's Next Moves & Market Focus",
+        "Summary": "The financial world speculates on when the Bank of Japan (BOJ) might raise interest rates amidst rising inflation, with BOJ Governor Ueda indicating a likely hike if inflation continues to increase (Financial Times, Malaya Business Insight). Meanwhile, markets anticipate key events like the US GDP, Core PCE, and big tech earnings, keeping an eye on geopolitical tensions and their implications on currency and commodity trades (DailyFX). Additionally, foreign investment in Japanese hotels highlights shifting trends in real estate preferences (Nikkei Asia).",
+        "sources": [
+            [
+                "Financial Times",
+                "https://www.ft.com/content/af64cb7e-5aff-44a7-89da-a849ed6654e1",
+                "10 hours ago"
+            ],
+            [
+                "Malaya Business Insight",
+                "https://malaya.com.ph/news_business/bojs-ueda-says-very-likely-to-hike-rates-if-inflation-keeps-rising/",
+                "5 hours ago"
+            ],
+            [
+                "DailyFX",
+                "https://www.dailyfx.com/news/markets-week-ahead-gold-eur-usd-usd-jpy-boj-us-gdp-core-pce-big-tech-earnings-20240421.html",
+                "4 hours ago"
+            ],
+            [
+                "Nikkei Asia",
+                "https://asia.nikkei.com/Spotlight/Market-Spotlight/Hotels-are-new-darling-of-foreign-investors-in-Japanese-property",
+                "16 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://a.c-dn.net/b/2Q9NNV/russell_2000_Nasdaq_bulls_bears.jpg"
+    },
+    {
+        "Title": "Current Economic and Political Strategies",
+        "Summary": "Recent statements from Federal Reserve officials suggest that interest rate cuts desired by many, including possibly President Joe Biden, might not happen soon, hinting at a 'higher for longer' interest rate scenario to address market concerns (New York Magazine). Additionally, Biden has proposed a significant tax reform targeting the mega-rich with a 25% tax rate on billionaires, aiming to save $3 trillion, alongside plans to support Americans in purchasing their first homes (MSN). On the international front, there are tensions between the U.S. and Iran, with speculation around Netanyahu's intentions for conflict, whereas Biden is positioned as having the capacity to avoid such escalation (NewsLite).",
+        "sources": [
+            [
+                "New York Magazine",
+                "https://nymag.com/intelligencer/article/why-joe-biden-really-really-wants-lower-interest-rates.html",
+                "5 hours ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-ie/money/other/biden-says-he-will-save-3trillion-with-a-war-on-the-mega-rich-with-a-25-tax-on-billionaires-and-announces-plan-to-give-all-americans-400-a-year-to-go-towards-their-first-home/ar-BB1jxby5",
+                "5 hours ago"
+            ],
+            [
+                "NewsLite",
+                "https://newslite.tv/netanyahu-wants-war-with-iran-biden-can-avoid/",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://pyxis.nymag.com/v1/imgs/666/dc7/381053e479d2966f64bd396d50d8cae66c-biden-powell.1x.rsocial.w1200.jpg"
+    }
+]

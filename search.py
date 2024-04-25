@@ -3,7 +3,7 @@
 Primary Search: 
   =Pipeline A= 
   Scrape news on given query (Q1) and store top NUM_TITLES hits in dictionary keyed by title.
-  =Pipeline B= 
+  =Pipeline B=
   Generalize given query (Q1) into Q2 and scrape news on Q2. Append top NUM_TITLES*10 hits to dictionary created in Pipeline A. 
   =>Merge<=
   Create list of all titles in dictionary. Request top NUM_TITLES most relevant titles on Q1 from LLM. Retrieve objects keyed by title from dictionary and store in a new dictionary, 'most_relevant_articles'
@@ -34,12 +34,12 @@ from api_toolbox import *
 from spaCy_summarizer import *
 import time # debugging latency
 
-NUM_TITLES = 10
-NUM_ARTICLES_PER_BRIEF = 5
+DEFAULT_NUM_TITLES = 10
+DEFAULT_NUM_ARTICLES_PER_BRIEF = 5
 
 # -------------------------------- PRIMARY SEARCH -------------------------------- #
 
-def generalize_keyword(keyword):
+def get_general_keyword(keyword):
   """Use llama to generalize a specific news topic"""
 
 def get_most_relevant_titles(titles, keyword):
@@ -48,9 +48,58 @@ def get_most_relevant_titles(titles, keyword):
 def format_serp_results(results):
   """Formats Serp API results into dictionary keyed by title"""
 
-def primary_search(keyword):
-  """Retrieve most relevant titles to the keyword"""
+def scrape_news(keyword, num_results):
+  """Returns scraped results for a keyword
+  
+  Parameters
+  ----------
+  keyword: string
+  num_results: integer
+  
+  Returns
+  -------
+  News results dictionary
+  
+  """
+  # Scrape news on initial keyword
+  if __debug__:
+    print(f"Retrieving top titles on {keyword}")
+    start_time = time.time()
 
+  news_results = get_google_results_valueserp(keyword, num_results)
+  
+  if __debug__:
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"ValueSerp retrieval time: {duration} seconds for {keyword}")
+
+  if news_results is None:
+    print(f"No news on {keyword}")
+    return None
+  else:
+    return news_results
+
+
+def primary_search(keyword, num_titles=DEFAULT_NUM_TITLES):
+  """Retrieve most relevant titles to the keyword"""
+  
+  # First, scrape news on keyword and store in dictionary
+  news_results = scrape_news(keyword, num_titles)
+  article_dictionary = format_serp_results(news_results)
+  
+  # Next, scrape news on generalized keyword and add to dictionary
+  general_keyword = get_general_keyword(keyword)
+  news_results = scrape_news(general_keyword, num_titles)
+  article_dictionary.update(format_serp_results(news_results))
+  
+  # Create a list of all titles in the dictionary
+  title_list = []
+  for title in article_dictionary:
+    title_list.append(title)
+  
+  # Get the most relevant num_titles from the list
+  
+  
 # -------------------------------------------------------------------------------- #
 
 
@@ -62,4 +111,10 @@ def append_missing_words(words_to_append, append_to_this_string):
 def title_to_searchwords(title):
   """Get the optimal searchwords from a news title"""
 
+def secondary_search(keyword, num_articles_per_brief=DEFAULT_NUM_ARTICLES_PER_BRIEF):
+  """"""
 # -------------------------------------------------------------------------------- #
+
+def search(topic):
+  """Call primary search, secondary search"""
+  

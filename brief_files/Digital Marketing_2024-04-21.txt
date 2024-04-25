@@ -1,0 +1,65 @@
+[
+    {
+        "Title": "Trends and Strategies in Digital Advancement",
+        "Summary": "Digital marketing emerges as an indispensable skill with potential to leverage the billions of web and social media users, highlighting the importance of free educational resources in this field (Forbes). SMEs are prompted to revise their business strategies as duty-free import margins rise, intensifying competition from cheaper foreign goods (Jamaica Observer). Meanwhile, the significance of SEO reporting tools is emphasized for marketers and business owners, offering vital insights into web performance and aiding in strategic decisions, with both free and paid options available (Tycoonstory Media).",
+        "sources": [
+            [
+                "Forbes",
+                "https://www.forbes.com/sites/rachelwells/2024/04/21/5-free-digital-marketing-courses-to-study-in-2024/",
+                "5 hours ago"
+            ],
+            [
+                "Jamaica Observer",
+                "https://www.jamaicaobserver.com/2024/04/21/navigating-duty-free-increase/",
+                "16 hours ago"
+            ],
+            [
+                "Tycoonstory Media",
+                "https://www.tycoonstory.com/the-best-free-and-paid-seo-reporting-tools-for-2024/",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://imageio.forbes.com/specials-images/imageserve/662436363ffe60ea44f5dacc/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+    },
+    {
+        "Title": "Essentials of Digital Literacy and Marketing",
+        "Summary": "For effective digital marketing, essential monthly tasks include analytics reporting, social media audits, goal setting, experimentation with new campaigns, planning for upcoming activities, and strategy adjustments based on past learnings (Cape Cod Times). In the context of the 21st century, the significance of digital literacy from a European perspective is highlighted, pointing towards the evolving needs and the importance of adapting to digital advancements (The Malta Independent).",
+        "sources": [
+            [
+                "Cape Cod Times",
+                "https://www.capecodtimes.com/story/business/columns/2024/04/21/score-digital-marketing-skills-social-media-tik-tok/73299838007/",
+                "12 hours ago"
+            ],
+            [
+                "The Malta Independent",
+                "https://www.independent.com.mt/articles/2024-04-21/newspaper-lifestyleculture/The-importance-of-digital-literacy-in-the-21st-century-A-European-perspective-6736260329",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.capecodtimes.com/gcdn/presto/2021/06/23/NCCT/25f3a22e-7276-436a-95b0-2d6c868ea8a3-Marc-Goldberg.jpg?crop=359,202,x0,y143&width=359&height=202&format=pjpg&auto=webp"
+    },
+    {
+        "Title": "Kenilworth Digital Marketing Agency Achieves Top 100 SME Ranking",
+        "Summary": "Ada Digital Marketing, based in Kenilworth, has earned a position in the Elite Business Top 100 SMEs in the UK, a significant achievement reached within five years of its inception. Offering comprehensive services such as Web Design, SEO, PPC Ads, Content Strategy, CRO, and Paid Social Advertising, the agency caters to a broad client base including startups and prominent organizations like Samsung and NHS (Kenilworth Nub News).",
+        "sources": [
+            [
+                "Kenilworth Nub News",
+                "https://kenilworth.nub.news/news/local-news/sp8499-kenilworth-digital-marketing-agency-ranked-in-the-countrys-top-100-smes-227251",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://storage.googleapis.com/nub-news-files/nub-news-file-storage/550336/conversions/text-article.jpg"
+    },
+    {
+        "Title": "Mashabo Women's Training in Marketing and Digital Skills",
+        "Summary": "Women in Mashabo have received training aimed at enhancing their marketing and digital competencies, marking a significant step towards empowerment and skill development in the community (Stabroek News).",
+        "sources": [
+            [
+                "Stabroek News",
+                "https://www.stabroeknews.com/2024/04/21/sunday/mashabo-women-trained-in-marketing-digital-skills/",
+                "15 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://s1.stabroeknews.com/images/2024/04/mashabo18.jpg"
+    }
+]

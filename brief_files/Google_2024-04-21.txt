@@ -1,0 +1,36 @@
+[
+    {
+        "Title": "Recent Developments and Arrests Related to Google and Warm Weather Forecast in the Bay Area",
+        "Summary": "In California, news highlights include a significant incident related to Google, where employees were arrested after protesting over a project connected to Israel, according to Google's statement on the police action (Times of India). Meanwhile, in the Bay Area, the weather forecast promises a mostly clear Saturday evening, with Sunday and Monday expected to be the warmest days of the current period (ABC7 San Francisco).",
+        "sources": [
+            [
+                "Times of India",
+                "https://timesofindia.indiatimes.com/technology/tech-news/google-employees-arrested-after-protests-over-israel-project-read-companys-statement-on-police-action/articleshow/109371351.cms",
+                "14 hours ago"
+            ],
+            [
+                "ABC7 San Francisco",
+                "https://abc7news.com/weather-bay-area-forecast-temperatures/39468/",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.abcotvs.com/dip/images/14708284_042124-kgo-am-weather-forecast-img.jpg?w=1600"
+    },
+    {
+        "Title": "Recent Updates in Google's Ecosystem",
+        "Summary": "Google Pixel commits to 7 years of updates, implying longevity and sustained support similar to Apple's approach to iPhone updates, but may also exclude older models from new features despite updating the OS (9to5Google). Additionally, Google introduces a screenshot feature to its 'Circle to Search' function, enhancing user experience in web searches (Gizchina.com).",
+        "sources": [
+            [
+                "9to5Google",
+                "https://9to5google.com/2024/04/21/google-pixel-7-years-updates-meaning/",
+                "5 hours ago"
+            ],
+            [
+                "Gizchina.com",
+                "https://www.gizchina.com/2024/04/21/googles-circle-to-search-adds-screenshot-feature/",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/03/Google-Pixel-8-Pro-Mint-camera-bar.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
+    }
+]

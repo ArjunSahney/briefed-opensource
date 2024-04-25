@@ -1,0 +1,86 @@
+[
+    {
+        "Title": "Insights on Consumer Spending from Bank of America's Financial Metrics",
+        "Summary": "Bank of America, as one of the largest banks in the U.S., provides essential insights on consumer spending and financial strength through its ability to repay debts, valuable for investors (The Motley Fool, The Globe and Mail, thebharatexpressnews@gmail.com).",
+        "sources": [
+            [
+                "The Motley Fool",
+                "https://www.fool.com/investing/2024/04/21/bank-of-america-just-told-us-something-important-a/",
+                "3 hours ago"
+            ],
+            [
+                "The Globe and Mail",
+                "https://www.theglobeandmail.com/investing/markets/markets-news/Motley%20Fool/25628432/bank-of-america-just-told-us-something-important-about-consumer-spending/",
+                "2 hours ago"
+            ],
+            [
+                "thebharatexpressnews@gmail.com",
+                "https://thebharatexpressnews.com/bank-of-america-just-told-us-something-important-about-consumer-spending/",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://g.foolcdn.com/editorial/images/773520/grocery-store-credit-card-transaction.jpg"
+    },
+    {
+        "Title": "Bank of America Faces Allegations of Discrimination",
+        "Summary": "Fifteen Attorneys General have challenged Bank of America, alleging account closures based on customers' religious and political beliefs, demanding a thorough explanation and policy transparency. Kris Kobach, among the attorneys, emphasizes the need for the bank to affirm non-discrimination through clear policies and support for diversity in shareholder proposals (The Daily Hodl; The Topeka Capital-Journal). Meanwhile, discussions on the public role of religion highlight ongoing debates around separation between personal faith and public policy (AOL.com).",
+        "sources": [
+            [
+                "AOL.com",
+                "https://www.aol.com/ray-buursma-religionists-stay-lane-070127471.html",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://dailyhodl.com/wp-content/uploads/2024/04/america-bank-bofa.jpg"
+    },
+    {
+        "Title": "Market Indices Performance Summary",
+        "Summary": "Major North American stock indices experienced a mixed day; the TSX Composite fell by 0.45%, the S&P 500 slightly decreased by 0.21%, while the Dow Jones Industrial Average saw a small increase of 0.17%. The Nasdaq Composite also dropped by 0.12% (The Globe and Mail).",
+        "sources": [
+            [
+                "The Globe and Mail",
+                "https://www.theglobeandmail.com/investing/markets/stocks/OML-X/pressreleases/25556397/closing-bell-omni-lite-industries-canada-inc-down-on-tuesday-oml/",
+                "11 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "O.J. Simpson's Credit Card Auction",
+        "Summary": "Following O.J. Simpson's death, his credit card is being auctioned, with plans to donate 10% of the sale to the National Network to End Domestic Violence (WKRC). The auctioned Bank of America card is linked to a notable episode in 1994 when Simpson fled from the police (1News). Although Simpson was celebrated as a Hall of Fame football player and Heisman trophy winner, his infamy largely stems from his 1995 acquittal in the 'Trial of the Century' (People).",
+        "sources": [
+            [
+                "WKRC",
+                "https://www.local12.com/news/offbeat/oj-simpsons-credit-card-auction-following-death-fetch-thousands-auctions-historic-collectors-item-celebrity-hall-of-fame-football-player-belongings-sports-memorabilia-collector-bank-america-visa-goldin-controversial-figure-trial-of-the-century-murder",
+                "5 hours ago"
+            ],
+            [
+                "1News",
+                "https://www.1news.co.nz/2024/04/21/oj-simpsons-bank-of-america-card-to-be-auctioned/",
+                "12 hours ago"
+            ],
+            [
+                "People",
+                "https://people.com/o-j-simpson-credit-card-for-sale-online-auction-8636560",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://local12.com/resources/media/a587aa3e-5eae-4b1d-9c85-c1d1d2ed8fde-large16x9_GettyImages50851811.jpg"
+    },
+    {
+        "Title": "Current Insights on Financial and Real Estate Markets",
+        "Summary": "Investors contemplating Bank of America stocks should note it didn't make The Motley Fool Stock Advisor's top 10 list, highlighting the need for careful portfolio selection (The Globe and Mail). Meanwhile, the U.S. housing market demands over $106,000 in annual income to afford an average home, with mortgage costs nearly doubling since January 2020, pushing buyers to find creative solutions for homeownership amidst rising gold prices and inflation concerns (The Quad-City Times).",
+        "sources": [
+            [
+                "The Globe and Mail",
+                "https://www.theglobeandmail.com/investing/markets/stocks/BAC/pressreleases/25625100/should-you-buy-bank-of-america-hand-over-fist-right-now-theres-1-good-reason-to-think-twice/",
+                "10 hours ago"
+            ],
+            [
+                "The Quad-City Times",
+                "https://qctimes.com/news/local/business/mark-grywacheski-fed-interest-rates-caution/article_9a3048f4-fe68-11ee-8fda-43d1ea665035.html",
+                "11 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://bloximages.chicago2.vip.townnews.com/qctimes.com/content/tncms/assets/v3/editorial/9/a3/9a3048f4-fe68-11ee-8fda-43d1ea665035/654e8e38914e9.preview.jpg?crop=1920%2C1008%2C0%2C35&resize=1200%2C630&order=crop%2Cresize"
+    }
+]

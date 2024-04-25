@@ -1,0 +1,140 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Recent Israeli Strikes in Rafah: A Tragic Toll",
+            "Summary": "Recent Israeli airstrikes on Rafah, a city in the southern Gaza Strip, resulted in at least 22 fatalities, 18 of whom were children. This tragedy has coincided with the United States approving a significant military aid package for Israel, intensifying concerns over the escalating violence in the region. These events underscore the critical juncture at which the conflict stands, especially as international figures express grave concerns and call for strategic reconsiderations. (Euronews.com, AP News, The New Arab, NPR)",
+            "sources": [
+                [
+                    "Euronews.com",
+                    "https://www.euronews.com/2024/04/21/at-least-22-people-killed-18-of-them-children-in-overnight-israeli-airstrike-on-rafah",
+                    "2 hours ago"
+                ],
+                [
+                    "AP News",
+                    "https://apnews.com/article/israel-hamas-war-news-04-21-2024-8c027f2587c2c433d0fde41b63a0e0c3",
+                    "52 minutes ago"
+                ],
+                [
+                    "The New Arab",
+                    "https://www.newarab.com/news/gaza-war-strikes-rafah-kill-22-us-approves-israel-aid",
+                    "6 hours ago"
+                ],
+                [
+                    "NPR",
+                    "https://www.npr.org/2024/04/21/1246134887/israeli-strikes-on-southern-gaza-city-of-rafah-kill-13-including-nine-children",
+                    "13 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://static.euronews.com/articles/stories/08/38/74/00/1200x675_cmsv2_13bd281b-9f78-5191-a8b8-45b91586db5e-8387400.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "Google": [
+            {
+                "Title": "Recent Developments and Arrests Related to Google and Warm Weather Forecast in the Bay Area",
+                "Summary": "In California, news highlights include a significant incident related to Google, where employees were arrested after protesting over a project connected to Israel, according to Google's statement on the police action (Times of India). Meanwhile, in the Bay Area, the weather forecast promises a mostly clear Saturday evening, with Sunday and Monday expected to be the warmest days of the current period (ABC7 San Francisco).",
+                "sources": [
+                    [
+                        "Times of India",
+                        "https://timesofindia.indiatimes.com/technology/tech-news/google-employees-arrested-after-protests-over-israel-project-read-companys-statement-on-police-action/articleshow/109371351.cms",
+                        "14 hours ago"
+                    ],
+                    [
+                        "ABC7 San Francisco",
+                        "https://abc7news.com/weather-bay-area-forecast-temperatures/39468/",
+                        "12 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cdn.abcotvs.com/dip/images/14708284_042124-kgo-am-weather-forecast-img.jpg?w=1600"
+            }
+        ],
+        "Quantum Computing": [
+            {
+                "Title": "Recent Developments and Future Projections in Quantum Computing",
+                "Summary": "Quantum computing is influencing cybersecurity with the exploration of quantum cryptography for future internet security, promising a revolution in secure communications (O'Reilly Media). The market for quantum computing is on a trajectory to exceed USD 6.9 billion by 2030, indicating substantial economic growth and increased investment in the sector (WhaTech). This technological advancement is also creating new job opportunities in the high-tech world, showcasing the significant impact of quantum computing on the job market and tech industry (Greater Kashmir).",
+                "sources": [
+                    [
+                        "O'Reilly Media",
+                        "https://www.oreilly.com/library/view/quantum-computing-in/9781394166336/c10.xhtml",
+                        "17 hours ago"
+                    ],
+                    [
+                        "WhaTech",
+                        "https://www.whatech.com/og/markets-research/it/811439-quantum-computing-market-surge-expected-to-exceed-usd-6-9-billion-by-2030",
+                        "24 hours ago"
+                    ],
+                    [
+                        "Greater Kashmir",
+                        "https://www.greaterkashmir.com/op-ed-2/exploring-new-jobs-in-the-high-tech-world/",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.oreilly.com/library/cover/9781394166336/1200w630h/"
+            },
+            {
+                "Title": "Innovations and Discoveries: From AM Radio to Dietary Advancements",
+                "Summary": "Hackaday highlights a method using a phasor for AM radio broadcasts to intensify signals through eight towers, though the explanation can be challenging to follow (Hackaday). Meanwhile, MIT News has showcased a video addressing strategies to reduce methane emissions, promising environmental benefits (MIT News). Additionally, SciTechDaily discusses a study revealing that a low FODMAP diet may offer better relief for IBS symptoms compared to medications, according to findings published in The Lancet Gastroenterology & Hepatology (SciTechDaily).",
+                "sources": [
+                    [
+                        "Hackaday",
+                        "https://hackaday.com/2024/04/20/am-radio-broadcast-uses-phasor-to-let-eight-towers-spray-one-big-signal/",
+                        "19 hours ago"
+                    ],
+                    [
+                        "MIT News",
+                        "https://news.mit.edu/2024/featured-video-moving-the-needle-on-methane-0421",
+                        "17 hours ago"
+                    ],
+                    [
+                        "SciTechDaily",
+                        "https://scitechdaily.com/medicines-arent-very-effective-for-ibs-scientists-found-what-works-better/",
+                        "18 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://hackaday.com/wp-content/uploads/2024/04/This-100-year-old-tech-splits-my-voice-in-five-4-56-screenshot.png"
+            }
+        ],
+        "U.S. Interest Rates": [
+            {
+                "Title": "IMF's Insights on U.S. Economic Strategies",
+                "Summary": "The IMF, through Gopinath's observations, notes that the U.S. is experiencing economic growth and higher interest rates due to high deficits, which also stimulate global growth and strengthen the USD (thesun.my, Forexlive). Furthermore, the IMF recommends the U.S. to enhance revenue and reform social security to maintain economic stability (Republic World).",
+                "sources": [
+                    [
+                        "thesun.my",
+                        "https://thesun.my/business/imf-s-gopinath-says-high-u-s-deficits-fueling-growth-higher-interest-rates-LF12356872",
+                        "14 hours ago"
+                    ],
+                    [
+                        "Forexlive",
+                        "https://www.forexlive.com/centralbank/imfs-gopinath-says-high-us-deficits-fueling-demand-global-growth-higher-rates-usd-20240421/",
+                        "11 minutes ago"
+                    ],
+                    [
+                        "Republic World",
+                        "https://www.republicworld.com/business/imf-calls-for-us-revenue-enhancement-social-security-reform/",
+                        "16 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://thesun.my/binrepository/1200x800/0c85/1200d630/none/11808/SERC/reuterspix-imf_4062099_20240421153813.jpg"
+            },
+            {
+                "Title": "Economic Insights: Interest Rates, Real Estate, and Currency Markets",
+                "Summary": "The affordability of homes in the U.S. has drastically diminished, with a typical monthly mortgage now almost double compared to January 2020, necessitating a yearly income of over $106,000 for comfortable homeownership, as pointed out by Zillow and a Colorado Realtor (The Quad-City Times). The gold market experienced a slump due to various factors including weak sales, rumors of Central Bank gold selling, and computerized trading, though it rebounded with rising demand amid economic concerns, with prices hitting new highs in 2023 due to demand in emerging markets (The Quad-City Times). Meanwhile, the USD/JPY currency pair saw movements influenced by Federal Reserve policies and geopolitical tensions, highlighting the yen's brief strengthening amid Middle East conflicts (Forex Crunch).",
+                "sources": [
+                    [
+                        "The Quad-City Times",
+                        "https://qctimes.com/news/local/business/mark-grywacheski-fed-interest-rates-caution/article_9a3048f4-fe68-11ee-8fda-43d1ea665035.html",
+                        "11 hours ago"
+                    ],
+                    [
+                        "Forex Crunch",
+                        "https://www.forexcrunch.com/blog/2024/04/21/usd-jpy-weekly-forecast-dollar-bid-amid-hawkish-fed/",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://bloximages.chicago2.vip.townnews.com/qctimes.com/content/tncms/assets/v3/editorial/9/a3/9a3048f4-fe68-11ee-8fda-43d1ea665035/654e8e38914e9.preview.jpg?crop=1920%2C1008%2C0%2C35&resize=1200%2C630&order=crop%2Cresize"
+            }
+        ]
+    },
+    "Trending Headlines": []
+}

@@ -1,0 +1,97 @@
+[
+    {
+        "Title": "Recent Developments and Future Projections in Quantum Computing",
+        "Summary": "Quantum computing is influencing cybersecurity with the exploration of quantum cryptography for future internet security, promising a revolution in secure communications (O'Reilly Media). The market for quantum computing is on a trajectory to exceed USD 6.9 billion by 2030, indicating substantial economic growth and increased investment in the sector (WhaTech). This technological advancement is also creating new job opportunities in the high-tech world, showcasing the significant impact of quantum computing on the job market and tech industry (Greater Kashmir).",
+        "sources": [
+            [
+                "O'Reilly Media",
+                "https://www.oreilly.com/library/view/quantum-computing-in/9781394166336/c10.xhtml",
+                "17 hours ago"
+            ],
+            [
+                "WhaTech",
+                "https://www.whatech.com/og/markets-research/it/811439-quantum-computing-market-surge-expected-to-exceed-usd-6-9-billion-by-2030",
+                "24 hours ago"
+            ],
+            [
+                "Greater Kashmir",
+                "https://www.greaterkashmir.com/op-ed-2/exploring-new-jobs-in-the-high-tech-world/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.oreilly.com/library/cover/9781394166336/1200w630h/"
+    },
+    {
+        "Title": "Innovations and Discoveries: From AM Radio to Dietary Advancements",
+        "Summary": "Hackaday highlights a method using a phasor for AM radio broadcasts to intensify signals through eight towers, though the explanation can be challenging to follow (Hackaday). Meanwhile, MIT News has showcased a video addressing strategies to reduce methane emissions, promising environmental benefits (MIT News). Additionally, SciTechDaily discusses a study revealing that a low FODMAP diet may offer better relief for IBS symptoms compared to medications, according to findings published in The Lancet Gastroenterology & Hepatology (SciTechDaily).",
+        "sources": [
+            [
+                "Hackaday",
+                "https://hackaday.com/2024/04/20/am-radio-broadcast-uses-phasor-to-let-eight-towers-spray-one-big-signal/",
+                "19 hours ago"
+            ],
+            [
+                "MIT News",
+                "https://news.mit.edu/2024/featured-video-moving-the-needle-on-methane-0421",
+                "17 hours ago"
+            ],
+            [
+                "SciTechDaily",
+                "https://scitechdaily.com/medicines-arent-very-effective-for-ibs-scientists-found-what-works-better/",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://hackaday.com/wp-content/uploads/2024/04/This-100-year-old-tech-splits-my-voice-in-five-4-56-screenshot.png"
+    },
+    {
+        "Title": "Exploring Innovations and Career Opportunities in Tech's Rapid Evolution",
+        "Summary": "Cloud-based quantum computing software represents a groundbreaking shift in the future of technology, offering unprecedented computational power and capabilities (Medium). Meanwhile, the tech industry's evolution is creating new job opportunities, requiring skills adapted to these emerging technologies and infrastructures (Greater Kashmir). Furthermore, advancements in 5G and Gigabit optical networks underscore the critical importance of modernizing infrastructure to foster high-quality development and sustain technological progress (breakinglatest.news).",
+        "sources": [
+            [
+                "Medium",
+                "https://medium.com/@talalhabib/the-future-of-technology-an-insight-into-cloud-based-quantum-computing-software-4122663eae75?responsesOpen=true&sortBy=REVERSE_CHRON",
+                "20 hours ago"
+            ],
+            [
+                "Greater Kashmir",
+                "https://www.greaterkashmir.com/op-ed-2/exploring-new-jobs-in-the-high-tech-world/",
+                "3 hours ago"
+            ],
+            [
+                "breakinglatest.news",
+                "https://www.breakinglatest.news/business/ministry-of-industry-and-information-technology-continue-to-advance-the-construction-of-5g-and-gigabit-optical-networks-appropriately-and-optimize-the-layout-of-computing-power-facilities_ifeng-com/",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://miro.medium.com/v2/resize:fit:1024/1*NeD-BPD4VLRdhFhM3jpcjw.png"
+    },
+    {
+        "Title": "NVIDIA's Collaboration with Japan on ABCI-Q Quantum Supercomputer",
+        "Summary": "NVIDIA has partnered with Japan to work on the ABCI-Q Quantum Supercomputer, marking a significant step in the development of quantum computing capabilities (Wccftech).",
+        "sources": [
+            [
+                "Wccftech",
+                "https://wccftech.com/nvidia-japan-abci-q-quantum-supercomputer/",
+                "10 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.wccftech.com/wp-content/uploads/2024/04/NVIDIA-Japan-Supercomputer.jpg"
+    },
+    {
+        "Title": "Quantum Cryptography and the Future of Jobs in Tech",
+        "Summary": "Quantum cryptography is identified as a key technology for the future Internet, ensuring unparalleled security in the cyber world (O'Reilly Media). Concurrently, the tech industry is evolving, promising new job opportunities that require novel skills and knowledge, particularly in advanced fields like quantum computing (Greater Kashmir).",
+        "sources": [
+            [
+                "O'Reilly Media",
+                "https://www.oreilly.com/library/view/quantum-computing-in/9781394166336/c10.xhtml",
+                "17 hours ago"
+            ],
+            [
+                "Greater Kashmir",
+                "https://www.greaterkashmir.com/op-ed-2/exploring-new-jobs-in-the-high-tech-world/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.oreilly.com/library/cover/9781394166336/1200w630h/"
+    }
+]

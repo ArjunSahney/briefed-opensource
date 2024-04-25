@@ -1,0 +1,198 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "U.S. Moves Towards TikTok Ban Amid Security Concerns",
+            "Summary": "The U.S. House of Representatives has passed a bill aimed at banning TikTok, highlighting national security concerns due to its Chinese ownership and the potential collection of vast amounts of user data (Euronews.com, USA Today). TikTok criticizes the move, arguing it infringes on free speech rights, would harm businesses, and negatively impact the U.S. economy (ABC News - Breaking News, Latest News and Videos, USA Today). There's also discussion around forcing a sale of TikTok rather than an outright ban, with the Biden administration expressing concerns over data collection but not advocating for a complete prohibition (USA Today). TikTok's CEO vows to fight the legislation, which has been attacked as unconstitutional by several civil society groups (CNN).",
+            "sources": [
+                [
+                    "Euronews.com",
+                    "https://www.euronews.com/next/2024/04/21/could-tiktok-be-banned-in-the-us",
+                    "9 hours ago"
+                ],
+                [
+                    "USA Today",
+                    "https://www.usatoday.com/story/money/2024/04/19/tiktok-ban-bill-law/73377253007/",
+                    "5 hours ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/20/tech/tiktok-ban-explained/index.html",
+                    "20 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/rockcms/2022-11/221110-tiktok-logo-mjf-1624-97f2ef.jpg"
+        },
+        {
+            "Title": "Global Reaction to Reported US Sanctions Plan Against Israeli Military Unit",
+            "Summary": "Netanyahu has vowed to oppose any US sanctions targeting Israeli army units amid a brewing international controversy (BBC). Bloomberg highlights Netanyahu's condemnation of the US's reported plan to blacklist a military unit. Sky News details Iran's claims of power display in attacks on Israel and mentions Benny Gantz's plea to the US for reconsideration on sanctions against the IDF's Netzah Yehuda battalion. The Economic Times and The Globe and Mail report on Israel's rebuke of the US's reported sanctions plan, emphasizing the strain it could put on US-Israel relations and accusations of antisemitism (The Economic Times, The Globe and Mail).",
+            "sources": [
+                [
+                    "BBC",
+                    "https://www.bbc.co.uk/news/world-middle-east-68870273",
+                    "1 hour ago"
+                ],
+                [
+                    "The Economic Times",
+                    "https://m.economictimes.com/news/defence/complete-madness-israel-rebukes-us-over-reported-sanctions-plan-against-idf-unit/articleshow/109479902.cms",
+                    "6 hours ago"
+                ],
+                [
+                    "The Globe and Mail",
+                    "https://www.theglobeandmail.com/world/article-netanyahu-says-he-will-fight-any-sanctions-on-israeli-army-battalions/",
+                    "6 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/28E6/production/_133207401_mediaitem133207400.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "Google": [
+            {
+                "Title": "Recent Updates in Google's Ecosystem",
+                "Summary": "Google Pixel commits to 7 years of updates, implying longevity and sustained support similar to Apple's approach to iPhone updates, but may also exclude older models from new features despite updating the OS (9to5Google). Additionally, Google introduces a screenshot feature to its 'Circle to Search' function, enhancing user experience in web searches (Gizchina.com).",
+                "sources": [
+                    [
+                        "9to5Google",
+                        "https://9to5google.com/2024/04/21/google-pixel-7-years-updates-meaning/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "Gizchina.com",
+                        "https://www.gizchina.com/2024/04/21/googles-circle-to-search-adds-screenshot-feature/",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2024/03/Google-Pixel-8-Pro-Mint-camera-bar.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1"
+            }
+        ],
+        "Quantum Computing": [
+            {
+                "Title": "Exploring Innovations and Career Opportunities in Tech's Rapid Evolution",
+                "Summary": "Cloud-based quantum computing software represents a groundbreaking shift in the future of technology, offering unprecedented computational power and capabilities (Medium). Meanwhile, the tech industry's evolution is creating new job opportunities, requiring skills adapted to these emerging technologies and infrastructures (Greater Kashmir). Furthermore, advancements in 5G and Gigabit optical networks underscore the critical importance of modernizing infrastructure to foster high-quality development and sustain technological progress (breakinglatest.news).",
+                "sources": [
+                    [
+                        "Medium",
+                        "https://medium.com/@talalhabib/the-future-of-technology-an-insight-into-cloud-based-quantum-computing-software-4122663eae75?responsesOpen=true&sortBy=REVERSE_CHRON",
+                        "20 hours ago"
+                    ],
+                    [
+                        "Greater Kashmir",
+                        "https://www.greaterkashmir.com/op-ed-2/exploring-new-jobs-in-the-high-tech-world/",
+                        "3 hours ago"
+                    ],
+                    [
+                        "breakinglatest.news",
+                        "https://www.breakinglatest.news/business/ministry-of-industry-and-information-technology-continue-to-advance-the-construction-of-5g-and-gigabit-optical-networks-appropriately-and-optimize-the-layout-of-computing-power-facilities_ifeng-com/",
+                        "12 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://miro.medium.com/v2/resize:fit:1024/1*NeD-BPD4VLRdhFhM3jpcjw.png"
+            },
+            {
+                "Title": "NVIDIA's Collaboration with Japan on ABCI-Q Quantum Supercomputer",
+                "Summary": "NVIDIA has partnered with Japan to work on the ABCI-Q Quantum Supercomputer, marking a significant step in the development of quantum computing capabilities (Wccftech).",
+                "sources": [
+                    [
+                        "Wccftech",
+                        "https://wccftech.com/nvidia-japan-abci-q-quantum-supercomputer/",
+                        "10 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cdn.wccftech.com/wp-content/uploads/2024/04/NVIDIA-Japan-Supercomputer.jpg"
+            },
+            {
+                "Title": "Quantum Cryptography and the Future of Jobs in Tech",
+                "Summary": "Quantum cryptography is identified as a key technology for the future Internet, ensuring unparalleled security in the cyber world (O'Reilly Media). Concurrently, the tech industry is evolving, promising new job opportunities that require novel skills and knowledge, particularly in advanced fields like quantum computing (Greater Kashmir).",
+                "sources": [
+                    [
+                        "O'Reilly Media",
+                        "https://www.oreilly.com/library/view/quantum-computing-in/9781394166336/c10.xhtml",
+                        "17 hours ago"
+                    ],
+                    [
+                        "Greater Kashmir",
+                        "https://www.greaterkashmir.com/op-ed-2/exploring-new-jobs-in-the-high-tech-world/",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.oreilly.com/library/cover/9781394166336/1200w630h/"
+            }
+        ],
+        "U.S. Interest Rates": [
+            {
+                "Title": "Global Economic Trends and Market Impacts",
+                "Summary": "The IMF's World Economic Outlook indicates monetary policy impacts vary based on factors like mortgage types and household debt, suggesting a nuanced approach to financial stability (International Monetary Fund). US stock futures fall, influenced by Federal Reserve statements and Netflix's poor performance outlook (MSN). In the UK, concerns rise as a popular clothing store hints at financial troubles, alongside issues with benefits adjustments and skepticism around political stock market benefits (Yahoo News UK). GBP/EUR rates are influenced by UK inflation data and ECB's potential rate cuts, highlighting a week of crucial economic data (Exchange Rates Org UK). AI stocks are significantly impacting global markets, underlining the growing influence of technology on investments (\n\ub9e4\uc77c\uacbd\uc81c).",
+                "sources": [
+                    [
+                        "International Monetary Fund",
+                        "https://www.imf.org/en/Publications/WEO/Issues/2024/04/16/world-economic-outlook-april-2024",
+                        "16 minutes ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-gb/money/other/stock-market-today-s-p-500-extends-losing-streak-on-nvidia-netflix-slump/ar-AA1ngLgy",
+                        "4 hours ago"
+                    ],
+                    [
+                        "Yahoo News UK",
+                        "https://uk.news.yahoo.com/popular-clothing-store-boss-issues-073943494.html",
+                        "16 hours ago"
+                    ],
+                    [
+                        "Exchange Rates Org UK",
+                        "https://www.exchangerates.org.uk/news/40570/2024-04-21-pound-to-euro-forecast-for-week-ahead-gbp-eur-slips-as-boe-june-cut-expected.html",
+                        "24 minutes ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.imf.org/-/media/Images/IMF/News/twitter-seal.ashx"
+            },
+            {
+                "Title": "Global Financial Outlook and Market Influences",
+                "Summary": "Upcoming events and trends, including Q4 results, US economic indicators, and escalation of the Israel-Iran conflict, are eyed by investors for potential impacts on stock markets. Rising oil prices, influenced by Middle East tensions, are identified as a key factor for economic forecasts. India's long-term growth opportunity is highlighted despite current market uncertainties, with strong bullish momentum observed in the Bank Nifty index. Escalation between Iran and Israel triggers profit booking due to increased market uncertainty. (mint)",
+                "sources": [
+                    [
+                        "mint",
+                        "https://www.livemint.com/market/stock-market-news/week-ahead-q4-results-iran-israel-conflict-global-cues-among-key-market-triggers-this-week-11713633099880.html",
+                        "20 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cdn.24.co.za/files/Cms/General/d/9741/c6f741af1052429890bb79b477030d0d.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Real Madrid vs Barcelona - El Clasico Overview",
+            "Summary": "Real Madrid and Barcelona faced off in La Liga, with the match ending in a 2-2 draw, featuring a controversial non-awarded ghost goal for Barcelona, impacting their title race aspirations (Marca.com, The Athletic). The game highlighted key moments and performances, including late equalizing efforts and the strain of Real Madrid's recent fixtures (The Athletic). Starting line-ups and substitutions for both teams were detailed, amid injury implications and tactical decisions influencing the match's dynamics (Marca.com, Barca Blaugranes). The encounter was extensively covered live, reflecting its significance in the football world (TNT Sports, Al Jazeera).",
+            "sources": [
+                [
+                    "Marca.com",
+                    "https://www.marca.com/en/soccer/laliga/r-madrid-barcelona/2024/04/21/01_0101_20240421_186_178-live.html",
+                    "60 minutes ago"
+                ],
+                [
+                    "The Athletic",
+                    "https://theathletic.com/live-blogs/real-madrid-barcelona-live-updates-el-clasico-score-result/FEVfykoVvrj2/",
+                    "9 minutes ago"
+                ],
+                [
+                    "Barca Blaugranes",
+                    "https://www.barcablaugranes.com/2024/4/21/24135723/real-madrid-barcelona-live-stream-lineups-time-tv-channel-how-to-watch-el-clasico-online",
+                    "1 hour ago"
+                ],
+                [
+                    "TNT Sports",
+                    "https://www.tntsports.co.uk/football/la-liga/2023-2024/live-real-madrid-fc-barcelona_mtc1444843/live-commentary.shtml",
+                    "3 hours ago"
+                ],
+                [
+                    "Al Jazeera",
+                    "https://www.aljazeera.com/sports/liveblog/2024/4/21/live-real-madrid-vs-barcelona-el-clasico-la-liga",
+                    "27 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://i.eurosport.com/2024/04/18/3951458-80242868-2560-1440.jpg"
+        }
+    ],
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/Inika.mp3"
+}

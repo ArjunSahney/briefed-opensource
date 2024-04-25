@@ -1,0 +1,73 @@
+[
+    {
+        "Title": "Recent Israeli Strikes in Rafah: A Tragic Toll",
+        "Summary": "Recent Israeli airstrikes on Rafah, a city in the southern Gaza Strip, resulted in at least 22 fatalities, 18 of whom were children. This tragedy has coincided with the United States approving a significant military aid package for Israel, intensifying concerns over the escalating violence in the region. These events underscore the critical juncture at which the conflict stands, especially as international figures express grave concerns and call for strategic reconsiderations. (Euronews.com, AP News, The New Arab, NPR)",
+        "sources": [
+            [
+                "Euronews.com",
+                "https://www.euronews.com/2024/04/21/at-least-22-people-killed-18-of-them-children-in-overnight-israeli-airstrike-on-rafah",
+                "2 hours ago"
+            ],
+            [
+                "AP News",
+                "https://apnews.com/article/israel-hamas-war-news-04-21-2024-8c027f2587c2c433d0fde41b63a0e0c3",
+                "52 minutes ago"
+            ],
+            [
+                "The New Arab",
+                "https://www.newarab.com/news/gaza-war-strikes-rafah-kill-22-us-approves-israel-aid",
+                "6 hours ago"
+            ],
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/21/1246134887/israeli-strikes-on-southern-gaza-city-of-rafah-kill-13-including-nine-children",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://static.euronews.com/articles/stories/08/38/74/00/1200x675_cmsv2_13bd281b-9f78-5191-a8b8-45b91586db5e-8387400.jpg"
+    },
+    {
+        "Title": "U.S. Moves Towards TikTok Ban Amid Security Concerns",
+        "Summary": "The U.S. House of Representatives has passed a bill aimed at banning TikTok, highlighting national security concerns due to its Chinese ownership and the potential collection of vast amounts of user data (Euronews.com, USA Today). TikTok criticizes the move, arguing it infringes on free speech rights, would harm businesses, and negatively impact the U.S. economy (ABC News - Breaking News, Latest News and Videos, USA Today). There's also discussion around forcing a sale of TikTok rather than an outright ban, with the Biden administration expressing concerns over data collection but not advocating for a complete prohibition (USA Today). TikTok's CEO vows to fight the legislation, which has been attacked as unconstitutional by several civil society groups (CNN).",
+        "sources": [
+            [
+                "Euronews.com",
+                "https://www.euronews.com/next/2024/04/21/could-tiktok-be-banned-in-the-us",
+                "9 hours ago"
+            ],
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/money/2024/04/19/tiktok-ban-bill-law/73377253007/",
+                "5 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/20/tech/tiktok-ban-explained/index.html",
+                "20 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_social_share_1024x768_scale,f_auto,q_auto:best/rockcms/2022-11/221110-tiktok-logo-mjf-1624-97f2ef.jpg"
+    },
+    {
+        "Title": "Global Reaction to Reported US Sanctions Plan Against Israeli Military Unit",
+        "Summary": "Netanyahu has vowed to oppose any US sanctions targeting Israeli army units amid a brewing international controversy (BBC). Bloomberg highlights Netanyahu's condemnation of the US's reported plan to blacklist a military unit. Sky News details Iran's claims of power display in attacks on Israel and mentions Benny Gantz's plea to the US for reconsideration on sanctions against the IDF's Netzah Yehuda battalion. The Economic Times and The Globe and Mail report on Israel's rebuke of the US's reported sanctions plan, emphasizing the strain it could put on US-Israel relations and accusations of antisemitism (The Economic Times, The Globe and Mail).",
+        "sources": [
+            [
+                "BBC",
+                "https://www.bbc.co.uk/news/world-middle-east-68870273",
+                "1 hour ago"
+            ],
+            [
+                "The Economic Times",
+                "https://m.economictimes.com/news/defence/complete-madness-israel-rebukes-us-over-reported-sanctions-plan-against-idf-unit/articleshow/109479902.cms",
+                "6 hours ago"
+            ],
+            [
+                "The Globe and Mail",
+                "https://www.theglobeandmail.com/world/article-netanyahu-says-he-will-fight-any-sanctions-on-israeli-army-battalions/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/28E6/production/_133207401_mediaitem133207400.jpg"
+    }
+]
