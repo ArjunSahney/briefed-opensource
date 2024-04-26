@@ -1,0 +1,61 @@
+[
+    {
+        "Title": "Global Political Tensions and Humanitarian Efforts",
+        "Summary": "Pro-Palestinian protests at U.S. universities call for an end to military aid to Israel, highlighting concerns of anti-Semitism among ruling class accusations (Xinhua). Concurrently, the U.S. aids in constructing a new port in Gaza to facilitate food delivery amid security concerns and opposition from Hamas, viewing any guarding forces as an occupying aggression (Metro US). Meanwhile, North Korea's delegation trip to Iran raises suspicions of strengthening military ties, marking a rare move that could alter regional security dynamics (South China Morning Post).",
+        "sources": [
+            [
+                "Xinhua",
+                "https://english.news.cn/20240425/80cbb3890bfd40a4b268a7afcbdd5131/c.html",
+                "15 hours ago"
+            ],
+            [
+                "Metro US",
+                "https://www.metro.us/satellite-photos-show-new-port-construction-in-gaza-strip-for-us-led-aid-operation/",
+                "7 hours ago"
+            ],
+            [
+                "South China Morning Post",
+                "https://amp.scmp.com/week-asia/politics/article/3260226/alarming-north-korea-sends-delegation-iran-amid-suspicions-greater-military-cooperation",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.metro.us/wp-content/uploads/2024/04/1319263-Israel_Palestinians_Aid_Port_51078.jpg"
+    },
+    {
+        "Title": "Blinken's Call for US-China Relationship Management",
+        "Summary": "US Secretary of State Antony Blinken emphasized the importance of managing US-China differences 'responsibly,' signaling a diplomatic approach ahead of expected challenging talks between the two nations. His remarks underscore a focus on diplomacy and a charm offensive during his visit to Beijing, China (France 24; The Hindu; KULR-TV).",
+        "Image Filepath": "https://th-i.thgim.com/public/incoming/jywg14/article68107472.ece/alternates/LANDSCAPE_1200/US_China_Blinken_18135.jpg"
+    },
+    {
+        "Title": "U.S. Aid and Technology in Ukraine's Conflict",
+        "Summary": "New American technology initially gave Ukraine an edge, but was eventually overwhelmed due to scale (The New York Times). The U.S. aims to bolster Ukraine with a $61 billion aid package, signaling significant military and technological support (BBC). Ukrainian troops, positioned in the east and fatigued by conflict, anticipate the arrival of fresh U.S. weaponry to regain momentum (RFI). Drone and AI technologies, developed by researchers including involvement from Binghamton University, show promise in detecting dangerous land mines across Ukraine, offering safer demining strategies (IEEE Spectrum). After considerations, the U.S. decided to send long-range missiles to Ukraine, a move included in the newly signed $61 billion aid package, despite previous hesitations (CNN).",
+        "sources": [
+            [
+                "The New York Times",
+                "https://www.nytimes.com/2024/04/23/us/politics/ukraine-new-american-technology.html",
+                "5 hours ago"
+            ],
+            [
+                "BBC",
+                "https://www.bbc.com/news/world-europe-68872783",
+                "9 hours ago"
+            ],
+            [
+                "RFI",
+                "https://www.rfi.fr/en/international-news/20240425-in-east-ukraine-exhausted-troops-eagerly-await-new-us-weapons",
+                "10 hours ago"
+            ],
+            [
+                "IEEE Spectrum",
+                "https://spectrum.ieee.org/ukraine-drones",
+                "8 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/24/politics/us-secretly-sent-long-range-missiles-to-ukraine/index.html",
+                "20 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/FEE8/production/_128365256_weapons_promo_v2.png"
+    }
+]

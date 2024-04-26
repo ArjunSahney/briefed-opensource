@@ -456,3 +456,4 @@ def in_brief(keyword, num_briefs):
 # results = results[:5]
 # print(json.dumps(results, indent=4))
 # print(get_trending_topics(5))
+in_brief("US Politics", 4)
