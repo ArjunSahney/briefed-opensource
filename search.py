@@ -39,6 +39,14 @@ DEFAULT_NUM_ARTICLES_PER_BRIEF = 5
 
 # -------------------------------- PRIMARY SEARCH -------------------------------- #
 
+def get_improved_title_using_snippet(title, snippet):
+  optimize_title_prompt = f"""Given the following title and snippett from a news article, optimize the title for the article to be descriptive and explanatory. Remove any clickbait or buzz words. Return response in this form {{"title": title}}.
+  
+  title: {title}
+  snippet: {snippet}
+  """
+  get_lepton_response(optimize_title_prompt, json_mode=True)
+  
 def get_general_keyword(keyword):
   """Use llama to generalize a specific news topic"""
 

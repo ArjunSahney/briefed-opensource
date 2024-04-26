@@ -21,6 +21,7 @@ https://www.notion.so/API-Keys-66bf13bb561e42c08893108e2b0c8c02 for API keys
 
 import os
 from openai import OpenAI
+import openai
 from newspaper import Article
 from newspaper.article import ArticleException
 import requests
@@ -30,7 +31,7 @@ from serpapi import GoogleSearch
 __author__ = "Ram Gorthi, DJun Sahney"
 __version__ = "1.0"
 
-def get_gpt_response(prompt, gpt_model="gpt-4", response_format=""):
+def get_gpt_response(prompt, gpt_model="gpt-4", json_mode=False, response_format=""):
   """Encapsulates GPT prompting
   User provides prompt and gets only the text of GPT response
 
@@ -104,6 +105,49 @@ def get_togetherAI_response(prompt, gpt_model="", response_format=""):
 
   return (chat_completion.choices[0].message.content)
 
+
+def get_lepton_response(prompt, json_mode = False, max_tokens=None):
+  """Gets response from mistral-7b through lepton
+  
+  Model selection can be modified within the function. Currently uses Mistral-7B.
+  
+  Parameters
+  ----------
+  prompt
+  json_mode : boolean, defaults false
+  
+  Returns
+  -------
+  response as string
+  """
+  
+  client = openai.OpenAI(
+    base_url="https://mistral-7b.lepton.run/api/v1/",
+    api_key=os.environ.get('lepton_api_key')
+  )
+
+  completion = client.chat.completions.create(
+    model="mistral-7b",
+    messages=[
+        {"role": "user", "content": prompt},
+    ],
+    # max_tokens=128,
+    stream=True,
+  )
+  if json_mode:
+    completion["response_format"] = {"type": "json_object"}
+  if max_tokens:
+    completion["max_tokens"] = max_tokens
+
+  response = ""
+  for chunk in completion:
+      if not chunk.choices:
+          continue
+      content = chunk.choices[0].delta.content
+      if content:
+          response = response + content
+  return response
+  
 
 def get_top_stories(query, num_results):
   api_key=os.environ.get("serp_api_key")

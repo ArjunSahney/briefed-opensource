@@ -87,14 +87,25 @@ Return response in JSON of this format
 {relevant_titles}
 """
 
+title_snip = """"
+"title": "\u2018Waiting for Trump\u2019: Viktor Orb\u00e1n hopes US election will change his political fortunes",
+"snippet": "Exclusive: Hungary's PM and EU's most isolated leader says he is pursuing 'friendship with everybody' \u2013 particularly the former US president.",
+"""
+
+optimize_search_wordsPrompt = f"""Given the following title and snippett from a news article, optimize the title for the article to be descriptive and explanatory. Remove any clickbait or buzz words. Return response in this form {{"title": title}}.
+
+{title_snip}
+
+"""
+
 completion = client.chat.completions.create(
     model="mistral-7b",
     messages=[
-        {"role": "user", "content": clusteringPrompt},
+        {"role": "user", "content": optimize_search_wordsPrompt},
     ],
     # max_tokens=128,
     stream=True,
-    response_format={ "type": "json_object" },
+    response_format={ "type": "json_object" }, # Switch JSON mode ON for relevancy and clustering prompts
 )
 
 for chunk in completion:
