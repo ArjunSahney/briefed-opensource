@@ -1,0 +1,80 @@
+[
+    {
+        "Title": "Pro-Palestine Protests at UT Austin Lead to Arrests Amid Tensions",
+        "Summary": "Over 20 individuals were arrested during a pro-Palestine protest at UT Austin, with more than 100 troopers deployed on orders from Governor Greg Abbott to prevent unlawful assembly. The event has drawn criticism and discussions on free speech, with some students and faculty questioning the necessity of the escalated law enforcement response, and others expressing concerns over campus safety and the right to protest. Opinions among participants and observers vary, highlighting the complex dynamics of political activism, campus policy, and state involvement in public demonstrations (The Texas Tribune, KXAN Austin, KVUE, Austin American-Statesman).",
+        "sources": [
+            [
+                "The Texas Tribune",
+                "https://www.texastribune.org/2024/04/24/ut-austin-israel-hamas-war-palestine-student-arrests/",
+                "7 hours ago"
+            ],
+            [
+                "KXAN Austin",
+                "https://www.kxan.com/news/texas/ut-austin-students-to-protest-in-support-of-gaza-with-class-walk-out-and-campus-sit-in/",
+                "9 hours ago"
+            ],
+            [
+                "KVUE",
+                "https://www.kvue.com/article/news/nation-world/israel-hamas-conflict/ut-palestine-protest/269-9fa17214-53c1-47e1-965e-629c0d22f1c9",
+                "8 hours ago"
+            ],
+            [
+                "Austin American-Statesman",
+                "https://www.statesman.com/story/news/local/2024/04/24/ut-austin-campus-student-protest-arrest-pro-palestine-protests-walk-out/73425149007/",
+                "18 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://thumbnails.texastribune.org/FUju99o27u0MvHIob62i1TGg7r8=/1200x630/filters:quality(95):focal(0x0:3000x1543)/static.texastribune.org/media/files/0f29088d0b5a176f608b976d357944df/2024%200424%20UT%20Walkout%20JS%2006.JPG"
+    },
+    {
+        "Title": "Arizona House Moves to Repeal 1864 Abortion Ban",
+        "Summary": "The Arizona House of Representatives has voted to repeal the state's 1864 abortion ban, which precedes the 15-week restriction, marking a pivotal legislative shift (CNN). This decision highlights a complex political landscape, with unexpected alliances emerging among Democrats, some Republicans, and Trump allies, reflecting deep GOP anxieties over the politics of abortion bans (Washington Post). Despite this development, the state's 15-week abortion limit remains intact, underscoring the ongoing restrictions on abortion services in Arizona (CNN).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/24/politics/arizona-house-abortion-law/index.html",
+                "2 hours ago"
+            ],
+            [
+                "Washington Post",
+                "https://www.washingtonpost.com/politics/2024/04/24/arizona-abortion-ban/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240424-arizona-abortion-ew-1225p-716592.jpg"
+    },
+    {
+        "Title": "Mike Johnson Faces Opposition at Columbia University Amid Protests",
+        "Summary": "Mike Johnson was met with strong opposition and booing from Columbia University students during his speech addressing antisemitism and calling for the National Guard's involvement, amid a backdrop of intensified pro-Palestinian protests and a reported increase in antisemitic threats. The controversy surrounding his visit aligns with broader campus tensions, with Columbia offering virtual class options in response to safety concerns and extending deadlines to address protest encampments (The Daily Beast). Johnson's call for the university president's resignation underscores the political and social complexities facing educational institutions amid the Israel-Hamas conflict (CNN, The Jerusalem Post).",
+        "sources": [
+            [
+                "The Daily Beast",
+                "https://www.thedailybeast.com/booing-columbia-students-drown-out-mike-johnsons-call-for-national-guard",
+                "4 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/24/politics/johnson-columbia-university-president/index.html",
+                "2 hours ago"
+            ],
+            [
+                "The Jerusalem Post",
+                "https://www.jpost.com/american-politics/article-798541",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_881,w_1566,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1713995009/2024-04-24T202510Z_849420691_RC28D7AU8Q8W_RTRMADP_3_USA-CONGRESS-NEW-YORK_syxytq_gwnkll"
+    },
+    {
+        "Title": "McKinsey Under Criminal Investigation for Its Role in the Opioid Crisis",
+        "Summary": "McKinsey is reportedly facing a criminal investigation in the U.S. for its advisory role to Purdue Pharma and other drug manufacturers, concerning its potential contribution to the opioid crisis. Federal prosecutors are specifically examining the firm's involvement with the opioid industry (The Guardian).",
+        "sources": [
+            [
+                "The Guardian",
+                "https://www.theguardian.com/us-news/2024/apr/24/mckinsey-criminal-investigation-opioids-crisis",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://i.guim.co.uk/img/media/14fe688307662f40a8e4ff6433faf83b03ed0261/0_163_5000_3000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bb4cbc368d4703072080f52cd8b01c36"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "Title": "Reggie Bush's Heisman Trophy Reinstated after 14 Years",
+        "Summary": "Reggie Bush's Heisman Trophy was reinstated 14 years after he forfeited it due to NCAA penalties for receiving impermissible benefits. The Heisman Trust's decision was influenced by the changing landscape of college athletics, particularly the recognition and compensation of student-athletes. The Trust highlighted that current attitudes and legal perspectives towards athlete compensation necessitated the return of Bush's trophy (The Athletic). USC's supportive response included a surprise party for Bush, indicating institutional backing for the reinstatement (The Athletic). The Heisman Trust's process considered shifts in the college football landscape and legal challenges to the NCAA's amateurism model (Yardbarker).",
+        "sources": [
+            [
+                "The Athletic",
+                "https://theathletic.com/5441674/2024/04/24/reggie-bush-heisman-trophy-reinstated/",
+                "7 hours ago"
+            ],
+            [
+                "Yardbarker",
+                "https://www.yardbarker.com/nfl/articles/amp/bush_heisman_trophy_restoration_is_conflicting/s1_17106_40276636",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.theathletic.com/app/uploads/2024/04/24094956/reggie-bush-heisman-scaled.jpg"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "Title": "Nvidia's Acquisition of Run:ai",
+        "Summary": "Nvidia is set to enhance its AI capabilities by purchasing Run:ai, an Israeli AI software startup known for making AI chips more efficient. This strategic move aims to bolster Nvidia's position in the AI sector (Investopedia, Quartz, Bloomberg).",
+        "sources": [
+            [
+                "Investopedia",
+                "https://www.investopedia.com/nvidia-buys-israeli-software-startup-to-boost-its-ai-offerings-8638185",
+                "8 hours ago"
+            ],
+            [
+                "Quartz",
+                "https://qz.com/nvidia-buying-ai-software-startup-run-ai-1851432821",
+                "8 hours ago"
+            ],
+            [
+                "Bloomberg",
+                "https://www.bloomberg.com/news/articles/2024-04-24/nvidia-agrees-to-acquire-israeli-ai-software-provider-run-ai",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.investopedia.com/thmb/ZNg5A938XnZnOeqJk7y9NyaYi3k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1494623399-f6475c7a865a45beaa738e91d43af756.jpg"
+    },
+    {
+        "Title": "Interview With CBC About The Voyager 1 Interstellar Software Repair",
+        "Summary": "An interview with CBC discussed the technical feat of conducting software repairs on the Voyager 1 spacecraft, which has traveled beyond the confines of our Solar System (the Astrobiology Web).",
+        "sources": [
+            [
+                "the Astrobiology Web",
+                "https://astrobiology.com/2024/04/interview-with-cbc-about-the-voyager-1-interstellar-software-repair.html",
+                "6 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Huawei's Strategic Move into Intelligent Driving Software",
+        "Summary": "Huawei intensifies its presence in the autonomous driving sector with the release of a new intelligent driving software, marking a significant step that could challenge industry leaders like Tesla (Asia Financial, Asharq Al-awsat - English, Benzinga). This launch underscores Huawei's expansion beyond its traditional telecommunications domain, venturing into the competitive intelligent vehicle market (CIO News, MSN).",
+        "sources": [
+            [
+                "Asia Financial",
+                "https://www.asiafinancial.com/huawei-revs-up-intelligent-driving-push-with-software-launch",
+                "10 hours ago"
+            ],
+            [
+                "Asharq Al-awsat - English",
+                "https://english.aawsat.com/technology/4982116-huawei-launches-new-software-brand-intelligent-driving?amp",
+                "20 hours ago"
+            ],
+            [
+                "Benzinga",
+                "https://www.benzinga.com/news/24/04/38404191/threat-for-tesla-apples-chinese-rival-huawei-launches-new-software-for-intelligent-driving",
+                "12 hours ago"
+            ],
+            [
+                "CIO News",
+                "https://cionews.co.in/huawei-of-china-introduces-a-new-line/",
+                "14 hours ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-ae/news/techandscience/china-s-huawei-launches-new-software-for-intelligent-driving/ar-AA1nydWJ",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.asiafinancial.com/wp-content/uploads/2024/04/The-Huawei-logo-is-seen-at-KubeCon-CloudNativeCon-Europe-in-Paris-Rs.jpeg"
+    },
+    {
+        "Title": "Review of Honor Magic V2 and V2 RSR Porsche Design",
+        "Summary": "The Honor Magic V2 excels in daylight and low-light photography, offering commendable performance across different modes and camera options, including portrait and telephoto, and outshines with its rear camera for selfies due to superior color quality and dynamic range (GSMArena.com).",
+        "sources": [
+            [
+                "GSMArena.com",
+                "https://m.gsmarena.com/honor_magic_v2_rsr_porsche_design-review-2694p5.php",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://fdn.gsmarena.com/imgroot/reviews/24/honor-magic-v2/-728x314/gsmarena_100.jpg"
+    }
+]

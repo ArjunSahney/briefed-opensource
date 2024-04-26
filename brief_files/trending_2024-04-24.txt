@@ -1,0 +1,55 @@
+[
+    {
+        "Title": "Tesla's Stock Surge Explained",
+        "Summary": "Tesla's stock surged due to optimism for its affordable car lineup, despite a decrease in net income and missed earnings expectations (Euronews.com). Investor sentiment was boosted by Musk's announcement of accelerating the launch of cheaper cars and past difficulties, including a disappointing Q4 report and unclear 2024 delivery guidance (Yahoo Finance). These developments reflect broader market trends of impactful earnings reports and forecasts seen across various sectors (Investopedia).",
+        "sources": [
+            [
+                "Euronews.com",
+                "https://www.euronews.com/business/2024/04/24/teslas-stock-surges-on-optimism-for-musks-affordable-car-line-up",
+                "20 hours ago"
+            ],
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/news/tesla-earnings-q1-175358835.html",
+                "6 hours ago"
+            ],
+            [
+                "Investopedia",
+                "https://www.investopedia.com/dow-jones-today-04242024-8638004",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://static.euronews.com/articles/stories/08/39/40/86/1200x675_cmsv2_4ad926e5-9550-5243-9555-d7caa5e670ff-8394086.jpg"
+    }
+, 
+    {
+        "Title": "Reggie Bush's Heisman Trophy Reinstated after 14 Years",
+        "Summary": "Reggie Bush's Heisman Trophy was reinstated 14 years after he forfeited it due to NCAA penalties for receiving impermissible benefits. The Heisman Trust's decision was influenced by the changing landscape of college athletics, particularly the recognition and compensation of student-athletes. The Trust highlighted that current attitudes and legal perspectives towards athlete compensation necessitated the return of Bush's trophy (The Athletic). USC's supportive response included a surprise party for Bush, indicating institutional backing for the reinstatement (The Athletic). The Heisman Trust's process considered shifts in the college football landscape and legal challenges to the NCAA's amateurism model (Yardbarker).",
+        "sources": [
+            [
+                "The Athletic",
+                "https://theathletic.com/5441674/2024/04/24/reggie-bush-heisman-trophy-reinstated/",
+                "7 hours ago"
+            ],
+            [
+                "Yardbarker",
+                "https://www.yardbarker.com/nfl/articles/amp/bush_heisman_trophy_restoration_is_conflicting/s1_17106_40276636",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.theathletic.com/app/uploads/2024/04/24094956/reggie-bush-heisman-scaled.jpg"
+    }
+, 
+    {
+        "Title": "Exploring Opportunities in Washington with WilDCats at the Capitol",
+        "Summary": "Since 2016, the WilDCats at the Capitol program has been facilitating pivotal Washington, D.C., internships for University of Kentucky students, thanks to a partnership between the Office of Federal Relations, the Department of Political Science, and the Student Government Association, highlighting its importance in practical education (UKNow).",
+        "sources": [
+            [
+                "UKNow",
+                "https://uknow.uky.edu/campus-news/students-explore-opportunities-washington-through-wildcats-capitol",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://uknow.uky.edu/sites/default/files/styles/facebook/public/image002%20Large.jpeg?itok=ez8NYXM-"
+    }
+]

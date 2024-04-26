@@ -1,0 +1,185 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Pro-Palestine Protests at UT Austin Lead to Arrests Amid Tensions",
+            "Summary": "Over 20 individuals were arrested during a pro-Palestine protest at UT Austin, with more than 100 troopers deployed on orders from Governor Greg Abbott to prevent unlawful assembly. The event has drawn criticism and discussions on free speech, with some students and faculty questioning the necessity of the escalated law enforcement response, and others expressing concerns over campus safety and the right to protest. Opinions among participants and observers vary, highlighting the complex dynamics of political activism, campus policy, and state involvement in public demonstrations (The Texas Tribune, KXAN Austin, KVUE, Austin American-Statesman).",
+            "sources": [
+                [
+                    "The Texas Tribune",
+                    "https://www.texastribune.org/2024/04/24/ut-austin-israel-hamas-war-palestine-student-arrests/",
+                    "7 hours ago"
+                ],
+                [
+                    "KXAN Austin",
+                    "https://www.kxan.com/news/texas/ut-austin-students-to-protest-in-support-of-gaza-with-class-walk-out-and-campus-sit-in/",
+                    "9 hours ago"
+                ],
+                [
+                    "KVUE",
+                    "https://www.kvue.com/article/news/nation-world/israel-hamas-conflict/ut-palestine-protest/269-9fa17214-53c1-47e1-965e-629c0d22f1c9",
+                    "8 hours ago"
+                ],
+                [
+                    "Austin American-Statesman",
+                    "https://www.statesman.com/story/news/local/2024/04/24/ut-austin-campus-student-protest-arrest-pro-palestine-protests-walk-out/73425149007/",
+                    "18 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://thumbnails.texastribune.org/FUju99o27u0MvHIob62i1TGg7r8=/1200x630/filters:quality(95):focal(0x0:3000x1543)/static.texastribune.org/media/files/0f29088d0b5a176f608b976d357944df/2024%200424%20UT%20Walkout%20JS%2006.JPG"
+        },
+        {
+            "Title": "Arizona House Moves to Repeal 1864 Abortion Ban",
+            "Summary": "The Arizona House of Representatives has voted to repeal the state's 1864 abortion ban, which precedes the 15-week restriction, marking a pivotal legislative shift (CNN). This decision highlights a complex political landscape, with unexpected alliances emerging among Democrats, some Republicans, and Trump allies, reflecting deep GOP anxieties over the politics of abortion bans (Washington Post). Despite this development, the state's 15-week abortion limit remains intact, underscoring the ongoing restrictions on abortion services in Arizona (CNN).",
+            "sources": [
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/24/politics/arizona-house-abortion-law/index.html",
+                    "2 hours ago"
+                ],
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/politics/2024/04/24/arizona-abortion-ban/",
+                    "3 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240424-arizona-abortion-ew-1225p-716592.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "Politics": [
+            {
+                "Title": "Higher education initiative on Political Conspiracy Theories",
+                "Summary": "The Scuola Superiore Sant'Anna announced a new edition of the Summer School focusing on 'Political Conspiracy Theories', demonstrating a proactive educational approach towards understanding and dissecting the impact of conspiracy theories in political discourse (Scuola Superiore Sant'Anna).",
+                "sources": [
+                    [
+                        "Scuola Superiore Sant'Anna",
+                        "https://www.santannapisa.it/en/news/summer-school-political-conspiracy-theories",
+                        "14 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "20th Anniversary of EU's Largest Expansion Celebrated",
+                "Summary": "The 20th anniversary of the European Union's largest-ever expansion was marked by a series of events and ceremonies, emphasizing the positive impacts of EU membership. European Parliament President Metsola recalled the anticipation of Malta's accession, highlighting the benefits EU enlargement brought to member states (ANSA). A ceremony at the European Parliament, attended by key figures including former presidents Cox and Prodi, celebrated the historical expansion, inviting young citizens born in May 2004 to engage with leaders, underscoring the transformative effects of EU membership on countries like Estonia (The Sofia Globe). Additionally, Cyprus celebrated its accession anniversary, marking two decades of EU membership, which has significantly impacted the nation and its citizens, alongside other member states recognized at the event (Cyprus Mail).",
+                "sources": [
+                    [
+                        "ANSA",
+                        "https://www.ansa.it/nuova_europa/en/news/countries/kosovo/2024/04/24/metsola-at-anniversary-of-eu-enlargement-benefits-for-all_76493038-4d1a-4e84-8f6e-867e4ba1425a.html",
+                        "10 hours ago"
+                    ],
+                    [
+                        "The Sofia Globe",
+                        "https://sofiaglobe.com/2024/04/24/european-parliament-ceremony-celebrates-20th-anniversary-of-eus-largest-ever-expansion/",
+                        "14 hours ago"
+                    ],
+                    [
+                        "Cyprus Mail",
+                        "https://cyprus-mail.com/2024/04/24/first-cypriot-born-on-eu-accession-day-2004-joins-anniversary-celebrations/",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.ansa.it/webimages/img_700/2024/4/11/2bb7708a9b2edf6a2be3b4116686664e.jpg"
+            }
+        ],
+        "Software": [
+            {
+                "Title": "Nvidia's Acquisition of Run:ai",
+                "Summary": "Nvidia is set to enhance its AI capabilities by purchasing Run:ai, an Israeli AI software startup known for making AI chips more efficient. This strategic move aims to bolster Nvidia's position in the AI sector (Investopedia, Quartz, Bloomberg).",
+                "sources": [
+                    [
+                        "Investopedia",
+                        "https://www.investopedia.com/nvidia-buys-israeli-software-startup-to-boost-its-ai-offerings-8638185",
+                        "8 hours ago"
+                    ],
+                    [
+                        "Quartz",
+                        "https://qz.com/nvidia-buying-ai-software-startup-run-ai-1851432821",
+                        "8 hours ago"
+                    ],
+                    [
+                        "Bloomberg",
+                        "https://www.bloomberg.com/news/articles/2024-04-24/nvidia-agrees-to-acquire-israeli-ai-software-provider-run-ai",
+                        "12 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.investopedia.com/thmb/ZNg5A938XnZnOeqJk7y9NyaYi3k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1494623399-f6475c7a865a45beaa738e91d43af756.jpg"
+            },
+            {
+                "Title": "Interview With CBC About The Voyager 1 Interstellar Software Repair",
+                "Summary": "An interview with CBC discussed the technical feat of conducting software repairs on the Voyager 1 spacecraft, which has traveled beyond the confines of our Solar System (the Astrobiology Web).",
+                "sources": [
+                    [
+                        "the Astrobiology Web",
+                        "https://astrobiology.com/2024/04/interview-with-cbc-about-the-voyager-1-interstellar-software-repair.html",
+                        "6 hours ago"
+                    ]
+                ]
+            }
+        ],
+        "Bitcoin": [
+            {
+                "Title": "Recent Highlights in Cryptocurrency",
+                "Summary": "Bitcoin ETFs gain official approval in Hong Kong, emphasizing the region's progressive stance towards digital assets and promising enhanced access and security for investors starting April 30 (Cointelegraph, The Crypto Times). Meanwhile, CoinDesk discusses the broader impacts of ETFs on bitcoin's perception and accessibility, citing their potential to demystify the cryptocurrency for mainstream investors. Bitcoinsensus underscores the importance of fundamental analysis in cryptocurrency trading, promoting an informed approach to identifying long-term growth opportunities in the rapidly evolving market.",
+                "sources": [
+                    [
+                        "Cointelegraph",
+                        "https://cointelegraph.com/news/hong-kong-bitcoin-ether-etfs-start-trading-april-30",
+                        "11 hours ago"
+                    ],
+                    [
+                        "The Crypto Times",
+                        "https://www.cryptotimes.io/2024/04/24/hong-kong-to-debut-spot-bitcoin-ether-etfs-on-april-30/",
+                        "10 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/4WS3755O5NBQPHJQJE7T42HFQE.jpg"
+            },
+            {
+                "Title": "Auction of Notable Crypto Memorabilia and Market Movements",
+                "Summary": "A 'Buy Bitcoin' sign, famously displayed during Janet Yellen's testimony, was auctioned for $1 million, highlighting the item's symbolic significance in the crypto community (Bloomberg, Bitcoin.com News). In another development, FTX is planning to sell its Solana holdings through a blind auction, indicating strategic asset liquidation amid market observations (crypto.news).",
+                "sources": [
+                    [
+                        "Bloomberg",
+                        "https://www.bloomberg.com/news/articles/2024-04-24/-buy-bitcoin-sign-shown-behind-yellen-sells-for-1-million-at-auction",
+                        "2 hours ago"
+                    ],
+                    [
+                        "Bitcoin.com News",
+                        "https://news.bitcoin.com/iconic-buy-bitcoin-sign-from-janet-yellens-testimony-sells-for-1-million-in-crypto-auction/",
+                        "48 minutes ago"
+                    ],
+                    [
+                        "crypto.news",
+                        "https://crypto.news/ftx-looking-to-sell-off-solana-holdings-via-blind-auction/",
+                        "14 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://crypto.news/app/uploads/2023/11/crypto-news-The-fall-of-FTX04.webp"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Tesla's Stock Surge Explained",
+            "Summary": "Tesla's stock surged due to optimism for its affordable car lineup, despite a decrease in net income and missed earnings expectations (Euronews.com). Investor sentiment was boosted by Musk's announcement of accelerating the launch of cheaper cars and past difficulties, including a disappointing Q4 report and unclear 2024 delivery guidance (Yahoo Finance). These developments reflect broader market trends of impactful earnings reports and forecasts seen across various sectors (Investopedia).",
+            "sources": [
+                [
+                    "Euronews.com",
+                    "https://www.euronews.com/business/2024/04/24/teslas-stock-surges-on-optimism-for-musks-affordable-car-line-up",
+                    "20 hours ago"
+                ],
+                [
+                    "Yahoo Finance",
+                    "https://finance.yahoo.com/news/tesla-earnings-q1-175358835.html",
+                    "6 hours ago"
+                ],
+                [
+                    "Investopedia",
+                    "https://www.investopedia.com/dow-jones-today-04242024-8638004",
+                    "5 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://static.euronews.com/articles/stories/08/39/40/86/1200x675_cmsv2_4ad926e5-9550-5243-9555-d7caa5e670ff-8394086.jpg"
+        }
+    ]
+}

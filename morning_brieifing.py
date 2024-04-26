@@ -15,7 +15,7 @@ NUM_CUSTOM_TOPICS = 3
 curr_date = datetime.now().strftime('%Y-%m-%d')
 
 def remove_sources(summary):
-    """Helper method for in_morning_briefing
+    """Helper method for in_morning_brief
     
     Takes a summary string (brief) and removes the sources. Used for morning briefing creation.
     
@@ -32,7 +32,7 @@ def remove_sources(summary):
     return cleaned_summary
 
 def format_headlines(data):
-    """Helper method for in_morning_briefing to reformat email briefing JSON into morning briefing JSON
+    """Helper method for in_morning_brief to reformat email briefing JSON into morning briefing JSON
     
     Returns
     -------

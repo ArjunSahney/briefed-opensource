@@ -1,0 +1,232 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Mike Johnson Faces Opposition at Columbia University Amid Protests",
+            "Summary": "Mike Johnson was met with strong opposition and booing from Columbia University students during his speech addressing antisemitism and calling for the National Guard's involvement, amid a backdrop of intensified pro-Palestinian protests and a reported increase in antisemitic threats. The controversy surrounding his visit aligns with broader campus tensions, with Columbia offering virtual class options in response to safety concerns and extending deadlines to address protest encampments (The Daily Beast). Johnson's call for the university president's resignation underscores the political and social complexities facing educational institutions amid the Israel-Hamas conflict (CNN, The Jerusalem Post).",
+            "sources": [
+                [
+                    "The Daily Beast",
+                    "https://www.thedailybeast.com/booing-columbia-students-drown-out-mike-johnsons-call-for-national-guard",
+                    "4 hours ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/24/politics/johnson-columbia-university-president/index.html",
+                    "2 hours ago"
+                ],
+                [
+                    "The Jerusalem Post",
+                    "https://www.jpost.com/american-politics/article-798541",
+                    "1 hour ago"
+                ]
+            ],
+            "Image Filepath": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_881,w_1566,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1713995009/2024-04-24T202510Z_849420691_RC28D7AU8Q8W_RTRMADP_3_USA-CONGRESS-NEW-YORK_syxytq_gwnkll"
+        },
+        {
+            "Title": "McKinsey Under Criminal Investigation for Its Role in the Opioid Crisis",
+            "Summary": "McKinsey is reportedly facing a criminal investigation in the U.S. for its advisory role to Purdue Pharma and other drug manufacturers, concerning its potential contribution to the opioid crisis. Federal prosecutors are specifically examining the firm's involvement with the opioid industry (The Guardian).",
+            "sources": [
+                [
+                    "The Guardian",
+                    "https://www.theguardian.com/us-news/2024/apr/24/mckinsey-criminal-investigation-opioids-crisis",
+                    "1 hour ago"
+                ]
+            ],
+            "Image Filepath": "https://i.guim.co.uk/img/media/14fe688307662f40a8e4ff6433faf83b03ed0261/0_163_5000_3000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=bb4cbc368d4703072080f52cd8b01c36"
+        }
+    ],
+    "Custom Headlines": {
+        "Politics": [
+            {
+                "Title": "Tensions Escalate in Israel and Gaza",
+                "Summary": "Israel advances its operation in Rafah amidst its ongoing conflict with Gaza, marking a significant escalation (Al Jazeera). Concurrently, hundreds of Israeli settlers stormed into al-Aqsa Mosque, intensifying tensions (IRNA English, Yeni \u015eafak). This incursion aligns with a proposition from a far-right Israeli parliament member to replace the Al-Aqsa Mosque complex with a third temple, further fueling the discord (Al Mayadeen English).",
+                "sources": [
+                    [
+                        "Al Jazeera",
+                        "https://www.aljazeera.com/news/liveblog/2024/4/24/israels-war-on-gaza-live-rafah-family-killed-injured-in-israeli-strike?update=2857164",
+                        "8 hours ago"
+                    ],
+                    [
+                        "IRNA English",
+                        "https://en.irna.ir/news/85455890/Hundreds-of-Israeli-settlers-storm-al-Aqsa-Mosque",
+                        "12 hours ago"
+                    ],
+                    [
+                        "Yeni \u015eafak",
+                        "https://www.yenisafak.com/en/news/over-250-illegal-israeli-settlers-storm-into-al-aqsa-mosque-3681991",
+                        "17 hours ago"
+                    ],
+                    [
+                        "Al Mayadeen English",
+                        "https://english.almayadeen.net/news/politics/israeli-settlers-storm-al-aqsa-mosque-on-second-day-of-jewis",
+                        "14 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/2024-04-22T182616Z_1285153527_RC2RA7AS0N7J_RTRMADP_3_ISRAEL-PALESTINIANS-USA-RIGHTS-1713976352.jpg?resize=1920%2C1440"
+            },
+            {
+                "Title": "Trends and Developments in Investment, Global Finance, and Philanthropy",
+                "Summary": "Investment fund managers show a tendency to support CEOs with similar political views during tight and contentious votes, indicating politics' substantial impact on financial decisions (Euronews.com). Investment consultants, including CAPTRUST and Graystone Consulting, have grown significantly in influence in 2023 (Institutional Investor). The Steve Fund welcomes Dr. Janet Wormack as the new CFO and COO, highlighting the organization's commitment to mental health and well-being in communities of color (Philanthropy Women). Congressman Chip Roy expresses concerns over George Soros' attempt to purchase radio giant Audacy, fearing fast-tracked ownership changes might abuse FCC rules (Fox News).",
+                "sources": [
+                    [
+                        "Euronews.com",
+                        "https://www.euronews.com/business/2024/04/24/investment-fund-managers-decision-making-is-affected-by-politics-heres-what-that-means",
+                        "12 hours ago"
+                    ],
+                    [
+                        "Institutional Investor",
+                        "https://www.institutionalinvestor.com/article/2d57v0rk8d6fyrh4cz85c/portfolio/investment-consultants-are-bigger-and-more-influential-than-ever-before",
+                        "10 hours ago"
+                    ],
+                    [
+                        "Philanthropy Women",
+                        "https://philanthropywomen.org/feminist-strategy/dr-janet-wormack-is-the-new-cfo-and-coo-of-the-steve-fund/",
+                        "4 hours ago"
+                    ],
+                    [
+                        "Fox News",
+                        "https://www.foxnews.com/politics/chip-roy-raises-alarms-george-soros-purchase-major-radio-company",
+                        "12 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://static.euronews.com/articles/stories/08/39/21/22/1200x675_cmsv2_b94f60df-18c4-51c0-ba13-5a0edd12f621-8392122.jpg"
+            },
+            {
+                "Title": "Criticism by Albania's Prime Minister on RAI's Migrant Center Report",
+                "Summary": "Albanian Prime Minister Edi Rama criticized a broadcast by RAI detailing an agreement between Italy and Albania about migrant centers, highlighting tensions over immigration and reporting accuracy (ANSA).",
+                "sources": [
+                    [
+                        "ANSA",
+                        "https://www.ansa.it/nuova_europa/en/news/countries/albania/2024/04/24/albanias-pm-rama-criticises-rai-report-on-migrant-centers_407b87b7-7c95-43c1-b0f7-dc1cedc98f71.html",
+                        "11 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.ansa.it/webimages/img_700/2024/4/12/4955f379be5d61edf5472cd59e0d1a1c.jpg"
+            }
+        ],
+        "Software": [
+            {
+                "Title": "Huawei's Strategic Move into Intelligent Driving Software",
+                "Summary": "Huawei intensifies its presence in the autonomous driving sector with the release of a new intelligent driving software, marking a significant step that could challenge industry leaders like Tesla (Asia Financial, Asharq Al-awsat - English, Benzinga). This launch underscores Huawei's expansion beyond its traditional telecommunications domain, venturing into the competitive intelligent vehicle market (CIO News, MSN).",
+                "sources": [
+                    [
+                        "Asia Financial",
+                        "https://www.asiafinancial.com/huawei-revs-up-intelligent-driving-push-with-software-launch",
+                        "10 hours ago"
+                    ],
+                    [
+                        "Asharq Al-awsat - English",
+                        "https://english.aawsat.com/technology/4982116-huawei-launches-new-software-brand-intelligent-driving?amp",
+                        "20 hours ago"
+                    ],
+                    [
+                        "Benzinga",
+                        "https://www.benzinga.com/news/24/04/38404191/threat-for-tesla-apples-chinese-rival-huawei-launches-new-software-for-intelligent-driving",
+                        "12 hours ago"
+                    ],
+                    [
+                        "CIO News",
+                        "https://cionews.co.in/huawei-of-china-introduces-a-new-line/",
+                        "14 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-ae/news/techandscience/china-s-huawei-launches-new-software-for-intelligent-driving/ar-AA1nydWJ",
+                        "18 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.asiafinancial.com/wp-content/uploads/2024/04/The-Huawei-logo-is-seen-at-KubeCon-CloudNativeCon-Europe-in-Paris-Rs.jpeg"
+            },
+            {
+                "Title": "Review of Honor Magic V2 and V2 RSR Porsche Design",
+                "Summary": "The Honor Magic V2 excels in daylight and low-light photography, offering commendable performance across different modes and camera options, including portrait and telephoto, and outshines with its rear camera for selfies due to superior color quality and dynamic range (GSMArena.com).",
+                "sources": [
+                    [
+                        "GSMArena.com",
+                        "https://m.gsmarena.com/honor_magic_v2_rsr_porsche_design-review-2694p5.php",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://fdn.gsmarena.com/imgroot/reviews/24/honor-magic-v2/-728x314/gsmarena_100.jpg"
+            }
+        ],
+        "Bitcoin": [
+            {
+                "Title": "Recent Crypto Trends and Insights",
+                "Summary": "The approval of Bitcoin ETFs signifies enhanced access to Bitcoin, drawing institutional investors and making the asset class less daunting for newcomers (CoinDesk). Shiba Inu (SHIB) sees a significant 16.80% price increase over the last week, outpacing both the global cryptocurrency market and similar Ethereum ecosystem cryptocurrencies (CoinGecko). BlockDAG introduces a platform that simplifies blockchain development with low-code/no-code solutions, after impressive $20.3M presale results and indications of a growing NFT market (FinanceFeeds). Bitwise CIO predicts a 50% decrease in Bitcoin volatility by 2028 due to rising institutional adoption and the stabilizing effect of spot Bitcoin ETFs (CryptoSlate).",
+                "sources": [
+                    [
+                        "CoinDesk",
+                        "https://www.coindesk.com/etf/bitcoin-etf/",
+                        "4 hours ago"
+                    ],
+                    [
+                        "CoinGecko",
+                        "https://www.coingecko.com/en/coins/shiba-inu",
+                        "3 hours ago"
+                    ],
+                    [
+                        "FinanceFeeds",
+                        "https://financefeeds.com/blockdag-among-the-best-new-crypto-to-invest-in-post-8-billion-coins-sales-more-on-bitcoin-cash-futures-launch-solana-positive-predictions/",
+                        "6 hours ago"
+                    ],
+                    [
+                        "CryptoSlate",
+                        "https://cryptoslate.com/bitwise-cio-predicts-bitcoin-volatility-will-fall-50-as-institutional-traders-enter-the-market/",
+                        "7 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/4WS3755O5NBQPHJQJE7T42HFQE.jpg"
+            },
+            {
+                "Title": "Strike's Bitcoin App Expansion into Europe",
+                "Summary": "Strike has launched its Bitcoin app in Europe, offering buying, selling, and payment services while excluding the U.K. due to competitive markets with Coinbase, eToro, and BitPanda (Fortune). The European launch marks Strike as seeing Europe as its second-largest market following the U.S., especially with the recent surge in Bitcoin's price (Fortune). The app also includes peer-to-peer transfers facilitating cross-border payments in Bitcoin, euros, U.S. dollars, or Tether's USDT in supported regions, aiming to enhance the region's cryptocurrency payment landscape (crypto.news).",
+                "sources": [
+                    [
+                        "Fortune",
+                        "https://fortune.com/crypto/2024/04/24/strike-jack-mallers-bitcoin-crypto-europe-mica/",
+                        "13 hours ago"
+                    ],
+                    [
+                        "crypto.news",
+                        "https://crypto.news/bitcoin-centric-app-strike-enters-europe/",
+                        "9 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.coindesk.com/resizer/KulCe8NNd9fUuYiAIKOxFS1OgoM=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/LY4RU6VYABCI7OCDZFGK5X4DTM.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Reggie Bush's Heisman Trophy Reinstated after 14 Years",
+            "Summary": "Reggie Bush's Heisman Trophy was reinstated 14 years after he forfeited it due to NCAA penalties for receiving impermissible benefits. The Heisman Trust's decision was influenced by the changing landscape of college athletics, particularly the recognition and compensation of student-athletes. The Trust highlighted that current attitudes and legal perspectives towards athlete compensation necessitated the return of Bush's trophy (The Athletic). USC's supportive response included a surprise party for Bush, indicating institutional backing for the reinstatement (The Athletic). The Heisman Trust's process considered shifts in the college football landscape and legal challenges to the NCAA's amateurism model (Yardbarker).",
+            "sources": [
+                [
+                    "The Athletic",
+                    "https://theathletic.com/5441674/2024/04/24/reggie-bush-heisman-trophy-reinstated/",
+                    "7 hours ago"
+                ],
+                [
+                    "Yardbarker",
+                    "https://www.yardbarker.com/nfl/articles/amp/bush_heisman_trophy_restoration_is_conflicting/s1_17106_40276636",
+                    "8 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://cdn.theathletic.com/app/uploads/2024/04/24094956/reggie-bush-heisman-scaled.jpg"
+        },
+        {
+            "Title": "Exploring Opportunities in Washington with WilDCats at the Capitol",
+            "Summary": "Since 2016, the WilDCats at the Capitol program has been facilitating pivotal Washington, D.C., internships for University of Kentucky students, thanks to a partnership between the Office of Federal Relations, the Department of Political Science, and the Student Government Association, highlighting its importance in practical education (UKNow).",
+            "sources": [
+                [
+                    "UKNow",
+                    "https://uknow.uky.edu/campus-news/students-explore-opportunities-washington-through-wildcats-capitol",
+                    "18 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://uknow.uky.edu/sites/default/files/styles/facebook/public/image002%20Large.jpeg?itok=ez8NYXM-"
+        }
+    ],
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/Arjun.mp3"
+}
