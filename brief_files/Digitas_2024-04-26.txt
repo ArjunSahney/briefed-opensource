@@ -1,0 +1,19 @@
+[
+    {
+        "Title": "Recent Media Collaborations and Political News Highlights",
+        "Summary": "Corona India has partnered with Digitas India to introduce 'The Corona Sunset View,' a new rating system aimed at enhancing customer experiences by rating sunsets globally (Campaign Brief Asia). In political news, the upcoming LS election, Prime Minister Modi's visit to MP, and the case involving Arvind Kejriwal and the Enforcement Directorate were among the top stories on Hindi News Channels on April 25, 2024 (MediaBrief).",
+        "sources": [
+            [
+                "Campaign Brief Asia",
+                "https://campaignbriefasia.com/2024/04/26/corona-india-partners-with-digitas-india-to-launch-the-corona-sunset-view-rating-system/",
+                "17 hours ago"
+            ],
+            [
+                "MediaBrief",
+                "https://mediabrief.com/25-apr-24-chrome-news-track/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://asset-cdn.campaignbrief.com/wp-content/uploads/sites/2/2024/04/26085722/Corona-India-Sunset-rating-system2.jpg"
+    }
+]

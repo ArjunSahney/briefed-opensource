@@ -1,0 +1,122 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Scotland's Political Turmoil and Humza Yousaf's Confidence Vote",
+            "Summary": "Scotland's First Minister Humza Yousaf is facing a critical confidence vote amidst controversy over terminating the SNP-Green coalition, stressing he won't resign and is 'very confident' of winning despite erosion of party authority and the need for significant concessions to critics (Washington Post, The Guardian). With the SNP lacking a full majority, negotiations and compromises, highlighted by Yousaf's outreach to other parties including the Greens, are essential for his political survival, amidst broader discussions on governance and policy directions (Yahoo News New Zealand, The Telegraph).",
+            "sources": [
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/world/2024/04/26/scotland-government-yousaf-confidence-votes/8afcd260-03bf-11ef-8eac-39c6dcb59eb5_story.html",
+                    "1 hour ago"
+                ],
+                [
+                    "The Guardian",
+                    "https://www.theguardian.com/politics/live/2024/apr/26/humza-yousaf-scotland-post-office-inquiry-uk-politics-latest",
+                    "38 minutes ago"
+                ],
+                [
+                    "Yahoo News New Zealand",
+                    "https://nz.news.yahoo.com/humza-yousaf-confidence-vote-does-151410426.html",
+                    "5 hours ago"
+                ],
+                [
+                    "The Telegraph",
+                    "https://www.telegraph.co.uk/politics/2024/04/26/rishi-sunak-latest-news-humza-yousaf-ash-regan-alex-salmond/",
+                    "50 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MMLJQ5QD3AI67DVMHHDNZNM6WU.jpg&w=1440"
+        },
+        {
+            "Title": "USC Cancels Major Commencement Ceremony Amid Campus Protests",
+            "Summary": "The University of Southern California (USC) canceled its main commencement ceremony due to concerns over pro-Palestinian protests related to the Israel-Hamas conflict. The decision followed tensions, including an incident where demonstrators clashed with campus security. The cancellation has drawn criticism from students and alumni, especially since it came after the announcement that a pro-Palestinian student valedictorian would not be allowed to speak at the event. This situation reflects wider unrest on U.S. college campuses regarding the Middle Eastern conflict (Axios, Los Angeles Times, WSOC TV, PBS, WBRC FOX6 News).",
+            "sources": [
+                [
+                    "Axios",
+                    "https://www.axios.com/2024/04/25/usc-commencement-graduation-canceled",
+                    "4 hours ago"
+                ],
+                [
+                    "Los Angeles Times",
+                    "https://www.latimes.com/california/story/2024-04-25/la-me-usc-commencement-canceled",
+                    "14 hours ago"
+                ],
+                [
+                    "WSOC TV",
+                    "https://www.wsoctv.com/news/trending/usc-cancels-graduation-ceremony-amid-growing-campus-protests/F5YCHHJW3NHV7HL7AJ67XPJNVE/",
+                    "2 hours ago"
+                ],
+                [
+                    "PBS",
+                    "https://www.pbs.org/newshour/nation/usc-cancels-main-graduation-ceremony-over-concerns-about-pro-palestinian-protests",
+                    "19 hours ago"
+                ],
+                [
+                    "WBRC FOX6 News",
+                    "https://www.wbrc.com/2024/04/26/university-southern-californias-move-cancel-commencement-amid-protests-draws-criticism-students-alumni/?outputType=apps",
+                    "5 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://cmg-cmg-tv-10030-prod.cdn.arcpublishing.com/resizer/ye6qQrZKvVXfg9sBPdH-PemAYQs=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/HA56223OWJGJLA675X7RGRHOJI.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "Digital Marketing": [
+            {
+                "Title": "Hearsay Summit and Telos Corporation Q1 2024 Financials",
+                "Summary": "The Hearsay Summit assembled finance and insurance industry leaders, such as Edward Jones and Wells Fargo, in New York City to discuss advancements in digital marketing and AI (01net, Morningstar). Telos Corporation announced its Q1 2024 financial results release for May 10, highlighting significant attention from Bloomberg on potential impacts (Yahoo Finance AU).",
+                "sources": [
+                    [
+                        "01net",
+                        "https://www.01net.it/hearsay-summit-brings-together-brightest-minds-in-financial-services-to-up-level-digital-marketing-and-explore-ai-use-cases-amidst-a-dynamic-regulatory-environment/",
+                        "2 hours ago"
+                    ],
+                    [
+                        "Morningstar",
+                        "https://www.morningstar.com/news/business-wire/20240424026608/hearsay-summit-brings-together-brightest-minds-in-financial-services-to-up-level-digital-marketing-and-explore-ai-use-cases-amidst-a-dynamic-regulatory-environment",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Yahoo Finance AU",
+                        "https://au.finance.yahoo.com/news/telos-corporation-announce-first-quarter-130000315.html",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://mms.businesswire.com/media/20240424026608/en/2106232/22/Hearsay_Summit_award_winners_4_24.jpg"
+            },
+            {
+                "Title": "Understanding Financial and Digital Marketing Careers",
+                "Summary": "A digital marketing advisor earning \u00a333,000 shares insights on their profession, highlighting the mix of strategic planning and content creation pivotal in today\u2019s digital landscape (Refinery29). In another sector, the demand for finance managers is underscored by a job listing in South Africa's East Rand, indicating the critical role these professionals play in managing and guiding financial operations within businesses (Bizcommunity).",
+                "sources": [
+                    [
+                        "Refinery29",
+                        "https://www.refinery29.com/en-gb/money-diary-digital-marketing-advisor-33k",
+                        "6 hours ago"
+                    ],
+                    [
+                        "Bizcommunity",
+                        "https://www.bizcommunity.com/job/east-rand/financial-services/finance-manager-274041a",
+                        "8 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.refinery29.com/images/11712238.jpg?crop=40%3A21"
+            }
+        ],
+        "Digitas": [],
+        "Wine": [
+            {
+                "Title": "Europe Reigns Supreme: EU Claims Top Spot as World's Wine Leader",
+                "Summary": "Europe stands as the world's leading wine-producing region, with vineyards making up 44% of the global total and occupying nearly 2% of the EU's agricultural land (Vinetur).",
+                "sources": [
+                    [
+                        "Vinetur",
+                        "https://www.vinetur.com/en/2024042679272/europe-reigns-supreme-eu-claims-top-spot-as-world-s-wine-leader.html",
+                        "1 hour ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.vinetur.com/imagenes/2024/abril/26/brindis-vino.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": []
+}

@@ -1,0 +1,107 @@
+[
+    {
+        "Title": "Hearsay Summit and Telos Corporation Q1 2024 Financials",
+        "Summary": "The Hearsay Summit assembled finance and insurance industry leaders, such as Edward Jones and Wells Fargo, in New York City to discuss advancements in digital marketing and AI (01net, Morningstar). Telos Corporation announced its Q1 2024 financial results release for May 10, highlighting significant attention from Bloomberg on potential impacts (Yahoo Finance AU).",
+        "sources": [
+            [
+                "01net",
+                "https://www.01net.it/hearsay-summit-brings-together-brightest-minds-in-financial-services-to-up-level-digital-marketing-and-explore-ai-use-cases-amidst-a-dynamic-regulatory-environment/",
+                "2 hours ago"
+            ],
+            [
+                "Morningstar",
+                "https://www.morningstar.com/news/business-wire/20240424026608/hearsay-summit-brings-together-brightest-minds-in-financial-services-to-up-level-digital-marketing-and-explore-ai-use-cases-amidst-a-dynamic-regulatory-environment",
+                "3 hours ago"
+            ],
+            [
+                "Yahoo Finance AU",
+                "https://au.finance.yahoo.com/news/telos-corporation-announce-first-quarter-130000315.html",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://mms.businesswire.com/media/20240424026608/en/2106232/22/Hearsay_Summit_award_winners_4_24.jpg"
+    },
+    {
+        "Title": "Understanding Financial and Digital Marketing Careers",
+        "Summary": "A digital marketing advisor earning \u00a333,000 shares insights on their profession, highlighting the mix of strategic planning and content creation pivotal in today\u2019s digital landscape (Refinery29). In another sector, the demand for finance managers is underscored by a job listing in South Africa's East Rand, indicating the critical role these professionals play in managing and guiding financial operations within businesses (Bizcommunity).",
+        "sources": [
+            [
+                "Refinery29",
+                "https://www.refinery29.com/en-gb/money-diary-digital-marketing-advisor-33k",
+                "6 hours ago"
+            ],
+            [
+                "Bizcommunity",
+                "https://www.bizcommunity.com/job/east-rand/financial-services/finance-manager-274041a",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.refinery29.com/images/11712238.jpg?crop=40%3A21"
+    },
+    {
+        "Title": "Digital Marketing Insights and Innovations in 2024",
+        "Summary": "Digital marketing budgets are soaring, predicted to reach $870.85 billion by 2027, signaling a growing industry (PRWeb). TAPinto's innovative DIY marketing platform has been recognized with a national first-place award, underlining the impact of such tools in digital media (TAPinto). With the digital landscape rapidly evolving, notable trends for 2024 focusing on Gen Z and millennials include a streaming 'crisis' and the influential power of fandom, demonstrating shifts in consumer engagement strategies (Variety, AOL.com). Best Buy's new retail media partnership with CNET marks a significant move towards leveraging digital platforms for retail promotions (PYMNTS.com).",
+        "sources": [
+            [
+                "PRWeb",
+                "https://www.prweb.com/releases/designrush-announces-the-best-digital-marketing-companies-in-april-2024-302128679.html",
+                "2 hours ago"
+            ],
+            [
+                "TAPinto",
+                "https://www.tapinto.net/towns/nutley/columns/tapinto-insider/articles/tapinto-s-diy-marketing-platform-wins-national-first-place-award-for-digital-media-innovation",
+                "3 hours ago"
+            ],
+            [
+                "Variety",
+                "https://variety.com/2024/biz/news/gen-z-millennials-digital-media-marketing-trends-2024-1235981521/",
+                "18 hours ago"
+            ],
+            [
+                "AOL.com",
+                "https://www.aol.com/entertainment/top-5-digital-media-marketing-222025693.html",
+                "18 hours ago"
+            ],
+            [
+                "PYMNTS.com",
+                "https://www.pymnts.com/news/retail/2024/best-buy-forms-retail-media-partnership-with-cnet/",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://mma.prnewswire.com/media/2398582/top_digital_marketing_companies_apr_2024_designrush.jpg?p=facebook"
+    },
+    {
+        "Title": "Impact of AI on Content Credibility and Search Overload",
+        "Summary": "The rise in AI-generated content and its implications for content credibility and search effectiveness are significant. The identification of AI-created content by algorithms and humans introduces concerns about its factual accuracy, leading to a perception of lower trustworthiness. Furthermore, the enormous size of Google's search index highlights the challenge of content saturation, making it increasingly difficult for users to find relevant answers online (Elixirr Digital).",
+        "sources": [
+            [
+                "Elixirr Digital",
+                "https://www.elixirrdigital.com/2024/04/26/the-death-of-relevance-content-shock-the-evolution-of-search-and-the-human-touch-in-content-creation/",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.elixirrdigital.com/wp-content/uploads/2024/04/ezgif-1-6d98f92c14.jpg"
+    },
+    {
+        "Title": "Global Marketing Budget Optimism in 2024",
+        "Summary": "Marketers exhibit optimism towards 2024 budgets, with expectations for increased spending. Nielsen reports a significant 72% of global marketers predict a rise in advertising budgets this year, emphasizing a digital-first approach where two-thirds of media budgets are allocated towards digital channels (Advanced Television, The Financial Express, MediaBrief).",
+        "sources": [
+            [
+                "Advanced Television",
+                "https://advanced-television.com/2024/04/26/nielsen-marketer-spending-optimism-is-up-in-2024/",
+                "6 hours ago"
+            ],
+            [
+                "The Financial Express",
+                "https://www.financialexpress.com/business/brandwagon-72-of-global-marketers-anticipate-larger-advertising-budgets-for-the-current-year-reveals-nielsen-annual-marketing-report-3469276/",
+                "8 hours ago"
+            ],
+            [
+                "MediaBrief",
+                "https://mediabrief.com/nielsen-2024-annual-marketing-report/",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://advanced-television.com/wp-content/uploads/2023/01/nielsenONE-logo-e1672913486812.png"
+    }
+]

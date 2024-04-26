@@ -1,0 +1,34 @@
+[
+    {
+        "Title": "Challenges Mount for Lakers and Coach Darvin Ham",
+        "Summary": "The Lakers' recent performance under Coach Darvin Ham raises concerns, highlighted by a game where Russell went scoreless, contrasting with strong performances from Nikola Joki\u0107 and the Nuggets' team (The Athletic). Darvin Ham's job security is questioned after the Lakers' third consecutive blown lead (Athlon Sports), amidst differing opinions within the team, including Anthony Davis' take on game strategies (MSN). NBA executives voice their concerns over the 'endangered' status of Coach Ham, reflecting on the team's struggles (Heavy.com). These challenges come as the team aims to maintain momentum despite key injuries (Orange County Register).",
+        "sources": [
+            [
+                "The Athletic",
+                "https://theathletic.com/5448790/2024/04/26/darvin-ham-lakers-nuggets-game-3-nba-playoffs/",
+                "11 minutes ago"
+            ],
+            [
+                "Athlon Sports",
+                "https://athlonsports.com/nba/darvin-hams-job-firmly-under-fire-after-lakers-third-consecutive-blown-lead",
+                "11 hours ago"
+            ],
+            [
+                "MSN",
+                "http://www.msn.com/en-ca/sports/nba/lakers-vs-nuggets-darvin-ham-agrees-to-disagree-after-anthony-davis-assessment-of-blown-lead-in-game-2/ar-AA1nEMev?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+                "6 hours ago"
+            ],
+            [
+                "Heavy.com",
+                "https://heavy.com/sports/nba/los-angeles-lakers/endangered-coach-darvin-ham/",
+                "5 hours ago"
+            ],
+            [
+                "Orange County Register",
+                "https://www.ocregister.com/2024/04/25/lakers-looking-to-maintain-their-pace-from-start-to-finish/",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.theathletic.com/app/uploads/2024/04/26082740/GettyImages-2149636127-scaled-e1714134485594.jpg"
+    }
+]

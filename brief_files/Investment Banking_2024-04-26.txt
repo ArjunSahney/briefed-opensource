@@ -1,0 +1,143 @@
+[
+    {
+        "Title": "Recent Financial Market Updates",
+        "Summary": "Financial markets are showing signs of recovery after recent sell-offs, attributed to easing geopolitical tensions, strong corporate earnings, and specific performances in the banking sector, notably Deutsche Bank's positive first quarter results showing a 10% increase in profit (Euronews.com, Yahoo Finance). Deutsche Bank's earnings highlight significant net inflows and a strategic focus on fee-generating investment solutions, with revenue increases in commission and fee income alongside a profitable investment banking sector (Yahoo Finance, WSJ). Additionally, European bank stocks have reached a new peak, nearly hitting a 9-year high after a strong earnings season (Reuters).",
+        "sources": [
+            [
+                "Euronews.com",
+                "https://www.euronews.com/business/2024/04/26/markets-rebound-easing-geopolitical-tension-and-strong-earnings-bring-recovery",
+                "7 hours ago"
+            ],
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/news/deutsche-bank-aktiengesellschaft-nyse-db-122824105.html",
+                "4 hours ago"
+            ],
+            [
+                "WSJ",
+                "https://www.wsj.com/livecoverage/stock-market-today-earnings-04-25-2024/card/investment-banking-lifts-deutsche-bank-profits-RTDlGpbGIqNcupv6XHEj",
+                "18 hours ago"
+            ],
+            [
+                "Reuters",
+                "https://www.reuters.com/markets/europe/european-bank-stocks-rise-nearly-9-year-high-after-earnings-boost-2024-04-26/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://static.euronews.com/articles/stories/08/39/99/46/1200x675_cmsv2_a02c9337-2f6d-58c9-8962-e3d1e4246d4b-8399946.jpg"
+    },
+    {
+        "Title": "Vodafone Idea's Financial Movements and Market Watch",
+        "Summary": "Vodafone Idea's Follow-on Public Offer (FPO) results in significant earnings for investment bankers (Business Standard). The company\u2019s stock closes 26% higher than its listing price, marking a notable increase, as highlighted in recent market performance reviews (MSN, The Financial Express). Meanwhile, Upstox suggests keeping an eye on stocks like Kotak Mahindra Bank, Axis Bank, Hindustan Unilever, and Vodafone Idea for potential investment opportunities.",
+        "sources": [
+            [
+                "Business Standard",
+                "https://www.business-standard.com/companies/news/vodafone-idea-s-fpo-brings-big-payday-for-investment-bankers-124042600997_1.html",
+                "27 minutes ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-in/money/markets/vodafone-idea-closes-26-higher-than-listing-price/ar-AA1nFGVZ?ocid=finance-verthp-feeds",
+                "20 hours ago"
+            ],
+            [
+                "The Financial Express",
+                "https://www.financialexpress.com/market/ipo-news-vodafone-idea-closes-26-higher-than-listing-price-3468665/",
+                "20 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Nomura's Significant Profit Increase",
+        "Summary": "Nomura's net profit has significantly increased, with reports indicating an almost eight-fold rise attributed mainly to a surge in retail income, as reflected in their impressive Q4 results (The Economic Times, Investing.com, The Business Times). Additionally, Japan's stock market performance has pushed Nomura's profits higher, achieving a notable milestone by breaking the bubble-era record (Financial Times). This financial upturn was echoed by a reported 670% surge in Q1 profit for the brokerage, showcasing a robust fiscal performance (Republic World).",
+        "sources": [
+            [
+                "The Economic Times",
+                "https://m.economictimes.com/markets/stocks/earnings/nomura-q4-results-net-profit-jumps-almost-eight-fold-on-retail-income-surge/articleshow/109629125.cms",
+                "3 hours ago"
+            ],
+            [
+                "Investing.com",
+                "https://www.investing.com/news/stock-market-news/nomura-q4-net-profit-jumps-almost-eight-fold-on-retail-income-surge-3400094",
+                "6 hours ago"
+            ],
+            [
+                "The Business Times",
+                "https://www.businesstimes.com.sg/companies-markets/banking-finance/nomura-q4-net-profit-jumps-almost-eight-fold-retail-income-surge",
+                "9 hours ago"
+            ],
+            [
+                "Financial Times",
+                "https://www.ft.com/content/1b2ec092-ed94-4624-9c8f-3a80e76b894a",
+                "7 hours ago"
+            ],
+            [
+                "Republic World",
+                "https://www.republicworld.com/business/japan-s-brokerage-witnesses-670-surge-in-q1-profit/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://img.etimg.com/thumb/msid-109629149,width-1200,height-630,imgsize-32540,overlay-etmarkets/photo.jpg"
+    },
+    {
+        "Title": "Summary of Recent FDA Approvals and Pharmaceutical News",
+        "Summary": "Pfizer's new gene therapy offers hope for Hemophilia B patients, targeting those on factor IX prophylaxis or with severe bleeding episodes, devoid of specific neutralizing antibodies (BioSpace). Abeona Therapeutics faces FDA rejection due to CMC issues for its therapy aimed at treating recessive dystrophic epidermolysis bullosa (BioSpace). ImmunityBio's Anktiva receives FDA approval for treating non-muscle invasive bladder cancer, promising a new option for a significant patient portion (BioSpace). AstraZeneca's first quarter 2024 earnings surpass expectations, indicating strong financial health and promising prospects (Simply Wall Street). The global pulmonary drugs market is predicted to witness substantial growth by 2030, propelled by key companies like F. Hoffmann-La Roche and AstraZeneca, among others (Yahoo Finance). Meanwhile, Wall Street experiences a downturn following an unexpected surge in US inflation, with ongoing legal and market challenges faced by major corporations such as GSK, Pfizer, and Meta (The Telegraph).",
+        "sources": [
+            [
+                "BioSpace",
+                "https://www.biospace.com/article/biospace-fda-decision-tracker-2023-biomarin-celltrans-pfizer-and-opko-health/",
+                "2 hours ago"
+            ],
+            [
+                "Simply Wall Street",
+                "https://simplywall.st/stocks/gb/pharmaceuticals-biotech/lse-azn/astrazeneca-shares/news/astrazeneca-first-quarter-2024-earnings-beats-expectations",
+                "11 hours ago"
+            ],
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/news/global-pulmonary-drugs-market-expected-170000958.html",
+                "23 hours ago"
+            ],
+            [
+                "The Telegraph",
+                "https://www.telegraph.co.uk/business/2024/04/25/ftse-100-markets-latest-news-anglo-american-sainsburys/",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.biospace.com/getasset/f7b9531f-04ac-4bda-a1a9-f6825a81acb1/;w=625;h=350"
+    },
+    {
+        "Title": "Global Market Uptrend: Earnings and Optimism Fuel Recovery",
+        "Summary": "Financial markets are bolstered by easing tensions between Israel and Iran, strong earnings reports leading to a rebound after a sell-off, with European bank stocks hitting nearly a 9-year high and Wall Street along with European shares witnessing gains as Google's parent company Alphabet crosses the $2 trillion mark (Euronews.com, MarketScreener, Yahoo Finance UK).",
+        "sources": [
+            [
+                "Euronews.com",
+                "https://www.euronews.com/business/2024/04/26/markets-rebound-easing-geopolitical-tension-and-strong-earnings-bring-recovery",
+                "7 hours ago"
+            ],
+            [
+                "MarketScreener",
+                "https://www.marketscreener.com/quote/stock/NATWEST-GROUP-PLC-10759239/news/European-bank-stocks-rise-to-nearly-9-year-high-after-earnings-boost-46547106/",
+                "3 hours ago"
+            ],
+            [
+                "Yahoo Finance UK",
+                "https://uk.finance.yahoo.com/news/live/ftse-100-live-european-stocks-us-tech-earnings-bank-of-japan-081336474.html",
+                "36 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://static.euronews.com/articles/stories/08/39/99/46/1200x675_cmsv2_a02c9337-2f6d-58c9-8962-e3d1e4246d4b-8399946.jpg"
+    },
+    {
+        "Title": "Strategies for Securing Graduate Banking Positions",
+        "Summary": "Andrew Osayemi emphasizes the importance of personality in securing a graduate banking job, drawing on his extensive experience in the finance sector and recruitment (eFinancialCareers).",
+        "sources": [
+            [
+                "eFinancialCareers",
+                "https://www.efinancialcareers.com/news/personality-finance-bank-interview",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.filestackcontent.com/bdKmXohQkiGKVD0cMGG6"
+    }
+]

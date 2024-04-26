@@ -1,0 +1,233 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Maryland Teacher Creates AI-Generated Racism Controversy",
+            "Summary": "Dazhon Darien, a Maryland teacher, was arrested for using AI to create a fake audio clip, making it seem like his principal, Eric Eiswert, made racist remarks. This misuse of AI led to Eiswert's temporary suspension. The police traced the manipulated audio back to Darien, who accessed AI tools through the school's network (NBC News, NPR, USA Today, The Verge, ABC News - Breaking News, Latest News and Videos).",
+            "sources": [
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/news/us-news/teacher-arrested-ai-generated-racist-rant-maryland-school-principal-rcna149345",
+                    "2 hours ago"
+                ],
+                [
+                    "NPR",
+                    "https://www.npr.org/2024/04/26/1247237175/baltimore-ai-generated-racist-audio-crime",
+                    "7 hours ago"
+                ],
+                [
+                    "USA Today",
+                    "https://www.usatoday.com/story/news/nation/2024/04/25/baltimore-maryland-artificial-intelligence-teacher-deep-fake/73460123007/",
+                    "13 hours ago"
+                ],
+                [
+                    "The Verge",
+                    "https://www.theverge.com/2024/4/25/24140556/ai-voice-cloning-baltimore-school-misuse",
+                    "19 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240425-pikesville-high-school-mn-1045-e85233.jpg"
+        },
+        {
+            "Title": "Supreme Court Ponders Trump's Immunity Claim Amidst Legal Turmoil",
+            "Summary": "The Supreme Court's deliberation on former President Donald Trump's immunity claim poses significant political and legal implications, raising debates on the extent of presidential immunity. With Trump's trial delays, the case entered into a critical juncture, examining past actions during Trump's presidency related to the 2020 election results, and the potential for immunity from prosecution. A ruling could have far-reaching effects, including possible delays in his trial scheduled before the November 2024 election, and has prompted discussions on the judiciary's stance towards Trump (Washington Post, Time Magazine, CNN, Crooked Media, The Nation).",
+            "sources": [
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/politics/2024/04/25/supreme-court-trump-immunity-case/",
+                    "12 hours ago"
+                ],
+                [
+                    "Time Magazine",
+                    "https://time.com/6971072/supreme-court-donald-trump-immunity-case-arguments/",
+                    "22 hours ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/politics/live-news/supreme-court-trump-immunity-04-25-24/h_000ecd27d2c6d977becd1d11944422ed",
+                    "19 hours ago"
+                ],
+                [
+                    "Crooked Media",
+                    "https://crooked.com/podcast/will-the-supreme-court-grant-trump-immunity/",
+                    "8 hours ago"
+                ],
+                [
+                    "The Nation",
+                    "https://www.thenation.com/article/archive/supreme-court-trump-immunity-hearing/",
+                    "18 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.washingtonpost.com/wp-apps/og-image/?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UPGJSVLUYXJGUZTBWTHXDUK4YY_size-normalized.JPG&w=1440&isFree=true"
+        },
+        {
+            "Title": "Overview of Pro-Palestinian Protests on U.S. College Campuses",
+            "Summary": "Pro-Palestinian protests have erupted across U.S. college campuses, with University officials at a northern California university moving instructions online due to blockades (AP News). These protests have spread to institutions such as Yale and Michigan State University, with demands including divestment from Israel-linked investments and support for low-income residents (AP News, CNN). At the University of Texas, the protests led to involvement from state law enforcement and over 50 arrests (USA Today). These actions are part of a wider movement, echoing solidarity with global protests against the Israel-Hamas war (Austin American-Statesman).",
+            "sources": [
+                [
+                    "AP News",
+                    "https://apnews.com/article/gaza-war-campus-protests-966eb531279f8e4381883fc5d79d5466",
+                    "46 minutes ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/26/investing/what-pro-palestinian-protesters-want/index.html",
+                    "2 hours ago"
+                ],
+                [
+                    "USA Today",
+                    "https://www.usatoday.com/story/news/nation/2024/04/26/pro-palestinian-protests-college-columbia-usc-ut-austin/73465781007/",
+                    "1 hour ago"
+                ],
+                [
+                    "Austin American-Statesman",
+                    "https://www.statesman.com/story/news/state/2024/04/24/what-does-pro-palestine-mean-protest-meaning-israel-hamas-war-ut-austin-students-protesting-texas/73446118007/",
+                    "2 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://dims.apnews.com/dims4/default/37ce34f/2147483647/strip/true/crop/5554x3124+0+289/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F0e%2Fe460ac239d47847e5728a141305d%2F53abf47f572449378f7e1cd2b069cc67"
+        }
+    ],
+    "Custom Headlines": {
+        "Real-estate": [
+            {
+                "Title": "United Real Estate Launches Nationwide Financial Wellness Program",
+                "Summary": "United Real Estate has launched a Financial Wellness Program to enhance the financial, physical, and mental wellness of its 23,000 agents across the nation. The program offers company-sponsored financial wellness benefits using Ramsey Solutions' Smart Dollar tool, focusing on principles that aim to assist individuals in managing debt and saving effectively. This initiative allows financial goals to be tracked digitally, marking a significant step towards improving the overall well-being of United's workforce (InvestorsObserver).",
+                "sources": [
+                    [
+                        "InvestorsObserver",
+                        "https://www.investorsobserver.com/news/qm-pr/5232060502460178",
+                        "6 minutes ago"
+                    ]
+                ],
+                "Image Filepath": "https://s3.amazonaws.com/images.investorsobserver.com/io-logo-800x450.jpg"
+            },
+            {
+                "Title": "Teen Makes Forensic Breakthrough in Historical Military Case",
+                "Summary": "A teenager from Suffern, at 15, collaborated with Ramapo College's Investigative Genetic Genealogy Center to identify the remains of a U.S. Marine captain from a 1951 air crash, using a jawbone found in a child's rock collection. This breakthrough, accomplished in just two days, marked the teen as the youngest person involved in solving a forensics mystery (Lohud).",
+                "sources": [
+                    [
+                        "Lohud",
+                        "https://www.lohud.com/story/news/local/rockland/2024/04/26/ny-teen-youngest-person-to-help-solve-forensics-mystery-id-bone-of-missing-marine/73422682007/",
+                        "9 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://staticassets.gannettdigital.com/gci-static-assets/assets/global/checkout/meta-generic.png"
+            },
+            {
+                "Title": "Warren Buffett's Real-Estate Firm Settles Lawsuits with $250M",
+                "Summary": "Warren Buffett\u2019s real-estate brokerage firm will spend $250M to settle legal disputes, adding to a total of $876.5M in damages from the Sitzer | Burnett lawsuit, including settlements from other major real estate firms (Business Insider, Inman).",
+                "sources": [
+                    [
+                        "Business Insider",
+                        "https://www.businessinsider.com/warren-buffett-real-estate-brokerage-250-million-settlement-commissions-2024-4",
+                        "24 minutes ago"
+                    ],
+                    [
+                        "Inman",
+                        "https://www.inman.com/2024/04/26/homeservices-of-america-agrees-to-pay-250m-to-settle-lawsuits/",
+                        "53 minutes ago"
+                    ]
+                ],
+                "Image Filepath": "https://i.insider.com/662bc8190dfb1341e9ffa3c7?width=1200&format=jpeg"
+            }
+        ],
+        "Healthcare": [
+            {
+                "Title": "Indonesia Seeks Swedish Investment in Healthcare",
+                "Summary": "Indonesia is actively courting Swedish investment in its healthcare sector, signaling openness to international collaboration for health sector improvements (Jakarta Globe).",
+                "sources": [
+                    [
+                        "Jakarta Globe",
+                        "https://jakartaglobe.id/business/indonesia-woos-sweden-to-invest-in-healthcare-sector",
+                        "2 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "The Netherlands: ScreenPoint names Kroese as new CEO",
+                "Summary": "ScreenPoint, a healthcare company, named Kroese as its new CEO, marking a strategic leadership transition (LaingBuisson).",
+                "sources": [
+                    [
+                        "LaingBuisson",
+                        "https://www.investorsinhealthcare.com/articles/category/people/the-netherlands-screenpoint-names-kroese-as-new-ceo/",
+                        "8 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.investorsinhealthcare.com/wp-content/uploads/2024/04/Pieter_Kroese_CEO_ScreenPoint_Medical-1.jpg"
+            },
+            {
+                "Title": "Impact of Health Care Algorithms on Disparities",
+                "Summary": "Health care algorithms have the potential to either mitigate or exacerbate existing racial and ethnic disparities in health care, as explored by senior fellows from Penn LDI in a study requested by the AHRQ (Penn LDI).",
+                "sources": [
+                    [
+                        "Penn LDI",
+                        "https://ldi.upenn.edu/our-work/research-updates/health-care-algorithms-can-improve-or-worsen-racial-and-ethnic-disparities/",
+                        "20 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://d197nivf0nbma8.cloudfront.net/uploads/2024/04/AdobeStock_285705907-scaled.jpeg"
+            }
+        ],
+        "Fintech": [
+            {
+                "Title": "Enhancing Pricing Processes with hx Renew's APIs",
+                "Summary": "hyperexponential's experts, Josh Boddy and Nancy Simpson, highlighted how hx Renew's APIs contribute significantly to improving pricing decision intelligence in the FinTech sector (FinTech Global).",
+                "sources": [
+                    [
+                        "FinTech Global",
+                        "https://fintech.global/2024/04/26/gain-an-edge-in-pricing-decision-intelligence-with-hx-renews-specialist-api-exam/",
+                        "1 hour ago"
+                    ]
+                ],
+                "Image Filepath": "https://fintech.global/wp-content/uploads/2024/04/james-harrison-vpOeXr5wmR4-unsplash-5-scaled.jpg"
+            },
+            {
+                "Title": "Redefining Lending in Asia Pacific",
+                "Summary": "Three financial experts aim to transform the lending landscape at a fintech exhibition, leveraging the expected annual growth of 15.1% in the digital lending market of Asia Pacific, which is projected to increase from $256.3 billion in 2022 to $422.6 billion by 2027 (Nation Thailand).",
+                "sources": [
+                    [
+                        "Nation Thailand",
+                        "https://www.nationthailand.com/business/banking-finance/40037565",
+                        "4 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://media.nationthailand.com/uploads/images/md/2024/04/gmvUX5E2RdCX1E4BUpBj.webp"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Challenges Mount for Lakers and Coach Darvin Ham",
+            "Summary": "The Lakers' recent performance under Coach Darvin Ham raises concerns, highlighted by a game where Russell went scoreless, contrasting with strong performances from Nikola Joki\u0107 and the Nuggets' team (The Athletic). Darvin Ham's job security is questioned after the Lakers' third consecutive blown lead (Athlon Sports), amidst differing opinions within the team, including Anthony Davis' take on game strategies (MSN). NBA executives voice their concerns over the 'endangered' status of Coach Ham, reflecting on the team's struggles (Heavy.com). These challenges come as the team aims to maintain momentum despite key injuries (Orange County Register).",
+            "sources": [
+                [
+                    "The Athletic",
+                    "https://theathletic.com/5448790/2024/04/26/darvin-ham-lakers-nuggets-game-3-nba-playoffs/",
+                    "11 minutes ago"
+                ],
+                [
+                    "Athlon Sports",
+                    "https://athlonsports.com/nba/darvin-hams-job-firmly-under-fire-after-lakers-third-consecutive-blown-lead",
+                    "11 hours ago"
+                ],
+                [
+                    "MSN",
+                    "http://www.msn.com/en-ca/sports/nba/lakers-vs-nuggets-darvin-ham-agrees-to-disagree-after-anthony-davis-assessment-of-blown-lead-in-game-2/ar-AA1nEMev?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+                    "6 hours ago"
+                ],
+                [
+                    "Heavy.com",
+                    "https://heavy.com/sports/nba/los-angeles-lakers/endangered-coach-darvin-ham/",
+                    "5 hours ago"
+                ],
+                [
+                    "Orange County Register",
+                    "https://www.ocregister.com/2024/04/25/lakers-looking-to-maintain-their-pace-from-start-to-finish/",
+                    "12 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://cdn.theathletic.com/app/uploads/2024/04/26082740/GettyImages-2149636127-scaled-e1714134485594.jpg"
+        }
+    ],
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/Karan.mp3"
+}

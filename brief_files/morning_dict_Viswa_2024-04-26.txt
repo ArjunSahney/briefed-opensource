@@ -1,0 +1,160 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Scotland's Political Turmoil and Humza Yousaf's Confidence Vote",
+            "Summary": "Scotland's First Minister Humza Yousaf is facing a critical confidence vote amidst controversy over terminating the SNP-Green coalition, stressing he won't resign and is 'very confident' of winning despite erosion of party authority and the need for significant concessions to critics (Washington Post, The Guardian). With the SNP lacking a full majority, negotiations and compromises, highlighted by Yousaf's outreach to other parties including the Greens, are essential for his political survival, amidst broader discussions on governance and policy directions (Yahoo News New Zealand, The Telegraph).",
+            "sources": [
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/world/2024/04/26/scotland-government-yousaf-confidence-votes/8afcd260-03bf-11ef-8eac-39c6dcb59eb5_story.html",
+                    "1 hour ago"
+                ],
+                [
+                    "The Guardian",
+                    "https://www.theguardian.com/politics/live/2024/apr/26/humza-yousaf-scotland-post-office-inquiry-uk-politics-latest",
+                    "38 minutes ago"
+                ],
+                [
+                    "Yahoo News New Zealand",
+                    "https://nz.news.yahoo.com/humza-yousaf-confidence-vote-does-151410426.html",
+                    "5 hours ago"
+                ],
+                [
+                    "The Telegraph",
+                    "https://www.telegraph.co.uk/politics/2024/04/26/rishi-sunak-latest-news-humza-yousaf-ash-regan-alex-salmond/",
+                    "50 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MMLJQ5QD3AI67DVMHHDNZNM6WU.jpg&w=1440"
+        },
+        {
+            "Title": "USC Cancels Major Commencement Ceremony Amid Campus Protests",
+            "Summary": "The University of Southern California (USC) canceled its main commencement ceremony due to concerns over pro-Palestinian protests related to the Israel-Hamas conflict. The decision followed tensions, including an incident where demonstrators clashed with campus security. The cancellation has drawn criticism from students and alumni, especially since it came after the announcement that a pro-Palestinian student valedictorian would not be allowed to speak at the event. This situation reflects wider unrest on U.S. college campuses regarding the Middle Eastern conflict (Axios, Los Angeles Times, WSOC TV, PBS, WBRC FOX6 News).",
+            "sources": [
+                [
+                    "Axios",
+                    "https://www.axios.com/2024/04/25/usc-commencement-graduation-canceled",
+                    "4 hours ago"
+                ],
+                [
+                    "Los Angeles Times",
+                    "https://www.latimes.com/california/story/2024-04-25/la-me-usc-commencement-canceled",
+                    "14 hours ago"
+                ],
+                [
+                    "WSOC TV",
+                    "https://www.wsoctv.com/news/trending/usc-cancels-graduation-ceremony-amid-growing-campus-protests/F5YCHHJW3NHV7HL7AJ67XPJNVE/",
+                    "2 hours ago"
+                ],
+                [
+                    "PBS",
+                    "https://www.pbs.org/newshour/nation/usc-cancels-main-graduation-ceremony-over-concerns-about-pro-palestinian-protests",
+                    "19 hours ago"
+                ],
+                [
+                    "WBRC FOX6 News",
+                    "https://www.wbrc.com/2024/04/26/university-southern-californias-move-cancel-commencement-amid-protests-draws-criticism-students-alumni/?outputType=apps",
+                    "5 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://cmg-cmg-tv-10030-prod.cdn.arcpublishing.com/resizer/ye6qQrZKvVXfg9sBPdH-PemAYQs=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/HA56223OWJGJLA675X7RGRHOJI.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "Fixed Wireless": [
+            {
+                "Title": "Spectrum's Expansion into Rural America",
+                "Summary": "Spectrum launched its Internet, Mobile, TV, and Voice services to 190 homes and small businesses in Calhoun County, South Carolina, as part of its $5 billion RDOF initiative to enhance rural broadband connectivity. This move signifies a significant step towards closing the digital divide in rural America (Charter Communications).",
+                "sources": [
+                    [
+                        "Charter Communications",
+                        "https://corporate.charter.com/newsroom/spectrum-launches-gigabit-broadband-in-calhoun-county-south-carolina",
+                        "23 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://corporate.charter.com/sites/default/files/CharterSprinklr_6.jpeg"
+            },
+            {
+                "Title": "T-Mobile's Expansion and Subscriber Growth, and AT&T's Strong Quarter Performance",
+                "Summary": "T-Mobile aims to reach 3.5 million homes with fiber by 2028 through its Lumos initiative, expanding its telecommunications infrastructure significantly (Light Reading). Additionally, the acquisition of Mint has bolstered T-Mobile's first quarter, adding 532K phone subscribers, showing a robust growth trajectory (FierceWireless). Meanwhile, AT&T reports a strong first quarter, indicating resilience and growth despite experiencing some declines in key figures, showcasing the competitive and evolving nature of the telecommunications industry (VoIP Review).",
+                "sources": [
+                    [
+                        "Light Reading",
+                        "https://www.lightreading.com/fttx/with-lumos-t-mobile-to-reach-3-5m-homes-with-fiber-by-2028",
+                        "24 hours ago"
+                    ],
+                    [
+                        "FierceWireless",
+                        "https://www.fierce-network.com/wireless/t-mobile-gains-mint-adds-532k-phone-subs-q1",
+                        "19 hours ago"
+                    ],
+                    [
+                        "VoIP Review",
+                        "https://voip.review/2024/04/26/att-reports-strong-first-quarter-despite-dip-headline-figures/",
+                        "11 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://voip.review/wp-content/uploads/2024/04/Shutterstock_1353902207.jpeg"
+            },
+            {
+                "Title": "Charter Communications' Broadband and Subscriber Dynamics",
+                "Summary": "Charter Communications experienced a noteworthy loss of 72,000 internet customers in Q1, surpassing the estimated 56,940, alongside declining video subscribers by 405,000 but adding 486,000 mobile lines. Financially, Charter's free cash flow fell short of expectations at $358 million due to increased network expansion spending, with earnings per share at $7.55 missing the predicted $7.92. Despite these challenges, revenue matched forecasts at $13.68 billion. The stock has seen a significant downturn, decreasing by approximately 33% this year (XM, Morningstar).",
+                "sources": [
+                    [
+                        "XM",
+                        "https://www.xm.com/research/markets/allNews/reuters/charter-communications-falls-after-higherthanexpected-broadband-subscriber-losses-53823704",
+                        "5 hours ago"
+                    ],
+                    [
+                        "Morningstar",
+                        "https://www.morningstar.com/news/marketwatch/20240426261/charter-continues-to-shed-internet-subscribers-reflecting-cables-growth-woes",
+                        "7 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cloud.xm-cdn.com/static/xm/common/logos/XM-logo.jpg"
+            }
+        ],
+        "AI Education": [
+            {
+                "Title": "AI Misuse in Framing School Principal",
+                "Summary": "A Maryland high school teacher was arrested for allegedly using AI to generate a fake audio clip, framing the school principal with racist and antisemitic remarks (NBC News, CBS News). The accused, identified as a technically savvy individual, leveraged this skill following grievances related to work-performance issues (WBAL-TV). The fake audio was reportedly created using OpenAI tools and Microsoft Bing Chat accessed through the school's network (NPR). Police began investigating this incident, which quickly spread on social media, in January (NPR).",
+                "sources": [
+                    [
+                        "NBC News",
+                        "https://www.nbcnews.com/news/us-news/teacher-arrested-ai-generated-racist-rant-maryland-school-principal-rcna149345",
+                        "5 hours ago"
+                    ],
+                    [
+                        "CBS News",
+                        "https://www.cbsnews.com/baltimore/news/maryland-framed-principal-racist-ai-generated-voice/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "WBAL-TV",
+                        "https://www.wbaltv.com/article/police-former-pikesville-high-ad-facing-charges-ai-generated-voice-hoax/60603313",
+                        "20 hours ago"
+                    ],
+                    [
+                        "NPR",
+                        "https://www.npr.org/2024/04/26/1247237175/baltimore-ai-generated-racist-audio-crime",
+                        "10 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/pikesville-high-school-662ac8e25d3f0.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+            },
+            {
+                "Title": "AI in Education and Intellectual Property Celebrations in Hong Kong",
+                "Summary": "Hong Kong's integration of AI in education is criticized for relying too heavily on Western-centric AI models, risking cultural relevance in the Asia-Pacific, potentially influencing future generations' perceptions (South China Morning Post). Additionally, Hong Kong commemorates World Intellectual Property Day 2024 with a special event, highlighting the significance of intellectual property in the region (\b5df4\bu58eb\bu7684\bu5831).",
+                "sources": [
+                    [
+                        "South China Morning Post",
+                        "https://www.scmp.com/opinion/hong-kong-opinion/article/3260134/why-hong-kongs-embrace-ai-education-much-too-superficial",
+                        "17 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cdn.i-scmp.com/sites/default/files/styles/og_image_scmp_opinion/public/d8/images/canvas/2024/04/25/2a97db99-7bab-426c-8549-2ed7b9df6cbd_da784adb.jpg?itok=MCXk2HWS&v=1714026342"
+            }
+        ]
+    },
+    "Trending Headlines": []
+}

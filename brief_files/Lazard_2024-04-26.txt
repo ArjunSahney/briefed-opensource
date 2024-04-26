@@ -1,0 +1,55 @@
+[
+    {
+        "Title": "Lazard's Q1 2024 Earnings Overview",
+        "Summary": "Lazard reported its first-quarter earnings for 2024, surpassing expectations in both earnings per share (EPS) and revenue, indicating a strong financial performance for the period (Houston Chronicle, MSN).",
+        "sources": [
+            [
+                "Houston Chronicle",
+                "https://www.houstonchronicle.com/business/article/lazard-q1-earnings-snapshot-19421803.php",
+                "17 hours ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-us/money/markets/laz-stock-earnings-lazard-beats-eps-beats-revenue-for-q1-2024/ar-AA1nEJBh",
+                "21 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Summary of Lazard's Q1 2024 Earnings Performance",
+        "Summary": "Lazard outperformed expectations with higher earnings per share (EPS) and revenue in the first quarter of 2024, highlighting its financial success (MSN). Further insights reveal a detailed picture of soaring revenues and strategic business moves, underscoring the company's strong financial and strategic positioning in the market (GuruFocus).",
+        "sources": [
+            [
+                "MSN",
+                "https://www.msn.com/en-us/money/markets/laz-stock-earnings-lazard-beats-eps-beats-revenue-for-q1-2024/ar-AA1nEJBh",
+                "21 hours ago"
+            ],
+            [
+                "GuruFocus",
+                "https://www.gurufocus.com/news/2419290/lazard-inc-laz-q1-2024-earnings-call-transcript-highlights-soaring-revenues-and-strategic-insights",
+                "10 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Lazard Inc Q1 2024 Financial Performance Overview",
+        "Summary": "Lazard Inc reported a significant increase in Q1 2024 revenues, combining robust financial results with strategic insights (GuruFocus). The company's first-quarter earnings snapshot highlighted its financial achievements and operational updates (Houston Chronicle). Moreover, Lazard not only exceeded expectations for earnings per share (EPS) but also surpassed revenue forecasts for the quarter, showcasing a strong financial performance (MSN).",
+        "sources": [
+            [
+                "GuruFocus",
+                "https://www.gurufocus.com/news/2419290/lazard-inc-laz-q1-2024-earnings-call-transcript-highlights-soaring-revenues-and-strategic-insights",
+                "10 hours ago"
+            ],
+            [
+                "Houston Chronicle",
+                "https://www.houstonchronicle.com/business/article/lazard-q1-earnings-snapshot-19421803.php",
+                "17 hours ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-us/money/markets/laz-stock-earnings-lazard-beats-eps-beats-revenue-for-q1-2024/ar-AA1nEJBh",
+                "21 hours ago"
+            ]
+        ]
+    }
+]

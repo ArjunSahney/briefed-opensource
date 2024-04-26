@@ -1,0 +1,147 @@
+[
+    {
+        "Title": "Scotland's Political Turmoil and Humza Yousaf's Confidence Vote",
+        "Summary": "Scotland's First Minister Humza Yousaf is facing a critical confidence vote amidst controversy over terminating the SNP-Green coalition, stressing he won't resign and is 'very confident' of winning despite erosion of party authority and the need for significant concessions to critics (Washington Post, The Guardian). With the SNP lacking a full majority, negotiations and compromises, highlighted by Yousaf's outreach to other parties including the Greens, are essential for his political survival, amidst broader discussions on governance and policy directions (Yahoo News New Zealand, The Telegraph).",
+        "sources": [
+            [
+                "Washington Post",
+                "https://www.washingtonpost.com/world/2024/04/26/scotland-government-yousaf-confidence-votes/8afcd260-03bf-11ef-8eac-39c6dcb59eb5_story.html",
+                "1 hour ago"
+            ],
+            [
+                "The Guardian",
+                "https://www.theguardian.com/politics/live/2024/apr/26/humza-yousaf-scotland-post-office-inquiry-uk-politics-latest",
+                "38 minutes ago"
+            ],
+            [
+                "Yahoo News New Zealand",
+                "https://nz.news.yahoo.com/humza-yousaf-confidence-vote-does-151410426.html",
+                "5 hours ago"
+            ],
+            [
+                "The Telegraph",
+                "https://www.telegraph.co.uk/politics/2024/04/26/rishi-sunak-latest-news-humza-yousaf-ash-regan-alex-salmond/",
+                "50 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MMLJQ5QD3AI67DVMHHDNZNM6WU.jpg&w=1440"
+    },
+    {
+        "Title": "USC Cancels Major Commencement Ceremony Amid Campus Protests",
+        "Summary": "The University of Southern California (USC) canceled its main commencement ceremony due to concerns over pro-Palestinian protests related to the Israel-Hamas conflict. The decision followed tensions, including an incident where demonstrators clashed with campus security. The cancellation has drawn criticism from students and alumni, especially since it came after the announcement that a pro-Palestinian student valedictorian would not be allowed to speak at the event. This situation reflects wider unrest on U.S. college campuses regarding the Middle Eastern conflict (Axios, Los Angeles Times, WSOC TV, PBS, WBRC FOX6 News).",
+        "sources": [
+            [
+                "Axios",
+                "https://www.axios.com/2024/04/25/usc-commencement-graduation-canceled",
+                "4 hours ago"
+            ],
+            [
+                "Los Angeles Times",
+                "https://www.latimes.com/california/story/2024-04-25/la-me-usc-commencement-canceled",
+                "14 hours ago"
+            ],
+            [
+                "WSOC TV",
+                "https://www.wsoctv.com/news/trending/usc-cancels-graduation-ceremony-amid-growing-campus-protests/F5YCHHJW3NHV7HL7AJ67XPJNVE/",
+                "2 hours ago"
+            ],
+            [
+                "PBS",
+                "https://www.pbs.org/newshour/nation/usc-cancels-main-graduation-ceremony-over-concerns-about-pro-palestinian-protests",
+                "19 hours ago"
+            ],
+            [
+                "WBRC FOX6 News",
+                "https://www.wbrc.com/2024/04/26/university-southern-californias-move-cancel-commencement-amid-protests-draws-criticism-students-alumni/?outputType=apps",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cmg-cmg-tv-10030-prod.cdn.arcpublishing.com/resizer/ye6qQrZKvVXfg9sBPdH-PemAYQs=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/HA56223OWJGJLA675X7RGRHOJI.jpg"
+    },
+    {
+        "Title": "Maryland Teacher Creates AI-Generated Racism Controversy",
+        "Summary": "Dazhon Darien, a Maryland teacher, was arrested for using AI to create a fake audio clip, making it seem like his principal, Eric Eiswert, made racist remarks. This misuse of AI led to Eiswert's temporary suspension. The police traced the manipulated audio back to Darien, who accessed AI tools through the school's network (NBC News, NPR, USA Today, The Verge, ABC News - Breaking News, Latest News and Videos).",
+        "sources": [
+            [
+                "NBC News",
+                "https://www.nbcnews.com/news/us-news/teacher-arrested-ai-generated-racist-rant-maryland-school-principal-rcna149345",
+                "2 hours ago"
+            ],
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/26/1247237175/baltimore-ai-generated-racist-audio-crime",
+                "7 hours ago"
+            ],
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/news/nation/2024/04/25/baltimore-maryland-artificial-intelligence-teacher-deep-fake/73460123007/",
+                "13 hours ago"
+            ],
+            [
+                "The Verge",
+                "https://www.theverge.com/2024/4/25/24140556/ai-voice-cloning-baltimore-school-misuse",
+                "19 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240425-pikesville-high-school-mn-1045-e85233.jpg"
+    },
+    {
+        "Title": "Supreme Court Ponders Trump's Immunity Claim Amidst Legal Turmoil",
+        "Summary": "The Supreme Court's deliberation on former President Donald Trump's immunity claim poses significant political and legal implications, raising debates on the extent of presidential immunity. With Trump's trial delays, the case entered into a critical juncture, examining past actions during Trump's presidency related to the 2020 election results, and the potential for immunity from prosecution. A ruling could have far-reaching effects, including possible delays in his trial scheduled before the November 2024 election, and has prompted discussions on the judiciary's stance towards Trump (Washington Post, Time Magazine, CNN, Crooked Media, The Nation).",
+        "sources": [
+            [
+                "Washington Post",
+                "https://www.washingtonpost.com/politics/2024/04/25/supreme-court-trump-immunity-case/",
+                "12 hours ago"
+            ],
+            [
+                "Time Magazine",
+                "https://time.com/6971072/supreme-court-donald-trump-immunity-case-arguments/",
+                "22 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/politics/live-news/supreme-court-trump-immunity-04-25-24/h_000ecd27d2c6d977becd1d11944422ed",
+                "19 hours ago"
+            ],
+            [
+                "Crooked Media",
+                "https://crooked.com/podcast/will-the-supreme-court-grant-trump-immunity/",
+                "8 hours ago"
+            ],
+            [
+                "The Nation",
+                "https://www.thenation.com/article/archive/supreme-court-trump-immunity-hearing/",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.washingtonpost.com/wp-apps/og-image/?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UPGJSVLUYXJGUZTBWTHXDUK4YY_size-normalized.JPG&w=1440&isFree=true"
+    },
+    {
+        "Title": "Overview of Pro-Palestinian Protests on U.S. College Campuses",
+        "Summary": "Pro-Palestinian protests have erupted across U.S. college campuses, with University officials at a northern California university moving instructions online due to blockades (AP News). These protests have spread to institutions such as Yale and Michigan State University, with demands including divestment from Israel-linked investments and support for low-income residents (AP News, CNN). At the University of Texas, the protests led to involvement from state law enforcement and over 50 arrests (USA Today). These actions are part of a wider movement, echoing solidarity with global protests against the Israel-Hamas war (Austin American-Statesman).",
+        "sources": [
+            [
+                "AP News",
+                "https://apnews.com/article/gaza-war-campus-protests-966eb531279f8e4381883fc5d79d5466",
+                "46 minutes ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/26/investing/what-pro-palestinian-protesters-want/index.html",
+                "2 hours ago"
+            ],
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/news/nation/2024/04/26/pro-palestinian-protests-college-columbia-usc-ut-austin/73465781007/",
+                "1 hour ago"
+            ],
+            [
+                "Austin American-Statesman",
+                "https://www.statesman.com/story/news/state/2024/04/24/what-does-pro-palestine-mean-protest-meaning-israel-hamas-war-ut-austin-students-protesting-texas/73446118007/",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://dims.apnews.com/dims4/default/37ce34f/2147483647/strip/true/crop/5554x3124+0+289/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F0e%2Fe460ac239d47847e5728a141305d%2F53abf47f572449378f7e1cd2b069cc67"
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "Title": "Capria Ventures Closes India Opportunity Fund",
+        "Summary": "Capria Ventures has concluded the fundraising for its India Opportunity Fund at about Rs 153 crore, following the successful exit from investment in Awign. The firm targets early and early-growth stage startups in the global South including India, Latin America, Africa, and Southeast Asia, focusing on sectors like fintech, jobtech, edtech, agtech, climate, and SaaS. Capria supports its portfolio through a $100 million second fund and has invested in companies such as BetterPlace, Cuemath, Masai School, and Eduvanz with this opportunity fund (Business Standard; VCCircle; The Hindu BusinessLine; Entrackr; The Economic Times).",
+        "Image Filepath": "https://assets.vccircle.com/uploads/2024/04/capria-venture-surya-mantha-jpeg.jpg"
+    },
+    {
+        "Title": "Capria Ventures Successfully Closes India Opportunity Fund",
+        "Summary": "Capria Ventures recently announced the final closure of its India Opportunity Fund following a successful exit from Awign, with a collection of Rs 153 crore ($19 million) (Business Standard, Entrackr). The fund targets early and early-growth stage startups in the global South, focusing on sectors such as fintech, jobtech, edtech, agtech, climate, and SaaS, and is investing from a $100 million second fund (VCCircle). Notable investments include BetterPlace, Cuemath, Masai School, and Eduvanz through this opportunity fund (The Hindu BusinessLine).",
+        "sources": [
+            [
+                "Business Standard",
+                "https://www.business-standard.com/companies/news/capria-ventures-closes-india-opportunity-fund-post-successful-sale-of-awign-124042601047_1.html",
+                "3 hours ago"
+            ],
+            [
+                "Entrackr",
+                "https://entrackr.com/2024/04/capria-ventures-closes-india-opportunity-fund-at-19-mn/",
+                "8 hours ago"
+            ],
+            [
+                "VCCircle",
+                "https://www.vccircle.com/capriaventures-hits-final-close-of-india-focussed-special-opportunity-fund",
+                "9 hours ago"
+            ],
+            [
+                "The Hindu BusinessLine",
+                "https://www.thehindubusinessline.com/companies/capria-ventures-closes-india-opportunity-fund-post-successful-sale-of-awign/article68109916.ece",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://assets.vccircle.com/uploads/2024/04/capria-venture-surya-mantha-jpeg.jpg"
+    },
+    {
+        "Title": "Recent Developments in Tech, Solar Energy, and Startup Funding",
+        "Summary": "Startup funding in India for Q4 has seen a 40% reduction to $2 billion compared to last year, yet the country remains a significant tech leader due to its demographic advantages (Outlook India). In the solar energy sector, Rewa Ultra Mega Solar Ltd. (RUMSL) is advancing with a proposal to develop a 170 MW solar project in Madhya Pradesh, indicating progress in renewable energy initiatives (Mercomindia.com). Meanwhile, iPhone sales in China have plummeted by 25%, pushing Apple from first to fifth place, partly due to the rise of generative AI technologies enabling Chinese vendors to innovate and challenge Apple's market dominance (StartupNews.fyi).",
+        "sources": [
+            [
+                "Outlook India",
+                "https://business.outlookindia.com/news/startup-funding-in-q4-drops-to-2-billion-marking-a-40-decrease-from-last-years-figures-report",
+                "9 hours ago"
+            ],
+            [
+                "Mercomindia.com",
+                "https://www.mercomindia.com/daily-news-wrap-up-rumsl-170-mw-solar",
+                "10 hours ago"
+            ],
+            [
+                "StartupNews.fyi",
+                "https://startupnews.fyi/2024/04/26/iphone-sales-spiral-25-in-china-as-apple-drops-from-first-place-to-fifth/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.assettype.com/outlookbusiness%2Fimport%2Fimgnew.outlookindia.com%2Fuploadimage%2Flibrary%2F16_9%2F16_9_5%2FIMAGE_1642309461.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100"
+    },
+    {
+        "Title": "Norwest Venture Partners' Latest Fund Amid Market Downturn",
+        "Summary": "Norwest Venture Partners successfully raised $3 billion for its seventeenth fund, demonstrating resilience by maintaining its fund size despite a slower investment climate, with particular success in growth equity, healthcare, and India (TechCrunch).",
+        "sources": [
+            [
+                "TechCrunch",
+                "https://techcrunch.com/2024/04/25/norwest-venture-partners-raises-3b-for-17th-vehicle-maintaining-fund-size-despite-market-downturn/",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://techcrunch.com/wp-content/uploads/2024/04/MRP_2N7A8926-Edit-1.jpg?resize=1200,786"
+    }
+]

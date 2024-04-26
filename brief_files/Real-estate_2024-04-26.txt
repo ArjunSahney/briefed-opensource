@@ -1,0 +1,67 @@
+[
+    {
+        "Title": "Expectations on Real Estate Prices in Latvia",
+        "Summary": "Nearly half of the Latvian residents anticipate an increase in real estate prices, as revealed in a survey of 1,004 adults conducted through stratified random sampling across the country (Baltic News Network).",
+        "sources": [
+            [
+                "Baltic News Network",
+                "https://bnn-news.com/bank-49-2-of-latvian-residents-expect-real-estate-prices-to-go-up-soon-256511",
+                "7 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://bnn-news.com/wp-content/uploads/2024/04/pexels-wdnet-101808-696x464-1.jpg"
+    },
+    {
+        "Title": "Warren Buffett's Firm's Legal Settlement",
+        "Summary": "Warren Buffett's real-estate firm resolves a legal dispute by agreeing to a $250 million settlement (Business Insider).",
+        "sources": [
+            [
+                "Business Insider",
+                "https://www.businessinsider.com/warren-buffett-real-estate-brokerage-250-million-settlement-commissions-2024-4",
+                "23 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://i.insider.com/662bc8190dfb1341e9ffa3c7?width=1200&format=jpeg"
+    },
+    {
+        "Title": "United Real Estate Launches Nationwide Financial Wellness Program",
+        "Summary": "United Real Estate has launched a Financial Wellness Program to enhance the financial, physical, and mental wellness of its 23,000 agents across the nation. The program offers company-sponsored financial wellness benefits using Ramsey Solutions' Smart Dollar tool, focusing on principles that aim to assist individuals in managing debt and saving effectively. This initiative allows financial goals to be tracked digitally, marking a significant step towards improving the overall well-being of United's workforce (InvestorsObserver).",
+        "sources": [
+            [
+                "InvestorsObserver",
+                "https://www.investorsobserver.com/news/qm-pr/5232060502460178",
+                "6 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://s3.amazonaws.com/images.investorsobserver.com/io-logo-800x450.jpg"
+    },
+    {
+        "Title": "Teen Makes Forensic Breakthrough in Historical Military Case",
+        "Summary": "A teenager from Suffern, at 15, collaborated with Ramapo College's Investigative Genetic Genealogy Center to identify the remains of a U.S. Marine captain from a 1951 air crash, using a jawbone found in a child's rock collection. This breakthrough, accomplished in just two days, marked the teen as the youngest person involved in solving a forensics mystery (Lohud).",
+        "sources": [
+            [
+                "Lohud",
+                "https://www.lohud.com/story/news/local/rockland/2024/04/26/ny-teen-youngest-person-to-help-solve-forensics-mystery-id-bone-of-missing-marine/73422682007/",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://staticassets.gannettdigital.com/gci-static-assets/assets/global/checkout/meta-generic.png"
+    },
+    {
+        "Title": "Warren Buffett's Real-Estate Firm Settles Lawsuits with $250M",
+        "Summary": "Warren Buffett\u2019s real-estate brokerage firm will spend $250M to settle legal disputes, adding to a total of $876.5M in damages from the Sitzer | Burnett lawsuit, including settlements from other major real estate firms (Business Insider, Inman).",
+        "sources": [
+            [
+                "Business Insider",
+                "https://www.businessinsider.com/warren-buffett-real-estate-brokerage-250-million-settlement-commissions-2024-4",
+                "24 minutes ago"
+            ],
+            [
+                "Inman",
+                "https://www.inman.com/2024/04/26/homeservices-of-america-agrees-to-pay-250m-to-settle-lawsuits/",
+                "53 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://i.insider.com/662bc8190dfb1341e9ffa3c7?width=1200&format=jpeg"
+    }
+]

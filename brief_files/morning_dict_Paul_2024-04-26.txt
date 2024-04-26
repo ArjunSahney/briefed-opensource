@@ -1,0 +1,152 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Scotland's Political Turmoil and Humza Yousaf's Confidence Vote",
+            "Summary": "Scotland's First Minister Humza Yousaf is facing a critical confidence vote amidst controversy over terminating the SNP-Green coalition, stressing he won't resign and is 'very confident' of winning despite erosion of party authority and the need for significant concessions to critics (Washington Post, The Guardian). With the SNP lacking a full majority, negotiations and compromises, highlighted by Yousaf's outreach to other parties including the Greens, are essential for his political survival, amidst broader discussions on governance and policy directions (Yahoo News New Zealand, The Telegraph).",
+            "sources": [
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/world/2024/04/26/scotland-government-yousaf-confidence-votes/8afcd260-03bf-11ef-8eac-39c6dcb59eb5_story.html",
+                    "1 hour ago"
+                ],
+                [
+                    "The Guardian",
+                    "https://www.theguardian.com/politics/live/2024/apr/26/humza-yousaf-scotland-post-office-inquiry-uk-politics-latest",
+                    "38 minutes ago"
+                ],
+                [
+                    "Yahoo News New Zealand",
+                    "https://nz.news.yahoo.com/humza-yousaf-confidence-vote-does-151410426.html",
+                    "5 hours ago"
+                ],
+                [
+                    "The Telegraph",
+                    "https://www.telegraph.co.uk/politics/2024/04/26/rishi-sunak-latest-news-humza-yousaf-ash-regan-alex-salmond/",
+                    "50 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MMLJQ5QD3AI67DVMHHDNZNM6WU.jpg&w=1440"
+        },
+        {
+            "Title": "USC Cancels Major Commencement Ceremony Amid Campus Protests",
+            "Summary": "The University of Southern California (USC) canceled its main commencement ceremony due to concerns over pro-Palestinian protests related to the Israel-Hamas conflict. The decision followed tensions, including an incident where demonstrators clashed with campus security. The cancellation has drawn criticism from students and alumni, especially since it came after the announcement that a pro-Palestinian student valedictorian would not be allowed to speak at the event. This situation reflects wider unrest on U.S. college campuses regarding the Middle Eastern conflict (Axios, Los Angeles Times, WSOC TV, PBS, WBRC FOX6 News).",
+            "sources": [
+                [
+                    "Axios",
+                    "https://www.axios.com/2024/04/25/usc-commencement-graduation-canceled",
+                    "4 hours ago"
+                ],
+                [
+                    "Los Angeles Times",
+                    "https://www.latimes.com/california/story/2024-04-25/la-me-usc-commencement-canceled",
+                    "14 hours ago"
+                ],
+                [
+                    "WSOC TV",
+                    "https://www.wsoctv.com/news/trending/usc-cancels-graduation-ceremony-amid-growing-campus-protests/F5YCHHJW3NHV7HL7AJ67XPJNVE/",
+                    "2 hours ago"
+                ],
+                [
+                    "PBS",
+                    "https://www.pbs.org/newshour/nation/usc-cancels-main-graduation-ceremony-over-concerns-about-pro-palestinian-protests",
+                    "19 hours ago"
+                ],
+                [
+                    "WBRC FOX6 News",
+                    "https://www.wbrc.com/2024/04/26/university-southern-californias-move-cancel-commencement-amid-protests-draws-criticism-students-alumni/?outputType=apps",
+                    "5 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://cmg-cmg-tv-10030-prod.cdn.arcpublishing.com/resizer/ye6qQrZKvVXfg9sBPdH-PemAYQs=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/HA56223OWJGJLA675X7RGRHOJI.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "LLM": [
+            {
+                "Title": "Meta\u2019s Meditron LLM suite aims to improve healthcare",
+                "Summary": "The Meditron LLM suite, developed by EPFL and Yale School of Medicine with ICRC's support, leverages Meta's Llama2 platform, focusing on enhancing healthcare through high-quality medical data training (InfoWorld).",
+                "sources": [
+                    [
+                        "InfoWorld",
+                        "https://www.infoworld.com/article/3715245/metas-meditron-llm-suite-to-fill-gap-in-low-resource-healthcare.html",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://images.idgesg.net/images/idge/imported/imageapi/2022/03/17/14/476804949-ntt-100922160-large.jpg?auto=webp&quality=85,70"
+            },
+            {
+                "Title": "Impact of Expanding Context Windows on LLMs",
+                "Summary": "Context windows in Large Language Models (LLMs) have expanded dramatically, from 2,048 tokens in GPT-3 to a million in Gemini 1.5 Pro, aiming for infinite tokens. Techniques like low-rank adaptation (LoRA) offer the potential to fine-tune numerous LLMs efficiently, without the burden of managing billions of parameters for each model (TechTalks).",
+                "sources": [
+                    [
+                        "TechTalks",
+                        "https://bdtechtalks.com/2024/04/26/llm-infinite-context-fine-tuning-rag/",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://i0.wp.com/bdtechtalks.com/wp-content/uploads/2024/04/infinite-context-llm.jpg?fit=1440%2C900&ssl=1"
+            }
+        ],
+        "SaaS venture capital": [
+            {
+                "Title": "Capria Ventures Closes India Opportunity Fund",
+                "Summary": "Capria Ventures has concluded the fundraising for its India Opportunity Fund at about Rs 153 crore, following the successful exit from investment in Awign. The firm targets early and early-growth stage startups in the global South including India, Latin America, Africa, and Southeast Asia, focusing on sectors like fintech, jobtech, edtech, agtech, climate, and SaaS. Capria supports its portfolio through a $100 million second fund and has invested in companies such as BetterPlace, Cuemath, Masai School, and Eduvanz with this opportunity fund (Business Standard; VCCircle; The Hindu BusinessLine; Entrackr; The Economic Times).",
+                "Image Filepath": "https://assets.vccircle.com/uploads/2024/04/capria-venture-surya-mantha-jpeg.jpg"
+            },
+            {
+                "Title": "Capria Ventures Successfully Closes India Opportunity Fund",
+                "Summary": "Capria Ventures recently announced the final closure of its India Opportunity Fund following a successful exit from Awign, with a collection of Rs 153 crore ($19 million) (Business Standard, Entrackr). The fund targets early and early-growth stage startups in the global South, focusing on sectors such as fintech, jobtech, edtech, agtech, climate, and SaaS, and is investing from a $100 million second fund (VCCircle). Notable investments include BetterPlace, Cuemath, Masai School, and Eduvanz through this opportunity fund (The Hindu BusinessLine).",
+                "sources": [
+                    [
+                        "Business Standard",
+                        "https://www.business-standard.com/companies/news/capria-ventures-closes-india-opportunity-fund-post-successful-sale-of-awign-124042601047_1.html",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Entrackr",
+                        "https://entrackr.com/2024/04/capria-ventures-closes-india-opportunity-fund-at-19-mn/",
+                        "8 hours ago"
+                    ],
+                    [
+                        "VCCircle",
+                        "https://www.vccircle.com/capriaventures-hits-final-close-of-india-focussed-special-opportunity-fund",
+                        "9 hours ago"
+                    ],
+                    [
+                        "The Hindu BusinessLine",
+                        "https://www.thehindubusinessline.com/companies/capria-ventures-closes-india-opportunity-fund-post-successful-sale-of-awign/article68109916.ece",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://assets.vccircle.com/uploads/2024/04/capria-venture-surya-mantha-jpeg.jpg"
+            }
+        ],
+        "UFC": [
+            {
+                "Title": "Overview of UFC Fight Night: Nicolau vs. Perez",
+                "Summary": "The UFC Fight Night featuring Nicolau vs. Perez highlighted significant bouts, with betting odds and predictions showing varied expectations for fight outcomes. Vithlani boasts a strong track record in predicting UFC outcomes, having accurately called several underdog victories in recent events (CBS Sports).",
+                "sources": [
+                    [
+                        "CBS Sports",
+                        "https://www.cbssports.com/mma/news/ufc-fight-night-nicolau-vs-perez-odds-predictions-mma-expert-reveals-surprising-fight-card-picks-bets/",
+                        "2 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.ufc.com/s3/files/styles/card/s3/2024-04/042724-Weigh-Ins-Nicolau-Perez-hero.jpg?itok=7_St6e2S"
+            },
+            {
+                "Title": "UFC Vegas 91: Nicolau vs. Perez Weigh-In and Betting Innovations",
+                "Summary": "UFC Vegas 91, headlined by Nicolau vs. Perez, recently conducted its weigh-ins, ahead of the event scheduled for April 27, 2024, at the UFC's APEX facility in Las Vegas. In a unique move, Draft Kings introduced controversial betting odds, allowing fans to bet on whether fighters would fail to make weight for this event, sparking discussions among the MMA community (MMAmania.com).",
+                "sources": [
+                    [
+                        "MMAmania.com",
+                        "https://www.mmamania.com/2024/4/25/24140562/draft-kings-rolls-out-controversial-make-weight-odds-ufc-vegas-91-allowing-bet-fighter-scale-fails",
+                        "20 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cdn.vox-cdn.com/thumbor/IVbDJhQ5tflDSpDYE8JYVLrHcqY=/0x0:5389x2821/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25417880/1927891113.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": []
+}

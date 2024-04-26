@@ -1,0 +1,196 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Scotland's Political Turmoil and Humza Yousaf's Confidence Vote",
+            "Summary": "Scotland's First Minister Humza Yousaf is facing a critical confidence vote amidst controversy over terminating the SNP-Green coalition, stressing he won't resign and is 'very confident' of winning despite erosion of party authority and the need for significant concessions to critics (Washington Post, The Guardian). With the SNP lacking a full majority, negotiations and compromises, highlighted by Yousaf's outreach to other parties including the Greens, are essential for his political survival, amidst broader discussions on governance and policy directions (Yahoo News New Zealand, The Telegraph).",
+            "sources": [
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/world/2024/04/26/scotland-government-yousaf-confidence-votes/8afcd260-03bf-11ef-8eac-39c6dcb59eb5_story.html",
+                    "1 hour ago"
+                ],
+                [
+                    "The Guardian",
+                    "https://www.theguardian.com/politics/live/2024/apr/26/humza-yousaf-scotland-post-office-inquiry-uk-politics-latest",
+                    "38 minutes ago"
+                ],
+                [
+                    "Yahoo News New Zealand",
+                    "https://nz.news.yahoo.com/humza-yousaf-confidence-vote-does-151410426.html",
+                    "5 hours ago"
+                ],
+                [
+                    "The Telegraph",
+                    "https://www.telegraph.co.uk/politics/2024/04/26/rishi-sunak-latest-news-humza-yousaf-ash-regan-alex-salmond/",
+                    "50 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/MMLJQ5QD3AI67DVMHHDNZNM6WU.jpg&w=1440"
+        },
+        {
+            "Title": "USC Cancels Major Commencement Ceremony Amid Campus Protests",
+            "Summary": "The University of Southern California (USC) canceled its main commencement ceremony due to concerns over pro-Palestinian protests related to the Israel-Hamas conflict. The decision followed tensions, including an incident where demonstrators clashed with campus security. The cancellation has drawn criticism from students and alumni, especially since it came after the announcement that a pro-Palestinian student valedictorian would not be allowed to speak at the event. This situation reflects wider unrest on U.S. college campuses regarding the Middle Eastern conflict (Axios, Los Angeles Times, WSOC TV, PBS, WBRC FOX6 News).",
+            "sources": [
+                [
+                    "Axios",
+                    "https://www.axios.com/2024/04/25/usc-commencement-graduation-canceled",
+                    "4 hours ago"
+                ],
+                [
+                    "Los Angeles Times",
+                    "https://www.latimes.com/california/story/2024-04-25/la-me-usc-commencement-canceled",
+                    "14 hours ago"
+                ],
+                [
+                    "WSOC TV",
+                    "https://www.wsoctv.com/news/trending/usc-cancels-graduation-ceremony-amid-growing-campus-protests/F5YCHHJW3NHV7HL7AJ67XPJNVE/",
+                    "2 hours ago"
+                ],
+                [
+                    "PBS",
+                    "https://www.pbs.org/newshour/nation/usc-cancels-main-graduation-ceremony-over-concerns-about-pro-palestinian-protests",
+                    "19 hours ago"
+                ],
+                [
+                    "WBRC FOX6 News",
+                    "https://www.wbrc.com/2024/04/26/university-southern-californias-move-cancel-commencement-amid-protests-draws-criticism-students-alumni/?outputType=apps",
+                    "5 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://cmg-cmg-tv-10030-prod.cdn.arcpublishing.com/resizer/ye6qQrZKvVXfg9sBPdH-PemAYQs=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/HA56223OWJGJLA675X7RGRHOJI.jpg"
+        }
+    ],
+    "Custom Headlines": {
+        "Investment Banking": [
+            {
+                "Title": "Recent Financial Market Updates",
+                "Summary": "Financial markets are showing signs of recovery after recent sell-offs, attributed to easing geopolitical tensions, strong corporate earnings, and specific performances in the banking sector, notably Deutsche Bank's positive first quarter results showing a 10% increase in profit (Euronews.com, Yahoo Finance). Deutsche Bank's earnings highlight significant net inflows and a strategic focus on fee-generating investment solutions, with revenue increases in commission and fee income alongside a profitable investment banking sector (Yahoo Finance, WSJ). Additionally, European bank stocks have reached a new peak, nearly hitting a 9-year high after a strong earnings season (Reuters).",
+                "sources": [
+                    [
+                        "Euronews.com",
+                        "https://www.euronews.com/business/2024/04/26/markets-rebound-easing-geopolitical-tension-and-strong-earnings-bring-recovery",
+                        "7 hours ago"
+                    ],
+                    [
+                        "Yahoo Finance",
+                        "https://finance.yahoo.com/news/deutsche-bank-aktiengesellschaft-nyse-db-122824105.html",
+                        "4 hours ago"
+                    ],
+                    [
+                        "WSJ",
+                        "https://www.wsj.com/livecoverage/stock-market-today-earnings-04-25-2024/card/investment-banking-lifts-deutsche-bank-profits-RTDlGpbGIqNcupv6XHEj",
+                        "18 hours ago"
+                    ],
+                    [
+                        "Reuters",
+                        "https://www.reuters.com/markets/europe/european-bank-stocks-rise-nearly-9-year-high-after-earnings-boost-2024-04-26/",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://static.euronews.com/articles/stories/08/39/99/46/1200x675_cmsv2_a02c9337-2f6d-58c9-8962-e3d1e4246d4b-8399946.jpg"
+            },
+            {
+                "Title": "Vodafone Idea's Financial Movements and Market Watch",
+                "Summary": "Vodafone Idea's Follow-on Public Offer (FPO) results in significant earnings for investment bankers (Business Standard). The company\u2019s stock closes 26% higher than its listing price, marking a notable increase, as highlighted in recent market performance reviews (MSN, The Financial Express). Meanwhile, Upstox suggests keeping an eye on stocks like Kotak Mahindra Bank, Axis Bank, Hindustan Unilever, and Vodafone Idea for potential investment opportunities.",
+                "sources": [
+                    [
+                        "Business Standard",
+                        "https://www.business-standard.com/companies/news/vodafone-idea-s-fpo-brings-big-payday-for-investment-bankers-124042600997_1.html",
+                        "27 minutes ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-in/money/markets/vodafone-idea-closes-26-higher-than-listing-price/ar-AA1nFGVZ?ocid=finance-verthp-feeds",
+                        "20 hours ago"
+                    ],
+                    [
+                        "The Financial Express",
+                        "https://www.financialexpress.com/market/ipo-news-vodafone-idea-closes-26-higher-than-listing-price-3468665/",
+                        "20 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "Nomura's Significant Profit Increase",
+                "Summary": "Nomura's net profit has significantly increased, with reports indicating an almost eight-fold rise attributed mainly to a surge in retail income, as reflected in their impressive Q4 results (The Economic Times, Investing.com, The Business Times). Additionally, Japan's stock market performance has pushed Nomura's profits higher, achieving a notable milestone by breaking the bubble-era record (Financial Times). This financial upturn was echoed by a reported 670% surge in Q1 profit for the brokerage, showcasing a robust fiscal performance (Republic World).",
+                "sources": [
+                    [
+                        "The Economic Times",
+                        "https://m.economictimes.com/markets/stocks/earnings/nomura-q4-results-net-profit-jumps-almost-eight-fold-on-retail-income-surge/articleshow/109629125.cms",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Investing.com",
+                        "https://www.investing.com/news/stock-market-news/nomura-q4-net-profit-jumps-almost-eight-fold-on-retail-income-surge-3400094",
+                        "6 hours ago"
+                    ],
+                    [
+                        "The Business Times",
+                        "https://www.businesstimes.com.sg/companies-markets/banking-finance/nomura-q4-net-profit-jumps-almost-eight-fold-retail-income-surge",
+                        "9 hours ago"
+                    ],
+                    [
+                        "Financial Times",
+                        "https://www.ft.com/content/1b2ec092-ed94-4624-9c8f-3a80e76b894a",
+                        "7 hours ago"
+                    ],
+                    [
+                        "Republic World",
+                        "https://www.republicworld.com/business/japan-s-brokerage-witnesses-670-surge-in-q1-profit/",
+                        "6 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://img.etimg.com/thumb/msid-109629149,width-1200,height-630,imgsize-32540,overlay-etmarkets/photo.jpg"
+            }
+        ],
+        "M&A": [
+            {
+                "Title": "Hospital Mergers and Acquisitions Lead to Higher Prices with Limited Antitrust Actions",
+                "Summary": "Studies reveal that hospital mergers and acquisitions result in increased healthcare costs, with antitrust interventions being insufficiently effective in regulating these consolidations (Fierce Healthcare).",
+                "sources": [
+                    [
+                        "Fierce Healthcare",
+                        "https://www.fiercehealthcare.com/finance/hospital-ma-studies-highlight-higher-prices-tepid-antitrust-intervention",
+                        "2 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "The Impact of AI and Generative AI in Business, Finance, and Risk Management",
+                "Summary": "Artificial intelligence (AI) and Generative AI (GenAI) are transforming business landscapes by enhancing capabilities and generating excitement across multiple domains. With the Biden administration's Executive Order, the U.S. aims for the secure and trustworthy development of AI technologies. Meanwhile, Lockchain.ai's recent funding underscores the potential of GenAI in revolutionizing risk management for blockchain, showcasing the depth of AI's penetration across various sectors (EY, Pulse 2.0).",
+                "sources": [
+                    [
+                        "EY",
+                        "https://www.ey.com/en_us/insights/assurance/ai-integration-governance-and-risk-in-finance",
+                        "10 hours ago"
+                    ],
+                    [
+                        "Pulse 2.0",
+                        "https://pulse2.com/lockchain-blockchain-risk-management-platform-closes-4-6-million/",
+                        "6 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://img.helpnetsecurity.com/wp-content/uploads/2024/02/27124629/ai-eye-1400.webp"
+            }
+        ],
+        "Lazard": [
+            {
+                "Title": "Lazard's Q1 2024 Earnings Overview",
+                "Summary": "Lazard reported its first-quarter earnings for 2024, surpassing expectations in both earnings per share (EPS) and revenue, indicating a strong financial performance for the period (Houston Chronicle, MSN).",
+                "sources": [
+                    [
+                        "Houston Chronicle",
+                        "https://www.houstonchronicle.com/business/article/lazard-q1-earnings-snapshot-19421803.php",
+                        "17 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-us/money/markets/laz-stock-earnings-lazard-beats-eps-beats-revenue-for-q1-2024/ar-AA1nEJBh",
+                        "21 hours ago"
+                    ]
+                ]
+            }
+        ]
+    },
+    "Trending Headlines": []
+}

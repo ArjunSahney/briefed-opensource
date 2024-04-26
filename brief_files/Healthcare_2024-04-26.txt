@@ -1,0 +1,87 @@
+[
+    {
+        "Title": "Impact of Gaza Conflict on Healthcare and Population",
+        "Summary": "Gaza's healthcare workers endure the mental strain of ongoing conflict while providing vital medical aid and facing severe resource shortages, including performing amputations without anesthesia (MSF, Doctors Without Borders). Innovations like the MSF Paediatric Days aim to improve child healthcare amidst such crises (MSF). United Nations experts raise alarms over the mental health crises facing Gaza's citizens due to war (AOL.com). Amidst these challenges, a tragic case emerged where a premature baby girl, delivered after her mother's death in an airstrike, succumbed after five days in an incubator (WRAL.com).",
+        "sources": [
+            [
+                "MSF",
+                "https://www.msf.org/gazas-healthcare-workers-grapple-mental-health-impact-unyielding-war",
+                "7 hours ago"
+            ],
+            [
+                "Doctors Without Borders",
+                "https://www.doctorswithoutborders.org/latest/gaza-medical-staff-we-are-alive-we-are-not-ok",
+                "1 hour ago"
+            ],
+            [
+                "AOL.com",
+                "https://www.aol.com/un-expert-warns-mental-health-131814763.html",
+                "11 hours ago"
+            ],
+            [
+                "WRAL.com",
+                "https://www.wral.com/story/premature-baby-girl-rescued-from-her-dead-mothers-womb-dies-in-gaza-after-5-days-in-an-incubator/21401061/",
+                "7 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.msf.org/AssetLink/38iu537n640o86e4ced32uodc6rchpu1.jpg"
+    },
+    {
+        "Title": "Calenda Criticizes Politics for Healthcare Underfunding",
+        "Summary": "Calenda attributes the underfunding of healthcare to a collective failure of all political directions, stressing the need for a unified approach to address the issue (Agenzia Nova).",
+        "sources": [
+            [
+                "Agenzia Nova",
+                "https://www.agenzianova.com/en/news/blame-schlein-for-healthcare-and-underfunding-of-all-politics/",
+                "8 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Flexibility of the Argument Framework in Healthcare Evidence",
+        "Summary": "The argument framework elevates randomized clinical trials to the highest evidence standard and supports methodologies like GRADE and the FDA\u2019s drug approval process. It excels in handling complex interventions, limited comparable RCTs, and diverse evidence, as seen in accelerated approvals of PI3K inhibitors for lymphoma and varied COVID-19 research (Nature).",
+        "sources": [
+            [
+                "Nature",
+                "https://www.nature.com/articles/s41591-024-02930-x",
+                "7 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41591-024-02930-x/MediaObjects/41591_2024_2930_Fig1_HTML.png"
+    },
+    {
+        "Title": "Indonesia Seeks Swedish Investment in Healthcare",
+        "Summary": "Indonesia is actively courting Swedish investment in its healthcare sector, signaling openness to international collaboration for health sector improvements (Jakarta Globe).",
+        "sources": [
+            [
+                "Jakarta Globe",
+                "https://jakartaglobe.id/business/indonesia-woos-sweden-to-invest-in-healthcare-sector",
+                "2 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "The Netherlands: ScreenPoint names Kroese as new CEO",
+        "Summary": "ScreenPoint, a healthcare company, named Kroese as its new CEO, marking a strategic leadership transition (LaingBuisson).",
+        "sources": [
+            [
+                "LaingBuisson",
+                "https://www.investorsinhealthcare.com/articles/category/people/the-netherlands-screenpoint-names-kroese-as-new-ceo/",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.investorsinhealthcare.com/wp-content/uploads/2024/04/Pieter_Kroese_CEO_ScreenPoint_Medical-1.jpg"
+    },
+    {
+        "Title": "Impact of Health Care Algorithms on Disparities",
+        "Summary": "Health care algorithms have the potential to either mitigate or exacerbate existing racial and ethnic disparities in health care, as explored by senior fellows from Penn LDI in a study requested by the AHRQ (Penn LDI).",
+        "sources": [
+            [
+                "Penn LDI",
+                "https://ldi.upenn.edu/our-work/research-updates/health-care-algorithms-can-improve-or-worsen-racial-and-ethnic-disparities/",
+                "20 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://d197nivf0nbma8.cloudfront.net/uploads/2024/04/AdobeStock_285705907-scaled.jpeg"
+    }
+]

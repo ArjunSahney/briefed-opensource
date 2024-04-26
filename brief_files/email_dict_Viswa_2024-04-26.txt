@@ -1,0 +1,241 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Maryland Teacher Creates AI-Generated Racism Controversy",
+            "Summary": "Dazhon Darien, a Maryland teacher, was arrested for using AI to create a fake audio clip, making it seem like his principal, Eric Eiswert, made racist remarks. This misuse of AI led to Eiswert's temporary suspension. The police traced the manipulated audio back to Darien, who accessed AI tools through the school's network (NBC News, NPR, USA Today, The Verge, ABC News - Breaking News, Latest News and Videos).",
+            "sources": [
+                [
+                    "NBC News",
+                    "https://www.nbcnews.com/news/us-news/teacher-arrested-ai-generated-racist-rant-maryland-school-principal-rcna149345",
+                    "2 hours ago"
+                ],
+                [
+                    "NPR",
+                    "https://www.npr.org/2024/04/26/1247237175/baltimore-ai-generated-racist-audio-crime",
+                    "7 hours ago"
+                ],
+                [
+                    "USA Today",
+                    "https://www.usatoday.com/story/news/nation/2024/04/25/baltimore-maryland-artificial-intelligence-teacher-deep-fake/73460123007/",
+                    "13 hours ago"
+                ],
+                [
+                    "The Verge",
+                    "https://www.theverge.com/2024/4/25/24140556/ai-voice-cloning-baltimore-school-misuse",
+                    "19 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2024-04/240425-pikesville-high-school-mn-1045-e85233.jpg"
+        },
+        {
+            "Title": "Supreme Court Ponders Trump's Immunity Claim Amidst Legal Turmoil",
+            "Summary": "The Supreme Court's deliberation on former President Donald Trump's immunity claim poses significant political and legal implications, raising debates on the extent of presidential immunity. With Trump's trial delays, the case entered into a critical juncture, examining past actions during Trump's presidency related to the 2020 election results, and the potential for immunity from prosecution. A ruling could have far-reaching effects, including possible delays in his trial scheduled before the November 2024 election, and has prompted discussions on the judiciary's stance towards Trump (Washington Post, Time Magazine, CNN, Crooked Media, The Nation).",
+            "sources": [
+                [
+                    "Washington Post",
+                    "https://www.washingtonpost.com/politics/2024/04/25/supreme-court-trump-immunity-case/",
+                    "12 hours ago"
+                ],
+                [
+                    "Time Magazine",
+                    "https://time.com/6971072/supreme-court-donald-trump-immunity-case-arguments/",
+                    "22 hours ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/politics/live-news/supreme-court-trump-immunity-04-25-24/h_000ecd27d2c6d977becd1d11944422ed",
+                    "19 hours ago"
+                ],
+                [
+                    "Crooked Media",
+                    "https://crooked.com/podcast/will-the-supreme-court-grant-trump-immunity/",
+                    "8 hours ago"
+                ],
+                [
+                    "The Nation",
+                    "https://www.thenation.com/article/archive/supreme-court-trump-immunity-hearing/",
+                    "18 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.washingtonpost.com/wp-apps/og-image/?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/UPGJSVLUYXJGUZTBWTHXDUK4YY_size-normalized.JPG&w=1440&isFree=true"
+        },
+        {
+            "Title": "Overview of Pro-Palestinian Protests on U.S. College Campuses",
+            "Summary": "Pro-Palestinian protests have erupted across U.S. college campuses, with University officials at a northern California university moving instructions online due to blockades (AP News). These protests have spread to institutions such as Yale and Michigan State University, with demands including divestment from Israel-linked investments and support for low-income residents (AP News, CNN). At the University of Texas, the protests led to involvement from state law enforcement and over 50 arrests (USA Today). These actions are part of a wider movement, echoing solidarity with global protests against the Israel-Hamas war (Austin American-Statesman).",
+            "sources": [
+                [
+                    "AP News",
+                    "https://apnews.com/article/gaza-war-campus-protests-966eb531279f8e4381883fc5d79d5466",
+                    "46 minutes ago"
+                ],
+                [
+                    "CNN",
+                    "https://www.cnn.com/2024/04/26/investing/what-pro-palestinian-protesters-want/index.html",
+                    "2 hours ago"
+                ],
+                [
+                    "USA Today",
+                    "https://www.usatoday.com/story/news/nation/2024/04/26/pro-palestinian-protests-college-columbia-usc-ut-austin/73465781007/",
+                    "1 hour ago"
+                ],
+                [
+                    "Austin American-Statesman",
+                    "https://www.statesman.com/story/news/state/2024/04/24/what-does-pro-palestine-mean-protest-meaning-israel-hamas-war-ut-austin-students-protesting-texas/73446118007/",
+                    "2 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://dims.apnews.com/dims4/default/37ce34f/2147483647/strip/true/crop/5554x3124+0+289/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F02%2F0e%2Fe460ac239d47847e5728a141305d%2F53abf47f572449378f7e1cd2b069cc67"
+        }
+    ],
+    "Custom Headlines": {
+        "Fixed Wireless": [
+            {
+                "Title": "T-Mobile Expands with Mint Mobile Acquisition and Q1 Growth",
+                "Summary": "T-Mobile successfully acquired Mint Mobile for $1.35 billion, a move approved by the FCC, which also involved commitments to unlock devices for 60 days, enhancing customer flexibility (FierceWireless, TelecomLead, Mobile World Live). In the first quarter, T-Mobile reported adding 532,000 phone subscribers, highlighting its growth momentum across various segments and its strategic plans for future expansions, including significant investments in home mesh networks and high-speed internet (FierceWireless, The Motley Fool).",
+                "sources": [
+                    [
+                        "FierceWireless",
+                        "https://www.fierce-network.com/wireless/t-mobile-gains-mint-adds-532k-phone-subs-q1",
+                        "19 hours ago"
+                    ],
+                    [
+                        "TelecomLead",
+                        "https://www.telecomlead.com/latest-news/fcc-okays-t-mobiles-1-35-bn-acquisition-of-mint-mobile-115947",
+                        "16 hours ago"
+                    ],
+                    [
+                        "Mobile World Live",
+                        "https://www.mobileworldlive.com/t-mobile-us/t-mobile-us-gets-green-light-for-mint-mobile-deal/",
+                        "9 hours ago"
+                    ],
+                    [
+                        "The Motley Fool",
+                        "https://www.fool.com/earnings/call-transcripts/2024/04/25/t-mobile-us-tmus-q1-2024-earnings-call-transcript/",
+                        "17 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.telecomlead.com/wp-content/uploads/2017/12/T-Mobile-Austria.jpg"
+            },
+            {
+                "Title": "Senate Aims to Restore FCC Authority and Fund Connectivity Programs",
+                "Summary": "Senator Maria Cantwell proposes legislation to reestablish the FCC's authority over spectrum auctions for five years and secure funds for the Affordable Connectivity Program along with the rip and replace initiative (Broadband Breakfast).",
+                "sources": [
+                    [
+                        "Broadband Breakfast",
+                        "https://broadbandbreakfast.com/cantwell-releases-draft-legislation-to-restore-fcc-auction-authority-fund-acp-rip-and-replace/",
+                        "18 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://broadbandbreakfast.com/content/images/2024/04/maria-cantwell.jpg"
+            },
+            {
+                "Title": "Troubleshooting Connectivity and Streaming Services on Game Consoles",
+                "Summary": "To resolve a PS5's internet connectivity issues, disconnecting and reconnecting the router can be a simple fix allowing access to various online services and updates (Android Authority). For watching HBO Max on PS4 outside the USA, utilizing specific sign-in methods and troubleshooting steps ensures access to a broad range of content, including HBO Originals and Warner Bros. films (Streamingrant).",
+                "sources": [
+                    [
+                        "Android Authority",
+                        "https://www.androidauthority.com/ps5-not-connecting-to-wifi-internet-3376193/",
+                        "13 hours ago"
+                    ],
+                    [
+                        "Streamingrant",
+                        "https://www.streamingrant.com/hbo-max/ps4/",
+                        "9 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.androidauthority.com/wp-content/uploads/2022/04/PlayStation-5-PS5-images-next-to-controllers-3-scaled.jpg"
+            }
+        ],
+        "AI Education": [
+            {
+                "Title": "Innovations and Challenges in Education Technology",
+                "Summary": "Lenovo's vision focuses on delivering smarter technology to a global audience, significantly investing in 'New IT' technologies to drive growth beyond its PC market leadership (CSRwire). Saudi Arabia is ambitiously aiming to become an AI superpower with considerable investment in the technology sector (The New York Times). The use of AI in education raises concerns about academic integrity, with tools like Turnitin developing AI detectors claiming 99% accuracy in identifying AI-assisted writing to combat cheating (Education Week).",
+                "sources": [
+                    [
+                        "CSRwire",
+                        "https://www.csrwire.com/press_releases/800456-bridge-success-using-ai-raise-bar-special-education",
+                        "2 hours ago"
+                    ],
+                    [
+                        "The New York Times",
+                        "https://www.nytimes.com/2024/04/25/technology/to-the-future-saudi-arabia-spends-big-to-become-an-ai-superpower.html",
+                        "4 hours ago"
+                    ],
+                    [
+                        "Education Week",
+                        "https://www.edweek.org/technology/new-data-reveal-how-many-students-are-using-ai-to-cheat/2024/04",
+                        "23 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://back.3blmedia.com/sites/default/files/inline-images/high-five_Lenovo_032524.jpg"
+            },
+            {
+                "Title": "Google's New AI Training Initiatives",
+                "Summary": "Google introduces AI Essentials, a self-paced course aimed at enhancing productivity across various industries, requiring no prior AI experience (Google Blog). This initiative expands on Google's digital skills training, supporting hundreds of thousands, including low-wage workers (Forbes). Additionally, Google.org's $75 million AI Opportunity Fund will offer AI training grants to over 1 million individuals in underserved areas, focusing on public sector, nonprofit leaders, and small businesses (Fox Business). The investment addresses the skills gap in the American workforce, aiming to unlock economic growth through accessible AI training (Fortune). Furthermore, in collaboration with MIT RAISE, Google launches a no-cost AI training course specifically for teachers (eSchool News).",
+                "sources": [
+                    [
+                        "Google Blog",
+                        "https://blog.google/outreach-initiatives/grow-with-google/google-ai-essentials-course/",
+                        "2 hours ago"
+                    ],
+                    [
+                        "Forbes",
+                        "https://www.forbes.com/sites/michaeltnietzel/2024/04/26/google-introduces-new-ai-training-course/",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Fox Business",
+                        "https://www.foxbusiness.com/technology/google-releases-ai-skills-course-education-push",
+                        "3 hours ago"
+                    ],
+                    [
+                        "Fortune",
+                        "https://fortune.com/2024/04/26/google-ai-skills-investment-opportunity-fund-essentials-course-james-manyika-lisa-gevelber/",
+                        "3 hours ago"
+                    ],
+                    [
+                        "eSchool News",
+                        "https://www.eschoolnews.com/digital-learning/2024/04/26/google-mit-launch-no-cost-ai-training-course-for-teachers/",
+                        "9 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI_videopromo2.width-1300.png"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Challenges Mount for Lakers and Coach Darvin Ham",
+            "Summary": "The Lakers' recent performance under Coach Darvin Ham raises concerns, highlighted by a game where Russell went scoreless, contrasting with strong performances from Nikola Joki\u0107 and the Nuggets' team (The Athletic). Darvin Ham's job security is questioned after the Lakers' third consecutive blown lead (Athlon Sports), amidst differing opinions within the team, including Anthony Davis' take on game strategies (MSN). NBA executives voice their concerns over the 'endangered' status of Coach Ham, reflecting on the team's struggles (Heavy.com). These challenges come as the team aims to maintain momentum despite key injuries (Orange County Register).",
+            "sources": [
+                [
+                    "The Athletic",
+                    "https://theathletic.com/5448790/2024/04/26/darvin-ham-lakers-nuggets-game-3-nba-playoffs/",
+                    "11 minutes ago"
+                ],
+                [
+                    "Athlon Sports",
+                    "https://athlonsports.com/nba/darvin-hams-job-firmly-under-fire-after-lakers-third-consecutive-blown-lead",
+                    "11 hours ago"
+                ],
+                [
+                    "MSN",
+                    "http://www.msn.com/en-ca/sports/nba/lakers-vs-nuggets-darvin-ham-agrees-to-disagree-after-anthony-davis-assessment-of-blown-lead-in-game-2/ar-AA1nEMev?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+                    "6 hours ago"
+                ],
+                [
+                    "Heavy.com",
+                    "https://heavy.com/sports/nba/los-angeles-lakers/endangered-coach-darvin-ham/",
+                    "5 hours ago"
+                ],
+                [
+                    "Orange County Register",
+                    "https://www.ocregister.com/2024/04/25/lakers-looking-to-maintain-their-pace-from-start-to-finish/",
+                    "12 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://cdn.theathletic.com/app/uploads/2024/04/26082740/GettyImages-2149636127-scaled-e1714134485594.jpg"
+        }
+    ],
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/Viswa.mp3"
+}

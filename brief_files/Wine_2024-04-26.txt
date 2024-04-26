@@ -1,0 +1,58 @@
+[
+    {
+        "Title": "Europe Reigns Supreme: EU Claims Top Spot as World's Wine Leader",
+        "Summary": "Europe stands as the world's leading wine-producing region, with vineyards making up 44% of the global total and occupying nearly 2% of the EU's agricultural land (Vinetur).",
+        "sources": [
+            [
+                "Vinetur",
+                "https://www.vinetur.com/en/2024042679272/europe-reigns-supreme-eu-claims-top-spot-as-world-s-wine-leader.html",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://www.vinetur.com/imagenes/2024/abril/26/brindis-vino.jpg"
+    },
+    {
+        "Title": "Vancouver International Wine Festival Highlights",
+        "Summary": "The Vancouver International Wine Festival, celebrated its 45th anniversary with a week-long event featuring 43 activities, such as the Bacchanalia Gala Dinner + Auction and seminars. It offered a global wine tasting experience, showcasing wines from Italy on the first night and an array of other countries like Argentina, Australia, and France on the following night (Forbes).",
+        "sources": [
+            [
+                "Forbes",
+                "https://www.forbes.com/sites/noelburgess/2024/04/26/vancouver-international-wine-festival-global-tasting-in-your-glass/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://imageio.forbes.com/specials-images/imageserve/662b2dbb9a54fa74f17531ce/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds"
+    },
+    {
+        "Title": "Global Wine Market in 2023: Consumption and Production Declines",
+        "Summary": "In 2023, the global wine market faced significant challenges with consumption dropping to its lowest since 1996, totaling 221 million hectoliters, attributed to inflation and increased production costs (Vino Joy News). The same period saw a 10% decrease in wine production, largely blamed on climate change impacts, including extreme weather conditions like rains, floods, and fires, which also contributed to vineyard diseases (WION, Forbes). These adversities have led to a moderate decline in the world's total vineyard acreage by 0.5% to 7.2 million hectares (Forbes). The changes in climate have had a profound effect on traditional wine-producing countries, with significant production cuts reported globally (Business Matters, IOL).",
+        "sources": [
+            [
+                "Vino Joy News",
+                "https://vino-joy.com/2024/04/26/global-wine-consumption-plummets-to-lowest-since-1996/",
+                "10 hours ago"
+            ],
+            [
+                "WION",
+                "https://www.wionews.com/world/global-wine-production-dropped-10-in-2023-climate-change-blamed-for-downfall-715325",
+                "6 hours ago"
+            ],
+            [
+                "Forbes",
+                "https://www.forbes.com/sites/karlsson/2024/04/25/troubled-times-for-wine-in-2023-global-production-and-consumption-shrinking/",
+                "22 hours ago"
+            ],
+            [
+                "Business Matters",
+                "https://bmmagazine.co.uk/news/global-wine-consumption-falls-to-its-lowest-level-since-1996-with-production-down-10/",
+                "4 hours ago"
+            ],
+            [
+                "IOL",
+                "https://www.iol.co.za/lifestyle/food-drink/world-wine-production-dropped-by-10-percent-in-2023-due-to-climate-change-c53c81b0-577a-42b1-952f-9dc4c092b132",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://vino-joy.com/wp-content/uploads/2022/05/iStock-182864879.jpg"
+    }
+]

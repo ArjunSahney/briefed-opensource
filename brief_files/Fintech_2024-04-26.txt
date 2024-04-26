@@ -1,0 +1,37 @@
+[
+    {
+        "Title": "Ault Alliance\u2019s Subsidiary Sentinum's New Hosting Agreement",
+        "Summary": "Sentinum, a subsidiary of Ault Alliance, has entered its first non-mining related colocation/hosting agreement, marking a significant expansion in its service offerings beyond mining (FinTech Futures).",
+        "sources": [
+            [
+                "FinTech Futures",
+                "https://www.fintechfutures.com/techwire/ault-alliances-subsidiary-sentinum-announces-signing-of-first-non-mining-related-colocation-hosting-agreement/",
+                "6 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Enhancing Pricing Processes with hx Renew's APIs",
+        "Summary": "hyperexponential's experts, Josh Boddy and Nancy Simpson, highlighted how hx Renew's APIs contribute significantly to improving pricing decision intelligence in the FinTech sector (FinTech Global).",
+        "sources": [
+            [
+                "FinTech Global",
+                "https://fintech.global/2024/04/26/gain-an-edge-in-pricing-decision-intelligence-with-hx-renews-specialist-api-exam/",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://fintech.global/wp-content/uploads/2024/04/james-harrison-vpOeXr5wmR4-unsplash-5-scaled.jpg"
+    },
+    {
+        "Title": "Redefining Lending in Asia Pacific",
+        "Summary": "Three financial experts aim to transform the lending landscape at a fintech exhibition, leveraging the expected annual growth of 15.1% in the digital lending market of Asia Pacific, which is projected to increase from $256.3 billion in 2022 to $422.6 billion by 2027 (Nation Thailand).",
+        "sources": [
+            [
+                "Nation Thailand",
+                "https://www.nationthailand.com/business/banking-finance/40037565",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.nationthailand.com/uploads/images/md/2024/04/gmvUX5E2RdCX1E4BUpBj.webp"
+    }
+]

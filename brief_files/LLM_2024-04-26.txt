@@ -1,0 +1,77 @@
+[
+    {
+        "Title": "Meta\u2019s Meditron LLM suite aims to improve healthcare",
+        "Summary": "The Meditron LLM suite, developed by EPFL and Yale School of Medicine with ICRC's support, leverages Meta's Llama2 platform, focusing on enhancing healthcare through high-quality medical data training (InfoWorld).",
+        "sources": [
+            [
+                "InfoWorld",
+                "https://www.infoworld.com/article/3715245/metas-meditron-llm-suite-to-fill-gap-in-low-resource-healthcare.html",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://images.idgesg.net/images/idge/imported/imageapi/2022/03/17/14/476804949-ntt-100922160-large.jpg?auto=webp&quality=85,70"
+    },
+    {
+        "Title": "Impact of Expanding Context Windows on LLMs",
+        "Summary": "Context windows in Large Language Models (LLMs) have expanded dramatically, from 2,048 tokens in GPT-3 to a million in Gemini 1.5 Pro, aiming for infinite tokens. Techniques like low-rank adaptation (LoRA) offer the potential to fine-tune numerous LLMs efficiently, without the burden of managing billions of parameters for each model (TechTalks).",
+        "sources": [
+            [
+                "TechTalks",
+                "https://bdtechtalks.com/2024/04/26/llm-infinite-context-fine-tuning-rag/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://i0.wp.com/bdtechtalks.com/wp-content/uploads/2024/04/infinite-context-llm.jpg?fit=1440%2C900&ssl=1"
+    },
+    {
+        "Title": "DeepL's New AI Writing Assistant for Businesses",
+        "Summary": "DeepL has launched a new AI-powered tool, DeepL Write Pro, designed to enhance business communication by providing real-time, AI-powered suggestions on word choice, phrasing, style, and tone, beyond the capabilities of simple text auto-population or traditional grammar correction tools (Data Storage Asean). This tool acts as a creative assistant, aimed at improving the drafting process for writers (The Next Web, The Korea Times, \\\\ub9e4\\\\uc77c\\\\ac\uacbd\\\\uc81c, EconoTimes).",
+        "sources": [
+            [
+                "Data Storage Asean",
+                "https://datastorageasean.com/news-press-releases/deepl-launches-new-ai-powered-offering-deepl-write-pro-supercharge-business",
+                "8 hours ago"
+            ],
+            [
+                "The Next Web",
+                "https://thenextweb.com/news/deepl-ai-writing-assistant-businesses",
+                "3 hours ago"
+            ],
+            [
+                "The Korea Times",
+                "https://m.koreatimes.co.kr/pages/article.asp?newsIdx=373540",
+                "9 hours ago"
+            ],
+            [
+                "EconoTimes",
+                "http://www.econotimes.com/DeepL-Unleashes-AI-Powered-Tool-for-Business-Writing-1676476",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://datastorageasean.com/sites/default/files/styles/thumbnail/public/3d-rendering-biorobots-concept_1.jpg"
+    },
+    {
+        "Title": "Enhancing Cross-Lingual Sentiment Analysis with Pre-Trained Models and LLMs",
+        "Summary": "Recent research demonstrates that integrating an ensemble of pre-trained models including Twitter-Roberta-Base-Sentiment-Latest, bert-base-multilingual-uncased-sentiment, and GPT-3 improves the accuracy of cross-lingual sentiment analysis to over 86%. The study highlights the effectiveness of translation services and model ensembles in processing non-English sentiments accurately, and specifically notes the success of fine-tuning mBERT on synthetic code-switched data for higher F1 scores in sentiment analysis tasks across languages (Nature).",
+        "sources": [
+            [
+                "Nature",
+                "https://www.nature.com/articles/s41598-024-60210-7",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41598-024-60210-7/MediaObjects/41598_2024_60210_Fig1_HTML.png"
+    },
+    {
+        "Title": "LLM Students Marry at Duke Law",
+        "Summary": "Two LLM students celebrated their love by getting married while studying at Duke Law School (Duke Law School).",
+        "sources": [
+            [
+                "Duke Law School",
+                "https://law.duke.edu/news/two-llm-students-get-married-while-duke-law",
+                "16 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://law.duke.edu/sites/default/files/images/news/homepage/Aditi-engagement-dukegardens.jpeg"
+    }
+]

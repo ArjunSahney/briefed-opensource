@@ -1,0 +1,109 @@
+[
+    {
+        "Title": "Spectrum's Expansion into Rural America",
+        "Summary": "Spectrum launched its Internet, Mobile, TV, and Voice services to 190 homes and small businesses in Calhoun County, South Carolina, as part of its $5 billion RDOF initiative to enhance rural broadband connectivity. This move signifies a significant step towards closing the digital divide in rural America (Charter Communications).",
+        "sources": [
+            [
+                "Charter Communications",
+                "https://corporate.charter.com/newsroom/spectrum-launches-gigabit-broadband-in-calhoun-county-south-carolina",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://corporate.charter.com/sites/default/files/CharterSprinklr_6.jpeg"
+    },
+    {
+        "Title": "T-Mobile's Expansion and Subscriber Growth, and AT&T's Strong Quarter Performance",
+        "Summary": "T-Mobile aims to reach 3.5 million homes with fiber by 2028 through its Lumos initiative, expanding its telecommunications infrastructure significantly (Light Reading). Additionally, the acquisition of Mint has bolstered T-Mobile's first quarter, adding 532K phone subscribers, showing a robust growth trajectory (FierceWireless). Meanwhile, AT&T reports a strong first quarter, indicating resilience and growth despite experiencing some declines in key figures, showcasing the competitive and evolving nature of the telecommunications industry (VoIP Review).",
+        "sources": [
+            [
+                "Light Reading",
+                "https://www.lightreading.com/fttx/with-lumos-t-mobile-to-reach-3-5m-homes-with-fiber-by-2028",
+                "24 hours ago"
+            ],
+            [
+                "FierceWireless",
+                "https://www.fierce-network.com/wireless/t-mobile-gains-mint-adds-532k-phone-subs-q1",
+                "19 hours ago"
+            ],
+            [
+                "VoIP Review",
+                "https://voip.review/2024/04/26/att-reports-strong-first-quarter-despite-dip-headline-figures/",
+                "11 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://voip.review/wp-content/uploads/2024/04/Shutterstock_1353902207.jpeg"
+    },
+    {
+        "Title": "Charter Communications' Broadband and Subscriber Dynamics",
+        "Summary": "Charter Communications experienced a noteworthy loss of 72,000 internet customers in Q1, surpassing the estimated 56,940, alongside declining video subscribers by 405,000 but adding 486,000 mobile lines. Financially, Charter's free cash flow fell short of expectations at $358 million due to increased network expansion spending, with earnings per share at $7.55 missing the predicted $7.92. Despite these challenges, revenue matched forecasts at $13.68 billion. The stock has seen a significant downturn, decreasing by approximately 33% this year (XM, Morningstar).",
+        "sources": [
+            [
+                "XM",
+                "https://www.xm.com/research/markets/allNews/reuters/charter-communications-falls-after-higherthanexpected-broadband-subscriber-losses-53823704",
+                "5 hours ago"
+            ],
+            [
+                "Morningstar",
+                "https://www.morningstar.com/news/marketwatch/20240426261/charter-continues-to-shed-internet-subscribers-reflecting-cables-growth-woes",
+                "7 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cloud.xm-cdn.com/static/xm/common/logos/XM-logo.jpg"
+    },
+    {
+        "Title": "T-Mobile Expands with Mint Mobile Acquisition and Q1 Growth",
+        "Summary": "T-Mobile successfully acquired Mint Mobile for $1.35 billion, a move approved by the FCC, which also involved commitments to unlock devices for 60 days, enhancing customer flexibility (FierceWireless, TelecomLead, Mobile World Live). In the first quarter, T-Mobile reported adding 532,000 phone subscribers, highlighting its growth momentum across various segments and its strategic plans for future expansions, including significant investments in home mesh networks and high-speed internet (FierceWireless, The Motley Fool).",
+        "sources": [
+            [
+                "FierceWireless",
+                "https://www.fierce-network.com/wireless/t-mobile-gains-mint-adds-532k-phone-subs-q1",
+                "19 hours ago"
+            ],
+            [
+                "TelecomLead",
+                "https://www.telecomlead.com/latest-news/fcc-okays-t-mobiles-1-35-bn-acquisition-of-mint-mobile-115947",
+                "16 hours ago"
+            ],
+            [
+                "Mobile World Live",
+                "https://www.mobileworldlive.com/t-mobile-us/t-mobile-us-gets-green-light-for-mint-mobile-deal/",
+                "9 hours ago"
+            ],
+            [
+                "The Motley Fool",
+                "https://www.fool.com/earnings/call-transcripts/2024/04/25/t-mobile-us-tmus-q1-2024-earnings-call-transcript/",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.telecomlead.com/wp-content/uploads/2017/12/T-Mobile-Austria.jpg"
+    },
+    {
+        "Title": "Senate Aims to Restore FCC Authority and Fund Connectivity Programs",
+        "Summary": "Senator Maria Cantwell proposes legislation to reestablish the FCC's authority over spectrum auctions for five years and secure funds for the Affordable Connectivity Program along with the rip and replace initiative (Broadband Breakfast).",
+        "sources": [
+            [
+                "Broadband Breakfast",
+                "https://broadbandbreakfast.com/cantwell-releases-draft-legislation-to-restore-fcc-auction-authority-fund-acp-rip-and-replace/",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://broadbandbreakfast.com/content/images/2024/04/maria-cantwell.jpg"
+    },
+    {
+        "Title": "Troubleshooting Connectivity and Streaming Services on Game Consoles",
+        "Summary": "To resolve a PS5's internet connectivity issues, disconnecting and reconnecting the router can be a simple fix allowing access to various online services and updates (Android Authority). For watching HBO Max on PS4 outside the USA, utilizing specific sign-in methods and troubleshooting steps ensures access to a broad range of content, including HBO Originals and Warner Bros. films (Streamingrant).",
+        "sources": [
+            [
+                "Android Authority",
+                "https://www.androidauthority.com/ps5-not-connecting-to-wifi-internet-3376193/",
+                "13 hours ago"
+            ],
+            [
+                "Streamingrant",
+                "https://www.streamingrant.com/hbo-max/ps4/",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.androidauthority.com/wp-content/uploads/2022/04/PlayStation-5-PS5-images-next-to-controllers-3-scaled.jpg"
+    }
+]

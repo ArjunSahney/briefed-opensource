@@ -1,0 +1,40 @@
+[
+    {
+        "Title": "Diplomatic Dynamics Between China and the US",
+        "Summary": "Xi Jinping advocates for a partnership, not rivalry, between China and the US, emphasizing dialogue over conflict (Atalayar). The EU shifts its stance towards China, signaling a move from dialogue to potentially confronting non-market practices via a medical devices probe, reflecting global concerns over China's economic strategies (POLITICO.eu). The US-China relationship is highlighted as both critical and strained, with potential for significant consequences if not managed carefully (Business Insider India). Blinken addresses China's indirect support of Russia's war through dual-use goods while the US boosts defense aid to Taiwan and Ukraine, underlining tension points (Yahoo).",
+        "sources": [
+            [
+                "Atalayar",
+                "https://www.atalayar.com/en/articulo/politics/china-and-us-should-be-partners-not-rivals-xi-jinping-tells-blinken/20240426130430199357.html",
+                "5 hours ago"
+            ],
+            [
+                "POLITICO.eu",
+                "https://www.politico.eu/article/eu-china-trade-war-nuctech-xi-jinping-von-der-leyen-ev/",
+                "13 hours ago"
+            ],
+            [
+                "Business Insider India",
+                "https://www.businessinsider.in/politics/world/news/the-us-relationship-with-china-is-entering-a-dangerous-era-time-may-be-running-out-to-save-it-/articleshow/109630210.cms",
+                "3 hours ago"
+            ],
+            [
+                "Yahoo",
+                "https://au.news.yahoo.com/blinken-meets-chinese-counterpart-wang-070229115.html",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.atalayar.com/media/atalayar/images/2024/04/26/2024042612352968127.jpg"
+    },
+    {
+        "Title": "Republican Rhetoric on Immigration",
+        "Summary": "A trend of framing immigration as an 'invasion' has been increasingly present in Republican advertising and discourse, highlighting a sharp rhetoric used in political strategy (The New York Times).",
+        "sources": [
+            [
+                "The New York Times",
+                "https://www.nytimes.com/2024/04/26/us/politics/republicans-immigration-ads-election.html",
+                "1 hour ago"
+            ]
+        ]
+    }
+]
