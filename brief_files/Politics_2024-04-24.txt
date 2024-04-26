@@ -1,0 +1,101 @@
+[
+    {
+        "Title": "Higher education initiative on Political Conspiracy Theories",
+        "Summary": "The Scuola Superiore Sant'Anna announced a new edition of the Summer School focusing on 'Political Conspiracy Theories', demonstrating a proactive educational approach towards understanding and dissecting the impact of conspiracy theories in political discourse (Scuola Superiore Sant'Anna).",
+        "sources": [
+            [
+                "Scuola Superiore Sant'Anna",
+                "https://www.santannapisa.it/en/news/summer-school-political-conspiracy-theories",
+                "14 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "20th Anniversary of EU's Largest Expansion Celebrated",
+        "Summary": "The 20th anniversary of the European Union's largest-ever expansion was marked by a series of events and ceremonies, emphasizing the positive impacts of EU membership. European Parliament President Metsola recalled the anticipation of Malta's accession, highlighting the benefits EU enlargement brought to member states (ANSA). A ceremony at the European Parliament, attended by key figures including former presidents Cox and Prodi, celebrated the historical expansion, inviting young citizens born in May 2004 to engage with leaders, underscoring the transformative effects of EU membership on countries like Estonia (The Sofia Globe). Additionally, Cyprus celebrated its accession anniversary, marking two decades of EU membership, which has significantly impacted the nation and its citizens, alongside other member states recognized at the event (Cyprus Mail).",
+        "sources": [
+            [
+                "ANSA",
+                "https://www.ansa.it/nuova_europa/en/news/countries/kosovo/2024/04/24/metsola-at-anniversary-of-eu-enlargement-benefits-for-all_76493038-4d1a-4e84-8f6e-867e4ba1425a.html",
+                "10 hours ago"
+            ],
+            [
+                "The Sofia Globe",
+                "https://sofiaglobe.com/2024/04/24/european-parliament-ceremony-celebrates-20th-anniversary-of-eus-largest-ever-expansion/",
+                "14 hours ago"
+            ],
+            [
+                "Cyprus Mail",
+                "https://cyprus-mail.com/2024/04/24/first-cypriot-born-on-eu-accession-day-2004-joins-anniversary-celebrations/",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.ansa.it/webimages/img_700/2024/4/11/2bb7708a9b2edf6a2be3b4116686664e.jpg"
+    },
+    {
+        "Title": "Tensions Escalate in Israel and Gaza",
+        "Summary": "Israel advances its operation in Rafah amidst its ongoing conflict with Gaza, marking a significant escalation (Al Jazeera). Concurrently, hundreds of Israeli settlers stormed into al-Aqsa Mosque, intensifying tensions (IRNA English, Yeni \u015eafak). This incursion aligns with a proposition from a far-right Israeli parliament member to replace the Al-Aqsa Mosque complex with a third temple, further fueling the discord (Al Mayadeen English).",
+        "sources": [
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/news/liveblog/2024/4/24/israels-war-on-gaza-live-rafah-family-killed-injured-in-israeli-strike?update=2857164",
+                "8 hours ago"
+            ],
+            [
+                "IRNA English",
+                "https://en.irna.ir/news/85455890/Hundreds-of-Israeli-settlers-storm-al-Aqsa-Mosque",
+                "12 hours ago"
+            ],
+            [
+                "Yeni \u015eafak",
+                "https://www.yenisafak.com/en/news/over-250-illegal-israeli-settlers-storm-into-al-aqsa-mosque-3681991",
+                "17 hours ago"
+            ],
+            [
+                "Al Mayadeen English",
+                "https://english.almayadeen.net/news/politics/israeli-settlers-storm-al-aqsa-mosque-on-second-day-of-jewis",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/2024-04-22T182616Z_1285153527_RC2RA7AS0N7J_RTRMADP_3_ISRAEL-PALESTINIANS-USA-RIGHTS-1713976352.jpg?resize=1920%2C1440"
+    },
+    {
+        "Title": "Trends and Developments in Investment, Global Finance, and Philanthropy",
+        "Summary": "Investment fund managers show a tendency to support CEOs with similar political views during tight and contentious votes, indicating politics' substantial impact on financial decisions (Euronews.com). Investment consultants, including CAPTRUST and Graystone Consulting, have grown significantly in influence in 2023 (Institutional Investor). The Steve Fund welcomes Dr. Janet Wormack as the new CFO and COO, highlighting the organization's commitment to mental health and well-being in communities of color (Philanthropy Women). Congressman Chip Roy expresses concerns over George Soros' attempt to purchase radio giant Audacy, fearing fast-tracked ownership changes might abuse FCC rules (Fox News).",
+        "sources": [
+            [
+                "Euronews.com",
+                "https://www.euronews.com/business/2024/04/24/investment-fund-managers-decision-making-is-affected-by-politics-heres-what-that-means",
+                "12 hours ago"
+            ],
+            [
+                "Institutional Investor",
+                "https://www.institutionalinvestor.com/article/2d57v0rk8d6fyrh4cz85c/portfolio/investment-consultants-are-bigger-and-more-influential-than-ever-before",
+                "10 hours ago"
+            ],
+            [
+                "Philanthropy Women",
+                "https://philanthropywomen.org/feminist-strategy/dr-janet-wormack-is-the-new-cfo-and-coo-of-the-steve-fund/",
+                "4 hours ago"
+            ],
+            [
+                "Fox News",
+                "https://www.foxnews.com/politics/chip-roy-raises-alarms-george-soros-purchase-major-radio-company",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://static.euronews.com/articles/stories/08/39/21/22/1200x675_cmsv2_b94f60df-18c4-51c0-ba13-5a0edd12f621-8392122.jpg"
+    },
+    {
+        "Title": "Criticism by Albania's Prime Minister on RAI's Migrant Center Report",
+        "Summary": "Albanian Prime Minister Edi Rama criticized a broadcast by RAI detailing an agreement between Italy and Albania about migrant centers, highlighting tensions over immigration and reporting accuracy (ANSA).",
+        "sources": [
+            [
+                "ANSA",
+                "https://www.ansa.it/nuova_europa/en/news/countries/albania/2024/04/24/albanias-pm-rama-criticises-rai-report-on-migrant-centers_407b87b7-7c95-43c1-b0f7-dc1cedc98f71.html",
+                "11 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.ansa.it/webimages/img_700/2024/4/12/4955f379be5d61edf5472cd59e0d1a1c.jpg"
+    }
+]

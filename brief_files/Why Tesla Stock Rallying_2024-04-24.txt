@@ -1,0 +1,24 @@
+[
+    {
+        "Title": "Tesla's Stock Surge Explained",
+        "Summary": "Tesla's stock surged due to optimism for its affordable car lineup, despite a decrease in net income and missed earnings expectations (Euronews.com). Investor sentiment was boosted by Musk's announcement of accelerating the launch of cheaper cars and past difficulties, including a disappointing Q4 report and unclear 2024 delivery guidance (Yahoo Finance). These developments reflect broader market trends of impactful earnings reports and forecasts seen across various sectors (Investopedia).",
+        "sources": [
+            [
+                "Euronews.com",
+                "https://www.euronews.com/business/2024/04/24/teslas-stock-surges-on-optimism-for-musks-affordable-car-line-up",
+                "20 hours ago"
+            ],
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/news/tesla-earnings-q1-175358835.html",
+                "6 hours ago"
+            ],
+            [
+                "Investopedia",
+                "https://www.investopedia.com/dow-jones-today-04242024-8638004",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://static.euronews.com/articles/stories/08/39/40/86/1200x675_cmsv2_4ad926e5-9550-5243-9555-d7caa5e670ff-8394086.jpg"
+    }
+]

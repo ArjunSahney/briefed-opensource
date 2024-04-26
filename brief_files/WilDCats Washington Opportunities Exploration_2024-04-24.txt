@@ -1,0 +1,14 @@
+[
+    {
+        "Title": "Exploring Opportunities in Washington with WilDCats at the Capitol",
+        "Summary": "Since 2016, the WilDCats at the Capitol program has been facilitating pivotal Washington, D.C., internships for University of Kentucky students, thanks to a partnership between the Office of Federal Relations, the Department of Political Science, and the Student Government Association, highlighting its importance in practical education (UKNow).",
+        "sources": [
+            [
+                "UKNow",
+                "https://uknow.uky.edu/campus-news/students-explore-opportunities-washington-through-wildcats-capitol",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://uknow.uky.edu/sites/default/files/styles/facebook/public/image002%20Large.jpeg?itok=ez8NYXM-"
+    }
+]
