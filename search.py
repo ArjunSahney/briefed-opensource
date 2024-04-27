@@ -40,18 +40,62 @@ DEFAULT_NUM_ARTICLES_PER_BRIEF = 5
 # -------------------------------- PRIMARY SEARCH -------------------------------- #
 
 def get_improved_title_using_snippet(title, snippet):
+  """
+  Using title and snippet from news article object, returns an improved title as a string. 
+  
+  Caller must pass in the title and snippet strings from the news article object from the news_results JSON. Uses Mistral7B to optimize the title. Uses regex to extract JSON from LLM response (Mistral's JSON-mode is not as clean as GPT-4's)
+  
+  Parameters
+  ----------
+  title: str
+  snippet: str
+  
+  Returns
+  -------
+  str
+  """
+  
   optimize_title_prompt = f"""Given the following title and snippett from a news article, optimize the title for the article to be descriptive and explanatory. Remove any clickbait or buzz words. Return response in this form {{"title": title}}.
   
   title: {title}
   snippet: {snippet}
   """
-  get_lepton_response(optimize_title_prompt, json_mode=True)
+  if __debug__:
+    start_time = time.time()
+    
+  improved_title_response = get_lepton_response(optimize_title_prompt, json_mode=True)
   
+  # Use regular expression to find the JSON object in the respone string
+  import re
+  title = None
+  match = re.search(r'\{.*?\}', improved_title_response, re.DOTALL)
+  if match:
+    json_string = match.group(0)
+    # Parse the JSON string
+    data = json.loads(json_string)
+    # Extract the title
+    title = data["title"]
+    print("Optimized title: ", title)
+  else:
+    print("No JSON found in the text")
+  
+  if __debug__:
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"Optimize title: {duration} seconds")
+
+  return title
+
 def get_general_keyword(keyword):
-  """Use llama to generalize a specific news topic"""
+  """Use open-source (free) LLMs to generalize a specific news topic"""
 
 def get_most_relevant_titles(titles, keyword):
-  """Returns list of most relevant titles to a given keyword"""
+  """Returns list of most relevant titles to a given keyword
+  
+  Parameters
+  ----------
+  titles: news results JSON object 
+  """
 
 def format_serp_results(results):
   """Formats Serp API results into dictionary keyed by title"""
@@ -138,7 +182,7 @@ def append_missing_words(words_to_append, append_to_this_string):
 def title_to_searchwords(title):
   """Get the optimal searchwords from a news title"""
 
-def secondary_search(keyword,most_relevant_titles, a_or_b, original_results num_articles_per_brief=DEFAULT_NUM_ARTICLES_PER_BRIEF):
+def secondary_search(keyword, most_relevant_titles, a_or_b, original_results, num_articles_per_brief=DEFAULT_NUM_ARTICLES_PER_BRIEF):
   # Initializing final dict and num articles per title 
   sources_by_story = {}
   num_articles = 10
@@ -148,7 +192,7 @@ def secondary_search(keyword,most_relevant_titles, a_or_b, original_results num_
   else: 
     return secondary_b(sources_by_story,most_relevant_titles, keyword, num_articles, original_results)
     
-def secondary_a(sources_by_story,most_relevant_titles, keyword, num_articles):
+def secondary_a(sources_by_story, most_relevant_titles, keyword, num_articles):
   #Parse list of top NUM_TITLES titles with LLM and return JSON of most relevant to Q1.
   most_relevant_titles = get_most_relevant_titles(most_relevant_titles, keyword)
   for title in most_relevant_titles:
@@ -169,7 +213,9 @@ def secondary_b(sources_by_story,most_relevant_titles, keyword, num_articles, or
   return sources_by_story
 
 def match_found(formatted_news_results, title, original_results):
-  # Checking if any title matches the given title
+  """
+  Checking if any title matches the given title. If not, add to formatted_news_results
+  """
   match_found = False
   for news_item in formatted_news_results:
     if news_item['title'] == title:
@@ -183,7 +229,7 @@ def match_found(formatted_news_results, title, original_results):
   return formatted_news_results
     
 
-  """"""
+  
 # -------------------------------------------------------------------------------- #
 # Secondary Search:
 #   Create a new dictionary, 'sources_by_story.'
