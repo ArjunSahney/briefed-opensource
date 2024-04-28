@@ -126,18 +126,20 @@ def get_lepton_response(prompt, json_mode = False, max_tokens=None):
     api_key=os.environ.get('lepton_api_key')
   )
 
-  completion = client.chat.completions.create(
-    model="mistral-7b",
-    messages=[
-        {"role": "user", "content": prompt},
-    ],
+  completion_args = {
+    "model": "mistral-7b",
+    "messages": [{"role": "user", "content": prompt}],
     # max_tokens=128,
-    stream=True,
-  )
+    "stream": True,
+  }
+
   if json_mode:
-    completion["response_format"] = {"type": "json_object"}
+    completion_args["response_format"] = {"type": "json_object"}
   if max_tokens:
-    completion["max_tokens"] = max_tokens
+    completion_args["max_tokens"] = max_tokens
+
+  completion = client.chat.completions.create(**completion_args)
+
 
   response = ""
   for chunk in completion:
@@ -148,6 +150,30 @@ def get_lepton_response(prompt, json_mode = False, max_tokens=None):
           response = response + content
   return response
   
+def get_json_from_lepton(response):
+  """
+  Given a response string, this function uses regular expressions to find the first JSON object within the string. If a JSON object is found, it is returned as a string. If no JSON object is found, a message is printed to the console indicating that no JSON was found in the text.
+  
+  Parameters
+  ----------
+  response (str): The response string from which to extract the JSON object.
+  
+  Returns
+  -------
+  str
+  """
+  # Use regular expression to find the JSON object in the respone string
+  import re
+  match = re.search(r'\{.*?\}', response, re.DOTALL)
+  if match:
+    json_string = match.group(0)
+    # Parse the JSON string
+    data = json.loads(json_string)
+  else:
+    print("No JSON found in the text")
+    return None
+  return data
+
 
 def get_top_stories(query, num_results):
   api_key=os.environ.get("serp_api_key")

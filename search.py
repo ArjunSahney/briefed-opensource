@@ -66,18 +66,12 @@ def get_improved_title_using_snippet(title, snippet):
   improved_title_response = get_lepton_response(optimize_title_prompt, json_mode=True)
   
   # Use regular expression to find the JSON object in the respone string
-  import re
-  title = None
-  match = re.search(r'\{.*?\}', improved_title_response, re.DOTALL)
-  if match:
-    json_string = match.group(0)
-    # Parse the JSON string
-    data = json.loads(json_string)
-    # Extract the title
-    title = data["title"]
-    print("Optimized title: ", title)
-  else:
+  title_json = get_json_from_lepton(improved_title_response)
+  if title_json is None:
     print("No JSON found in the text")
+  else:
+    title = title_json["title"]
+    print("Optimized title: ", title)
   
   if __debug__:
     end_time = time.time()
@@ -86,19 +80,97 @@ def get_improved_title_using_snippet(title, snippet):
 
   return title
 
-def get_general_keyword(keyword):
-  """Use open-source (free) LLMs to generalize a specific news topic"""
+def generalize_topic(topic):
+  """Use LLMs (gpt-4) to generalize a specific news topic.
+  Other LLMs don't work well (e.g. Mistral)
+  
+  """
+  
+  generalize_prompt = f"""Given the following topic, broaden the topic by simplifying.
+  Examples:
+  2024 US Presidential Election -> US Election
+  Bitcoin Pricing -> Cryptocurrency
+  Enterprise AI Launches -> AI
 
-def get_most_relevant_titles(titles, keyword):
+  Now simplify the following topic: {topic}
+  """
+  response = get_gpt_response(generalize_prompt, gpt_model="gpt-3.5-turbo")
+  # if __debug__:
+  print("Generalized topic: " + response)
+  return response
+
+def get_most_relevant_titles(news_results, keyword, num_results=DEFAULT_NUM_TITLES):
   """Returns list of most relevant titles to a given keyword
   
   Parameters
   ----------
-  titles: news results JSON object 
+  news_results: JSON
+    Caller should simply pass in the news results JSON
+  keyword: str
+  num_results: int
+    Limit relevancy determination to only the top num_results titles
+  
+  Returns
+  -------
+  JSON
+    Same format as the news results JSON
   """
-
-def format_serp_results(results):
-  """Formats Serp API results into dictionary keyed by title"""
+  if __debug__:
+    start_time = time.time()
+  if news_results[0].get("title") is None:
+    print("News results JSON is empty")
+    return None
+  titles = []
+  titles_string = ""
+  for i, article_object in enumerate(news_results, start=1):
+    titles.append(article_object["title"])
+    titles_string += (str(i) + ". " + article_object["title"] + "\n")
+  
+  # TODO: Add functionality to optimize title before passing to LLM
+  # Will add ~2s of latency for each title
+    
+  relevancyPrompt = f"""Determine which of these article titles are most relevant to an individual interested in {keyword}. 
+  \n
+  {titles_string}
+  """
+  if __debug__:
+    print(relevancyPrompt)
+  response = get_gpt_response(relevancyPrompt)
+  if __debug__:
+    print(response)
+  
+  # Parse response, which comes as a ranked list of titles with before and after text
+  relevant_news_results = []
+  lines = response.split('\n')
+  # Loop through each line
+  for line in lines:
+      # Check if the line starts with a number followed by a dot (indicating an article title)
+      if line.strip().startswith(tuple(f"{i}." for i in range(1, len(news_results)))):
+          # Split the line at the first dot followed by a space to isolate the title
+          title = line.split('. ', 1)[1]
+          # Append the isolated title to the list
+          relevant_news_results.append(title)
+  # Replace each title in relevant_news_titles with its corresponding article object
+  # This preserves the ranking of each article from the relevancy determination
+  for article_object in news_results:
+    if article_object["title"] in relevant_news_results:
+      relevant_news_results
+    
+  for article_object in news_results:
+    if article_object["title"] in relevant_news_results:
+      # Don't need to catch a ValueError here because we know the title is in the list
+      index = relevant_news_results.index(article_object["title"])
+      # Replace the title in the list with the article object
+      relevant_news_results[index] = article_object
+  
+  if __debug__:
+    print("Most relevant news results: ")
+    print(json.dumps(relevant_news_results, indent=4))
+  
+  if __debug__:
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"Relevancy determination: {duration} seconds")
 
 def scrape_news(keyword, num_results):
   """Returns scraped results for a keyword
@@ -135,25 +207,26 @@ def scrape_news(keyword, num_results):
 def primary_search(keyword, num_titles=DEFAULT_NUM_TITLES):
   """Retrieve most relevant titles to the keyword"""
   
-  # First, scrape news on keyword and store in dictionary
-  news_results = scrape_news(keyword, num_titles)
-  article_dictionary = format_serp_results(news_results)
+  # First, scrape news on keyword and store in news_results
+  # The user wants the top num_titles results, so grab the top num_titles*5
+  # The relevancy determination will find the top num_titles
+  scope = 5
+  news_results = scrape_news(keyword, num_titles*scope)
   
   # Next, scrape news on generalized keyword and add to dictionary
-  general_keyword = get_general_keyword(keyword)
-  news_results = scrape_news(general_keyword, num_titles)
-  article_dictionary.update(format_serp_results(news_results))
-  
-  # Create a list of all titles in the dictionary
-  title_list = []
-  for title in article_dictionary:
-    title_list.append(title)
+  general_keyword = generalize_topic(keyword)
+  generalization_factor = 10
+  # Add the generalized results to news results
+  news_results.extend(scrape_news(general_keyword, num_titles*scope*generalization_factor))
   
   # Get the most relevant num_titles from the list
-  
+  # For now, we will keep all the news results because in secondary search, we may find some articles unparseable
+  relevant_news_results = get_most_relevant_titles(news_results, keyword, num_titles)
+  print(json.dumps(relevant_news_results, indent=4))
   
 # -------------------------------------------------------------------------------- #
 
+# primary_search("Healthcare", 2)
 
 # -------------------------------- SECONDARY SEARCH ------------------------------ #
 
