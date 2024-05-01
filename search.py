@@ -99,6 +99,20 @@ def generalize_topic(topic):
   print("Generalized topic: " + response)
   return response
 
+def parse_ranked_list(string_ranked_list, range):
+  """Takes a string of a ranked list and returns a list of strings"""
+  list_items = []
+  lines = string_ranked_list.split('\n')
+  # Loop through each line
+  for line in lines:
+      # Check if the line starts with a number followed by a dot (indicating an article title)
+      if line.strip().startswith(tuple(f"{i}." for i in range(1, len(range)))):
+          # Split the line at the first dot followed by a space to isolate the title
+          item = line.split('. ', 1)[1]
+          # Append the isolated item (string) to the list
+          list_items.append(item)
+  return list_items
+
 def get_most_relevant_titles(news_results, keyword, num_results=DEFAULT_NUM_TITLES):
   """Returns list of most relevant titles to a given keyword
   
@@ -122,40 +136,45 @@ def get_most_relevant_titles(news_results, keyword, num_results=DEFAULT_NUM_TITL
     return None
   titles = []
   titles_string = ""
-  for i, article_object in enumerate(news_results, start=1):
+  for article_object in news_results:
     titles.append(article_object["title"])
-    titles_string += (str(i) + ". " + article_object["title"] + "\n")
+    titles_string += article_object["title"] + "\n"
   
-  # TODO: Add functionality to optimize title before passing to LLM
+  # TODO: Add functionality to optimize title before passing to LLM?
   # Will add ~2s of latency for each title
-    
-  relevancyPrompt = f"""Determine which of these article titles are most relevant to an individual interested in {keyword}. 
-  \n
-  {titles_string}
+  
+  range = min(num_results*2, len(titles))
+  # If we only have num_results titles, just return them, no need to rank
+  if (range <= num_results):
+    return titles
+  else:
+    range_string = str(range)
+  relevancyPrompt = f"""Determine which {range_string} of these article titles are most relevant to an individual interested in {keyword}. Return response as a JSON in this format:
+{{
+  "1": title 1,
+  "2": title 2,
+  ...
+  "{range_string}": title {range_string}
+}}
+
+{titles_string}
   """
   if __debug__:
     print(relevancyPrompt)
-  response = get_gpt_response(relevancyPrompt)
+  response = get_lepton_response(relevancyPrompt, model="Wizardlm-2-8x22b", json_mode=True)
+  response_json = get_json_from_lepton(response, triple_ticks=True)
   if __debug__:
-    print(response)
+    print("Relevancy response: " + response)
+    print("Relevancy response JSON: " + json.dumps(response_json, indent=4))
+  if response_json is None:
+    return news_results
   
-  # Parse response, which comes as a ranked list of titles with before and after text
+  # Populate relevant_news_results with the titles in response_json in order
   relevant_news_results = []
-  lines = response.split('\n')
-  # Loop through each line
-  for line in lines:
-      # Check if the line starts with a number followed by a dot (indicating an article title)
-      if line.strip().startswith(tuple(f"{i}." for i in range(1, len(news_results)))):
-          # Split the line at the first dot followed by a space to isolate the title
-          title = line.split('. ', 1)[1]
-          # Append the isolated title to the list
-          relevant_news_results.append(title)
+  for rank, title in response_json.items():
+    relevant_news_results.append(title)
   # Replace each title in relevant_news_titles with its corresponding article object
   # This preserves the ranking of each article from the relevancy determination
-  for article_object in news_results:
-    if article_object["title"] in relevant_news_results:
-      relevant_news_results
-    
   for article_object in news_results:
     if article_object["title"] in relevant_news_results:
       # Don't need to catch a ValueError here because we know the title is in the list
@@ -172,6 +191,8 @@ def get_most_relevant_titles(news_results, keyword, num_results=DEFAULT_NUM_TITL
     duration = end_time - start_time
     print(f"Relevancy determination: {duration} seconds")
 
+  return relevant_news_results
+  
 def scrape_news(keyword, num_results):
   """Returns scraped results for a keyword
   
@@ -183,7 +204,7 @@ def scrape_news(keyword, num_results):
   Returns
   -------
   News results dictionary
-  
+  None if no news from serp
   """
   # Scrape news on initial keyword
   if __debug__:
@@ -205,11 +226,10 @@ def scrape_news(keyword, num_results):
 
 
 def primary_search(keyword, num_titles=DEFAULT_NUM_TITLES):
-  """Retrieve most relevant titles to the keyword"""
+  """Retrieve a JSON of news articles in order of relevancy to a given keyword"""
   
   # First, scrape news on keyword and store in news_results
-  # The user wants the top num_titles results, so grab the top num_titles*5
-  # The relevancy determination will find the top num_titles
+  # The user wants the top num_titles results, so grab the top num_titles*5 so we can cut down
   scope = 5
   news_results = scrape_news(keyword, num_titles*scope)
   
@@ -217,16 +237,18 @@ def primary_search(keyword, num_titles=DEFAULT_NUM_TITLES):
   general_keyword = generalize_topic(keyword)
   generalization_factor = 10
   # Add the generalized results to news results
-  news_results.extend(scrape_news(general_keyword, num_titles*scope*generalization_factor))
+  general_results = scrape_news(general_keyword, num_titles*scope*generalization_factor)
+  if general_results:
+    news_results.extend(general_results)
   
-  # Get the most relevant num_titles from the list
+  # Sort the list by relevancy
   # For now, we will keep all the news results because in secondary search, we may find some articles unparseable
   relevant_news_results = get_most_relevant_titles(news_results, keyword, num_titles)
   print(json.dumps(relevant_news_results, indent=4))
   
 # -------------------------------------------------------------------------------- #
 
-# primary_search("Healthcare", 2)
+primary_search("Software", 6)
 
 # -------------------------------- SECONDARY SEARCH ------------------------------ #
 

@@ -26,6 +26,7 @@ from newspaper import Article
 from newspaper.article import ArticleException
 import requests
 import json
+import time 
 from serpapi import GoogleSearch
 
 __author__ = "Ram Gorthi, DJun Sahney"
@@ -106,7 +107,7 @@ def get_togetherAI_response(prompt, gpt_model="", response_format=""):
   return (chat_completion.choices[0].message.content)
 
 
-def get_lepton_response(prompt, json_mode = False, max_tokens=None):
+def get_lepton_response(prompt, model="mistral-7b", json_mode = False, max_tokens=None):
   """Gets response from mistral-7b through lepton
   
   Model selection can be modified within the function. Currently uses Mistral-7B.
@@ -114,20 +115,25 @@ def get_lepton_response(prompt, json_mode = False, max_tokens=None):
   Parameters
   ----------
   prompt
+  model : str, defaults to "mistral-7b"
+    Can also input "Wizardlm-2-8x22b"
   json_mode : boolean, defaults false
   
   Returns
   -------
   response as string
   """
-  
+  if (model == "mistral-7b"):
+    model_url = "https://mistral-7b.lepton.run/api/v1/"
+  if (model == "Wizardlm-2-8x22b"):
+    model_url = "https://wizardlm-2-8x22b.lepton.run/api/v1/"
   client = openai.OpenAI(
-    base_url="https://mistral-7b.lepton.run/api/v1/",
+    base_url=model_url,
     api_key=os.environ.get('lepton_api_key')
   )
 
   completion_args = {
-    "model": "mistral-7b",
+    "model": model,
     "messages": [{"role": "user", "content": prompt}],
     # max_tokens=128,
     "stream": True,
@@ -138,6 +144,8 @@ def get_lepton_response(prompt, json_mode = False, max_tokens=None):
   if max_tokens:
     completion_args["max_tokens"] = max_tokens
 
+  if __debug__:
+    print(f"Getting response from {model} with prompt: {prompt}")
   completion = client.chat.completions.create(**completion_args)
 
 
@@ -150,28 +158,74 @@ def get_lepton_response(prompt, json_mode = False, max_tokens=None):
           response = response + content
   return response
   
-def get_json_from_lepton(response):
+def get_json_from_lepton(response, triple_ticks=False, attempt_num=1):
   """
   Given a response string, this function uses regular expressions to find the first JSON object within the string. If a JSON object is found, it is returned as a string. If no JSON object is found, a message is printed to the console indicating that no JSON was found in the text.
   
   Parameters
   ----------
   response (str): The response string from which to extract the JSON object.
+  triple_ticks (bool): Is the JSON in triple ticks in the string?
+  second_attempt (bool): Is this the second attempt at extracting JSON from the string? Do not modify. Used for recursion.
   
   Returns
   -------
   str
   """
-  # Use regular expression to find the JSON object in the respone string
+  
+  # Use regular expression to find the JSON object in the response string
+  # Handles the very annoying case where the LM fails to complete the JSON and stops mid-way
+  # This should have been done with a loop rather than recursion, but it's too late now, may re-do later
+  if __debug__:
+    start_time = time.time()
+    print(f"Parsing to JSON {response}")
+
   import re
-  match = re.search(r'\{.*?\}', response, re.DOTALL)
+  
+  # Remove triple ticks if present
+  if triple_ticks:
+    pattern = r'```json\s*(.*?)\s*```'
+    match = re.search(pattern, response, re.DOTALL)
+    if match:
+      response = match.group(0)
+
+  # Capture text with curly braces (including the braces)
+  pattern = r'\{.*?\}'
+  match = re.search(pattern, response, re.DOTALL)
+  data = None
   if match:
     json_string = match.group(0)
+    print("Extracted json string: ", json_string)
     # Parse the JSON string
-    data = json.loads(json_string)
-  else:
-    print("No JSON found in the text")
-    return None
+    try:
+      data = json.loads(json_string)
+      return data
+    except json.decoder.JSONDecodeError as e:
+      print(f"Error parsing JSON: {e}")
+  
+  print("No JSON found in the text")
+  print("Attempting to manually complete the JSON string")
+  print(f"Attempt {attempt_num}")
+  if (attempt_num == 1):
+      # Add quotation and end curly brace
+      response += "\"\n}"
+  elif (attempt_num == 2):
+      # Add only end curly brace
+      response = response[:-3]
+      response += "\n}"
+  elif (attempt_num == 3):
+      # Remove comma, add end curly brace
+      response = response[:-4]
+      response += "}"
+  elif (attempt_num > 3):
+      # Stop recursion
+      return None
+  data = get_json_from_lepton(response, triple_ticks=False, attempt_num=attempt_num+1)
+  
+  if __debug__:
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"Parse to JSON attempt {attempt_num}: {duration} seconds")
   return data
 
 

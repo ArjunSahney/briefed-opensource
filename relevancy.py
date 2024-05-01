@@ -5,80 +5,61 @@ import time
 start_time = time.time()
 
 client = openai.OpenAI(
-    base_url="https://mistral-7b.lepton.run/api/v1/",
+    base_url="https://wizardlm-2-8x22b.lepton.run/api/v1/",
     api_key=os.environ.get('lepton_api_key')
 )
 
-titles = """
-1. Snowflake releases a flagship generative AI model of its own
-
-2. Perplexity hits unicorn status with $63M investment, launches secure AI enterprise search
-
-3. Linux Foundation launches new industry push to develop better generative AI for enterprises
-
-4. Exclusive | Jack Altman's Venture Fund Launches Accelerator for Enterprise AI Startups
-
-5. Open-source vector database Qdrant launches hybrid cloud for enterprise AI apps
-
-6. Recorded Future Launches Enterprise AI for Intelligence
-
-7. Intel, Tech Giants Join Forces to Launch Open Platform for Enterprise AI
-
-8. Intel and others commit to building open generative AI tools for the enterprise
-
-9. Intel Announces Hala Point – World's Largest Neuromorphic System for Sustainable AI
-
-10. AutoAlign spins off from Armilla, launches AI security platform 'Sidecar'
-
-11. Snorkel AI Launches Snorkel Flow to Help Firms Harness Their Data for Custom AI Solutions
-
-12. Snowflake targets enterprise AI with launch of Arctic LLM
-
-13. Snowflake launches Arctic: An open enterprise-grade large language model - ET Edge Insights
-
-14. Generative AI Search Startup Perplexity AI Raises $62.7M And Launches Enterprise Platform
-
-15. AI Search Startup Perplexity's Series B Funding Raises Nearly $63M, Launches Enterprise Pro
-
-16. Snowflake launches open LLM Arctic to cater to enterprise needs
-
-17. AWS Announces New Capabilities for Amazon Bedrock
-
-18. Intel Launches Gaudi 3 Accelerator, Advancing Enterprise AI with Performance and Openness
-
-19. Snowflake unveils open LLM for cost-effective enterprise use cases
-
-20. Snowflake Launches Arctic: The Most Open, Enterprise-Grade Large Language Model
+titles = """  
+Minnesota’s IT ‘Shark Tank’ funding $40 million in new ideas
+Point of View: A new era for technology use and mental health
+New Century Technology High school ranked second in state
+New Century Technology High School ranked no. 2 in the state
+AI At The Edge: The New Vanguard Of Railway Innovation
+Advanced automatic braking systems to be standard on new cars by 2029
+New Technology Benefits Liver Transplants
+Biden administration to require advanced safety tech on all new cars and trucks
+India/Global: New technologies in automated social protection systems can threaten human rights
+Norfolk Fire Rescue using new technology to alert drivers of oncoming emergency vehicles and active scenes
+Starseed Launches 'Pulitzer AI' for Automated Press Release
+Sayata launches groundbreaking AI platform for commercial insurance underwriting
+Marin Software Launches AI-powered Anomaly Detector to Unlock Growth in Performance Marketing Campaigns
+Google Launches AI Training Program For US Citizens And Grant Funds Worth IDR 1.2 Trillion
+PROVEN Robotics launches OrionStar Mini, an AI service robot
+Lonza launches AI-enabled route scouting
+NIST launches a new platform to assess generative AI
+NIST launches GenAI evaluation program, releases draft publications on AI risks and standards
+MHIRJ Launches New AI, Workforce Initiatives
+UK startup Synthesia launches AI ‘expressive’ avatars that could cut cost of content creation
 """
 
 relevancyPrompt = f"""
-Determine which of these article titles are most relevant to an individual interested in enterprise AI launches. Reference the titles by their number in the list. Return response in this form {{8, 4, 2, ...}}, where 8 is the most relevant article title.
+Determine which 5 of these article titles are most relevant to an individual interested in enterprise AI launches. Return response as a JSON in this format:
+{{
+  "1": title 1,
+  "2": title 2,
+  ...
+  "5": title 5
+}}
+
 {titles}
 """
 
 relevant_titles = """
-12. Snowflake targets enterprise AI with launch of Arctic LLM
-
-13. Snowflake launches Arctic: An open enterprise-grade large language model - ET Edge Insights
-
-14. Generative AI Search Startup Perplexity AI Raises $62.7M And Launches Enterprise Platform
-
-15. AI Search Startup Perplexity's Series B Funding Raises Nearly $63M, Launches Enterprise Pro
-
-16. Snowflake launches open LLM Arctic to cater to enterprise needs
-
-1. Snowflake releases a flagship generative AI model of its own
-
-8. Intel and others commit to building open generative AI tools for the enterprise
-
-11. Snorkel AI Launches Snorkel Flow to Help Firms Harness Their Data for Custom AI Solutions
-
-20. Snowflake Launches Arctic: The Most Open, Enterprise-Grade Large Language Model
+1. AI At The Edge: The New Vanguard Of Railway Innovation
+2. Starseed Launches 'Pulitzer AI' for Automated Press Releases
+3. Sayata launches groundbreaking AI platform for commercial insurance underwriting
+4. Marin Software Launches AI-powered Anomaly Detector to Unlock Growth in Performance Marketing Campaigns
+5. Google Launches AI Training Program For US Citizens And Grant Funds Worth IDR 1.2 Trillion
+6. PROVEN Robotics launches OrionStar Mini, an AI service robot
+7. Lonza launches AI-enabled route scouting
+8. NIST launches GenAI evaluation program, releases draft publications on AI risks and standards
+9. MHIRJ Launches New AI, Workforce Initiatives
+10. UK startup Synthesia launches AI ‘expressive’ avatars that could cut cost of content creation
 """
 
 clusteringPrompt = f"""
-Cluster similar news titles together into a list. 
-Return response in JSON of this format 
+Combine any articles on the exact same story into a group.
+Return your response in a JSON of this form,
 {{
   "1": {{title n, title n2, title n3}}, 
   "2": {{title n, title n2}}, 
@@ -99,15 +80,17 @@ optimize_search_wordsPrompt = f"""Given the following title and snippett from a 
 """
 
 completion = client.chat.completions.create(
-    model="mistral-7b",
+    model="Wizardlm-2-8x22b",
     messages=[
-        {"role": "user", "content": optimize_search_wordsPrompt},
+        {"role": "user", "content": relevancyPrompt},
     ],
-    # max_tokens=128,
+    max_tokens=300,
     stream=True,
     response_format={ "type": "json_object" }, # Switch JSON mode ON for relevancy and clustering prompts
 )
 
+
+print(relevancyPrompt)
 for chunk in completion:
     if not chunk.choices:
         continue
