@@ -33,222 +33,251 @@ from openai import OpenAI
 from api_toolbox import *
 from spaCy_summarizer import *
 import time # debugging latency
+from datetime import datetime
 
 DEFAULT_NUM_TITLES = 10
 DEFAULT_NUM_ARTICLES_PER_BRIEF = 5
+CURR_DATE = datetime.now().strftime('%Y-%m-%d')
 
 # -------------------------------- PRIMARY SEARCH -------------------------------- #
 
-def get_improved_title_using_snippet(title, snippet):
-  """
-  Using title and snippet from news article object, returns an improved title as a string. 
-  
-  Caller must pass in the title and snippet strings from the news article object from the news_results JSON. Uses Mistral7B to optimize the title. Uses regex to extract JSON from LLM response (Mistral's JSON-mode is not as clean as GPT-4's)
-  
-  Parameters
-  ----------
-  title: str
-  snippet: str
-  
-  Returns
-  -------
-  str
-  """
-  
-  optimize_title_prompt = f"""Given the following title and snippett from a news article, optimize the title for the article to be descriptive and explanatory. Remove any clickbait or buzz words. Return response in this form {{"title": title}}.
-  
-  title: {title}
-  snippet: {snippet}
-  """
-  if __debug__:
-    start_time = time.time()
+def get_improved_title_using_snippet(title, snippet, type="title"):
+    """
+    Using title and snippet from news article object, returns an improved title as a string. 
     
-  improved_title_response = get_lepton_response(optimize_title_prompt, json_mode=True)
-  
-  # Use regular expression to find the JSON object in the respone string
-  title_json = get_json_from_lepton(improved_title_response)
-  if title_json is None:
-    print("No JSON found in the text")
-  else:
-    title = title_json["title"]
-    print("Optimized title: ", title)
-  
-  if __debug__:
-    end_time = time.time()
-    duration = end_time - start_time
-    print(f"Optimize title: {duration} seconds")
+    Caller must pass in the title and snippet strings from the news article object from the news_results JSON. Uses Mistral7B to optimize the title. Uses regex to extract JSON from LLM response (Mistral's JSON-mode is not as clean as GPT-4's)
+    
+    Parameters
+    ----------
+    title: str
+    snippet: str
+    type : str
+        Can be "title" or "search terms", depending on what you want returned
+        
+    Returns
+    -------
+    str
+    """
+    
+    optimize_to_search_terms_prompt = f"""Given the following title and snippet from a news article, generate a few search terms to describe the article. Return response in this form {{"search terms": search terms}}.
+    
+title: {title}
+snippet: {snippet}
+    """
+    optimize_to_title_prompt = f"""Given the following title and snippet from a news article, optimize the title for the article to be descriptive and explanatory. Remove any clickbait or buzz words. Return response in this form {{"title": title}}.
+    
+title: {title}
+snippet: {snippet}
+    """
+    if __debug__:
+        start_time = time.time()
+    
+    # Pick prompt based on what the user wants returned
+    if type == "title":
+        prompt = optimize_to_title_prompt
+    elif type == "search terms":
+        prompt = optimize_to_search_terms_prompt
+    improved_title_response = get_lepton_response(prompt, json_mode=True)
+    
+    # Use regular expression to find the JSON object in the respone string
+    title_json = get_json_from_lepton(improved_title_response)
+    if title_json is None:
+        print("No JSON found in the text")
+    else:
+        if type == "title":
+            optimized = title_json["title"]
+            print("Optimized title: ", optimized)
+        elif type == "search terms":
+            optimized = title_json["search terms"]
+            print("Optimized search terms: ", optimized)
+            
+    if __debug__:
+        end_time = time.time()
+        duration = end_time - start_time
+        print(f"Optimize {type}: {duration} seconds")
 
-  return title
+    return optimized
 
 def generalize_topic(topic):
-  """Use LLMs (gpt-4) to generalize a specific news topic.
-  Other LLMs don't work well (e.g. Mistral)
-  
-  """
-  
-  generalize_prompt = f"""Given the following topic, broaden the topic by simplifying.
-  Examples:
-  2024 US Presidential Election -> US Election
-  Bitcoin Pricing -> Cryptocurrency
-  Enterprise AI Launches -> AI
+    """Use LLMs (gpt-4) to generalize a specific news topic.
+    Other LLMs don't work well (e.g. Mistral)
+    
+    """
+    
+    generalize_prompt = f"""Given the following topic, broaden the topic by simplifying.
+    Examples:
+    2024 US Presidential Election -> US Election
+    Bitcoin Pricing -> Cryptocurrency
+    Enterprise AI Launches -> AI
 
-  Now simplify the following topic: {topic}
-  """
-  response = get_gpt_response(generalize_prompt, gpt_model="gpt-3.5-turbo")
-  # if __debug__:
-  print("Generalized topic: " + response)
-  return response
+    Now simplify the following topic: {topic}
+    """
+    response = get_gpt_response(generalize_prompt, gpt_model="gpt-3.5-turbo")
+    # if __debug__:
+    print("Generalized topic: " + response)
+    return response
 
 def parse_ranked_list(string_ranked_list, range):
-  """Takes a string of a ranked list and returns a list of strings"""
-  list_items = []
-  lines = string_ranked_list.split('\n')
-  # Loop through each line
-  for line in lines:
-      # Check if the line starts with a number followed by a dot (indicating an article title)
-      if line.strip().startswith(tuple(f"{i}." for i in range(1, len(range)))):
-          # Split the line at the first dot followed by a space to isolate the title
-          item = line.split('. ', 1)[1]
-          # Append the isolated item (string) to the list
-          list_items.append(item)
-  return list_items
+    """Takes a string of a ranked list and returns a list of strings"""
+    list_items = []
+    lines = string_ranked_list.split('\n')
+    # Loop through each line
+    for line in lines:
+        # Check if the line starts with a number followed by a dot (indicating an article title)
+        if line.strip().startswith(tuple(f"{i}." for i in range(1, len(range)))):
+            # Split the line at the first dot followed by a space to isolate the title
+            item = line.split('. ', 1)[1]
+            # Append the isolated item (string) to the list
+            list_items.append(item)
+    return list_items
 
-def get_most_relevant_titles(news_results, keyword, num_results=DEFAULT_NUM_TITLES):
-  """Returns list of most relevant titles to a given keyword
-  
-  Parameters
-  ----------
-  news_results: JSON
-    Caller should simply pass in the news results JSON
-  keyword: str
-  num_results: int
-    Limit relevancy determination to only the top num_results titles
-  
-  Returns
-  -------
-  JSON
-    Same format as the news results JSON
-  """
-  if __debug__:
-    start_time = time.time()
-  if news_results[0].get("title") is None:
-    print("News results JSON is empty")
-    return None
-  titles = []
-  titles_string = ""
-  for article_object in news_results:
-    titles.append(article_object["title"])
-    titles_string += article_object["title"] + "\n"
-  
-  # TODO: Add functionality to optimize title before passing to LLM?
-  # Will add ~2s of latency for each title
-  
-  range = min(num_results*2, len(titles))
-  # If we only have num_results titles, just return them, no need to rank
-  if (range <= num_results):
-    return titles
-  else:
-    range_string = str(range)
-  relevancyPrompt = f"""Determine which {range_string} of these article titles are most relevant to an individual interested in {keyword}. Return response as a JSON in this format:
+def get_most_relevant_titles(news_results, keyword, num_results):
+    """Returns list of most relevant titles to a given keyword
+    
+    Parameters
+    ----------
+    news_results: JSON
+        Caller should simply pass in the news results JSON
+    keyword: str
+    num_results: int
+        Will ask the LLM to rank the top min(2*num_results titles, len(news_results)) titles
+    
+    Returns
+    -------
+    JSON
+        Same format as the news results JSON
+    """
+    if __debug__:
+        start_time = time.time()
+    if news_results[0].get("title") is None:
+        print("News results JSON is empty")
+        return None
+    titles = []
+    titles_string = ""
+    for article_object in news_results:
+        titles.append(article_object["title"])
+        titles_string += article_object["title"] + "\n"
+    
+    # TODO: Add functionality to optimize title before passing to LLM?
+    # Will add ~2s of latency for each title
+    
+    range = min(num_results*2, len(titles))
+    # If we only have num_results titles, just return them, no need to rank
+    if (range <= num_results):
+        return titles
+    else:
+        range_string = str(range)
+    relevancyPrompt = f"""Rank the top {range_string} article titles by relevance to an
+    individual interested in {keyword}. Return response as a JSON in this format:
 {{
-  "1": title 1,
-  "2": title 2,
-  ...
-  "{range_string}": title {range_string}
+"1": title 1,
+"2": title 2,
+...
+"{range_string}": title {range_string}
 }}
 
 {titles_string}
-  """
-  if __debug__:
-    print(relevancyPrompt)
-  response = get_lepton_response(relevancyPrompt, model="Wizardlm-2-8x22b", json_mode=True)
-  response_json = get_json_from_lepton(response, triple_ticks=True)
-  if __debug__:
-    print("Relevancy response: " + response)
-    print("Relevancy response JSON: " + json.dumps(response_json, indent=4))
-  if response_json is None:
-    return news_results
-  
-  # Populate relevant_news_results with the titles in response_json in order
-  relevant_news_results = []
-  for rank, title in response_json.items():
-    relevant_news_results.append(title)
-  # Replace each title in relevant_news_titles with its corresponding article object
-  # This preserves the ranking of each article from the relevancy determination
-  for article_object in news_results:
-    if article_object["title"] in relevant_news_results:
-      # Don't need to catch a ValueError here because we know the title is in the list
-      index = relevant_news_results.index(article_object["title"])
-      # Replace the title in the list with the article object
-      relevant_news_results[index] = article_object
-  
-  if __debug__:
-    print("Most relevant news results: ")
-    print(json.dumps(relevant_news_results, indent=4))
-  
-  if __debug__:
-    end_time = time.time()
-    duration = end_time - start_time
-    print(f"Relevancy determination: {duration} seconds")
+    """
+    if __debug__:
+        print(relevancyPrompt)
+    response = get_lepton_response(relevancyPrompt, model="Wizardlm-2-8x22b", json_mode=True)
+    response_json = get_json_from_lepton(response, triple_ticks=True)
+    if __debug__:
+        print("Relevancy response: " + response)
+        print("Relevancy response JSON: " + json.dumps(response_json, indent=4))
+    if response_json is None:
+        return news_results
+    
+    # Populate relevant_news_results with the titles in response_json in order
+    relevant_news_results = []
+    for rank, title in response_json.items():
+        relevant_news_results.append(title)
+    # Replace each title in relevant_news_titles with its corresponding article object
+    # This preserves the ranking of each article from the relevancy determination
+    for article_object in news_results:
+        if article_object["title"] in relevant_news_results:
+            # Don't need to catch a ValueError here because we know the title is in the list
+            index = relevant_news_results.index(article_object["title"])
+            # Replace the title in the list with the article object
+            relevant_news_results[index] = article_object
+    
+    if __debug__:
+        print("Most relevant news results: ")
+        print(json.dumps(relevant_news_results, indent=4))
+    
+    if __debug__:
+        end_time = time.time()
+        duration = end_time - start_time
+        print(f"Relevancy determination: {duration} seconds")
 
-  return relevant_news_results
+    return relevant_news_results
   
 def scrape_news(keyword, num_results):
-  """Returns scraped results for a keyword
-  
-  Parameters
-  ----------
-  keyword: string
-  num_results: integer
-  
-  Returns
-  -------
-  News results dictionary
-  None if no news from serp
-  """
-  # Scrape news on initial keyword
-  if __debug__:
-    print(f"Retrieving top titles on {keyword}")
-    start_time = time.time()
+    """Returns scraped results for a keyword
+    
+    Parameters
+    ----------
+    keyword: string
+    num_results: integer
+    
+    Returns
+    -------
+    News results dictionary
+    None if no news from serp
+    """
+    # Scrape news on initial keyword
+    if __debug__:
+        print(f"Retrieving top titles on {keyword}")
+        start_time = time.time()
 
-  news_results = get_google_results_valueserp(keyword, num_results)
-  
-  if __debug__:
-    end_time = time.time()
-    duration = end_time - start_time
-    print(f"ValueSerp retrieval time: {duration} seconds for {keyword}")
+    # First, check if we have it in the database
+    news_filename = "brief_files/" + keyword + "_" + curr_date + ".txt"
+    if os.path.exists(news_filename):
+        with open(news_filename, 'r') as file:
+            content = file.read()
 
-  if news_results is None:
-    print(f"No news on {keyword}")
-    return None
-  else:
-    return news_results
+    
+    news_results = get_google_results_valueserp(keyword, num_results)
+  
+    if __debug__:
+        end_time = time.time()
+        duration = end_time - start_time
+        print(f"ValueSerp retrieval time: {duration} seconds for {keyword}")
+
+    if news_results is None:
+        print(f"No news on {keyword}")
+        return None
+    else:
+        return news_results
 
 
-def primary_search(keyword, num_titles=DEFAULT_NUM_TITLES):
-  """Retrieve a JSON of news articles in order of relevancy to a given keyword"""
-  
-  # First, scrape news on keyword and store in news_results
-  # The user wants the top num_titles results, so grab the top num_titles*5 so we can cut down
-  scope = 5
-  news_results = scrape_news(keyword, num_titles*scope)
-  
-  # Next, scrape news on generalized keyword and add to dictionary
-  general_keyword = generalize_topic(keyword)
-  generalization_factor = 10
-  # Add the generalized results to news results
-  general_results = scrape_news(general_keyword, num_titles*scope*generalization_factor)
-  if general_results:
-    news_results.extend(general_results)
-  
-  # Sort the list by relevancy
-  # For now, we will keep all the news results because in secondary search, we may find some articles unparseable
-  relevant_news_results = get_most_relevant_titles(news_results, keyword, num_titles)
-  print(json.dumps(relevant_news_results, indent=4))
+def relevancy_search(keyword, num_titles=DEFAULT_NUM_TITLES):
+    """Retrieve a JSON of news articles in order of relevancy to a given keyword"""
+    
+    # First, scrape news on keyword and store in news_results
+    # The user wants the top num_titles results, so grab the top num_titles*5 so we can cut down
+    scope = 5
+    news_results = scrape_news(keyword, num_titles*scope)
+    
+    # Next, scrape news on generalized keyword and add to dictionary
+    general_keyword = generalize_topic(keyword)
+    generalization_factor = 10
+    # Add the generalized results to news results
+    general_results = scrape_news(general_keyword, num_titles*scope*generalization_factor)
+    if general_results:
+        news_results.extend(general_results)
+    
+    # Sort the list by relevancy
+    # For now, we will keep all the news results because in secondary search, we may find some articles unparseable
+    relevant_news_results = get_most_relevant_titles(news_results, keyword, num_titles)
+    print(json.dumps(relevant_news_results, indent=4))
+    
+    # Now that we have the relevant news results, we can start the secondary search
+    return relevant_news_results
   
 # -------------------------------------------------------------------------------- #
 
-primary_search("Software", 6)
+# primary_search("Startups", 6)
 
 # -------------------------------- SECONDARY SEARCH ------------------------------ #
 
@@ -273,57 +302,87 @@ def append_missing_words(words_to_append, append_to_this_string):
 
     return append_to_this_string
 
-
-def title_to_searchwords(title):
-  """Get the optimal searchwords from a news title"""
-
 def secondary_search(keyword, most_relevant_titles, a_or_b, original_results, num_articles_per_brief=DEFAULT_NUM_ARTICLES_PER_BRIEF):
-  # Initializing final dict and num articles per title 
-  sources_by_story = {}
-  num_articles = 10
-  # If secondary a or b
-  if a_or_b == "a":
-    return secondary_a(sources_by_story,most_relevant_titles, keyword, num_articles)
-  else: 
-    return secondary_b(sources_by_story,most_relevant_titles, keyword, num_articles, original_results)
+    """
+    Generates a sources by story dictionary for each article object in most_relevant_titles
+    
+    Parameters
+    ----------
+    keyword : str
+    most_relevant_titles : list of article objects
+    a_or_b : str
+    original_results : list of article objects
+    
+    Returns
+    -------
+    sources_by_story : dict
+    """
+    # Create dictionary to store sources for each relevant title
+    sources_by_story = {}
+    
+    # If secondary a or b
+    if a_or_b == "a":
+        sources_by_story = secondary_a(sources_by_story, most_relevant_titles, keyword, num_articles_per_brief)
+    else: 
+        sources_by_story = secondary_b(sources_by_story,most_relevant_titles, keyword, num_articles_per_brief, original_results)
     
 def secondary_a(sources_by_story, most_relevant_titles, keyword, num_articles):
-  #Parse list of top NUM_TITLES titles with LLM and return JSON of most relevant to Q1.
-  most_relevant_titles = get_most_relevant_titles(most_relevant_titles, keyword)
-  for title in most_relevant_titles:
-    simplified_title = title_to_searchwords(title)
-    sources_by_story[title] = scrape_news(simplified_title, num_articles)
-  return sources_by_story
+    # Generate sources by story for each of the most relevant tiles
+    for article_object in most_relevant_titles:
+        title = article_object.get("title", None)
+        if title is None:
+            continue
+        snippet = article_object.get("snippet", None)
+        # Optimize search terms based on title and snippet of article, if available
+        search_terms = get_improved_title_using_snippet(title, snippet, type="search terms")
+        sources_by_story[title] = scrape_news(search_terms, num_articles)
+    
+    # Now, prune sources_by_story to only include the most relevant sources for each story
+    for title in sources_by_story:
+        sources = sources_by_story[title]
+        relevant_sources = get_most_relevant_titles(sources, keyword, num_articles)
+        sources_by_story[title] = relevant_sources
+        
+    return sources_by_story
 
 def secondary_b(sources_by_story,most_relevant_titles, keyword, num_articles, original_results):
-  for title in most_relevant_titles:
-    simplified_title = title_to_searchwords(title)
-    simplified_title = append_missing_words(keyword,simplified_title)
-    sources_by_story[title] = scrape_news(simplified_title, num_articles)
-    #If sources does not contain title, append most_relevant_titles[title] to the sources dictionary.
-    #Loop through sources_by_story[title] and see if it contains title, if not add it 
+    """Exact same as secondary_a but appends missing words"""
+    # Generate sources by story for each of the most relevant tiles
+    for article_object in most_relevant_titles:
+        title = article_object.get("title", None)
+        if title is None:
+            continue
+        snippet = article_object.get("snippet", None)
+        search_terms = get_improved_title_using_snippet(title, snippet, type="search terms")
+        # Append any missing words to the search terms
+        search_terms = append_missing_words(keyword, search_terms)
+        sources_by_story[title] = scrape_news(search_terms, num_articles)
     
-  sources_by_story=(sources_by_story, title, original_results)
+    # Now, prune sources_by_story to only include the most relevant sources for each story
+    for title in sources_by_story:
+        sources = sources_by_story[title]
+        relevant_sources = get_most_relevant_titles(sources, keyword, num_articles)
+        sources_by_story[title] = relevant_sources
+        
+    return sources_by_story
 
-  return sources_by_story
 
 def match_found(formatted_news_results, title, original_results):
-  """
-  Checking if any title matches the given title. If not, add to formatted_news_results
-  """
-  match_found = False
-  for news_item in formatted_news_results:
-    if news_item['title'] == title:
-      match_found = True
-      break
+    """
+    Checking if any title matches the given title. If not, add to formatted_news_results
+    """
+    match_found = False
+    for news_item in formatted_news_results:
+        if news_item['title'] == title:
+            match_found = True
+            break
 
-  if match_found == False:
-    # If not, adding original article
-    formatted_news_results[title] = original_results[title]
+    if match_found == False:
+        # If not, adding original article
+        formatted_news_results[title] = original_results[title]
 
-  return formatted_news_results
+    return formatted_news_results
     
-
   
 # -------------------------------------------------------------------------------- #
 # Secondary Search:
@@ -339,5 +398,8 @@ def match_found(formatted_news_results, title, original_results):
 # End result is a dictionary of NUM_TITLES title strings, each mapped to a dictionary of NUM_ARTICLES_PER_BRIEF title strings, each mapped to key-value pairs containing source, link, thumbnail, etc.
 
 def search(topic):
-  """Call primary search, secondary search"""
+    """Call primary search, secondary search"""
+    news_results = relevancy_search(topic)
+    secondary_search(topic, news_results, a_or_b="a", original_results=news_results)
+    
   

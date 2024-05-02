@@ -10,39 +10,30 @@ client = openai.OpenAI(
 )
 
 titles = """  
-Minnesota’s IT ‘Shark Tank’ funding $40 million in new ideas
-Point of View: A new era for technology use and mental health
-New Century Technology High school ranked second in state
-New Century Technology High School ranked no. 2 in the state
-AI At The Edge: The New Vanguard Of Railway Innovation
-Advanced automatic braking systems to be standard on new cars by 2029
-New Technology Benefits Liver Transplants
-Biden administration to require advanced safety tech on all new cars and trucks
-India/Global: New technologies in automated social protection systems can threaten human rights
-Norfolk Fire Rescue using new technology to alert drivers of oncoming emergency vehicles and active scenes
-Starseed Launches 'Pulitzer AI' for Automated Press Release
-Sayata launches groundbreaking AI platform for commercial insurance underwriting
-Marin Software Launches AI-powered Anomaly Detector to Unlock Growth in Performance Marketing Campaigns
-Google Launches AI Training Program For US Citizens And Grant Funds Worth IDR 1.2 Trillion
-PROVEN Robotics launches OrionStar Mini, an AI service robot
-Lonza launches AI-enabled route scouting
-NIST launches a new platform to assess generative AI
-NIST launches GenAI evaluation program, releases draft publications on AI risks and standards
-MHIRJ Launches New AI, Workforce Initiatives
-UK startup Synthesia launches AI ‘expressive’ avatars that could cut cost of content creation
+ABB Startup Challenge winners use AI to support the energy transition
+'The taste of stock options': Why startups are letting their staffers sell their shares
+For AI startups, a billion-dollar dilemma: Why lofty valuations could be a hurdle in the race for talent
+Kenyan mobility startup BuuPass acquires QuickBus to scale in Nigeria, SA
+Can biotech startups upstage Eli Lilly and Novo Nordisk?
+The 15 Start-Ups to Watch in 2024: Our Top Picks
+GITEX Africa 2024:Your Ultimate Guide Towards an Innovative and Career-building Experience
+Mint Explainer: Why good corporate-governance practices are crucial for startups | Mint
+Impact startup Fynch Mobility banks €1M to make business trips greener
+Indian GenAI Startup Tracker: Meet 60+ Startups Putting India On Global Map
 """
 
-relevancyPrompt = f"""
-Determine which 5 of these article titles are most relevant to an individual interested in enterprise AI launches. Return response as a JSON in this format:
+relevancyPrompt = f"""Rank the top 10 article titles by relevance to an individual interested in Startups. Return response as a JSON in this format:
 {{
   "1": title 1,
   "2": title 2,
   ...
-  "5": title 5
+  "10": title 10
 }}
 
 {titles}
 """
+
+
 
 relevant_titles = """
 1. AI At The Edge: The New Vanguard Of Railway Innovation
