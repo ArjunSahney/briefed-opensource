@@ -1,0 +1,58 @@
+[
+    {
+        "Title": "Recent Real Estate and Sports Management News",
+        "Summary": "A four-bedroom home in Needham was sold for $2.5 million, highlighting the continuously vibrant real estate market (MassLive.com). In the healthcare sector, ShiftMed acquired CareerStaff Unlimited, and Nova Leap expanded its reach by purchasing a Massachusetts provider, signaling ongoing consolidation in the home health care industry (Home Health Care News). In the sports world, Arne Slot is nearing the position of Liverpool's manager, with a compensation deal of approximately 11 million euros agreed with Feyenoord, marking a significant transition in Premier League management roles (Caledonian Record).",
+        "sources": [
+            [
+                "MassLive.com",
+                "https://www.masslive.com/realestate-news/2024/04/four-bedroom-home-in-needham-sells-for-2-5-million.html",
+                "15 hours ago"
+            ],
+            [
+                "Home Health Care News",
+                "https://homehealthcarenews.com/2024/04/transactions-shiftmed-buys-careerstaff-unlimited-nova-leap-purchases-massachusetts-provider/",
+                "20 hours ago"
+            ],
+            [
+                "Caledonian Record",
+                "https://www.caledonianrecord.com/sports/world/arne-slot-a-step-closer-to-liverpool-job-as-compensation-deal-reached-with-feyenoord/article_87d8c931-cb7c-5620-864a-32cae689647f.html",
+                "4 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.masslive.com/resizer/v2/D7SKQO7YDJBC7DMGUBWG5Y4LSQ.jpg?auth=e4276f3e514a17a1271457b0c1e83dd6c1576522bc394c6a714691e851850e5b&width=1280&quality=90"
+    },
+    {
+        "Title": "Overview of Minneapolis Real Estate",
+        "Summary": "In Minneapolis, $325,000 can purchase a home, indicating trends in the local real estate market's pricing (Axios).",
+        "sources": [
+            [
+                "Axios",
+                "https://www.axios.com/local/twin-cities/2024/04/27/real-estate-home-prices-columbia-heights-robbinsdale",
+                "3 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Common Occupant Mistakes in Real Estate",
+        "Summary": "Real estate occupants often overlook extension rights, which include lease renewal, building purchase options, lease termination, additional space acquisition, and first refusal or offer rights for buying or leasing property (Orange County Register).",
+        "sources": [
+            [
+                "Orange County Register",
+                "https://www.ocregister.com/2024/04/27/here-are-the-common-occupant-mistakes-made-in-real-estate/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.ocregister.com/wp-content/uploads/2024/04/OCR-L-BUCHANAN-0428.jpg?w=1024&h=645"
+    },
+    {
+        "Title": "Unlock Your EU Residency: Invest in Latvian Real Estate",
+        "Summary": "Investing in Latvian real estate grants individuals the opportunity to obtain EU residency, expanding their living and working rights across European Union countries (Space Coast Daily).",
+        "sources": [
+            [
+                "Space Coast Daily",
+                "https://spacecoastdaily.com/2024/04/unlock-your-eu-residency-invest-in-latvian-real-estate/",
+                "5 hours ago"
+            ]
+        ]
+    }
+]

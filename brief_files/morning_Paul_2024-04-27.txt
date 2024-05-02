@@ -1,0 +1,21 @@
+Good morning, Paul. Here's your morning briefing:
+
+Global University Protests in Solidarity with Palestine  
+Universities across the US, France, and Britain, including Columbia University, have seen protests demanding divestment from companies linked to Israel's war in Gaza. According to Yahoo News UK, Columbia University alumni joined the protests by boycotting their reunion. Support for these demonstrations has gone international with backing from prominent figures and organizations, as reported by eKathimerini.com and Peoples Dispatch. Moreover, Newsweek highlighted a controversy due to a Hezbollah flag's appearance at a US college protest, emphasizing the intense atmosphere surrounding these events. Yahoo News New Zealand characterized these protests as among the most intense US demonstrations in recent months, with Jewish students and faculty voicing safety concerns.
+
+Washington D.C. Nightclub Shooting  
+According to WPXI, a shooting outside a nightclub in Washington, D.C.'s Dupont Circle area has injured five individuals. A suspect has been arrested by the police in connection with the incident.
+
+Technology and Artificial Intelligence Updates  
+The New Stack revealed advancements in leveraging proprietary vector databases to enhance large language models (LLMs), offering custom AI solutions through the retrieval-augmented generation framework. Furthermore, Make Tech Easier discussed the potential of running LLMs on Raspberry Pi, highlighting its applications in writing and complex problem solving since the release of ChatGPT 3 in 2022.
+
+SaaS Venture Capital Trends  
+The debate over the funding of KiwiSaaS, a group that includes New Zealand's top tech firms like Xero and Datacom, has been criticized by the Taxpayers’ Union, as reported by the NZ Herald. Despite this, the group's rapid growth is undeniable, with expectations to quadruple by 2032. Additionally, Inc42 noted that Indian startups raised a total of $172 million in funding over the past week, indicating a vibrant investment ecosystem.
+
+UFC Fight Night: Nicolau vs Perez  
+In sports, Matheus Nicolau is set to face Alex Perez at UFC Fight Night, as reported by UFC.com and various sports news outlets. The flyweight bout has garnered significant attention, with both fighters successfully making weight. This event is expected to mark a critical moment in the flyweight division's dynamics.
+
+NBA Playoffs Update  
+Lastly, in NBA news, the Indiana Pacers secured a narrow victory over the Milwaukee Bucks in Game 3 of the playoffs, with a final score of 121-118, despite the absence of Giannis Antetokounmpo. The IndyStar reported that Tyrese Haliburton led the Pacers to take a 2-1 series lead, setting up an intense atmosphere for the upcoming games in Indiana.
+
+That concludes your morning briefing, Paul. Have a great day ahead.

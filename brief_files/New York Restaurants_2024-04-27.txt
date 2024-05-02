@@ -1,0 +1,72 @@
+[
+    {
+        "Title": "Mother's Day 2024 Celebrations and Gifts",
+        "Summary": "Mother's Day 2024 offers unique celebration options and gifts, including an exclusive package at The Ritz-Carlton New York Central Park featuring afternoon tea and a flower-arranging class, and the 8th annual Fish to Fork weekend at Omni Amelia Island Resort, suitable for moms who enjoy the outdoors or seafood (Forbes). In NYC, culinary delights for Mother's Day range from exotic dishes at diverse dining destinations to a new award-winning burger at The Happiest Hour, catering to all tastebuds (BroadwayWorld). Lastly, New York Magazine presents versatile gift ideas for every mom, from ultrasonic jewelry cleaners and travel essentials to stylish Teva sandals and high-end culinary gadgets.",
+        "sources": [
+            [
+                "Forbes",
+                "https://www.forbes.com/sites/ramseyqubein/2024/04/27/mothers-day-gift-guide-2024-the-most-engaging-weekend-getaways-for-moms/",
+                "56 minutes ago"
+            ],
+            [
+                "BroadwayWorld",
+                "https://www.broadwayworld.com/bwwfood-wine/article/MOTHERS-DAY-Dining-Destinations-in-NYC-for-Your-Loved-Ones-20240426",
+                "24 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://imageio.forbes.com/specials-images/imageserve/662a61b238811f7aa6b5ff4c/0x0.jpg?format=jpg&crop=1691,952,x0,y82,safe&height=900&width=1600&fit=bounds"
+    },
+    {
+        "Title": "Upcoming Local Events and Seasonal Openings",
+        "Summary": "In East End, families can look forward to engaging activities with kids from April 26-30, 2024 (Dan\u2019s Papers). Meanwhile, Share the Harvest Farm will be hosting an indoor Spring Market Pop Up, offering a unique local shopping experience (Patch). Montauk's beloved Navy Beach reopens for the 2024 season, introducing health-conscious and vegetarian options including a Chopped Asian Chicken Salad, Ratatouille Pasta, and the popular Buddha Bowl among other dishes (James Lane Post).",
+        "sources": [
+            [
+                "Dan\u2019s Papers",
+                "https://www.danspapers.com/2024/04/things-to-do-this-weekend-east-end-kids/",
+                "15 hours ago"
+            ],
+            [
+                "Patch",
+                "https://patch.com/new-york/easthampton/calendar/event/20240427/c67093be-5af9-4bcc-8703-c30f8940fc87/share-the-harvest-farms-indoor-spring-market-pop-up",
+                "4 hours ago"
+            ],
+            [
+                "James Lane Post",
+                "https://jameslanepost.com/hamptons-event-calendar/montauks-favorite-beachfront-restaurant-navy-beach-reopens-for-the-2024-season",
+                "16 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://patch.com/img/cdn20/users/26244885/20240327/025048/427-indoor-farmers-market-800x600-427___27145045968.jpg"
+    },
+    {
+        "Title": "Exploring Japanese Breakfast Sets at Okonomi",
+        "Summary": "Okonomi restaurant offers an enticing exploration into traditional Japanese breakfast sets, providing a unique dining experience that highlights the cultural richness of Japanese cuisine (The New School Free Press)."
+    },
+    {
+        "Title": "Weekend Dining and Accommodation Highlights",
+        "Summary": "Los Angeles' Azizam entices with innovative dishes like salmon rillettes and wagyu oxtail pie, capturing the hearts of locals with its vegetable-focused menu (Eater LA). Scottish fish and chip shops, such as East Coast Musselburgh, are celebrated among the UK's best for their culinary offerings (Oxford Mail). Oxfordshire's Le Manoir, celebrated by chef Raymond Blanc, maintains two Michelin stars for 40 years and is recognized among the top hotels worldwide (Yahoo News UK). In the Bay Area, Three One Four offers pizzas with Bay Area-themed names and unique toppings, like the braised lamb 'Lalime' pizza (Eater SF).",
+        "sources": [
+            [
+                "Eater LA",
+                "https://la.eater.com/2024/4/26/24087086/la-los-angeles-restaurant-recommendations-eater-editors-april-26",
+                "22 hours ago"
+            ],
+            [
+                "Oxford Mail",
+                "https://www.oxfordmail.co.uk/news/24269537.fish-chip-shops-scotland-named-among-uks-10-best/",
+                "9 hours ago"
+            ],
+            [
+                "Yahoo News UK",
+                "https://uk.news.yahoo.com/acclaimed-oxfordshire-hotel-among-top-040000442.html",
+                "10 hours ago"
+            ],
+            [
+                "Eater SF",
+                "https://sf.eater.com/2024/4/26/24140575/things-to-do-san-francisco-bay-area-restaurants-bars-april-26",
+                "20 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.vox-cdn.com/thumbor/HpMtNNReRDNwx_NF85OrhqtX_Ao=/0x217:3024x1800/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25408899/53578385727_d7ee2e4c05_o.jpg"
+    }
+]

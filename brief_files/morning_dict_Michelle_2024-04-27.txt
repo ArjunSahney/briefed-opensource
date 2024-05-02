@@ -1,0 +1,177 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Global University Protests Erupt in Solidarity with Palestine",
+            "Summary": "Columbia University witnessed alumni reunion boycotts due to protests demanding the university divest from companies linked to Israel's war in Gaza, echoing a wider movement across the US, France, and Britain (Yahoo News UK). The protests, which have escalated to include encampments and demands for academic boycotts, received support from international figures and organizations, including the KKE leader in New York (eKathimerini.com) and were highlighted for standing in solidarity with Palestine (Peoples Dispatch). Controversy arose as a Hezbollah flag appearance at a US college protest sparked fury, underlining the intense atmosphere surrounding these demonstrations (Newsweek). The protests have been described as part of the most intense and widespread US demonstrations of the past six months, with demands extending to cutting ties with Israeli academic institutions and calling for ceasefires, amidst reports of Jewish students and faculty expressing fears for their safety (Yahoo News New Zealand).",
+            "sources": [
+                [
+                    "Yahoo News UK",
+                    "https://uk.news.yahoo.com/columbia-university-gaza-protests-spark-003725225.html",
+                    "14 hours ago"
+                ],
+                [
+                    "eKathimerini.com",
+                    "https://www.ekathimerini.com/politics/1237454/kke-leader-in-new-york-expresses-solidarity-with-columbia-protesters/",
+                    "21 hours ago"
+                ],
+                [
+                    "Peoples Dispatch",
+                    "https://peoplesdispatch.org/2024/04/26/students-stand-with-palestine-palestine-stands-with-students/",
+                    "19 hours ago"
+                ],
+                [
+                    "Newsweek",
+                    "https://www.newsweek.com/pro-palestinian-protest-princeton-hezbollah-1894654",
+                    "22 hours ago"
+                ],
+                [
+                    "Yahoo News New Zealand",
+                    "https://nz.news.yahoo.com/gaza-protests-police-raid-columbia-080450985.html",
+                    "13 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media.zenfs.com/en/thedailybeast.com/e259fbcb397a9aace0e8358d55eacb25"
+        },
+        {
+            "Title": "Suspect Arrested After Shooting Injures 5 in Washington, D.C.",
+            "Summary": "Five individuals sustained injuries following a shooting incident outside a nightclub in Washington, D.C.'s Dupont Circle area, leading to the arrest of a suspect by the police (WPXI).",
+            "sources": [
+                [
+                    "WPXI",
+                    "https://www.wpxi.com/news/trending/least-5-injured-shooting-outside-night-club-washington-dc/B44PUPCEUVC4RMRVR2KWWPO64U/",
+                    "1 hour ago"
+                ]
+            ],
+            "Image Filepath": "https://cmg-cmg-tv-10080-prod.cdn.arcpublishing.com/resizer/6R2iSK7BOvOsMyZmD_LG2lYEwws=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/MYS4GARBAVB7VCNKTTEKR5XK7I.jpeg"
+        }
+    ],
+    "Custom Headlines": {
+        "Technology": [
+            {
+                "Title": "Advancing Space Exploration with Novel 3D Mapping Technology",
+                "Summary": "NASA's Astrobee robots are set to test a novel 3D mapping technology, the Mapping and Reality System (MRS), aboard the International Space Station, specifically within the Kibo module, potentially revolutionizing space exploration and applications on Earth (Tech Explorist). This initiative, highlighted by advancements in autonomous navigation and mapping by space robots, underscores efforts to utilize the ISS National Laboratory for public and commercial gains, aiming to enhance quality of life, promote space business models, foster science education, and cultivate a sustainable market in low Earth orbit (PR Newswire).",
+                "sources": [
+                    [
+                        "Tech Explorist",
+                        "https://www.techexplorist.com/novel-3d-mapping-technology-transform-space-exploration/83355/",
+                        "4 hours ago"
+                    ],
+                    [
+                        "PR Newswire",
+                        "https://www.prnewswire.com/news-releases/testing-novel-3d-mapping-technology-to-transform-space-exploration-and-benefit-industries-on-earth-302128830.html",
+                        "23 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.techexplorist.com/wp-content/uploads/2024/04/astrobee-robot.jpg"
+            },
+            {
+                "Title": "Exploring Industry Opportunities and Digital Presence in Pharmacy",
+                "Summary": "In the evolving landscape of the pharmacy industry, technological advancements offer significant opportunities for innovation and improvement, highlighting an optimistic future despite potential challenges (Drug Topics). Additionally, the importance of digital presence is emphasized for those seeking pharmacy jobs, with platforms like Soneverse and MarkMeets showcasing the value of online visibility in today's job market (Vents Magazine).",
+                "sources": [
+                    [
+                        "Drug Topics",
+                        "https://www.drugtopics.com/view/navigating-the-evolving-landscape-what-it-means-for-you",
+                        "22 hours ago"
+                    ],
+                    [
+                        "Vents Magazine",
+                        "https://ventsmagazine.com/2024/04/27/how-to-apply-for-pharmacy-jobs-in-missouri/",
+                        "7 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://cdn.sanity.io/images/0vv8moc6/drugtopics/00ef87dfa2d53794bfca73a27ba5d3f1c110de6b-2880x1622.png?fit=crop&auto=format"
+            }
+        ],
+        "Politics": [
+            {
+                "Title": "Slovenia Marks WWII Resistance",
+                "Summary": "Slovenia commemorates the Day of Uprising Against Occupation, paying tribute to the resistance against Nazi and Fascist control during World War II (ANSA).",
+                "sources": [
+                    [
+                        "ANSA",
+                        "https://www.ansa.it/nuova_europa/en/news/sections/news/2024/04/27/slovenia-celebrates-wwii-resistance-movement_6da18a8d-1939-4461-b70d-3db782893577.html",
+                        "14 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.ansa.it/webimages/img_700/2023/5/6/630e47c88c7ede53e4f3daf696cdf733.jpg"
+            },
+            {
+                "Title": "Global Responses and Protests Related to Israel-Gaza Conflict",
+                "Summary": "Israeli military actions in Gaza resulted in 32 deaths in a single day, marking a significant escalation in the conflict (Al Jazeera). Concurrently, protests at universities against administrations are intensifying, particularly at Columbia University, where a resolution criticized the administration for jeopardizing academic freedom in its handling of demonstrations advocating for Palestine (CNN). These protests are part of a broader movement urging institutions to divest from Israel in response to its treatment of Gaza, aligning with the Boycott, Divest, Sanction (BDS) movement principles active since 2005 (Yahoo News Canada).",
+                "sources": [
+                    [
+                        "Al Jazeera",
+                        "https://www.aljazeera.com/news/liveblog/2024/4/27/israels-war-on-gaza-live-israel-bombards-gaza-as-student-protests-spread",
+                        "3 hours ago"
+                    ],
+                    [
+                        "CNN",
+                        "https://www.cnn.com/business/live-news/columbia-university-palestine-protests-04-26-24/index.html",
+                        "11 hours ago"
+                    ],
+                    [
+                        "Yahoo News Canada",
+                        "https://ca.news.yahoo.com/pro-palestinian-protesters-urge-universities-175856490.html",
+                        "9 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.aljazeera.com/images/logo_aje_social.png"
+            }
+        ],
+        "New York Restaurants": [
+            {
+                "Title": "Mother's Day 2024 Celebrations and Gifts",
+                "Summary": "Mother's Day 2024 offers unique celebration options and gifts, including an exclusive package at The Ritz-Carlton New York Central Park featuring afternoon tea and a flower-arranging class, and the 8th annual Fish to Fork weekend at Omni Amelia Island Resort, suitable for moms who enjoy the outdoors or seafood (Forbes). In NYC, culinary delights for Mother's Day range from exotic dishes at diverse dining destinations to a new award-winning burger at The Happiest Hour, catering to all tastebuds (BroadwayWorld). Lastly, New York Magazine presents versatile gift ideas for every mom, from ultrasonic jewelry cleaners and travel essentials to stylish Teva sandals and high-end culinary gadgets.",
+                "sources": [
+                    [
+                        "Forbes",
+                        "https://www.forbes.com/sites/ramseyqubein/2024/04/27/mothers-day-gift-guide-2024-the-most-engaging-weekend-getaways-for-moms/",
+                        "56 minutes ago"
+                    ],
+                    [
+                        "BroadwayWorld",
+                        "https://www.broadwayworld.com/bwwfood-wine/article/MOTHERS-DAY-Dining-Destinations-in-NYC-for-Your-Loved-Ones-20240426",
+                        "24 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://imageio.forbes.com/specials-images/imageserve/662a61b238811f7aa6b5ff4c/0x0.jpg?format=jpg&crop=1691,952,x0,y82,safe&height=900&width=1600&fit=bounds"
+            },
+            {
+                "Title": "Upcoming Local Events and Seasonal Openings",
+                "Summary": "In East End, families can look forward to engaging activities with kids from April 26-30, 2024 (Dan\u2019s Papers). Meanwhile, Share the Harvest Farm will be hosting an indoor Spring Market Pop Up, offering a unique local shopping experience (Patch). Montauk's beloved Navy Beach reopens for the 2024 season, introducing health-conscious and vegetarian options including a Chopped Asian Chicken Salad, Ratatouille Pasta, and the popular Buddha Bowl among other dishes (James Lane Post).",
+                "sources": [
+                    [
+                        "Dan\u2019s Papers",
+                        "https://www.danspapers.com/2024/04/things-to-do-this-weekend-east-end-kids/",
+                        "15 hours ago"
+                    ],
+                    [
+                        "Patch",
+                        "https://patch.com/new-york/easthampton/calendar/event/20240427/c67093be-5af9-4bcc-8703-c30f8940fc87/share-the-harvest-farms-indoor-spring-market-pop-up",
+                        "4 hours ago"
+                    ],
+                    [
+                        "James Lane Post",
+                        "https://jameslanepost.com/hamptons-event-calendar/montauks-favorite-beachfront-restaurant-navy-beach-reopens-for-the-2024-season",
+                        "16 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://patch.com/img/cdn20/users/26244885/20240327/025048/427-indoor-farmers-market-800x600-427___27145045968.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Pacers Secure Narrow Victory Over Bucks in NBA Playoffs Game 3",
+            "Summary": "In a closely contested NBA playoffs Game 3, the Indiana Pacers narrowly defeated the Milwaukee Bucks with a score of 121-118, despite the absence of Giannis Antetokounmpo and the uncertainty surrounding Khris Middleton's play due to injuries. The Pacers\u2019 lineup, led by Tyrese Haliburton, and the Bucks, featuring Damian Lillard, highlighted a high-stakes game that saw the Pacers taking a 2-1 series lead, setting an intense tone for the upcoming games in Indiana (IndyStar).",
+            "sources": [
+                [
+                    "IndyStar",
+                    "https://www.indystar.com/story/sports/nba/pacers/2024/04/26/pacers-bucks-live-updates-nba-playoffs-game-3-score-highlights-tyrese-haliburton/73459359007/",
+                    "14 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.indystar.com/gcdn/authoring/authoring-images/2024/04/26/PIND/73474950007-pacers-vs-bucks-playoffs-04262024-gh-012.jpg?crop=4883,2747,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        }
+    ]
+}

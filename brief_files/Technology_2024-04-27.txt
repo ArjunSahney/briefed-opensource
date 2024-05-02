@@ -1,0 +1,65 @@
+[
+    {
+        "Title": "Advancing Space Exploration with Novel 3D Mapping Technology",
+        "Summary": "NASA's Astrobee robots are set to test a novel 3D mapping technology, the Mapping and Reality System (MRS), aboard the International Space Station, specifically within the Kibo module, potentially revolutionizing space exploration and applications on Earth (Tech Explorist). This initiative, highlighted by advancements in autonomous navigation and mapping by space robots, underscores efforts to utilize the ISS National Laboratory for public and commercial gains, aiming to enhance quality of life, promote space business models, foster science education, and cultivate a sustainable market in low Earth orbit (PR Newswire).",
+        "sources": [
+            [
+                "Tech Explorist",
+                "https://www.techexplorist.com/novel-3d-mapping-technology-transform-space-exploration/83355/",
+                "4 hours ago"
+            ],
+            [
+                "PR Newswire",
+                "https://www.prnewswire.com/news-releases/testing-novel-3d-mapping-technology-to-transform-space-exploration-and-benefit-industries-on-earth-302128830.html",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.techexplorist.com/wp-content/uploads/2024/04/astrobee-robot.jpg"
+    },
+    {
+        "Title": "Exploring Industry Opportunities and Digital Presence in Pharmacy",
+        "Summary": "In the evolving landscape of the pharmacy industry, technological advancements offer significant opportunities for innovation and improvement, highlighting an optimistic future despite potential challenges (Drug Topics). Additionally, the importance of digital presence is emphasized for those seeking pharmacy jobs, with platforms like Soneverse and MarkMeets showcasing the value of online visibility in today's job market (Vents Magazine).",
+        "sources": [
+            [
+                "Drug Topics",
+                "https://www.drugtopics.com/view/navigating-the-evolving-landscape-what-it-means-for-you",
+                "22 hours ago"
+            ],
+            [
+                "Vents Magazine",
+                "https://ventsmagazine.com/2024/04/27/how-to-apply-for-pharmacy-jobs-in-missouri/",
+                "7 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.sanity.io/images/0vv8moc6/drugtopics/00ef87dfa2d53794bfca73a27ba5d3f1c110de6b-2880x1622.png?fit=crop&auto=format"
+    },
+    {
+        "Title": "Recent Developments in Energy Projects and Generator Performance",
+        "Summary": "The Tangguh Expansion Project in Papua Barat, Indonesia, is an $8 billion offshore gas production facility expansion managed by bp Berau and other partners, enhancing global energy production (Offshore Technology). Meanwhile, generator performance has seen significant improvements during recent winter storms, indicating advancements in energy resilience against harsh weather conditions, although the specific details were not mentioned (Power Engineering).",
+        "sources": [
+            [
+                "Offshore Technology",
+                "https://www.offshore-technology.com/projects/tangguh-expansion-project-papua-barat/",
+                "11 hours ago"
+            ],
+            [
+                "Power Engineering",
+                "https://www.power-eng.com/news/generator-performance-improved-during-recent-winter-storms-according-to-preliminary-review/",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.offshore-technology.com/wp-content/uploads/sites/20/2024/04/Featured-Image-Tangguh-Expansion-Project-Papua-Barat-Indonesia.jpg"
+    },
+    {
+        "Title": "Next Greenhouse Technology of the Year Search",
+        "Summary": "Greenhouse Grower is actively seeking nominations for the upcoming Greenhouse Technology of the Year award, aiming to identify groundbreaking innovations that significantly improve greenhouse operations (Greenhouse Grower).",
+        "sources": [
+            [
+                "Greenhouse Grower",
+                "https://www.greenhousegrower.com/technology/help-us-find-the-next-greenhouse-technology-of-the-year/",
+                "58 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://www.greenhousegrower.com/wp-content/uploads/2023/07/LUNA-AI-From-IUNU.jpg"
+    }
+]

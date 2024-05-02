@@ -1,0 +1,59 @@
+[
+    {
+        "Title": "Lazard, Inc. Announces Quarterly Dividend",
+        "Summary": "Lazard, Inc. (NYSE:LAZ) has declared a $0.50 quarterly dividend, highlighting its financial advisory services including mergers, acquisitions, and capital raising. The company's diverse advisories cover strategic, sovereign, and shareholder engagements alongside restructuring and liability management (MarketBeat).",
+        "sources": [
+            [
+                "MarketBeat",
+                "https://www.marketbeat.com/instant-alerts/nyse-laz-dividend-announcement-2024-04-26/",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.marketbeat.com/logos/lazard-ltd-logo-1200x675.jpg"
+    },
+    {
+        "Title": "Financial Market Updates",
+        "Summary": "Lazard's stock (LAZ) experienced a 1% decline despite exceeding first-quarter earnings expectations (Zacks Investment Research). Meanwhile, Alight (ALIT) shows promise of surpassing earnings estimates once again, according to recent projections (Yahoo Finance).",
+        "sources": [
+            [
+                "Zacks Investment Research",
+                "https://www.zacks.com/stock/news/2263593/lazard-laz-dips-1-despite-surpassing-q1-earnings-estimates",
+                "22 hours ago"
+            ],
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/news/why-alight-alit-could-beat-161008388.html",
+                "23 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Lazard's Earnings Overview",
+        "Summary": "Lazard Ltd. reported quarterly earnings that exceeded expectations by $0.08 EPS, attributing to its Financial Advisory segment which provides comprehensive advisory services including mergers, acquisitions, and more, alongside capital raising and placement services (MarketBeat).",
+        "sources": [
+            [
+                "MarketBeat",
+                "https://www.marketbeat.com/instant-alerts/nyse-laz-earnings-announcement-2024-04-26/",
+                "21 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.marketbeat.com/logos/lazard-ltd-logo-1200x675.jpg"
+    },
+    {
+        "Title": "Lazard's Financial Performance and Earnings Beat",
+        "Summary": "Lazard (NYSE:LAZ) reported quarterly earnings that exceeded estimates by $0.08 per share, offering a range of financial advisory services including mergers, acquisitions, and capital raising (MarketBeat). Despite surpassing Q1 earnings expectations, Lazard's stock dipped by 1% (Zacks Investment Research).",
+        "sources": [
+            [
+                "MarketBeat",
+                "https://www.marketbeat.com/instant-alerts/nyse-laz-earnings-announcement-2024-04-26/",
+                "21 hours ago"
+            ],
+            [
+                "Zacks Investment Research",
+                "https://www.zacks.com/stock/news/2263593/lazard-laz-dips-1-despite-surpassing-q1-earnings-estimates",
+                "22 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.marketbeat.com/logos/lazard-ltd-logo-1200x675.jpg"
+    }
+]

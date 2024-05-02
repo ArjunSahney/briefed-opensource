@@ -20,6 +20,7 @@ from spaCy_summarizer import *
 import time # debugging latency
 from datetime import datetime
 from image_scraper import download_main_image
+from topic_tokens import *
 
 # How many articles summarized per brief
 ARTICLES_PER_BRIEF = 5
@@ -364,13 +365,15 @@ def in_brief(keyword, num_briefs):
     if __debug__:
       print("searching top headlines")
     news_results = get_google_results("", num_briefs)
+
+  elif (topics[keyword]!=None) :
+    get_google_results("query", num_briefs, engine="google_news", topic_token=topics[keyword])
   else:
     news_results = get_google_results_valueserp(keyword, num_briefs)  
   if __debug__:
     end_time = time.time()
     duration = end_time - start_time
     print(f"Google News retrieval execution time: {duration} seconds")
-
   if news_results is None:
     print(f"No news on {keyword}")
     return

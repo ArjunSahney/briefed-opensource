@@ -1,0 +1,167 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Tornado Aftermath in Nebraska and Iowa",
+            "Summary": "A series of destructive tornadoes have recently impacted the US Midwest, particularly affecting Nebraska and Iowa, leading to flash flood warnings, power outages, and widespread damage, particularly in Omaha (Times Now). The Guardian further emphasizes the ongoing storm threat in the region. According to Metro.co.uk, these tornadoes have not only destroyed homes in Nebraska but have also progressed to Iowa. The Times of India highlights that the tornadoes resulted in collapsed buildings and leveled homes, showcasing the severe impact on these states.",
+            "sources": [
+                [
+                    "Times Now",
+                    "https://www.timesnownews.com/world/us/us-news/nebraska-iowa-tornado-aftermath-flash-flood-warning-power-cuts-damage-in-omaha-article-109637569",
+                    "14 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://static.tnn.in/thumb/msid-109637599,thumbsize-817489,width-1280,height-720,resizemode-75/109637599.jpg"
+        },
+        {
+            "Title": "South Africa's 30th Freedom Day Commemoration",
+            "Summary": "South Africa celebrated Freedom Day, marking 30 years since their historic first inclusive election which resulted in Nelson Mandela becoming the country's first Black president and highlighted the African National Congress (ANC)'s significant victory (Al Jazeera). The day is remembered every April 27, underscoring the nation's journey since the end of apartheid and its transition towards democracy (RFI, France 24).",
+            "sources": [
+                [
+                    "Al Jazeera",
+                    "https://www.aljazeera.com/news/2024/4/27/ramaphosa-hails-anc-record-as-south-africa-marks-30-years-of-democracy",
+                    "54 minutes ago"
+                ],
+                [
+                    "RFI",
+                    "https://www.rfi.fr/en/africa/20240427-south-africa-celebrates-freedom-day-30-years-after-the-end-of-apartheid",
+                    "1 hour ago"
+                ],
+                [
+                    "France 24",
+                    "https://www.france24.com/en/video/20240427-south-africa-celebrates-freedom-day-country-remembers-an-historic-election-every-april-27",
+                    "42 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24118358268229-1714219047.jpg?resize=1920%2C1440"
+        },
+        {
+            "Title": "U.S. Spy Agencies' Findings on Putin and Navalny's Death",
+            "Summary": "U.S. intelligence agencies concluded that Russian President Vladimir Putin did not directly order the death of opposition leader Alexei Navalny, with reports suggesting the involvement might have been unintentional (WSJ). Multiple sources including \"\\",
+            "\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430 \\u043f\\u0440\\u0430\\u0432\\u0434\\u0430\\\", Firstpost, The Hindu, and Times of India echoed these findings, signaling a significant development in the investigation of Navalny's death.": "U.S. intelligence agencies concluded that Russian President Vladimir Putin did not directly order the death of opposition leader Alexei Navalny, with reports suggesting the involvement might have been unintentional (WSJ). Multiple sources including \"\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430\", Firstpost, The Hindu, and Times of India echoed these findings, signaling a significant development in the investigation of Navalny's death.",
+            "sources": [
+                [
+                    "WSJ",
+                    "https://www.wsj.com/world/russia/alexei-navalny-death-us-intelligence-71bc95b0",
+                    "10 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://s.wsj.net/img/meta/wsj-social-share.png"
+        }
+    ],
+    "Custom Headlines": {
+        "Real-Estate": [
+            {
+                "Title": "Common Occupant Mistakes in Real Estate",
+                "Summary": "Real estate occupants often overlook extension rights, which include lease renewal, building purchase options, lease termination, additional space acquisition, and first refusal or offer rights for buying or leasing property (Orange County Register).",
+                "sources": [
+                    [
+                        "Orange County Register",
+                        "https://www.ocregister.com/2024/04/27/here-are-the-common-occupant-mistakes-made-in-real-estate/",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.ocregister.com/wp-content/uploads/2024/04/OCR-L-BUCHANAN-0428.jpg?w=1024&h=645"
+            },
+            {
+                "Title": "Unlock Your EU Residency: Invest in Latvian Real Estate",
+                "Summary": "Investing in Latvian real estate grants individuals the opportunity to obtain EU residency, expanding their living and working rights across European Union countries (Space Coast Daily).",
+                "sources": [
+                    [
+                        "Space Coast Daily",
+                        "https://spacecoastdaily.com/2024/04/unlock-your-eu-residency-invest-in-latvian-real-estate/",
+                        "5 hours ago"
+                    ]
+                ]
+            }
+        ],
+        "Fintech": [
+            {
+                "Title": "Emerging Fintech Trends and Events Shaping the Future",
+                "Summary": "The financial industry anticipates significant changes with the integration of AI, offering massive implications for fintech platforms through improved BNPL systems and SaaS advantages, including enhanced security and user experience (VOI.ID). Black Banx's embrace of cryptocurrency trading and digital banking transformation underscores fintech's growing market impact, demonstrated by a substantial revenue increase and customer base expansion (EasternEye). The upcoming Fin+AI 2024 Conference underscores the industry's forward momentum, gathering key figures to redefine financial intelligence and explore future technological integrations within the sector (EIN News).",
+                "sources": [
+                    [
+                        "VOI.ID",
+                        "https://voi.id/kr/economy/342389",
+                        "19 hours ago"
+                    ],
+                    [
+                        "EasternEye",
+                        "https://www.easterneye.biz/black-banx-and-your-financial-future/",
+                        "23 hours ago"
+                    ],
+                    [
+                        "EIN News",
+                        "https://www.einnews.com/pr_news/706757869/fin-ai-2024-redefines-financial-intelligence-with-first-wave-of-visionary-speakers",
+                        "21 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://imgsrv2.voi.id/cySaCjQ6JhRYNoF6caH-HJAd42PffRR0pqhK4hSQK80/rs:fill/w:800/h:450/g:sm/wm:1:nowe:0:0:1/bG9jYWw6Ly8vcHVibGlzaGVycy8zNDIzODkvMjAyMzEyMjcxMTUxLW1vYmlsZS5qcGc.jpg"
+            },
+            {
+                "Title": "Overview of Meal Planning Software Market (2024)",
+                "Summary": "An extensive examination of the Meal Planning Software market identifies significant players like PlateJoy, eMeals, and Eat This Much, offering a comprehensive view of market dynamics and future prospects (Motions Online).",
+                "sources": [
+                    [
+                        "Motions Online",
+                        "https://www.motionsonline.org/news/meal-planning-software-market-2024-revenue-and-share-analysis-platejoy-emeals-eat-this-much/20752/",
+                        "16 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "Enhancing Pricing Processes with hx Renew's API",
+                "Summary": "Hyperexponential experts Josh Boddy and Nancy Simpson highlighted how hx Renew's APIs can significantly improve pricing decision intelligence by providing specialized solutions (FinTech Global).",
+                "sources": [
+                    [
+                        "FinTech Global",
+                        "https://fintech.global/2024/04/26/gain-an-edge-in-pricing-decision-intelligence-with-hx-renews-specialist-api-exam/",
+                        "24 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://fintech.global/wp-content/uploads/2024/04/james-harrison-vpOeXr5wmR4-unsplash-5-scaled.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Overview of Suns vs. Timberwolves Game 3 NBA Playoff Predictions",
+            "Summary": "The Phoenix Suns are favored by 5.5 points over the Minnesota Timberwolves for Game 3 of the 2024 NBA playoffs, with a total points over/under set at 208 (CBS Sports). Kevin Durant, Devin Booker, and Bradley Beal face defensive pressure from Timberwolves players like Jaden McDaniels and Anthony Edwards (New York Post). The Timberwolves have a chance to lead the series 3-0, making adjustments to counter Edwards\u2019 offensive prowess vital for the Suns (Covers.com). Betting information and contacts for gambling assistance are provided by DraftKings Network.",
+            "sources": [
+                [
+                    "CBS Sports",
+                    "https://www.cbssports.com/nba/news/suns-vs-timberwolves-odds-score-prediction-time-2024-nba-playoff-picks-game-3-bets-from-proven-model/",
+                    "14 hours ago"
+                ],
+                [
+                    "New York Post",
+                    "https://nypost.com/2024/04/26/sports/timberwolves-vs-suns-game-3-prediction-nba-playoffs-odds-picks/",
+                    "16 hours ago"
+                ],
+                [
+                    "Covers.com",
+                    "https://www.covers.com/nba/timberwolves-vs-suns-predictions-picks-game-3-tonight-friday-4-26-2024",
+                    "15 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://sportshub.cbsistatic.com/i/r/2024/04/20/6333b3be-cd81-4fd5-a543-b14b6b5b1c5e/thumbnail/1200x675/5d67ef015c02bfa2c103d51ef36b3d1c/usatsi-23073352-towns-durant-2024-wcq-g1-1q-1400.jpg"
+        },
+        {
+            "Title": "Clippers-Mavericks Game 3 Highlights and Insights",
+            "Summary": "Despite lower back soreness, Gafford's crucial block on Paul George was a highlight in the Mavericks' 101-90 Game 3 win over the Clippers, with gameplay showing a defensive battle. Irving, despite a slow start, has been dominant in second halves through the series, contrasting with Doncic's consistent performance. James Harden's silence post-game hides a milestone, surpassing Magic Johnson in career playoff points (NBA.com). A pivotal Game 3 analyzed by SportsLine's Projection Model suggests significant betting insights, emphasizing the close competition between the No. 4 seed Clippers and No. 5 seed Mavericks in the 2024 NBA playoffs (CBS Sports).",
+            "sources": [
+                [
+                    "NBA.com",
+                    "https://www.nba.com/news/clippers-mavericks-5-takeaways-from-dallas-defensive-minded-game-3-victory",
+                    "9 hours ago"
+                ],
+                [
+                    "CBS Sports",
+                    "https://www.cbssports.com/nba/news/mavericks-vs-clippers-odds-score-prediction-time-2024-nba-playoff-picks-game-3-best-bets-by-proven-model/",
+                    "17 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://sportshub.cbsistatic.com/i/r/2024/04/26/faccd487-590d-49af-9a4c-7c4fd261a74d/thumbnail/1200x675/52700cb728b887dd6dc6a8bcf2fc87ab/luka-doncic-dallas-mavericks-usatsi.jpg"
+        }
+    ],
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/Karan.mp3"
+}

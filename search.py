@@ -104,11 +104,31 @@ def generalize_topic(topic):
     
     """
     
+<<<<<<< HEAD
     generalize_prompt = f"""Given the following topic, broaden the topic by simplifying.
     Examples:
     2024 US Presidential Election -> US Election
     Bitcoin Pricing -> Cryptocurrency
     Enterprise AI Launches -> AI
+=======
+  for article_object in news_results:
+    if article_object["title"] in relevant_news_results:
+      # Don't need to catch a ValueError here because we know the title is in the list
+      index = relevant_news_results.index(article_object["title"])
+      # Replace the title in the list with the article object
+      relevant_news_results[index] = article_object
+  
+  if __debug__:
+    print("Most relevant news results: ")
+    print(json.dumps(relevant_news_results, indent=4))
+  
+  if __debug__:
+    end_time = time.time()
+    duration = end_time - start_time
+    print(f"Relevancy determination: {duration} seconds")
+    
+  return relevant_news_results
+>>>>>>> 3b193d2f6 (Topic token)
 
     Now simplify the following topic: {topic}
     """
@@ -251,6 +271,7 @@ def scrape_news(keyword, num_results):
         return news_results
 
 
+<<<<<<< HEAD
 def relevancy_search(keyword, num_titles=DEFAULT_NUM_TITLES):
     """Retrieve a JSON of news articles in order of relevancy to a given keyword"""
     
@@ -274,6 +295,28 @@ def relevancy_search(keyword, num_titles=DEFAULT_NUM_TITLES):
     
     # Now that we have the relevant news results, we can start the secondary search
     return relevant_news_results
+=======
+def primary_search(keyword, num_titles=DEFAULT_NUM_TITLES):
+  """Retrieve most relevant titles to the keyword"""
+  
+  # First, scrape news on keyword and store in news_results
+  # The user wants the top num_titles results, so grab the top num_titles*5
+  # The relevancy determination will find the top num_titles
+  scope = 5
+  # Original search V1
+  news_results = scrape_news(keyword, num_titles*scope)
+  
+  # Next, scrape news on generalized keyword and add to dictionary
+  general_keyword = generalize_topic(keyword)
+  generalization_factor = 10
+  # Add the generalized results to news results
+  news_results.extend(scrape_news(general_keyword, num_titles*scope*generalization_factor))
+  
+  # Get the most relevant num_titles from the list
+  # For now, we will keep all the news results because in secondary search, we may find some articles unparseable
+  relevant_news_results = get_most_relevant_titles(news_results, keyword, num_titles)
+  print(json.dumps(relevant_news_results, indent=4))
+>>>>>>> 3b193d2f6 (Topic token)
   
 # -------------------------------------------------------------------------------- #
 

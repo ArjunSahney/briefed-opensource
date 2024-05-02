@@ -1,0 +1,58 @@
+[
+    {
+        "Title": "Debate Over Funding for KiwiSaaS Group",
+        "Summary": "The Taxpayers\u2019 Union criticized the funding of KiwiSaaS, a group consisting of New Zealand's major tech firms like Xero and Datacom, questioning why these financially robust members can't self-fund. Despite the criticism, KiwiSaaS, backed by companies with substantial revenues, highlights the sector's rapid growth, expecting to quadruple by 2032, generating $12 billion in revenue and 50,000 jobs (NZ Herald).",
+        "sources": [
+            [
+                "NZ Herald",
+                "https://www.nzherald.co.nz/business/corporate-welfare-taxpayers-union-attacks-kiwisaas-group-that-includes-big-tech-names-they-stand-their-ground/65NUPL5AFNDIFBSC6YGQOT46EA/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.nzherald.co.nz/resizer/v2/OSZ7PVT63FD6VBXOPSFAZYB6SM.jpg?auth=fe42eec4e6d6877c7cf8d50ca851cba6a7965863e2614b24ab1427c2e4183c78&width=1200&height=675&quality=70&smart=true"
+    },
+    {
+        "Title": "Summary of Indian Startup Funding This Week",
+        "Summary": "Indian startups have successfully raised a total of $172 million in funding over the past week, showcasing the robust investment activity within the country's startup ecosystem (Inc42).",
+        "sources": [
+            [
+                "Inc42",
+                "https://inc42.com/buzz/from-northern-arc-to-dhruva-aerospace-indian-startups-raised-172-mn-this-week/",
+                "8 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Barcelona's Investment in Science Innovation",
+        "Summary": "Barcelona's Science Innovation District has secured a green loan from Caixabank for the development of new laboratories and facilities, signifying a significant boost in scientific research infrastructure and sustainability efforts in the city (Novobrief).",
+        "sources": [
+            [
+                "Novobrief",
+                "https://novobrief.com/basid-obtains-a-green-loan-from-caixabank-to-create-new-labs-and-facilities/11065/",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://novobrief.com/wp-content/uploads/2024/04/Illumina_exterior1-scaled.jpg"
+    },
+    {
+        "Title": "Navigating Financial Strategies for Indian Startups and Investment Insights",
+        "Summary": "Indian startups are increasingly exploring venture debt as a strategic financing option to support their growth without diluting equity, highlighting its importance in the current economic landscape (Inc42). Amid a dip in venture capital investments, startups are turning towards debt capital to bridge funding gaps, indicating a shift in funding trends and strategies for growth and sustainability (YourStory.com). Meanwhile, strategies for generating significant dividend income in 2024 suggest a growing interest in income-generating investments among individuals, showcasing a diverse range of financial planning methodologies (24/7 Wall St.).",
+        "sources": [
+            [
+                "Inc42",
+                "https://inc42.com/resources/understanding-venture-debt-a-strategic-financing-option-for-indian-startups/",
+                "12 hours ago"
+            ],
+            [
+                "YourStory.com",
+                "https://yourstory.com/2024/04/weekly-funding-roundup-april-20-26-vc-investment-startups-capital",
+                "24 hours ago"
+            ],
+            [
+                "24/7 Wall St.",
+                "https://247wallst.com/investing/2024/04/27/how-to-generate-15000-in-dividend-income-in-2024/",
+                "1 hour ago"
+            ]
+        ]
+    }
+]

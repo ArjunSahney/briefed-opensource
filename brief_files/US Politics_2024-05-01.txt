@@ -1,0 +1,56 @@
+[
+    {
+        "Title": "Speculation Swirls Around Trump's VP Selection Amid Controversy",
+        "Summary": "Speculation on Donald Trump's vice-presidential pick intensifies, with names like Senators Marco Rubio, Tim Scott, and Governor Doug Burgum emerging as top contenders (CBS News). Governor Kristi Noem's VP prospects plummet following backlash over her admission of killing her family's dog and a goat, detailed in her new book, marking a significant dent in her political aspirations (Forbes, The Guardian). Trump advisors confirm the search for a VP candidate is underway, highlighting Trump's methodical approach to choosing a running mate who aligns with his vision for America's future (USA Today, BBC).",
+        "sources": [
+            [
+                "CBS News",
+                "https://www.cbsnews.com/news/trumps-potential-vp-picks/",
+                "22 hours ago"
+            ],
+            [
+                "Forbes",
+                "https://www.forbes.com/sites/saradorn/2024/04/30/heres-whos-on-and-off-trumps-most-likely-vp-shortlist/",
+                "18 hours ago"
+            ],
+            [
+                "The Guardian",
+                "https://www.theguardian.com/us-news/2024/apr/30/kristi-noem-puppy-trump-vp-candidate",
+                "13 hours ago"
+            ],
+            [
+                "USA Today",
+                "https://www.usatoday.com/story/news/politics/elections/2024/04/29/trumps-next-vp-candidate-what-to-know/73501065007/",
+                "1 hour ago"
+            ],
+            [
+                "BBC",
+                "https://www.bbc.com/news/world-us-canada-68064809",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/10C0/production/_132988240_marco.jpg"
+    },
+    {
+        "Title": "US Campus Protests: A Diverse Reaction",
+        "Summary": "US campuses are experiencing diverse protests, with some facing crackdowns such as over 100 arrests at New York's Columbia University amid pro-Palestinian demonstrations (Greater Kashmir). Meanwhile, China's state media, through voices like Hu Xijin, praise the US campus protests as indicative of weakened Jewish political and business control over American public opinion, despite suppressing similar dissent at home (Voice of America). The BBC provides an overarching narrative of the protests comparing different approaches, but without specific details (BBC).",
+        "sources": [
+            [
+                "Greater Kashmir",
+                "https://www.greaterkashmir.com/latest-news/over-100-arrested-in-new-yorks-columbia-university-crackdown-as-pro-palestinian-protests-grip-us-university-campuses/",
+                "9 hours ago"
+            ],
+            [
+                "Voice of America",
+                "https://www.voanews.com/a/china-s-state-media-support-protests-on-us-campuses-but-not-at-home/7592968.html",
+                "13 hours ago"
+            ],
+            [
+                "BBC",
+                "https://www.bbc.co.uk/news/world-us-canada-68909953",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://ichef.bbci.co.uk/news/1024/branded_news/16FC1/production/_133254149_gettyimages-2149876172.jpg"
+    }
+]

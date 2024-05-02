@@ -1,0 +1,90 @@
+[
+    {
+        "Title": "Overview of UFC Fight Night: Nicolau vs Perez",
+        "Summary": "Matheus Nicolau is set to face Alex Perez at UFC Fight Night, an event marking a significant flyweight showdown. The fight headlines the UFC on ESPN 55 full card, indicating a high-stakes matchup for both fighters. Both fighters successfully made weight in Las Vegas, adding excitement to the anticipation of their bout. This event has been widely covered across sports news platforms, highlighting its significance in the flyweight division (UFC.com, DailySports, Sherdog, FightBook MMA, Yahoo Sports).",
+        "sources": [
+            [
+                "UFC.com",
+                "https://www.ufc.com/event/ufc-fight-night-april-27-2024?language_content_entity=en",
+                "39 minutes ago"
+            ],
+            [
+                "DailySports",
+                "https://dailysports.net/news/matheus-nicolau-vs-alex-perez-ufc-on-espn-55-full-card/",
+                "2 hours ago"
+            ],
+            [
+                "Sherdog",
+                "https://www.sherdog.com/events/UFC-on-ESPN-55-Nicolau-vs-Perez-101241",
+                "3 hours ago"
+            ],
+            [
+                "FightBook MMA",
+                "https://www.fightbookmma.com/ufc-on-espn-55-results-flyweight-showdown-nicolau-vs-perez/",
+                "29 minutes ago"
+            ],
+            [
+                "Yahoo Sports",
+                "https://sports.yahoo.com/ufc-espn-55-video-matheus-171050590.html",
+                "21 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://i0.wp.com/www.fightbookmma.com/wp-content/uploads/2024/04/1000029654.jpg?fit=612%2C408&ssl=1"
+    },
+    {
+        "Title": "Overview of UFC Fight Night: Nicolau vs Perez",
+        "Summary": "Matheus Nicolau, after a six-fight winning streak ended with a KO by Brandon Royval, faces Alex Perez, who comes off a loss to Muhammad Mokaev following defeats by Alexandre Pantoja and Deiveson Figueiredo. The flyweight bout between Nicolau and Perez is set for UFC Vegas 91 at the UFC Apex in Las Vegas, Nevada, featuring live coverage starting with prelims (CBS Sports, MMAmania.com).",
+        "sources": [
+            [
+                "CBS Sports",
+                "https://www.cbssports.com/mma/news/ufc-fight-night-prediction-matheus-nicolau-vs-alex-perez-fight-card-odds-start-time-live-stream/",
+                "18 hours ago"
+            ],
+            [
+                "MMAmania.com",
+                "https://www.mmamania.com/2024/4/27/24140832/matheus-nicolau-vs-alex-perez-odds-full-fight-preview-and-prediction-ufc-vegas-91",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://images.daznservices.com/di/library/DAZN_News/97/c8/mma-cage_6xjoldf8c3691w0yjicjrilni.jpg?t=345873618"
+    },
+    {
+        "Title": "Overview of UFC Vegas 91",
+        "Summary": "UFC Vegas 91 features top flyweights with Matheus Nicolau vs. Alex Perez headlining; intriguing fights include Ryan Spann in the co-main event. Prelims start at 4 p.m. ET with the main card at 7 p.m. ET (MMA Fighting). Nicolau vs. Perez is highlighted as a key flyweight match, promising intense competition this weekend (MMAmania.com). FantasyLabs suggests Nicolau vs. Perez as a must-stack in DFS for their solid activity rates in this five-round contest, also noting Spann as a strong GPP option against Bogdan Guskov. The Hudson Reporter underscores the significance of the Nicolau vs. Perez fight in the flyweight division rankings.",
+        "sources": [
+            [
+                "MMA Fighting",
+                "https://www.mmafighting.com/2024/4/27/24140265/ufc-vegas-91-predictions",
+                "2 hours ago"
+            ],
+            [
+                "MMAmania.com",
+                "https://www.mmamania.com/2024/4/27/24140832/matheus-nicolau-vs-alex-perez-odds-full-fight-preview-and-prediction-ufc-vegas-91",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.vox-cdn.com/thumbor/-QhFo6H2-VhZ9B3NGPuJb023RlU=/0x0:4312x2258/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/25421473/1504912243.jpg"
+    },
+    {
+        "Title": "UFC Fight Night: Nicolau vs. Perez Overview",
+        "Summary": "Vithlani's impressive record in UFC pay-per-view event predictions includes notable upsets, contributing to substantial profits for followers; Nicolau vs. Perez features as the main event at UFC Vegas 91 (CBS Sports). UFC Vegas 91, set in Las Vegas, promises intense action with flyweights Matheus Nicolau and Alex Perez headlining, complemented by diverse and intriguing matchups across the card (MMAmania.com). Anticipation builds as top-ranked flyweights and a mix of contenders prepare to showcase their talents, ensuring a night of competitive fights (MMA Fighting).",
+        "sources": [
+            [
+                "CBS Sports",
+                "https://www.cbssports.com/mma/news/ufc-fight-night-nicolau-vs-perez-odds-predictions-mma-expert-releases-surprising-fight-card-picks-bets/",
+                "2 hours ago"
+            ],
+            [
+                "MMAmania.com",
+                "https://www.mmamania.com/2024/4/27/24140832/matheus-nicolau-vs-alex-perez-odds-full-fight-preview-and-prediction-ufc-vegas-91",
+                "3 hours ago"
+            ],
+            [
+                "MMA Fighting",
+                "https://www.mmafighting.com/2024/4/27/24140265/ufc-vegas-91-predictions",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://sportshub.cbsistatic.com/i/r/2020/06/07/e4cabf6f-6041-45ce-a838-dd7f0461757d/thumbnail/1200x675/6dae82b5cade378340c09d69e1fba0da/ufc-2.jpg"
+    }
+]

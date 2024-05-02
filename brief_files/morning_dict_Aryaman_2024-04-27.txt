@@ -1,0 +1,120 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Global University Protests Erupt in Solidarity with Palestine",
+            "Summary": "Columbia University witnessed alumni reunion boycotts due to protests demanding the university divest from companies linked to Israel's war in Gaza, echoing a wider movement across the US, France, and Britain (Yahoo News UK). The protests, which have escalated to include encampments and demands for academic boycotts, received support from international figures and organizations, including the KKE leader in New York (eKathimerini.com) and were highlighted for standing in solidarity with Palestine (Peoples Dispatch). Controversy arose as a Hezbollah flag appearance at a US college protest sparked fury, underlining the intense atmosphere surrounding these demonstrations (Newsweek). The protests have been described as part of the most intense and widespread US demonstrations of the past six months, with demands extending to cutting ties with Israeli academic institutions and calling for ceasefires, amidst reports of Jewish students and faculty expressing fears for their safety (Yahoo News New Zealand).",
+            "sources": [
+                [
+                    "Yahoo News UK",
+                    "https://uk.news.yahoo.com/columbia-university-gaza-protests-spark-003725225.html",
+                    "14 hours ago"
+                ],
+                [
+                    "eKathimerini.com",
+                    "https://www.ekathimerini.com/politics/1237454/kke-leader-in-new-york-expresses-solidarity-with-columbia-protesters/",
+                    "21 hours ago"
+                ],
+                [
+                    "Peoples Dispatch",
+                    "https://peoplesdispatch.org/2024/04/26/students-stand-with-palestine-palestine-stands-with-students/",
+                    "19 hours ago"
+                ],
+                [
+                    "Newsweek",
+                    "https://www.newsweek.com/pro-palestinian-protest-princeton-hezbollah-1894654",
+                    "22 hours ago"
+                ],
+                [
+                    "Yahoo News New Zealand",
+                    "https://nz.news.yahoo.com/gaza-protests-police-raid-columbia-080450985.html",
+                    "13 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media.zenfs.com/en/thedailybeast.com/e259fbcb397a9aace0e8358d55eacb25"
+        },
+        {
+            "Title": "Suspect Arrested After Shooting Injures 5 in Washington, D.C.",
+            "Summary": "Five individuals sustained injuries following a shooting incident outside a nightclub in Washington, D.C.'s Dupont Circle area, leading to the arrest of a suspect by the police (WPXI).",
+            "sources": [
+                [
+                    "WPXI",
+                    "https://www.wpxi.com/news/trending/least-5-injured-shooting-outside-night-club-washington-dc/B44PUPCEUVC4RMRVR2KWWPO64U/",
+                    "1 hour ago"
+                ]
+            ],
+            "Image Filepath": "https://cmg-cmg-tv-10080-prod.cdn.arcpublishing.com/resizer/6R2iSK7BOvOsMyZmD_LG2lYEwws=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/MYS4GARBAVB7VCNKTTEKR5XK7I.jpeg"
+        }
+    ],
+    "Custom Headlines": {
+        "Investment Banking": [
+            {
+                "Title": "Top Investment Bank CICC Warned by Regulator for Compliance Flaws",
+                "Summary": "China International Capital Corporation (CICC) received a warning from regulators due to deficiencies in its compliance practices, indicating a need for tighter internal controls and adherence to regulatory standards (Caixin Global).",
+                "sources": [
+                    [
+                        "Caixin Global",
+                        "https://www.caixinglobal.com/2024-04-27/top-investment-bank-cicc-warned-by-regulator-for-compliance-flaws-102190751.html",
+                        "6 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://img.caixin.com/2024-04-27/171416435728342_560_373.png"
+            },
+            {
+                "Title": "BancTrust & Co. Investment Bank's New Strategic Headquarters",
+                "Summary": "BancTrust & Co. Investment Bank, a London-based entity focusing on Emerging Markets, has announced the strategic relocation of its headquarters to an advanced facility at 8 Bishopsgate, marking a significant phase in its expansion (PR Newswire).",
+                "sources": [
+                    [
+                        "PR Newswire",
+                        "https://www.prnewswire.com/news-releases/banctrust--co-investment-bank-announces-strategic-relocation-of-headquarters-to-a-state-of-the-art-building-in-the-city-of-london-302128962.html",
+                        "20 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://mma.prnewswire.com/media/1817095/Screen_Shot_2022_05_12_at_1_53_38_PM_Logo.jpg?p=facebook"
+            }
+        ],
+        "Lazard": [
+            {
+                "Title": "Lazard, Inc. Announces Quarterly Dividend",
+                "Summary": "Lazard, Inc. (NYSE:LAZ) has declared a $0.50 quarterly dividend, highlighting its financial advisory services including mergers, acquisitions, and capital raising. The company's diverse advisories cover strategic, sovereign, and shareholder engagements alongside restructuring and liability management (MarketBeat).",
+                "sources": [
+                    [
+                        "MarketBeat",
+                        "https://www.marketbeat.com/instant-alerts/nyse-laz-dividend-announcement-2024-04-26/",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.marketbeat.com/logos/lazard-ltd-logo-1200x675.jpg"
+            },
+            {
+                "Title": "Financial Market Updates",
+                "Summary": "Lazard's stock (LAZ) experienced a 1% decline despite exceeding first-quarter earnings expectations (Zacks Investment Research). Meanwhile, Alight (ALIT) shows promise of surpassing earnings estimates once again, according to recent projections (Yahoo Finance).",
+                "sources": [
+                    [
+                        "Zacks Investment Research",
+                        "https://www.zacks.com/stock/news/2263593/lazard-laz-dips-1-despite-surpassing-q1-earnings-estimates",
+                        "22 hours ago"
+                    ],
+                    [
+                        "Yahoo Finance",
+                        "https://finance.yahoo.com/news/why-alight-alit-could-beat-161008388.html",
+                        "23 hours ago"
+                    ]
+                ]
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Pacers Secure Narrow Victory Over Bucks in NBA Playoffs Game 3",
+            "Summary": "In a closely contested NBA playoffs Game 3, the Indiana Pacers narrowly defeated the Milwaukee Bucks with a score of 121-118, despite the absence of Giannis Antetokounmpo and the uncertainty surrounding Khris Middleton's play due to injuries. The Pacers\u2019 lineup, led by Tyrese Haliburton, and the Bucks, featuring Damian Lillard, highlighted a high-stakes game that saw the Pacers taking a 2-1 series lead, setting an intense tone for the upcoming games in Indiana (IndyStar).",
+            "sources": [
+                [
+                    "IndyStar",
+                    "https://www.indystar.com/story/sports/nba/pacers/2024/04/26/pacers-bucks-live-updates-nba-playoffs-game-3-score-highlights-tyrese-haliburton/73459359007/",
+                    "14 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.indystar.com/gcdn/authoring/authoring-images/2024/04/26/PIND/73474950007-pacers-vs-bucks-playoffs-04262024-gh-012.jpg?crop=4883,2747,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        }
+    ]
+}

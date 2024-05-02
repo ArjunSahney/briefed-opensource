@@ -1,0 +1,19 @@
+[
+    {
+        "Title": "Clippers-Mavericks Game 3 Highlights and Insights",
+        "Summary": "Despite lower back soreness, Gafford's crucial block on Paul George was a highlight in the Mavericks' 101-90 Game 3 win over the Clippers, with gameplay showing a defensive battle. Irving, despite a slow start, has been dominant in second halves through the series, contrasting with Doncic's consistent performance. James Harden's silence post-game hides a milestone, surpassing Magic Johnson in career playoff points (NBA.com). A pivotal Game 3 analyzed by SportsLine's Projection Model suggests significant betting insights, emphasizing the close competition between the No. 4 seed Clippers and No. 5 seed Mavericks in the 2024 NBA playoffs (CBS Sports).",
+        "sources": [
+            [
+                "NBA.com",
+                "https://www.nba.com/news/clippers-mavericks-5-takeaways-from-dallas-defensive-minded-game-3-victory",
+                "9 hours ago"
+            ],
+            [
+                "CBS Sports",
+                "https://www.cbssports.com/nba/news/mavericks-vs-clippers-odds-score-prediction-time-2024-nba-playoff-picks-game-3-best-bets-by-proven-model/",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://sportshub.cbsistatic.com/i/r/2024/04/26/faccd487-590d-49af-9a4c-7c4fd261a74d/thumbnail/1200x675/52700cb728b887dd6dc6a8bcf2fc87ab/luka-doncic-dallas-mavericks-usatsi.jpg"
+    }
+]

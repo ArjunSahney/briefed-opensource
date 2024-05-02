@@ -1,0 +1,24 @@
+[
+    {
+        "Title": "Overview of Suns vs. Timberwolves Game 3 NBA Playoff Predictions",
+        "Summary": "The Phoenix Suns are favored by 5.5 points over the Minnesota Timberwolves for Game 3 of the 2024 NBA playoffs, with a total points over/under set at 208 (CBS Sports). Kevin Durant, Devin Booker, and Bradley Beal face defensive pressure from Timberwolves players like Jaden McDaniels and Anthony Edwards (New York Post). The Timberwolves have a chance to lead the series 3-0, making adjustments to counter Edwards\u2019 offensive prowess vital for the Suns (Covers.com). Betting information and contacts for gambling assistance are provided by DraftKings Network.",
+        "sources": [
+            [
+                "CBS Sports",
+                "https://www.cbssports.com/nba/news/suns-vs-timberwolves-odds-score-prediction-time-2024-nba-playoff-picks-game-3-bets-from-proven-model/",
+                "14 hours ago"
+            ],
+            [
+                "New York Post",
+                "https://nypost.com/2024/04/26/sports/timberwolves-vs-suns-game-3-prediction-nba-playoffs-odds-picks/",
+                "16 hours ago"
+            ],
+            [
+                "Covers.com",
+                "https://www.covers.com/nba/timberwolves-vs-suns-predictions-picks-game-3-tonight-friday-4-26-2024",
+                "15 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://sportshub.cbsistatic.com/i/r/2024/04/20/6333b3be-cd81-4fd5-a543-b14b6b5b1c5e/thumbnail/1200x675/5d67ef015c02bfa2c103d51ef36b3d1c/usatsi-23073352-towns-durant-2024-wcq-g1-1q-1400.jpg"
+    }
+]

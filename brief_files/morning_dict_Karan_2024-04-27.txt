@@ -1,0 +1,146 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Global University Protests Erupt in Solidarity with Palestine",
+            "Summary": "Columbia University witnessed alumni reunion boycotts due to protests demanding the university divest from companies linked to Israel's war in Gaza, echoing a wider movement across the US, France, and Britain (Yahoo News UK). The protests, which have escalated to include encampments and demands for academic boycotts, received support from international figures and organizations, including the KKE leader in New York (eKathimerini.com) and were highlighted for standing in solidarity with Palestine (Peoples Dispatch). Controversy arose as a Hezbollah flag appearance at a US college protest sparked fury, underlining the intense atmosphere surrounding these demonstrations (Newsweek). The protests have been described as part of the most intense and widespread US demonstrations of the past six months, with demands extending to cutting ties with Israeli academic institutions and calling for ceasefires, amidst reports of Jewish students and faculty expressing fears for their safety (Yahoo News New Zealand).",
+            "sources": [
+                [
+                    "Yahoo News UK",
+                    "https://uk.news.yahoo.com/columbia-university-gaza-protests-spark-003725225.html",
+                    "14 hours ago"
+                ],
+                [
+                    "eKathimerini.com",
+                    "https://www.ekathimerini.com/politics/1237454/kke-leader-in-new-york-expresses-solidarity-with-columbia-protesters/",
+                    "21 hours ago"
+                ],
+                [
+                    "Peoples Dispatch",
+                    "https://peoplesdispatch.org/2024/04/26/students-stand-with-palestine-palestine-stands-with-students/",
+                    "19 hours ago"
+                ],
+                [
+                    "Newsweek",
+                    "https://www.newsweek.com/pro-palestinian-protest-princeton-hezbollah-1894654",
+                    "22 hours ago"
+                ],
+                [
+                    "Yahoo News New Zealand",
+                    "https://nz.news.yahoo.com/gaza-protests-police-raid-columbia-080450985.html",
+                    "13 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media.zenfs.com/en/thedailybeast.com/e259fbcb397a9aace0e8358d55eacb25"
+        },
+        {
+            "Title": "Suspect Arrested After Shooting Injures 5 in Washington, D.C.",
+            "Summary": "Five individuals sustained injuries following a shooting incident outside a nightclub in Washington, D.C.'s Dupont Circle area, leading to the arrest of a suspect by the police (WPXI).",
+            "sources": [
+                [
+                    "WPXI",
+                    "https://www.wpxi.com/news/trending/least-5-injured-shooting-outside-night-club-washington-dc/B44PUPCEUVC4RMRVR2KWWPO64U/",
+                    "1 hour ago"
+                ]
+            ],
+            "Image Filepath": "https://cmg-cmg-tv-10080-prod.cdn.arcpublishing.com/resizer/6R2iSK7BOvOsMyZmD_LG2lYEwws=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/MYS4GARBAVB7VCNKTTEKR5XK7I.jpeg"
+        }
+    ],
+    "Custom Headlines": {
+        "Real-Estate": [
+            {
+                "Title": "Recent Real Estate and Sports Management News",
+                "Summary": "A four-bedroom home in Needham was sold for $2.5 million, highlighting the continuously vibrant real estate market (MassLive.com). In the healthcare sector, ShiftMed acquired CareerStaff Unlimited, and Nova Leap expanded its reach by purchasing a Massachusetts provider, signaling ongoing consolidation in the home health care industry (Home Health Care News). In the sports world, Arne Slot is nearing the position of Liverpool's manager, with a compensation deal of approximately 11 million euros agreed with Feyenoord, marking a significant transition in Premier League management roles (Caledonian Record).",
+                "sources": [
+                    [
+                        "MassLive.com",
+                        "https://www.masslive.com/realestate-news/2024/04/four-bedroom-home-in-needham-sells-for-2-5-million.html",
+                        "15 hours ago"
+                    ],
+                    [
+                        "Home Health Care News",
+                        "https://homehealthcarenews.com/2024/04/transactions-shiftmed-buys-careerstaff-unlimited-nova-leap-purchases-massachusetts-provider/",
+                        "20 hours ago"
+                    ],
+                    [
+                        "Caledonian Record",
+                        "https://www.caledonianrecord.com/sports/world/arne-slot-a-step-closer-to-liverpool-job-as-compensation-deal-reached-with-feyenoord/article_87d8c931-cb7c-5620-864a-32cae689647f.html",
+                        "4 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.masslive.com/resizer/v2/D7SKQO7YDJBC7DMGUBWG5Y4LSQ.jpg?auth=e4276f3e514a17a1271457b0c1e83dd6c1576522bc394c6a714691e851850e5b&width=1280&quality=90"
+            },
+            {
+                "Title": "Overview of Minneapolis Real Estate",
+                "Summary": "In Minneapolis, $325,000 can purchase a home, indicating trends in the local real estate market's pricing (Axios).",
+                "sources": [
+                    [
+                        "Axios",
+                        "https://www.axios.com/local/twin-cities/2024/04/27/real-estate-home-prices-columbia-heights-robbinsdale",
+                        "3 hours ago"
+                    ]
+                ]
+            }
+        ],
+        "Fintech": [
+            {
+                "Title": "Stripe's Strategic Shift and Cryptocurrency Reintegration",
+                "Summary": "Stripe has reengineered its payment processing services to offer greater flexibility by decoupling payments from the technology stack, facilitating simpler merchant use (FinTech Magazine). Furthermore, Stripe is marking its return to the cryptocurrency sphere, outlining new mechanisms to support cryptocurrency transactions, reaffirming its adaptability and forward-thinking approach in the evolving financial technology landscape (DailyCoin). This strategic move will reintegrate cryptocurrency payments into its platform, signaling a broader adoption and acceptance of digital currencies in mainstream financial services (Cryptodnes.bg).",
+                "sources": [
+                    [
+                        "FinTech Magazine",
+                        "https://fintechmagazine.com/articles/strategy-shift-stripe-de-couples-payments-from-tech-stack",
+                        "7 hours ago"
+                    ],
+                    [
+                        "DailyCoin",
+                        "https://dailycoin.com/stripe-makes-crypto-comeback-heres-how-itll-work/",
+                        "20 hours ago"
+                    ],
+                    [
+                        "Cryptodnes.bg",
+                        "https://cryptodnes.bg/en/stripe-skoro-vurne-plashtaniqta-kriptovaluti/",
+                        "23 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://assets.bizclikmedia.net/1200/85b2d7f440cb9fc49d8ea663bbc82ad2:d410b9848cafbff01f75fc52cd13169e/screenshot-54.png.jpg"
+            },
+            {
+                "Title": "FMO Investment in Kenyan Fintech",
+                "Summary": "FMO, the Dutch entrepreneurial development bank, has shown interest in a promising Kenyan fintech company, highlighting the growing influence of digital finance solutions in Kenya (africabusinessplus.com).",
+                "sources": [
+                    [
+                        "africabusinessplus.com",
+                        "https://www.africabusinessplus.com/en/819123/fmo-focuses-on-a-rising-star-in-kenyan-fintech/",
+                        "21 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "Mauritius' Emerging Tech Ecosystem",
+                "Summary": "Mauritius is fostering a burgeoning tech ecosystem, with Reclyclean, LeanSearch, and KONEKTWA as notable startups participating in the Turbine accelerator, which guides startups from ideation to pitching to investors (TechCabal).",
+                "sources": [
+                    [
+                        "TechCabal",
+                        "https://techcabal.com/2024/04/27/mauritius-ecosystem-feature/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://c76c7bbc41.mjedge.net/wp-content/uploads/tc/2024/04/Tap-to-view-Story-Template-16.png"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Pacers Secure Narrow Victory Over Bucks in NBA Playoffs Game 3",
+            "Summary": "In a closely contested NBA playoffs Game 3, the Indiana Pacers narrowly defeated the Milwaukee Bucks with a score of 121-118, despite the absence of Giannis Antetokounmpo and the uncertainty surrounding Khris Middleton's play due to injuries. The Pacers\u2019 lineup, led by Tyrese Haliburton, and the Bucks, featuring Damian Lillard, highlighted a high-stakes game that saw the Pacers taking a 2-1 series lead, setting an intense tone for the upcoming games in Indiana (IndyStar).",
+            "sources": [
+                [
+                    "IndyStar",
+                    "https://www.indystar.com/story/sports/nba/pacers/2024/04/26/pacers-bucks-live-updates-nba-playoffs-game-3-score-highlights-tyrese-haliburton/73459359007/",
+                    "14 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.indystar.com/gcdn/authoring/authoring-images/2024/04/26/PIND/73474950007-pacers-vs-bucks-playoffs-04262024-gh-012.jpg?crop=4883,2747,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        }
+    ]
+}

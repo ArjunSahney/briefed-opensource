@@ -1,0 +1,146 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Global University Protests Erupt in Solidarity with Palestine",
+            "Summary": "Columbia University witnessed alumni reunion boycotts due to protests demanding the university divest from companies linked to Israel's war in Gaza, echoing a wider movement across the US, France, and Britain (Yahoo News UK). The protests, which have escalated to include encampments and demands for academic boycotts, received support from international figures and organizations, including the KKE leader in New York (eKathimerini.com) and were highlighted for standing in solidarity with Palestine (Peoples Dispatch). Controversy arose as a Hezbollah flag appearance at a US college protest sparked fury, underlining the intense atmosphere surrounding these demonstrations (Newsweek). The protests have been described as part of the most intense and widespread US demonstrations of the past six months, with demands extending to cutting ties with Israeli academic institutions and calling for ceasefires, amidst reports of Jewish students and faculty expressing fears for their safety (Yahoo News New Zealand).",
+            "sources": [
+                [
+                    "Yahoo News UK",
+                    "https://uk.news.yahoo.com/columbia-university-gaza-protests-spark-003725225.html",
+                    "14 hours ago"
+                ],
+                [
+                    "eKathimerini.com",
+                    "https://www.ekathimerini.com/politics/1237454/kke-leader-in-new-york-expresses-solidarity-with-columbia-protesters/",
+                    "21 hours ago"
+                ],
+                [
+                    "Peoples Dispatch",
+                    "https://peoplesdispatch.org/2024/04/26/students-stand-with-palestine-palestine-stands-with-students/",
+                    "19 hours ago"
+                ],
+                [
+                    "Newsweek",
+                    "https://www.newsweek.com/pro-palestinian-protest-princeton-hezbollah-1894654",
+                    "22 hours ago"
+                ],
+                [
+                    "Yahoo News New Zealand",
+                    "https://nz.news.yahoo.com/gaza-protests-police-raid-columbia-080450985.html",
+                    "13 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://media.zenfs.com/en/thedailybeast.com/e259fbcb397a9aace0e8358d55eacb25"
+        },
+        {
+            "Title": "Suspect Arrested After Shooting Injures 5 in Washington, D.C.",
+            "Summary": "Five individuals sustained injuries following a shooting incident outside a nightclub in Washington, D.C.'s Dupont Circle area, leading to the arrest of a suspect by the police (WPXI).",
+            "sources": [
+                [
+                    "WPXI",
+                    "https://www.wpxi.com/news/trending/least-5-injured-shooting-outside-night-club-washington-dc/B44PUPCEUVC4RMRVR2KWWPO64U/",
+                    "1 hour ago"
+                ]
+            ],
+            "Image Filepath": "https://cmg-cmg-tv-10080-prod.cdn.arcpublishing.com/resizer/6R2iSK7BOvOsMyZmD_LG2lYEwws=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/MYS4GARBAVB7VCNKTTEKR5XK7I.jpeg"
+        }
+    ],
+    "Custom Headlines": {
+        "Fixed Wireless": [
+            {
+                "Title": "Best Internet Providers in Flint, Michigan",
+                "Summary": "In Flint, Michigan, over 99% of homes have access to internet providers, with Xfinity offering multiple plans, including one at $60 monthly, reducible to $50 with promotions or to $40 when bundled with mobile plans. Other providers like AT&T Internet Air, T-Mobile Home Internet, and Verizon 5G Home Internet offer similar pricing models. Their 5G Home plan is priced at $50, dropping to $35 with bundles, featuring speeds up to 100Mbps (CNET).",
+                "sources": [
+                    [
+                        "CNET",
+                        "https://www.cnet.com/home/internet/best-internet-providers-in-flint-mi/",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.cnet.com/a/img/resize/55ba6d3173c9c5edc16c0f5f915af04e5eafff8a/hub/2024/04/24/f790fb65-40fa-4d01-8800-60d93608599e/flint-gettyimages-1644682247.jpg?auto=webp&fit=crop&height=675&width=1200"
+            },
+            {
+                "Title": "Importance of Wireless Spectrum Policy",
+                "Summary": "Wireless spectrum policy has proven to be crucial for both commerce and national security, utilizing an auction system that has generated over $233 billion for the U.S. Treasury (The Virginian-Pilot).",
+                "sources": [
+                    [
+                        "The Virginian-Pilot",
+                        "https://www.pilotonline.com/2024/04/26/column-wireless-spectrum-policy-is-vital-to-commerce-national-security/",
+                        "17 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.pilotonline.com/wp-content/uploads/2024/04/TVP-Z-OP-WIRELESS-POLICY.jpg?w=1024&h=684"
+            },
+            {
+                "Title": "Partnership for Appalachian Broadband Expansion",
+                "Summary": "Connect Humanity and Microsoft announced a partnership to expand broadband coverage in Appalachian communities, targeting digital equity through connecting communities and non-profit organizations (Broadband Breakfast).",
+                "sources": [
+                    [
+                        "Broadband Breakfast",
+                        "https://broadbandbreakfast.com/connect-humanity-and-microsoft-to-invest-in-appalachian-broadband/",
+                        "15 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://broadbandbreakfast.com/content/images/2024/04/49945838037_9847fcd726_b.jpg"
+            }
+        ],
+        "AI Education": [
+            {
+                "Title": "AI for AP: High School Students' Innovative Tutoring Tool",
+                "Summary": "High school students have developed an AI tool designed to tutor peers in Advanced Placement (AP) courses, aiming to make high-level education more accessible and efficient (GeekWire).",
+                "sources": [
+                    [
+                        "GeekWire",
+                        "https://www.geekwire.com/2024/ai-for-ap-high-school-students-create-tool-that-acts-as-tech-tutor-for-advanced-placement-courses/",
+                        "4 minutes ago"
+                    ]
+                ]
+            }
+        ],
+        "School Superintendent New Jersey": [
+            {
+                "Title": "Recent Developments in New Jersey School District and Imperial Oil's Earnings",
+                "Summary": "A New Jersey school district has cut 27 teachers and employees due to economic issues, with allegations of the cuts being retaliatory against supporters of former superintendent Dr. RaShawn Adams (NJ.com). In economic news, Imperial Oil exceeded earnings per share expectations but fell short on revenue in Q1 2024 (MSN).",
+                "sources": [
+                    [
+                        "NJ.com",
+                        "https://www.nj.com/education/2024/04/nj-school-district-cuts-27-teachers-and-employees-due-to-economic-issues.html",
+                        "21 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-us/money/markets/imo-stock-earnings-imperial-oil-beats-eps-misses-revenue-for-q1-2024/ar-AA1nJfLG",
+                        "21 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.nj.com/resizer/v2/IOBIX7ELABGNLHV4Q3T2QECG6Y.jpg?auth=732bb333dd4fc4928a33c75074527ef7f0a8d449a20dc2cb119ebb4afacd0e58&width=1280&quality=90"
+            },
+            {
+                "Title": "Around Newark: Schools + Taxes + Passover + Congressman Dies",
+                "Summary": "Recent updates from Newark include developments in school operations, tax adjustments, Passover celebrations, and the passing of a congressman (Patch).",
+                "sources": [
+                    [
+                        "Patch",
+                        "https://patch.com/new-jersey/newarknj/around-newark-schools-taxes-passover-congressman-dies",
+                        "2 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://patch.com/img/cdn20/users/22844250/20240426/011031/styles/patch_image/public/spotlight2___26131021156.jpg"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Pacers Secure Narrow Victory Over Bucks in NBA Playoffs Game 3",
+            "Summary": "In a closely contested NBA playoffs Game 3, the Indiana Pacers narrowly defeated the Milwaukee Bucks with a score of 121-118, despite the absence of Giannis Antetokounmpo and the uncertainty surrounding Khris Middleton's play due to injuries. The Pacers\u2019 lineup, led by Tyrese Haliburton, and the Bucks, featuring Damian Lillard, highlighted a high-stakes game that saw the Pacers taking a 2-1 series lead, setting an intense tone for the upcoming games in Indiana (IndyStar).",
+            "sources": [
+                [
+                    "IndyStar",
+                    "https://www.indystar.com/story/sports/nba/pacers/2024/04/26/pacers-bucks-live-updates-nba-playoffs-game-3-score-highlights-tyrese-haliburton/73459359007/",
+                    "14 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://www.indystar.com/gcdn/authoring/authoring-images/2024/04/26/PIND/73474950007-pacers-vs-bucks-playoffs-04262024-gh-012.jpg?crop=4883,2747,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+        }
+    ]
+}

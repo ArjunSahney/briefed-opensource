@@ -35,3 +35,10 @@ if __name__ == "__main__":
         print("Usage: python script.py name email date interest1 interest2 interest3")
     else:
         main(*sys.argv[1:])
+
+# main("Aryaman", "aryamankunzru@gmail.com", "b", "Investment Banking", "Lazard", "M&A")
+# main("Karan", "karanveer.singh837@gmail.com", "b", "Healthcare", "Real-Estate", "Fintech")
+# main("Paul", "paulspangfort@gmail.com", "b", "LLM", "SaaS venture capital", "UFC")
+# main("Michelle", "michelle.ti.lin@gmail.com", "b", "Current Affairs", "Technology", "NYC Restaurants")
+# main("Viswa", "viswa.p.reddy@gmail.com", "b", "Fixed Wireless", "Superintendent NJ ", "AI Education")
+

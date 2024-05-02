@@ -1,0 +1,14 @@
+[
+    {
+        "Title": "Pacers Secure Narrow Victory Over Bucks in NBA Playoffs Game 3",
+        "Summary": "In a closely contested NBA playoffs Game 3, the Indiana Pacers narrowly defeated the Milwaukee Bucks with a score of 121-118, despite the absence of Giannis Antetokounmpo and the uncertainty surrounding Khris Middleton's play due to injuries. The Pacers\u2019 lineup, led by Tyrese Haliburton, and the Bucks, featuring Damian Lillard, highlighted a high-stakes game that saw the Pacers taking a 2-1 series lead, setting an intense tone for the upcoming games in Indiana (IndyStar).",
+        "sources": [
+            [
+                "IndyStar",
+                "https://www.indystar.com/story/sports/nba/pacers/2024/04/26/pacers-bucks-live-updates-nba-playoffs-game-3-score-highlights-tyrese-haliburton/73459359007/",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.indystar.com/gcdn/authoring/authoring-images/2024/04/26/PIND/73474950007-pacers-vs-bucks-playoffs-04262024-gh-012.jpg?crop=4883,2747,x0,y0&width=3200&height=1801&format=pjpg&auto=webp"
+    }
+]

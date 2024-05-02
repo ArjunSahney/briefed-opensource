@@ -1,0 +1,93 @@
+[
+    {
+        "Title": "Global University Protests Erupt in Solidarity with Palestine",
+        "Summary": "Columbia University witnessed alumni reunion boycotts due to protests demanding the university divest from companies linked to Israel's war in Gaza, echoing a wider movement across the US, France, and Britain (Yahoo News UK). The protests, which have escalated to include encampments and demands for academic boycotts, received support from international figures and organizations, including the KKE leader in New York (eKathimerini.com) and were highlighted for standing in solidarity with Palestine (Peoples Dispatch). Controversy arose as a Hezbollah flag appearance at a US college protest sparked fury, underlining the intense atmosphere surrounding these demonstrations (Newsweek). The protests have been described as part of the most intense and widespread US demonstrations of the past six months, with demands extending to cutting ties with Israeli academic institutions and calling for ceasefires, amidst reports of Jewish students and faculty expressing fears for their safety (Yahoo News New Zealand).",
+        "sources": [
+            [
+                "Yahoo News UK",
+                "https://uk.news.yahoo.com/columbia-university-gaza-protests-spark-003725225.html",
+                "14 hours ago"
+            ],
+            [
+                "eKathimerini.com",
+                "https://www.ekathimerini.com/politics/1237454/kke-leader-in-new-york-expresses-solidarity-with-columbia-protesters/",
+                "21 hours ago"
+            ],
+            [
+                "Peoples Dispatch",
+                "https://peoplesdispatch.org/2024/04/26/students-stand-with-palestine-palestine-stands-with-students/",
+                "19 hours ago"
+            ],
+            [
+                "Newsweek",
+                "https://www.newsweek.com/pro-palestinian-protest-princeton-hezbollah-1894654",
+                "22 hours ago"
+            ],
+            [
+                "Yahoo News New Zealand",
+                "https://nz.news.yahoo.com/gaza-protests-police-raid-columbia-080450985.html",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.zenfs.com/en/thedailybeast.com/e259fbcb397a9aace0e8358d55eacb25"
+    },
+    {
+        "Title": "Suspect Arrested After Shooting Injures 5 in Washington, D.C.",
+        "Summary": "Five individuals sustained injuries following a shooting incident outside a nightclub in Washington, D.C.'s Dupont Circle area, leading to the arrest of a suspect by the police (WPXI).",
+        "sources": [
+            [
+                "WPXI",
+                "https://www.wpxi.com/news/trending/least-5-injured-shooting-outside-night-club-washington-dc/B44PUPCEUVC4RMRVR2KWWPO64U/",
+                "1 hour ago"
+            ]
+        ],
+        "Image Filepath": "https://cmg-cmg-tv-10080-prod.cdn.arcpublishing.com/resizer/6R2iSK7BOvOsMyZmD_LG2lYEwws=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/MYS4GARBAVB7VCNKTTEKR5XK7I.jpeg"
+    },
+    {
+        "Title": "Tornado Aftermath in Nebraska and Iowa",
+        "Summary": "A series of destructive tornadoes have recently impacted the US Midwest, particularly affecting Nebraska and Iowa, leading to flash flood warnings, power outages, and widespread damage, particularly in Omaha (Times Now). The Guardian further emphasizes the ongoing storm threat in the region. According to Metro.co.uk, these tornadoes have not only destroyed homes in Nebraska but have also progressed to Iowa. The Times of India highlights that the tornadoes resulted in collapsed buildings and leveled homes, showcasing the severe impact on these states.",
+        "sources": [
+            [
+                "Times Now",
+                "https://www.timesnownews.com/world/us/us-news/nebraska-iowa-tornado-aftermath-flash-flood-warning-power-cuts-damage-in-omaha-article-109637569",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://static.tnn.in/thumb/msid-109637599,thumbsize-817489,width-1280,height-720,resizemode-75/109637599.jpg"
+    },
+    {
+        "Title": "South Africa's 30th Freedom Day Commemoration",
+        "Summary": "South Africa celebrated Freedom Day, marking 30 years since their historic first inclusive election which resulted in Nelson Mandela becoming the country's first Black president and highlighted the African National Congress (ANC)'s significant victory (Al Jazeera). The day is remembered every April 27, underscoring the nation's journey since the end of apartheid and its transition towards democracy (RFI, France 24).",
+        "sources": [
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/news/2024/4/27/ramaphosa-hails-anc-record-as-south-africa-marks-30-years-of-democracy",
+                "54 minutes ago"
+            ],
+            [
+                "RFI",
+                "https://www.rfi.fr/en/africa/20240427-south-africa-celebrates-freedom-day-30-years-after-the-end-of-apartheid",
+                "1 hour ago"
+            ],
+            [
+                "France 24",
+                "https://www.france24.com/en/video/20240427-south-africa-celebrates-freedom-day-country-remembers-an-historic-election-every-april-27",
+                "42 minutes ago"
+            ]
+        ],
+        "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24118358268229-1714219047.jpg?resize=1920%2C1440"
+    },
+    {
+        "Title": "U.S. Spy Agencies' Findings on Putin and Navalny's Death",
+        "Summary": "U.S. intelligence agencies concluded that Russian President Vladimir Putin did not directly order the death of opposition leader Alexei Navalny, with reports suggesting the involvement might have been unintentional (WSJ). Multiple sources including \"\\",
+        "\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430 \\u043f\\u0440\\u0430\\u0432\\u0434\\u0430\\\", Firstpost, The Hindu, and Times of India echoed these findings, signaling a significant development in the investigation of Navalny's death.": "U.S. intelligence agencies concluded that Russian President Vladimir Putin did not directly order the death of opposition leader Alexei Navalny, with reports suggesting the involvement might have been unintentional (WSJ). Multiple sources including \"\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430\", Firstpost, The Hindu, and Times of India echoed these findings, signaling a significant development in the investigation of Navalny's death.",
+        "sources": [
+            [
+                "WSJ",
+                "https://www.wsj.com/world/russia/alexei-navalny-death-us-intelligence-71bc95b0",
+                "10 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://s.wsj.net/img/meta/wsj-social-share.png"
+    }
+]

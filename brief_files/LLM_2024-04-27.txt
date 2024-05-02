@@ -1,0 +1,49 @@
+[
+    {
+        "Title": "Enhancing LLMs with Vector Databases",
+        "Summary": "Companies can overcome the limitations of pre-built large language models (LLMs) by incorporating proprietary vector databases, leveraging the retrieval-augmented generation (RAG) framework to customize AI solutions to their specific needs (The New Stack).",
+        "sources": [
+            [
+                "The New Stack",
+                "https://thenewstack.io/how-to-cure-llm-weaknesses-with-vector-databases/",
+                "19 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://cdn.thenewstack.io/media/2024/04/7ba34879-vector-db-cure-llm-weakness.jpg"
+    },
+    {
+        "Title": "Running LLM on Raspberry Pi",
+        "Summary": "Exploring the impact of Large Language Models since ChatGPT 3's release in 2022, with guidance on implementing these models on a Raspberry Pi for various applications including writing and complex problem-solving (Make Tech Easier).",
+        "sources": [
+            [
+                "Make Tech Easier",
+                "https://www.maketecheasier.com/run-llm-on-raspberry-pi/",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.maketecheasier.com/assets/uploads/2024/04/raspberry-pi-computer.jpeg"
+    },
+    {
+        "Title": "Importance of Including Low Resource Languages in LLMs",
+        "Summary": "Integrating low-resource languages into large language models (LLMs) is crucial for fostering responsible AI development, ensuring broader inclusivity, and preventing linguistic and cultural biases. This approach promotes equal access to technology across diverse linguistic groups (HackerNoon).",
+        "sources": [
+            [
+                "HackerNoon",
+                "https://hackernoon.com/why-integrating-low-resource-languages-into-llms-is-essential-for-responsible-ai",
+                "5 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://hackernoon.imgix.net/images/a-robot-learning-in-an-african-class-room-hwx7ggwuntw00cd2u45pg99y.png?mark-pad=0&mark=http://hackernoon.imgix.net/HackerNoon%20Rounded%20Horizontal.png?w=400"
+    },
+    {
+        "Title": "Innovations in Biomedical Named Entity Recognition",
+        "Summary": "A recent development in AI has introduced dynamic definition augmentation as a method to boost the accuracy of large language models in identifying biomedical terms, thus advancing the field of biomedical named entity recognition (MarkTechPost).",
+        "sources": [
+            [
+                "MarkTechPost",
+                "https://www.marktechpost.com/2024/04/26/enhancing-biomedical-named-entity-recognition-with-dynamic-definition-augmentation-a-novel-ai-approach-to-improve-large-language-model-accuracy/",
+                "17 hours ago"
+            ]
+        ]
+    }
+]

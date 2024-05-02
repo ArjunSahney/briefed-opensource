@@ -1,0 +1,77 @@
+[
+    {
+        "Title": "Best Internet Providers in Flint, Michigan",
+        "Summary": "In Flint, Michigan, over 99% of homes have access to internet providers, with Xfinity offering multiple plans, including one at $60 monthly, reducible to $50 with promotions or to $40 when bundled with mobile plans. Other providers like AT&T Internet Air, T-Mobile Home Internet, and Verizon 5G Home Internet offer similar pricing models. Their 5G Home plan is priced at $50, dropping to $35 with bundles, featuring speeds up to 100Mbps (CNET).",
+        "sources": [
+            [
+                "CNET",
+                "https://www.cnet.com/home/internet/best-internet-providers-in-flint-mi/",
+                "3 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.cnet.com/a/img/resize/55ba6d3173c9c5edc16c0f5f915af04e5eafff8a/hub/2024/04/24/f790fb65-40fa-4d01-8800-60d93608599e/flint-gettyimages-1644682247.jpg?auto=webp&fit=crop&height=675&width=1200"
+    },
+    {
+        "Title": "Importance of Wireless Spectrum Policy",
+        "Summary": "Wireless spectrum policy has proven to be crucial for both commerce and national security, utilizing an auction system that has generated over $233 billion for the U.S. Treasury (The Virginian-Pilot).",
+        "sources": [
+            [
+                "The Virginian-Pilot",
+                "https://www.pilotonline.com/2024/04/26/column-wireless-spectrum-policy-is-vital-to-commerce-national-security/",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.pilotonline.com/wp-content/uploads/2024/04/TVP-Z-OP-WIRELESS-POLICY.jpg?w=1024&h=684"
+    },
+    {
+        "Title": "Partnership for Appalachian Broadband Expansion",
+        "Summary": "Connect Humanity and Microsoft announced a partnership to expand broadband coverage in Appalachian communities, targeting digital equity through connecting communities and non-profit organizations (Broadband Breakfast).",
+        "sources": [
+            [
+                "Broadband Breakfast",
+                "https://broadbandbreakfast.com/connect-humanity-and-microsoft-to-invest-in-appalachian-broadband/",
+                "15 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://broadbandbreakfast.com/content/images/2024/04/49945838037_9847fcd726_b.jpg"
+    },
+    {
+        "Title": "Investment Insights: Aerospace, Defense, and Telecom Sector Opportunities",
+        "Summary": "Investors looking into the aerospace and defense sectors are advised on strategies to navigate this industry potentially offering strong returns (Yahoo Finance). For those focused on generating passive income, a prime telecom sector bargain presented as a top buy for May is highlighted, pointing towards strategic investment opportunities in telecommunications (The Motley Fool Canada).",
+        "sources": [
+            [
+                "Yahoo Finance",
+                "https://finance.yahoo.com/video/play-aerospace-defense-stocks-now-123000930.html",
+                "3 hours ago"
+            ],
+            [
+                "The Motley Fool Canada",
+                "https://www.fool.ca/2024/04/27/passive-income-investors-the-best-telecom-bargain-to-buy-in-may/",
+                "2 hours ago"
+            ]
+        ]
+    },
+    {
+        "Title": "Huawei's RAN Intelligent Agents for 5.5G",
+        "Summary": "Huawei introduces RAN Intelligent Agents to enhance 5.5G, incorporating telecom foundation models, RAN digital twins, and intelligent computing. These agents aim to transform network operations, user experience, and service models for greater productivity in the 5.5G era, offering features like intent-driven interactions, all-domain sensing, predictive analysis, and self-learning capabilities (SMEStreet).",
+        "sources": [
+            [
+                "SMEStreet",
+                "https://smestreet.in/technology/huawei-unveils-ran-intelligent-agents-for-55g-era-4520984",
+                "10 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://img-cdn.thepublive.com/fit-in/1200x675/smstreet/media/media_files/c5GoUF5rZG4ktj0KZJE2.jpg"
+    },
+    {
+        "Title": "Charter's Broadband and Mobile Line Trends",
+        "Summary": "Charter Communications experienced a larger than anticipated loss in broadband subscribers while also seeing a slowdown in the growth of its mobile lines (Light Reading).",
+        "sources": [
+            [
+                "Light Reading",
+                "https://www.lightreading.com/cable-technology/charter-sheds-more-broadband-subs-than-expected-as-mobile-line-growth-decelerates",
+                "22 hours ago"
+            ]
+        ]
+    }
+]

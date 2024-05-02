@@ -1,0 +1,230 @@
+{
+    "Top Headlines": [
+        {
+            "Title": "Tornado Aftermath in Nebraska and Iowa",
+            "Summary": "A series of destructive tornadoes have recently impacted the US Midwest, particularly affecting Nebraska and Iowa, leading to flash flood warnings, power outages, and widespread damage, particularly in Omaha (Times Now). The Guardian further emphasizes the ongoing storm threat in the region. According to Metro.co.uk, these tornadoes have not only destroyed homes in Nebraska but have also progressed to Iowa. The Times of India highlights that the tornadoes resulted in collapsed buildings and leveled homes, showcasing the severe impact on these states.",
+            "sources": [
+                [
+                    "Times Now",
+                    "https://www.timesnownews.com/world/us/us-news/nebraska-iowa-tornado-aftermath-flash-flood-warning-power-cuts-damage-in-omaha-article-109637569",
+                    "14 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://static.tnn.in/thumb/msid-109637599,thumbsize-817489,width-1280,height-720,resizemode-75/109637599.jpg"
+        },
+        {
+            "Title": "South Africa's 30th Freedom Day Commemoration",
+            "Summary": "South Africa celebrated Freedom Day, marking 30 years since their historic first inclusive election which resulted in Nelson Mandela becoming the country's first Black president and highlighted the African National Congress (ANC)'s significant victory (Al Jazeera). The day is remembered every April 27, underscoring the nation's journey since the end of apartheid and its transition towards democracy (RFI, France 24).",
+            "sources": [
+                [
+                    "Al Jazeera",
+                    "https://www.aljazeera.com/news/2024/4/27/ramaphosa-hails-anc-record-as-south-africa-marks-30-years-of-democracy",
+                    "54 minutes ago"
+                ],
+                [
+                    "RFI",
+                    "https://www.rfi.fr/en/africa/20240427-south-africa-celebrates-freedom-day-30-years-after-the-end-of-apartheid",
+                    "1 hour ago"
+                ],
+                [
+                    "France 24",
+                    "https://www.france24.com/en/video/20240427-south-africa-celebrates-freedom-day-country-remembers-an-historic-election-every-april-27",
+                    "42 minutes ago"
+                ]
+            ],
+            "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/AP24118358268229-1714219047.jpg?resize=1920%2C1440"
+        },
+        {
+            "Title": "U.S. Spy Agencies' Findings on Putin and Navalny's Death",
+            "Summary": "U.S. intelligence agencies concluded that Russian President Vladimir Putin did not directly order the death of opposition leader Alexei Navalny, with reports suggesting the involvement might have been unintentional (WSJ). Multiple sources including \"\\",
+            "\\u043a\\u0440\\u0430\\u0457\\u043d\\u0441\\u044c\\u043a\\u0430 \\u043f\\u0440\\u0430\\u0432\\u0434\\u0430\\\", Firstpost, The Hindu, and Times of India echoed these findings, signaling a significant development in the investigation of Navalny's death.": "U.S. intelligence agencies concluded that Russian President Vladimir Putin did not directly order the death of opposition leader Alexei Navalny, with reports suggesting the involvement might have been unintentional (WSJ). Multiple sources including \"\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0430 \u043f\u0440\u0430\u0432\u0434\u0430\", Firstpost, The Hindu, and Times of India echoed these findings, signaling a significant development in the investigation of Navalny's death.",
+            "sources": [
+                [
+                    "WSJ",
+                    "https://www.wsj.com/world/russia/alexei-navalny-death-us-intelligence-71bc95b0",
+                    "10 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://s.wsj.net/img/meta/wsj-social-share.png"
+        }
+    ],
+    "Custom Headlines": {
+        "Fixed Wireless": [
+            {
+                "Title": "Investment Insights: Aerospace, Defense, and Telecom Sector Opportunities",
+                "Summary": "Investors looking into the aerospace and defense sectors are advised on strategies to navigate this industry potentially offering strong returns (Yahoo Finance). For those focused on generating passive income, a prime telecom sector bargain presented as a top buy for May is highlighted, pointing towards strategic investment opportunities in telecommunications (The Motley Fool Canada).",
+                "sources": [
+                    [
+                        "Yahoo Finance",
+                        "https://finance.yahoo.com/video/play-aerospace-defense-stocks-now-123000930.html",
+                        "3 hours ago"
+                    ],
+                    [
+                        "The Motley Fool Canada",
+                        "https://www.fool.ca/2024/04/27/passive-income-investors-the-best-telecom-bargain-to-buy-in-may/",
+                        "2 hours ago"
+                    ]
+                ]
+            },
+            {
+                "Title": "Huawei's RAN Intelligent Agents for 5.5G",
+                "Summary": "Huawei introduces RAN Intelligent Agents to enhance 5.5G, incorporating telecom foundation models, RAN digital twins, and intelligent computing. These agents aim to transform network operations, user experience, and service models for greater productivity in the 5.5G era, offering features like intent-driven interactions, all-domain sensing, predictive analysis, and self-learning capabilities (SMEStreet).",
+                "sources": [
+                    [
+                        "SMEStreet",
+                        "https://smestreet.in/technology/huawei-unveils-ran-intelligent-agents-for-55g-era-4520984",
+                        "10 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://img-cdn.thepublive.com/fit-in/1200x675/smstreet/media/media_files/c5GoUF5rZG4ktj0KZJE2.jpg"
+            },
+            {
+                "Title": "Charter's Broadband and Mobile Line Trends",
+                "Summary": "Charter Communications experienced a larger than anticipated loss in broadband subscribers while also seeing a slowdown in the growth of its mobile lines (Light Reading).",
+                "sources": [
+                    [
+                        "Light Reading",
+                        "https://www.lightreading.com/cable-technology/charter-sheds-more-broadband-subs-than-expected-as-mobile-line-growth-decelerates",
+                        "22 hours ago"
+                    ]
+                ]
+            }
+        ],
+        "AI Education": [
+            {
+                "Title": "Recent Initiatives in AI and Security Across Education and Homeland Security",
+                "Summary": "A collaboration between Inter-American Dialogue and Microsoft aims to enhance AI capabilities in Latin American higher education institutions, highlighting the importance of AI in educational advancement (Leadership for the Americas). Concurrently, discussions are underway on leveraging AI in the realm of fundamental physics to shape its future applications (Science 2.0). In the UK, a new consultation initiated by the Deputy Prime Minister, Oliver Dowden, seeks to safeguard universities from foreign security threats, emphasizing the balance between open research collaboration and national security (GOV.UK). Lenovo's commitment to utilizing AI for elevating special education underscores the technology's transformative potential across various sectors (CSRwire). Meanwhile, the Department of Homeland Security explores AI's potential to enhance homeland security, initiated by a discussion led by Adam Cox at Arizona State University's annual meeting, pointing towards strategic deployment in national safety (ASU News).",
+                "sources": [
+                    [
+                        "Leadership for the Americas",
+                        "https://www.thedialogue.org/analysis/inter-american-dialogue-and-microsoft-convene-working-group-on-artificial-intelligence-in-higher-education-to-strengthen-institutional-capacities-for-ai-implementation-in-latin-america/",
+                        "19 hours ago"
+                    ],
+                    [
+                        "Science 2.0",
+                        "https://www.science20.com/tommaso_dorigo/shaping_the_future_of_ai_for_fundamental_physics-257054",
+                        "13 hours ago"
+                    ],
+                    [
+                        "GOV.UK",
+                        "https://www.gov.uk/government/news/government-to-launch-new-consultation-to-protect-uk-universities-from-security-threats",
+                        "22 hours ago"
+                    ],
+                    [
+                        "CSRwire",
+                        "https://www.csrwire.com/press_releases/800456-bridge-success-using-ai-raise-bar-special-education",
+                        "20 hours ago"
+                    ],
+                    [
+                        "ASU News",
+                        "https://news.asu.edu/20240426-science-and-technology-unlocking-potential-ai-homeland-security",
+                        "20 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://assets.publishing.service.gov.uk/media/662bd1abfee48e2ee6b81efa/s960_HERT.jpeg"
+            },
+            {
+                "Title": "Lenovo's Mission: Smarter Technology for All",
+                "Summary": "Lenovo, a global technology leader, is recognized for its significant presence in the tech industry, boasting a US$62 billion revenue and ranking #217 on the Fortune Global 500 list. The company employs 77,000 people worldwide and operates in 180 markets. With a firm commitment to making advanced technology accessible to everyone, Lenovo is expanding its portfolio beyond being the top PC manufacturer to include innovative solutions in servers, storage, mobile technologies, and more, all aimed at propelling the 'New IT' era (CSRwire).",
+                "sources": [
+                    [
+                        "CSRwire",
+                        "https://www.csrwire.com/press_releases/800456-bridge-success-using-ai-raise-bar-special-education",
+                        "20 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://back.3blmedia.com/sites/default/files/inline-images/high-five_Lenovo_032524.jpg"
+            }
+        ],
+        "School Superintendent New Jersey": [
+            {
+                "Title": "Recent Developments in Westwood Schools and AMC Networks",
+                "Summary": "The Westwood schools chief sought a $1M buyout amid retirement controversy, emphasizing significant personnel improvements during her tenure (Bergen Record). Meanwhile, AMC Networks has appointed Kristin Dolan as its new CEO, with her 2023 pay reaching $14.5 million, marking a significant corporate development (AOL.com).",
+                "sources": [
+                    [
+                        "Bergen Record",
+                        "https://www.northjersey.com/story/news/bergen/westwood/2024/04/26/westwood-nj-schools-superintendent-1m-buyout-board/73469407007/",
+                        "19 hours ago"
+                    ],
+                    [
+                        "AOL.com",
+                        "https://www.aol.com/entertainment/amc-networks-ceo-kristin-dolan-134235033.html",
+                        "19 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.northjersey.com/gcdn/authoring/authoring-images/2024/04/26/PNJM/73469832007-jill-mortimer.jpg?crop=4031,2269,x0,y377&width=3200&height=1802&format=pjpg&auto=webp"
+            },
+            {
+                "Title": "Recent Developments in Springfield: School Committee Meeting Walkout and Arbor Day Celebration",
+                "Summary": "During the latest Springfield school committee meeting, a significant walkout occurred, fueled by concerns over transparency in the superintendent search process, particularly involving the inability to review all completed applications. The controversy stems from worries that limiting the candidate pool could lead to legal issues and send a negative message, echoing problems seen in other western Massachusetts school districts (WAMC). Concurrently, Springfield marked Arbor Day with festivities at Washington School, celebrating community and environmental stewardship, although specific details of the event were not elaborated (MSN).",
+                "sources": [
+                    [
+                        "WAMC",
+                        "https://www.wamc.org/news/2024-04-26/walkout-mars-latest-school-committee-meeting-in-springfield-amid-superintendent-search",
+                        "16 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-us/news/us/city-of-springfield-celebrates-arbor-day-with-washington-school/ar-AA1nIE19",
+                        "21 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://npr.brightspotcdn.com/dims4/default/1ec01e8/2147483647/strip/true/crop/1390x730+190+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4b%2F59%2F7edb9324487bbeb2ac1cee605b86%2Fschool-committee-gonzalez-4-25-24.jpg"
+            },
+            {
+                "Title": "Taos Schools Appoints New Superintendent",
+                "Summary": "Taos Schools has appointed a new superintendent with a diverse background in education, having worked across several school districts in southern Texas, and holding previous principal positions at La Villa and Harlingen Consolidated Independent School Districts (Santa Fe New Mexican).",
+                "sources": [
+                    [
+                        "Santa Fe New Mexican",
+                        "https://www.santafenewmexican.com/news/local_news/taos-schools-hires-new-superintendent/article_f66a844c-034d-11ef-ada0-e37eb5353728.html",
+                        "16 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://bloximages.newyork1.vip.townnews.com/santafenewmexican.com/content/tncms/assets/v3/editorial/5/be/5be3ac58-034f-11ef-a97f-9f39106d4154/662ad2c95c362.image.jpg?crop=993%2C521%2C0%2C488&resize=993%2C521&order=crop%2Cresize"
+            }
+        ]
+    },
+    "Trending Headlines": [
+        {
+            "Title": "Overview of Suns vs. Timberwolves Game 3 NBA Playoff Predictions",
+            "Summary": "The Phoenix Suns are favored by 5.5 points over the Minnesota Timberwolves for Game 3 of the 2024 NBA playoffs, with a total points over/under set at 208 (CBS Sports). Kevin Durant, Devin Booker, and Bradley Beal face defensive pressure from Timberwolves players like Jaden McDaniels and Anthony Edwards (New York Post). The Timberwolves have a chance to lead the series 3-0, making adjustments to counter Edwards\u2019 offensive prowess vital for the Suns (Covers.com). Betting information and contacts for gambling assistance are provided by DraftKings Network.",
+            "sources": [
+                [
+                    "CBS Sports",
+                    "https://www.cbssports.com/nba/news/suns-vs-timberwolves-odds-score-prediction-time-2024-nba-playoff-picks-game-3-bets-from-proven-model/",
+                    "14 hours ago"
+                ],
+                [
+                    "New York Post",
+                    "https://nypost.com/2024/04/26/sports/timberwolves-vs-suns-game-3-prediction-nba-playoffs-odds-picks/",
+                    "16 hours ago"
+                ],
+                [
+                    "Covers.com",
+                    "https://www.covers.com/nba/timberwolves-vs-suns-predictions-picks-game-3-tonight-friday-4-26-2024",
+                    "15 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://sportshub.cbsistatic.com/i/r/2024/04/20/6333b3be-cd81-4fd5-a543-b14b6b5b1c5e/thumbnail/1200x675/5d67ef015c02bfa2c103d51ef36b3d1c/usatsi-23073352-towns-durant-2024-wcq-g1-1q-1400.jpg"
+        },
+        {
+            "Title": "Clippers-Mavericks Game 3 Highlights and Insights",
+            "Summary": "Despite lower back soreness, Gafford's crucial block on Paul George was a highlight in the Mavericks' 101-90 Game 3 win over the Clippers, with gameplay showing a defensive battle. Irving, despite a slow start, has been dominant in second halves through the series, contrasting with Doncic's consistent performance. James Harden's silence post-game hides a milestone, surpassing Magic Johnson in career playoff points (NBA.com). A pivotal Game 3 analyzed by SportsLine's Projection Model suggests significant betting insights, emphasizing the close competition between the No. 4 seed Clippers and No. 5 seed Mavericks in the 2024 NBA playoffs (CBS Sports).",
+            "sources": [
+                [
+                    "NBA.com",
+                    "https://www.nba.com/news/clippers-mavericks-5-takeaways-from-dallas-defensive-minded-game-3-victory",
+                    "9 hours ago"
+                ],
+                [
+                    "CBS Sports",
+                    "https://www.cbssports.com/nba/news/mavericks-vs-clippers-odds-score-prediction-time-2024-nba-playoff-picks-game-3-best-bets-by-proven-model/",
+                    "17 hours ago"
+                ]
+            ],
+            "Image Filepath": "https://sportshub.cbsistatic.com/i/r/2024/04/26/faccd487-590d-49af-9a4c-7c4fd261a74d/thumbnail/1200x675/52700cb728b887dd6dc6a8bcf2fc87ab/luka-doncic-dallas-mavericks-usatsi.jpg"
+        }
+    ],
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/Viswa.mp3"
+}

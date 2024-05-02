@@ -1,0 +1,23 @@
+
+
+topics = {
+    "Technology": "CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlnQVAB",
+    "Software": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZ0WmpBU0FtVnVLQUFQAQ",
+    "Cybersecurity": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNREl5ZUY4U0FtVnVLQUFQAQ",
+    "Artificial Intelligence": "CAAqIAgKIhpDQkFTRFFvSEwyMHZNRzFyZWhJQ1pXNG9BQVAB",
+    "Virtual Reality": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGRmYm5rU0FtVnVLQUFQAQ",
+    "Cryptocurrency": "CAAqJAgKIh5DQkFTRUFvS0wyMHZNSFp3YWpSZlloSUNaVzRvQUFQAQ",
+    "Quantum Computing": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFk1YTJRU0FtVnVLQUFQAQ",
+    "Robotics": "CAAqJAgKIh5DQkFTRUFvS0wyMHZNREp3TUhRMVpoSUNaVzRvQUFQAQ",
+    "Google": "CAAqBwgKMOjY3gow0cTWAQ",
+    "Bitcoin": "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFZ3TUhKeWVCSUNaVzRvQUFQAQ",
+    "Business": "CAAqJQgKIh9DQkFTRVFvTEwyY3ZNVEl4YW01eE1XMFNBbVZ1S0FBUAE",
+    "Healthcare": "CAAqIggKIhxDQkFTRHdvSkwyMHZNREZ0ZHpKNEVnSmxiaWdBUAE",
+    "Real estate": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRFpyTVhJU0FtVnVLQUFQAQ",
+    "Housing": "CAAqJAgKIh5DQkFTRUFvS0wyMHZNRFJrYmw5Zk1oSUNaVzRvQUFQAQ",
+    "2024 United States presidential election": "CAAqKAgKIiJDQkFTRXdvTkwyY3ZNVEZ0ZG5CdGFtaDZiQklDWlc0b0FBUAE",
+    "Biden": "CAAqIggKIhxDQkFTRHdvSkwyMHZNREV5WjNneUVnSmxiaWdBUAE",
+    "Donald Trump": "CAAqIggKIhxDQkFTRHdvSkwyMHZNR054ZERrd0VnSmxiaWdBUAE",
+    "US Supreme Court": "CAAqIQgKIhtDQkFTRGdvSUwyMHZNRGR6ZWpFU0FtVnVLQUFQAQ",
+    "Abortion": "CAAqJAgKIh5DQkFTRUFvS0wyMHZNR2MxTkhkeU54SUNaVzRvQUFQAQ"
+}

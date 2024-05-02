@@ -1,0 +1,68 @@
+[
+    {
+        "Title": "Shifting Perspectives and Global Support: Understanding the Dynamics of US Campus Protests",
+        "Summary": "Recent US campus protests highlight a generational shift, with younger Americans showing more support for Palestinians, potentially impacting the Democratic Party and Biden\u2019s re-election chances (Al Jazeera). These protests, lacking the scale of historical movements yet significant, draw comparisons with past student movements and spotlight concerns over economic sanctions and social respect (Vox). Additionally, global reactions, including the backing from an influential Iraqi cleric, underline the international dimension of these demonstrations (France 24). The violent escalation on campuses like Columbia University reflects a contentious atmosphere, with administrations and law enforcement increasingly attempting to suppress these movements (Foreign Policy).",
+        "sources": [
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/news/2024/4/26/generation-gap-what-student-protests-say-about-us-politics-israel-support",
+                "17 hours ago"
+            ],
+            [
+                "Vox",
+                "https://www.vox.com/politics/24141636/campus-protest-columbia-israel-kent-state-history",
+                "4 hours ago"
+            ],
+            [
+                "France 24",
+                "https://www.france24.com/en/live-news/20240427-influential-iraqi-cleric-backs-us-campus-protests",
+                "3 hours ago"
+            ],
+            [
+                "Foreign Policy",
+                "https://foreignpolicy.com/2024/04/26/columbia-university-protests-us-student-demonstrators-israel-palestine-gaza/",
+                "18 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.aljazeera.com/wp-content/uploads/2024/04/2024-04-26T124639Z_912270411_RC2XD7A7BSA9_RTRMADP_3_ISRAEL-PALESTINIANS-BLINKEN-PROTESTS-1714163325.jpg?resize=1920%2C1440"
+    },
+    {
+        "Title": "Fact Checking Claims about Trump's Trial and Public Strategy",
+        "Summary": "A fact check of Trump's courthouse claims reveals misinformation about his trial, highlighting his false statements regarding the extent of his involvement in a Moscow project and the specific speech restrictions imposed by a gag order (CNN). Meanwhile, discussions about Trump's trial strategy indicate it might revolve around embracing negative publicity, as seen through the context of high-profile events and legal challenges facing his associates (Yahoo News Canada). 'Zero evidence' counters Trump's assertions, pointing out that not all legal experts view his case as unfounded, despite his claims (Mediaite).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/27/politics/fact-check-donald-trumps-courthouse-claims-new-york-trial/index.html",
+                "5 hours ago"
+            ],
+            [
+                "Yahoo News Canada",
+                "https://ca.news.yahoo.com/trump-trial-tests-campaign-strategy-100305568.html",
+                "18 hours ago"
+            ],
+            [
+                "Mediaite",
+                "https://www.mediaite.com/tv/zero-evidence-cnn-immediately-fact-checks-trumps-latest-rant-citing-fox-news-legal-analysts/",
+                "17 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/2024-04-25t142307z-474777526-rc2qd7a09hvf-rtrmadp-3-usa-trump-new-york.jpg?c=16x9&q=w_800,c_fill"
+    },
+    {
+        "Title": "Controversy around Gov. Kristi Noem's Book Excerpt",
+        "Summary": "South Dakota Gov. Kristi Noem has sparked media attention for defending an excerpt from her book where she describes killing her 14-month-old dog and a goat, aiming to share 'real, honest, and politically INcorrect stories'. Noem, identified as a potential running mate for Donald Trump, shared these stories as part of her broader narrative. Her actions have been widely discussed across major news outlets (CNN, The Spokesman-Review).",
+        "sources": [
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/26/politics/kristi-noem-south-dakota-book-killing-dog/index.html",
+                "11 hours ago"
+            ],
+            [
+                "The Spokesman-Review",
+                "https://www.spokesman.com/stories/2024/apr/26/wheres-cricket-south-dakota-gov-noem-defends-killi/",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/c-2023-09-09t013221z-782958407-rc2p43ajgb8r-rtrmadp-3-usa-trump.jpg?c=16x9&q=w_800,c_fill"
+    }
+]

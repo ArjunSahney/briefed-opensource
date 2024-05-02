@@ -1,0 +1,112 @@
+[
+    {
+        "Title": "Slovenia Marks WWII Resistance",
+        "Summary": "Slovenia commemorates the Day of Uprising Against Occupation, paying tribute to the resistance against Nazi and Fascist control during World War II (ANSA).",
+        "sources": [
+            [
+                "ANSA",
+                "https://www.ansa.it/nuova_europa/en/news/sections/news/2024/04/27/slovenia-celebrates-wwii-resistance-movement_6da18a8d-1939-4461-b70d-3db782893577.html",
+                "14 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.ansa.it/webimages/img_700/2023/5/6/630e47c88c7ede53e4f3daf696cdf733.jpg"
+    },
+    {
+        "Title": "Global Responses and Protests Related to Israel-Gaza Conflict",
+        "Summary": "Israeli military actions in Gaza resulted in 32 deaths in a single day, marking a significant escalation in the conflict (Al Jazeera). Concurrently, protests at universities against administrations are intensifying, particularly at Columbia University, where a resolution criticized the administration for jeopardizing academic freedom in its handling of demonstrations advocating for Palestine (CNN). These protests are part of a broader movement urging institutions to divest from Israel in response to its treatment of Gaza, aligning with the Boycott, Divest, Sanction (BDS) movement principles active since 2005 (Yahoo News Canada).",
+        "sources": [
+            [
+                "Al Jazeera",
+                "https://www.aljazeera.com/news/liveblog/2024/4/27/israels-war-on-gaza-live-israel-bombards-gaza-as-student-protests-spread",
+                "3 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/business/live-news/columbia-university-palestine-protests-04-26-24/index.html",
+                "11 hours ago"
+            ],
+            [
+                "Yahoo News Canada",
+                "https://ca.news.yahoo.com/pro-palestinian-protesters-urge-universities-175856490.html",
+                "9 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.aljazeera.com/images/logo_aje_social.png"
+    },
+    {
+        "Title": "Recent Political and Security Dynamics in Europe",
+        "Summary": "The Georgian Prime Minister criticized the 'liberal' West and highlighted immigration as a major threat to Europe's national identity at a far-right conference in Budapest, drawing parallel views from Western far-right figures (OC Media). In France, national issues are shaping the European elections discourse, with some viewing it as a precursor to the 2027 presidential race, highlighting domestic political strategies influencing European matters (Yahoo News New Zealand). Meanwhile, the European Parliament faces challenges not from political ideology but from potential espionage threats, underscoring security concerns within European institutions (Yahoo News UK).",
+        "sources": [
+            [
+                "OC Media",
+                "https://oc-media.org/georgian-pm-rails-against-liberal-west-at-far-right-budapest-conference/",
+                "24 hours ago"
+            ],
+            [
+                "Yahoo News New Zealand",
+                "https://nz.news.yahoo.com/european-elections-national-issues-overshadowing-050057637.html",
+                "10 hours ago"
+            ],
+            [
+                "Yahoo News UK",
+                "https://uk.news.yahoo.com/european-parliament-under-threat-espionage-161951751.html",
+                "23 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://oc-media.org/app/uploads/2024/04/5e2da1cee6f652bce1c390c0a6f7529b_georgian-pm-rails-against-liberal-west-at-far-right-budapest-conference-1.jpg"
+    },
+    {
+        "Title": "Key Political and Social News Developments",
+        "Summary": "Recent political and social news highlights include Arizona's grand jury indictments and aid discussions for Israel amidst Gaza protests, marked by pro-Palestinian demonstrations and significant arrests in the U.S. (NPR, KNAU). These protests have extended to university campuses, with ASU seeing arrests for trespassing during pro-Palestinian demonstrations, drawing comments on free speech and peaceful protest rights (The Arizona Republic). Additionally, allegations of ship inspections delaying a flotilla aimed at Gaza have been reported, involving initiatives by U.S. and Palestinian activists (The New Republic).",
+        "sources": [
+            [
+                "NPR",
+                "https://www.npr.org/2024/04/27/1247649185/week-in-politics-arizona-grand-jury-indictments-aid-for-israel-amid-gaza-protest",
+                "3 hours ago"
+            ],
+            [
+                "KNAU",
+                "https://www.knau.org/2024-04-27/week-in-politics-arizona-grand-jury-indictments-aid-for-israel-amid-gaza-protests",
+                "3 hours ago"
+            ],
+            [
+                "The Arizona Republic",
+                "https://www.azcentral.com/story/news/politics/arizona-education/2024/04/26/arizona-state-university-pro-palestinian-demonstrations/73460379007/",
+                "6 hours ago"
+            ],
+            [
+                "The New Republic",
+                "https://newrepublic.com/feeds/168326/breaking-news",
+                "20 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.npr.org/include/images/facebook-default-wide-s1400-c100.jpg"
+    },
+    {
+        "Title": "Biden's Political Rhetoric and Public Engagement",
+        "Summary": "President Biden gears up for humor at the White House Correspondents' Dinner, demonstrating a lighter engagement amidst critical legislative victories, including substantial aid packages (The New York Times, CNN). His rhetoric takes a Trump-like turn with direct taunts, reflecting a strategic persona of strength against his primary political rival (Deccan Herald). Meanwhile, Biden's repeated claim of arrest during civil rights protests remains disputed, as part of broader scrutiny alongside gaffes concerning geopolitical and personal details (Forbes).",
+        "sources": [
+            [
+                "The New York Times",
+                "https://www.nytimes.com/2024/04/27/us/politics/biden-white-house-correspondents-dinner.html",
+                "6 hours ago"
+            ],
+            [
+                "CNN",
+                "https://www.cnn.com/2024/04/27/politics/joe-biden-white-house-correspondents-dinner/index.html",
+                "7 hours ago"
+            ],
+            [
+                "Deccan Herald",
+                "https://www.deccanherald.com/world/biden-embraces-trump-style-taunts-calling-trump-a-loser-2-2997514",
+                "10 hours ago"
+            ],
+            [
+                "Forbes",
+                "https://www.forbes.com/sites/saradorn/2024/04/26/biden-trump-gaffe-tracker-biden-repeats-disputed-claim-he-was-arrested-during-civil-rights-era-protests/",
+                "21 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.cnn.com/api/v1/images/stellar/prod/230429225947-03-white-house-correspondents-dinner-2023-biden.jpg?c=16x9&q=w_800,c_fill"
+    }
+]

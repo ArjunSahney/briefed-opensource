@@ -1,0 +1,77 @@
+[
+    {
+        "Title": "Recent Developments in New Jersey School District and Imperial Oil's Earnings",
+        "Summary": "A New Jersey school district has cut 27 teachers and employees due to economic issues, with allegations of the cuts being retaliatory against supporters of former superintendent Dr. RaShawn Adams (NJ.com). In economic news, Imperial Oil exceeded earnings per share expectations but fell short on revenue in Q1 2024 (MSN).",
+        "sources": [
+            [
+                "NJ.com",
+                "https://www.nj.com/education/2024/04/nj-school-district-cuts-27-teachers-and-employees-due-to-economic-issues.html",
+                "21 hours ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-us/money/markets/imo-stock-earnings-imperial-oil-beats-eps-misses-revenue-for-q1-2024/ar-AA1nJfLG",
+                "21 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.nj.com/resizer/v2/IOBIX7ELABGNLHV4Q3T2QECG6Y.jpg?auth=732bb333dd4fc4928a33c75074527ef7f0a8d449a20dc2cb119ebb4afacd0e58&width=1280&quality=90"
+    },
+    {
+        "Title": "Around Newark: Schools + Taxes + Passover + Congressman Dies",
+        "Summary": "Recent updates from Newark include developments in school operations, tax adjustments, Passover celebrations, and the passing of a congressman (Patch).",
+        "sources": [
+            [
+                "Patch",
+                "https://patch.com/new-jersey/newarknj/around-newark-schools-taxes-passover-congressman-dies",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://patch.com/img/cdn20/users/22844250/20240426/011031/styles/patch_image/public/spotlight2___26131021156.jpg"
+    },
+    {
+        "Title": "Recent Developments in Westwood Schools and AMC Networks",
+        "Summary": "The Westwood schools chief sought a $1M buyout amid retirement controversy, emphasizing significant personnel improvements during her tenure (Bergen Record). Meanwhile, AMC Networks has appointed Kristin Dolan as its new CEO, with her 2023 pay reaching $14.5 million, marking a significant corporate development (AOL.com).",
+        "sources": [
+            [
+                "Bergen Record",
+                "https://www.northjersey.com/story/news/bergen/westwood/2024/04/26/westwood-nj-schools-superintendent-1m-buyout-board/73469407007/",
+                "19 hours ago"
+            ],
+            [
+                "AOL.com",
+                "https://www.aol.com/entertainment/amc-networks-ceo-kristin-dolan-134235033.html",
+                "19 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.northjersey.com/gcdn/authoring/authoring-images/2024/04/26/PNJM/73469832007-jill-mortimer.jpg?crop=4031,2269,x0,y377&width=3200&height=1802&format=pjpg&auto=webp"
+    },
+    {
+        "Title": "Recent Developments in Springfield: School Committee Meeting Walkout and Arbor Day Celebration",
+        "Summary": "During the latest Springfield school committee meeting, a significant walkout occurred, fueled by concerns over transparency in the superintendent search process, particularly involving the inability to review all completed applications. The controversy stems from worries that limiting the candidate pool could lead to legal issues and send a negative message, echoing problems seen in other western Massachusetts school districts (WAMC). Concurrently, Springfield marked Arbor Day with festivities at Washington School, celebrating community and environmental stewardship, although specific details of the event were not elaborated (MSN).",
+        "sources": [
+            [
+                "WAMC",
+                "https://www.wamc.org/news/2024-04-26/walkout-mars-latest-school-committee-meeting-in-springfield-amid-superintendent-search",
+                "16 hours ago"
+            ],
+            [
+                "MSN",
+                "https://www.msn.com/en-us/news/us/city-of-springfield-celebrates-arbor-day-with-washington-school/ar-AA1nIE19",
+                "21 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://npr.brightspotcdn.com/dims4/default/1ec01e8/2147483647/strip/true/crop/1390x730+190+0/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2F4b%2F59%2F7edb9324487bbeb2ac1cee605b86%2Fschool-committee-gonzalez-4-25-24.jpg"
+    },
+    {
+        "Title": "Taos Schools Appoints New Superintendent",
+        "Summary": "Taos Schools has appointed a new superintendent with a diverse background in education, having worked across several school districts in southern Texas, and holding previous principal positions at La Villa and Harlingen Consolidated Independent School Districts (Santa Fe New Mexican).",
+        "sources": [
+            [
+                "Santa Fe New Mexican",
+                "https://www.santafenewmexican.com/news/local_news/taos-schools-hires-new-superintendent/article_f66a844c-034d-11ef-ada0-e37eb5353728.html",
+                "16 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://bloximages.newyork1.vip.townnews.com/santafenewmexican.com/content/tncms/assets/v3/editorial/5/be/5be3ac58-034f-11ef-a97f-9f39106d4154/662ad2c95c362.image.jpg?crop=993%2C521%2C0%2C488&resize=993%2C521&order=crop%2Cresize"
+    }
+]
