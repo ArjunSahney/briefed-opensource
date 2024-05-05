@@ -5,9 +5,45 @@ from http.client import RemoteDisconnected
 import requests
 from requests.exceptions import ConnectionError, Timeout, RequestException
 import time # debugging latency
+import numpy as np
 
 # Load the pre-trained spaCy model
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en_core_web_md")
+
+def calculate_similarity(text1, text2):
+    """
+    Calculate the similarity between two texts using spaCy.
+
+    Parameters:
+        text1 (str): The first text to compare.
+        text2 (str): The second text to compare.
+
+    Returns:
+        float: The similarity score between the two texts, ranging from 0 to 1.
+    """
+    if __debug__:
+        start_time = time.time()
+    # Process the texts
+    doc1 = nlp(text1)
+    doc2 = nlp(text2)
+
+    # Compute the similarity between two documents
+    similarity = doc1.similarity(doc2)
+    if __debug__:
+        end_time = time.time()
+        duration = end_time - start_time
+        print(f"spaCy similarity: {duration} seconds")
+    return similarity
+
+def compute_vector(title):
+    """Takes a title (str) and returns vector representation"""
+    return nlp(title).vector
+
+def cosine_similarity(vec1, vec2):
+    """Compute the cosine similarity between two vectors."""
+    dot_product = np.dot(vec1, vec2)
+    norm_product = np.linalg.norm(vec1) * np.linalg.norm(vec2)
+    return dot_product / norm_product if norm_product else 0.0
 
 def get_text_beautifulSoup(url):
     """Basic html parser, low latency: ~.2s
@@ -127,3 +163,7 @@ def get_spaCy_article_summary(url, ratio=0.1, max_words=None):
         duration = end_time - start_time
         print(f"spaCy summarizer: {duration} seconds")
     return summary
+
+
+# Testing
+

@@ -1,112 +1,426 @@
-[
+{
+    "Biden faces new Democratic pressure to rein in Israel": [
         {
-            "position": 1,
-            "title": "The Inside Story - Politics, US Aid and War | Episode 141 TRANSCRIPT",
-            "link": "https://www.voanews.com/a/7585299.html",
-            "domain": "www.voanews.com",
-            "source": "Voice of America",
-            "date": "3 hours ago",
-            "date_utc": "2024-04-25T20:01:59.227Z",
-            "snippet": "Transcript: The Inside Story: Politics, US Aid, and War Episode 141 \u2013 April 25, 2024 Show Open: Unidentified Narrator: This week on The Inside Story.",
-            "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAY1BMVEU6ebcKW5ZjnNw7ergzdrb29O8ncbSCosmPq8w3d7YvdrZEf7pJgbsib7Po6er39PGnvdW3xtkRXppKhsUhZ6NVkM9Egb8jbKsAV5SHosB4nMZXiLwAUZHL1N1djb9zlLY9cKFhHf4AAAAAiUlEQVQYlV3OYROCIAwG4BFTIBQkItHU+v+/MsYu6drxZc+9G4ObhG/FSykQpgnD/QSTKoiWeDDMCIilRTQV8qJ6paXBVT8jwbb7qz/sMDofsCZefgq262xwDhPtEM4xTF5Fgi14Nw72KJN7XxPvZUUjNe3GRJAz/0ovEoif8yVDOx8YBPzDfEY+ULUGBZGjuLoAAAAASUVORK5CYII"
+            "title": "Biden faces new Democratic pressure to rein in Israel",
+            "link": "https://www.axios.com/2024/05/03/biden-house-democrats-israel-gaza",
+            "source": "Axios",
+            "date": "4 hours ago",
+            "snippet": "A group of nearly 90 House Democrats is urging President Biden to consider halting sales of offensive weaponry to Israel over concerns about continued..."
         },
         {
-            "position": 2,
-            "title": "America will never return to harmony while the Left dominates",
-            "link": "https://www.telegraph.co.uk/us/comment/2024/04/25/joe-biden-summer-lee-democratic-convention-israel-hamas/",
-            "domain": "www.telegraph.co.uk",
-            "source": "The Telegraph",
-            "date": "7 hours ago",
-            "date_utc": "2024-04-25T16:01:59.231Z",
-            "snippet": "The quintessential swing state, Pennsylvania has voted for the winner of almost every presidential election over the past 50 years. The only exceptions have...",
-            "thumbnail": "data:image/jpeg;base64,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"
+            "title": "US House Democrats urge Biden to push Israel on war conduct, mull halting arms sales",
+            "link": "https://www.timesofisrael.com/us-house-democrats-urge-biden-to-push-israel-on-war-conduct-mull-halting-arms-sales/",
+            "source": "The Times of Israel",
+            "date": "16 hours ago",
+            "snippet": "WASHINGTON \u2014 Scores of Democrats in the United States House of Representatives on Friday urged US President Joe Biden to consider halting arms sales to..."
         },
         {
-            "position": 3,
-            "title": "Blinken calls on the US and China to manage their differences \"responsibly\"",
-            "link": "https://www.atalayar.com/en/articulo/politics/blinken-calls-on-the-us-and-china-to-manage-their-differences-responsibly/20240425190000199335.html",
-            "domain": "www.atalayar.com",
-            "source": "Atalayar",
-            "date": "6 hours ago",
-            "date_utc": "2024-04-25T17:01:59.232Z",
-            "snippet": "The US secretary of state has visited China for the second time in less than a year.",
-            "thumbnail": "data:image/jpeg;base64,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"
+            "title": "House Democrats urge Biden to lean harder on Israel",
+            "link": "https://www.tehrantimes.com/news/498013/House-Democrats-urge-Biden-to-lean-harder-on-Israel",
+            "source": "Tehran Times",
+            "date": "9 hours ago",
+            "snippet": "Scores of Democrats in the United States House of Representatives urged President Joe Biden to consider halting arms sales to Israel if it does not alter..."
         },
         {
-            "position": 4,
-            "title": "In Ukraine, New American Technology Won the Day. Until It Was Overwhelmed.",
-            "link": "https://www.nytimes.com/2024/04/23/us/politics/ukraine-new-american-technology.html",
-            "domain": "www.nytimes.com",
-            "source": "The New York Times",
-            "date": "5 hours ago",
-            "date_utc": "2024-04-25T18:01:59.234Z",
-            "snippet": "Project Maven was meant to revolutionize modern warfare. But the conflict in Ukraine has underscored how difficult it is to get 21st-century data into...",
-            "thumbnail": "data:image/jpeg;base64,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"
-        },
-        {
-            "position": 5,
-            "title": "\u2018Waiting for Trump\u2019: Viktor Orb\u00e1n hopes US election will change his political fortunes",
-            "link": "https://www.theguardian.com/world/2024/apr/25/waiting-for-trump-viktor-orban-hopes-us-election-will-change-his-political-fortunes",
-            "domain": "www.theguardian.com",
-            "source": "The Guardian",
-            "date": "19 hours ago",
-            "date_utc": "2024-04-25T04:01:59.239Z",
-            "snippet": "Exclusive: Hungary's PM and EU's most isolated leader says he is pursuing 'friendship with everybody' \u2013 particularly the former US president.",
-            "thumbnail": "data:image/jpeg;base64,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"
-        },
-        {
-            "position": 6,
-            "title": "Trump's last stand on immunity plea; Arizona charges \u201cfake electors\u201d",
-            "link": "https://www.economist.com/in-brief/2024/04/25/trumps-last-stand-on-immunity-plea-arizona-charges-fake-electors",
-            "domain": "www.economist.com",
-            "source": "The Economist",
+            "title": "Israel continues Gaza assault amid Cairo truce talks",
+            "link": "https://www.newarab.com/news/israel-continues-gaza-assault-amid-cairo-truce-talks?amp",
+            "source": "The New Arab",
             "date": "18 hours ago",
-            "date_utc": "2024-04-25T05:01:59.242Z",
-            "snippet": "Our daily political update, featuring the stories that matter | In brief.",
-            "thumbnail": "data:image/jpeg;base64,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"
+            "snippet": "A Hamas delegation has arrived in Egypt to continue Gaza truce talks as Israel continues its assault on the Palestinian enclave."
         },
         {
-            "position": 7,
-            "title": "Election 2024 latest news on the presidential race",
-            "link": "https://www.washingtonpost.com/politics/2024/04/25/election-2024-campaign-updates/",
-            "domain": "www.washingtonpost.com",
-            "source": "Washington Post",
+            "title": "House Democrats Urge Biden To Lean Harder On Israel",
+            "link": "https://www.barrons.com/amp/news/house-democrats-urge-biden-to-lean-harder-on-israel-9e3d3097",
+            "source": "Barron's",
+            "date": "23 hours ago",
+            "snippet": "Scores of Democrats in the US House on Friday urged President Joe Biden to consider halting arms sales to Israel if it does not alter the conduct of its war..."
+        },
+        {
+            "title": "US House Democrats Urge Biden To Lean Harder On Israel Amid Gaza Violence - WE News",
+            "link": "https://en.wenews.pk/us-house-democrats-urge-biden-to-lean-harder-on-israel-amid-gaza-violence/",
+            "source": "WE News",
+            "date": "14 hours ago",
+            "snippet": "WASHINGTON: Scores of Democrats in the US House of Representatives on Friday urged President Joe Biden to consider halting arms sales to Israel if it does..."
+        },
+        {
+            "title": "Dozens of Democrats call on Biden to reconsider Israel support, accusing it of blocking of humanitarian aid to Gaza",
+            "link": "https://ca.news.yahoo.com/dozens-democrats-call-biden-reconsider-185821384.html",
+            "source": "Yahoo News Canada",
+            "date": "8 hours ago",
+            "snippet": "A large group of Congress members is calling on the Biden administration to reconsider its aid to Israel, arguing there's a credible case that the US..."
+        },
+        {
+            "title": "War on Gaza - War on Gaza",
+            "link": "https://english.ahram.org.eg/Category/58/1262/War-on-Gaza/-House-Democrats-urge-Biden-to-lean-hard.aspx",
+            "source": "Ahram Online",
+            "date": "13 hours ago",
+            "snippet": "UNESCO on Thursday awarded its world press freedom prize to all Palestinian journalists covering Israel's months-long war on Gaza, now nearing its seventh..."
+        },
+        {
+            "title": "Democrats urge Biden to leverage weapon supplies to 'Israel' for aid",
+            "link": "https://english.almayadeen.net/news/politics/democrats-urge-biden-to-leverage-weapon-supplies-to--israel",
+            "source": "Al Mayadeen English",
+            "date": "21 hours ago",
+            "snippet": "Multiple Democrat lawmakers in the United States House of Representatives urged President Joe Biden to consider halting arms sales to the Israeli regime if..."
+        },
+        {
+            "title": "Democratic lawmakers tell Biden evidence shows Israel is restricting Gaza aid",
+            "link": "https://in-cyprus.philenews.com/international/democratic-lawmakers-tell-biden-evidence-shows-israel-is-restricting-gaza-aid/",
+            "source": "Philenews",
+            "date": "20 hours ago",
+            "snippet": "Scores of lawmakers from U.S. President Joe Biden's Democratic Party told him on Friday that they believe there is sufficient evidence to show that Israel..."
+        },
+        "Biden Israel House Democrats"
+    ],
+    "US House Democrats urge Biden to push Israel on war conduct, mull halting arms sales": [
+        {
+            "title": "US House Democrats urge Biden to push Israel on war conduct, mull halting arms sales",
+            "link": "https://www.timesofisrael.com/us-house-democrats-urge-biden-to-push-israel-on-war-conduct-mull-halting-arms-sales/",
+            "source": "The Times of Israel",
+            "date": "16 hours ago",
+            "snippet": "WASHINGTON \u2014 Scores of Democrats in the United States House of Representatives on Friday urged US President Joe Biden to consider halting arms sales to..."
+        },
+        {
+            "title": "Biden faces new Democratic pressure to rein in Israel",
+            "link": "https://www.axios.com/2024/05/03/biden-house-democrats-israel-gaza",
+            "source": "Axios",
+            "date": "4 hours ago",
+            "snippet": "A group of House Democrats said there's \"sufficient evidence\" for Biden to consider halting weapons sales."
+        },
+        {
+            "title": "House Democrats urge Biden to lean harder on Israel",
+            "link": "https://www.tehrantimes.com/news/498013/House-Democrats-urge-Biden-to-lean-harder-on-Israel",
+            "source": "Tehran Times",
+            "date": "9 hours ago",
+            "snippet": "Scores of Democrats in the United States House of Representatives urged President Joe Biden to consider halting arms sales to Israel if it does not alter..."
+        },
+        {
+            "title": "Israel continues Gaza assault amid Cairo truce talks",
+            "link": "https://www.newarab.com/news/israel-continues-gaza-assault-amid-cairo-truce-talks?amp",
+            "source": "The New Arab",
+            "date": "18 hours ago",
+            "snippet": "A Hamas delegation has arrived in Egypt to continue Gaza truce talks as Israel continues its assault on the Palestinian enclave."
+        },
+        {
+            "title": "House Democrats Urge Biden To Lean Harder On Israel",
+            "link": "https://www.barrons.com/amp/news/house-democrats-urge-biden-to-lean-harder-on-israel-9e3d3097",
+            "source": "Barron's",
+            "date": "23 hours ago",
+            "snippet": "Scores of Democrats in the US House on Friday urged President Joe Biden to consider halting arms sales to Israel if it does not alter the conduct of its war..."
+        },
+        {
+            "title": "US House Democrats Urge Biden To Lean Harder On Israel Amid Gaza Violence - WE News",
+            "link": "https://en.wenews.pk/us-house-democrats-urge-biden-to-lean-harder-on-israel-amid-gaza-violence/",
+            "source": "WE News",
+            "date": "14 hours ago",
+            "snippet": "WASHINGTON: Scores of Democrats in the US House of Representatives on Friday urged President Joe Biden to consider halting arms sales to Israel if it does..."
+        },
+        {
+            "title": "Dozens of Democrats call on Biden to reconsider Israel support, accusing it of blocking of humanitarian aid to Gaza",
+            "link": "https://ca.news.yahoo.com/dozens-democrats-call-biden-reconsider-185821384.html",
+            "source": "Yahoo News Canada",
+            "date": "8 hours ago",
+            "snippet": "A large group of Congress members is calling on the Biden administration to reconsider its aid to Israel, arguing there's a credible case that the US..."
+        },
+        {
+            "title": "Democrats urge Biden to leverage weapon supplies to 'Israel' for aid",
+            "link": "https://english.almayadeen.net/news/politics/democrats-urge-biden-to-leverage-weapon-supplies-to--israel",
+            "source": "Al Mayadeen English",
+            "date": "21 hours ago",
+            "snippet": "Multiple Democrat lawmakers in the United States House of Representatives urged President Joe Biden to consider halting arms sales to the Israeli regime if..."
+        },
+        {
+            "title": "The Jewish vote is up for grabs, and it may decide the election - JNS.org",
+            "link": "https://www.jns.org/the-jewish-vote-is-up-for-grabs-and-it-may-decide-the-election/",
+            "source": "JNS.org",
             "date": "5 hours ago",
-            "date_utc": "2024-04-25T18:01:59.260Z",
-            "snippet": "Live updates from the 2024 campaign trail with the latest news on presidential candidates, polls, primaries and more.",
-            "thumbnail": "data:image/jpeg;base64,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"
+            "snippet": "A few weeks ago, a sermon by Reform Rabbi Ammiel Hirsch, the senior rabbi at the Steven Wise Free Synagogue in New York, shocked millions from that city to..."
         },
         {
-            "position": 8,
-            "title": "A Nobel Prize Winner Dissects American Economics and Politics",
-            "link": "https://nextbigideaclub.com/magazine/nobel-prize-winner-dissects-american-economics-politics-bookbite/49022/",
-            "domain": "nextbigideaclub.com",
-            "source": "Next Big Idea Club",
-            "date": "7 hours ago",
-            "date_utc": "2024-04-25T16:01:59.263Z",
-            "snippet": "Author Joseph Stiglitz shares 5 key insights from his new book, The Road to Freedom: Economics and the Good Society.",
-            "thumbnail": "data:image/jpeg;base64,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"
+            "title": "Democratic lawmakers tell Biden evidence shows Israel is restricting Gaza aid",
+            "link": "https://in-cyprus.philenews.com/international/democratic-lawmakers-tell-biden-evidence-shows-israel-is-restricting-gaza-aid/",
+            "source": "Philenews",
+            "date": "20 hours ago",
+            "snippet": "Scores of lawmakers from U.S. President Joe Biden's Democratic Party told him on Friday that they believe there is sufficient evidence to show that Israel..."
+        },
+        "US House Democrats Joe Biden Israel"
+    ],
+    "For Biden, This Moment Is Bigger Than Gaza": [
+        {
+            "title": "For Biden, This Moment Is Bigger Than Gaza",
+            "link": "https://time.com/6974694/biden-israel-gaza-protests/",
+            "source": "Time Magazine",
+            "date": "16 hours ago",
+            "snippet": "Amid bruising college protests, Biden's Israel policy isn't changing, White House officials say. Biden sees it as key to avoiding a wider MIddle East war."
         },
         {
-            "position": 9,
-            "title": "\u2018Un-American\u2019 and \u2018absurd\u2019? Why the Supreme Court didn\u2019t dismiss Trump\u2019s immunity claim",
-            "link": "https://edition.cnn.com/videos/politics/2024/04/25/president-immunity-trump-supreme-court-case-orig.cnn",
-            "domain": "edition.cnn.com",
-            "source": "CNN",
+            "title": "Israel-Gaza Briefing: Pro-Palestinian protests heap pressure on Biden from left and right",
+            "link": "https://www.bbc.com/news/articles/c2le9yzd1p2o",
+            "source": "BBC",
+            "date": "14 hours ago",
+            "snippet": "Joe Biden is caught between students demanding peace, and Americans concerned the unrest is disrupting education."
+        },
+        {
+            "title": "As Biden confronts campus protests; Trump outlines authoritarian plans",
+            "link": "https://www.washingtonpost.com/politics/2024/05/04/biden-trump-campaign-issues/",
+            "source": "Washington Post",
             "date": "10 hours ago",
-            "date_utc": "2024-04-25T13:01:59.265Z",
-            "snippet": "CNN's Senior Supreme Court analyst Joan Biskupic explains why the Supreme Court is seriously considering former President Donald Trump's argument of \u201ctotal...",
-            "thumbnail": "data:image/jpeg;base64,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"
+            "snippet": "The current president had weighty foreign policy issues on his plate, while the former described in detail his authoritarian plans if reelected."
         },
         {
-            "position": 10,
-            "title": "Can a Good War Movie Be Anti-War?",
-            "link": "https://whowhatwhy.org/politics/us-politics/can-a-good-war-movie-be-anti-war/",
-            "domain": "whowhatwhy.org",
-            "source": "WhoWhatWhy",
+            "title": "Why Rep. Jerry Nadler Led the Doomed Fight Against an Antisemitism Bill - POLITICO",
+            "link": "https://www.politico.com/news/magazine/2024/05/04/jerry-nadler-antisemitism-bill-00156105",
+            "source": "Politico",
+            "date": "16 hours ago",
+            "snippet": "Chaos at Columbia University; a fierce debate over antisemitism in Congress; and a major push for a cease-fire between Hamas and Israel."
+        },
+        {
+            "title": "Biden tries threading the needle on campus protests, war",
+            "link": "https://www.axios.com/2024/05/03/biden-campus-protests-palestinians-speech",
+            "source": "Axios",
+            "date": "21 hours ago",
+            "snippet": "For two weeks, President Biden kept his distance from the pro-Palestinian protests roiling college campuses, devoting far more time to Israel-Hamas hostage..."
+        },
+        {
+            "title": "FO\u00b0 Exclusive: Conflict in the Middle East Is Now Dangerous",
+            "link": "https://www.fairobserver.com/video/fo-exclusive-conflict-in-the-middle-east-is-now-dangerous/",
+            "source": "Fair Observer",
+            "date": "17 hours ago",
+            "snippet": "Iran has struck Israel directly for the first time and made a point. Israel has struck back, but both sides are now dialing down their rhetoric."
+        },
+        {
+            "title": "Biden bets on the middle with campus protests",
+            "link": "https://thehill.com/homenews/administration/4641991-biden-bets-on-the-middle-with-campus-protests/",
+            "source": "The Hill",
+            "date": "17 hours ago",
+            "snippet": "President Biden believes the broad middle of the country is behind his approach to the protests, even as Republicans go say he's done too little to curtail..."
+        },
+        {
+            "title": "How electronic warfare is affecting civilians and aviation",
+            "link": "https://abcnews.go.com/US/electronic-warfare-affecting-civilians-aviation/story?id=109895516",
+            "source": "ABC News - Breaking News, Latest News and Videos",
+            "date": "15 hours ago",
+            "snippet": "A commercial flight in the Middle East was accidentally GPS spoofed. ByKerem Inal. May 4, 2024, 4:32 AM. 1:19. International headlines from ABC News."
+        },
+        {
+            "title": "Biden bets on the middle with campus protests",
+            "link": "https://www.aol.com/news/biden-bets-middle-campus-protests-100000736.html",
+            "source": "AOL.com",
+            "date": "13 hours ago",
+            "snippet": "President Biden is betting on the middle. Biden, a centrist Democrat who defeated several more progressive rivals in the 2020 primary, this week offered..."
+        },
+        {
+            "title": "Biden's Middle East Posture Courts Insanity and Endangers U.S. Troops",
+            "link": "https://www.theamericanconservative.com/bidens-middle-east-posture-courts-insanity-and-endangers-u-s-troops/",
+            "source": "The American Conservative",
+            "date": "23 hours ago",
+            "snippet": "An Israeli\u2013Iranian spat can easily become something much larger\u2014and Americans will bear the brunt of it."
+        },
+        "Biden Israel policy Middle East war"
+    ],
+    "India, Japan dismiss Biden\u2019s \u2018xenophobic\u2019 comment": [
+        {
+            "title": "Japan calls Biden 'xenophobic' comments 'unfortunate'",
+            "link": "https://www.bbc.com/news/world-us-canada-68955413",
+            "source": "BBC",
+            "date": "7 hours ago",
+            "snippet": "The US President called Japan, China, India and Russia \"xenophobic\" because they did not welcome immigration."
+        },
+        {
+            "title": "India, Japan dismiss Biden\u2019s \u2018xenophobic\u2019 comment",
+            "link": "https://www.aljazeera.com/news/2024/5/4/india-japan-dismiss-bidens-xenophobic-comment",
+            "source": "Al Jazeera",
+            "date": "16 hours ago",
+            "snippet": "India and Japan have rejected President Joe Biden's remarks calling the US allies \u201cxenophobic\u201d countries who do not welcome immigrants, and grouping the two..."
+        },
+        {
+            "title": "Japan and India reject Biden's comments describing them as xenophobic countries",
+            "link": "https://abcnews.go.com/International/wireStory/japan-india-reject-bidens-comments-describing-xenophobic-countries-109930972",
+            "source": "ABC News - Breaking News, Latest News and Videos",
+            "date": "7 hours ago",
+            "snippet": "Japan and India have decried remarks by U.S. President Joe Biden describing them as \u201cxenophobic\u201d countries that do not welcome immigrants while he was..."
+        },
+        {
+            "title": "Japan says Biden's description of nation as xenophobic is 'unfortunate'",
+            "link": "https://www.japantimes.co.jp/news/2024/05/04/japan/politics/tokyo-biden-xenophobia-response/",
+            "source": "The Japan Times",
+            "date": "22 hours ago",
+            "snippet": "Japan hit back Saturday at U.S. President Joe Biden's comments about the Asian ally being \"xenophobic\" like China and Russia, calling the characterization..."
+        },
+        {
+            "title": "India, Japan hit back at Biden for 'xenophobic' remark",
+            "link": "https://www.newagebd.net/post/south-asia/234376/india-japan-hit-back-at-biden-for-xenophobic-remark",
+            "source": "newagebd",
+            "date": "7 hours ago",
+            "snippet": "India is not xenophobic, the country's foreign minister has insisted, after comments by US President Joe Biden suggesting the South Asian nation and fellow..."
+        },
+        {
+            "title": "Japan and India reject Biden's comments describing them as xenophobic countries",
+            "link": "https://ca.news.yahoo.com/japan-india-reject-bidens-comments-191001996.html",
+            "source": "Yahoo News Canada",
+            "date": "8 hours ago",
+            "snippet": "Japan and India on Saturday decried remarks by U.S. President Joe Biden describing them as \u201cxenophobic\u201d countries that do not welcome immigrants,..."
+        },
+        {
+            "title": "'India always open, welcoming': Jaishankar refute...",
+            "link": "https://en.somoynews.tv/news/2024-05-04/india-always-open-welcoming-jaishankar-refutes-biden-s-xenophobic-remark",
+            "source": "Somoy News",
+            "date": "10 hours ago",
+            "snippet": "India's External Affairs Minister (EAM) S Jaishankar has rebutted US President Joe Biden's remarks that 'xenophobia' was hindering India's economic p..."
+        },
+        {
+            "title": "Japan And India Reject Biden's Remarks Describing Them As Xenophobic Nations Around The World",
+            "link": "https://en.news4social.com/world/japan-and-india-reject-bidenx27s-remarks-describing-them-as-xenophobic-nations-around-the-world/",
+            "source": "News 4 Social",
+            "date": "7 hours ago",
+            "snippet": "TOKYO -- Japan and India on Saturday decried remarks by U.S. President Joe Biden describing them as \u201cxenophobic\u201d countries that do not welcome immigrants,"
+        },
+        "India Japan relations Joe Biden remarks US allies xenophobic"
+    ],
+    "India not xenophobic, FM says after Biden remark": [
+        {
+            "title": "India, Japan dismiss Biden\u2019s \u2018xenophobic\u2019 comment",
+            "link": "https://www.aljazeera.com/news/2024/5/4/india-japan-dismiss-bidens-xenophobic-comment",
+            "source": "Al Jazeera",
+            "date": "16 hours ago",
+            "snippet": "India and Japan have rejected President Joe Biden's remarks calling the US allies \u201cxenophobic\u201d countries who do not welcome immigrants, and grouping the two..."
+        },
+        {
+            "title": "Japan calls Biden 'xenophobic' comments 'unfortunate'",
+            "link": "https://www.bbc.com/news/world-us-canada-68955413",
+            "source": "BBC",
+            "date": "7 hours ago",
+            "snippet": "The US President called Japan, China, India and Russia \"xenophobic\" because they did not welcome immigration."
+        },
+        {
+            "title": "Japan and India reject Biden's comments describing them as xenophobic countries",
+            "link": "https://abcnews.go.com/International/wireStory/japan-india-reject-bidens-comments-describing-xenophobic-countries-109930972",
+            "source": "ABC News - Breaking News, Latest News and Videos",
+            "date": "7 hours ago",
+            "snippet": "Japan and India have decried remarks by U.S. President Joe Biden describing them as \u201cxenophobic\u201d countries that do not welcome immigrants while he was..."
+        },
+        {
+            "title": "'Our economy is not faltering': Jaishankar rejects Biden\u2019s 'xenophobic' remark on India",
+            "link": "https://www.businesstoday.in/india/story/our-economy-is-not-faltering-jaishankar-rejects-bidens-xenophobic-remark-on-india-428273-2024-05-04",
+            "source": "Business Today",
+            "date": "19 hours ago",
+            "snippet": "India is always\u2026 India has been a very unique country\u2026 I would say actually, in the history of the world, that it's been a society which has been very open\u2026"
+        },
+        {
+            "title": "\u2018India is open & welcoming\u2019: EAM rebuts Biden\u2019s \u2018xenophobic\u2019 remark",
+            "link": "https://timesofindia.indiatimes.com/india/india-is-open-welcoming-eam-rebuts-bidens-xenophobic-remark/articleshow/109846775.cms",
+            "source": "Times of India",
+            "date": "4 hours ago",
+            "snippet": "NEW DELHI: External affairs minister S Jaishankar has rejected recent remarks by US Prez Joe Biden describing India as \u201cxenophobic\u201d and emphasised that the..."
+        },
+        {
+            "title": "News on AIR",
+            "link": "https://www.newsonair.gov.in/eam-dr-jaishankar-refutes-bidens-claim-that-xenophobia-was-hindering-indias-economy/",
+            "source": "News on AIR",
+            "date": "12 hours ago",
+            "snippet": "External Affairs Minister Dr S Jaishankar has refuted US President Joe Biden's claim that xenophobia was hindering India's economy."
+        },
+        {
+            "title": "New Delhi rejects US president's remarks that India is 'xenophobic'",
+            "link": "https://www.pna.gov.ph/articles/1224056",
+            "source": "Philippine News Agency",
+            "date": "1 hour ago",
+            "snippet": "NEW DELHI \u2013 India on Saturday dismissed recent remarks by US President Joe Biden, who called India and other Asian nations \"xenophobic."
+        },
+        {
+            "title": "India Is Not Xenophobic: EAM S Jaishankar Dismisses Joe Biden's Comment | US News | News18",
+            "link": "https://www.news18.com/videos/world/india-is-not-xenophobic-eam-s-jaishankar-dismisses-joe-biden-s-comment-us-news-news18-8877988.html",
+            "source": "News18",
+            "date": "4 hours ago",
+            "snippet": "Indian foreign minister S Jaishankar dismissed US President Joe Biden's comment that xenophobia was hobbling the South Asian nation's economic growth."
+        },
+        {
+            "title": "'India open & welcoming': Jaishankar rejects US President Joe Biden's 'xenophobic' remarks",
+            "link": "https://www.moneycontrol.com/news/india/india-open-welcoming-jaishankar-rejects-us-president-joe-bidens-xenophobic-remarks-12714462.html",
+            "source": "Moneycontrol",
+            "date": "17 hours ago",
+            "snippet": "'India open & welcoming': Jaishankar rejects US President Joe Biden's 'xenophobic' remarks. Jaishankar also refuted the allegation that the Indian economy..."
+        },
+        {
+            "title": "Japan, India criticize Biden for labeling them as xenophobic",
+            "link": "https://www.presstv.ir/Detail/2024/05/04/724925/US-Biden-Japan-India-immigrants-Xenophobic-China-Russia",
+            "source": "PressTV",
+            "date": "15 hours ago",
+            "snippet": "Saturday, 04 May 2024 11:21 AM [ Last Update: Saturday, 04 May 2024 11:21 AM ]. US President Joe Biden. Japan and India have criticized US President Joe..."
+        },
+        "India US Joe Biden"
+    ],
+    "Japan calls Biden 'xenophobic' comments 'unfortunate'": [
+        {
+            "title": "Japan and India reject Biden's comments describing them as xenophobic countries",
+            "link": "https://abcnews.go.com/International/wireStory/japan-india-reject-bidens-comments-describing-xenophobic-countries-109930972",
+            "source": "ABC News - Breaking News, Latest News and Videos",
+            "date": "7 hours ago",
+            "snippet": "Japan and India have decried remarks by U.S. President Joe Biden describing them as \u201cxenophobic\u201d countries that do not welcome immigrants while he was..."
+        },
+        {
+            "title": "Japan calls Biden 'xenophobic' comments 'unfortunate'",
+            "link": "https://www.bbc.com/news/world-us-canada-68955413",
+            "source": "BBC",
+            "date": "7 hours ago",
+            "snippet": "The labelling of Japan as \"xenophobic\" by Joe Biden was \"unfortunate\" and \"not based on an accurate\" understanding of the country, Japan's US embassy says."
+        },
+        {
+            "title": "India, Japan dismiss Biden\u2019s \u2018xenophobic\u2019 comment",
+            "link": "https://www.aljazeera.com/news/2024/5/4/india-japan-dismiss-bidens-xenophobic-comment",
+            "source": "Al Jazeera",
+            "date": "16 hours ago",
+            "snippet": "India and Japan have rejected President Joe Biden's remarks calling the US allies \u201cxenophobic\u201d countries who do not welcome immigrants, and grouping the two..."
+        },
+        {
+            "title": "Japanese government responds to Biden claim that Japan is 'xenophobic': 'Unfortunate'",
+            "link": "https://www.foxnews.com/politics/japanese-government-responds-biden-claim-japan-xenophobic-unfortunate",
+            "source": "Fox News",
+            "date": "15 hours ago",
+            "snippet": "Japanese government officials with the embassy in Washington, DC told Fox News Digital that President Biden's comments were \"not based on an accurate..."
+        },
+        {
+            "title": "Japan disappointed by Biden's \"xenophobic\" comments",
+            "link": "https://english.kyodonews.net/news/2024/05/14d6da84e84d-japan-disappointed-by-bidens-xenophobic-comments.html",
+            "source": "Kyodo News+ | Japan's leading news agency.",
+            "date": "19 hours ago",
+            "snippet": "Japan has told the United States that President Joe Biden's recent remarks describing the Asian nation as \"xenophobic\" were disappointing, a source close to..."
+        },
+        {
+            "title": "'Gaffe machine' Biden makes a new one. Do candidate gaffes matter?",
+            "link": "https://www.usatoday.com/story/news/politics/elections/2024/05/04/candidate-gaffes-biden-trump/73558036007/",
+            "source": "USA Today",
+            "date": "17 hours ago",
+            "snippet": "WASHINGTON \u2212 At a campaign fundraiser organized and attended largely by Asian American donors and lawmakers on Wednesday, President Joe Biden described..."
+        },
+        {
+            "title": "Joe Biden's Japanese Diplomacy - WSJ",
+            "link": "https://www.wsj.com/articles/joe-biden-japan-xenophobic-immigration-6a5a1d60",
+            "source": "WSJ",
+            "date": "15 hours ago",
+            "snippet": "The President says our most important allies in the Pacific are 'xenophobic.' Discuss."
+        },
+        {
+            "title": "India not xenophobic, FM says after Biden remark",
+            "link": "https://www.newarab.com/news/india-not-xenophobic-fm-says-after-biden-remark",
+            "source": "The New Arab",
             "date": "6 hours ago",
-            "date_utc": "2024-04-25T17:01:59.267Z",
-            "snippet": "Alex Garland's 'Civil War' chooses beauty and cool. We have to accept the consequences for democracy.",
-            "thumbnail": "data:image/jpeg;base64,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"
-        }
+            "snippet": "India on Saturday decried remarks by US President Joe Biden earlier this week describing it as an \u201cxenophobic\u201d country that does not welcome immigrants."
+        },
+        {
+            "title": "Japan says Biden's description of nation as xenophobic is 'unfortunate'",
+            "link": "https://www.japantimes.co.jp/news/2024/05/04/japan/politics/tokyo-biden-xenophobia-response/",
+            "source": "The Japan Times",
+            "date": "22 hours ago",
+            "snippet": "Japan hit back Saturday at U.S. President Joe Biden's comments about the Asian ally being \"xenophobic\" like China and Russia, calling the characterization..."
+        },
+        {
+            "title": "Won\u2019t comment on President Biden\u2019s remarks on xenophobia: UN spokesperson",
+            "link": "https://indianexpress.com/article/world/president-biden-xenophobia-9308024/",
+            "source": "The Indian Express",
+            "date": "12 hours ago",
+            "snippet": "A UN spokesperson has declined to comment on US President Joe Biden calling India, China, Russia and Japan \u201cxenophobic\u201d, but stressed that all member states..."
+        },
+        "Joe Biden xenophobic comments Japan"
     ]
+}

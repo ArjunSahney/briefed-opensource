@@ -180,6 +180,10 @@ def get_json_from_lepton(response, triple_ticks=False, attempt_num=1):
     start_time = time.time()
     print(f"Parsing to JSON {response}")
 
+  # Check that the response is a string
+  if not isinstance(response, str):
+    return None
+
   import re
   
   # Remove triple ticks if present
@@ -193,33 +197,50 @@ def get_json_from_lepton(response, triple_ticks=False, attempt_num=1):
   pattern = r'\{.*?\}'
   match = re.search(pattern, response, re.DOTALL)
   data = None
+  corrected = False
   if match:
     json_string = match.group(0)
     print("Extracted json string: ", json_string)
     # Parse the JSON string
     try:
-      data = json.loads(json_string)
-      return data
+        data = json.loads(json_string)
+        return data
     except json.decoder.JSONDecodeError as e:
-      print(f"Error parsing JSON: {e}")
+        print(f"Error parsing JSON: {e}")
+        if "Expecting ':' delimiter" in str(e):
+            # Attempt to insert a placeholder value for the problematic key
+            error_position = int(str(e).split('char ')[1].split(')')[0])
+            # Insert a placeholder value and colon at the position where it's expected
+            response = json_string[:error_position] + ': "Placeholder value"' + json_string[error_position:]
+            corrected = True
+        if "Invalid control character" in str(e):
+            error_position = int(str(e).split('char ')[1].split(')')[0])
+            response = json_string[:error_position] + '": "Placeholder value"' + json_string[error_position:]
+            corrected = True
+        if "Expecting ',' delimiter" in str(e):
+            error_position = int(str(e).split('char ')[1].split(')')[0])
+            response = json_string[:error_position-1] + '\\' + json_string[error_position-1:]
+            corrected = True
+
   
   print("No JSON found in the text")
-  print("Attempting to manually complete the JSON string")
-  print(f"Attempt {attempt_num}")
-  if (attempt_num == 1):
-      # Add quotation and end curly brace
-      response += "\"\n}"
-  elif (attempt_num == 2):
-      # Add only end curly brace
-      response = response[:-3]
-      response += "\n}"
-  elif (attempt_num == 3):
-      # Remove comma, add end curly brace
-      response = response[:-4]
-      response += "}"
-  elif (attempt_num > 3):
-      # Stop recursion
-      return None
+  if not corrected:
+    print("Attempting to manually complete the JSON string")
+    print(f"Attempt {attempt_num}")
+    if (attempt_num == 1):
+        # Add quotation and end curly brace
+        response += "\"\n}"
+    elif (attempt_num == 2):
+        # Add only end curly brace
+        response = response[:-3]
+        response += "\n}"
+    elif (attempt_num == 3):
+        # Remove comma, add end curly brace
+        response = response[:-4]
+        response += "}"
+    elif (attempt_num > 3):
+        # Stop recursion
+        return None
   data = get_json_from_lepton(response, triple_ticks=False, attempt_num=attempt_num+1)
   
   if __debug__:
@@ -447,6 +468,12 @@ def get_news_api_response(query, get="articles", endpoint="/v2/everything"):
     return None
   
 def get_google_results_valueserp(query, num_results, engine="google_news", topic_token=""):
+  """Gets JSON of Google News API response to query
+  
+  Returns
+  -------
+  1 if valueserp FAILED (re-try because value serp does not charger for FAILED requests)
+  """
   api_key=os.environ.get("valueserp_api_key")
   if (query == ""):
     if __debug__:
@@ -490,6 +517,12 @@ def get_google_results_valueserp(query, num_results, engine="google_news", topic
     print(json.dumps(api_result_json, indent=4))
     news_results = api_result_json.get("news_results", [])
     if not news_results:
+        info = api_result_json.get("request_info", None)
+        if info:
+            status = info.get("success", None)
+            if status == False:
+                return 1
+            
         return None
 
     # Select the top `num_results` news items

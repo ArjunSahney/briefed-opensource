@@ -39,6 +39,11 @@ DEFAULT_NUM_TITLES = 10
 DEFAULT_NUM_ARTICLES_PER_BRIEF = 5
 CURR_DATE = datetime.now().strftime('%Y-%m-%d')
 
+if __debug__:
+    import logging
+    # Configure logging
+    logging.basicConfig(filename='sources_by_story.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+
 # -------------------------------- PRIMARY SEARCH -------------------------------- #
 
 def get_improved_title_using_snippet(title, snippet, type="title"):
@@ -56,7 +61,8 @@ def get_improved_title_using_snippet(title, snippet, type="title"):
         
     Returns
     -------
-    str
+    str (for "title")
+    str list (for "search terms") of search terms, ie ["term 1", "term 2", "term 3"]
     """
     
     optimize_to_search_terms_prompt = f"""Given the following title and snippet from a news article, generate a few search terms to describe the article. Return response in this form {{"search terms": search terms}}.
@@ -230,21 +236,21 @@ def scrape_news(keyword, num_results):
         print(f"Retrieving top titles on {keyword}")
         start_time = time.time()
 
-    # First, check if we have it in the database
-    news_filename = "brief_files/" + keyword + "_" + curr_date + ".txt"
-    if os.path.exists(news_filename):
-        with open(news_filename, 'r') as file:
-            content = file.read()
-
     
     news_results = get_google_results_valueserp(keyword, num_results)
-  
+    retry_count = 0
+    while (news_results == 1 and retry_count < 2):
+        news_results = get_google_results_valueserp(keyword, num_results)
+        retry_count += 1
+
     if __debug__:
         end_time = time.time()
         duration = end_time - start_time
         print(f"ValueSerp retrieval time: {duration} seconds for {keyword}")
 
-    if news_results is None:
+    if news_results == 1:
+        print("Failed scrape. Please retry.")
+    elif news_results is None:
         print(f"No news on {keyword}")
         return None
     else:
@@ -253,12 +259,12 @@ def scrape_news(keyword, num_results):
 
 def relevancy_search(keyword, num_titles=DEFAULT_NUM_TITLES):
     """Retrieve a JSON of news articles in order of relevancy to a given keyword"""
-    
+
     # First, scrape news on keyword and store in news_results
     # The user wants the top num_titles results, so grab the top num_titles*5 so we can cut down
     scope = 5
     news_results = scrape_news(keyword, num_titles*scope)
-    
+
     # Next, scrape news on generalized keyword and add to dictionary
     general_keyword = generalize_topic(keyword)
     generalization_factor = 10
@@ -276,8 +282,6 @@ def relevancy_search(keyword, num_titles=DEFAULT_NUM_TITLES):
     return relevant_news_results
   
 # -------------------------------------------------------------------------------- #
-
-# primary_search("Startups", 6)
 
 # -------------------------------- SECONDARY SEARCH ------------------------------ #
 
@@ -302,70 +306,124 @@ def append_missing_words(words_to_append, append_to_this_string):
 
     return append_to_this_string
 
-def secondary_search(keyword, most_relevant_titles, a_or_b, original_results, num_articles_per_brief=DEFAULT_NUM_ARTICLES_PER_BRIEF):
+def is_unique_story(new_title_and_vector, titles_and_vectors, threshold=0.75):
     """
-    Generates a sources by story dictionary for each article object in most_relevant_titles
-    
     Parameters
     ----------
-    keyword : str
-    most_relevant_titles : list of article objects
-    a_or_b : str
-    original_results : list of article objects
+    new_vector_and_title : tuple (vector, title)
+    vectors_and_titles : list of tuples (vector, title)
+    threshold : float
     
     Returns
     -------
-    sources_by_story : dict
+    str of title it is similar to or None
     """
+    for title, vector in titles_and_vectors:
+        similarity = cosine_similarity(new_title_and_vector[1], vector)
+        if similarity > threshold:
+            return title  # Similar title exists, return it
+    return None
+
+def clean_sources(sources_by_story):
+    """
+    Clean the sources for each story in the sources_by_story dictionary.
+    1. Keep the most relevant sources for each story
+    2. Remove repeat stories
+
+    Parameters
+    ----------
+    sources_by_story (dict): A dictionary containing sources for each story.
+    
+    Returns
+    -------
+    sources_by_story (dict): The cleaned dictionary containing the most relevant sources for each story.
+    """
+    if sources_by_story is None:
+        return
+    
+    # As we loop through the titles, we compute their vectors and store in titles_and_vectors
+    titles_and_vectors = []
+    if __debug__:
+        logging.info('Making relevancy determinations for sources_by_story:\n')
+    for title, sources in sources_by_story.items():
+        # If sources is empty, we don't need to do anything
+        if sources is None:
+            continue
+        search_terms = sources.pop()
+        title_vector_tuple = (title, compute_vector(title))
+        # Compare cosine similirity with previous titles
+        similar_title = is_unique_story(title_vector_tuple, titles_and_vectors)
+        if (similar_title is None): # If there are no similar titles
+            # Compute vector for the title and add to title_vectors
+            titles_and_vectors.append(title_vector_tuple)
+            sources = sources_by_story[title]
+            # Get relevant sources to the search terms (based on title and snippet of article)
+            relevant_sources = get_most_relevant_titles(sources, search_terms, DEFAULT_NUM_ARTICLES_PER_BRIEF)
+            sources_by_story[title] = relevant_sources
+            if __debug__:
+                logging.info('Sources by story JSON:\n%s', json.dumps(sources_by_story, indent=4))
+        else:
+            # If it's not unique, we want to add the sources for this title to the title it is similar to
+            sources_by_story[similar_title].extend(sources_by_story[title])
+    
+    return sources_by_story
+
+
+def secondary_search(most_relevant_titles, keyword, num_articles, a_or_b):
+    """
+    Generates sources by story for most relevant titles based on input parameters.
+    Approach A: Ensure cohesion of sources_by_story for the given story using LLM
+    Approach B: Approach A + append missing words
+
+    Parameters
+    ----------
+    sources_by_story (dict): A dictionary to store sources for each relevant title.
+    most_relevant_titles (list): A list of article objects representing the most relevant titles.
+    num_articles (int): The number of articles to scrape for each title.
+
+    Returns
+    -------
+    sources_by_story (dict): A dictionary containing the most relevant sources for each story.
+    """    
     # Create dictionary to store sources for each relevant title
     sources_by_story = {}
-    
-    # If secondary a or b
-    if a_or_b == "a":
-        sources_by_story = secondary_a(sources_by_story, most_relevant_titles, keyword, num_articles_per_brief)
-    else: 
-        sources_by_story = secondary_b(sources_by_story,most_relevant_titles, keyword, num_articles_per_brief, original_results)
-    
-def secondary_a(sources_by_story, most_relevant_titles, keyword, num_articles):
+
     # Generate sources by story for each of the most relevant tiles
     for article_object in most_relevant_titles:
+        # Check that article_object is not a string
+        if isinstance(article_object, str):
+            continue
         title = article_object.get("title", None)
         if title is None:
             continue
         snippet = article_object.get("snippet", None)
         # Optimize search terms based on title and snippet of article, if available
-        search_terms = get_improved_title_using_snippet(title, snippet, type="search terms")
-        sources_by_story[title] = scrape_news(search_terms, num_articles)
-    
-    # Now, prune sources_by_story to only include the most relevant sources for each story
-    for title in sources_by_story:
-        sources = sources_by_story[title]
-        relevant_sources = get_most_relevant_titles(sources, keyword, num_articles)
-        sources_by_story[title] = relevant_sources
+        # TODO: Needs to be tested HEAVILY (the json response mode w/ lepton is very inconsistent)
+        search_terms_list = (get_improved_title_using_snippet(title, snippet, type="search terms"))
+        if search_terms_list is None:
+            print("Error: Search terms not found")
+            # Grab the first 5 words from article title as search words
+            words = title.split()  # Split the text into words
+            search_terms = ' '.join(words[:5])  # Join the first three words
+        else: 
+            search_terms = ' '.join(search_terms_list[:3])
         
-    return sources_by_story
+        if (a_or_b == "b"):
+            # Append any missing words to the search terms
+            search_terms = append_missing_words(keyword, search_terms)
 
-def secondary_b(sources_by_story,most_relevant_titles, keyword, num_articles, original_results):
-    """Exact same as secondary_a but appends missing words"""
-    # Generate sources by story for each of the most relevant tiles
-    for article_object in most_relevant_titles:
-        title = article_object.get("title", None)
-        if title is None:
+        if __debug__:
+            print("Search terms:" + search_terms)
+            logging.info('Sources by story JSON:\n%s', json.dumps(sources_by_story, indent=4))
+
+        # Save news results per story in sources_by_story
+        sources_by_story[title] = scrape_news(search_terms, num_articles)
+        # Save search terms at the end of the list associated with 'title' in sources_by_story
+        if sources_by_story[title] is None:
             continue
-        snippet = article_object.get("snippet", None)
-        search_terms = get_improved_title_using_snippet(title, snippet, type="search terms")
-        # Append any missing words to the search terms
-        search_terms = append_missing_words(keyword, search_terms)
-        sources_by_story[title] = scrape_news(search_terms, num_articles)
-    
-    # Now, prune sources_by_story to only include the most relevant sources for each story
-    for title in sources_by_story:
-        sources = sources_by_story[title]
-        relevant_sources = get_most_relevant_titles(sources, keyword, num_articles)
-        sources_by_story[title] = relevant_sources
-        
-    return sources_by_story
+        sources_by_story[title].append(search_terms)
 
+    return clean_sources(sources_by_story)
 
 def match_found(formatted_news_results, title, original_results):
     """
@@ -383,7 +441,8 @@ def match_found(formatted_news_results, title, original_results):
 
     return formatted_news_results
     
-  
+    
+
 # -------------------------------------------------------------------------------- #
 # Secondary Search:
 #   Create a new dictionary, 'sources_by_story.'
@@ -399,7 +458,26 @@ def match_found(formatted_news_results, title, original_results):
 
 def search(topic):
     """Call primary search, secondary search"""
+    if __debug__:
+        start_time = time.time()
     news_results = relevancy_search(topic)
-    secondary_search(topic, news_results, a_or_b="a", original_results=news_results)
-    
-  
+    sources_by_story = secondary_search(news_results, topic, DEFAULT_NUM_TITLES, "a")
+    print(json.dumps(sources_by_story, indent=4))
+    if __debug__:
+        print("Search duration: %s seconds" % (time.time() - start_time))
+
+# search("Biden")
+# TODO: We should think about the frequency of doing web scrapes on a keyword. Even if we don't generate the JSON, maybe we should still save the web scraped results... not sure. it would be useful for testing at the very least.
+# search("Biden")
+
+
+# Testing clean_sources
+# Read JSON from testJSON.json
+with open('testJSON.json') as f:
+    sources_by_story = json.load(f)
+
+print(json.dumps(clean_sources(sources_by_story), indent=4))
+
+# Improvements to be made based on logs:
+# 1. Prevent repeat stories: there are two stories on the World Press Freedom shit 
+# 2. Ensure original result titles make it into sources by story 
