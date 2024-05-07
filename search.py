@@ -168,9 +168,9 @@ def get_most_relevant_titles(news_results, keyword, num_results):
     # Will add ~2s of latency for each title
     
     range = min(num_results*2, len(titles))
-    # If we only have num_results titles, just return them, no need to rank
+    # If we only have num_results titles, just return the news_results given, no need to rank
     if (range <= num_results):
-        return titles
+        return news_results
     else:
         range_string = str(range)
     relevancyPrompt = f"""Rank the top {range_string} article titles by relevance to an
@@ -238,6 +238,7 @@ def scrape_news(keyword, num_results):
 
     
     news_results = get_google_results_valueserp(keyword, num_results)
+    # Retry the scrape up to 2 times if it fails
     retry_count = 0
     while (news_results == 1 and retry_count < 2):
         news_results = get_google_results_valueserp(keyword, num_results)
@@ -276,10 +277,43 @@ def relevancy_search(keyword, num_titles=DEFAULT_NUM_TITLES):
     # Sort the list by relevancy
     # For now, we will keep all the news results because in secondary search, we may find some articles unparseable
     relevant_news_results = get_most_relevant_titles(news_results, keyword, num_titles)
-    print(json.dumps(relevant_news_results, indent=4))
     
-    # Now that we have the relevant news results, we can start the secondary search
-    return relevant_news_results
+    if __debug__:
+        print("Most relevant news results: ")
+        print(json.dumps(relevant_news_results, indent=4))
+
+    # Cluster similar stories in relevant_news_results
+    titles_and_vectors = []
+    clustered_news_results = []
+    for article_object in relevant_news_results:
+        # Check that article_object is not a string
+        # The article_object can be a string due to JSON parsing errors
+        if isinstance(article_object, str):
+            continue
+        # Check if article_object is valid (has a title)
+        title = article_object.get("title", None)
+        if title is None:
+            continue
+        
+        # Compute the vector for the title and store in tuple
+        title_vector_tuple = (title, compute_vector(title))
+        
+        # Compare cosine similirity with previous titles
+        similar_title = is_unique_story(title_vector_tuple, titles_and_vectors)
+        
+        if (similar_title is None): # If there are no similar titles
+            # Compute vector for the title and add to title_vectors
+            titles_and_vectors.append(title_vector_tuple)
+            
+            # Add the article object to the list of clustered news results
+            clustered_news_results.append(article_object)
+    
+    if __debug__:
+        print("Clustered news results: ")
+        print(json.dumps(clustered_news_results, indent=4))
+
+    # Now that we have the clustered news results, we can start the secondary search
+    return clustered_news_results
   
 # -------------------------------------------------------------------------------- #
 
@@ -327,8 +361,7 @@ def is_unique_story(new_title_and_vector, titles_and_vectors, threshold=0.75):
 def clean_sources(sources_by_story):
     """
     Clean the sources for each story in the sources_by_story dictionary.
-    1. Keep the most relevant sources for each story
-    2. Remove repeat stories
+    Keeps the most relevant sources for each story
 
     Parameters
     ----------
@@ -341,35 +374,24 @@ def clean_sources(sources_by_story):
     if sources_by_story is None:
         return
     
-    # As we loop through the titles, we compute their vectors and store in titles_and_vectors
-    titles_and_vectors = []
     if __debug__:
         logging.info('Making relevancy determinations for sources_by_story:\n')
     for title, sources in sources_by_story.items():
         # If sources is empty, we don't need to do anything
-        if sources is None:
+        if title is None or sources is None:
             continue
         search_terms = sources.pop()
-        title_vector_tuple = (title, compute_vector(title))
-        # Compare cosine similirity with previous titles
-        similar_title = is_unique_story(title_vector_tuple, titles_and_vectors)
-        if (similar_title is None): # If there are no similar titles
-            # Compute vector for the title and add to title_vectors
-            titles_and_vectors.append(title_vector_tuple)
-            sources = sources_by_story[title]
-            # Get relevant sources to the search terms (based on title and snippet of article)
-            relevant_sources = get_most_relevant_titles(sources, search_terms, DEFAULT_NUM_ARTICLES_PER_BRIEF)
-            sources_by_story[title] = relevant_sources
-            if __debug__:
-                logging.info('Sources by story JSON:\n%s', json.dumps(sources_by_story, indent=4))
-        else:
-            # If it's not unique, we want to add the sources for this title to the title it is similar to
-            sources_by_story[similar_title].extend(sources_by_story[title])
+        sources = sources_by_story[title]
+        # Get relevant sources to the search terms (based on title and snippet of article)
+        relevant_sources = get_most_relevant_titles(sources, search_terms, DEFAULT_NUM_ARTICLES_PER_BRIEF)
+        sources_by_story[title] = relevant_sources
+        if __debug__:
+            logging.info('Sources by story JSON:\n%s', json.dumps(sources_by_story, indent=4))
     
     return sources_by_story
 
 
-def secondary_search(most_relevant_titles, keyword, num_articles, a_or_b):
+def secondary_search(most_relevant_titles, keyword, num_articles, a_or_b="a"):
     """
     Generates sources by story for most relevant titles based on input parameters.
     Approach A: Ensure cohesion of sources_by_story for the given story using LLM
@@ -390,8 +412,9 @@ def secondary_search(most_relevant_titles, keyword, num_articles, a_or_b):
 
     # Generate sources by story for each of the most relevant tiles
     for article_object in most_relevant_titles:
-        # Check that article_object is not a string
-        if isinstance(article_object, str):
+        # If article_object is a string or None continue
+        # The article_object can be a string if it's a JSON parsing error
+        if isinstance(article_object, str) or article_object is None:
             continue
         title = article_object.get("title", None)
         if title is None:
@@ -412,12 +435,13 @@ def secondary_search(most_relevant_titles, keyword, num_articles, a_or_b):
             # Append any missing words to the search terms
             search_terms = append_missing_words(keyword, search_terms)
 
+        # Save news results per story in sources_by_story
+        sources_by_story[title] = scrape_news(search_terms, num_articles)
+
         if __debug__:
             print("Search terms:" + search_terms)
             logging.info('Sources by story JSON:\n%s', json.dumps(sources_by_story, indent=4))
 
-        # Save news results per story in sources_by_story
-        sources_by_story[title] = scrape_news(search_terms, num_articles)
         # Save search terms at the end of the list associated with 'title' in sources_by_story
         if sources_by_story[title] is None:
             continue
@@ -466,18 +490,25 @@ def search(topic):
     if __debug__:
         print("Search duration: %s seconds" % (time.time() - start_time))
 
-# search("Biden")
+search("Biden")
 # TODO: We should think about the frequency of doing web scrapes on a keyword. Even if we don't generate the JSON, maybe we should still save the web scraped results... not sure. it would be useful for testing at the very least.
-# search("Biden")
 
 
 # Testing clean_sources
 # Read JSON from testJSON.json
-with open('testJSON.json') as f:
-    sources_by_story = json.load(f)
+# with open('testJSON.json') as f:
+#     sources_by_story = json.load(f)
 
-print(json.dumps(clean_sources(sources_by_story), indent=4))
+# print(json.dumps(clean_sources(sources_by_story), indent=4))
 
 # Improvements to be made based on logs:
 # 1. Prevent repeat stories: there are two stories on the World Press Freedom shit 
 # 2. Ensure original result titles make it into sources by story 
+
+# Testing is_unique_title
+
+# vector_1 = compute_vector("Gaza Isn't Root of Biden's Struggles With Young Voters, Polls Show")
+# vector_2 = compute_vector("Jordan's King Abdullah presses Biden to avert Israel offensive in Rafah")
+
+# similarity = cosine_similarity(vector_1, vector_2)
+# print(similarity)

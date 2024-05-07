@@ -539,3 +539,38 @@ def get_google_results_valueserp(query, num_results, engine="google_news", topic
       } for result in top_news_results]
 
   return formatted_news_results
+
+
+def parse_incomplete_json(json_string):
+    import re
+
+    # Dictionary to store the parsed key-value pairs
+    parsed_dict = {}
+
+    # Process each line separately
+    lines = json_string.split("\n")
+    for line in lines:
+        # Strip extra spaces and ignore empty lines
+        line = line.strip()
+        if not line:
+            continue
+
+        # Use regular expression to find key-value pairs
+        match = re.match(r'"(\d+)": "(.*)"', line)
+        if match:
+            key, value = match.groups()
+            # Escape double quotes inside the value string
+            # value = value.replace('"', '\\"')
+            # Add the parsed and escaped key-value pair to the dictionary
+            parsed_dict[key] = value
+
+    return parsed_dict
+
+# # Example usage
+# json_string = """{
+# "1": "some "quoted" string"
+# "2": "another "example" stri """
+
+# parsed_json = parse_incomplete_json(json_string)
+# print(json.dumps(parsed_json, indent=4))
+# print(parsed_json["1"])
