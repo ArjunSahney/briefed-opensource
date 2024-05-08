@@ -34,6 +34,7 @@ from api_toolbox import *
 from spaCy_summarizer import *
 import time # debugging latency
 from datetime import datetime
+from topic_tokens import *
 
 DEFAULT_NUM_TITLES = 10
 DEFAULT_NUM_ARTICLES_PER_BRIEF = 5
@@ -236,13 +237,16 @@ def scrape_news(keyword, num_results):
         print(f"Retrieving top titles on {keyword}")
         start_time = time.time()
 
-    
-    news_results = get_google_results_valueserp(keyword, num_results)
-    # Retry the scrape up to 2 times if it fails
-    retry_count = 0
-    while (news_results == 1 and retry_count < 2):
+    # Check if there's a topic token for the keyword
+    if (topics[keyword] != None):
+        news_results = get_google_results("query", DEFAULT_NUM_TITLES, engine="google_news", topic_token=topics[keyword])
+    else:   
         news_results = get_google_results_valueserp(keyword, num_results)
-        retry_count += 1
+        # Retry the scrape up to 2 times if it fails
+        retry_count = 0
+        while (news_results == 1 and retry_count < 2):
+            news_results = get_google_results_valueserp(keyword, num_results)
+            retry_count += 1
 
     if __debug__:
         end_time = time.time()
@@ -480,15 +484,16 @@ def match_found(formatted_news_results, title, original_results):
 
 # End result is a dictionary of NUM_TITLES title strings, each mapped to a dictionary of NUM_ARTICLES_PER_BRIEF title strings, each mapped to key-value pairs containing source, link, thumbnail, etc.
 
-def search(topic):
+def search(topic, num_stories=DEFAULT_NUM_TITLES):
     """Call primary search, secondary search"""
     if __debug__:
         start_time = time.time()
     news_results = relevancy_search(topic)
-    sources_by_story = secondary_search(news_results, topic, DEFAULT_NUM_TITLES, "a")
+    sources_by_story = secondary_search(news_results, topic, num_stories, "a")
     print(json.dumps(sources_by_story, indent=4))
     if __debug__:
         print("Search duration: %s seconds" % (time.time() - start_time))
+    return sources_by_story
 
 search("Biden")
 # TODO: We should think about the frequency of doing web scrapes on a keyword. Even if we don't generate the JSON, maybe we should still save the web scraped results... not sure. it would be useful for testing at the very least.

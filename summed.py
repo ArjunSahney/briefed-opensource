@@ -43,9 +43,8 @@ def get_gpt_summary(url, gpt_model="gpt-3.5-turbo"):
   article_text = get_article_text(url)
   if article_text is None:
     return None
-  summary = get_gpt_response(f"""Summarize the key points and essential information from the following 
-                             article in a single paragraph of approximately 150 words. Focus on the 
-                             most impactful facts and conclusions drawn in the article: {article_text}""", gpt_model=gpt_model)
+  summary = get_gpt_response(f"""Summarize the key points and essential information from the following article in a single paragraph of approximately 150 words. Focus on the most impactful facts and conclusions drawn in the article: {article_text}""", gpt_model=gpt_model)
+  
   return summary
 
 # TODO: Use keyword extraction API monkey learn, IBM Watson, Amazon Comprehend
