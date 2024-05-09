@@ -7,9 +7,6 @@ Functions:
   Serp API:
     * def get_google_results(query)
 
-  Newspaper3K library:
-    * def get_article_text(url)
-
   News API:
     * def get_news_api_response(keywords)
 
@@ -22,8 +19,6 @@ https://www.notion.so/API-Keys-66bf13bb561e42c08893108e2b0c8c02 for API keys
 import os
 from openai import OpenAI
 import openai
-from newspaper import Article
-from newspaper.article import ArticleException
 import requests
 import json
 import time 

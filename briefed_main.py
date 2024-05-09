@@ -3,7 +3,7 @@ from api_toolbox import *
 import time # debugging latency
 from datetime import datetime
 from topic_tokens import *
-import search
+from search import *
 from image_scraper import download_main_image
 from spaCy_summarizer import *
 
@@ -91,9 +91,14 @@ def download_image(story_title, sources_list):
     # Save the image as the same filename as brief just img
     img_filename = story_title + "_" + CURR_DATE
     for article_object in sources_list:
+        # Check that the article_object is not a string
+        if isinstance(article_object, str):
+            continue
         url = article_object.get("link", None)
         if url is None:
             url = article_object.get("url", None)
+        if url is None:
+            continue
         # Download the main image from the article URL if not already downloaded and if url is valid
         if not image_downloaded and url is not None:
             image_url = download_main_image(url, img_filename)
@@ -114,6 +119,8 @@ def in_brief(keyword, num_briefs):
     str
         Consolidated list of briefs on keyword
     """
+    if __debug__:
+        all_start_time = time.time()
     # If brief file already exists, do not create a new one and return contents of current file
     curr_date = datetime.now().strftime('%Y-%m-%d')
     brief_filename = "brief_files/" + keyword + "_" + curr_date + ".txt"
@@ -128,39 +135,62 @@ def in_brief(keyword, num_briefs):
             print("searching top headlines")
         # TODO: Need to handle top headlines
     
-    else:
-        stories_and_sources = search(keyword, num_briefs)
-        brief_json_list = []
+    stories_and_sources = search(keyword, num_briefs)
+    brief_json_list = []
 
     # Collate articles in news_results    
     for story, sources in stories_and_sources.items():
+        
+        import logging
+        # Configure logging
+        logging.basicConfig(filename='sources_by_story.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s', level=logging.INFO)
+        logging.info('Making formatted_contents for generate_brief:\n')
+
         # Create formatted article dictionary for brief generation
         formatted_contents = {}
         for source in sources:
+            # If source is a string, skip
+            if isinstance(source, str):
+                print("Skipping source string: " + source)
+                continue
             source_name = source.get("source", None)
             source_title = source.get("title", None)
             source_link = source.get("link", None)
             source_date = source.get("date", None)
-            source_summary = get_spaCy_article_summary(source_link, ratio=0.05, max_words=None)
-            formatted_contents[source_name] = {source_title, source_summary, source_link, source_date}
-            
+            source_summary = get_spaCy_article_summary(source_link, ratio=0.1, max_words=200)
+            formatted_contents[source_name] = {
+                "title": source_title,
+                "summary": source_summary,
+                "date": source_date,
+                "url": source_link
+            }
+            # print(formatted_contents)
+            logging.info(json.dumps(formatted_contents, indent=4))
         # Download image from one of the sources
         (image_downloaded, image_url) = download_image(story, sources)
         
+        logging.info('formatted_contents = ' + json.dumps(formatted_contents, indent=4))
         brief = generate_brief(formatted_contents)
         # Add image filepath into brief JSON
         if image_downloaded:
-          brief["Image Filepath"] = image_url
+            brief["Image Filepath"] = image_url
         brief_json_list.append(brief)
 
         if __debug__:
-          end_time = time.time()
-          duration = end_time - start_time
-          print(f"Generate brief execution time: {duration} seconds")
+            end_time = time.time()
+            duration = end_time - start_time
+            print(f"Generate individual brief execution time: {duration} seconds")
                 
     with open(brief_filename, 'w') as file:
         # First write operation
         brief_string = json.dumps(brief_json_list, indent=4)
-
         file.write(brief_string)
+        
+    if __debug__:
+        all_end_time = time.time()
+        duration = all_end_time - all_start_time
+        print(f"Generate complete brief execution time: {duration} seconds")
+        
     return brief_string
+
+in_brief("Bank of America", 6)

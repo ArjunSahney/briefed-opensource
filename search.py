@@ -238,7 +238,7 @@ def scrape_news(keyword, num_results):
         start_time = time.time()
 
     # Check if there's a topic token for the keyword
-    if (topics[keyword] != None):
+    if (keyword in topics):
         news_results = get_google_results("query", DEFAULT_NUM_TITLES, engine="google_news", topic_token=topics[keyword])
     else:   
         news_results = get_google_results_valueserp(keyword, num_results)
@@ -495,7 +495,7 @@ def search(topic, num_stories=DEFAULT_NUM_TITLES):
         print("Search duration: %s seconds" % (time.time() - start_time))
     return sources_by_story
 
-search("Biden")
+# search("Biden")
 # TODO: We should think about the frequency of doing web scrapes on a keyword. Even if we don't generate the JSON, maybe we should still save the web scraped results... not sure. it would be useful for testing at the very least.
 
 

@@ -1,0 +1,41 @@
+[
+    {
+        "Title": "Trump Accuses Biden of Weak Antisemitism Stance Amid Own Controversial Comments",
+        "Summary": "Donald Trump criticizes Joe Biden for a perceived weak response to antisemitism, especially regarding campus protests linked to the Gaza conflict, despite facing backlash for his own divisive language and actions. Trump's campaign emphasizes Biden's delayed reaction to the protests and accuses him of failing to condemn pro-Hamas sentiments, claiming Biden requires these votes (ABC News - Breaking News, Latest News and Videos). The White House declined calls to deploy the National Guard to curb protests, showing a restraint that contrasts with Trump's approach to similar issues (Benzinga). Amidst accusations, Biden plans to address antisemitism at a Holocaust remembrance event, highlighting his administration's commitment to combating hate and antisemitism (Yahoo).",
+        "sources": [
+            [
+                "Benzinga",
+                "https://www.benzinga.com/news/24/05/38659230/trump-slams-biden-over-weakness-on-antisemitism-gets-bashed-for-his-own-offensive-and-irresponsible",
+                "40 minutes ago"
+            ],
+            [
+                "Yahoo",
+                "https://www.yahoo.com/news/biden-deliver-keynote-address-antisemitism-213922204.html",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://i.abcnewsfe.com/a/102dc74f-4a3e-4db4-b18c-3fc830db690f/wirestory_55de1e89627bc9721798d469e9569e5b_16x9.jpg?w=1600"
+    },
+    {
+        "Title": "Biden Warns Netanyahu Against Gaza Offensive",
+        "Summary": "President Joe Biden urgently cautioned Israeli Prime Minister Benjamin Netanyahu against initiating an offensive in Rafah, Gaza, citing growing concerns over the Palestinian death toll and the necessity of a credible evacuation and humanitarian aid plan for civilians (AP News). This discussion marked a pivotal moment amid signs of Israel's prepared first steps toward invading Rafah, conflicting with U.S. objections and potentially escalating the seven-month-old war, while Jordan's Queen Rania expressed concerns over mixed messages from the U.S. regarding the conflict (Spectrum News NY1, Spectrum News).",
+        "sources": [
+            [
+                "AP News",
+                "https://apnews.com/article/biden-netanyahu-gaza-rafah-d85423ad066fe41ac5783db5bd9ecffd",
+                "4 hours ago"
+            ],
+            [
+                "Spectrum News NY1",
+                "https://ny1.com/nyc/all-boroughs/news/2024/05/06/biden-netanyahu-call-israel-hamas-rafah",
+                "11 hours ago"
+            ],
+            [
+                "Spectrum News",
+                "https://spectrumlocalnews.com/mo/st-louis/news/2024/05/06/biden-netanyahu-call-israel-hamas-rafah",
+                "11 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://dims.apnews.com/dims4/default/c941ffd/2147483647/strip/true/crop/4244x2387+0+275/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F13%2F6d%2F2d0da65ff0694861e37cb8d96d00%2Fe19fb402c5a143a49ad2f8da99867173"
+    }
+]

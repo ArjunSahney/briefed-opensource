@@ -133,7 +133,7 @@ def spaCy_summarize(text, ratio=0.1, max_words=None):
 
     return summary_text
 
-def get_spaCy_article_summary(url, ratio=0.1, max_words=None):
+def get_spaCy_article_summary(url, ratio=0.05, max_words=200):
     """Gets low-latency text summary of article
     ~.4s total including article retrieval. Uses open source spacy library.
 
@@ -158,6 +158,9 @@ def get_spaCy_article_summary(url, ratio=0.1, max_words=None):
     if __debug__:
         start_time = time.time()
     summary = spaCy_summarize(article_text, ratio=ratio, max_words=max_words)
+    # Check that summary does not exceed max_length:
+    if len(summary) >= max_words:
+        summary = summary[:max_words]
     if __debug__:
         end_time = time.time()
         duration = end_time - start_time

@@ -2,576 +2,904 @@ httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HT
 httpx - INFO - HTTP Request: POST https://wizardlm-2-8x22b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
 httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
 root - INFO - Sources by story JSON:
-{}
-httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
-root - INFO - Sources by story JSON:
 {
-    "Why the former Georgia Republican lieutenant governor is voting for Joe Biden": [
+    "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...": [
         {
-            "title": "Former Republican Official Finds a Spine, Endorses Joe Biden",
-            "link": "https://newrepublic.com/post/181337/republican-trump-election-endorse-biden",
-            "source": "The New Republic",
-            "date": "10 hours ago",
-            "snippet": "Former Georgia Lieutenant Governor Geoff Duncan didn't mince words when it came to Donald Trump."
-        },
-        {
-            "title": "Georgia's former lieutenant governor backs Biden in high-profile defection from GOP",
-            "link": "https://www.aol.com/news/georgias-former-lieutenant-governor-backs-181415583.html",
-            "source": "AOL.com",
-            "date": "9 hours ago",
-            "snippet": "Former Georgia Lt. Gov. Jeff Duncan says he's voting for President Joe Biden in 2024, and he's urging other Republicans to do so, too."
-        },
-        {
-            "title": "2024 Election Updates: Latest Biden and Trump News",
-            "link": "https://www.nytimes.com/live/2024/05/06/us/biden-trump-campaign",
-            "source": "The New York Times",
+            "title": "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...",
+            "link": "https://fortune.com/2024/05/08/leo-lukenas-iii-bank-of-america-junior-investment-banker-death-wall-street-working-conditions/",
+            "source": "Fortune",
             "date": "4 hours ago",
-            "snippet": "Geoff Duncan, a Republican who was lieutenant governor of Georgia when then-President Donald J. Trump tried to overturn the 2020 election results there,..."
+            "snippet": "Leo Lukenas III, a former Green Beret, joined Bank of America as an investment banker last summer. He died on May 2."
         },
         {
-            "title": "Trump Accountant Exposes Checks to Michael Cohen in Damning Testimony",
-            "link": "https://newrepublic.com/post/181344/trump-accountant-checks-signed-michael-cohen-hush-money-trial",
-            "source": "The New Republic",
-            "date": "8 hours ago",
-            "snippet": "A Trump Organization accountant revealed who signed off on the checks to Michael Cohen for the hush-money reimbursements."
+            "title": "Green beret turned Bank of America banker Leo Lukenas died just one year into grueling investment job 'where a",
+            "link": "https://www.dailymail.co.uk/news/article-13395815/Green-beret-Bank-America-banker-Leo-Lukenas-death.html",
+            "source": "Daily Mail",
+            "date": "11 hours ago",
+            "snippet": "Leo Lukenas III, 35, in New York City on Thursday from 'acute coronary artery thrombus."
         },
-        "Georgia Republican lieutenant governor Why I'm voting for Joe Biden Republican turning point"
+        {
+            "title": "Why Wall Street Is Transfixed by a BofA Banker's Untimely Death",
+            "link": "https://www.businessinsider.com/wall-street-transfixed-by-bofa-banker-leo-lukenas-untimely-death-2024-5",
+            "source": "Business Insider",
+            "date": "24 hours ago",
+            "snippet": "Leo Lukenas III, a soldier turned investment banker, died last week. It's sparking a conversation about work-life balance across Wall Street."
+        },
+        {
+            "title": "Junior bankers crumble under 90-hour weeks: \u2018When it\u2019s crunch time, nobody cares\u2019",
+            "link": "https://www.fnlondon.com/articles/junior-bankers-crumble-under-90-hour-weeks-when-its-crunch-time-nobody-cares-da7477e5",
+            "source": "Financial News London",
+            "date": "4 hours ago",
+            "snippet": "Working conditions for analysts and associates are in the spotlight once again, and juniors are pushing back against brutal hours."
+        }
     ]
 }
 httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
 root - INFO - Sources by story JSON:
 {
-    "Why the former Georgia Republican lieutenant governor is voting for Joe Biden": [
+    "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...": [
         {
-            "title": "Former Republican Official Finds a Spine, Endorses Joe Biden",
-            "link": "https://newrepublic.com/post/181337/republican-trump-election-endorse-biden",
-            "source": "The New Republic",
-            "date": "10 hours ago",
-            "snippet": "Former Georgia Lieutenant Governor Geoff Duncan didn't mince words when it came to Donald Trump."
-        },
-        {
-            "title": "Georgia's former lieutenant governor backs Biden in high-profile defection from GOP",
-            "link": "https://www.aol.com/news/georgias-former-lieutenant-governor-backs-181415583.html",
-            "source": "AOL.com",
-            "date": "9 hours ago",
-            "snippet": "Former Georgia Lt. Gov. Jeff Duncan says he's voting for President Joe Biden in 2024, and he's urging other Republicans to do so, too."
-        },
-        {
-            "title": "2024 Election Updates: Latest Biden and Trump News",
-            "link": "https://www.nytimes.com/live/2024/05/06/us/biden-trump-campaign",
-            "source": "The New York Times",
+            "title": "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...",
+            "link": "https://fortune.com/2024/05/08/leo-lukenas-iii-bank-of-america-junior-investment-banker-death-wall-street-working-conditions/",
+            "source": "Fortune",
             "date": "4 hours ago",
-            "snippet": "Geoff Duncan, a Republican who was lieutenant governor of Georgia when then-President Donald J. Trump tried to overturn the 2020 election results there,..."
+            "snippet": "Leo Lukenas III, a former Green Beret, joined Bank of America as an investment banker last summer. He died on May 2."
         },
         {
-            "title": "Trump Accountant Exposes Checks to Michael Cohen in Damning Testimony",
-            "link": "https://newrepublic.com/post/181344/trump-accountant-checks-signed-michael-cohen-hush-money-trial",
-            "source": "The New Republic",
-            "date": "8 hours ago",
-            "snippet": "A Trump Organization accountant revealed who signed off on the checks to Michael Cohen for the hush-money reimbursements."
+            "title": "Green beret turned Bank of America banker Leo Lukenas died just one year into grueling investment job 'where a",
+            "link": "https://www.dailymail.co.uk/news/article-13395815/Green-beret-Bank-America-banker-Leo-Lukenas-death.html",
+            "source": "Daily Mail",
+            "date": "11 hours ago",
+            "snippet": "Leo Lukenas III, 35, in New York City on Thursday from 'acute coronary artery thrombus."
         },
-        "Georgia Republican lieutenant governor Why I'm voting for Joe Biden Republican turning point"
+        {
+            "title": "Why Wall Street Is Transfixed by a BofA Banker's Untimely Death",
+            "link": "https://www.businessinsider.com/wall-street-transfixed-by-bofa-banker-leo-lukenas-untimely-death-2024-5",
+            "source": "Business Insider",
+            "date": "24 hours ago",
+            "snippet": "Leo Lukenas III, a soldier turned investment banker, died last week. It's sparking a conversation about work-life balance across Wall Street."
+        },
+        {
+            "title": "Junior bankers crumble under 90-hour weeks: \u2018When it\u2019s crunch time, nobody cares\u2019",
+            "link": "https://www.fnlondon.com/articles/junior-bankers-crumble-under-90-hour-weeks-when-its-crunch-time-nobody-cares-da7477e5",
+            "source": "Financial News London",
+            "date": "4 hours ago",
+            "snippet": "Working conditions for analysts and associates are in the spotlight once again, and juniors are pushing back against brutal hours."
+        },
+        "Leo Lukenas III Bank of America associate death Wall Street death"
     ],
-    "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric": [
+    "Bank of America says do not sell in May and go away": [
         {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://abcnews.go.com/US/wireStory/donald-trump-calls-joe-biden-weak-antisemitism-ignoring-109974759",
-            "source": "ABC News - Breaking News, Latest News and Videos",
+            "title": "Bank of America says do not sell in May and go away",
+            "link": "https://www.cnbc.com/2024/05/08/bank-of-america-says-do-not-sell-in-may-and-go-away.html",
+            "source": "CNBC",
+            "date": "14 hours ago",
+            "snippet": "These global tech stocks have beaten the S&P 500 this year \u2014 and analysts give them over 20% upside \u00b7 Weizhen Tan \u00b7 JPMorgan says the market is about to get..."
+        },
+        {
+            "title": "China rally has further room to run, Bank of America options analysts say",
+            "link": "https://www.marketwatch.com/amp/story/china-rally-has-further-room-to-run-bank-of-america-options-analysts-say-f257a0f3",
+            "source": "MarketWatch",
+            "date": "15 hours ago",
+            "snippet": "The rally in Chinese stocks may have legs because options traders have yet to chase it, say analysts at Bank of America. The Hang Seng index HK:HSI is up..."
+        },
+        {
+            "title": "For US renters, the chance of owning a home is going from bad to worse",
+            "link": "https://edition.cnn.com/2024/05/08/investing/premarket-stocks-trading/index.html?utm_source=business_ribbon",
+            "source": "CNN",
+            "date": "13 hours ago",
+            "snippet": "The American dream of homeownership is looking more like a nightmare."
+        },
+        {
+            "title": "AI Stocks: Best Artificial Intelligence Stocks To Watch Amid ChatGPT Hype",
+            "link": "https://www.investors.com/news/technology/artificial-intelligence-stocks/",
+            "source": "Investor's Business Daily",
+            "date": "11 hours ago",
+            "snippet": "Amid hype over artificial intelligence and ChatGPT, the best AI stocks generate sales or get a strategic edge from the maturing technology."
+        },
+        {
+            "title": "3 Bank Stocks to Buy Hand Over Fist in May",
+            "link": "https://www.theglobeandmail.com/investing/markets/stocks/SCHW/pressreleases/26044604/3-bank-stocks-to-buy-hand-over-fist-in-may/",
+            "source": "The Globe and Mail",
+            "date": "16 hours ago",
+            "snippet": "Detailed price information for The Charles Schwab Corp (SCHW-N) from The Globe and Mail including charting and trades."
+        },
+        {
+            "title": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says",
+            "link": "https://www.cnbc.com/2024/05/08/new-york-knicks-parent-to-see-strong-earnings-from-nba-playoff-run-bank-of-america-says.html",
+            "source": "CNBC",
+            "date": "11 hours ago",
+            "snippet": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says. Published Wed, May 8 20249:42 AM EDT Updated Wed,..."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...": [
+        {
+            "title": "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...",
+            "link": "https://fortune.com/2024/05/08/leo-lukenas-iii-bank-of-america-junior-investment-banker-death-wall-street-working-conditions/",
+            "source": "Fortune",
             "date": "4 hours ago",
-            "snippet": "Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as a campaign..."
+            "snippet": "Leo Lukenas III, a former Green Beret, joined Bank of America as an investment banker last summer. He died on May 2."
         },
         {
-            "title": "Trump ignores his own rhetoric, calls Biden weak on antisemitism",
-            "link": "https://wgme.com/news/beyond-the-podium/gallery/trump-ignores-rhetoric-calls-biden-weak-antisemitism-donald-joe-former-president-jews-jewish-hate-speech-language-hitler-nazi-germany-response-israel-holocaust-yom-hashoah",
-            "source": "WGME",
+            "title": "Green beret turned Bank of America banker Leo Lukenas died just one year into grueling investment job 'where a",
+            "link": "https://www.dailymail.co.uk/news/article-13395815/Green-beret-Bank-America-banker-Leo-Lukenas-death.html",
+            "source": "Daily Mail",
+            "date": "11 hours ago",
+            "snippet": "Leo Lukenas III, 35, in New York City on Thursday from 'acute coronary artery thrombus."
+        },
+        {
+            "title": "Why Wall Street Is Transfixed by a BofA Banker's Untimely Death",
+            "link": "https://www.businessinsider.com/wall-street-transfixed-by-bofa-banker-leo-lukenas-untimely-death-2024-5",
+            "source": "Business Insider",
+            "date": "24 hours ago",
+            "snippet": "Leo Lukenas III, a soldier turned investment banker, died last week. It's sparking a conversation about work-life balance across Wall Street."
+        },
+        {
+            "title": "Junior bankers crumble under 90-hour weeks: \u2018When it\u2019s crunch time, nobody cares\u2019",
+            "link": "https://www.fnlondon.com/articles/junior-bankers-crumble-under-90-hour-weeks-when-its-crunch-time-nobody-cares-da7477e5",
+            "source": "Financial News London",
             "date": "4 hours ago",
-            "snippet": "FILE - Former President Donald Trump and President Joe Biden (AP)"
+            "snippet": "Working conditions for analysts and associates are in the spotlight once again, and juniors are pushing back against brutal hours."
+        },
+        "Leo Lukenas III Bank of America associate death Wall Street death"
+    ],
+    "Bank of America says do not sell in May and go away": [
+        {
+            "title": "Bank of America says do not sell in May and go away",
+            "link": "https://www.cnbc.com/2024/05/08/bank-of-america-says-do-not-sell-in-may-and-go-away.html",
+            "source": "CNBC",
+            "date": "14 hours ago",
+            "snippet": "These global tech stocks have beaten the S&P 500 this year \u2014 and analysts give them over 20% upside \u00b7 Weizhen Tan \u00b7 JPMorgan says the market is about to get..."
         },
         {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.clickorlando.com/gallery/news/2024/05/06/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/",
-            "source": "WKMG",
+            "title": "China rally has further room to run, Bank of America options analysts say",
+            "link": "https://www.marketwatch.com/amp/story/china-rally-has-further-room-to-run-bank-of-america-options-analysts-say-f257a0f3",
+            "source": "MarketWatch",
+            "date": "15 hours ago",
+            "snippet": "The rally in Chinese stocks may have legs because options traders have yet to chase it, say analysts at Bank of America. The Hang Seng index HK:HSI is up..."
+        },
+        {
+            "title": "For US renters, the chance of owning a home is going from bad to worse",
+            "link": "https://edition.cnn.com/2024/05/08/investing/premarket-stocks-trading/index.html?utm_source=business_ribbon",
+            "source": "CNN",
+            "date": "13 hours ago",
+            "snippet": "The American dream of homeownership is looking more like a nightmare."
+        },
+        {
+            "title": "AI Stocks: Best Artificial Intelligence Stocks To Watch Amid ChatGPT Hype",
+            "link": "https://www.investors.com/news/technology/artificial-intelligence-stocks/",
+            "source": "Investor's Business Daily",
+            "date": "11 hours ago",
+            "snippet": "Amid hype over artificial intelligence and ChatGPT, the best AI stocks generate sales or get a strategic edge from the maturing technology."
+        },
+        {
+            "title": "3 Bank Stocks to Buy Hand Over Fist in May",
+            "link": "https://www.theglobeandmail.com/investing/markets/stocks/SCHW/pressreleases/26044604/3-bank-stocks-to-buy-hand-over-fist-in-may/",
+            "source": "The Globe and Mail",
+            "date": "16 hours ago",
+            "snippet": "Detailed price information for The Charles Schwab Corp (SCHW-N) from The Globe and Mail including charting and trades."
+        },
+        {
+            "title": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says",
+            "link": "https://www.cnbc.com/2024/05/08/new-york-knicks-parent-to-see-strong-earnings-from-nba-playoff-run-bank-of-america-says.html",
+            "source": "CNBC",
+            "date": "11 hours ago",
+            "snippet": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says. Published Wed, May 8 20249:42 AM EDT Updated Wed,..."
+        },
+        "Bank of America Do not sell in May Global tech stocks"
+    ],
+    "Bank of America Corp. stock underperforms Wednesday when compared to competitors": [
+        {
+            "title": "Bank of America Corp. stock underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/bank-of-america-corp-stock-underperforms-wednesday-when-compared-to-competitors-a8fbd689-f150b0f7a427",
+            "source": "MarketWatch",
             "date": "4 hours ago",
-            "snippet": "Tags: 2024 United States presidential election, Elections, U.S. news, Joe Biden, Politics, Donald Trump, World news. Full Screen."
+            "snippet": "Shares of Bank of America Corp. slid 0.34% to $37.71 Wednesday, on what proved to be an all-around mixed trading session for the stock market, with the S&P."
         },
         {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.pinalcentral.com/politics/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/article_f0ec0a3e-c81e-5089-827e-97d8fbe43c5f.html",
-            "source": "PinalCentral.com",
+            "title": "Bank of America Corp. stock underperforms Friday when compared to competitors despite daily gains",
+            "link": "http://www.msn.com/en-us/money/markets/bank-of-america-corp-stock-outperforms-market-on-strong-trading-day/ar-AA1clTdA?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+            "source": "MSN",
+            "date": "3 hours ago",
+            "snippet": "COMPANY CLOSE UPDATES Shares of Bank of America Corp. inched 0.14% higher to $29.27 Friday, on what proved to be an all-around favorable trading session for..."
+        },
+        {
+            "title": "Bank of America Downgrades Lyra Therapeutics (NASDAQ:LYRA) to Underperform",
+            "link": "https://www.defenseworld.net/2024/05/08/bank-of-america-downgrades-lyra-therapeutics-nasdaqlyra-to-underperform.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Bank of America downgraded shares of Lyra Therapeutics (NASDAQ:LYRA \u2013 Free Report) from a buy rating to an underperform rating in a research note published..."
+        },
+        {
+            "title": "Bank of America Corp. stock underperforms Thursday when compared to competitors",
+            "link": "https://www.msn.com/en-us/money/topstocks/bank-of-america-corp-stock-underperforms-thursday-when-compared-to-competitors/ar-BB1ltu2L?ocid=weather-verthp-feeds",
+            "source": "MSN",
+            "date": "10 hours ago",
+            "snippet": "Shares of Bank of America Corp. slipped 0.82% to $36.35 Thursday, on what proved to be an all-around mixed trading session for the stock market,..."
+        },
+        {
+            "title": "IndusInd Bank underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/indusind-bank-underperforms-wednesday-when-compared-to-competitors-5950b09e-5bec8178e4ec?mod=marketwatch-automation",
+            "source": "MarketWatch",
+            "date": "14 hours ago",
+            "snippet": "IndusInd Bank Ltd. shares inched down 0.61% to 1443.80 Indian rupees Wednesday, on what proved to be an all-around grim trading session for the stock..."
+        },
+        {
+            "title": "Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America",
+            "link": "https://www.defenseworld.net/2024/05/08/integra-lifesciences-nasdaqiart-price-target-lowered-to-26-00-at-bank-of-america.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Read Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America at Defense World."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...": [
+        {
+            "title": "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...",
+            "link": "https://fortune.com/2024/05/08/leo-lukenas-iii-bank-of-america-junior-investment-banker-death-wall-street-working-conditions/",
+            "source": "Fortune",
             "date": "4 hours ago",
-            "snippet": "NEW YORK \u2014 Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as..."
+            "snippet": "Leo Lukenas III, a former Green Beret, joined Bank of America as an investment banker last summer. He died on May 2."
         },
         {
-            "title": "Trump Slams Biden Over Weakness On Antisemitism, Gets Bashed For His Own 'Offensive And Irresponsible' Comments",
-            "link": "https://www.benzinga.com/news/24/05/38659230/trump-slams-biden-over-weakness-on-antisemitism-gets-bashed-for-his-own-offensive-and-irresponsible",
-            "source": "Benzinga",
-            "date": "40 minutes ago",
-            "snippet": "In a recent development, former President Donald Trump has reportedly taken a jab at President Joe Biden for his perceived soft approach towards..."
+            "title": "Green beret turned Bank of America banker Leo Lukenas died just one year into grueling investment job 'where a",
+            "link": "https://www.dailymail.co.uk/news/article-13395815/Green-beret-Bank-America-banker-Leo-Lukenas-death.html",
+            "source": "Daily Mail",
+            "date": "11 hours ago",
+            "snippet": "Leo Lukenas III, 35, in New York City on Thursday from 'acute coronary artery thrombus."
         },
         {
-            "title": "Election 2024 Trump Antisemitism | Nation | hjnews.com",
-            "link": "https://www.hjnews.com/nation/election-2024-trump-antisemitism/image_012602fa-6059-58fa-8fa3-46ac79877bf2.html",
-            "source": "The Herald Journal",
+            "title": "Why Wall Street Is Transfixed by a BofA Banker's Untimely Death",
+            "link": "https://www.businessinsider.com/wall-street-transfixed-by-bofa-banker-leo-lukenas-untimely-death-2024-5",
+            "source": "Business Insider",
+            "date": "24 hours ago",
+            "snippet": "Leo Lukenas III, a soldier turned investment banker, died last week. It's sparking a conversation about work-life balance across Wall Street."
+        },
+        {
+            "title": "Junior bankers crumble under 90-hour weeks: \u2018When it\u2019s crunch time, nobody cares\u2019",
+            "link": "https://www.fnlondon.com/articles/junior-bankers-crumble-under-90-hour-weeks-when-its-crunch-time-nobody-cares-da7477e5",
+            "source": "Financial News London",
             "date": "4 hours ago",
-            "snippet": "FILE - Republican presidential candidate former President Donald Trump speaks April 2, 2024, at a rally in Green Bay, Wis. Trump is accusing Joe Biden of..."
+            "snippet": "Working conditions for analysts and associates are in the spotlight once again, and juniors are pushing back against brutal hours."
+        },
+        "Leo Lukenas III Bank of America associate death Wall Street death"
+    ],
+    "Bank of America says do not sell in May and go away": [
+        {
+            "title": "Bank of America says do not sell in May and go away",
+            "link": "https://www.cnbc.com/2024/05/08/bank-of-america-says-do-not-sell-in-may-and-go-away.html",
+            "source": "CNBC",
+            "date": "14 hours ago",
+            "snippet": "These global tech stocks have beaten the S&P 500 this year \u2014 and analysts give them over 20% upside \u00b7 Weizhen Tan \u00b7 JPMorgan says the market is about to get..."
         },
         {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.thederrick.com/ap/national/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/article_0ee9dc28-ee79-53d6-ab2e-eed71831ac97.html",
-            "source": "thederrick.com",
+            "title": "China rally has further room to run, Bank of America options analysts say",
+            "link": "https://www.marketwatch.com/amp/story/china-rally-has-further-room-to-run-bank-of-america-options-analysts-say-f257a0f3",
+            "source": "MarketWatch",
+            "date": "15 hours ago",
+            "snippet": "The rally in Chinese stocks may have legs because options traders have yet to chase it, say analysts at Bank of America. The Hang Seng index HK:HSI is up..."
+        },
+        {
+            "title": "For US renters, the chance of owning a home is going from bad to worse",
+            "link": "https://edition.cnn.com/2024/05/08/investing/premarket-stocks-trading/index.html?utm_source=business_ribbon",
+            "source": "CNN",
+            "date": "13 hours ago",
+            "snippet": "The American dream of homeownership is looking more like a nightmare."
+        },
+        {
+            "title": "AI Stocks: Best Artificial Intelligence Stocks To Watch Amid ChatGPT Hype",
+            "link": "https://www.investors.com/news/technology/artificial-intelligence-stocks/",
+            "source": "Investor's Business Daily",
+            "date": "11 hours ago",
+            "snippet": "Amid hype over artificial intelligence and ChatGPT, the best AI stocks generate sales or get a strategic edge from the maturing technology."
+        },
+        {
+            "title": "3 Bank Stocks to Buy Hand Over Fist in May",
+            "link": "https://www.theglobeandmail.com/investing/markets/stocks/SCHW/pressreleases/26044604/3-bank-stocks-to-buy-hand-over-fist-in-may/",
+            "source": "The Globe and Mail",
+            "date": "16 hours ago",
+            "snippet": "Detailed price information for The Charles Schwab Corp (SCHW-N) from The Globe and Mail including charting and trades."
+        },
+        {
+            "title": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says",
+            "link": "https://www.cnbc.com/2024/05/08/new-york-knicks-parent-to-see-strong-earnings-from-nba-playoff-run-bank-of-america-says.html",
+            "source": "CNBC",
+            "date": "11 hours ago",
+            "snippet": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says. Published Wed, May 8 20249:42 AM EDT Updated Wed,..."
+        },
+        "Bank of America Do not sell in May Global tech stocks"
+    ],
+    "Bank of America Corp. stock underperforms Wednesday when compared to competitors": [
+        {
+            "title": "Bank of America Corp. stock underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/bank-of-america-corp-stock-underperforms-wednesday-when-compared-to-competitors-a8fbd689-f150b0f7a427",
+            "source": "MarketWatch",
             "date": "4 hours ago",
-            "snippet": "Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as a campaign..."
+            "snippet": "Shares of Bank of America Corp. slid 0.34% to $37.71 Wednesday, on what proved to be an all-around mixed trading session for the stock market, with the S&P."
         },
         {
-            "title": "RNC, Trump release video contrasting GOP and Biden on antisemitism",
-            "link": "https://gazette.com/news/wex/rnc-trump-release-video-contrasting-gop-and-biden-on-antisemitism/article_f561f458-f03a-527c-8b20-442844b987c2.html",
-            "source": "Colorado Springs Gazette",
-            "date": "17 hours ago",
-            "snippet": "EXCLUSIVE \u2014 The Republican National Committee, former President Donald Trump's campaign, and the Republican Jewish Coalition released a new video Monday..."
+            "title": "Bank of America Corp. stock underperforms Friday when compared to competitors despite daily gains",
+            "link": "http://www.msn.com/en-us/money/markets/bank-of-america-corp-stock-outperforms-market-on-strong-trading-day/ar-AA1clTdA?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+            "source": "MSN",
+            "date": "3 hours ago",
+            "snippet": "COMPANY CLOSE UPDATES Shares of Bank of America Corp. inched 0.14% higher to $29.27 Friday, on what proved to be an all-around favorable trading session for..."
         },
         {
-            "title": "Biden to deliver keynote address on antisemitism at Holocaust remembrance ceremony",
-            "link": "https://www.yahoo.com/news/biden-deliver-keynote-address-antisemitism-213922204.html",
-            "source": "Yahoo",
-            "date": "12 hours ago",
-            "snippet": "WASHINGTON \u2014 President Joe Biden will deliver the keynote address at an annual ceremony commemorating the Holocaust on May 7, White House press secretary..."
+            "title": "Bank of America Downgrades Lyra Therapeutics (NASDAQ:LYRA) to Underperform",
+            "link": "https://www.defenseworld.net/2024/05/08/bank-of-america-downgrades-lyra-therapeutics-nasdaqlyra-to-underperform.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Bank of America downgraded shares of Lyra Therapeutics (NASDAQ:LYRA \u2013 Free Report) from a buy rating to an underperform rating in a research note published..."
         },
         {
-            "title": "Biden prepares to meet \u2018important moment\u2019 with speech on antisemitism",
-            "link": "https://www.washingtonexaminer.com/news/white-house/2989779/biden-prepares-to-meet-important-moment-with-speech-on-antisemitism/",
-            "source": "Washington Examiner",
-            "date": "17 hours ago",
-            "snippet": "President Joe Biden's political sensibilities and public speaking skills will be tested this week when he delivers a highly anticipated speech denouncing..."
+            "title": "Bank of America Corp. stock underperforms Thursday when compared to competitors",
+            "link": "https://www.msn.com/en-us/money/topstocks/bank-of-america-corp-stock-underperforms-thursday-when-compared-to-competitors/ar-BB1ltu2L?ocid=weather-verthp-feeds",
+            "source": "MSN",
+            "date": "10 hours ago",
+            "snippet": "Shares of Bank of America Corp. slipped 0.82% to $36.35 Thursday, on what proved to be an all-around mixed trading session for the stock market,..."
         },
-        "Donald Trump Joe Biden Antisemitism"
+        {
+            "title": "IndusInd Bank underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/indusind-bank-underperforms-wednesday-when-compared-to-competitors-5950b09e-5bec8178e4ec?mod=marketwatch-automation",
+            "source": "MarketWatch",
+            "date": "14 hours ago",
+            "snippet": "IndusInd Bank Ltd. shares inched down 0.61% to 1443.80 Indian rupees Wednesday, on what proved to be an all-around grim trading session for the stock..."
+        },
+        {
+            "title": "Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America",
+            "link": "https://www.defenseworld.net/2024/05/08/integra-lifesciences-nasdaqiart-price-target-lowered-to-26-00-at-bank-of-america.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Read Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America at Defense World."
+        },
+        "Bank of America Corp. stock underperforms"
+    ],
+    "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs": [
+        {
+            "title": "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs",
+            "link": "https://www.belgrade-news.com/townnews/welfare/bank-of-america-says-its-not-debanking-christians-conservatives-after-letter-from-gop-ags/article_82c0c8b0-0c8c-11ef-9d6b-e32d4b5d649c.html",
+            "source": "belgrade-news.com",
+            "date": "9 hours ago",
+            "snippet": "A contingent of Republican state attorneys general \u2014 including Montana's Austin Knudsen \u2014 are worried about Bank of America (the second largest bank in the..."
+        }
     ]
 }
 root - INFO - Making relevancy determinations for sources_by_story:
 
 root - INFO - Sources by story JSON:
 {
-    "Why the former Georgia Republican lieutenant governor is voting for Joe Biden": [
-        "Former Republican Official Finds a Spine, Endorses Joe Biden",
-        "Georgia's former lieutenant governor backs Biden in high-profile defection from GOP",
-        "2024 Election Updates: Latest Biden and Trump News",
-        "Trump Accountant Exposes Checks to Michael Cohen in Damning Testimony"
-    ],
-    "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric": [
+    "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...": [
         {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://abcnews.go.com/US/wireStory/donald-trump-calls-joe-biden-weak-antisemitism-ignoring-109974759",
-            "source": "ABC News - Breaking News, Latest News and Videos",
+            "title": "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...",
+            "link": "https://fortune.com/2024/05/08/leo-lukenas-iii-bank-of-america-junior-investment-banker-death-wall-street-working-conditions/",
+            "source": "Fortune",
             "date": "4 hours ago",
-            "snippet": "Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as a campaign..."
+            "snippet": "Leo Lukenas III, a former Green Beret, joined Bank of America as an investment banker last summer. He died on May 2."
         },
         {
-            "title": "Trump ignores his own rhetoric, calls Biden weak on antisemitism",
-            "link": "https://wgme.com/news/beyond-the-podium/gallery/trump-ignores-rhetoric-calls-biden-weak-antisemitism-donald-joe-former-president-jews-jewish-hate-speech-language-hitler-nazi-germany-response-israel-holocaust-yom-hashoah",
-            "source": "WGME",
-            "date": "4 hours ago",
-            "snippet": "FILE - Former President Donald Trump and President Joe Biden (AP)"
-        },
-        {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.clickorlando.com/gallery/news/2024/05/06/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/",
-            "source": "WKMG",
-            "date": "4 hours ago",
-            "snippet": "Tags: 2024 United States presidential election, Elections, U.S. news, Joe Biden, Politics, Donald Trump, World news. Full Screen."
-        },
-        {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.pinalcentral.com/politics/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/article_f0ec0a3e-c81e-5089-827e-97d8fbe43c5f.html",
-            "source": "PinalCentral.com",
-            "date": "4 hours ago",
-            "snippet": "NEW YORK \u2014 Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as..."
-        },
-        {
-            "title": "Trump Slams Biden Over Weakness On Antisemitism, Gets Bashed For His Own 'Offensive And Irresponsible' Comments",
-            "link": "https://www.benzinga.com/news/24/05/38659230/trump-slams-biden-over-weakness-on-antisemitism-gets-bashed-for-his-own-offensive-and-irresponsible",
-            "source": "Benzinga",
-            "date": "40 minutes ago",
-            "snippet": "In a recent development, former President Donald Trump has reportedly taken a jab at President Joe Biden for his perceived soft approach towards..."
-        },
-        {
-            "title": "Election 2024 Trump Antisemitism | Nation | hjnews.com",
-            "link": "https://www.hjnews.com/nation/election-2024-trump-antisemitism/image_012602fa-6059-58fa-8fa3-46ac79877bf2.html",
-            "source": "The Herald Journal",
-            "date": "4 hours ago",
-            "snippet": "FILE - Republican presidential candidate former President Donald Trump speaks April 2, 2024, at a rally in Green Bay, Wis. Trump is accusing Joe Biden of..."
-        },
-        {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.thederrick.com/ap/national/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/article_0ee9dc28-ee79-53d6-ab2e-eed71831ac97.html",
-            "source": "thederrick.com",
-            "date": "4 hours ago",
-            "snippet": "Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as a campaign..."
-        },
-        {
-            "title": "RNC, Trump release video contrasting GOP and Biden on antisemitism",
-            "link": "https://gazette.com/news/wex/rnc-trump-release-video-contrasting-gop-and-biden-on-antisemitism/article_f561f458-f03a-527c-8b20-442844b987c2.html",
-            "source": "Colorado Springs Gazette",
-            "date": "17 hours ago",
-            "snippet": "EXCLUSIVE \u2014 The Republican National Committee, former President Donald Trump's campaign, and the Republican Jewish Coalition released a new video Monday..."
-        },
-        {
-            "title": "Biden to deliver keynote address on antisemitism at Holocaust remembrance ceremony",
-            "link": "https://www.yahoo.com/news/biden-deliver-keynote-address-antisemitism-213922204.html",
-            "source": "Yahoo",
-            "date": "12 hours ago",
-            "snippet": "WASHINGTON \u2014 President Joe Biden will deliver the keynote address at an annual ceremony commemorating the Holocaust on May 7, White House press secretary..."
-        },
-        {
-            "title": "Biden prepares to meet \u2018important moment\u2019 with speech on antisemitism",
-            "link": "https://www.washingtonexaminer.com/news/white-house/2989779/biden-prepares-to-meet-important-moment-with-speech-on-antisemitism/",
-            "source": "Washington Examiner",
-            "date": "17 hours ago",
-            "snippet": "President Joe Biden's political sensibilities and public speaking skills will be tested this week when he delivers a highly anticipated speech denouncing..."
-        },
-        "Donald Trump Joe Biden Antisemitism"
-    ],
-    "Biden speaks with Netanyahu as Israelis appear closer to major Rafah offensive": [
-        {
-            "title": "Biden speaks with Netanyahu as Israelis appear closer to major Rafah offensive",
-            "link": "https://apnews.com/article/biden-netanyahu-gaza-rafah-d85423ad066fe41ac5783db5bd9ecffd",
-            "source": "AP News",
-            "date": "4 hours ago",
-            "snippet": "President Joe Biden and Israeli Prime Minister Benjamin Netanyahu have spoken as Israel appears closer to launching a major military operation on the..."
-        },
-        {
-            "title": "Biden speaks with Netanyahu as Israeli invasion of Rafah appears imminent",
-            "link": "https://abcnews.go.com/Politics/biden-netanyahu-speak-israeli-invasion-rafah-appears-imminent/story?id=109953634",
-            "source": "ABC News - Breaking News, Latest News and Videos",
-            "date": "7 hours ago",
-            "snippet": "President Joe Biden spoke with Israeli Prime Minister Benjamin Netanyahu on Monday and \"reiterated his clear position on Rafah.\""
-        },
-        {
-            "title": "Biden pushed Netanyahu not to attack Rafah, US reviewing ceasefire proposal",
-            "link": "https://www.reuters.com/world/middle-east/netanyahu-agrees-reopen-gaza-crossing-humanitarian-aid-white-house-says-2024-05-06/",
-            "source": "Reuters",
-            "date": "8 hours ago",
-            "snippet": "The White House said on Monday it was reviewing a response by Hamas to a ceasefire and hostage release deal, and continued to press Israel not to launch a..."
-        },
-        {
-            "title": "Biden speaks to Netanyahu as Israeli invasion of Rafah looms",
-            "link": "https://www.axios.com/2024/05/06/biden-rafah-invasion-netanyahu-israel",
-            "source": "Axios",
-            "date": "12 hours ago",
-            "snippet": "President Biden and Israeli Prime Minister Benjamin Netanyahu spoke on the phone for 30 minutes Monday, discussing hostage deal negotiations and Israel's..."
-        },
-        {
-            "title": "Biden speaks to Netanyahu amid cease-fire talks and evacuation of Rafah",
-            "link": "https://www.nbcnews.com/politics/white-house/biden-speaks-netanyahu-cease-fire-talks-evacuation-rafah-rcna150863",
-            "source": "NBC News",
+            "title": "Green beret turned Bank of America banker Leo Lukenas died just one year into grueling investment job 'where a",
+            "link": "https://www.dailymail.co.uk/news/article-13395815/Green-beret-Bank-America-banker-Leo-Lukenas-death.html",
+            "source": "Daily Mail",
             "date": "11 hours ago",
-            "snippet": "WASHINGTON \u2014 President Joe Biden spoke to Israeli Prime Minister Benjamin Netanyahu on Monday morning as a potential ground assault in Rafah looms and as..."
+            "snippet": "Leo Lukenas III, 35, in New York City on Thursday from 'acute coronary artery thrombus."
         },
         {
-            "title": "Biden warns Netanyahu against an offensive in Rafah",
-            "link": "https://www.spokesman.com/stories/2024/may/06/biden-netanyahu-speak-as-israel-tells-gazans-to-le/",
-            "source": "The Spokesman-Review",
-            "date": "2 hours ago",
-            "snippet": "President Joe Biden and Israeli Prime Minister Benjamin Netanyahu spoke Monday as the Israel military urged civilians to move out of the southern Gazan city..."
+            "title": "Why Wall Street Is Transfixed by a BofA Banker's Untimely Death",
+            "link": "https://www.businessinsider.com/wall-street-transfixed-by-bofa-banker-leo-lukenas-untimely-death-2024-5",
+            "source": "Business Insider",
+            "date": "24 hours ago",
+            "snippet": "Leo Lukenas III, a soldier turned investment banker, died last week. It's sparking a conversation about work-life balance across Wall Street."
         },
         {
-            "title": "Biden reiterates concern about Rafah offensive on call to Netanyahu",
-            "link": "https://www.pbs.org/newshour/politics/biden-reiterates-concern-about-rafah-offensive-on-call-to-netanyahu",
-            "source": "PBS",
-            "date": "10 hours ago",
-            "snippet": "President Joe Biden also underscored to Israeli Prime Minister Benjamin Netanyahu that he believes reaching a cease-fire with Hamas is the best way to..."
+            "title": "Junior bankers crumble under 90-hour weeks: \u2018When it\u2019s crunch time, nobody cares\u2019",
+            "link": "https://www.fnlondon.com/articles/junior-bankers-crumble-under-90-hour-weeks-when-its-crunch-time-nobody-cares-da7477e5",
+            "source": "Financial News London",
+            "date": "4 hours ago",
+            "snippet": "Working conditions for analysts and associates are in the spotlight once again, and juniors are pushing back against brutal hours."
+        }
+    ],
+    "Bank of America says do not sell in May and go away": [
+        {
+            "title": "Bank of America says do not sell in May and go away",
+            "link": "https://www.cnbc.com/2024/05/08/bank-of-america-says-do-not-sell-in-may-and-go-away.html",
+            "source": "CNBC",
+            "date": "14 hours ago",
+            "snippet": "These global tech stocks have beaten the S&P 500 this year \u2014 and analysts give them over 20% upside \u00b7 Weizhen Tan \u00b7 JPMorgan says the market is about to get..."
         },
         {
-            "title": "Biden speaks with Netanyahu, hosts Jordan's King Abdullah amid Gaza cease-fire talks",
-            "link": "https://ny1.com/nyc/all-boroughs/news/2024/05/06/biden-netanyahu-call-israel-hamas-rafah",
-            "source": "Spectrum News NY1",
-            "date": "11 hours ago",
-            "snippet": "President Joe Biden on Monday spoke with Israeli Prime Minister Benjamin Netanyahu, just hours before news broke that Hamas had responded to a proposal that..."
+            "title": "China rally has further room to run, Bank of America options analysts say",
+            "link": "https://www.marketwatch.com/amp/story/china-rally-has-further-room-to-run-bank-of-america-options-analysts-say-f257a0f3",
+            "source": "MarketWatch",
+            "date": "15 hours ago",
+            "snippet": "The rally in Chinese stocks may have legs because options traders have yet to chase it, say analysts at Bank of America. The Hang Seng index HK:HSI is up..."
         },
         {
-            "title": "Biden, Netanyahu to Speak as Israel Tells Gazans to Leave Rafah",
-            "link": "https://www.bloomberg.com/news/articles/2024-05-06/biden-netanyahu-to-speak-as-israel-tells-gazans-to-leave-rafah",
-            "source": "Bloomberg.com",
+            "title": "For US renters, the chance of owning a home is going from bad to worse",
+            "link": "https://edition.cnn.com/2024/05/08/investing/premarket-stocks-trading/index.html?utm_source=business_ribbon",
+            "source": "CNN",
             "date": "13 hours ago",
-            "snippet": "President Joe Biden and Israeli Prime Minister Benjamin Netanyahu spoke Monday as the Israel military urged civilians to move out of the southern Gazan city..."
+            "snippet": "The American dream of homeownership is looking more like a nightmare."
         },
         {
-            "title": "Biden speaks with Netanyahu amid possible Rafah invasion, cease-fire talks",
-            "link": "https://spectrumlocalnews.com/mo/st-louis/news/2024/05/06/biden-netanyahu-call-israel-hamas-rafah",
-            "source": "Spectrum News",
+            "title": "AI Stocks: Best Artificial Intelligence Stocks To Watch Amid ChatGPT Hype",
+            "link": "https://www.investors.com/news/technology/artificial-intelligence-stocks/",
+            "source": "Investor's Business Daily",
             "date": "11 hours ago",
-            "snippet": "President Joe Biden spoke to Israeli Prime Minister Benjamin Netanyahu on Monday amid a possible looming invasion of Rafah, a city in southern Gaza,..."
+            "snippet": "Amid hype over artificial intelligence and ChatGPT, the best AI stocks generate sales or get a strategic edge from the maturing technology."
         },
-        "Biden Netanyahu Israel"
+        {
+            "title": "3 Bank Stocks to Buy Hand Over Fist in May",
+            "link": "https://www.theglobeandmail.com/investing/markets/stocks/SCHW/pressreleases/26044604/3-bank-stocks-to-buy-hand-over-fist-in-may/",
+            "source": "The Globe and Mail",
+            "date": "16 hours ago",
+            "snippet": "Detailed price information for The Charles Schwab Corp (SCHW-N) from The Globe and Mail including charting and trades."
+        },
+        {
+            "title": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says",
+            "link": "https://www.cnbc.com/2024/05/08/new-york-knicks-parent-to-see-strong-earnings-from-nba-playoff-run-bank-of-america-says.html",
+            "source": "CNBC",
+            "date": "11 hours ago",
+            "snippet": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says. Published Wed, May 8 20249:42 AM EDT Updated Wed,..."
+        },
+        "Bank of America Do not sell in May Global tech stocks"
+    ],
+    "Bank of America Corp. stock underperforms Wednesday when compared to competitors": [
+        {
+            "title": "Bank of America Corp. stock underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/bank-of-america-corp-stock-underperforms-wednesday-when-compared-to-competitors-a8fbd689-f150b0f7a427",
+            "source": "MarketWatch",
+            "date": "4 hours ago",
+            "snippet": "Shares of Bank of America Corp. slid 0.34% to $37.71 Wednesday, on what proved to be an all-around mixed trading session for the stock market, with the S&P."
+        },
+        {
+            "title": "Bank of America Corp. stock underperforms Friday when compared to competitors despite daily gains",
+            "link": "http://www.msn.com/en-us/money/markets/bank-of-america-corp-stock-outperforms-market-on-strong-trading-day/ar-AA1clTdA?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+            "source": "MSN",
+            "date": "3 hours ago",
+            "snippet": "COMPANY CLOSE UPDATES Shares of Bank of America Corp. inched 0.14% higher to $29.27 Friday, on what proved to be an all-around favorable trading session for..."
+        },
+        {
+            "title": "Bank of America Downgrades Lyra Therapeutics (NASDAQ:LYRA) to Underperform",
+            "link": "https://www.defenseworld.net/2024/05/08/bank-of-america-downgrades-lyra-therapeutics-nasdaqlyra-to-underperform.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Bank of America downgraded shares of Lyra Therapeutics (NASDAQ:LYRA \u2013 Free Report) from a buy rating to an underperform rating in a research note published..."
+        },
+        {
+            "title": "Bank of America Corp. stock underperforms Thursday when compared to competitors",
+            "link": "https://www.msn.com/en-us/money/topstocks/bank-of-america-corp-stock-underperforms-thursday-when-compared-to-competitors/ar-BB1ltu2L?ocid=weather-verthp-feeds",
+            "source": "MSN",
+            "date": "10 hours ago",
+            "snippet": "Shares of Bank of America Corp. slipped 0.82% to $36.35 Thursday, on what proved to be an all-around mixed trading session for the stock market,..."
+        },
+        {
+            "title": "IndusInd Bank underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/indusind-bank-underperforms-wednesday-when-compared-to-competitors-5950b09e-5bec8178e4ec?mod=marketwatch-automation",
+            "source": "MarketWatch",
+            "date": "14 hours ago",
+            "snippet": "IndusInd Bank Ltd. shares inched down 0.61% to 1443.80 Indian rupees Wednesday, on what proved to be an all-around grim trading session for the stock..."
+        },
+        {
+            "title": "Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America",
+            "link": "https://www.defenseworld.net/2024/05/08/integra-lifesciences-nasdaqiart-price-target-lowered-to-26-00-at-bank-of-america.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Read Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America at Defense World."
+        },
+        "Bank of America Corp. stock underperforms"
+    ],
+    "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs": [
+        {
+            "title": "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs",
+            "link": "https://www.belgrade-news.com/townnews/welfare/bank-of-america-says-its-not-debanking-christians-conservatives-after-letter-from-gop-ags/article_82c0c8b0-0c8c-11ef-9d6b-e32d4b5d649c.html",
+            "source": "belgrade-news.com",
+            "date": "9 hours ago",
+            "snippet": "A contingent of Republican state attorneys general \u2014 including Montana's Austin Knudsen \u2014 are worried about Bank of America (the second largest bank in the..."
+        },
+        "Bank of America debanking Christians"
     ]
 }
 httpx - INFO - HTTP Request: POST https://wizardlm-2-8x22b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
 root - INFO - Sources by story JSON:
 {
-    "Why the former Georgia Republican lieutenant governor is voting for Joe Biden": [
-        "Former Republican Official Finds a Spine, Endorses Joe Biden",
-        "Georgia's former lieutenant governor backs Biden in high-profile defection from GOP",
-        "2024 Election Updates: Latest Biden and Trump News",
-        "Trump Accountant Exposes Checks to Michael Cohen in Damning Testimony"
-    ],
-    "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric": [
+    "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...": [
         {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://abcnews.go.com/US/wireStory/donald-trump-calls-joe-biden-weak-antisemitism-ignoring-109974759",
-            "source": "ABC News - Breaking News, Latest News and Videos",
+            "title": "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...",
+            "link": "https://fortune.com/2024/05/08/leo-lukenas-iii-bank-of-america-junior-investment-banker-death-wall-street-working-conditions/",
+            "source": "Fortune",
             "date": "4 hours ago",
-            "snippet": "Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as a campaign..."
+            "snippet": "Leo Lukenas III, a former Green Beret, joined Bank of America as an investment banker last summer. He died on May 2."
         },
         {
-            "title": "Trump ignores his own rhetoric, calls Biden weak on antisemitism",
-            "link": "https://wgme.com/news/beyond-the-podium/gallery/trump-ignores-rhetoric-calls-biden-weak-antisemitism-donald-joe-former-president-jews-jewish-hate-speech-language-hitler-nazi-germany-response-israel-holocaust-yom-hashoah",
-            "source": "WGME",
-            "date": "4 hours ago",
-            "snippet": "FILE - Former President Donald Trump and President Joe Biden (AP)"
-        },
-        {
-            "title": "Trump Slams Biden Over Weakness On Antisemitism, Gets Bashed For His Own 'Offensive And Irresponsible' Comments",
-            "link": "https://www.benzinga.com/news/24/05/38659230/trump-slams-biden-over-weakness-on-antisemitism-gets-bashed-for-his-own-offensive-and-irresponsible",
-            "source": "Benzinga",
-            "date": "40 minutes ago",
-            "snippet": "In a recent development, former President Donald Trump has reportedly taken a jab at President Joe Biden for his perceived soft approach towards..."
-        },
-        {
-            "title": "RNC, Trump release video contrasting GOP and Biden on antisemitism",
-            "link": "https://gazette.com/news/wex/rnc-trump-release-video-contrasting-gop-and-biden-on-antisemitism/article_f561f458-f03a-527c-8b20-442844b987c2.html",
-            "source": "Colorado Springs Gazette",
-            "date": "17 hours ago",
-            "snippet": "EXCLUSIVE \u2014 The Republican National Committee, former President Donald Trump's campaign, and the Republican Jewish Coalition released a new video Monday..."
-        },
-        {
-            "title": "Biden to deliver keynote address on antisemitism at Holocaust remembrance ceremony",
-            "link": "https://www.yahoo.com/news/biden-deliver-keynote-address-antisemitism-213922204.html",
-            "source": "Yahoo",
-            "date": "12 hours ago",
-            "snippet": "WASHINGTON \u2014 President Joe Biden will deliver the keynote address at an annual ceremony commemorating the Holocaust on May 7, White House press secretary..."
-        },
-        {
-            "title": "Biden prepares to meet \u2018important moment\u2019 with speech on antisemitism",
-            "link": "https://www.washingtonexaminer.com/news/white-house/2989779/biden-prepares-to-meet-important-moment-with-speech-on-antisemitism/",
-            "source": "Washington Examiner",
-            "date": "17 hours ago",
-            "snippet": "President Joe Biden's political sensibilities and public speaking skills will be tested this week when he delivers a highly anticipated speech denouncing..."
-        },
-        {
-            "title": "Election 2024 Trump Antisemitism | Nation | hjnews.com",
-            "link": "https://www.hjnews.com/nation/election-2024-trump-antisemitism/image_012602fa-6059-58fa-8fa3-46ac79877bf2.html",
-            "source": "The Herald Journal",
-            "date": "4 hours ago",
-            "snippet": "FILE - Republican presidential candidate former President Donald Trump speaks April 2, 2024, at a rally in Green Bay, Wis. Trump is accusing Joe Biden of..."
-        },
-        {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.clickorlando.com/gallery/news/2024/05/06/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/",
-            "source": "WKMG",
-            "date": "4 hours ago",
-            "snippet": "Tags: 2024 United States presidential election, Elections, U.S. news, Joe Biden, Politics, Donald Trump, World news. Full Screen."
-        },
-        {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.pinalcentral.com/politics/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/article_f0ec0a3e-c81e-5089-827e-97d8fbe43c5f.html",
-            "source": "PinalCentral.com",
-            "date": "4 hours ago",
-            "snippet": "NEW YORK \u2014 Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as..."
-        },
-        "Donald Trump calls Joe Biden weak on ant"
-    ],
-    "Biden speaks with Netanyahu as Israelis appear closer to major Rafah offensive": [
-        {
-            "title": "Biden speaks with Netanyahu as Israelis appear closer to major Rafah offensive",
-            "link": "https://apnews.com/article/biden-netanyahu-gaza-rafah-d85423ad066fe41ac5783db5bd9ecffd",
-            "source": "AP News",
-            "date": "4 hours ago",
-            "snippet": "President Joe Biden and Israeli Prime Minister Benjamin Netanyahu have spoken as Israel appears closer to launching a major military operation on the..."
-        },
-        {
-            "title": "Biden speaks with Netanyahu as Israeli invasion of Rafah appears imminent",
-            "link": "https://abcnews.go.com/Politics/biden-netanyahu-speak-israeli-invasion-rafah-appears-imminent/story?id=109953634",
-            "source": "ABC News - Breaking News, Latest News and Videos",
-            "date": "7 hours ago",
-            "snippet": "President Joe Biden spoke with Israeli Prime Minister Benjamin Netanyahu on Monday and \"reiterated his clear position on Rafah.\""
-        },
-        {
-            "title": "Biden pushed Netanyahu not to attack Rafah, US reviewing ceasefire proposal",
-            "link": "https://www.reuters.com/world/middle-east/netanyahu-agrees-reopen-gaza-crossing-humanitarian-aid-white-house-says-2024-05-06/",
-            "source": "Reuters",
-            "date": "8 hours ago",
-            "snippet": "The White House said on Monday it was reviewing a response by Hamas to a ceasefire and hostage release deal, and continued to press Israel not to launch a..."
-        },
-        {
-            "title": "Biden speaks to Netanyahu as Israeli invasion of Rafah looms",
-            "link": "https://www.axios.com/2024/05/06/biden-rafah-invasion-netanyahu-israel",
-            "source": "Axios",
-            "date": "12 hours ago",
-            "snippet": "President Biden and Israeli Prime Minister Benjamin Netanyahu spoke on the phone for 30 minutes Monday, discussing hostage deal negotiations and Israel's..."
-        },
-        {
-            "title": "Biden speaks to Netanyahu amid cease-fire talks and evacuation of Rafah",
-            "link": "https://www.nbcnews.com/politics/white-house/biden-speaks-netanyahu-cease-fire-talks-evacuation-rafah-rcna150863",
-            "source": "NBC News",
+            "title": "Green beret turned Bank of America banker Leo Lukenas died just one year into grueling investment job 'where a",
+            "link": "https://www.dailymail.co.uk/news/article-13395815/Green-beret-Bank-America-banker-Leo-Lukenas-death.html",
+            "source": "Daily Mail",
             "date": "11 hours ago",
-            "snippet": "WASHINGTON \u2014 President Joe Biden spoke to Israeli Prime Minister Benjamin Netanyahu on Monday morning as a potential ground assault in Rafah looms and as..."
+            "snippet": "Leo Lukenas III, 35, in New York City on Thursday from 'acute coronary artery thrombus."
         },
         {
-            "title": "Biden warns Netanyahu against an offensive in Rafah",
-            "link": "https://www.spokesman.com/stories/2024/may/06/biden-netanyahu-speak-as-israel-tells-gazans-to-le/",
-            "source": "The Spokesman-Review",
-            "date": "2 hours ago",
-            "snippet": "President Joe Biden and Israeli Prime Minister Benjamin Netanyahu spoke Monday as the Israel military urged civilians to move out of the southern Gazan city..."
+            "title": "Why Wall Street Is Transfixed by a BofA Banker's Untimely Death",
+            "link": "https://www.businessinsider.com/wall-street-transfixed-by-bofa-banker-leo-lukenas-untimely-death-2024-5",
+            "source": "Business Insider",
+            "date": "24 hours ago",
+            "snippet": "Leo Lukenas III, a soldier turned investment banker, died last week. It's sparking a conversation about work-life balance across Wall Street."
         },
         {
-            "title": "Biden reiterates concern about Rafah offensive on call to Netanyahu",
-            "link": "https://www.pbs.org/newshour/politics/biden-reiterates-concern-about-rafah-offensive-on-call-to-netanyahu",
-            "source": "PBS",
-            "date": "10 hours ago",
-            "snippet": "President Joe Biden also underscored to Israeli Prime Minister Benjamin Netanyahu that he believes reaching a cease-fire with Hamas is the best way to..."
+            "title": "Junior bankers crumble under 90-hour weeks: \u2018When it\u2019s crunch time, nobody cares\u2019",
+            "link": "https://www.fnlondon.com/articles/junior-bankers-crumble-under-90-hour-weeks-when-its-crunch-time-nobody-cares-da7477e5",
+            "source": "Financial News London",
+            "date": "4 hours ago",
+            "snippet": "Working conditions for analysts and associates are in the spotlight once again, and juniors are pushing back against brutal hours."
+        }
+    ],
+    "Bank of America says do not sell in May and go away": [
+        {
+            "title": "Bank of America says do not sell in May and go away",
+            "link": "https://www.cnbc.com/2024/05/08/bank-of-america-says-do-not-sell-in-may-and-go-away.html",
+            "source": "CNBC",
+            "date": "14 hours ago",
+            "snippet": "These global tech stocks have beaten the S&P 500 this year \u2014 and analysts give them over 20% upside \u00b7 Weizhen Tan \u00b7 JPMorgan says the market is about to get..."
         },
         {
-            "title": "Biden speaks with Netanyahu, hosts Jordan's King Abdullah amid Gaza cease-fire talks",
-            "link": "https://ny1.com/nyc/all-boroughs/news/2024/05/06/biden-netanyahu-call-israel-hamas-rafah",
-            "source": "Spectrum News NY1",
+            "title": "3 Bank Stocks to Buy Hand Over Fist in May",
+            "link": "https://www.theglobeandmail.com/investing/markets/stocks/SCHW/pressreleases/26044604/3-bank-stocks-to-buy-hand-over-fist-in-may/",
+            "source": "The Globe and Mail",
+            "date": "16 hours ago",
+            "snippet": "Detailed price information for The Charles Schwab Corp (SCHW-N) from The Globe and Mail including charting and trades."
+        },
+        {
+            "title": "China rally has further room to run, Bank of America options analysts say",
+            "link": "https://www.marketwatch.com/amp/story/china-rally-has-further-room-to-run-bank-of-america-options-analysts-say-f257a0f3",
+            "source": "MarketWatch",
+            "date": "15 hours ago",
+            "snippet": "The rally in Chinese stocks may have legs because options traders have yet to chase it, say analysts at Bank of America. The Hang Seng index HK:HSI is up..."
+        },
+        {
+            "title": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says",
+            "link": "https://www.cnbc.com/2024/05/08/new-york-knicks-parent-to-see-strong-earnings-from-nba-playoff-run-bank-of-america-says.html",
+            "source": "CNBC",
             "date": "11 hours ago",
-            "snippet": "President Joe Biden on Monday spoke with Israeli Prime Minister Benjamin Netanyahu, just hours before news broke that Hamas had responded to a proposal that..."
+            "snippet": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says. Published Wed, May 8 20249:42 AM EDT Updated Wed,..."
         },
         {
-            "title": "Biden, Netanyahu to Speak as Israel Tells Gazans to Leave Rafah",
-            "link": "https://www.bloomberg.com/news/articles/2024-05-06/biden-netanyahu-to-speak-as-israel-tells-gazans-to-leave-rafah",
-            "source": "Bloomberg.com",
+            "title": "AI Stocks: Best Artificial Intelligence Stocks To Watch Amid ChatGPT Hype",
+            "link": "https://www.investors.com/news/technology/artificial-intelligence-stocks/",
+            "source": "Investor's Business Daily",
+            "date": "11 hours ago",
+            "snippet": "Amid hype over artificial intelligence and ChatGPT, the best AI stocks generate sales or get a strategic edge from the maturing technology."
+        },
+        {
+            "title": "For US renters, the chance of owning a home is going from bad to worse",
+            "link": "https://edition.cnn.com/2024/05/08/investing/premarket-stocks-trading/index.html?utm_source=business_ribbon",
+            "source": "CNN",
             "date": "13 hours ago",
-            "snippet": "President Joe Biden and Israeli Prime Minister Benjamin Netanyahu spoke Monday as the Israel military urged civilians to move out of the southern Gazan city..."
+            "snippet": "The American dream of homeownership is looking more like a nightmare."
+        }
+    ],
+    "Bank of America Corp. stock underperforms Wednesday when compared to competitors": [
+        {
+            "title": "Bank of America Corp. stock underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/bank-of-america-corp-stock-underperforms-wednesday-when-compared-to-competitors-a8fbd689-f150b0f7a427",
+            "source": "MarketWatch",
+            "date": "4 hours ago",
+            "snippet": "Shares of Bank of America Corp. slid 0.34% to $37.71 Wednesday, on what proved to be an all-around mixed trading session for the stock market, with the S&P."
         },
         {
-            "title": "Biden speaks with Netanyahu amid possible Rafah invasion, cease-fire talks",
-            "link": "https://spectrumlocalnews.com/mo/st-louis/news/2024/05/06/biden-netanyahu-call-israel-hamas-rafah",
-            "source": "Spectrum News",
-            "date": "11 hours ago",
-            "snippet": "President Joe Biden spoke to Israeli Prime Minister Benjamin Netanyahu on Monday amid a possible looming invasion of Rafah, a city in southern Gaza,..."
+            "title": "Bank of America Corp. stock underperforms Friday when compared to competitors despite daily gains",
+            "link": "http://www.msn.com/en-us/money/markets/bank-of-america-corp-stock-outperforms-market-on-strong-trading-day/ar-AA1clTdA?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+            "source": "MSN",
+            "date": "3 hours ago",
+            "snippet": "COMPANY CLOSE UPDATES Shares of Bank of America Corp. inched 0.14% higher to $29.27 Friday, on what proved to be an all-around favorable trading session for..."
         },
-        "Biden Netanyahu Israel"
+        {
+            "title": "Bank of America Downgrades Lyra Therapeutics (NASDAQ:LYRA) to Underperform",
+            "link": "https://www.defenseworld.net/2024/05/08/bank-of-america-downgrades-lyra-therapeutics-nasdaqlyra-to-underperform.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Bank of America downgraded shares of Lyra Therapeutics (NASDAQ:LYRA \u2013 Free Report) from a buy rating to an underperform rating in a research note published..."
+        },
+        {
+            "title": "Bank of America Corp. stock underperforms Thursday when compared to competitors",
+            "link": "https://www.msn.com/en-us/money/topstocks/bank-of-america-corp-stock-underperforms-thursday-when-compared-to-competitors/ar-BB1ltu2L?ocid=weather-verthp-feeds",
+            "source": "MSN",
+            "date": "10 hours ago",
+            "snippet": "Shares of Bank of America Corp. slipped 0.82% to $36.35 Thursday, on what proved to be an all-around mixed trading session for the stock market,..."
+        },
+        {
+            "title": "IndusInd Bank underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/indusind-bank-underperforms-wednesday-when-compared-to-competitors-5950b09e-5bec8178e4ec?mod=marketwatch-automation",
+            "source": "MarketWatch",
+            "date": "14 hours ago",
+            "snippet": "IndusInd Bank Ltd. shares inched down 0.61% to 1443.80 Indian rupees Wednesday, on what proved to be an all-around grim trading session for the stock..."
+        },
+        {
+            "title": "Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America",
+            "link": "https://www.defenseworld.net/2024/05/08/integra-lifesciences-nasdaqiart-price-target-lowered-to-26-00-at-bank-of-america.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Read Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America at Defense World."
+        },
+        "Bank of America Corp. stock underperforms"
+    ],
+    "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs": [
+        {
+            "title": "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs",
+            "link": "https://www.belgrade-news.com/townnews/welfare/bank-of-america-says-its-not-debanking-christians-conservatives-after-letter-from-gop-ags/article_82c0c8b0-0c8c-11ef-9d6b-e32d4b5d649c.html",
+            "source": "belgrade-news.com",
+            "date": "9 hours ago",
+            "snippet": "A contingent of Republican state attorneys general \u2014 including Montana's Austin Knudsen \u2014 are worried about Bank of America (the second largest bank in the..."
+        },
+        "Bank of America debanking Christians"
     ]
 }
 httpx - INFO - HTTP Request: POST https://wizardlm-2-8x22b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
 root - INFO - Sources by story JSON:
 {
-    "Why the former Georgia Republican lieutenant governor is voting for Joe Biden": [
-        "Former Republican Official Finds a Spine, Endorses Joe Biden",
-        "Georgia's former lieutenant governor backs Biden in high-profile defection from GOP",
-        "2024 Election Updates: Latest Biden and Trump News",
-        "Trump Accountant Exposes Checks to Michael Cohen in Damning Testimony"
-    ],
-    "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric": [
+    "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...": [
         {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://abcnews.go.com/US/wireStory/donald-trump-calls-joe-biden-weak-antisemitism-ignoring-109974759",
-            "source": "ABC News - Breaking News, Latest News and Videos",
+            "title": "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...",
+            "link": "https://fortune.com/2024/05/08/leo-lukenas-iii-bank-of-america-junior-investment-banker-death-wall-street-working-conditions/",
+            "source": "Fortune",
             "date": "4 hours ago",
-            "snippet": "Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as a campaign..."
+            "snippet": "Leo Lukenas III, a former Green Beret, joined Bank of America as an investment banker last summer. He died on May 2."
         },
         {
-            "title": "Trump ignores his own rhetoric, calls Biden weak on antisemitism",
-            "link": "https://wgme.com/news/beyond-the-podium/gallery/trump-ignores-rhetoric-calls-biden-weak-antisemitism-donald-joe-former-president-jews-jewish-hate-speech-language-hitler-nazi-germany-response-israel-holocaust-yom-hashoah",
-            "source": "WGME",
-            "date": "4 hours ago",
-            "snippet": "FILE - Former President Donald Trump and President Joe Biden (AP)"
-        },
-        {
-            "title": "Trump Slams Biden Over Weakness On Antisemitism, Gets Bashed For His Own 'Offensive And Irresponsible' Comments",
-            "link": "https://www.benzinga.com/news/24/05/38659230/trump-slams-biden-over-weakness-on-antisemitism-gets-bashed-for-his-own-offensive-and-irresponsible",
-            "source": "Benzinga",
-            "date": "40 minutes ago",
-            "snippet": "In a recent development, former President Donald Trump has reportedly taken a jab at President Joe Biden for his perceived soft approach towards..."
-        },
-        {
-            "title": "RNC, Trump release video contrasting GOP and Biden on antisemitism",
-            "link": "https://gazette.com/news/wex/rnc-trump-release-video-contrasting-gop-and-biden-on-antisemitism/article_f561f458-f03a-527c-8b20-442844b987c2.html",
-            "source": "Colorado Springs Gazette",
-            "date": "17 hours ago",
-            "snippet": "EXCLUSIVE \u2014 The Republican National Committee, former President Donald Trump's campaign, and the Republican Jewish Coalition released a new video Monday..."
-        },
-        {
-            "title": "Biden to deliver keynote address on antisemitism at Holocaust remembrance ceremony",
-            "link": "https://www.yahoo.com/news/biden-deliver-keynote-address-antisemitism-213922204.html",
-            "source": "Yahoo",
-            "date": "12 hours ago",
-            "snippet": "WASHINGTON \u2014 President Joe Biden will deliver the keynote address at an annual ceremony commemorating the Holocaust on May 7, White House press secretary..."
-        },
-        {
-            "title": "Biden prepares to meet \u2018important moment\u2019 with speech on antisemitism",
-            "link": "https://www.washingtonexaminer.com/news/white-house/2989779/biden-prepares-to-meet-important-moment-with-speech-on-antisemitism/",
-            "source": "Washington Examiner",
-            "date": "17 hours ago",
-            "snippet": "President Joe Biden's political sensibilities and public speaking skills will be tested this week when he delivers a highly anticipated speech denouncing..."
-        },
-        {
-            "title": "Election 2024 Trump Antisemitism | Nation | hjnews.com",
-            "link": "https://www.hjnews.com/nation/election-2024-trump-antisemitism/image_012602fa-6059-58fa-8fa3-46ac79877bf2.html",
-            "source": "The Herald Journal",
-            "date": "4 hours ago",
-            "snippet": "FILE - Republican presidential candidate former President Donald Trump speaks April 2, 2024, at a rally in Green Bay, Wis. Trump is accusing Joe Biden of..."
-        },
-        {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.clickorlando.com/gallery/news/2024/05/06/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/",
-            "source": "WKMG",
-            "date": "4 hours ago",
-            "snippet": "Tags: 2024 United States presidential election, Elections, U.S. news, Joe Biden, Politics, Donald Trump, World news. Full Screen."
-        },
-        {
-            "title": "Donald Trump calls Joe Biden weak on antisemitism, ignoring his own rhetoric",
-            "link": "https://www.pinalcentral.com/politics/donald-trump-calls-joe-biden-weak-on-antisemitism-ignoring-his-own-rhetoric/article_f0ec0a3e-c81e-5089-827e-97d8fbe43c5f.html",
-            "source": "PinalCentral.com",
-            "date": "4 hours ago",
-            "snippet": "NEW YORK \u2014 Donald Trump is accusing Joe Biden of offering a weak response to antisemitism, wielding the clashes on colleges campuses over the war in Gaza as..."
-        },
-        "Donald Trump calls Joe Biden weak on ant"
-    ],
-    "Biden speaks with Netanyahu as Israelis appear closer to major Rafah offensive": [
-        "Biden speaks with Netanyahu amid cease-fire talks and evacuation of Rafah",
-        {
-            "title": "Biden speaks with Netanyahu as Israelis appear closer to major Rafah offensive",
-            "link": "https://apnews.com/article/biden-netanyahu-gaza-rafah-d85423ad066fe41ac5783db5bd9ecffd",
-            "source": "AP News",
-            "date": "4 hours ago",
-            "snippet": "President Joe Biden and Israeli Prime Minister Benjamin Netanyahu have spoken as Israel appears closer to launching a major military operation on the..."
-        },
-        "Biden warned Netanyahu against an offensive in Rafah",
-        {
-            "title": "Biden speaks to Netanyahu as Israeli invasion of Rafah looms",
-            "link": "https://www.axios.com/2024/05/06/biden-rafah-invasion-netanyahu-israel",
-            "source": "Axios",
-            "date": "12 hours ago",
-            "snippet": "President Biden and Israeli Prime Minister Benjamin Netanyahu spoke on the phone for 30 minutes Monday, discussing hostage deal negotiations and Israel's..."
-        },
-        {
-            "title": "Biden speaks with Netanyahu, hosts Jordan's King Abdullah amid Gaza cease-fire talks",
-            "link": "https://ny1.com/nyc/all-boroughs/news/2024/05/06/biden-netanyahu-call-israel-hamas-rafah",
-            "source": "Spectrum News NY1",
+            "title": "Green beret turned Bank of America banker Leo Lukenas died just one year into grueling investment job 'where a",
+            "link": "https://www.dailymail.co.uk/news/article-13395815/Green-beret-Bank-America-banker-Leo-Lukenas-death.html",
+            "source": "Daily Mail",
             "date": "11 hours ago",
-            "snippet": "President Joe Biden on Monday spoke with Israeli Prime Minister Benjamin Netanyahu, just hours before news broke that Hamas had responded to a proposal that..."
+            "snippet": "Leo Lukenas III, 35, in New York City on Thursday from 'acute coronary artery thrombus."
         },
         {
-            "title": "Biden, Netanyahu to Speak as Israel Tells Gazans to Leave Rafah",
-            "link": "https://www.bloomberg.com/news/articles/2024-05-06/biden-netanyahu-to-speak-as-israel-tells-gazans-to-leave-rafah",
-            "source": "Bloomberg.com",
+            "title": "Why Wall Street Is Transfixed by a BofA Banker's Untimely Death",
+            "link": "https://www.businessinsider.com/wall-street-transfixed-by-bofa-banker-leo-lukenas-untimely-death-2024-5",
+            "source": "Business Insider",
+            "date": "24 hours ago",
+            "snippet": "Leo Lukenas III, a soldier turned investment banker, died last week. It's sparking a conversation about work-life balance across Wall Street."
+        },
+        {
+            "title": "Junior bankers crumble under 90-hour weeks: \u2018When it\u2019s crunch time, nobody cares\u2019",
+            "link": "https://www.fnlondon.com/articles/junior-bankers-crumble-under-90-hour-weeks-when-its-crunch-time-nobody-cares-da7477e5",
+            "source": "Financial News London",
+            "date": "4 hours ago",
+            "snippet": "Working conditions for analysts and associates are in the spotlight once again, and juniors are pushing back against brutal hours."
+        }
+    ],
+    "Bank of America says do not sell in May and go away": [
+        {
+            "title": "Bank of America says do not sell in May and go away",
+            "link": "https://www.cnbc.com/2024/05/08/bank-of-america-says-do-not-sell-in-may-and-go-away.html",
+            "source": "CNBC",
+            "date": "14 hours ago",
+            "snippet": "These global tech stocks have beaten the S&P 500 this year \u2014 and analysts give them over 20% upside \u00b7 Weizhen Tan \u00b7 JPMorgan says the market is about to get..."
+        },
+        {
+            "title": "3 Bank Stocks to Buy Hand Over Fist in May",
+            "link": "https://www.theglobeandmail.com/investing/markets/stocks/SCHW/pressreleases/26044604/3-bank-stocks-to-buy-hand-over-fist-in-may/",
+            "source": "The Globe and Mail",
+            "date": "16 hours ago",
+            "snippet": "Detailed price information for The Charles Schwab Corp (SCHW-N) from The Globe and Mail including charting and trades."
+        },
+        {
+            "title": "China rally has further room to run, Bank of America options analysts say",
+            "link": "https://www.marketwatch.com/amp/story/china-rally-has-further-room-to-run-bank-of-america-options-analysts-say-f257a0f3",
+            "source": "MarketWatch",
+            "date": "15 hours ago",
+            "snippet": "The rally in Chinese stocks may have legs because options traders have yet to chase it, say analysts at Bank of America. The Hang Seng index HK:HSI is up..."
+        },
+        {
+            "title": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says",
+            "link": "https://www.cnbc.com/2024/05/08/new-york-knicks-parent-to-see-strong-earnings-from-nba-playoff-run-bank-of-america-says.html",
+            "source": "CNBC",
+            "date": "11 hours ago",
+            "snippet": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says. Published Wed, May 8 20249:42 AM EDT Updated Wed,..."
+        },
+        {
+            "title": "AI Stocks: Best Artificial Intelligence Stocks To Watch Amid ChatGPT Hype",
+            "link": "https://www.investors.com/news/technology/artificial-intelligence-stocks/",
+            "source": "Investor's Business Daily",
+            "date": "11 hours ago",
+            "snippet": "Amid hype over artificial intelligence and ChatGPT, the best AI stocks generate sales or get a strategic edge from the maturing technology."
+        },
+        {
+            "title": "For US renters, the chance of owning a home is going from bad to worse",
+            "link": "https://edition.cnn.com/2024/05/08/investing/premarket-stocks-trading/index.html?utm_source=business_ribbon",
+            "source": "CNN",
             "date": "13 hours ago",
-            "snippet": "President Joe Biden and Israeli Prime Minister Benjamin Netanyahu spoke Monday as the Israel military urged civilians to move out of the southern Gazan city..."
+            "snippet": "The American dream of homeownership is looking more like a nightmare."
+        }
+    ],
+    "Bank of America Corp. stock underperforms Wednesday when compared to competitors": [
+        {
+            "title": "Bank of America Corp. stock underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/bank-of-america-corp-stock-underperforms-wednesday-when-compared-to-competitors-a8fbd689-f150b0f7a427",
+            "source": "MarketWatch",
+            "date": "4 hours ago",
+            "snippet": "Shares of Bank of America Corp. slid 0.34% to $37.71 Wednesday, on what proved to be an all-around mixed trading session for the stock market, with the S&P."
         },
         {
-            "title": "Biden speaks with Netanyahu amid possible Rafah invasion, cease-fire talks",
-            "link": "https://spectrumlocalnews.com/mo/st-louis/news/2024/05/06/biden-netanyahu-call-israel-hamas-rafah",
-            "source": "Spectrum News",
-            "date": "11 hours ago",
-            "snippet": "President Joe Biden spoke to Israeli Prime Minister Benjamin Netanyahu on Monday amid a possible looming invasion of Rafah, a city in southern Gaza,..."
+            "title": "Bank of America Corp. stock underperforms Thursday when compared to competitors",
+            "link": "https://www.msn.com/en-us/money/topstocks/bank-of-america-corp-stock-underperforms-thursday-when-compared-to-competitors/ar-BB1ltu2L?ocid=weather-verthp-feeds",
+            "source": "MSN",
+            "date": "10 hours ago",
+            "snippet": "Shares of Bank of America Corp. slipped 0.82% to $36.35 Thursday, on what proved to be an all-around mixed trading session for the stock market,..."
         },
         {
-            "title": "Biden pushed Netanyahu not to attack Rafah, US reviewing ceasefire proposal",
-            "link": "https://www.reuters.com/world/middle-east/netanyahu-agrees-reopen-gaza-crossing-humanitarian-aid-white-house-says-2024-05-06/",
-            "source": "Reuters",
-            "date": "8 hours ago",
-            "snippet": "The White House said on Monday it was reviewing a response by Hamas to a ceasefire and hostage release deal, and continued to press Israel not to launch a..."
+            "title": "Bank of America Corp. stock underperforms Friday when compared to competitors despite daily gains",
+            "link": "http://www.msn.com/en-us/money/markets/bank-of-america-corp-stock-outperforms-market-on-strong-trading-day/ar-AA1clTdA?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+            "source": "MSN",
+            "date": "3 hours ago",
+            "snippet": "COMPANY CLOSE UPDATES Shares of Bank of America Corp. inched 0.14% higher to $29.27 Friday, on what proved to be an all-around favorable trading session for..."
         },
-        "Biden reiterates concern"
+        {
+            "title": "Bank of America Downgrades Lyra Therapeutics (NASDAQ:LYRA) to Underperform",
+            "link": "https://www.defenseworld.net/2024/05/08/bank-of-america-downgrades-lyra-therapeutics-nasdaqlyra-to-underperform.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Bank of America downgraded shares of Lyra Therapeutics (NASDAQ:LYRA \u2013 Free Report) from a buy rating to an underperform rating in a research note published..."
+        },
+        {
+            "title": "Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America",
+            "link": "https://www.defenseworld.net/2024/05/08/integra-lifesciences-nasdaqiart-price-target-lowered-to-26-00-at-bank-of-america.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Read Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America at Defense World."
+        },
+        {
+            "title": "IndusInd Bank underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/indusind-bank-underperforms-wednesday-when-compared-to-competitors-5950b09e-5bec8178e4ec?mod=marketwatch-automation",
+            "source": "MarketWatch",
+            "date": "14 hours ago",
+            "snippet": "IndusInd Bank Ltd. shares inched down 0.61% to 1443.80 Indian rupees Wednesday, on what proved to be an all-around grim trading session for the stock..."
+        }
+    ],
+    "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs": [
+        {
+            "title": "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs",
+            "link": "https://www.belgrade-news.com/townnews/welfare/bank-of-america-says-its-not-debanking-christians-conservatives-after-letter-from-gop-ags/article_82c0c8b0-0c8c-11ef-9d6b-e32d4b5d649c.html",
+            "source": "belgrade-news.com",
+            "date": "9 hours ago",
+            "snippet": "A contingent of Republican state attorneys general \u2014 including Montana's Austin Knudsen \u2014 are worried about Bank of America (the second largest bank in the..."
+        },
+        "Bank of America debanking Christians"
     ]
 }
+root - INFO - Sources by story JSON:
+{
+    "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...": [
+        {
+            "title": "A 35-year-old junior Bank of America associate suddenly died\u2014and it's ignited discussions about Wall Street's intense ...",
+            "link": "https://fortune.com/2024/05/08/leo-lukenas-iii-bank-of-america-junior-investment-banker-death-wall-street-working-conditions/",
+            "source": "Fortune",
+            "date": "4 hours ago",
+            "snippet": "Leo Lukenas III, a former Green Beret, joined Bank of America as an investment banker last summer. He died on May 2."
+        },
+        {
+            "title": "Green beret turned Bank of America banker Leo Lukenas died just one year into grueling investment job 'where a",
+            "link": "https://www.dailymail.co.uk/news/article-13395815/Green-beret-Bank-America-banker-Leo-Lukenas-death.html",
+            "source": "Daily Mail",
+            "date": "11 hours ago",
+            "snippet": "Leo Lukenas III, 35, in New York City on Thursday from 'acute coronary artery thrombus."
+        },
+        {
+            "title": "Why Wall Street Is Transfixed by a BofA Banker's Untimely Death",
+            "link": "https://www.businessinsider.com/wall-street-transfixed-by-bofa-banker-leo-lukenas-untimely-death-2024-5",
+            "source": "Business Insider",
+            "date": "24 hours ago",
+            "snippet": "Leo Lukenas III, a soldier turned investment banker, died last week. It's sparking a conversation about work-life balance across Wall Street."
+        },
+        {
+            "title": "Junior bankers crumble under 90-hour weeks: \u2018When it\u2019s crunch time, nobody cares\u2019",
+            "link": "https://www.fnlondon.com/articles/junior-bankers-crumble-under-90-hour-weeks-when-its-crunch-time-nobody-cares-da7477e5",
+            "source": "Financial News London",
+            "date": "4 hours ago",
+            "snippet": "Working conditions for analysts and associates are in the spotlight once again, and juniors are pushing back against brutal hours."
+        }
+    ],
+    "Bank of America says do not sell in May and go away": [
+        {
+            "title": "Bank of America says do not sell in May and go away",
+            "link": "https://www.cnbc.com/2024/05/08/bank-of-america-says-do-not-sell-in-may-and-go-away.html",
+            "source": "CNBC",
+            "date": "14 hours ago",
+            "snippet": "These global tech stocks have beaten the S&P 500 this year \u2014 and analysts give them over 20% upside \u00b7 Weizhen Tan \u00b7 JPMorgan says the market is about to get..."
+        },
+        {
+            "title": "3 Bank Stocks to Buy Hand Over Fist in May",
+            "link": "https://www.theglobeandmail.com/investing/markets/stocks/SCHW/pressreleases/26044604/3-bank-stocks-to-buy-hand-over-fist-in-may/",
+            "source": "The Globe and Mail",
+            "date": "16 hours ago",
+            "snippet": "Detailed price information for The Charles Schwab Corp (SCHW-N) from The Globe and Mail including charting and trades."
+        },
+        {
+            "title": "China rally has further room to run, Bank of America options analysts say",
+            "link": "https://www.marketwatch.com/amp/story/china-rally-has-further-room-to-run-bank-of-america-options-analysts-say-f257a0f3",
+            "source": "MarketWatch",
+            "date": "15 hours ago",
+            "snippet": "The rally in Chinese stocks may have legs because options traders have yet to chase it, say analysts at Bank of America. The Hang Seng index HK:HSI is up..."
+        },
+        {
+            "title": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says",
+            "link": "https://www.cnbc.com/2024/05/08/new-york-knicks-parent-to-see-strong-earnings-from-nba-playoff-run-bank-of-america-says.html",
+            "source": "CNBC",
+            "date": "11 hours ago",
+            "snippet": "New York Knicks parent company to see strong earnings thanks to NBA playoff run, Bank of America says. Published Wed, May 8 20249:42 AM EDT Updated Wed,..."
+        },
+        {
+            "title": "AI Stocks: Best Artificial Intelligence Stocks To Watch Amid ChatGPT Hype",
+            "link": "https://www.investors.com/news/technology/artificial-intelligence-stocks/",
+            "source": "Investor's Business Daily",
+            "date": "11 hours ago",
+            "snippet": "Amid hype over artificial intelligence and ChatGPT, the best AI stocks generate sales or get a strategic edge from the maturing technology."
+        },
+        {
+            "title": "For US renters, the chance of owning a home is going from bad to worse",
+            "link": "https://edition.cnn.com/2024/05/08/investing/premarket-stocks-trading/index.html?utm_source=business_ribbon",
+            "source": "CNN",
+            "date": "13 hours ago",
+            "snippet": "The American dream of homeownership is looking more like a nightmare."
+        }
+    ],
+    "Bank of America Corp. stock underperforms Wednesday when compared to competitors": [
+        {
+            "title": "Bank of America Corp. stock underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/bank-of-america-corp-stock-underperforms-wednesday-when-compared-to-competitors-a8fbd689-f150b0f7a427",
+            "source": "MarketWatch",
+            "date": "4 hours ago",
+            "snippet": "Shares of Bank of America Corp. slid 0.34% to $37.71 Wednesday, on what proved to be an all-around mixed trading session for the stock market, with the S&P."
+        },
+        {
+            "title": "Bank of America Corp. stock underperforms Thursday when compared to competitors",
+            "link": "https://www.msn.com/en-us/money/topstocks/bank-of-america-corp-stock-underperforms-thursday-when-compared-to-competitors/ar-BB1ltu2L?ocid=weather-verthp-feeds",
+            "source": "MSN",
+            "date": "10 hours ago",
+            "snippet": "Shares of Bank of America Corp. slipped 0.82% to $36.35 Thursday, on what proved to be an all-around mixed trading session for the stock market,..."
+        },
+        {
+            "title": "Bank of America Corp. stock underperforms Friday when compared to competitors despite daily gains",
+            "link": "http://www.msn.com/en-us/money/markets/bank-of-america-corp-stock-outperforms-market-on-strong-trading-day/ar-AA1clTdA?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+            "source": "MSN",
+            "date": "3 hours ago",
+            "snippet": "COMPANY CLOSE UPDATES Shares of Bank of America Corp. inched 0.14% higher to $29.27 Friday, on what proved to be an all-around favorable trading session for..."
+        },
+        {
+            "title": "Bank of America Downgrades Lyra Therapeutics (NASDAQ:LYRA) to Underperform",
+            "link": "https://www.defenseworld.net/2024/05/08/bank-of-america-downgrades-lyra-therapeutics-nasdaqlyra-to-underperform.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Bank of America downgraded shares of Lyra Therapeutics (NASDAQ:LYRA \u2013 Free Report) from a buy rating to an underperform rating in a research note published..."
+        },
+        {
+            "title": "Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America",
+            "link": "https://www.defenseworld.net/2024/05/08/integra-lifesciences-nasdaqiart-price-target-lowered-to-26-00-at-bank-of-america.html",
+            "source": "Defense World",
+            "date": "14 hours ago",
+            "snippet": "Read Integra LifeSciences (NASDAQ:IART) Price Target Lowered to $26.00 at Bank of America at Defense World."
+        },
+        {
+            "title": "IndusInd Bank underperforms Wednesday when compared to competitors",
+            "link": "https://www.marketwatch.com/data-news/indusind-bank-underperforms-wednesday-when-compared-to-competitors-5950b09e-5bec8178e4ec?mod=marketwatch-automation",
+            "source": "MarketWatch",
+            "date": "14 hours ago",
+            "snippet": "IndusInd Bank Ltd. shares inched down 0.61% to 1443.80 Indian rupees Wednesday, on what proved to be an all-around grim trading session for the stock..."
+        }
+    ],
+    "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs": [
+        {
+            "title": "Bank of America says its not 'debanking' Christians, conservatives after letter from GOP AGs",
+            "link": "https://www.belgrade-news.com/townnews/welfare/bank-of-america-says-its-not-debanking-christians-conservatives-after-letter-from-gop-ags/article_82c0c8b0-0c8c-11ef-9d6b-e32d4b5d649c.html",
+            "source": "belgrade-news.com",
+            "date": "9 hours ago",
+            "snippet": "A contingent of Republican state attorneys general \u2014 including Montana's Austin Knudsen \u2014 are worried about Bank of America (the second largest bank in the..."
+        }
+    ]
+}
+root - INFO - Making formatted_contents for generate_brief:
+

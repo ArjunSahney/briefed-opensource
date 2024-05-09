@@ -63,6 +63,8 @@ def download_main_image(url, filename):
         # Send a GET request to download the image
         img_response = requests.get(img_url)
         filename = filename + ".jpg"
+        # Remove any slashes in the filename
+        filename = filename.replace('/', '_')
         # Save the image to a file in the "img" folder with the extracted filename
         with open(os.path.join('img', filename), 'wb') as file:
             file.write(img_response.content)
