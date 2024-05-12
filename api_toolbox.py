@@ -313,38 +313,21 @@ def get_google_results(query, num_results, engine="google_news", topic_token=Non
   else:
     if (topic_token!=None):
       params = {
-        "api_key": api_key,
-        "engine": "google",
+        "engine": "google_news",
         "topic_token": topic_token,
-        "google_domain": "google.com",
-        "gl": "us",
-        "hl": "en",
-        "tbm": "nws",
-        "tbs": "qdr:d"
+        "api_key": api_key
       }
+      print("Topic token: ", topic_token)
       search = GoogleSearch(params)
       results = search.get_dict()
-      if __debug__:
-        print("Serp API returns:")
-        print(results['search_metadata']['id'])
-        print(json.dumps(results, indent=4))
-
       news_results = results.get("news_results", [])
       if not news_results:
           return None
 
       # Select the top `num_results` news items
-      top_news_results = news_results[:num_results]
+      news_results = news_results[:num_results]
       if __debug__:
-        print(json.dumps(top_news_results, indent=4))
-      # Optionally, format the results for cleaner output
-      formatted_news_results = [{
-            'title': result['title'],
-            'link': result['link'],
-            'source': result['source'],
-            'date': result['date'],
-            'snippet': result['snippet']
-        } for result in top_news_results]
+        print(json.dumps(news_results, indent=4))
 
     else:
       params = {
@@ -370,19 +353,11 @@ def get_google_results(query, num_results, engine="google_news", topic_token=Non
           return None
 
       # Select the top `num_results` news items
-      top_news_results = news_results[:num_results]
+      news_results = news_results[:num_results]
       if __debug__:
-        print(json.dumps(top_news_results, indent=4))
-      # Optionally, format the results for cleaner output
-      formatted_news_results = [{
-            'title': result['title'],
-            'link': result['link'],
-            'source': result['source'],
-            'date': result['date'],
-            'snippet': result['snippet']
-        } for result in top_news_results]
+        print(json.dumps(news_results, indent=4))
 
-  return formatted_news_results
+  return news_results
   
 
 def get_article_text(url, part="body", errors="off"):

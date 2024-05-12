@@ -240,6 +240,23 @@ def scrape_news(keyword, num_results):
     # Check if there's a topic token for the keyword
     if (keyword in topics):
         news_results = get_google_results("query", DEFAULT_NUM_TITLES, engine="google_news", topic_token=topics[keyword])
+        
+        # If the keyword is a topic token, the news results format needs to be adjusted
+        adjusted_news_results = []
+        for article_object in news_results:
+            if "highlight" in article_object:
+                adjusted_news_results.append(article_object["highlight"])
+            if "stories" in article_object:
+                for story in article_object["stories"]:
+                    adjusted_news_results.append(story)
+            elif "link" in article_object:
+                adjusted_news_results.append(article_object)
+        news_results = adjusted_news_results
+        
+        # Serp returns extra source information we need to flatten
+        for article_object in news_results:
+            if "source" in article_object:
+                article_object["source"] = article_object["source"].get("name", None)
     else:   
         news_results = get_google_results_valueserp(keyword, num_results)
         # Retry the scrape up to 2 times if it fails
@@ -269,7 +286,8 @@ def relevancy_search(keyword, num_titles=DEFAULT_NUM_TITLES):
     # The user wants the top num_titles results, so grab the top num_titles*5 so we can cut down
     scope = 5
     news_results = scrape_news(keyword, num_titles*scope)
-
+    
+            
     # Next, scrape news on generalized keyword and add to dictionary
     general_keyword = generalize_topic(keyword)
     generalization_factor = 10
@@ -517,3 +535,6 @@ def search(topic, num_stories=DEFAULT_NUM_TITLES):
 
 # similarity = cosine_similarity(vector_1, vector_2)
 # print(similarity)
+
+# Testing topic tokens
+# print(json.dumps(scrape_news("Software", 15), indent=4))

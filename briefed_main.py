@@ -193,4 +193,4 @@ def in_brief(keyword, num_briefs):
         
     return brief_string
 
-in_brief("Bank of America", 6)
+# in_brief("Bank of America", 6)

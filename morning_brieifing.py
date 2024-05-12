@@ -1,4 +1,3 @@
-from summed import *
 from api_toolbox import get_gpt_response
 from datetime import datetime
 from text_speech import *
@@ -6,6 +5,7 @@ from mp3_upload import *
 import json 
 import time
 import re
+from briefed_main import *
 
 # Constants
 NUM_TRENDING_BRIEFS = 3
@@ -92,30 +92,30 @@ def getTopHeadlinesBriefs():
     with open(filename, 'w') as file:
         file.write(top_headline_briefs)
 
-def getTrendingBriefs():
-    """Writes top trending briefs to a file marked by current date"""
-    trending_keywords = get_trending_topics(NUM_TRENDING_BRIEFS)
-    filename = "brief_files/trending_" + curr_date + ".txt"
-    with open(filename, 'w') as file:
-        trending_briefs_list = []
-        # Retrieve briefs and store in list
-        for keyword in trending_keywords:
-            trending_briefs_list.append(in_brief(keyword, 1))
-        # Clean up trending briefs list by removing empty briefs
-        non_empty_trending_briefs = []
-        for trending_brief in trending_briefs_list:
-            if (trending_brief is not None) and (trending_brief != "[]"):
-                non_empty_trending_briefs.append(trending_brief)
-        # Now process trending_briefs to add to briefing_dictionary
-        file.write("[")
-        last_brief_index = len(non_empty_trending_briefs) - 1
-        for index, trending_brief in enumerate(non_empty_trending_briefs, start=0):
-            # Remove highest-level open and close brackets on trending_brief
-            trending_brief_formatted = trending_brief[1:-1]
-            file.write(trending_brief_formatted)
-            if index != last_brief_index:
-                file.write(", ")
-        file.write("]")
+# def getTrendingBriefs():
+#     """Writes top trending briefs to a file marked by current date"""
+#     trending_keywords = get_trending_topics(NUM_TRENDING_BRIEFS)
+#     filename = "brief_files/trending_" + curr_date + ".txt"
+#     with open(filename, 'w') as file:
+#         trending_briefs_list = []
+#         # Retrieve briefs and store in list
+#         for keyword in trending_keywords:
+#             trending_briefs_list.append(in_brief(keyword, 1))
+#         # Clean up trending briefs list by removing empty briefs
+#         non_empty_trending_briefs = []
+#         for trending_brief in trending_briefs_list:
+#             if (trending_brief is not None) and (trending_brief != "[]"):
+#                 non_empty_trending_briefs.append(trending_brief)
+#         # Now process trending_briefs to add to briefing_dictionary
+#         file.write("[")
+#         last_brief_index = len(non_empty_trending_briefs) - 1
+#         for index, trending_brief in enumerate(non_empty_trending_briefs, start=0):
+#             # Remove highest-level open and close brackets on trending_brief
+#             trending_brief_formatted = trending_brief[1:-1]
+#             file.write(trending_brief_formatted)
+#             if index != last_brief_index:
+#                 file.write(", ")
+#         file.write("]")
             
 def generate_morning_briefing(name, briefing_dictionary, use_gpt=False):
     """Takes list of briefs and generates morning briefing and email briefing
@@ -245,7 +245,7 @@ Please create the morning briefing following these guidelines and incorporating 
 def in_morning_brief(name, company, industry, topic): 
     """Takes a name and 3 user attributes and generates email and morning briefing
     
-    Returns 
+    Returns
     -------
     None
     """
@@ -264,22 +264,23 @@ def in_morning_brief(name, company, industry, topic):
     top_briefs = json.loads(headlines_content)
     
     # Get trending headlines from trending.txt
-    trending_filename = "brief_files/trending_" + curr_date + ".txt"
-    if not os.path.exists(trending_filename):
-        if __debug__:
-            print("Getting Trending Headlines")
-        getTrendingBriefs()
-    with open(trending_filename, 'r') as file:
-        trending_content = file.read()
-    if trending_content:
-        # The string is not empty, proceed with JSON parsing
-        # Replace '][' with ',' for json.loads() to work
-        trending_content_formatted = trending_content.replace('][', ',')
-        trending_briefs = json.loads(trending_content_formatted)
-    else:
-        # The string is empty
-        if __debug__:
-            print("Trending briefs is empty.")
+    # TODO: Redo trending headline generation
+    # trending_filename = "brief_files/trending_" + curr_date + ".txt"
+    # if not os.path.exists(trending_filename):
+    #     if __debug__:
+    #         print("Getting Trending Headlines")
+    #     getTrendingBriefs()
+    # with open(trending_filename, 'r') as file:
+    #     trending_content = file.read()
+    # if trending_content:
+    #     # The string is not empty, proceed with JSON parsing
+    #     # Replace '][' with ',' for json.loads() to work
+    #     trending_content_formatted = trending_content.replace('][', ',')
+    #     trending_briefs = json.loads(trending_content_formatted)
+    # else:
+    #     # The string is empty
+    #     if __debug__:
+    #         print("Trending briefs is empty.")
 
     career_content = in_brief(company, NUM_CUSTOM_BRIEFS//NUM_CUSTOM_TOPICS)
     industry_content = in_brief(industry, NUM_CUSTOM_BRIEFS//NUM_CUSTOM_TOPICS)
