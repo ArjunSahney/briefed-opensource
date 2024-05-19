@@ -6,6 +6,7 @@ from topic_tokens import *
 from search import *
 from image_scraper import download_main_image
 from spaCy_summarizer import *
+from scrape_headlines import *
 
 CURR_DATE = datetime.now().strftime('%Y-%m-%d')
 
@@ -134,8 +135,9 @@ def in_brief(keyword, num_briefs):
         if __debug__:
             print("searching top headlines")
         # TODO: Need to handle top headlines
-    
-    stories_and_sources = search(keyword, num_briefs)
+        stories_and_sources = create_headlines(num_briefs)
+    else:
+        stories_and_sources = search(keyword, num_briefs)
     brief_json_list = []
 
     # Collate articles in news_results    
