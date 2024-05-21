@@ -1,0 +1,26 @@
+[
+    {
+        "Title": "New Developments in Real-time Analytics",
+        "Summary": "The week's significant announcement featured the introduction of Red Hat Enterprise Linux AI (RHEL AI), incorporating the open source-licensed Granite large language model (LLM) family (RT Insights).",
+        "sources": [
+            [
+                "RT Insights",
+                "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+                "2 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.rtinsights.com/wp-content/uploads/2024/01/news-Depositphotos_26266881_S-e1704576322361.jpg"
+    },
+    {
+        "Title": "Unity Software Price Target Adjustment",
+        "Summary": "Unity Software's price target was reduced by Barclays from $28.00 to $27.00 according to a report by Defense World Staff (Defense World).",
+        "sources": [
+            [
+                "Defense World",
+                "https://www.defenseworld.net/2024/05/12/barclays-lowers-unity-software-nyseu-price-target-to-27-00.html",
+                "8 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/unity-software-inc-logo-1200x675.png?v=20240105170644&w=240&h=240&zc=2"
+    }
+]

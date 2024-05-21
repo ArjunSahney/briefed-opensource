@@ -1,0 +1,283 @@
+{
+    "Custom Headlines": {
+        "Artificial Intelligence": [
+            {
+                "Title": "Upcoming Innovations in AI and Digital Assistants",
+                "Summary": "OpenAI is set to announce a groundbreaking multimodal AI model, indicating a major evolution in AI capabilities (Tech Times). Apple aims to revolutionize the user experience with Siri through upgrades for more conversational interactions and context-aware responses (Mashable SEA). Sam Altman of OpenAI hints at 'magical' updates at a May 13 event, clarifying it's not a Google Search alternative but is expected to redefine user interaction with information (MSN, PC-Tablet India).",
+                "sources": [
+                    [
+                        "Tech Times",
+                        "https://www.techtimes.com/articles/304542/20240512/openai-set-unveil-game-changing-multimodal-ai-model-report.htm",
+                        "4 hours ago"
+                    ],
+                    [
+                        "Mashable SEA",
+                        "https://sea.mashable.com/tech/32529/apple-reportedly-intends-to-change-how-we-use-siri-very-soon",
+                        "23 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-in/money/news/openai-announces-may-13-event-to-launch-something-magical-sam-altman-confirms-it-s-not-google-search-alternative/ar-BB1mdi12",
+                        "21 hours ago"
+                    ],
+                    [
+                        "PC-Tablet India",
+                        "https://pc-tablet.co.in/openai-plans-big-reveal-on-may-13-says-ceo-sam-altman/20923/",
+                        "24 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://1734811051.rsc.cdn77.org/data/images/full/447049/germany-us-internet-ai-artificial-intelligence.jpg"
+            },
+            {
+                "Title": "Apple's Partnership with OpenAI to Integrate ChatGPT into iOS 18",
+                "Summary": "Apple is reportedly finalizing a deal with OpenAI to incorporate ChatGPT technology into iPhones, aiming to introduce this feature in iOS 18 (GIGAZINE, Mashable, MSN). Speculation arises around an upcoming OpenAI livestream potentially related to this partnership, coinciding with Google's developer conference, highlighting the competitive AI landscape (Mashable). This move is seen as a significant step for Apple to advance its AI capabilities and maintain relevance in the tech industry's AI race (Wall Street Pit, Notebookcheck).",
+                "sources": [
+                    [
+                        "GIGAZINE",
+                        "https://gigazine.net/gsc_news/en/20240512-ios-18-chatgpt/",
+                        "8 hours ago"
+                    ],
+                    [
+                        "Mashable",
+                        "https://mashable.com/article/apple-openai-finalizing-terms-bringing-chatgpt-ios18",
+                        "23 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "http://www.msn.com/en-us/news/technology/apple-reportedly-finalizing-openai-partnership-to-bring-chatgpt-to-ios-18/ar-BB1mdPea?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+                        "22 hours ago"
+                    ],
+                    [
+                        "Mashable",
+                        "https://mashable.com/article/apple-openai-finalizing-terms-bringing-chatgpt-ios18",
+                        "23 hours ago"
+                    ],
+                    [
+                        "Wall Street Pit",
+                        "https://wallstreetpit.com/119194-chatgpt-powered-iphones-apples-bold-move-to-dominate-ai-landscape/",
+                        "1 hour ago"
+                    ],
+                    [
+                        "Notebookcheck",
+                        "https://www.notebookcheck.net/iPhone-16-series-tipped-to-launch-as-ChatGPT-powered-devices.836687.0.html",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://i.gzn.jp/img/2024/05/12/ios-18-chatgpt/00.png"
+            },
+            {
+                "Title": "Google Enhances Cybersecurity Measures Through Various Initiatives",
+                "Summary": "Google introduced Google Threat Intelligence, aimed at bolstering cybersecurity protection, albeit with potential privacy concerns and no absolute threat mitigation guarantee (elblog.pl). Alphabet Inc., under which Google operates, expanded cybersecurity offerings through Mandiant, presenting a significant development for investors (Yahoo Movies UK). Additionally, CyberProof announced a strategic partnership with Google Cloud, highlighting industry collaborations for enhanced cyber protection (MSN). Meanwhile, cybersecurity discussions at the RSA Conference revealed hackers targeting corporate executives' children in ransomware attacks, signaling evolving cyber threat tactics (Business Insider). Lastly, an increase in privacy requests highlights growing data privacy awareness (Help Net Security).",
+                "sources": [
+                    [
+                        "elblog.pl",
+                        "https://elblog.pl/2024/05/12/google-unveils-google-threat-intelligence-for-advanced-cybersecurity-protection/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "Yahoo Movies UK",
+                        "https://uk.movies.yahoo.com/movies/alphabet-googl-expands-cybersecurity-offerings-202108024.html",
+                        "6 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-xl/news/other/cyberproof-announces-strategic-partnership-with-google-cloud/ar-BB1lTuqB",
+                        "4 hours ago"
+                    ],
+                    [
+                        "Business Insider",
+                        "https://www.businessinsider.com/ransomware-attacks-corporations-children-executives-mandiant-google-cyber-security-2024-5",
+                        "9 hours ago"
+                    ],
+                    [
+                        "Help Net Security",
+                        "https://www.helpnetsecurity.com/2024/05/12/week-in-review-veeam-fixes-rce-flaw-in-backup-management-platform-patch-tuesday-forecast/",
+                        "10 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://elblog.pl/wp-content/uploads/2024/05/compressed_img-DPHZnOs1BFdAU9Xdnq3I4kRb.png"
+            },
+            {
+                "Title": "Google Threat Intelligence for Advanced Cybersecurity Unveiled",
+                "Summary": "Google introduces Google Threat Intelligence, aiming at enhancing cybersecurity. Advantages include robust protection against cyber threats, albeit with caveats like reliance on ongoing AI training, potential privacy issues regarding data handling, and an inability to assure complete security against all cyber threats (elblog.pl).",
+                "sources": [
+                    [
+                        "elblog.pl",
+                        "https://elblog.pl/2024/05/12/google-unveils-google-threat-intelligence-for-advanced-cybersecurity-protection/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://elblog.pl/wp-content/uploads/2024/05/compressed_img-DPHZnOs1BFdAU9Xdnq3I4kRb.png"
+            },
+            {
+                "Title": "Cybersecurity in the Context of the Olympic Games",
+                "Summary": "Eugene Kaspersky, a leading cybersecurity expert, highlights AI's dual role in today's cyber landscape: a tool for both detecting malware and, regrettably, creating advanced cyber threats. He expresses certainty about the inevitability of cyberattacks timed with the Olympic Games, emphasizing the vulnerabilities these large-scale events introduce (EL PA\u00cdS English).",
+                "sources": [
+                    [
+                        "EL PA\u00cdS English",
+                        "https://english.elpais.com/technology/2024-05-12/eugene-kaspersky-cybersecurity-expert-the-good-news-is-that-we-use-ai-to-detect-malware-the-bad-news-is-that-criminals-also-use-it.html",
+                        "14 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://imagenes.elpais.com/resizer/v2/HJZ3EBNV45AJRJAELAIAVMLUVU.png?auth=c9376d3626e0d4f6626cde35a5cf5b6a7445e6d20f8a5290d730cfc20c95c679&width=1200"
+            },
+            {
+                "Title": "Trends and Innovations in AI Across Healthcare and Industry",
+                "Summary": "Healthcare is leveraging large language models for superior outcomes, with Aloe introducing state-of-the-art healthcare LLMs for improved patient care (MarkTechPost). AI's role in patient education is critical, though its effectiveness can vary based on several factors (KevinMD.com). Mental-health chatbots, powered by AI advances, show promise but cannot replace human therapists (WSJ). Studies highlight AI's limited role in mitigating doctor burnout, suggesting its best use in low-risk administrative tasks (Fox News). New York is emerging as an AI innovation hub, attracting startups with its strategic advantages and initiatives like 'Empire AI' (mint, elblog.pl).",
+                "sources": [
+                    [
+                        "MarkTechPost",
+                        "https://www.marktechpost.com/2024/05/11/aloe-a-family-of-fine-tuned-open-healthcare-llms-that-achieves-state-of-the-art-results-through-model-merging-and-prompting-strategies/",
+                        "15 hours ago"
+                    ],
+                    [
+                        "KevinMD.com",
+                        "https://www.kevinmd.com/2024/05/artificial-intelligence-revolutionizing-patient-education-in-primary-care.html",
+                        "23 hours ago"
+                    ],
+                    [
+                        "WSJ",
+                        "https://www.wsj.com/health/wellness/ai-chatbots-mental-health-5184eca2",
+                        "5 hours ago"
+                    ],
+                    [
+                        "Fox News",
+                        "https://www.foxnews.com/health/artificial-intelligence-not-always-helpful-reducing-doctor-burnout-studies-suggest",
+                        "20 hours ago"
+                    ],
+                    [
+                        "mint",
+                        "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+                        "6 hours ago"
+                    ],
+                    [
+                        "elblog.pl",
+                        "https://elblog.pl/2024/05/12/new-york-city-rises-as-a-contender-in-generative-ai-industry/",
+                        "5 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.kevinmd.com/wp-content/uploads/shutterstock_2237752713-1.jpg"
+            },
+            {
+                "Title": "AI's Limited Role in Easing Doctor Burnout",
+                "Summary": "While AI has significant potential to automate low-risk tasks traditionally managed by essential healthcare roles, studies suggest its effectiveness in reducing doctor burnout is limited (Fox News).",
+                "sources": [
+                    [
+                        "Fox News",
+                        "https://www.foxnews.com/health/artificial-intelligence-not-always-helpful-reducing-doctor-burnout-studies-suggest",
+                        "20 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://static.foxnews.com/foxnews.com/content/uploads/2024/05/ai-doctor-burnout-split.png"
+            }
+        ],
+        "Software": [
+            {
+                "Title": "New Developments in Real-time Analytics",
+                "Summary": "The week's significant announcement featured the introduction of Red Hat Enterprise Linux AI (RHEL AI), incorporating the open source-licensed Granite large language model (LLM) family (RT Insights).",
+                "sources": [
+                    [
+                        "RT Insights",
+                        "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+                        "2 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.rtinsights.com/wp-content/uploads/2024/01/news-Depositphotos_26266881_S-e1704576322361.jpg"
+            },
+            {
+                "Title": "Unity Software Price Target Adjustment",
+                "Summary": "Unity Software's price target was reduced by Barclays from $28.00 to $27.00 according to a report by Defense World Staff (Defense World).",
+                "sources": [
+                    [
+                        "Defense World",
+                        "https://www.defenseworld.net/2024/05/12/barclays-lowers-unity-software-nyseu-price-target-to-27-00.html",
+                        "8 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.americanbankingnews.com/wp-content/timthumb/timthumb.php?src=https://www.marketbeat.com/logos/unity-software-inc-logo-1200x675.png?v=20240105170644&w=240&h=240&zc=2"
+            }
+        ],
+        "Startups": [
+            {
+                "Title": "America's Startup Landscape",
+                "Summary": "The proportion of young firms in America has declined from 38% in 1982 to 29% in 2018, indicating a shift in the startup landscape (The Economist).",
+                "sources": [
+                    [
+                        "The Economist",
+                        "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+                        "6 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.economist.com/img/b/1280/720/90/media-assets/image/20240518_FND001.jpg"
+            },
+            {
+                "Title": "Emerging AI Trends Across The Globe",
+                "Summary": "AI startups are gravitating towards New York, aiming to transform it into an AI hub by closely working with chief information officers (Mint). Meanwhile, Silicon Valley's pivot to ",
+                "sources": [],
+                "Image Filepath": "https://www.livemint.com/lm-img/img/2024/05/12/1600x900/im-945838_1715505239625_1715510668323.jpg"
+            },
+            {
+                "Title": "Glint Ventures' New Funding Milestone",
+                "Summary": "Glint Ventures has successfully achieved the first close of its second venture fund, Glint Fund 2, which aims to support startups via its unique venture studio model. The fund focuses on investments between Seed and Series A stages, offering ticket sizes from $250K to $500K (waya.media).",
+                "sources": [
+                    [
+                        "waya.media",
+                        "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+                        "6 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://waya.media/wp-content/uploads/sites/3/2024/05/website-18.jpeg"
+            },
+            {
+                "Title": "Venture Capital Boost for Israeli Startups",
+                "Summary": "A New York-based venture capital firm has raised $20 million to invest in early-stage Israeli startups, leveraging Israel's unique tech talent at a time when securing funding is challenging for these companies (NoCamels).",
+                "sources": [
+                    [
+                        "NoCamels",
+                        "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+                        "12 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://nocamels.com/wp-content/uploads/2024/05/Eyal-Bino-Ohad-Kab.jpg"
+            },
+            {
+                "Title": "Global Startup Ecosystem Highlights",
+                "Summary": "2024 is anticipated to be a significant year for startup growth according to Icehouse, signaling robust opportunities for entrepreneurship (Business Desk NZ). Social commerce platform Meesho secured $275 million, highlighting investor confidence in digital marketplaces (Zee Business). Investcorp concluded its ITP Fund at $570 million, focusing on sectors like software and fintech, showcasing global investment trends (waya.media). Nigerian EdTech startups emerge on the funding scene, reflecting the crucial role of education technology in addressing regional education challenges (Nairametrics). Pratyush Kumar's pivot from Boeing to funding Indian aerospace startups marks a noteworthy trend in sector-specific investments (Times of India). The importance of selecting appropriate investors is crucial for startup success, underlining the strategic aspect of fundraising (DataDrivenInvestor).",
+                "sources": [
+                    [
+                        "Business Desk NZ",
+                        "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+                        "1 hour ago"
+                    ],
+                    [
+                        "Zee Business",
+                        "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+                        "10 hours ago"
+                    ],
+                    [
+                        "waya.media",
+                        "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+                        "9 hours ago"
+                    ],
+                    [
+                        "Nairametrics",
+                        "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+                        "6 hours ago"
+                    ],
+                    [
+                        "Times of India",
+                        "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+                        "8 hours ago"
+                    ],
+                    [
+                        "DataDrivenInvestor",
+                        "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+                        "13 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://media.businessdesk.co.nz/file/c_fill,w_800,q_100/Robbie-Paul-Icehouse-Ventures-NZME.jpg"
+            }
+        ]
+    },
+    "Audio URL": "https://storage.googleapis.com/briefed_mvp2_mp3/Jack%20Friedman.mp3"
+}

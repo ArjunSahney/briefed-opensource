@@ -1,0 +1,141 @@
+{
+    "Custom Headlines": {
+        "Artificial Intelligence": [
+            {
+                "Title": "Upcoming Innovations in AI and Digital Assistants",
+                "Summary": "OpenAI is set to announce a groundbreaking multimodal AI model, indicating a major evolution in AI capabilities (Tech Times). Apple aims to revolutionize the user experience with Siri through upgrades for more conversational interactions and context-aware responses (Mashable SEA). Sam Altman of OpenAI hints at 'magical' updates at a May 13 event, clarifying it's not a Google Search alternative but is expected to redefine user interaction with information (MSN, PC-Tablet India).",
+                "sources": [
+                    [
+                        "Tech Times",
+                        "https://www.techtimes.com/articles/304542/20240512/openai-set-unveil-game-changing-multimodal-ai-model-report.htm",
+                        "4 hours ago"
+                    ],
+                    [
+                        "Mashable SEA",
+                        "https://sea.mashable.com/tech/32529/apple-reportedly-intends-to-change-how-we-use-siri-very-soon",
+                        "23 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-in/money/news/openai-announces-may-13-event-to-launch-something-magical-sam-altman-confirms-it-s-not-google-search-alternative/ar-BB1mdi12",
+                        "21 hours ago"
+                    ],
+                    [
+                        "PC-Tablet India",
+                        "https://pc-tablet.co.in/openai-plans-big-reveal-on-may-13-says-ceo-sam-altman/20923/",
+                        "24 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://1734811051.rsc.cdn77.org/data/images/full/447049/germany-us-internet-ai-artificial-intelligence.jpg"
+            },
+            {
+                "Title": "Apple's Partnership with OpenAI to Integrate ChatGPT into iOS 18",
+                "Summary": "Apple is reportedly finalizing a deal with OpenAI to incorporate ChatGPT technology into iPhones, aiming to introduce this feature in iOS 18 (GIGAZINE, Mashable, MSN). Speculation arises around an upcoming OpenAI livestream potentially related to this partnership, coinciding with Google's developer conference, highlighting the competitive AI landscape (Mashable). This move is seen as a significant step for Apple to advance its AI capabilities and maintain relevance in the tech industry's AI race (Wall Street Pit, Notebookcheck).",
+                "sources": [
+                    [
+                        "GIGAZINE",
+                        "https://gigazine.net/gsc_news/en/20240512-ios-18-chatgpt/",
+                        "8 hours ago"
+                    ],
+                    [
+                        "Mashable",
+                        "https://mashable.com/article/apple-openai-finalizing-terms-bringing-chatgpt-ios18",
+                        "23 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "http://www.msn.com/en-us/news/technology/apple-reportedly-finalizing-openai-partnership-to-bring-chatgpt-to-ios-18/ar-BB1mdPea?apiversion=v2&noservercache=1&domshim=1&renderwebcomponents=1&wcseo=1&batchservertelemetry=1&noservertelemetry=1",
+                        "22 hours ago"
+                    ],
+                    [
+                        "Mashable",
+                        "https://mashable.com/article/apple-openai-finalizing-terms-bringing-chatgpt-ios18",
+                        "23 hours ago"
+                    ],
+                    [
+                        "Wall Street Pit",
+                        "https://wallstreetpit.com/119194-chatgpt-powered-iphones-apples-bold-move-to-dominate-ai-landscape/",
+                        "1 hour ago"
+                    ],
+                    [
+                        "Notebookcheck",
+                        "https://www.notebookcheck.net/iPhone-16-series-tipped-to-launch-as-ChatGPT-powered-devices.836687.0.html",
+                        "3 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://i.gzn.jp/img/2024/05/12/ios-18-chatgpt/00.png"
+            },
+            {
+                "Title": "Google Enhances Cybersecurity Measures Through Various Initiatives",
+                "Summary": "Google introduced Google Threat Intelligence, aimed at bolstering cybersecurity protection, albeit with potential privacy concerns and no absolute threat mitigation guarantee (elblog.pl). Alphabet Inc., under which Google operates, expanded cybersecurity offerings through Mandiant, presenting a significant development for investors (Yahoo Movies UK). Additionally, CyberProof announced a strategic partnership with Google Cloud, highlighting industry collaborations for enhanced cyber protection (MSN). Meanwhile, cybersecurity discussions at the RSA Conference revealed hackers targeting corporate executives' children in ransomware attacks, signaling evolving cyber threat tactics (Business Insider). Lastly, an increase in privacy requests highlights growing data privacy awareness (Help Net Security).",
+                "sources": [
+                    [
+                        "elblog.pl",
+                        "https://elblog.pl/2024/05/12/google-unveils-google-threat-intelligence-for-advanced-cybersecurity-protection/",
+                        "5 hours ago"
+                    ],
+                    [
+                        "Yahoo Movies UK",
+                        "https://uk.movies.yahoo.com/movies/alphabet-googl-expands-cybersecurity-offerings-202108024.html",
+                        "6 hours ago"
+                    ],
+                    [
+                        "MSN",
+                        "https://www.msn.com/en-xl/news/other/cyberproof-announces-strategic-partnership-with-google-cloud/ar-BB1lTuqB",
+                        "4 hours ago"
+                    ],
+                    [
+                        "Business Insider",
+                        "https://www.businessinsider.com/ransomware-attacks-corporations-children-executives-mandiant-google-cyber-security-2024-5",
+                        "9 hours ago"
+                    ],
+                    [
+                        "Help Net Security",
+                        "https://www.helpnetsecurity.com/2024/05/12/week-in-review-veeam-fixes-rce-flaw-in-backup-management-platform-patch-tuesday-forecast/",
+                        "10 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://elblog.pl/wp-content/uploads/2024/05/compressed_img-DPHZnOs1BFdAU9Xdnq3I4kRb.png"
+            }
+        ],
+        "Software": [
+            {
+                "Title": "New Developments in Real-time Analytics",
+                "Summary": "The week's significant announcement featured the introduction of Red Hat Enterprise Linux AI (RHEL AI), incorporating the open source-licensed Granite large language model (LLM) family (RT Insights).",
+                "sources": [
+                    [
+                        "RT Insights",
+                        "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+                        "2 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.rtinsights.com/wp-content/uploads/2024/01/news-Depositphotos_26266881_S-e1704576322361.jpg"
+            }
+        ],
+        "Startups": [
+            {
+                "Title": "America's Startup Landscape",
+                "Summary": "The proportion of young firms in America has declined from 38% in 1982 to 29% in 2018, indicating a shift in the startup landscape (The Economist).",
+                "sources": [
+                    [
+                        "The Economist",
+                        "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+                        "6 hours ago"
+                    ]
+                ],
+                "Image Filepath": "https://www.economist.com/img/b/1280/720/90/media-assets/image/20240518_FND001.jpg"
+            },
+            {
+                "Title": "None",
+                "Summary": "None",
+                "sources": []
+            },
+            {
+                "Title": "Emerging AI Trends Across The Globe",
+                "Summary": "AI startups are gravitating towards New York, aiming to transform it into an AI hub by closely working with chief information officers (Mint). Meanwhile, Silicon Valley's pivot to ",
+                "sources": [],
+                "Image Filepath": "https://www.livemint.com/lm-img/img/2024/05/12/1600x900/im-945838_1715505239625_1715510668323.jpg"
+            }
+        ]
+    }
+}

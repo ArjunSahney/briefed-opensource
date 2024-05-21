@@ -1,0 +1,1940 @@
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+httpx - INFO - HTTP Request: POST https://wizardlm-2-8x22b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "Reassessing Agile Software Development: Is It Dead or Can It Be Revived?": null
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "Reassessing Agile Software Development: Is It Dead or Can It Be Revived?": null,
+    "Oracle Code Assist: AI companion to boost developer velocity": [
+        {
+            "title": "Real-time Analytics News for the Week Ending May 11",
+            "link": "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+            "source": "RT Insights",
+            "date": "2 hours ago",
+            "snippet": "In this week's real-time analytics news: The Red Hat Summit and the RSA Conference provided a wealth of new product announcements."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "Reassessing Agile Software Development: Is It Dead or Can It Be Revived?": null,
+    "Oracle Code Assist: AI companion to boost developer velocity": [
+        {
+            "title": "Real-time Analytics News for the Week Ending May 11",
+            "link": "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+            "source": "RT Insights",
+            "date": "2 hours ago",
+            "snippet": "In this week's real-time analytics news: The Red Hat Summit and the RSA Conference provided a wealth of new product announcements."
+        },
+        "Oracle Code Assist AI for coding Developer velocity"
+    ],
+    "What software developers hate": null
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "Reassessing Agile Software Development: Is It Dead or Can It Be Revived?": null,
+    "Oracle Code Assist: AI companion to boost developer velocity": [
+        {
+            "title": "Real-time Analytics News for the Week Ending May 11",
+            "link": "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+            "source": "RT Insights",
+            "date": "2 hours ago",
+            "snippet": "In this week's real-time analytics news: The Red Hat Summit and the RSA Conference provided a wealth of new product announcements."
+        },
+        "Oracle Code Assist AI for coding Developer velocity"
+    ],
+    "What software developers hate": null,
+    "Unity Software Inc. (U) Q1 Earnings and Revenues Top Estimates": [
+        {
+            "title": "Barclays Lowers Unity Software (NYSE:U) Price Target to $27.00",
+            "link": "https://www.defenseworld.net/2024/05/12/barclays-lowers-unity-software-nyseu-price-target-to-27-00.html",
+            "source": "Defense World",
+            "date": "8 hours ago",
+            "snippet": "Unity Software (NYSE:U \u2013 Get Free Report) had its price target reduced by stock analysts at Barclays from $28.00 to $27.00 in a research report issued to..."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "Reassessing Agile Software Development: Is It Dead or Can It Be Revived?": null,
+    "Oracle Code Assist: AI companion to boost developer velocity": [
+        {
+            "title": "Real-time Analytics News for the Week Ending May 11",
+            "link": "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+            "source": "RT Insights",
+            "date": "2 hours ago",
+            "snippet": "In this week's real-time analytics news: The Red Hat Summit and the RSA Conference provided a wealth of new product announcements."
+        },
+        "Oracle Code Assist AI for coding Developer velocity"
+    ],
+    "What software developers hate": null,
+    "Unity Software Inc. (U) Q1 Earnings and Revenues Top Estimates": [
+        {
+            "title": "Barclays Lowers Unity Software (NYSE:U) Price Target to $27.00",
+            "link": "https://www.defenseworld.net/2024/05/12/barclays-lowers-unity-software-nyseu-price-target-to-27-00.html",
+            "source": "Defense World",
+            "date": "8 hours ago",
+            "snippet": "Unity Software (NYSE:U \u2013 Get Free Report) had its price target reduced by stock analysts at Barclays from $28.00 to $27.00 in a research report issued to..."
+        },
+        "Unity Software Inc. U Q1 earnings Unity Software revenues"
+    ],
+    "Unity restructuring increases losses to $291m in Q1 2024": null
+}
+root - INFO - Making relevancy determinations for sources_by_story:
+
+root - INFO - Sources by story JSON:
+{
+    "Reassessing Agile Software Development: Is It Dead or Can It Be Revived?": null,
+    "Oracle Code Assist: AI companion to boost developer velocity": [
+        {
+            "title": "Real-time Analytics News for the Week Ending May 11",
+            "link": "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+            "source": "RT Insights",
+            "date": "2 hours ago",
+            "snippet": "In this week's real-time analytics news: The Red Hat Summit and the RSA Conference provided a wealth of new product announcements."
+        }
+    ],
+    "What software developers hate": null,
+    "Unity Software Inc. (U) Q1 Earnings and Revenues Top Estimates": [
+        {
+            "title": "Barclays Lowers Unity Software (NYSE:U) Price Target to $27.00",
+            "link": "https://www.defenseworld.net/2024/05/12/barclays-lowers-unity-software-nyseu-price-target-to-27-00.html",
+            "source": "Defense World",
+            "date": "8 hours ago",
+            "snippet": "Unity Software (NYSE:U \u2013 Get Free Report) had its price target reduced by stock analysts at Barclays from $28.00 to $27.00 in a research report issued to..."
+        },
+        "Unity Software Inc. U Q1 earnings Unity Software revenues"
+    ],
+    "Unity restructuring increases losses to $291m in Q1 2024": null
+}
+root - INFO - Sources by story JSON:
+{
+    "Reassessing Agile Software Development: Is It Dead or Can It Be Revived?": null,
+    "Oracle Code Assist: AI companion to boost developer velocity": [
+        {
+            "title": "Real-time Analytics News for the Week Ending May 11",
+            "link": "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/",
+            "source": "RT Insights",
+            "date": "2 hours ago",
+            "snippet": "In this week's real-time analytics news: The Red Hat Summit and the RSA Conference provided a wealth of new product announcements."
+        }
+    ],
+    "What software developers hate": null,
+    "Unity Software Inc. (U) Q1 Earnings and Revenues Top Estimates": [
+        {
+            "title": "Barclays Lowers Unity Software (NYSE:U) Price Target to $27.00",
+            "link": "https://www.defenseworld.net/2024/05/12/barclays-lowers-unity-software-nyseu-price-target-to-27-00.html",
+            "source": "Defense World",
+            "date": "8 hours ago",
+            "snippet": "Unity Software (NYSE:U \u2013 Get Free Report) had its price target reduced by stock analysts at Barclays from $28.00 to $27.00 in a research report issued to..."
+        }
+    ],
+    "Unity restructuring increases losses to $291m in Q1 2024": null
+}
+root - INFO - Making formatted_contents for generate_brief:
+
+root - INFO - {
+    "RT Insights": {
+        "title": "Real-time Analytics News for the Week Ending May 11",
+        "summary": "Some of the major announcements included: Red Hat Enterprise Linux AI\u00a0(RHEL AI) was introduced as a new solution that brings together the\u00a0open source-licensed Granite\u00a0large language model (LLM) family",
+        "date": "2 hours ago",
+        "url": "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/"
+    }
+}
+root - INFO - formatted_contents = {
+    "RT Insights": {
+        "title": "Real-time Analytics News for the Week Ending May 11",
+        "summary": "Some of the major announcements included: Red Hat Enterprise Linux AI\u00a0(RHEL AI) was introduced as a new solution that brings together the\u00a0open source-licensed Granite\u00a0large language model (LLM) family",
+        "date": "2 hours ago",
+        "url": "https://www.rtinsights.com/real-time-analytics-news-for-the-week-ending-may-11/"
+    }
+}
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Making formatted_contents for generate_brief:
+
+root - INFO - {
+    "Defense World": {
+        "title": "Barclays Lowers Unity Software (NYSE:U) Price Target to $27.00",
+        "summary": "\n\t\t\t\t\tPosted by Defense World Staff on May 12th, 2024\n Unity Software (NYSE:U \u2013 Get Free Report) had its price target reduced by stock analysts at Barclays  from $28.00 to $27.00 in a research report ",
+        "date": "8 hours ago",
+        "url": "https://www.defenseworld.net/2024/05/12/barclays-lowers-unity-software-nyseu-price-target-to-27-00.html"
+    }
+}
+root - INFO - formatted_contents = {
+    "Defense World": {
+        "title": "Barclays Lowers Unity Software (NYSE:U) Price Target to $27.00",
+        "summary": "\n\t\t\t\t\tPosted by Defense World Staff on May 12th, 2024\n Unity Software (NYSE:U \u2013 Get Free Report) had its price target reduced by stock analysts at Barclays  from $28.00 to $27.00 in a research report ",
+        "date": "8 hours ago",
+        "url": "https://www.defenseworld.net/2024/05/12/barclays-lowers-unity-software-nyseu-price-target-to-27-00.html"
+    }
+}
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+httpx - INFO - HTTP Request: POST https://wizardlm-2-8x22b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        "startup boom business dynamism Greenville South Carolina"
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        "startup boom business dynamism Greenville South Carolina"
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        },
+        "SHAAR Innovation Program Jerusalem's Shaare Zedek Medical Center Madait"
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        "startup boom business dynamism Greenville South Carolina"
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        },
+        "SHAAR Innovation Program Jerusalem's Shaare Zedek Medical Center Madait"
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        "AI startups New York City Silicon Valley"
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        "startup boom business dynamism Greenville South Carolina"
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        },
+        "SHAAR Innovation Program Jerusalem's Shaare Zedek Medical Center Madait"
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        "AI startups New York City Silicon Valley"
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        },
+        "Glint Egypt boutique consulting"
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        "startup boom business dynamism Greenville South Carolina"
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        },
+        "SHAAR Innovation Program Jerusalem's Shaare Zedek Medical Center Madait"
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        "AI startups New York City Silicon Valley"
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        },
+        "Glint Egypt boutique consulting"
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        },
+        "New York VC 97212 Ventures $20 million fund"
+    ],
+    "2024 could be a 'bumper year' for startups - Icehouse": [
+        {
+            "title": "2024 could be a 'bumper year' for startups - Icehouse",
+            "link": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+            "source": "Business Desk NZ",
+            "date": "1 hour ago",
+            "snippet": "Icehouse Ventures CEO Robbie Paul said new investment firms and maturing startups could lead to a jump in investment values this year.The startup landscape."
+        },
+        {
+            "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+            "link": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+            "source": "waya.media",
+            "date": "9 hours ago",
+            "snippet": "The Investcorp Technology Partners (ITP V) fund, managed by Bahrain's Investcorp, successfully closes at $570 million, exceeding its initial."
+        },
+        {
+            "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+            "link": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+            "source": "Nairametrics",
+            "date": "6 hours ago",
+            "snippet": "Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank."
+        },
+        {
+            "title": "How to Identify & Approach The Right Investors For Your Startup?",
+            "link": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+            "source": "DataDrivenInvestor",
+            "date": "13 hours ago",
+            "snippet": "Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lining Up 2024 is expected to be a crucial year for the..."
+        },
+        {
+            "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+            "link": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+            "source": "Times of India",
+            "date": "8 hours ago",
+            "snippet": "India Business News: CHENNAI: This could well be the aerospace industry's real life \u201cSwades\" moment."
+        },
+        {
+            "title": "Social commerce platform Meesho raises $275 million: Reports",
+            "link": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+            "source": "Zee Business",
+            "date": "10 hours ago",
+            "snippet": "The latest funding valued Meesho at $3.9 billion. Meesho may increase the ongoing round size to $500-600 million, according to reports. Get more Startups..."
+        }
+    ]
+}
+httpx - INFO - HTTP Request: POST https://mistral-7b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        "startup boom business dynamism Greenville South Carolina"
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        },
+        "SHAAR Innovation Program Jerusalem's Shaare Zedek Medical Center Madait"
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        "AI startups New York City Silicon Valley"
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        },
+        "Glint Egypt boutique consulting"
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        },
+        "New York VC 97212 Ventures $20 million fund"
+    ],
+    "2024 could be a 'bumper year' for startups - Icehouse": [
+        {
+            "title": "2024 could be a 'bumper year' for startups - Icehouse",
+            "link": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+            "source": "Business Desk NZ",
+            "date": "1 hour ago",
+            "snippet": "Icehouse Ventures CEO Robbie Paul said new investment firms and maturing startups could lead to a jump in investment values this year.The startup landscape."
+        },
+        {
+            "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+            "link": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+            "source": "waya.media",
+            "date": "9 hours ago",
+            "snippet": "The Investcorp Technology Partners (ITP V) fund, managed by Bahrain's Investcorp, successfully closes at $570 million, exceeding its initial."
+        },
+        {
+            "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+            "link": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+            "source": "Nairametrics",
+            "date": "6 hours ago",
+            "snippet": "Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank."
+        },
+        {
+            "title": "How to Identify & Approach The Right Investors For Your Startup?",
+            "link": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+            "source": "DataDrivenInvestor",
+            "date": "13 hours ago",
+            "snippet": "Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lining Up 2024 is expected to be a crucial year for the..."
+        },
+        {
+            "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+            "link": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+            "source": "Times of India",
+            "date": "8 hours ago",
+            "snippet": "India Business News: CHENNAI: This could well be the aerospace industry's real life \u201cSwades\" moment."
+        },
+        {
+            "title": "Social commerce platform Meesho raises $275 million: Reports",
+            "link": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+            "source": "Zee Business",
+            "date": "10 hours ago",
+            "snippet": "The latest funding valued Meesho at $3.9 billion. Meesho may increase the ongoing round size to $500-600 million, according to reports. Get more Startups..."
+        },
+        "2024 startups investment values"
+    ],
+    "Cyber startup Rezilion seeks court approval for $7.3M asset sale to GitLab to avoid bankruptcy": null
+}
+root - INFO - Making relevancy determinations for sources_by_story:
+
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        }
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        },
+        "SHAAR Innovation Program Jerusalem's Shaare Zedek Medical Center Madait"
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        "AI startups New York City Silicon Valley"
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        },
+        "Glint Egypt boutique consulting"
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        },
+        "New York VC 97212 Ventures $20 million fund"
+    ],
+    "2024 could be a 'bumper year' for startups - Icehouse": [
+        {
+            "title": "2024 could be a 'bumper year' for startups - Icehouse",
+            "link": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+            "source": "Business Desk NZ",
+            "date": "1 hour ago",
+            "snippet": "Icehouse Ventures CEO Robbie Paul said new investment firms and maturing startups could lead to a jump in investment values this year.The startup landscape."
+        },
+        {
+            "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+            "link": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+            "source": "waya.media",
+            "date": "9 hours ago",
+            "snippet": "The Investcorp Technology Partners (ITP V) fund, managed by Bahrain's Investcorp, successfully closes at $570 million, exceeding its initial."
+        },
+        {
+            "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+            "link": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+            "source": "Nairametrics",
+            "date": "6 hours ago",
+            "snippet": "Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank."
+        },
+        {
+            "title": "How to Identify & Approach The Right Investors For Your Startup?",
+            "link": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+            "source": "DataDrivenInvestor",
+            "date": "13 hours ago",
+            "snippet": "Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lining Up 2024 is expected to be a crucial year for the..."
+        },
+        {
+            "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+            "link": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+            "source": "Times of India",
+            "date": "8 hours ago",
+            "snippet": "India Business News: CHENNAI: This could well be the aerospace industry's real life \u201cSwades\" moment."
+        },
+        {
+            "title": "Social commerce platform Meesho raises $275 million: Reports",
+            "link": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+            "source": "Zee Business",
+            "date": "10 hours ago",
+            "snippet": "The latest funding valued Meesho at $3.9 billion. Meesho may increase the ongoing round size to $500-600 million, according to reports. Get more Startups..."
+        },
+        "2024 startups investment values"
+    ],
+    "Cyber startup Rezilion seeks court approval for $7.3M asset sale to GitLab to avoid bankruptcy": null
+}
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        }
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        }
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        "AI startups New York City Silicon Valley"
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        },
+        "Glint Egypt boutique consulting"
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        },
+        "New York VC 97212 Ventures $20 million fund"
+    ],
+    "2024 could be a 'bumper year' for startups - Icehouse": [
+        {
+            "title": "2024 could be a 'bumper year' for startups - Icehouse",
+            "link": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+            "source": "Business Desk NZ",
+            "date": "1 hour ago",
+            "snippet": "Icehouse Ventures CEO Robbie Paul said new investment firms and maturing startups could lead to a jump in investment values this year.The startup landscape."
+        },
+        {
+            "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+            "link": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+            "source": "waya.media",
+            "date": "9 hours ago",
+            "snippet": "The Investcorp Technology Partners (ITP V) fund, managed by Bahrain's Investcorp, successfully closes at $570 million, exceeding its initial."
+        },
+        {
+            "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+            "link": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+            "source": "Nairametrics",
+            "date": "6 hours ago",
+            "snippet": "Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank."
+        },
+        {
+            "title": "How to Identify & Approach The Right Investors For Your Startup?",
+            "link": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+            "source": "DataDrivenInvestor",
+            "date": "13 hours ago",
+            "snippet": "Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lining Up 2024 is expected to be a crucial year for the..."
+        },
+        {
+            "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+            "link": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+            "source": "Times of India",
+            "date": "8 hours ago",
+            "snippet": "India Business News: CHENNAI: This could well be the aerospace industry's real life \u201cSwades\" moment."
+        },
+        {
+            "title": "Social commerce platform Meesho raises $275 million: Reports",
+            "link": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+            "source": "Zee Business",
+            "date": "10 hours ago",
+            "snippet": "The latest funding valued Meesho at $3.9 billion. Meesho may increase the ongoing round size to $500-600 million, according to reports. Get more Startups..."
+        },
+        "2024 startups investment values"
+    ],
+    "Cyber startup Rezilion seeks court approval for $7.3M asset sale to GitLab to avoid bankruptcy": null
+}
+httpx - INFO - HTTP Request: POST https://wizardlm-2-8x22b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        }
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        }
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        }
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        },
+        "Glint Egypt boutique consulting"
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        },
+        "New York VC 97212 Ventures $20 million fund"
+    ],
+    "2024 could be a 'bumper year' for startups - Icehouse": [
+        {
+            "title": "2024 could be a 'bumper year' for startups - Icehouse",
+            "link": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+            "source": "Business Desk NZ",
+            "date": "1 hour ago",
+            "snippet": "Icehouse Ventures CEO Robbie Paul said new investment firms and maturing startups could lead to a jump in investment values this year.The startup landscape."
+        },
+        {
+            "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+            "link": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+            "source": "waya.media",
+            "date": "9 hours ago",
+            "snippet": "The Investcorp Technology Partners (ITP V) fund, managed by Bahrain's Investcorp, successfully closes at $570 million, exceeding its initial."
+        },
+        {
+            "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+            "link": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+            "source": "Nairametrics",
+            "date": "6 hours ago",
+            "snippet": "Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank."
+        },
+        {
+            "title": "How to Identify & Approach The Right Investors For Your Startup?",
+            "link": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+            "source": "DataDrivenInvestor",
+            "date": "13 hours ago",
+            "snippet": "Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lining Up 2024 is expected to be a crucial year for the..."
+        },
+        {
+            "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+            "link": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+            "source": "Times of India",
+            "date": "8 hours ago",
+            "snippet": "India Business News: CHENNAI: This could well be the aerospace industry's real life \u201cSwades\" moment."
+        },
+        {
+            "title": "Social commerce platform Meesho raises $275 million: Reports",
+            "link": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+            "source": "Zee Business",
+            "date": "10 hours ago",
+            "snippet": "The latest funding valued Meesho at $3.9 billion. Meesho may increase the ongoing round size to $500-600 million, according to reports. Get more Startups..."
+        },
+        "2024 startups investment values"
+    ],
+    "Cyber startup Rezilion seeks court approval for $7.3M asset sale to GitLab to avoid bankruptcy": null
+}
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        }
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        }
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        }
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        }
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        },
+        "New York VC 97212 Ventures $20 million fund"
+    ],
+    "2024 could be a 'bumper year' for startups - Icehouse": [
+        {
+            "title": "2024 could be a 'bumper year' for startups - Icehouse",
+            "link": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+            "source": "Business Desk NZ",
+            "date": "1 hour ago",
+            "snippet": "Icehouse Ventures CEO Robbie Paul said new investment firms and maturing startups could lead to a jump in investment values this year.The startup landscape."
+        },
+        {
+            "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+            "link": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+            "source": "waya.media",
+            "date": "9 hours ago",
+            "snippet": "The Investcorp Technology Partners (ITP V) fund, managed by Bahrain's Investcorp, successfully closes at $570 million, exceeding its initial."
+        },
+        {
+            "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+            "link": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+            "source": "Nairametrics",
+            "date": "6 hours ago",
+            "snippet": "Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank."
+        },
+        {
+            "title": "How to Identify & Approach The Right Investors For Your Startup?",
+            "link": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+            "source": "DataDrivenInvestor",
+            "date": "13 hours ago",
+            "snippet": "Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lining Up 2024 is expected to be a crucial year for the..."
+        },
+        {
+            "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+            "link": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+            "source": "Times of India",
+            "date": "8 hours ago",
+            "snippet": "India Business News: CHENNAI: This could well be the aerospace industry's real life \u201cSwades\" moment."
+        },
+        {
+            "title": "Social commerce platform Meesho raises $275 million: Reports",
+            "link": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+            "source": "Zee Business",
+            "date": "10 hours ago",
+            "snippet": "The latest funding valued Meesho at $3.9 billion. Meesho may increase the ongoing round size to $500-600 million, according to reports. Get more Startups..."
+        },
+        "2024 startups investment values"
+    ],
+    "Cyber startup Rezilion seeks court approval for $7.3M asset sale to GitLab to avoid bankruptcy": null
+}
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        }
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        }
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        }
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        }
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        }
+    ],
+    "2024 could be a 'bumper year' for startups - Icehouse": [
+        {
+            "title": "2024 could be a 'bumper year' for startups - Icehouse",
+            "link": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+            "source": "Business Desk NZ",
+            "date": "1 hour ago",
+            "snippet": "Icehouse Ventures CEO Robbie Paul said new investment firms and maturing startups could lead to a jump in investment values this year.The startup landscape."
+        },
+        {
+            "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+            "link": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+            "source": "waya.media",
+            "date": "9 hours ago",
+            "snippet": "The Investcorp Technology Partners (ITP V) fund, managed by Bahrain's Investcorp, successfully closes at $570 million, exceeding its initial."
+        },
+        {
+            "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+            "link": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+            "source": "Nairametrics",
+            "date": "6 hours ago",
+            "snippet": "Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank."
+        },
+        {
+            "title": "How to Identify & Approach The Right Investors For Your Startup?",
+            "link": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+            "source": "DataDrivenInvestor",
+            "date": "13 hours ago",
+            "snippet": "Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lining Up 2024 is expected to be a crucial year for the..."
+        },
+        {
+            "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+            "link": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+            "source": "Times of India",
+            "date": "8 hours ago",
+            "snippet": "India Business News: CHENNAI: This could well be the aerospace industry's real life \u201cSwades\" moment."
+        },
+        {
+            "title": "Social commerce platform Meesho raises $275 million: Reports",
+            "link": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+            "source": "Zee Business",
+            "date": "10 hours ago",
+            "snippet": "The latest funding valued Meesho at $3.9 billion. Meesho may increase the ongoing round size to $500-600 million, according to reports. Get more Startups..."
+        },
+        "2024 startups investment values"
+    ],
+    "Cyber startup Rezilion seeks court approval for $7.3M asset sale to GitLab to avoid bankruptcy": null
+}
+httpx - INFO - HTTP Request: POST https://wizardlm-2-8x22b.lepton.run/api/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Sources by story JSON:
+{
+    "America is in the midst of an extraordinary startup boom": [
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        }
+    ],
+    "10 biomed startups complete innovation hub on way to market": [
+        {
+            "title": "10 biomed startups complete innovation hub on way to market",
+            "link": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/",
+            "source": "ISRAEL21c",
+            "date": "11 hours ago",
+            "snippet": "SHAAR Innovation Program \u2014 a hub run collaboratively by Jerusalem's Shaare Zedek Medical Center, its innovation subsidiary Madait and investment firm Arieli..."
+        }
+    ],
+    "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint": [
+        {
+            "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+            "link": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html",
+            "source": "mint",
+            "date": "6 hours ago",
+            "snippet": "A new class of startups is setting up shop in New York City instead of Silicon Valley, hoping to tap its concentration of businesses ready to buy AI..."
+        },
+        {
+            "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+            "link": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story",
+            "source": "WSJ",
+            "date": "5 hours ago",
+            "snippet": "Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what..."
+        },
+        {
+            "title": "America is in the midst of an extraordinary startup boom",
+            "link": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+            "source": "The Economist",
+            "date": "6 hours ago",
+            "snippet": "Pearls, it is said, represent purity. They may soon stand for something else: business dynamism. In Greenville, South Carolina, two locals have created..."
+        },
+        {
+            "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+            "link": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025",
+            "source": "Pittsburgh Post-Gazette",
+            "date": "9 hours ago",
+            "snippet": "If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in..."
+        },
+        {
+            "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+            "link": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html",
+            "source": "Yahoo Lifestyle Canada",
+            "date": "4 hours ago",
+            "snippet": "Democrats warned that widespread use of AI to evaluate critical consumer decisions from credit to housing is \u201cdangerous for both our financial system and..."
+        },
+        {
+            "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+            "link": "https://www.mk.co.kr/en/it/11013743",
+            "source": "\ub9e4\uc77c\uacbd\uc81c",
+            "date": "9 hours ago",
+            "snippet": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and talks to people. Apple is planning to significantly..."
+        }
+    ],
+    "Glint Secures First Close for Its Second Venture Fund": [
+        {
+            "title": "Glint Secures First Close for Its Second Venture Fund",
+            "link": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+            "source": "waya.media",
+            "date": "6 hours ago",
+            "snippet": "Glint, Egypt's boutique consulting and investment firm, announces the first close of its second venture fund, securing an initial."
+        }
+    ],
+    "New York VC Raises $20M For Early-Stage Israeli Startups": [
+        {
+            "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+            "link": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+            "source": "NoCamels",
+            "date": "12 hours ago",
+            "snippet": "97212 Ventures has announced the closing of a $20 million fund for investment in Israeli startups in the pre-seed or seed stage."
+        }
+    ],
+    "2024 could be a 'bumper year' for startups - Icehouse": [
+        {
+            "title": "2024 could be a 'bumper year' for startups - Icehouse",
+            "link": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+            "source": "Business Desk NZ",
+            "date": "1 hour ago",
+            "snippet": "Icehouse Ventures CEO Robbie Paul said new investment firms and maturing startups could lead to a jump in investment values this year.The startup landscape."
+        },
+        {
+            "title": "Social commerce platform Meesho raises $275 million: Reports",
+            "link": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+            "source": "Zee Business",
+            "date": "10 hours ago",
+            "snippet": "The latest funding valued Meesho at $3.9 billion. Meesho may increase the ongoing round size to $500-600 million, according to reports. Get more Startups..."
+        },
+        {
+            "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+            "link": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+            "source": "waya.media",
+            "date": "9 hours ago",
+            "snippet": "The Investcorp Technology Partners (ITP V) fund, managed by Bahrain's Investcorp, successfully closes at $570 million, exceeding its initial."
+        },
+        {
+            "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+            "link": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+            "source": "Nairametrics",
+            "date": "6 hours ago",
+            "snippet": "Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank."
+        },
+        {
+            "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+            "link": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+            "source": "Times of India",
+            "date": "8 hours ago",
+            "snippet": "India Business News: CHENNAI: This could well be the aerospace industry's real life \u201cSwades\" moment."
+        },
+        {
+            "title": "How to Identify & Approach The Right Investors For Your Startup?",
+            "link": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+            "source": "DataDrivenInvestor",
+            "date": "13 hours ago",
+            "snippet": "Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lining Up 2024 is expected to be a crucial year for the..."
+        }
+    ],
+    "Cyber startup Rezilion seeks court approval for $7.3M asset sale to GitLab to avoid bankruptcy": null
+}
+root - INFO - Making formatted_contents for generate_brief:
+
+root - INFO - {
+    "The Economist": {
+        "title": "America is in the midst of an extraordinary startup boom",
+        "summary": "Startups have formed a smaller and smaller portion of the business landscape: in 1982 some 38% of American firms were less than five years old; by 2018, 29% were that young.\u201cWe\u2019re first-time founders ",
+        "date": "6 hours ago",
+        "url": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom"
+    }
+}
+root - INFO - formatted_contents = {
+    "The Economist": {
+        "title": "America is in the midst of an extraordinary startup boom",
+        "summary": "Startups have formed a smaller and smaller portion of the business landscape: in 1982 some 38% of American firms were less than five years old; by 2018, 29% were that young.\u201cWe\u2019re first-time founders ",
+        "date": "6 hours ago",
+        "url": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom"
+    }
+}
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Making formatted_contents for generate_brief:
+
+root - INFO - {
+    "ISRAEL21c": {
+        "title": "10 biomed startups complete innovation hub on way to market",
+        "summary": "Cloudflare Ray ID: 882c62f699d50f70\n\u2022\n\n      Your IP:\n      Click to reveal\n129.170.197.108\n\u2022\n\nPerformance & security by Cloudflare\nThere are several actions that could trigger this block including su",
+        "date": "11 hours ago",
+        "url": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/"
+    }
+}
+root - INFO - formatted_contents = {
+    "ISRAEL21c": {
+        "title": "10 biomed startups complete innovation hub on way to market",
+        "summary": "Cloudflare Ray ID: 882c62f699d50f70\n\u2022\n\n      Your IP:\n      Click to reveal\n129.170.197.108\n\u2022\n\nPerformance & security by Cloudflare\nThere are several actions that could trigger this block including su",
+        "date": "11 hours ago",
+        "url": "https://www.israel21c.org/10-biomed-startups-complete-innovation-hub-on-way-to-market/"
+    }
+}
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Making formatted_contents for generate_brief:
+
+root - INFO - {
+    "mint": {
+        "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+        "summary": "AI startups have flocked to New York to tap that customer base, and be hands-on in helping chief information officers use the technology, said Grace Isford, a partner at NYC-based venture firm Lux Cap",
+        "date": "6 hours ago",
+        "url": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html"
+    }
+}
+root - INFO - {
+    "mint": {
+        "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+        "summary": "AI startups have flocked to New York to tap that customer base, and be hands-on in helping chief information officers use the technology, said Grace Isford, a partner at NYC-based venture firm Lux Cap",
+        "date": "6 hours ago",
+        "url": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html"
+    },
+    "WSJ": {
+        "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+        "summary": "WSJ Membership Customer Service Tools & Features Ads More Dow Jones Products Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what...",
+        "date": "5 hours ago",
+        "url": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story"
+    }
+}
+root - INFO - {
+    "mint": {
+        "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+        "summary": "AI startups have flocked to New York to tap that customer base, and be hands-on in helping chief information officers use the technology, said Grace Isford, a partner at NYC-based venture firm Lux Cap",
+        "date": "6 hours ago",
+        "url": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html"
+    },
+    "WSJ": {
+        "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+        "summary": "WSJ Membership Customer Service Tools & Features Ads More Dow Jones Products Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what...",
+        "date": "5 hours ago",
+        "url": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story"
+    },
+    "The Economist": {
+        "title": "America is in the midst of an extraordinary startup boom",
+        "summary": "Startups have formed a smaller and smaller portion of the business landscape: in 1982 some 38% of American firms were less than five years old; by 2018, 29% were that young.\u201cWe\u2019re first-time founders ",
+        "date": "6 hours ago",
+        "url": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom"
+    }
+}
+root - INFO - {
+    "mint": {
+        "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+        "summary": "AI startups have flocked to New York to tap that customer base, and be hands-on in helping chief information officers use the technology, said Grace Isford, a partner at NYC-based venture firm Lux Cap",
+        "date": "6 hours ago",
+        "url": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html"
+    },
+    "WSJ": {
+        "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+        "summary": "WSJ Membership Customer Service Tools & Features Ads More Dow Jones Products Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what...",
+        "date": "5 hours ago",
+        "url": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story"
+    },
+    "The Economist": {
+        "title": "America is in the midst of an extraordinary startup boom",
+        "summary": "Startups have formed a smaller and smaller portion of the business landscape: in 1982 some 38% of American firms were less than five years old; by 2018, 29% were that young.\u201cWe\u2019re first-time founders ",
+        "date": "6 hours ago",
+        "url": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom"
+    },
+    "Pittsburgh Post-Gazette": {
+        "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+        "summary": " If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in...",
+        "date": "9 hours ago",
+        "url": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025"
+    }
+}
+root - INFO - {
+    "mint": {
+        "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+        "summary": "AI startups have flocked to New York to tap that customer base, and be hands-on in helping chief information officers use the technology, said Grace Isford, a partner at NYC-based venture firm Lux Cap",
+        "date": "6 hours ago",
+        "url": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html"
+    },
+    "WSJ": {
+        "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+        "summary": "WSJ Membership Customer Service Tools & Features Ads More Dow Jones Products Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what...",
+        "date": "5 hours ago",
+        "url": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story"
+    },
+    "The Economist": {
+        "title": "America is in the midst of an extraordinary startup boom",
+        "summary": "Startups have formed a smaller and smaller portion of the business landscape: in 1982 some 38% of American firms were less than five years old; by 2018, 29% were that young.\u201cWe\u2019re first-time founders ",
+        "date": "6 hours ago",
+        "url": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom"
+    },
+    "Pittsburgh Post-Gazette": {
+        "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+        "summary": " If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in...",
+        "date": "9 hours ago",
+        "url": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025"
+    },
+    "Yahoo Lifestyle Canada": {
+        "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+        "summary": "The bill, sponsored by Sens. Ron Wyden (D-Ore.) and Cory Booker (D-N.J.) in the Senate and Rep. Yvette Clarke (D-N.Y.) in the House, would require companies using AI to test algorithms for bias and wo",
+        "date": "4 hours ago",
+        "url": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html"
+    }
+}
+root - INFO - {
+    "mint": {
+        "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+        "summary": "AI startups have flocked to New York to tap that customer base, and be hands-on in helping chief information officers use the technology, said Grace Isford, a partner at NYC-based venture firm Lux Cap",
+        "date": "6 hours ago",
+        "url": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html"
+    },
+    "WSJ": {
+        "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+        "summary": "WSJ Membership Customer Service Tools & Features Ads More Dow Jones Products Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what...",
+        "date": "5 hours ago",
+        "url": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story"
+    },
+    "The Economist": {
+        "title": "America is in the midst of an extraordinary startup boom",
+        "summary": "Startups have formed a smaller and smaller portion of the business landscape: in 1982 some 38% of American firms were less than five years old; by 2018, 29% were that young.\u201cWe\u2019re first-time founders ",
+        "date": "6 hours ago",
+        "url": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom"
+    },
+    "Pittsburgh Post-Gazette": {
+        "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+        "summary": " If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in...",
+        "date": "9 hours ago",
+        "url": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025"
+    },
+    "Yahoo Lifestyle Canada": {
+        "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+        "summary": "The bill, sponsored by Sens. Ron Wyden (D-Ore.) and Cory Booker (D-N.J.) in the Senate and Rep. Yvette Clarke (D-N.Y.) in the House, would require companies using AI to test algorithms for bias and wo",
+        "date": "4 hours ago",
+        "url": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html"
+    },
+    "\ub9e4\uc77c\uacbd\uc81c": {
+        "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+        "summary": "A A A A Share 2024-05-11 20:23:43 2024-05-12 10:18:19 2024-05-11 21:15:22 2024-05-11 15:27:40 2024-05-12 15:38:18 2024-05-11 16:31:50 2024-05-09 15:00:00 2024-05-12 15:03:17 2024-05-12 07:38:03 2024-0",
+        "date": "9 hours ago",
+        "url": "https://www.mk.co.kr/en/it/11013743"
+    }
+}
+root - INFO - formatted_contents = {
+    "mint": {
+        "title": "AI startups are making their home in New York. Can they turn it into an AI powerhouse? | Mint",
+        "summary": "AI startups have flocked to New York to tap that customer base, and be hands-on in helping chief information officers use the technology, said Grace Isford, a partner at NYC-based venture firm Lux Cap",
+        "date": "6 hours ago",
+        "url": "https://www.livemint.com/technology/ai-startups-are-making-their-home-in-new-york-can-they-turn-it-into-an-ai-powerhouse-11715505236017.html"
+    },
+    "WSJ": {
+        "title": "As Silicon Valley Pivots to Patriotic Capital, China Ties Linger",
+        "summary": "WSJ Membership Customer Service Tools & Features Ads More Dow Jones Products Investors with connections to China are backing startups developing tech that the U.S. wants to counter Beijing. Silicon Valley investors are targeting what...",
+        "date": "5 hours ago",
+        "url": "https://www.wsj.com/finance/investing/as-silicon-valley-pivots-to-patriotic-capital-china-ties-linger-7030bf93?mod=tech_lead_story"
+    },
+    "The Economist": {
+        "title": "America is in the midst of an extraordinary startup boom",
+        "summary": "Startups have formed a smaller and smaller portion of the business landscape: in 1982 some 38% of American firms were less than five years old; by 2018, 29% were that young.\u201cWe\u2019re first-time founders ",
+        "date": "6 hours ago",
+        "url": "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom"
+    },
+    "Pittsburgh Post-Gazette": {
+        "title": "What's Next in AI: Does Pittsburgh need an AI avenue?",
+        "summary": " If artificial intelligence can transform a business, can it also transform a city? On Monday, developer Walnut Capital announced plans for an \u201cAI Avenue\u201d in...",
+        "date": "9 hours ago",
+        "url": "https://www.post-gazette.com/business/tech-news/2024/05/12/whats-next-in-ai-avenue-evan-robinson-pittsburgh-tech/stories/202405120025"
+    },
+    "Yahoo Lifestyle Canada": {
+        "title": "Should AI Decide Your Credit Score? Democrats Say No.",
+        "summary": "The bill, sponsored by Sens. Ron Wyden (D-Ore.) and Cory Booker (D-N.J.) in the Senate and Rep. Yvette Clarke (D-N.Y.) in the House, would require companies using AI to test algorithms for bias and wo",
+        "date": "4 hours ago",
+        "url": "https://ca.style.yahoo.com/news/ai-decide-credit-score-democrats-191232232.html"
+    },
+    "\ub9e4\uc77c\uacbd\uc81c": {
+        "title": "OpenAI will unveil a self-produced artificial intelligence (AI) voice assistant that understands and.. - MK",
+        "summary": "A A A A Share 2024-05-11 20:23:43 2024-05-12 10:18:19 2024-05-11 21:15:22 2024-05-11 15:27:40 2024-05-12 15:38:18 2024-05-11 16:31:50 2024-05-09 15:00:00 2024-05-12 15:03:17 2024-05-12 07:38:03 2024-0",
+        "date": "9 hours ago",
+        "url": "https://www.mk.co.kr/en/it/11013743"
+    }
+}
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Making formatted_contents for generate_brief:
+
+root - INFO - {
+    "waya.media": {
+        "title": "Glint Secures First Close for Its Second Venture Fund",
+        "summary": "\u2013 Glint Fund 2 will focus on supporting startups through its proprietary venture studio model, seeking to invest between the Seed and Series A stages with ticket sizes ranging from $250K to $500K. \u2013 W",
+        "date": "6 hours ago",
+        "url": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/"
+    }
+}
+root - INFO - formatted_contents = {
+    "waya.media": {
+        "title": "Glint Secures First Close for Its Second Venture Fund",
+        "summary": "\u2013 Glint Fund 2 will focus on supporting startups through its proprietary venture studio model, seeking to invest between the Seed and Series A stages with ticket sizes ranging from $250K to $500K. \u2013 W",
+        "date": "6 hours ago",
+        "url": "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/"
+    }
+}
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Making formatted_contents for generate_brief:
+
+root - INFO - {
+    "NoCamels": {
+        "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+        "summary": "\u201cIsrael has unique tech talent and this moment, when securing venture capital funding is particularly tough for early stage startups in Israel, offers unique opportunities for us to access top innovat",
+        "date": "12 hours ago",
+        "url": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/"
+    }
+}
+root - INFO - formatted_contents = {
+    "NoCamels": {
+        "title": "New York VC Raises $20M For Early-Stage Israeli Startups",
+        "summary": "\u201cIsrael has unique tech talent and this moment, when securing venture capital funding is particularly tough for early stage startups in Israel, offers unique opportunities for us to access top innovat",
+        "date": "12 hours ago",
+        "url": "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/"
+    }
+}
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+root - INFO - Making formatted_contents for generate_brief:
+
+root - INFO - {
+    "Business Desk NZ": {
+        "title": "2024 could be a 'bumper year' for startups - Icehouse",
+        "summary": "The consumer goods titan is spending millions buying ad space on NZ billboards.\n                 To join your company account for BusinessDesk and enjoy full access,\n                            enter ",
+        "date": "1 hour ago",
+        "url": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse"
+    }
+}
+root - INFO - {
+    "Business Desk NZ": {
+        "title": "2024 could be a 'bumper year' for startups - Icehouse",
+        "summary": "The consumer goods titan is spending millions buying ad space on NZ billboards.\n                 To join your company account for BusinessDesk and enjoy full access,\n                            enter ",
+        "date": "1 hour ago",
+        "url": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse"
+    },
+    "Zee Business": {
+        "title": "Social commerce platform Meesho raises $275 million: Reports",
+        "summary": "Social commerce platform Meesho has raised $275 million, a regulatory filing by the company with the Securities and Exchange Commission (SEC) in the US has revealed.Its current gross merchandise value",
+        "date": "10 hours ago",
+        "url": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465"
+    }
+}
+root - INFO - {
+    "Business Desk NZ": {
+        "title": "2024 could be a 'bumper year' for startups - Icehouse",
+        "summary": "The consumer goods titan is spending millions buying ad space on NZ billboards.\n                 To join your company account for BusinessDesk and enjoy full access,\n                            enter ",
+        "date": "1 hour ago",
+        "url": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse"
+    },
+    "Zee Business": {
+        "title": "Social commerce platform Meesho raises $275 million: Reports",
+        "summary": "Social commerce platform Meesho has raised $275 million, a regulatory filing by the company with the Securities and Exchange Commission (SEC) in the US has revealed.Its current gross merchandise value",
+        "date": "10 hours ago",
+        "url": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465"
+    },
+    "waya.media": {
+        "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+        "summary": "\u2013 ITP V focuses on investing in global sectors such as software, data analytics, cybersecurity, and fintech, targeting companies with values of $10 million or more and investments ranging from $30-75 ",
+        "date": "9 hours ago",
+        "url": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/"
+    }
+}
+root - INFO - {
+    "Business Desk NZ": {
+        "title": "2024 could be a 'bumper year' for startups - Icehouse",
+        "summary": "The consumer goods titan is spending millions buying ad space on NZ billboards.\n                 To join your company account for BusinessDesk and enjoy full access,\n                            enter ",
+        "date": "1 hour ago",
+        "url": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse"
+    },
+    "Zee Business": {
+        "title": "Social commerce platform Meesho raises $275 million: Reports",
+        "summary": "Social commerce platform Meesho has raised $275 million, a regulatory filing by the company with the Securities and Exchange Commission (SEC) in the US has revealed.Its current gross merchandise value",
+        "date": "10 hours ago",
+        "url": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465"
+    },
+    "waya.media": {
+        "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+        "summary": "\u2013 ITP V focuses on investing in global sectors such as software, data analytics, cybersecurity, and fintech, targeting companies with values of $10 million or more and investments ranging from $30-75 ",
+        "date": "9 hours ago",
+        "url": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/"
+    },
+    "Nairametrics": {
+        "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+        "summary": " Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank.",
+        "date": "6 hours ago",
+        "url": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/"
+    }
+}
+root - INFO - {
+    "Business Desk NZ": {
+        "title": "2024 could be a 'bumper year' for startups - Icehouse",
+        "summary": "The consumer goods titan is spending millions buying ad space on NZ billboards.\n                 To join your company account for BusinessDesk and enjoy full access,\n                            enter ",
+        "date": "1 hour ago",
+        "url": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse"
+    },
+    "Zee Business": {
+        "title": "Social commerce platform Meesho raises $275 million: Reports",
+        "summary": "Social commerce platform Meesho has raised $275 million, a regulatory filing by the company with the Securities and Exchange Commission (SEC) in the US has revealed.Its current gross merchandise value",
+        "date": "10 hours ago",
+        "url": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465"
+    },
+    "waya.media": {
+        "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+        "summary": "\u2013 ITP V focuses on investing in global sectors such as software, data analytics, cybersecurity, and fintech, targeting companies with values of $10 million or more and investments ranging from $30-75 ",
+        "date": "9 hours ago",
+        "url": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/"
+    },
+    "Nairametrics": {
+        "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+        "summary": " Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank.",
+        "date": "6 hours ago",
+        "url": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/"
+    },
+    "Times of India": {
+        "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+        "summary": "10 Most Affordable Cities in India to Buy a House Most Visited Monuments in India The Pros and Cons of Investing in Value Stocks Investing in Small-Cap Stocks: Top 10 Tips for Absolute Beginners 10 Wa",
+        "date": "8 hours ago",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms"
+    }
+}
+root - INFO - {
+    "Business Desk NZ": {
+        "title": "2024 could be a 'bumper year' for startups - Icehouse",
+        "summary": "The consumer goods titan is spending millions buying ad space on NZ billboards.\n                 To join your company account for BusinessDesk and enjoy full access,\n                            enter ",
+        "date": "1 hour ago",
+        "url": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse"
+    },
+    "Zee Business": {
+        "title": "Social commerce platform Meesho raises $275 million: Reports",
+        "summary": "Social commerce platform Meesho has raised $275 million, a regulatory filing by the company with the Securities and Exchange Commission (SEC) in the US has revealed.Its current gross merchandise value",
+        "date": "10 hours ago",
+        "url": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465"
+    },
+    "waya.media": {
+        "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+        "summary": "\u2013 ITP V focuses on investing in global sectors such as software, data analytics, cybersecurity, and fintech, targeting companies with values of $10 million or more and investments ranging from $30-75 ",
+        "date": "9 hours ago",
+        "url": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/"
+    },
+    "Nairametrics": {
+        "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+        "summary": " Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank.",
+        "date": "6 hours ago",
+        "url": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/"
+    },
+    "Times of India": {
+        "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+        "summary": "10 Most Affordable Cities in India to Buy a House Most Visited Monuments in India The Pros and Cons of Investing in Value Stocks Investing in Small-Cap Stocks: Top 10 Tips for Absolute Beginners 10 Wa",
+        "date": "8 hours ago",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms"
+    },
+    "DataDrivenInvestor": {
+        "title": "How to Identify & Approach The Right Investors For Your Startup?",
+        "summary": "Sign up Sign in Sign up Sign in Member-only story Ankit Sharma Follow DataDrivenInvestor -- Share Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lin",
+        "date": "13 hours ago",
+        "url": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5"
+    }
+}
+root - INFO - formatted_contents = {
+    "Business Desk NZ": {
+        "title": "2024 could be a 'bumper year' for startups - Icehouse",
+        "summary": "The consumer goods titan is spending millions buying ad space on NZ billboards.\n                 To join your company account for BusinessDesk and enjoy full access,\n                            enter ",
+        "date": "1 hour ago",
+        "url": "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse"
+    },
+    "Zee Business": {
+        "title": "Social commerce platform Meesho raises $275 million: Reports",
+        "summary": "Social commerce platform Meesho has raised $275 million, a regulatory filing by the company with the Securities and Exchange Commission (SEC) in the US has revealed.Its current gross merchandise value",
+        "date": "10 hours ago",
+        "url": "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465"
+    },
+    "waya.media": {
+        "title": "Investcorp of Bahrain Concludes ITP Fund at Total of USD570 Million",
+        "summary": "\u2013 ITP V focuses on investing in global sectors such as software, data analytics, cybersecurity, and fintech, targeting companies with values of $10 million or more and investments ranging from $30-75 ",
+        "date": "9 hours ago",
+        "url": "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/"
+    },
+    "Nairametrics": {
+        "title": "Meet Nigerian CEOs of EdTech startups who have raised $100K+ in funding rounds",
+        "summary": " Sub-Saharan Africa stands out with the highest rates of education exclusion among the six developing world regions, as noted by the World Bank.",
+        "date": "6 hours ago",
+        "url": "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/"
+    },
+    "Times of India": {
+        "title": "Swades moment: Pratyush Kumar leaves Boeing flight deck to fund Indian aerospace startups",
+        "summary": "10 Most Affordable Cities in India to Buy a House Most Visited Monuments in India The Pros and Cons of Investing in Value Stocks Investing in Small-Cap Stocks: Top 10 Tips for Absolute Beginners 10 Wa",
+        "date": "8 hours ago",
+        "url": "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms"
+    },
+    "DataDrivenInvestor": {
+        "title": "How to Identify & Approach The Right Investors For Your Startup?",
+        "summary": "Sign up Sign in Sign up Sign in Member-only story Ankit Sharma Follow DataDrivenInvestor -- Share Forget Everything You Thought You Knew About Approaching Investors \u2014 This Guide Will Get Investors Lin",
+        "date": "13 hours ago",
+        "url": "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5"
+    }
+}
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

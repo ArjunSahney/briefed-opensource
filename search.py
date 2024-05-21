@@ -90,6 +90,21 @@ snippet: {snippet}
     title_json = get_json_from_lepton(improved_title_response)
     if title_json is None:
         print("No JSON found in the text")
+        print("Attempting to parse as ranked list")
+        # Try to parse response as a ranked list instead. 
+        # Set range to 100 because we don't know how many titles there could be.
+        search_terms = parse_ranked_list(improved_title_response, 100)
+        if search_terms == []:
+            return None
+        else:
+            # Truncate the search term list once it hits 15 words
+            word_count = 0
+            for term in search_terms:
+                word_count += len(term)
+                if word_count > 15:
+                    search_terms = search_terms[:word_count]
+                    break
+            return search_terms
     else:
         if type == "title":
             optimized = title_json["title"]
@@ -124,18 +139,23 @@ def generalize_topic(topic):
     print("Generalized topic: " + response)
     return response
 
-def parse_ranked_list(string_ranked_list, range):
+def parse_ranked_list(string_ranked_list, list_range):
     """Takes a string of a ranked list and returns a list of strings"""
     list_items = []
     lines = string_ranked_list.split('\n')
     # Loop through each line
     for line in lines:
         # Check if the line starts with a number followed by a dot (indicating an article title)
-        if line.strip().startswith(tuple(f"{i}." for i in range(1, len(range)))):
+        if line.strip().startswith(tuple(f"{i}." for i in range(1, list_range))):
             # Split the line at the first dot followed by a space to isolate the title
             item = line.split('. ', 1)[1]
-            # Append the isolated item (string) to the list
-            list_items.append(item)
+            # Append the isolated item (string) to the list, removing any enclosing quotes and re-adding them
+            # This ensures the format is with double quotes only
+            cleaned_item = item.strip()
+            if cleaned_item.startswith('"') and cleaned_item.endswith('"'):
+                # Remove the extra quotes and strip any excess spaces
+                cleaned_item = cleaned_item[1:-1].strip()
+            list_items.append(f"{cleaned_item}")
     return list_items
 
 def get_most_relevant_titles(news_results, keyword, num_results):
@@ -538,3 +558,22 @@ def search(topic, num_stories=DEFAULT_NUM_TITLES):
 
 # Testing topic tokens
 # print(json.dumps(scrape_news("Software", 15), indent=4))
+
+# teting parse_ranked
+ranked = """
+Parsing to JSON Based on the title, some potential search terms for this article could be:
+
+1. "Amazon Q generative AI for software development"
+2. "Business data and AI assistance from Amazon Web Services"
+3. "Accelerating software development with Amazon Q"
+4. "Generative AI in software development"
+5. "Amazon Web Services AI for business data"
+6. "Use of AI in software development process"
+7. "Amazon Q for business data analysis"
+8. "Leveraging AI for software development"
+
+These search terms should help return relevant articles or information about the topic described in the title
+"""
+
+search_terms = (parse_ranked_list(ranked, 10))
+print(search_terms[0])

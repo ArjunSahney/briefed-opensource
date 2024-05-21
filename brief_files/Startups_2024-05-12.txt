@@ -1,0 +1,86 @@
+[
+    {
+        "Title": "America's Startup Landscape",
+        "Summary": "The proportion of young firms in America has declined from 38% in 1982 to 29% in 2018, indicating a shift in the startup landscape (The Economist).",
+        "sources": [
+            [
+                "The Economist",
+                "https://www.economist.com/finance-and-economics/2024/05/12/america-is-in-the-midst-of-an-extraordinary-startup-boom",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://www.economist.com/img/b/1280/720/90/media-assets/image/20240518_FND001.jpg"
+    },
+    {
+        "Title": "None",
+        "Summary": "None",
+        "sources": []
+    },
+    {
+        "Title": "Emerging AI Trends Across The Globe",
+        "Summary": "AI startups are gravitating towards New York, aiming to transform it into an AI hub by closely working with chief information officers (Mint). Meanwhile, Silicon Valley's pivot to ",
+        "sources": [],
+        "Image Filepath": "https://www.livemint.com/lm-img/img/2024/05/12/1600x900/im-945838_1715505239625_1715510668323.jpg"
+    },
+    {
+        "Title": "Glint Ventures' New Funding Milestone",
+        "Summary": "Glint Ventures has successfully achieved the first close of its second venture fund, Glint Fund 2, which aims to support startups via its unique venture studio model. The fund focuses on investments between Seed and Series A stages, offering ticket sizes from $250K to $500K (waya.media).",
+        "sources": [
+            [
+                "waya.media",
+                "https://waya.media/glint-secures-first-close-for-its-second-venture-fund/",
+                "6 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://waya.media/wp-content/uploads/sites/3/2024/05/website-18.jpeg"
+    },
+    {
+        "Title": "Venture Capital Boost for Israeli Startups",
+        "Summary": "A New York-based venture capital firm has raised $20 million to invest in early-stage Israeli startups, leveraging Israel's unique tech talent at a time when securing funding is challenging for these companies (NoCamels).",
+        "sources": [
+            [
+                "NoCamels",
+                "https://nocamels.com/2024/05/new-york-vc-raises-20m-for-early-stage-israeli-startups/",
+                "12 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://nocamels.com/wp-content/uploads/2024/05/Eyal-Bino-Ohad-Kab.jpg"
+    },
+    {
+        "Title": "Global Startup Ecosystem Highlights",
+        "Summary": "2024 is anticipated to be a significant year for startup growth according to Icehouse, signaling robust opportunities for entrepreneurship (Business Desk NZ). Social commerce platform Meesho secured $275 million, highlighting investor confidence in digital marketplaces (Zee Business). Investcorp concluded its ITP Fund at $570 million, focusing on sectors like software and fintech, showcasing global investment trends (waya.media). Nigerian EdTech startups emerge on the funding scene, reflecting the crucial role of education technology in addressing regional education challenges (Nairametrics). Pratyush Kumar's pivot from Boeing to funding Indian aerospace startups marks a noteworthy trend in sector-specific investments (Times of India). The importance of selecting appropriate investors is crucial for startup success, underlining the strategic aspect of fundraising (DataDrivenInvestor).",
+        "sources": [
+            [
+                "Business Desk NZ",
+                "https://businessdesk.co.nz/article/technology/2024-could-be-a-bumper-year-for-startups-icehouse",
+                "1 hour ago"
+            ],
+            [
+                "Zee Business",
+                "https://www.zeebiz.com/startups/news-meesho-funding-history-social-commercer-platform-gets-275-million-dollars-from-softbank-prosus-elevation-capital-peak-xv-289465",
+                "10 hours ago"
+            ],
+            [
+                "waya.media",
+                "https://waya.media/investcorp-of-bahrain-concludes-itp-fund-at-total-of-usd570-million/",
+                "9 hours ago"
+            ],
+            [
+                "Nairametrics",
+                "https://nairametrics.com/2024/05/12/meet-nigerian-ceos-of-edtech-startups-who-have-raised-100k-in-funding-rounds/",
+                "6 hours ago"
+            ],
+            [
+                "Times of India",
+                "https://timesofindia.indiatimes.com/business/india-business/swades-moment-pratyush-kumar-leaves-boeing-flight-deck-to-fund-indian-aerospace-startups/articleshow/110054932.cms",
+                "8 hours ago"
+            ],
+            [
+                "DataDrivenInvestor",
+                "https://medium.datadriveninvestor.com/how-to-identify-approach-the-right-investors-for-your-startup-d2272ef5ecb5",
+                "13 hours ago"
+            ]
+        ],
+        "Image Filepath": "https://media.businessdesk.co.nz/file/c_fill,w_800,q_100/Robbie-Paul-Icehouse-Ventures-NZME.jpg"
+    }
+]

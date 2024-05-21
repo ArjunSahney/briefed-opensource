@@ -134,13 +134,14 @@ def in_brief(keyword, num_briefs):
         if __debug__:
             print("searching top headlines")
         # TODO: Need to handle top headlines
-    
+        return None
     stories_and_sources = search(keyword, num_briefs)
     brief_json_list = []
 
     # Collate articles in news_results    
     for story, sources in stories_and_sources.items():
-        
+        if story is None or sources is None:
+            continue
         import logging
         # Configure logging
         logging.basicConfig(filename='sources_by_story.log', filemode='w', format='%(name)s - %(levelname)s - %(message)s', level=logging.INFO)
@@ -149,6 +150,8 @@ def in_brief(keyword, num_briefs):
         # Create formatted article dictionary for brief generation
         formatted_contents = {}
         for source in sources:
+            if source is None:
+                continue
             # If source is a string, skip
             if isinstance(source, str):
                 print("Skipping source string: " + source)
@@ -157,7 +160,14 @@ def in_brief(keyword, num_briefs):
             source_title = source.get("title", None)
             source_link = source.get("link", None)
             source_date = source.get("date", None)
+            if source_name is None or source_title is None or source_link is None:
+                continue
             source_summary = get_spaCy_article_summary(source_link, ratio=0.1, max_words=200)
+            # If the source_summary is fewer than 200 words, append the article snippet to the summary
+            if source_summary is None:
+                source_summary = source.get("snippet", None)
+            elif len(source_summary) < 200:
+                source_summary = source_summary + " " + source.get("snippet", None)
             formatted_contents[source_name] = {
                 "title": source_title,
                 "summary": source_summary,
@@ -192,5 +202,3 @@ def in_brief(keyword, num_briefs):
         print(f"Generate complete brief execution time: {duration} seconds")
         
     return brief_string
-
-# in_brief("Bank of America", 6)

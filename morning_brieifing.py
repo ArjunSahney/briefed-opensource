@@ -254,14 +254,14 @@ def in_morning_brief(name, company, industry, topic):
     top_briefs = None
     custom_headline_briefs = None
     # Get the top headlines from headlines.txt
-    headline_filename = "brief_files/headlines_" + curr_date + ".txt"
-    if not os.path.exists(headline_filename):
-        if __debug__:
-            print("Getting Top Headlines")
-        getTopHeadlinesBriefs()
-    with open(headline_filename, 'r') as file:
-        headlines_content = file.read()
-    top_briefs = json.loads(headlines_content)
+    # headline_filename = "brief_files/headlines_" + curr_date + ".txt"
+    # if not os.path.exists(headline_filename):
+    #     if __debug__:
+    #         print("Getting Top Headlines")
+    #     getTopHeadlinesBriefs()
+    # with open(headline_filename, 'r') as file:
+    #     headlines_content = file.read()
+    # top_briefs = json.loads(headlines_content)
     
     # Get trending headlines from trending.txt
     # TODO: Redo trending headline generation
@@ -308,7 +308,7 @@ def in_morning_brief(name, company, industry, topic):
     }
     if trending_briefs:
         briefing_dictionary["Trending Headlines"] = trending_briefs
-    
+    else: briefing_dictionary["Trending Headlines"] = None
     generate_morning_briefing(name, briefing_dictionary, True)
 
 # Run this one time per day
@@ -324,7 +324,7 @@ def in_morning_brief(name, company, industry, topic):
 
 # in_morning_brief("Daniel Liu", "Cats", "Technology", "Piano")
 
-# in_morning_brief("Jack Friedman", "AI", "Software", "Startups")
+in_morning_brief("Jack Friedman", "Artificial Intelligence", "Software", "Startups")
 
 # in_morning_brief("Rishik", "Venture Capital", "OJ Simpson", "Tinnitus")
 

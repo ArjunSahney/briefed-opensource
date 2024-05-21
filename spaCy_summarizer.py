@@ -169,4 +169,45 @@ def get_spaCy_article_summary(url, ratio=0.05, max_words=200):
 
 
 # Testing
+# Website homepage containing article titles. 
+webpage = get_text_beautifulSoup("https://www.reuters.com/")
+# print(webpage)
+# def extract_titles(webpage):
+#     # First, we split the paragraphs into a list of sentences.
+#     sentences_list = []
+#     for paragraph in webpage.split('\n'):
+#         for sentence in paragraph.split('.'):
+#             if sentence.strip():  # Ensure that empty sentences are not added
+#                 sentences_list.append(sentence.strip())
 
+    
+#     # Then, we cluster adjacent sentences together if they have a similarity score above 75%.
+#     sentence_clusters = []
+#     i = 0
+#     while i < len(sentences_list) - 1:  # Ensure i+1 is always a valid index
+#         current_sentence = sentences_list[i]
+#         similarity = calculate_similarity(current_sentence, sentences_list[i+1])
+#         # Merge sentences while similarity is high and i+1 is a valid index
+#         while similarity >= 0.85 and i < len(sentences_list) - 1:
+#             i += 1
+#             current_sentence += ' ' + sentences_list[i]
+#             if i < len(sentences_list) - 1:  # Check again before accessing the next sentence
+#                 similarity = calculate_similarity(current_sentence, sentences_list[i+1])
+#             else:
+#                 break
+#         sentence_clusters.append(current_sentence)
+#         i += 1
+
+#     return sentence_clusters
+
+
+# print(json.dumps(extract_titles(webpage), indent=4))
+
+# prompt = "Based on this news website's homepage, extract all of the article titles. Return a JSON in this format with double quotes: {\"1\": \"title 1\", \"2\": \"title 2\", \"3\": \"title 3\"}." + webpage
+
+# print(prompt)
+
+# titles = get_gpt_response(prompt, gpt_model="gpt-3.5-turbo", json_mode=True)
+# titles_json = json.loads(titles)
+
+# print(json.dumps(titles_json, indent=4))
