@@ -5,6 +5,6 @@ class Reel(models.Model):
     summary = models.TextField()
     image_url = models.URLField()
     sources = models.JSONField()
-
+    
     def __str__(self):
         return self.title

@@ -13,10 +13,10 @@
                 <img src="{{ reel.image_url }}" alt="Image for {{ reel.title }}">
                 <p>{{ reel.summary }}</p>
                 <ul>
-                    {% for source in reel.sources %}
-                        <li>{{ source }}</li>
+                    {% for source_group in reel.sources %}
+                    <li>{{ source_group.0 }} - <a href="{{ source_group.1 }}">{{ source_group.2 }}</a></li>
                     {% endfor %}
-                </ul>
+                </ul>                
             </div>
         {% endfor %}
     </div>
