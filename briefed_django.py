@@ -1,4 +1,4 @@
-from .models import Brief
+from .models import Reel
 import json
 import os
 from datetime import datetime
@@ -37,7 +37,6 @@ def generate_brief(article_dict):
     
         seen_articles = set()
         sources_list = []
-        sources = "\n"
         for article_source in confirmed_sources:
             seen_articles.add(article_source)
             article_url = article_dict[article_source].get("url", "No URL")
@@ -69,39 +68,35 @@ def download_image(story_title, sources_list):
 def generate_custom(user, interests):
     custom_briefs = []
     for interest in interests:
-        existing_briefs = Brief.objects.filter(interest=interest)
-        if existing_briefs.exists():
-            custom_briefs.extend(existing_briefs)
-        else:
-            stories_and_sources = search(interest, num_briefs=6)
-            for story, sources in stories_and_sources.items():
-                formatted_contents = {}
-                for source in sources:
-                    if isinstance(source, str):
-                        continue
-                    source_name = source.get("source", None)
-                    source_title = source.get("title", None)
-                    source_link = source.get("link", None)
-                    source_date = source.get("date", None)
-                    source_summary = get_spaCy_article_summary(source_link, ratio=0.1, max_words=200)
-                    formatted_contents[source_name] = {
-                        "title": source_title,
-                        "summary": source_summary,
-                        "date": source_date,
-                        "url": source_link
-                    }
-                (image_downloaded, image_url) = download_image(story, sources)
-                brief = generate_brief(formatted_contents)
-                if image_downloaded:
-                    brief["Image Filepath"] = image_url
-                brief_obj = Brief.objects.create(
-                    title=brief["Title"],
-                    content=brief["Summary"],
-                    interest=interest,
-                    sources=json.dumps(brief["sources"]),
-                    image_url=brief.get("Image Filepath", "")
-                )
-                custom_briefs.append(brief_obj)
+        stories_and_sources = search(interest, num_briefs=6)
+        for story, sources in stories_and_sources.items():
+            formatted_contents = {}
+            for source in sources:
+                if isinstance(source, str):
+                    continue
+                source_name = source.get("source", None)
+                source_title = source.get("title", None)
+                source_link = source.get("link", None)
+                source_date = source.get("date", None)
+                source_summary = get_spaCy_article_summary(source_link, ratio=0.1, max_words=200)
+                formatted_contents[source_name] = {
+                    "title": source_title,
+                    "summary": source_summary,
+                    "date": source_date,
+                    "url": source_link
+                }
+            (image_downloaded, image_url) = download_image(story, sources)
+            brief = generate_brief(formatted_contents)
+            if image_downloaded:
+                brief["Image Filepath"] = image_url
+            brief_obj = Reel.objects.create(
+                title=brief["Title"],
+                summary=brief["Summary"],
+                topic=interest,
+                sources=json.dumps(brief["sources"]),
+                image_url=brief.get("Image Filepath", "")
+            )
+            custom_briefs.append(brief_obj)
     return custom_briefs
 
 #### 
