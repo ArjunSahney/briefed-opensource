@@ -19,7 +19,7 @@ class Command(BaseCommand):
             sources_list = reel_data['sources']
             sources_string = ""
             for source in sources_list:
-                sources += source[0] + " - " + source[1] + ", " + source[2] + "\n"
+                sources_string += source[0] + " - " + source[1] + ", " + source[2] + "\n"
             reel = Reel(
                 title=reel_data['Title'],
                 summary=reel_data['Summary'],
