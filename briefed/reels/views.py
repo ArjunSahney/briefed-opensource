@@ -1,7 +1,9 @@
 from django.shortcuts import render
 from .models import Reel
+from django.contrib.auth.decorators import login_required
 
-def reel_feed(request):
-    reels = Reel.objects.all()  # Retrieve all reels from the database
-    return render(request, 'reels/feed.html', {'reels': reels})
-
+@login_required
+def reel_list(request):
+    user = request.user
+    reels = Reel.objects.filter(topic__name=user.username)  # Assuming each topic name is the username
+    return render(request, 'reels/reel_list.html', {'reels': reels})

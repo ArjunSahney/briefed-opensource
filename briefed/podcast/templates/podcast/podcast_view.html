@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Podcast</h1>
+  {% if podcast %}
+    <audio controls>
+      <source src="{{ podcast.mp3_url }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  {% else %}
+    <p>No podcast available for this user.</p>
+  {% endif %}
+{% endblock %}
