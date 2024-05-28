@@ -1,0 +1,38 @@
+[
+    {
+        "user_email": "john.doe@example.com",
+        "topic_name": "Quantum Computing",
+        "topic": {
+            "date": "2024-05-27",
+            "datetime": "2024-05-27T10:00:00Z",
+            "briefs": [
+                {"summary": "Brief about Quantum Computing", "detail": "Details about Quantum Computing"},
+                {"summary": "Advances in Quantum Computing", "detail": "Details about recent advances"}
+            ]
+        }
+    },
+    {
+        "user_email": "john.doe@example.com",
+        "topic_name": "Artificial Intelligence",
+        "topic": {
+            "date": "2024-05-28",
+            "datetime": "2024-05-28T11:00:00Z",
+            "briefs": [
+                {"summary": "Brief about AI", "detail": "Details about AI"},
+                {"summary": "AI Ethics", "detail": "Details about ethics in AI"}
+            ]
+        }
+    },
+    {
+        "user_email": "jane.smith@example.com",
+        "topic_name": "Machine Learning",
+        "topic": {
+            "date": "2024-05-29",
+            "datetime": "2024-05-29T12:00:00Z",
+            "briefs": [
+                {"summary": "Introduction to Machine Learning", "detail": "Details about Machine Learning"},
+                {"summary": "Machine Learning Algorithms", "detail": "Details about various algorithms"}
+            ]
+        }
+    }
+]
