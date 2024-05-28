@@ -37,16 +37,16 @@ class Command(BaseCommand):
                 topic_name = topic
                 topic, created = Topic.objects.get_or_create(name=topic_name)
                 # Create a new Reel instance for each item
-                sources_list = json.loads(reel_data['sources'])
-                sources_string = ""
-                for source in sources_list:
-                    sources_string += source[0] + " - " + source[1] + ", " + source[2] + "\n"
+                sources_list = reel_data['sources']
+                # sources_string = ""
+                # for source in sources_list:
+                #     sources_string += source[0] + " - " + source[1] + ", " + source[2] + "\n"
                 reel = Reel(
                     topic=topic,
                     title=reel_data['Title'],
                     summary=reel_data['Summary'],
                     image_url=reel_data['Image Filepath'],
-                    sources=sources_string
+                    sources=sources_list
                 )
                 reel.save()  # Save the Reel object to the database
             

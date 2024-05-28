@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Reels</title>
+</head>
+<body>
+    <h1>Reels for {{ user.username }}</h1>
+    <ul>
+        {% for reel in reels %}
+            <li>{{ reel }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

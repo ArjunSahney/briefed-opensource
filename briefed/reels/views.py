@@ -1,9 +1,16 @@
 from django.shortcuts import render
-from .models import Reel
-from django.contrib.auth.decorators import login_required
+from django.contrib.auth.models import User
+from .models import TopicsTable, UserInterests
 
-@login_required
-def reel_list(request):
-    user = request.user
-    reels = Reel.objects.filter(topic__name=user.username)  # Assuming each topic name is the username
-    return render(request, 'reels/reel_list.html', {'reels': reels})
+def user_reels(request, user_id):
+    user = User.objects.get(id=user_id)
+    interests = UserInterests.objects.filter(user=user).select_related('topic')
+    reels = []
+
+    for interest in interests:
+        topic = interest.topic
+        # Assuming reels are stored in the topic's briefs JSON field
+        topic_reels = topic.briefs.get('reels', [])
+        reels.extend(topic_reels)
+
+    return render(request, 'user_reels.html', {'user': user, 'reels': reels})

@@ -76,14 +76,31 @@ WSGI_APPLICATION = "briefed.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'briefed_db',
+#         'USER': 'ram_and_arjun',
+#         'PASSWORD': 'news_briefs_for_you',
+#         'HOST': 'localhost',
+#         'PORT': '5432',  # Default port for PostgreSQL
+#     }
+# }
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',  # For Django versions >= 3.1
+#         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),  # For older Django versions
+#     }
+# }
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'mysql.connector.django',
         'NAME': 'briefed_db',
         'USER': 'ram_and_arjun',
         'PASSWORD': 'news_briefs_for_you',
         'HOST': 'localhost',
-        'PORT': '5432',  # Default port for PostgreSQL
+        'PORT': '3306',
     }
 }
 

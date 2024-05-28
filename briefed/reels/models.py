@@ -1,21 +1,27 @@
 from django.db import models
 
-class Topic(models.Model):
-    name = models.CharField(max_length=200)
+class TopicsTable(models.Model):
+    date = models.DateField()
+    datetime = models.DateTimeField()
+    briefs = models.JSONField()
 
-    def __str__(self):
-        return self.name
+    # class Meta:
+    #     indexes = [
+    #         models.Index(fields=['briefs'], name='topics_table_briefs_index'),
+    #     ]
 
-class Reel(models.Model):
-    # Link each reel to a topic
-    topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
-    
-    # Store date, title, summary, image, sources per reel
-    date = models.DateTimeField(auto_now_add=True)
-    title = models.CharField(max_length=200)
-    summary = models.TextField()
-    image_url = models.URLField()
-    sources = models.JSONField()
-    
-    def __str__(self):
-        return self.title
+class UserTable(models.Model):
+    name = models.CharField(max_length=255)
+    email = models.EmailField(max_length=255)
+    created_at = models.DateTimeField()
+    updated_at = models.DateTimeField()
+    password = models.CharField(max_length=255)
+
+class UserInterests(models.Model):
+    topic = models.ForeignKey(TopicsTable, on_delete=models.CASCADE)
+    user = models.ForeignKey(UserTable, on_delete=models.CASCADE)
+    topic_name = models.CharField(max_length=255)
+
+class Podcasts(models.Model):
+    user = models.ForeignKey(UserTable, on_delete=models.CASCADE)
+    date = models.DateField()

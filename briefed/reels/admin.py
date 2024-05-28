@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import Reel
+from .models import*
 
-admin.site.register(Reel)
+# admin.site.register(Reel)

@@ -1,6 +1,6 @@
 from django.urls import path
-from . import views
+from .views import user_reels
 
 urlpatterns = [
-    path('', views.reel_feed, name='reel_feed'),
+    path('user/<int:user_id>/reels/', user_reels, name='user_reels'),
 ]
