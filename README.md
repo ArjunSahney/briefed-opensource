@@ -7,9 +7,9 @@ Briefed was a project developed by Arjun Sahney and Ram Gorthi that aimed to pro
 ## **Table of Contents**
 - [Overview of the System](#overview-of-the-system)
 - [Scripts](#scripts)
-  - [1. `search.py`](#1-searchpy)
-  - [2. `briefed_main.py`](#2-briefed_mainpy)
-  - [3. `morning_briefing.py`](#3-morning_briefingpy)
+  - [1. `search.py`]
+  - [2. `briefed_main.py`]
+  - [3. `morning_briefing.py`]
 - [Directory Structure](#directory-structure)
 - [User Experience and Example Usage](#user-experience-and-example-usage)
 - [Interconnected Workflow](#interconnected-workflow)
@@ -25,6 +25,11 @@ The Briefed system automates the process of scraping news articles, summarizing 
 3. **Deliver** briefings in text and audio (podcast) formats.
 
 ---
+## Email Examples
+Here are some snippets of emails we sent as part of our first MVP to beta testers. 
+<img width="454" alt="briefed2" src="https://github.com/user-attachments/assets/83e8df37-c6c4-47cf-988b-caa21908e625">
+<img width="158" alt="briefed1" src="https://github.com/user-attachments/assets/e98d7791-1377-4b97-90e4-d8c3cff70e09">
+
 
 ## **Scripts**
 
