@@ -1,8 +1,0 @@
-Metadata-Version: 2.1
-Name: summarizer
-Version: 0.1.0
-Summary: A simple one-sentence summarizer library based on NLTK.
-Author: Your Name
-Author-email: your.email@example.com
-Keywords: summarizer nltk text
-Requires-Dist: nltk>=3.5

@@ -315,21 +315,5 @@ def in_morning_brief(name, company, industry, topic):
 # getTopHeadlinesBriefs()
 # getTrendingBriefs()
 
-# Viraj
-# search("Amazon Corporation", "Sony Corporation", "Elden Ring")
+in_morning_brief("Arjun", "Artificial Intelligence", "Software", "Startups")
 
-# in_morning_brief("Nick", "US Presidential Election", "Climate and Business", "Alberta provincial politics")
-
-# in_morning_brief("Christian Chantayan", "Global Politics and Economy", "Basketball", "Armenia")
-
-# in_morning_brief("Daniel Liu", "Cats", "Technology", "Piano")
-
-in_morning_brief("Jack Friedman", "Artificial Intelligence", "Software", "Startups")
-
-# in_morning_brief("Rishik", "Venture Capital", "OJ Simpson", "Tinnitus")
-
-# in_morning_brief("Arjun", "Foreign Policy", "Economy", "International Affairs")
-
-# in_morning_brief("John", "Ukraine", "Mortgage Rates", "2024 Presidential Election")
-
-# in_morning_brief("Inika", "Google", "Quantum Computing", "U.S. Interest Rates")

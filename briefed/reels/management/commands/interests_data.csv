@@ -1,6 +1,0 @@
-user_email,topic_name,topic_date,topic_datetime,topic_briefs
-john.doe@example.com,Quantum Computing,2024-05-27,2024-05-27T10:00:00Z,"[{""summary"": ""Brief about Quantum Computing"", ""detail"": ""Details about Quantum Computing""}, {""summary"": ""Advances in Quantum Computing"", ""detail"": ""Details about recent advances""}]"
-john.doe@example.com,Artificial Intelligence,2024-05-28,2024-05-28T11:00:00Z,"[{""summary"": ""Brief about AI"", ""detail"": ""Details about AI""}, {""summary"": ""AI Ethics"", ""detail"": ""Details about ethics in AI""}]"
-jane.smith@example.com,Machine Learning,2024-05-29,2024-05-29T12:00:00Z,"[{""summary"": ""Introduction to Machine Learning"", ""detail"": ""Details about Machine Learning""}, {""summary"": ""Machine Learning Algorithms"", ""detail"": ""Details about various algorithms""}]"
-
-python manage.py load_data --user-file=./reels/management/commands/user_data.json --interests-file=./reels/management/commands/interests_data.json
