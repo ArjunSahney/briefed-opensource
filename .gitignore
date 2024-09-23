@@ -1,6 +1,7 @@
 # Ignore virtual environments
 env/
 venv/
+homebrew/
 
 # Ignore Python bytecode
 __pycache__/
@@ -9,6 +10,7 @@ __pycache__/
 
 # Ignore logs
 *.log
+sources_by_story.log
 
 # Ignore larger binary files
 *.so
@@ -17,3 +19,75 @@ __pycache__/
 
 # Ignore package dependencies
 node_modules/
+mvp_client/
+
+# Ignore builds
+build/
+dist/
+*.egg-info/
+
+# Ignore editor settings and temporary files
+.vscode/
+.idea/
+*.swp
+*~
+*.bak
+*.tmp
+
+# Ignore Django migration files
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore coverage files
+htmlcov/
+.coverage
+.coverage.*
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore test outputs
+test-output/
+
+# Ignore pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore compiled code
+*.o
+*.a
+*.out
+
+# Ignore files created by tarball or zip extractions
+*.tar.gz
+*.zip
+
+# Ignore sensitive environment files
+.env
+*.env
+
+# Ignore frontend builds if you have a React/Vue/Angular front-end
+/build
+/public
+
+# Ignore macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Ignore Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Ignore temporary files
+tmp/
+temp/
+cache/
+
+# Ignore coverage reports
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
