@@ -1,0 +1,19 @@
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs
+*.log
+
+# Ignore larger binary files
+*.so
+*.dylib
+*.dll
+
+# Ignore package dependencies
+node_modules/
